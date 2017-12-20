@@ -2,7 +2,7 @@
 
 整个项目是想‘手动’撸一个对话机器人。
 
-其中抓取视频字幕的想法来自 [shareditor](http://www.shareditor.com/blogshow?blogId=112)。但是他的程序 [ChatBotCourse](https://github.com/warmheartli/ChatBotCourse) 关于抓取部分已经不能工作，思路还是来自于这问兄台。向你致敬！
+其中抓取视频字幕的想法来自 [shareditor](http://www.shareditor.com/blogshow?blogId=112)。但是他的程序 [ChatBotCourse](https://github.com/warmheartli/ChatBotCourse) 关于抓取部分已经不能工作，但思路还是来自于这位台。向您致敬！
 
 这个项目抓取了一些电影的对话字幕，把对话的文字和过程作为语料。
 
