@@ -13,15 +13,18 @@ import shutil
 import subprocess
 
 
-SUBTITLE_DIR = "/opt/subtitle"
+def _cur_dir():
+    return os.path.dirname(__file__)
+
+_result_dir = os.path.join(_cur_dir(), "../result")
 
 def _files():
-    _pattern = SUBTITLE_DIR + "/result/*"
+    _pattern = _result_dir + "/raw/*"
     return glob.glob(_pattern)
 
 
 def _copy(_f):
-    _unzip = SUBTITLE_DIR + "/unzip/"
+    _unzip = _result_dir + "/unzip/"
     _dst = _unzip + os.path.basename(_f)
     shutil.copyfile(_f, _dst)
     return
@@ -31,21 +34,21 @@ def _text(_f):
     return
 
 def _unrar(_f):
-    _unzip = SUBTITLE_DIR + "/unzip/"
+    _unzip = _result_dir + "/unzip/"
     _dst = _unzip + os.path.basename(_f)
     subprocess.call(["mkdir", _dst])
     subprocess.call(["unrar", "x", "-y", "-inul", _f, _dst])
     return
 
 def _unzip(_f):
-    _unzip = SUBTITLE_DIR + "/unzip/"
+    _unzip = _result_dir + "/unzip/"
     _dst = _unzip + os.path.basename(_f)
     subprocess.call(["mkdir", _dst])
     subprocess.call(["unzip", "-o", "-qO", "UTF-8", _f, "-d", _dst])
     return
 
 def _7z(_f):
-    _unzip = SUBTITLE_DIR + "/unzip/"
+    _unzip = _result_dir + "/unzip/"
     _dst = _unzip + os.path.basename(_f)
     subprocess.call(["mkdir", _dst])
     subprocess.call(["7z", "x", _f, "-y", "-o"+_dst])
@@ -69,17 +72,28 @@ def _main():
 
     _handlers = _regs()
     
-    m = magic.Magic(flags=magic.MAGIC_MIME_TYPE)
+    #m = magic.Magic(flags=magic.MAGIC_MIME_TYPE)
+    # m = magic.Magic(flags=magic.MAGIC_NONE)
+    # m.load()
+    # file_type = magic.from_buffer(data)
     for _f in _s:
-        _x = m.id_filename(_f)
-        
-        _handler = _handlers.get(_x)
-        if not _handler:
-            print("can not handle: %s:%s" % (_x, _f))
+
+        if _f.split("/")[-1] == "README":
             continue
 
-        _handler(_f)
-        
+
+        with open(_f, "rb") as _rf:
+            _data = _rf.read()
+            _type = magic.from_buffer(_data[:4096], mime=True)            
+            print("file:%s type: %s" % (_f, _type))
+            
+            _handler = _handlers.get(_type)
+            if not _handler:
+                print("can not handle: %s:%s" % (_type, _f))
+                continue
+
+            _handler(_f)
+    
     return
 
 

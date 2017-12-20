@@ -16,7 +16,10 @@ import datetime
 import subprocess
 
 
-SUBTITLE_DIR = "/opt/subtitle"
+def _cur_dir():
+    return os.path.dirname(__file__)
+
+_result_dir = os.path.join(_cur_dir(), "../result")
 
 
 def _hash(_f):
@@ -28,7 +31,7 @@ _file_count = 0
 def _write(_data, _from_file):
     _data = _data.encode("utf-8")
     _to_file = _hash(_from_file)
-    _to_file = SUBTITLE_DIR + "/encoding/" + _to_file
+    _to_file = _result_dir + "/utf8/" + _to_file
     with open(_to_file, "wb") as _file:
         _file.write(_data)
 
@@ -193,7 +196,6 @@ def _handle_encoding(_item):
         _encoding = _r.get("encoding")
         if not _encoding:
             print("really no encoding")
-            _not_encoded(_item.get("afile"), _data)
             return
 
         print(_item.get("afile"), _encoding)
@@ -210,13 +212,13 @@ def _handle_encoding(_item):
 
 
 def _files():
-    _pattern = SUBTITLE_DIR + "/unzip"
+    _pattern = _result_dir + "/unzip"
     _files_array = []
     for root, dirs, files in os.walk(_pattern):
         for filename in files:
             afile = os.path.join(root, filename)
             tfile = _hash(afile)
-            tfile = SUBTITLE_DIR + "/encoding/" + tfile
+            tfile = _result_dir + "/utf8/" + tfile
 
             _files_array.append({"afile": afile, "tfile": tfile})
 

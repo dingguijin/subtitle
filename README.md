@@ -42,7 +42,7 @@ scrapy crawl subtitle
 
 ```
 
-> 如果你没有装 scrapy，要执行 pip install scrapy 命令以安装 scrapy 先。
+> 如果你没有装 scrapy，要执行 pip install scrapy 命令以安装 scrapy 先。全部字幕抓下来近 13G，解压缩后 36G，刨除一些无法处理的文件转成 utf8 后，31G。代码中做了限制没有全部抓取，要低调，反正是玩玩，不要赶尽杀绝哟。
 
 
 
