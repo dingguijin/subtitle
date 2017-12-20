@@ -12,7 +12,7 @@ class ScrapyProjectPipeline(object):
         url = item['url']
         file_name = hashlib.sha1(url).hexdigest()
         print("save to file: %s" % file_name)
-        fp = open('result/'+file_name, 'w')
+        fp = open('result/raw/'+file_name, 'w')
         fp.write(item['body'])
         fp.close()
         return item
