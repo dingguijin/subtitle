@@ -24,3 +24,21 @@
 [机器人测试链接](https://wanda.ppmessage.cn/ppcom/enterprise/eyJ1dWlkIjoiZTBhM2Q4MTYtZGJiMy0xMWU3LWE0MTctMDAxNjNlMDA2ZGViIiwiYXBwX25hbWUiOiJQUE1FU1NBR0UifQ==)
 
 其中聊天界面骄傲➕自豪的使用了 [PPMESSAGE - PLUG AND PLAY MESSAGE](https://ppmessage.cn)
+
+### 开始抓取
+
+下载代码：
+
+```shell
+
+git clone https://github.com/dingguijin/subtitle.git
+
+cd subtitle
+
+cd scrapy_project
+
+scrapy crawl subtitle
+
+```
+
+> 如果你没有装 scrapy，要执行 pip install scrapy 命令以安装 scrapy 先。
