@@ -21,5 +21,6 @@
 > 抓字幕要克制，不然字幕网站来砍我！ 若想研究学习大家可以直接留言要最终的语料，不用自己去刮了。本项目纯属个人研究学习，不要用于商业目的！！！。
 
 
-[机器人测试网站](https://wanda.ppmessage.cn)
+[机器人测试链接](https://wanda.ppmessage.cn/ppcom/enterprise/eyJ1dWlkIjoiZTBhM2Q4MTYtZGJiMy0xMWU3LWE0MTctMDAxNjNlMDA2ZGViIiwiYXBwX25hbWUiOiJQUE1FU1NBR0UifQ==)
 
+其中聊天界面骄傲➕自豪的使用了 [PPMESSAGE](https://ppmessage.cn)
