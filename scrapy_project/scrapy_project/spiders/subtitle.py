@@ -6,7 +6,7 @@ sys.setdefaultencoding( "utf-8" )
 
 import scrapy
 from w3lib.html import remove_tags
-from subtitle_crawler.items import SubtitleCrawlerItem
+from scrapy_project.items import ScrapyProjectItem
 
 def _start_urls():
     _s = []
@@ -39,7 +39,7 @@ class SubtitleSpider(scrapy.Spider):
     def parse_file(self, response):
         body = response.body
         self.log("download url %s" % response.url)
-        item = SubtitleCrawlerItem()
+        item = ScrapyProjectItem()
         item['url'] = response.url
         item['body'] = body
         return item
