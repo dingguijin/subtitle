@@ -8,6 +8,8 @@ import scrapy
 from w3lib.html import remove_tags
 from scrapy_project.items import ScrapyProjectItem
 
+import logging
+
 def _start_urls():
     _s = []
     # if you really want more, please make it larger as you see the limit from the site (2148)
@@ -32,16 +34,15 @@ class SubtitleSpider(scrapy.Spider):
     def parse_detail(self, response):
         hrefs = response.selector.xpath('//li[contains(@class, "li dlsub")]/div/a/@href').extract()
         if hrefs:
-            self.log("try to follow %s" % hrefs)
+            logging.info("try to follow %s" % hrefs)
             url = response.urljoin(hrefs[0])
             yield scrapy.Request(url, callback=self.parse_file)
 
     def parse_file(self, response):
-        body = response.body
-        self.log("download url %s" % response.url)
+        logging.info("download url %s" % response.url)
         item = ScrapyProjectItem()
         item['url'] = response.url
-        item['body'] = body
+        item['body'] = response.body
         return item
 
     
