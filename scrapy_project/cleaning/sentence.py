@@ -26,15 +26,17 @@ class Format1():
     def __init__(self, _from):
         self.from_file = _from
         return
-    
+   
     def check(self):
         _lines = []
         with open(self.from_file, "rb") as f:
             _line = f.readline()
             _line = _line.strip()
-            if _line in ["0", "1", "2"]:
+            try:
+                _line = int(_line)
                 return True
-            
+            except:
+                return False
         return False
 
     def sentence(self):
@@ -71,14 +73,90 @@ class Format1():
                 if _state == "POSITION":
                     if len(_line) > 128:
                         continue
-                    if _line[0] == "<" or _line[0] == "{":
-                        print(_line)
-                    _dialogues.append(_line)
+
+                    _line = self._meta_filter(_line)
+
+                    if not _line:
+                        continue
+                    
+                    if _line[0] == "<": 
+                        _line = self._html_filter(_line)
+                    elif _line[0] == "{":
+                        _line = self._lex_filter(_line)
+
+                    if _line:
+                        _dialogues.append(_line)
+                                                
                     continue
                 
-        
+
+        if not _dialogues:
+            return
+
+        to_file = _result_dir + "/sentence/all-in-one.txt"
+        with open(to_file, "wb") as f:
+            for _d in _dialogues:
+                f.write(_d+"\r\n")
+                            
         return
 
+
+    def _meta_filter(self, line):
+        _metas = ["字幕来源：", "网站地址："]
+        for _meta in _metas:
+            if line.find(_meta) >= 0:
+                return None
+
+        return line
+
+    def _remove_tag(self, line, begin, end):
+        _status = "NULL"
+
+        _line = []
+        for c in line:
+            if _status == "NULL":
+                if c == begin:
+                    _status = "OPEN"
+                continue
+
+            if _status == "OPEN":
+                if c == end:
+                    _status = "CLOSE"
+                continue
+            
+            if _status == "CLOSE":
+
+                if c == begin:
+                    _status = "OPEN"
+                    continue
+                
+                _line.append(c)
+                continue
+
+        return "".join(_line)
+    
+    def _html_filter(self, line):
+        if line.find("-----") > 0:
+            return None
+
+        if line.find("-=http") > 0:
+            return None
+
+        if line.startswith("</"):
+            return None
+
+        line = self._remove_tag(line, "<", ">")
+
+        return line
+
+    def _lex_filter(self, line):
+
+        if line.startswith("{\pos"):
+            return None
+
+        _line = line.split("}")[-1]
+
+        return _line
 
 
 class Format2():
@@ -150,7 +228,7 @@ def _files():
         
         _sentence(_file)
         
-        print("handle %s" % (_file))
+        #print("handle %s" % (_file))
         
 def _main():
     _files()

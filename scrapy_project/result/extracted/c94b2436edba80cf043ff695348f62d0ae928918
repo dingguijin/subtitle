@@ -1,0 +1,1232 @@
+[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: cmct
+Original Script: cmct
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 1
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: *Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,0,2,3,2,20,20,20,1
+Style: 职员,Microsoft YaHei,24,&H00FEFEFE,&H000000FF,&H00000000,&H00E7BFC4,0,0,0,0,100,100,0,0,1,1,0,1,45,45,250,134
+Style: 地名,Microsoft YaHei,32,&H00C0CBD6,&H000000FF,&H00000000,&H000F1011,0,0,0,0,100,100,0,0,1,0,1,2,45,45,10,134
+Style: 公司X,Microsoft YaHei,30,&H00FEFEFE,&H000000FF,&H00000000,&H00E7BFC4,0,0,0,0,100,100,0,0,1,0,0,2,45,45,250,134
+Style: 片名,Microsoft YaHei,76,&H001AD6ED,&H000000FF,&H00000000,&H00060606,-1,0,0,0,100,100,0,0,1,0,0,2,45,45,62,1
+Style: 第一战,FZCuSong-B09S,70,&H00FDFDFD,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,200,1
+Style: 主演,Microsoft YaHei,65,&H00F2F3F1,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,3,0,1,2,45,45,70,1
+Style: 公司2,Microsoft YaHei,65,&H00FEFEFE,&H000000FF,&H00000000,&H00E7BFC4,-1,0,0,0,100,100,0,0,1,0,0,2,50,45,50,1
+Style: 公司1,Microsoft YaHei,85,&H00997373,&H000000FF,&H00000000,&H00E7BFC4,0,0,0,0,100,100,0,0,1,0,2,2,45,45,280,1
+Style: 歌曲名1,STKaiti,20,&H00EAEAEA,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,0,0,1,134
+Style: 歌曲名2,STKaiti,20,&H00E0E0E0,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,0,1,1,1,1,1,8,1
+Style: 英文歌词,Cronos Pro Subhead,14,&H003DF3F3,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,0,1,1,1,0,0,1,134
+Style: 中文歌词（左）,FangSong,16,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,1,0,0,1,1
+Style: ML,方正黑体_GBK,20,&H0026F4FF,&H000000FF,&HB4000000,&H00000000,-1,0,0,0,100,100,2,0,3,0,0,5,10,10,10,1
+Style: 英语,Cronos Pro Subhead,11,&H00C0C0C0,&H0000FFFF,&H00000000,&H80000000,-1,-1,0,0,100,100,0,0,0,1,1,2,0,0,1,134
+Style: 歌曲,Cronos Pro Subhead,18,&H003CF1F3,&HF0000000,&H000D0500,&H00000000,0,0,0,0,100,100,0,0,1,1,1,8,0,0,1,1
+Style: 单行字幕,STKaiti,20,&H00E0E0E0,&H0000FFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,0,1,1,2,1,1,8,1
+Style: Default,STKaiti,20,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,2,1,1,1,1
+Style: 中上英下,STKaiti,20,&H00E0E0E0,&HF0000000,&H000D0500,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,0,0,1,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:08.45,0:00:12.76,单行字幕,,0000,0000,0000,,双语、时间轴：水至清
+Dialogue: 0,0:00:08.45,0:00:12.76,Default,,0000,0000,0000,,黑衣女人的香水 \N桃色响尾蛇翻译
+Dialogue: 0,0:03:42.89,0:03:44.93,英语,,0000,0000,0000,,- Good morning. - Good morning.
+Dialogue: 0,0:03:42.89,0:03:44.93,Default,,0000,0000,0000,,- 早上好 - 早上好
+Dialogue: 0,0:04:09.66,0:04:11.83,英语,,0000,0000,0000,,Hi, is everything okay?
+Dialogue: 0,0:04:09.66,0:04:11.83,Default,,0000,0000,0000,,嗨 一切都还好吧？
+Dialogue: 0,0:04:12.71,0:04:14.54,英语,,0000,0000,0000,,Yes, pretty good.
+Dialogue: 0,0:04:12.71,0:04:14.54,Default,,0000,0000,0000,,是的 很好
+Dialogue: 0,0:04:14.83,0:04:17.75,英语,,0000,0000,0000,,I just have to bring it up to temperature.
+Dialogue: 0,0:04:14.83,0:04:17.75,Default,,0000,0000,0000,,只要温度能降点就完美了
+Dialogue: 0,0:04:23.01,0:04:25.64,Default,,0000,0000,0000,,- 早安 - 早安 哈切曼小姐
+Dialogue: 0,0:04:23.01,0:04:25.64,英语,,0000,0000,0000,,- Morning. - Morning, Miss Hacherman.
+Dialogue: 0,0:04:27.06,0:04:29.56,英语,,0000,0000,0000,,- How's it going? - You were right.
+Dialogue: 0,0:04:27.06,0:04:29.56,Default,,0000,0000,0000,,- 怎么样了？- 你说得没错
+Dialogue: 0,0:04:29.85,0:04:32.73,英语,,0000,0000,0000,,- This compound is positive. - That's fine.
+Dialogue: 0,0:04:29.85,0:04:32.73,Default,,0000,0000,0000,,- 这种化合物是有效的 - 太好了
+Dialogue: 0,0:04:33.02,0:04:35.52,英语,,0000,0000,0000,,- It means we're almost ready. - Yes.
+Dialogue: 0,0:04:33.02,0:04:35.52,Default,,0000,0000,0000,,- 这意味着我们很快就可以完成进度 - 是的
+Dialogue: 0,0:04:35.90,0:04:37.98,英语,,0000,0000,0000,,Good. Well then...
+Dialogue: 0,0:04:35.90,0:04:37.98,Default,,0000,0000,0000,,好的 那么…
+Dialogue: 0,0:04:39.98,0:04:41.95,英语,,0000,0000,0000,,I'm going to see how Elisabeth is doing.
+Dialogue: 0,0:04:39.98,0:04:41.95,Default,,0000,0000,0000,,我去看看伊丽莎白做的怎么样了
+Dialogue: 0,0:04:50.66,0:04:52.83,英语,,0000,0000,0000,,How's it going? Are you done yet?
+Dialogue: 0,0:04:50.66,0:04:52.83,Default,,0000,0000,0000,,怎么样了？是不是快做好了？
+Dialogue: 0,0:04:53.08,0:04:54.71,英语,,0000,0000,0000,,It wasn't as easy as I thought.
+Dialogue: 0,0:04:53.08,0:04:54.71,Default,,0000,0000,0000,,我想没那么容易
+Dialogue: 0,0:04:54.96,0:04:58.04,英语,,0000,0000,0000,,Series K didn't work out too well and I had to do it over.
+Dialogue: 0,0:04:54.96,0:04:58.04,Default,,0000,0000,0000,,这边工作得不太顺利 我已经尽力了
+Dialogue: 0,0:04:58.54,0:05:01.05,英语,,0000,0000,0000,,This material has to be in Berlin!
+Dialogue: 0,0:04:58.54,0:05:01.05,Default,,0000,0000,0000,,这些材料得尽快送往柏林
+Dialogue: 0,0:05:01.59,0:05:04.51,英语,,0000,0000,0000,,It's not my fault, I've been working all night.
+Dialogue: 0,0:05:01.59,0:05:04.51,Default,,0000,0000,0000,,这不是我的错 我已经拼命干了一整夜了
+Dialogue: 0,0:05:06.14,0:05:08.55,英语,,0000,0000,0000,,I want it ready by tonight.
+Dialogue: 0,0:05:06.14,0:05:08.55,Default,,0000,0000,0000,,但愿今晚就能做好
+Dialogue: 0,0:05:08.81,0:05:11.64,英语,,0000,0000,0000,,- Call me if you need anything. - All right.
+Dialogue: 0,0:05:08.81,0:05:11.64,Default,,0000,0000,0000,,- 有什么事就给我打电话 - 好的
+Dialogue: 0,0:05:11.93,0:05:14.56,英语,,0000,0000,0000,,- Bye. - Goodbye.
+Dialogue: 0,0:05:11.93,0:05:14.56,Default,,0000,0000,0000,,- 再见 - 再见
+Dialogue: 0,0:05:29.74,0:05:31.70,英语,,0000,0000,0000,,- Good morning. - Hi.
+Dialogue: 0,0:05:29.74,0:05:31.70,Default,,0000,0000,0000,,- 早上好 - 嗨
+Dialogue: 0,0:05:32.00,0:05:33.54,英语,,0000,0000,0000,,Good morning, Mrs. Lovati.
+Dialogue: 0,0:05:32.00,0:05:33.54,Default,,0000,0000,0000,,早上好 洛瓦蒂夫人
+Dialogue: 0,0:05:33.83,0:05:36.75,英语,,0000,0000,0000,,Miss Hacherman, I figured you weren't coming anymore.
+Dialogue: 0,0:05:33.83,0:05:36.75,Default,,0000,0000,0000,,哈切曼小姐 我以为你不会来这儿了
+Dialogue: 0,0:05:37.00,0:05:40.63,英语,,0000,0000,0000,,Isn't it beautiful? I hate it here when it rains.
+Dialogue: 0,0:05:37.00,0:05:40.63,Default,,0000,0000,0000,,是不是很美？我讨厌下雨的天气
+Dialogue: 0,0:05:40.88,0:05:42.80,英语,,0000,0000,0000,,It's so sad.
+Dialogue: 0,0:05:40.88,0:05:42.80,Default,,0000,0000,0000,,那太扫兴了
+Dialogue: 0,0:05:43.72,0:05:45.13,英语,,0000,0000,0000,,You're right, it's a lovely day.
+Dialogue: 0,0:05:43.72,0:05:45.13,Default,,0000,0000,0000,,你说得没错 今天天气很棒
+Dialogue: 0,0:05:45.63,0:05:47.97,英语,,0000,0000,0000,,- Take the hose if you need it. - All right.
+Dialogue: 0,0:05:45.63,0:05:47.97,Default,,0000,0000,0000,,- 如果你需要的话可以用水管 - 好的
+Dialogue: 0,0:07:18.81,0:07:20.77,英语,,0000,0000,0000,,- I'm sorry... - Mr. Rossetti!
+Dialogue: 0,0:07:18.81,0:07:20.77,Default,,0000,0000,0000,,- 不好意思… - 罗塞蒂先生
+Dialogue: 0,0:07:21.06,0:07:23.27,英语,,0000,0000,0000,,I realised I was out of tea.
+Dialogue: 0,0:07:21.06,0:07:23.27,Default,,0000,0000,0000,,我的咖啡粉都喝光了
+Dialogue: 0,0:07:23.73,0:07:27.74,英语,,0000,0000,0000,,And our fellow tenants are all away on vacation.
+Dialogue: 0,0:07:23.73,0:07:27.74,Default,,0000,0000,0000,,可其他的租客几乎都不在家
+Dialogue: 0,0:07:28.03,0:07:30.99,英语,,0000,0000,0000,,Could you help out an old widower?
+Dialogue: 0,0:07:28.03,0:07:30.99,Default,,0000,0000,0000,,你愿意帮我这个老鳏夫一把吗？
+Dialogue: 0,0:07:31.24,0:07:33.62,英语,,0000,0000,0000,,- Coffee is like poison to me! - Of course.
+Dialogue: 0,0:07:31.24,0:07:33.62,Default,,0000,0000,0000,,- 咖啡对我来说就像药一样必需 - 当然
+Dialogue: 0,0:07:33.91,0:07:35.58,英语,,0000,0000,0000,,I'll be right back.
+Dialogue: 0,0:07:33.91,0:07:35.58,Default,,0000,0000,0000,,请稍等
+Dialogue: 0,0:07:35.87,0:07:38.91,英语,,0000,0000,0000,,Two or three spoonfuls should be enough.
+Dialogue: 0,0:07:35.87,0:07:38.91,Default,,0000,0000,0000,,两三勺就可以了
+Dialogue: 0,0:07:54.85,0:07:56.76,英语,,0000,0000,0000,,I hope this is enough.
+Dialogue: 0,0:07:54.85,0:07:56.76,Default,,0000,0000,0000,,希望我放得足够
+Dialogue: 0,0:07:57.06,0:07:59.35,英语,,0000,0000,0000,,Mozart... What a genius!
+Dialogue: 0,0:07:57.06,0:07:59.35,Default,,0000,0000,0000,,莫扎特…真是个天才
+Dialogue: 0,0:07:59.81,0:08:03.10,英语,,0000,0000,0000,,- It reminds me... - I don't mean to be rude...
+Dialogue: 0,0:07:59.81,0:08:03.10,Default,,0000,0000,0000,,- 它让我想起… - 请恕我冒昧…
+Dialogue: 0,0:08:03.40,0:08:05.94,英语,,0000,0000,0000,,but I have to go out and I'm running late.
+Dialogue: 0,0:08:03.40,0:08:05.94,Default,,0000,0000,0000,,但我等下要出去一趟 时间快来不及了
+Dialogue: 0,0:08:06.23,0:08:09.19,英语,,0000,0000,0000,,- Maybe some other time. - Well, thanks again.
+Dialogue: 0,0:08:06.23,0:08:09.19,Default,,0000,0000,0000,,- 也许我们可以换个时间 - 那么 再次感谢
+Dialogue: 0,0:08:09.44,0:08:12.20,英语,,0000,0000,0000,,Sorry to have troubled you. If you need anything...
+Dialogue: 0,0:08:09.44,0:08:12.20,Default,,0000,0000,0000,,真抱歉打扰你 如果您有任何需要…
+Dialogue: 0,0:08:12.70,0:08:14.99,英语,,0000,0000,0000,,Thanks. Goodbye.
+Dialogue: 0,0:08:12.70,0:08:14.99,Default,,0000,0000,0000,,谢谢 再见
+Dialogue: 0,0:08:18.08,0:08:19.91,英语,,0000,0000,0000,,We've changed too.
+Dialogue: 0,0:08:18.08,0:08:19.91,Default,,0000,0000,0000,,我们也会改变
+Dialogue: 0,0:08:20.12,0:08:23.25,英语,,0000,0000,0000,,We used to eat our enemies, now we study engineering.
+Dialogue: 0,0:08:20.12,0:08:23.25,Default,,0000,0000,0000,,我们必须打败对手 现在我们正在进行这项研究工程
+Dialogue: 0,0:08:23.75,0:08:27.75,英语,,0000,0000,0000,,Unfortunately, it's slow progress. There's a lot of prejudice.
+Dialogue: 0,0:08:23.75,0:08:27.75,Default,,0000,0000,0000,,可惜的是 进展十分缓慢 因为外界有很多成见
+Dialogue: 0,0:08:28.00,0:08:32.63,英语,,0000,0000,0000,,We have no schools and the witchdoctor's word rules.
+Dialogue: 0,0:08:28.00,0:08:32.63,Default,,0000,0000,0000,,我们没有办法去了解巫医的那些规则
+Dialogue: 0,0:08:32.93,0:08:35.80,英语,,0000,0000,0000,,The witchdoctor is Africa.
+Dialogue: 0,0:08:32.93,0:08:35.80,Default,,0000,0000,0000,,巫医都是来自非洲
+Dialogue: 0,0:08:37.93,0:08:40.89,英语,,0000,0000,0000,,And you must understand Africa
+Dialogue: 0,0:08:37.93,0:08:40.89,Default,,0000,0000,0000,,你肯定十分了解非洲
+Dialogue: 0,0:08:41.18,0:08:42.73,英语,,0000,0000,0000,,in order to judge it.
+Dialogue: 0,0:08:41.18,0:08:42.73,Default,,0000,0000,0000,,所以才会这么了解
+Dialogue: 0,0:08:43.98,0:08:48.73,英语,,0000,0000,0000,,Andy, you've forgotten Roberto works often in Africa.
+Dialogue: 0,0:08:43.98,0:08:48.73,Default,,0000,0000,0000,,安迪 你忘了 罗勃特经常去非洲工作的
+Dialogue: 0,0:08:49.03,0:08:51.90,英语,,0000,0000,0000,,I know, Elise. But he's still a white man.
+Dialogue: 0,0:08:49.03,0:08:51.90,Default,,0000,0000,0000,,我知道 Elise 但他依然是个白人
+Dialogue: 0,0:08:52.20,0:08:55.87,英语,,0000,0000,0000,,I remember an English geologist
+Dialogue: 0,0:08:52.20,0:08:55.87,Default,,0000,0000,0000,,曾经有一个英国的地质学家
+Dialogue: 0,0:08:56.12,0:08:57.66,Default,,0000,0000,0000,,在喀麦隆和我一起工作过
+Dialogue: 0,0:08:56.12,0:08:57.66,英语,,0000,0000,0000,,in Cameroon with me.
+Dialogue: 0,0:08:58.95,0:09:02.91,英语,,0000,0000,0000,,He got the idea of making enemies with the local witchdoctor.
+Dialogue: 0,0:08:58.95,0:09:02.91,Default,,0000,0000,0000,,他的一些想法显然和当地巫医树敌
+Dialogue: 0,0:09:03.21,0:09:07.75,英语,,0000,0000,0000,,I heard he was found dead in his tent after much suffering.
+Dialogue: 0,0:09:03.21,0:09:07.75,Default,,0000,0000,0000,,后来我听说他很痛苦的死在了自己的帐篷里
+Dialogue: 0,0:09:08.04,0:09:10.76,英语,,0000,0000,0000,,The autopsy revealed
+Dialogue: 0,0:09:08.04,0:09:10.76,Default,,0000,0000,0000,,经过尸检以后才发现
+Dialogue: 0,0:09:11.05,0:09:13.76,英语,,0000,0000,0000,,short cat whiskers, like little needles,
+Dialogue: 0,0:09:11.05,0:09:13.76,Default,,0000,0000,0000,,有一些细如针尖的猫须
+Dialogue: 0,0:09:14.05,0:09:16.72,英语,,0000,0000,0000,,embedded in his stomach wall.
+Dialogue: 0,0:09:14.05,0:09:16.72,Default,,0000,0000,0000,,植根在他的胃壁里
+Dialogue: 0,0:09:17.01,0:09:19.47,英语,,0000,0000,0000,,He had evidently ingested them
+Dialogue: 0,0:09:17.01,0:09:19.47,Default,,0000,0000,0000,,显然是他自己咽下去的
+Dialogue: 0,0:09:19.93,0:09:21.85,英语,,0000,0000,0000,,but no one knows how.
+Dialogue: 0,0:09:19.93,0:09:21.85,Default,,0000,0000,0000,,但是没人知道原因
+Dialogue: 0,0:09:22.14,0:09:26.35,英语,,0000,0000,0000,,That's a rather uneventful example of black magic.
+Dialogue: 0,0:09:22.14,0:09:26.35,Default,,0000,0000,0000,,这显然是一个和黑魔法有关的例子
+Dialogue: 0,0:09:26.85,0:09:29.86,英语,,0000,0000,0000,,A university professor like you can't believe such things.
+Dialogue: 0,0:09:26.85,0:09:29.86,Default,,0000,0000,0000,,像你这样的大学教授不会相信这种事吧
+Dialogue: 0,0:09:31.23,0:09:33.69,英语,,0000,0000,0000,,In every corner of Africa,
+Dialogue: 0,0:09:31.23,0:09:33.69,Default,,0000,0000,0000,,在非洲的每一个角落
+Dialogue: 0,0:09:35.24,0:09:39.99,英语,,0000,0000,0000,,be it jungle, savannahs, village,
+Dialogue: 0,0:09:35.24,0:09:39.99,Default,,0000,0000,0000,,无论是丛林 平原 还是村落
+Dialogue: 0,0:09:40.24,0:09:45.12,英语,,0000,0000,0000,,river or even in the skyscrapers of our modern cities,
+Dialogue: 0,0:09:40.24,0:09:45.12,Default,,0000,0000,0000,,甚至是我们身处的摩天都市
+Dialogue: 0,0:09:47.42,0:09:50.92,英语,,0000,0000,0000,,a certain fear rides the hot winds.
+Dialogue: 0,0:09:47.42,0:09:50.92,Default,,0000,0000,0000,,我们都会对一些神秘
+Dialogue: 0,0:09:51.21,0:09:55.09,英语,,0000,0000,0000,,An ancient fear with many names.
+Dialogue: 0,0:09:51.21,0:09:55.09,Default,,0000,0000,0000,,而又古老的事物心怀畏惧
+Dialogue: 0,0:09:55.93,0:09:57.34,英语,,0000,0000,0000,,Black magic.
+Dialogue: 0,0:09:55.93,0:09:57.34,Default,,0000,0000,0000,,黑魔法
+Dialogue: 0,0:09:58.05,0:09:59.68,英语,,0000,0000,0000,,Witchcraft.
+Dialogue: 0,0:09:58.05,0:09:59.68,Default,,0000,0000,0000,,巫术
+Dialogue: 0,0:09:59.97,0:10:02.35,英语,,0000,0000,0000,,Superstitions, rites.
+Dialogue: 0,0:09:59.97,0:10:02.35,Default,,0000,0000,0000,,民间迷信 仪式
+Dialogue: 0,0:10:04.35,0:10:06.73,英语,,0000,0000,0000,,Mysterious deaths.
+Dialogue: 0,0:10:04.35,0:10:06.73,Default,,0000,0000,0000,,神秘的死亡
+Dialogue: 0,0:10:07.52,0:10:10.06,英语,,0000,0000,0000,,- Human sacrifice. - Not just in Africa.
+Dialogue: 0,0:10:07.52,0:10:10.06,Default,,0000,0000,0000,,- 祭祀者 - 不仅仅是非洲
+Dialogue: 0,0:10:10.36,0:10:12.94,英语,,0000,0000,0000,,In Europe too.
+Dialogue: 0,0:10:10.36,0:10:12.94,Default,,0000,0000,0000,,欧洲也有
+Dialogue: 0,0:10:13.23,0:10:15.82,英语,,0000,0000,0000,,It's less known, but it does go on.
+Dialogue: 0,0:10:13.23,0:10:15.82,Default,,0000,0000,0000,,只是很少人知道 但它依然存在
+Dialogue: 0,0:10:16.11,0:10:18.03,英语,,0000,0000,0000,,But those people aren't normal.
+Dialogue: 0,0:10:16.11,0:10:18.03,Default,,0000,0000,0000,,但那些人都不太正常
+Dialogue: 0,0:10:18.24,0:10:22.99,英语,,0000,0000,0000,,In our country, there are still cults
+Dialogue: 0,0:10:18.24,0:10:22.99,Default,,0000,0000,0000,,在我们的国家 依然存在着某些邪教
+Dialogue: 0,0:10:23.29,0:10:27.21,英语,,0000,0000,0000,,who chose victims without them even knowing it.
+Dialogue: 0,0:10:23.29,0:10:27.21,Default,,0000,0000,0000,,谁也不知道谁会成为受害者
+Dialogue: 0,0:10:27.54,0:10:31.46,英语,,0000,0000,0000,,By means of potions or evil rites,
+Dialogue: 0,0:10:27.54,0:10:31.46,Default,,0000,0000,0000,,通过那些毒药或者邪恶的仪式
+Dialogue: 0,0:10:31.92,0:10:34.80,英语,,0000,0000,0000,,they are driven mad then killed.
+Dialogue: 0,0:10:31.92,0:10:34.80,Default,,0000,0000,0000,,他们会被疯狂笼罩最后被杀害
+Dialogue: 0,0:10:35.09,0:10:39.39,英语,,0000,0000,0000,,It is a challenge thrown in the face of evil.
+Dialogue: 0,0:10:35.09,0:10:39.39,Default,,0000,0000,0000,,受害者将独自面对邪恶的力量
+Dialogue: 0,0:10:40.05,0:10:44.47,英语,,0000,0000,0000,,The victim suffers a horrible death by an ancient sacrifice.
+Dialogue: 0,0:10:40.05,0:10:44.47,Default,,0000,0000,0000,,就像是古老的牺牲品一般
+Dialogue: 0,0:10:48.60,0:10:53.52,英语,,0000,0000,0000,,But such practices require time and patience.
+Dialogue: 0,0:10:48.60,0:10:53.52,Default,,0000,0000,0000,,但是这样做需要时间和耐心
+Dialogue: 0,0:10:55.11,0:10:59.45,英语,,0000,0000,0000,,They are like a test of man's mental strength
+Dialogue: 0,0:10:55.11,0:10:59.45,Default,,0000,0000,0000,,这就像是一种对人的弱点进行
+Dialogue: 0,0:10:59.95,0:11:01.78,英语,,0000,0000,0000,,over his weaknesses.
+Dialogue: 0,0:10:59.95,0:11:01.78,Default,,0000,0000,0000,,攻击的精神力量的考验
+Dialogue: 0,0:11:09.21,0:11:13.79,英语,,0000,0000,0000,,Did I frighten you? I was only joking.
+Dialogue: 0,0:11:09.21,0:11:13.79,Default,,0000,0000,0000,,我吓到你了？只是开玩笑而已
+Dialogue: 0,0:11:14.30,0:11:15.92,英语,,0000,0000,0000,,You mustn't believe a word of it.
+Dialogue: 0,0:11:14.30,0:11:15.92,Default,,0000,0000,0000,,你完全没必要相信
+Dialogue: 0,0:11:16.21,0:11:18.55,英语,,0000,0000,0000,,We no longer do such things.
+Dialogue: 0,0:11:16.21,0:11:18.55,Default,,0000,0000,0000,,已经很久没有这样的事情了
+Dialogue: 0,0:11:59.88,0:12:01.63,英语,,0000,0000,0000,,- What time is it? - 1:30 AM.
+Dialogue: 0,0:11:59.88,0:12:01.63,Default,,0000,0000,0000,,- 现在几点了？- 凌晨一点半
+Dialogue: 0,0:12:02.09,0:12:04.10,英语,,0000,0000,0000,,1:30?
+Dialogue: 0,0:12:02.09,0:12:04.10,Default,,0000,0000,0000,,一点半？
+Dialogue: 0,0:12:04.39,0:12:07.93,英语,,0000,0000,0000,,That's funny, I thought it was later.
+Dialogue: 0,0:12:04.39,0:12:07.93,Default,,0000,0000,0000,,有意思 我以为会更晚一点
+Dialogue: 0,0:12:08.22,0:12:10.06,英语,,0000,0000,0000,,Do you mind if I don't come up?
+Dialogue: 0,0:12:08.22,0:12:10.06,Default,,0000,0000,0000,,你介意我不能陪你了吗？
+Dialogue: 0,0:12:10.35,0:12:13.27,英语,,0000,0000,0000,,We have to get up early tomorrow.
+Dialogue: 0,0:12:10.35,0:12:13.27,Default,,0000,0000,0000,,因为明天我们还要早起
+Dialogue: 0,0:12:13.52,0:12:16.36,英语,,0000,0000,0000,,Tomorrow's Monday. You know I can't come.
+Dialogue: 0,0:12:13.52,0:12:16.36,Default,,0000,0000,0000,,明天是周一 你知道 我恐怕不能去
+Dialogue: 0,0:12:16.65,0:12:18.61,英语,,0000,0000,0000,,For Christ's sake, it's always the same story.
+Dialogue: 0,0:12:16.65,0:12:18.61,Default,,0000,0000,0000,,看在上帝的份上 每次都是老一套
+Dialogue: 0,0:12:19.11,0:12:22.53,英语,,0000,0000,0000,,We've known each other four months and you haven't missed a day of work.
+Dialogue: 0,0:12:19.11,0:12:22.53,Default,,0000,0000,0000,,我们已经相处四个多月了 而你一次都没翘过班
+Dialogue: 0,0:12:23.03,0:12:25.91,英语,,0000,0000,0000,,All you think about is that damn lab!
+Dialogue: 0,0:12:23.03,0:12:25.91,Default,,0000,0000,0000,,你永远只想着哪个该死的实验室
+Dialogue: 0,0:12:26.16,0:12:29.58,英语,,0000,0000,0000,,It's the third time Andy's asked us to play tennis.
+Dialogue: 0,0:12:26.16,0:12:29.58,Default,,0000,0000,0000,,安迪已经再三邀请我们去打网球了
+Dialogue: 0,0:12:30.04,0:12:32.00,英语,,0000,0000,0000,,You don't want to offend him, do you?
+Dialogue: 0,0:12:30.04,0:12:32.00,Default,,0000,0000,0000,,你不想得罪他吧 对么？
+Dialogue: 0,0:12:35.29,0:12:38.17,英语,,0000,0000,0000,,I just don't understand you.
+Dialogue: 0,0:12:35.29,0:12:38.17,Default,,0000,0000,0000,,我真不了解你
+Dialogue: 0,0:12:38.46,0:12:41.42,英语,,0000,0000,0000,,It's like you're excluding me from your life.
+Dialogue: 0,0:12:38.46,0:12:41.42,Default,,0000,0000,0000,,就好象我在你的生活中可有可无一样
+Dialogue: 0,0:12:41.72,0:12:43.47,英语,,0000,0000,0000,,You know that's not true.
+Dialogue: 0,0:12:41.72,0:12:43.47,Default,,0000,0000,0000,,那不是真的
+Dialogue: 0,0:12:43.72,0:12:47.14,英语,,0000,0000,0000,,I just want to check on the material going to Berlin.
+Dialogue: 0,0:12:43.72,0:12:47.14,Default,,0000,0000,0000,,我只想确保那批材料能顺利送往柏林
+Dialogue: 0,0:12:47.39,0:12:50.47,英语,,0000,0000,0000,,To hell with the material! You're obsessed.
+Dialogue: 0,0:12:47.39,0:12:50.47,Default,,0000,0000,0000,,去他的材料 你太工作狂了
+Dialogue: 0,0:12:50.98,0:12:53.31,英语,,0000,0000,0000,,It's not like you'll win the Nobel Prize or anything.
+Dialogue: 0,0:12:50.98,0:12:53.31,Default,,0000,0000,0000,,你又不会因此得诺贝尔奖什么的
+Dialogue: 0,0:12:53.64,0:12:57.36,英语,,0000,0000,0000,,You're so upset over a silly tennis match.
+Dialogue: 0,0:12:53.64,0:12:57.36,Default,,0000,0000,0000,,你就这么在意那个愚蠢的网球比赛吗
+Dialogue: 0,0:12:57.65,0:13:00.99,英语,,0000,0000,0000,,You're right. Do as you please.
+Dialogue: 0,0:12:57.65,0:13:00.99,Default,,0000,0000,0000,,你说的对 随便你好了
+Dialogue: 0,0:13:01.53,0:13:04.32,英语,,0000,0000,0000,,I'll call you when I have time, good night.
+Dialogue: 0,0:13:01.53,0:13:04.32,Default,,0000,0000,0000,,有空我再打电话给你 晚安
+Dialogue: 0,0:13:56.58,0:13:57.92,英语,,0000,0000,0000,,Miss!
+Dialogue: 0,0:13:56.58,0:13:57.92,Default,,0000,0000,0000,,小姐
+Dialogue: 0,0:13:58.21,0:14:01.00,英语,,0000,0000,0000,,Miss! Wake up, it's late.
+Dialogue: 0,0:13:58.21,0:14:01.00,Default,,0000,0000,0000,,小姐 醒醒 不早了
+Dialogue: 0,0:14:04.63,0:14:06.43,英语,,0000,0000,0000,,Miss!
+Dialogue: 0,0:14:04.63,0:14:06.43,Default,,0000,0000,0000,,小姐
+Dialogue: 0,0:14:11.06,0:14:12.31,英语,,0000,0000,0000,,Carlotta!
+Dialogue: 0,0:14:11.06,0:14:12.31,Default,,0000,0000,0000,,卡洛塔
+Dialogue: 0,0:14:12.77,0:14:15.98,英语,,0000,0000,0000,,- Is it already time to go to work? - No, it's much later.
+Dialogue: 0,0:14:12.77,0:14:15.98,Default,,0000,0000,0000,,- 我是不是该去上班了？- 不 已经迟了很久了
+Dialogue: 0,0:14:16.27,0:14:19.31,英语,,0000,0000,0000,,- It's a quarter past three. - That can't be!
+Dialogue: 0,0:14:16.27,0:14:19.31,Default,,0000,0000,0000,,- 现在是下午三点一刻 - 不会吧
+Dialogue: 0,0:14:19.56,0:14:23.03,英语,,0000,0000,0000,,It's a quarter past three. You've had quite a sleep!
+Dialogue: 0,0:14:19.56,0:14:23.03,Default,,0000,0000,0000,,是三点一刻 您睡得很足
+Dialogue: 0,0:14:26.15,0:14:29.70,英语,,0000,0000,0000,,- I didn't even undress. - It happens when you stay out late.
+Dialogue: 0,0:14:26.15,0:14:29.70,Default,,0000,0000,0000,,- 我连衣服都没脱 - 因为你回来得太晚了
+Dialogue: 0,0:14:35.25,0:14:37.67,英语,,0000,0000,0000,,Why didn't your brother wake me?
+Dialogue: 0,0:14:35.25,0:14:37.67,Default,,0000,0000,0000,,为什么你不让你哥哥叫醒我？
+Dialogue: 0,0:14:38.12,0:14:39.58,英语,,0000,0000,0000,,We tried.
+Dialogue: 0,0:14:38.12,0:14:39.58,Default,,0000,0000,0000,,我们试过了
+Dialogue: 0,0:14:40.04,0:14:44.17,英语,,0000,0000,0000,,Luigi rang over and over and we thought you were out.
+Dialogue: 0,0:14:40.04,0:14:44.17,Default,,0000,0000,0000,,路易吉按了好几次门铃 我们还以为你出去了
+Dialogue: 0,0:14:44.46,0:14:47.47,英语,,0000,0000,0000,,Then Francesca told me you were still in.
+Dialogue: 0,0:14:44.46,0:14:47.47,Default,,0000,0000,0000,,后来弗朗西丝卡告诉我你还在家
+Dialogue: 0,0:14:47.72,0:14:52.18,英语,,0000,0000,0000,,- I brought the newspaper. - Thank you, you can go now.
+Dialogue: 0,0:14:47.72,0:14:52.18,Default,,0000,0000,0000,,- 我买了报纸 - 谢谢 你可以走了
+Dialogue: 0,0:14:57.14,0:15:00.52,英语,,0000,0000,0000,,Don't walk around barefoot, you might cut yourself.
+Dialogue: 0,0:14:57.14,0:15:00.52,Default,,0000,0000,0000,,千万别赤脚走在上面 会割伤自己的
+Dialogue: 0,0:15:00.81,0:15:03.48,英语,,0000,0000,0000,,- The photograph fell and broke. - I know.
+Dialogue: 0,0:15:00.81,0:15:03.48,Default,,0000,0000,0000,,- 相框落在地上打碎了 - 我知道
+Dialogue: 0,0:15:03.77,0:15:05.61,英语,,0000,0000,0000,,I broke it.
+Dialogue: 0,0:15:03.77,0:15:05.61,Default,,0000,0000,0000,,是我弄坏的
+Dialogue: 0,0:15:15.58,0:15:18.58,英语,,0000,0000,0000,,<i>The time is 3:31 pm.</i>
+Dialogue: 0,0:15:15.58,0:15:18.58,Default,,0000,0000,0000,,现在是下午3：31分
+Dialogue: 0,0:15:25.67,0:15:28.47,英语,,0000,0000,0000,,<i>"Music: For You" continues.</i>
+Dialogue: 0,0:15:25.67,0:15:28.47,Default,,0000,0000,0000,,"音乐为你" 继续直播
+Dialogue: 0,0:15:50.24,0:15:54.07,英语,,0000,0000,0000,,You must be a witch, Francesca. How did you know we had an argument?
+Dialogue: 0,0:15:50.24,0:15:54.07,Default,,0000,0000,0000,,你是个女巫吧 弗朗西丝卡 要不你怎么知道我们吵架了？
+Dialogue: 0,0:15:54.33,0:15:56.74,英语,,0000,0000,0000,,I saw it from my window.
+Dialogue: 0,0:15:54.33,0:15:56.74,Default,,0000,0000,0000,,我从窗外看见了
+Dialogue: 0,0:15:57.70,0:16:01.17,英语,,0000,0000,0000,,It's never happened to me, I fell asleep like that.
+Dialogue: 0,0:15:57.70,0:16:01.17,Default,,0000,0000,0000,,这从来没发生过 我好像睡着了
+Dialogue: 0,0:16:01.46,0:16:04.04,英语,,0000,0000,0000,,Carlotta woke me up an hour ago.
+Dialogue: 0,0:16:01.46,0:16:04.04,Default,,0000,0000,0000,,卡洛塔一小时前才把我叫醒
+Dialogue: 0,0:16:04.34,0:16:07.80,英语,,0000,0000,0000,,You work too hard, you should have more fun with Roberto.
+Dialogue: 0,0:16:04.34,0:16:07.80,Default,,0000,0000,0000,,你工作太辛苦了 你应当和罗勃特尽情快活一下
+Dialogue: 0,0:16:08.30,0:16:10.55,英语,,0000,0000,0000,,You should make up. I'll take care of it.
+Dialogue: 0,0:16:08.30,0:16:10.55,Default,,0000,0000,0000,,你应该弥补一下 我帮你想办法
+Dialogue: 0,0:16:10.80,0:16:13.47,英语,,0000,0000,0000,,- Doesn't he collect butterflies? - Yes, why?
+Dialogue: 0,0:16:10.80,0:16:13.47,Default,,0000,0000,0000,,- 他是不是喜欢收集蝴蝶标本？- 是的 怎么了？
+Dialogue: 0,0:16:13.72,0:16:16.14,英语,,0000,0000,0000,,I have an idea. Come with me.
+Dialogue: 0,0:16:13.72,0:16:16.14,Default,,0000,0000,0000,,我有个好主意 跟我来
+Dialogue: 0,0:16:16.43,0:16:18.27,英语,,0000,0000,0000,,Gorgeous creatures!
+Dialogue: 0,0:16:16.43,0:16:18.27,Default,,0000,0000,0000,,多美的姑娘
+Dialogue: 0,0:16:24.65,0:16:26.57,英语,,0000,0000,0000,,That's nice.
+Dialogue: 0,0:16:24.65,0:16:26.57,Default,,0000,0000,0000,,真漂亮
+Dialogue: 0,0:16:29.28,0:16:31.11,英语,,0000,0000,0000,,Is anybody here?
+Dialogue: 0,0:16:29.28,0:16:31.11,Default,,0000,0000,0000,,有人吗？
+Dialogue: 0,0:16:33.66,0:16:37.66,英语,,0000,0000,0000,,- Is anybody here? - I've never noticed this store.
+Dialogue: 0,0:16:33.66,0:16:37.66,Default,,0000,0000,0000,,- 有人在吗？- 我还没主意到有这么个店
+Dialogue: 0,0:16:37.95,0:16:40.45,英语,,0000,0000,0000,,Sorry, I couldn't find my glasses.
+Dialogue: 0,0:16:37.95,0:16:40.45,Default,,0000,0000,0000,,对不起 我找不到眼镜了
+Dialogue: 0,0:16:43.21,0:16:45.33,英语,,0000,0000,0000,,- Can I help you? - I'd like to buy a butterfly.
+Dialogue: 0,0:16:43.21,0:16:45.33,Default,,0000,0000,0000,,- 有什么需要吗？- 我想买只蝴蝶标本
+Dialogue: 0,0:16:45.63,0:16:48.71,英语,,0000,0000,0000,,- It's for a collector. - Right.
+Dialogue: 0,0:16:45.63,0:16:48.71,Default,,0000,0000,0000,,- 送给一个收藏家 - 好的
+Dialogue: 0,0:16:50.21,0:16:52.30,英语,,0000,0000,0000,,I really like this one.
+Dialogue: 0,0:16:50.21,0:16:52.30,Default,,0000,0000,0000,,我觉得这个不错
+Dialogue: 0,0:17:00.52,0:17:02.43,英语,,0000,0000,0000,,- It's pretty, isn't it? - Yes.
+Dialogue: 0,0:17:00.52,0:17:02.43,Default,,0000,0000,0000,,- 很漂亮 对么？- 没错
+Dialogue: 0,0:17:02.85,0:17:04.40,英语,,0000,0000,0000,,- I'll take it. - Okay.
+Dialogue: 0,0:17:02.85,0:17:04.40,Default,,0000,0000,0000,,- 就要这个 - 好的
+Dialogue: 0,0:17:04.69,0:17:08.15,英语,,0000,0000,0000,,- Can you gift wrap it? - Of course.
+Dialogue: 0,0:17:04.69,0:17:08.15,Default,,0000,0000,0000,,- 能包装一下吗？- 当然
+Dialogue: 0,0:17:08.40,0:17:09.61,英语,,0000,0000,0000,,Thank you.
+Dialogue: 0,0:17:08.40,0:17:09.61,Default,,0000,0000,0000,,谢谢
+Dialogue: 0,0:17:39.93,0:17:41.60,英语,,0000,0000,0000,,Roberto?
+Dialogue: 0,0:17:39.93,0:17:41.60,Default,,0000,0000,0000,,罗勃特？
+Dialogue: 0,0:18:10.88,0:18:12.38,英语,,0000,0000,0000,,Roberto?
+Dialogue: 0,0:18:10.88,0:18:12.38,Default,,0000,0000,0000,,罗勃特？
+Dialogue: 0,0:20:10.12,0:20:11.83,英语,,0000,0000,0000,,Silvia!
+Dialogue: 0,0:20:10.12,0:20:11.83,Default,,0000,0000,0000,,西尔维娅
+Dialogue: 0,0:20:17.96,0:20:20.80,英语,,0000,0000,0000,,There was a woman there watching me.
+Dialogue: 0,0:20:17.96,0:20:20.80,Default,,0000,0000,0000,,刚才有个女人在这儿看着我
+Dialogue: 0,0:20:21.55,0:20:22.93,英语,,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:20:21.55,0:20:22.93,Default,,0000,0000,0000,,你在说什么？
+Dialogue: 0,0:20:26.43,0:20:28.39,英语,,0000,0000,0000,,I saw her.
+Dialogue: 0,0:20:26.43,0:20:28.39,Default,,0000,0000,0000,,我看见她了
+Dialogue: 0,0:20:41.90,0:20:44.45,英语,,0000,0000,0000,,There is no one there.
+Dialogue: 0,0:20:41.90,0:20:44.45,Default,,0000,0000,0000,,这里没有人
+Dialogue: 0,0:20:45.82,0:20:48.33,英语,,0000,0000,0000,,A woman was sitting there.
+Dialogue: 0,0:20:45.82,0:20:48.33,Default,,0000,0000,0000,,那女人就坐在那儿
+Dialogue: 0,0:20:48.87,0:20:50.45,英语,,0000,0000,0000,,No...
+Dialogue: 0,0:20:48.87,0:20:50.45,Default,,0000,0000,0000,,不…
+Dialogue: 0,0:20:52.66,0:20:54.88,英语,,0000,0000,0000,,It's an old robe of mine.
+Dialogue: 0,0:20:52.66,0:20:54.88,Default,,0000,0000,0000,,只有件旧衣服
+Dialogue: 0,0:20:55.92,0:20:59.09,英语,,0000,0000,0000,,I was expecting you, I thought you'd be coming.
+Dialogue: 0,0:20:55.92,0:20:59.09,Default,,0000,0000,0000,,我一直在等你 我知道你会来找我
+Dialogue: 0,0:21:03.18,0:21:05.09,英语,,0000,0000,0000,,I'm afraid.
+Dialogue: 0,0:21:03.18,0:21:05.09,Default,,0000,0000,0000,,我好害怕
+Dialogue: 0,0:21:05.55,0:21:08.89,英语,,0000,0000,0000,,Stop acting like a child. Kiss me.
+Dialogue: 0,0:21:05.55,0:21:08.89,Default,,0000,0000,0000,,别孩子气了 亲一个
+Dialogue: 0,0:21:09.18,0:21:10.85,英语,,0000,0000,0000,,Or don't you want to...
+Dialogue: 0,0:21:09.18,0:21:10.85,Default,,0000,0000,0000,,你不想吗…
+Dialogue: 0,0:21:21.78,0:21:23.90,英语,,0000,0000,0000,,I love you, Roberto.
+Dialogue: 0,0:21:21.78,0:21:23.90,Default,,0000,0000,0000,,我爱你 罗勃特
+Dialogue: 0,0:23:55.10,0:23:57.18,英语,,0000,0000,0000,,Don't serve so hard, it's my first time!
+Dialogue: 0,0:23:55.10,0:23:57.18,Default,,0000,0000,0000,,别对我太"心狠手辣"了 我可是新手
+Dialogue: 0,0:23:57.64,0:23:59.98,英语,,0000,0000,0000,,I'm hardly a champion myself!
+Dialogue: 0,0:23:57.64,0:23:59.98,Default,,0000,0000,0000,,我玩得也不好
+Dialogue: 0,0:24:08.82,0:24:10.99,英语,,0000,0000,0000,,I'm glad you invited Francesca.
+Dialogue: 0,0:24:08.82,0:24:10.99,Default,,0000,0000,0000,,真高兴你能邀请弗朗西丝卡和我们一起
+Dialogue: 0,0:24:11.24,0:24:14.20,英语,,0000,0000,0000,,She's a smart girl.
+Dialogue: 0,0:24:11.24,0:24:14.20,Default,,0000,0000,0000,,她是个不错的女孩
+Dialogue: 0,0:24:14.70,0:24:17.62,英语,,0000,0000,0000,,- And Andy's hard to please. - Silvia!
+Dialogue: 0,0:24:14.70,0:24:17.62,Default,,0000,0000,0000,,- 安迪那儿也不好敷衍 - 西尔维娅
+Dialogue: 0,0:24:17.91,0:24:20.29,英语,,0000,0000,0000,,I'm worn out, he's too good for me.
+Dialogue: 0,0:24:17.91,0:24:20.29,Default,,0000,0000,0000,,我累坏了 他太厉害了
+Dialogue: 0,0:24:20.79,0:24:23.83,英语,,0000,0000,0000,,- Your turn. - Come on, Silvia.
+Dialogue: 0,0:24:20.79,0:24:23.83,Default,,0000,0000,0000,,- 该你上了 - 来嘛 西尔维娅
+Dialogue: 0,0:24:24.08,0:24:26.04,英语,,0000,0000,0000,,Just one game.
+Dialogue: 0,0:24:24.08,0:24:26.04,Default,,0000,0000,0000,,就玩一局
+Dialogue: 0,0:24:26.34,0:24:28.59,英语,,0000,0000,0000,,- Don't you want to play? - No, you go on.
+Dialogue: 0,0:24:26.34,0:24:28.59,Default,,0000,0000,0000,,- 你不想玩？- 不 你上吧
+Dialogue: 0,0:24:28.84,0:24:32.22,英语,,0000,0000,0000,,I'll play later so Andy will be tired and I'll win.
+Dialogue: 0,0:24:28.84,0:24:32.22,Default,,0000,0000,0000,,我等安迪累了再上 轻松就能取胜
+Dialogue: 0,0:24:32.68,0:24:34.93,英语,,0000,0000,0000,,Francesca deserves a nice cold drink.
+Dialogue: 0,0:24:32.68,0:24:34.93,Default,,0000,0000,0000,,弗朗西丝卡得来杯冷饮才好
+Dialogue: 0,0:24:35.97,0:24:38.10,英语,,0000,0000,0000,,It sure is hot today.
+Dialogue: 0,0:24:35.97,0:24:38.10,Default,,0000,0000,0000,,这天气太热了
+Dialogue: 0,0:24:48.32,0:24:50.36,英语,,0000,0000,0000,,What happened?
+Dialogue: 0,0:24:48.32,0:24:50.36,Default,,0000,0000,0000,,怎么了？
+Dialogue: 0,0:24:51.82,0:24:54.61,英语,,0000,0000,0000,,I grabbed the racket and something stabbed me.
+Dialogue: 0,0:24:51.82,0:24:54.61,Default,,0000,0000,0000,,拍子上好像有东西刺了我一下
+Dialogue: 0,0:25:13.26,0:25:16.89,英语,,0000,0000,0000,,That's strange, there's a nail in the handle.
+Dialogue: 0,0:25:13.26,0:25:16.89,Default,,0000,0000,0000,,奇怪 拍柄上有个钉子
+Dialogue: 0,0:25:21.39,0:25:24.27,英语,,0000,0000,0000,,- I can't stand the sight of blood. - Here...
+Dialogue: 0,0:25:21.39,0:25:24.27,Default,,0000,0000,0000,,- 我可不希望见到血 - 给我…
+Dialogue: 0,0:25:25.44,0:25:27.73,英语,,0000,0000,0000,,I know what to do.
+Dialogue: 0,0:25:25.44,0:25:27.73,Default,,0000,0000,0000,,我知道怎么处理
+Dialogue: 0,0:26:18.32,0:26:20.78,英语,,0000,0000,0000,,Silvia's hurt herself.
+Dialogue: 0,0:26:18.32,0:26:20.78,Default,,0000,0000,0000,,西尔维娅伤着自己了
+Dialogue: 0,0:26:22.12,0:26:24.83,英语,,0000,0000,0000,,Silvia's hurt herself.
+Dialogue: 0,0:26:22.12,0:26:24.83,Default,,0000,0000,0000,,西尔维娅伤着自己了
+Dialogue: 0,0:26:25.33,0:26:27.37,英语,,0000,0000,0000,,Silvia's hurt herself.
+Dialogue: 0,0:26:25.33,0:26:27.37,Default,,0000,0000,0000,,西尔维娅伤着自己了
+Dialogue: 0,0:26:42.93,0:26:45.93,英语,,0000,0000,0000,,Don't get angry at me, any other night...
+Dialogue: 0,0:26:42.93,0:26:45.93,Default,,0000,0000,0000,,别生我的气了 其他晚上…
+Dialogue: 0,0:26:46.77,0:26:49.15,英语,,0000,0000,0000,,It's not my fault.
+Dialogue: 0,0:26:46.77,0:26:49.15,Default,,0000,0000,0000,,这不是我的错
+Dialogue: 0,0:26:49.40,0:26:52.94,英语,,0000,0000,0000,,I have a screening of that geology documentary.
+Dialogue: 0,0:26:49.40,0:26:52.94,Default,,0000,0000,0000,,我手头上有些地质资料需要审核
+Dialogue: 0,0:26:54.53,0:26:56.90,英语,,0000,0000,0000,,You know I'd rather be with you.
+Dialogue: 0,0:26:54.53,0:26:56.90,Default,,0000,0000,0000,,你知道我更愿意和你在一起
+Dialogue: 0,0:26:57.20,0:26:59.91,英语,,0000,0000,0000,,Weren't you going out with Francesca?
+Dialogue: 0,0:26:57.20,0:26:59.91,Default,,0000,0000,0000,,为什么你不去找弗朗西丝卡解闷
+Dialogue: 0,0:26:59.91,0:27:02.37,英语,,0000,0000,0000,,Andy's asked her out to dinner.
+Dialogue: 0,0:26:59.91,0:27:02.37,Default,,0000,0000,0000,,安迪请她出去吃饭餐了
+Dialogue: 0,0:27:02.87,0:27:05.45,英语,,0000,0000,0000,,They sure made friends fast.
+Dialogue: 0,0:27:02.87,0:27:05.45,Default,,0000,0000,0000,,看来他们处的不错
+Dialogue: 0,0:27:07.96,0:27:12.92,英语,,0000,0000,0000,,I'll pick you up after work tomorrow and we'll go out to eat.
+Dialogue: 0,0:27:07.96,0:27:12.92,Default,,0000,0000,0000,,明天下班后我接你出去吃饭
+Dialogue: 0,0:27:13.21,0:27:15.88,英语,,0000,0000,0000,,I found a nice place in the country.
+Dialogue: 0,0:27:13.21,0:27:15.88,Default,,0000,0000,0000,,我知道一个非常不错的地方
+Dialogue: 0,0:27:16.17,0:27:18.17,英语,,0000,0000,0000,,Excellent food.
+Dialogue: 0,0:27:16.17,0:27:18.17,Default,,0000,0000,0000,,那里食物美味极了
+Dialogue: 0,0:27:18.93,0:27:19.97,英语,,0000,0000,0000,,Yes.
+Dialogue: 0,0:27:18.93,0:27:19.97,Default,,0000,0000,0000,,好
+Dialogue: 0,0:27:21.01,0:27:23.05,英语,,0000,0000,0000,,Get some sleep.
+Dialogue: 0,0:27:21.01,0:27:23.05,Default,,0000,0000,0000,,去睡吧
+Dialogue: 0,0:27:23.39,0:27:24.93,英语,,0000,0000,0000,,Good night.
+Dialogue: 0,0:27:23.39,0:27:24.93,Default,,0000,0000,0000,,晚安
+Dialogue: 0,0:27:45.62,0:27:47.91,英语,,0000,0000,0000,,Can you give me a light?
+Dialogue: 0,0:27:45.62,0:27:47.91,Default,,0000,0000,0000,,给我个火
+Dialogue: 0,0:28:18.03,0:28:22.11,英语,,0000,0000,0000,,SILVIA HACHERMAN THIRD GRADE
+Dialogue: 0,0:28:18.03,0:28:22.11,Default,,0000,0000,0000,,西尔维娅·哈切曼 三年级
+Dialogue: 0,0:28:22.36,0:28:23.53,英语,,0000,0000,0000,,<i>Dear Daddy</i>
+Dialogue: 0,0:28:22.36,0:28:23.53,Default,,0000,0000,0000,,亲爱的爸爸
+Dialogue: 0,0:28:24.03,0:28:26.53,英语,,0000,0000,0000,,<i>I've now passed the third grade.</i>
+Dialogue: 0,0:28:24.03,0:28:26.53,Default,,0000,0000,0000,,我已经上小学三年级了
+Dialogue: 0,0:28:27.04,0:28:30.46,英语,,0000,0000,0000,,<i>I don't want any presents, just for you to come home.</i>
+Dialogue: 0,0:28:27.04,0:28:30.46,Default,,0000,0000,0000,,我不需要任何礼物 只希望你能快些回来
+Dialogue: 0,0:28:30.96,0:28:33.46,英语,,0000,0000,0000,,<i>Mommy said you'll be at sea for a long time.</i>
+Dialogue: 0,0:28:30.96,0:28:33.46,Default,,0000,0000,0000,,妈咪说你还要在海上呆很长时间
+Dialogue: 0,0:28:33.92,0:28:36.17,英语,,0000,0000,0000,,<i>Why did you leave us alone?</i>
+Dialogue: 0,0:28:33.92,0:28:36.17,Default,,0000,0000,0000,,为什么你要抛下我们
+Dialogue: 0,0:28:36.46,0:28:39.96,英语,,0000,0000,0000,,<i>The man at the animal store gave me a black cat.</i>
+Dialogue: 0,0:28:36.46,0:28:39.96,Default,,0000,0000,0000,,那个男人在宠物店给我买了只黑猫
+Dialogue: 0,0:28:40.26,0:28:43.09,英语,,0000,0000,0000,,<i>He comes over and takes us out sometimes.</i>
+Dialogue: 0,0:28:40.26,0:28:43.09,Default,,0000,0000,0000,,他经常过来带我们出去
+Dialogue: 0,0:28:43.39,0:28:46.05,英语,,0000,0000,0000,,<i>But he won't take us to the zoo.</i>
+Dialogue: 0,0:28:43.39,0:28:46.05,Default,,0000,0000,0000,,但却不是带我们去动物园
+Dialogue: 0,0:28:46.35,0:28:50.56,英语,,0000,0000,0000,,<i>Mommy bawled me out because I said he scares me.</i>
+Dialogue: 0,0:28:46.35,0:28:50.56,Default,,0000,0000,0000,,妈咪骂了我一顿 只因为我说害怕他
+Dialogue: 0,0:30:44.80,0:30:46.05,英语,,0000,0000,0000,,Mommy!
+Dialogue: 0,0:30:44.80,0:30:46.05,Default,,0000,0000,0000,,妈妈
+Dialogue: 0,0:31:34.81,0:31:38.39,英语,,0000,0000,0000,,- I called Silvia, but no one answered. - She must be on her way.
+Dialogue: 0,0:31:34.81,0:31:38.39,Default,,0000,0000,0000,,- 我刚打电话给西尔维娅 但没人接听 - 也许她正过来
+Dialogue: 0,0:31:39.44,0:31:42.27,英语,,0000,0000,0000,,- It's almost 11:00. - Maybe she's ill.
+Dialogue: 0,0:31:39.44,0:31:42.27,Default,,0000,0000,0000,,- 现在都快11点了 - 也许她生病了
+Dialogue: 0,0:31:42.52,0:31:45.73,英语,,0000,0000,0000,,- Someone would have answered. - Maybe the phone's off the hook.
+Dialogue: 0,0:31:42.52,0:31:45.73,Default,,0000,0000,0000,,- 但总会接电话吧 - 也许电话坏了
+Dialogue: 0,0:31:53.58,0:31:55.58,英语,,0000,0000,0000,,Good morning!
+Dialogue: 0,0:31:53.58,0:31:55.58,Default,,0000,0000,0000,,早上好
+Dialogue: 0,0:31:55.87,0:31:59.04,英语,,0000,0000,0000,,- There was a vase in the window. - Which one?
+Dialogue: 0,0:31:55.87,0:31:59.04,Default,,0000,0000,0000,,- 我记得这儿的橱窗内摆着一个花瓶 - 哪一个？
+Dialogue: 0,0:31:59.33,0:32:01.62,英语,,0000,0000,0000,,It was pink with a flower on it.
+Dialogue: 0,0:31:59.33,0:32:01.62,Default,,0000,0000,0000,,上面刻着粉红色的花
+Dialogue: 0,0:32:01.92,0:32:06.05,英语,,0000,0000,0000,,I'm sorry, there was no vase like that in the window.
+Dialogue: 0,0:32:01.92,0:32:06.05,Default,,0000,0000,0000,,不好意思 我们这里没有这样的花瓶
+Dialogue: 0,0:32:06.34,0:32:10.38,英语,,0000,0000,0000,,That's impossible, I've seen it many times.
+Dialogue: 0,0:32:06.34,0:32:10.38,Default,,0000,0000,0000,,这不可能 我看见过好几次
+Dialogue: 0,0:32:10.68,0:32:14.05,英语,,0000,0000,0000,,You must be mistaken, I do the window myself.
+Dialogue: 0,0:32:10.68,0:32:14.05,Default,,0000,0000,0000,,您一定搞错了 橱窗里的摆设都是我亲手放的
+Dialogue: 0,0:32:14.35,0:32:16.26,英语,,0000,0000,0000,,Can I show you something else?
+Dialogue: 0,0:32:14.35,0:32:16.26,Default,,0000,0000,0000,,你看还需要其他什么东西吗？
+Dialogue: 0,0:32:16.56,0:32:17.77,英语,,0000,0000,0000,,Miss!
+Dialogue: 0,0:32:16.56,0:32:17.77,Default,,0000,0000,0000,,小姐
+Dialogue: 0,0:32:32.16,0:32:35.58,英语,,0000,0000,0000,,- How do you want your steak? - Same as usual.
+Dialogue: 0,0:32:32.16,0:32:35.58,Default,,0000,0000,0000,,- 你希望牛排怎么做 - 和往常一样
+Dialogue: 0,0:32:41.87,0:32:43.83,英语,,0000,0000,0000,,Do you really have to leave?
+Dialogue: 0,0:32:41.87,0:32:43.83,Default,,0000,0000,0000,,你真的非离开不可？
+Dialogue: 0,0:32:44.92,0:32:46.09,英语,,0000,0000,0000,,Yes.
+Dialogue: 0,0:32:44.92,0:32:46.09,Default,,0000,0000,0000,,是的
+Dialogue: 0,0:32:47.55,0:32:51.34,英语,,0000,0000,0000,,- I'm sorry, but I have no choice. - Where are they sending you?
+Dialogue: 0,0:32:47.55,0:32:51.34,Default,,0000,0000,0000,,- 对不起 但我没有选择 - 他们要你去哪儿？
+Dialogue: 0,0:32:51.76,0:32:53.72,英语,,0000,0000,0000,,Cape Town.
+Dialogue: 0,0:32:51.76,0:32:53.72,Default,,0000,0000,0000,,开普敦
+Dialogue: 0,0:32:54.64,0:32:58.31,英语,,0000,0000,0000,,There's a new layer, I can get interesting samples.
+Dialogue: 0,0:32:54.64,0:32:58.31,Default,,0000,0000,0000,,那里有新发现 我可以取得一些有趣的样本
+Dialogue: 0,0:33:00.85,0:33:03.10,英语,,0000,0000,0000,,I'll only be gone a week.
+Dialogue: 0,0:33:00.85,0:33:03.10,Default,,0000,0000,0000,,只是一个星期而已
+Dialogue: 0,0:33:03.94,0:33:06.11,英语,,0000,0000,0000,,I don't want you to leave.
+Dialogue: 0,0:33:03.94,0:33:06.11,Default,,0000,0000,0000,,我舍不得你走
+Dialogue: 0,0:33:10.78,0:33:12.82,英语,,0000,0000,0000,,Stay with me tonight.
+Dialogue: 0,0:33:10.78,0:33:12.82,Default,,0000,0000,0000,,今晚留下来陪我
+Dialogue: 0,0:33:15.53,0:33:17.78,英语,,0000,0000,0000,,I need to be near you.
+Dialogue: 0,0:33:15.53,0:33:17.78,Default,,0000,0000,0000,,我只想靠着你
+Dialogue: 0,0:33:19.83,0:33:21.87,英语,,0000,0000,0000,,I don't want to be alone.
+Dialogue: 0,0:33:19.83,0:33:21.87,Default,,0000,0000,0000,,我不想独自一人
+Dialogue: 0,0:33:59.78,0:34:01.58,英语,,0000,0000,0000,,Mr. Rossetti!
+Dialogue: 0,0:33:59.78,0:34:01.58,Default,,0000,0000,0000,,罗塞蒂先生
+Dialogue: 0,0:34:02.41,0:34:06.58,英语,,0000,0000,0000,,It's you, Miss Hacherman! Just one second.
+Dialogue: 0,0:34:02.41,0:34:06.58,Default,,0000,0000,0000,,哦 是你 哈切曼小姐 稍等一分钟
+Dialogue: 0,0:34:06.96,0:34:11.75,英语,,0000,0000,0000,,Fifty-seven, fifty-eight, fifty-nine, sixty!
+Dialogue: 0,0:34:06.96,0:34:11.75,Default,,0000,0000,0000,,…57 58 59 60
+Dialogue: 0,0:34:15.68,0:34:18.68,英语,,0000,0000,0000,,- It's beautiful. - Not bad.
+Dialogue: 0,0:34:15.68,0:34:18.68,Default,,0000,0000,0000,,- 拍得真好 - 确实不坏
+Dialogue: 0,0:34:19.51,0:34:21.60,英语,,0000,0000,0000,,That makes two hundred-twenty.
+Dialogue: 0,0:34:19.51,0:34:21.60,Default,,0000,0000,0000,,这花了我两百多张底片
+Dialogue: 0,0:34:21.89,0:34:23.81,英语,,0000,0000,0000,,But the first ones were out of focus.
+Dialogue: 0,0:34:21.89,0:34:23.81,Default,,0000,0000,0000,,先前的那些都报废了
+Dialogue: 0,0:34:24.35,0:34:26.19,英语,,0000,0000,0000,,You must love animals.
+Dialogue: 0,0:34:24.35,0:34:26.19,Default,,0000,0000,0000,,您肯定很喜欢动物
+Dialogue: 0,0:34:26.44,0:34:28.56,英语,,0000,0000,0000,,Just hippopotami.
+Dialogue: 0,0:34:26.44,0:34:28.56,Default,,0000,0000,0000,,只喜欢这一类
+Dialogue: 0,0:34:31.36,0:34:33.48,英语,,0000,0000,0000,,Please, Miss Hacherman...
+Dialogue: 0,0:34:31.36,0:34:33.48,Default,,0000,0000,0000,,对不起 哈切曼小姐…
+Dialogue: 0,0:34:33.78,0:34:36.57,英语,,0000,0000,0000,,do you mind taking off your dark glasses?
+Dialogue: 0,0:34:33.78,0:34:36.57,Default,,0000,0000,0000,,介意把您的墨镜摘下来吗？
+Dialogue: 0,0:34:36.86,0:34:40.95,英语,,0000,0000,0000,,It bothers me talking to someone when I can't see their eyes.
+Dialogue: 0,0:34:36.86,0:34:40.95,Default,,0000,0000,0000,,我可不希望看不到正和我说话的人的眼睛
+Dialogue: 0,0:34:48.50,0:34:50.75,英语,,0000,0000,0000,,It's unfair to hide such beautiful eyes.
+Dialogue: 0,0:34:48.50,0:34:50.75,Default,,0000,0000,0000,,遮住这么美丽的双眼是不公平的
+Dialogue: 0,0:34:58.34,0:35:02.47,英语,,0000,0000,0000,,- Don't you teach anymore? - I quit a year ago.
+Dialogue: 0,0:34:58.34,0:35:02.47,Default,,0000,0000,0000,,- 你不再教书了？- 一年前就不干了
+Dialogue: 0,0:35:02.72,0:35:05.22,英语,,0000,0000,0000,,I was forced into retirement.
+Dialogue: 0,0:35:02.72,0:35:05.22,Default,,0000,0000,0000,,我是不得已才退休的
+Dialogue: 0,0:35:08.44,0:35:10.73,英语,,0000,0000,0000,,Ever since my wife's death,
+Dialogue: 0,0:35:08.44,0:35:10.73,Default,,0000,0000,0000,,自从我的妻子离世以后
+Dialogue: 0,0:35:11.40,0:35:13.78,英语,,0000,0000,0000,,my life hasn't been the same.
+Dialogue: 0,0:35:11.40,0:35:13.78,Default,,0000,0000,0000,,我的生活就再也没正常过
+Dialogue: 0,0:35:14.44,0:35:15.86,英语,,0000,0000,0000,,I know what you mean.
+Dialogue: 0,0:35:14.44,0:35:15.86,Default,,0000,0000,0000,,我很理解
+Dialogue: 0,0:35:16.49,0:35:18.82,英语,,0000,0000,0000,,I feel alone too.
+Dialogue: 0,0:35:16.49,0:35:18.82,Default,,0000,0000,0000,,我也经常感到孤独
+Dialogue: 0,0:35:26.70,0:35:29.71,英语,,0000,0000,0000,,How did your mother die?
+Dialogue: 0,0:35:26.70,0:35:29.71,Default,,0000,0000,0000,,你的母亲是怎么死的？
+Dialogue: 0,0:35:33.42,0:35:35.46,英语,,0000,0000,0000,,I don't remember, I was very little.
+Dialogue: 0,0:35:33.42,0:35:35.46,Default,,0000,0000,0000,,不记得了 那时我太小了
+Dialogue: 0,0:35:46.64,0:35:48.77,英语,,0000,0000,0000,,I'm glad to be here with you.
+Dialogue: 0,0:35:46.64,0:35:48.77,Default,,0000,0000,0000,,真高兴能在这里遇见您
+Dialogue: 0,0:35:49.06,0:35:51.40,英语,,0000,0000,0000,,It reminds me of the happiest time of my life,
+Dialogue: 0,0:35:49.06,0:35:51.40,Default,,0000,0000,0000,,这让我想起人生中最快乐的那段时光
+Dialogue: 0,0:35:51.65,0:35:53.86,英语,,0000,0000,0000,,when my father would take me to the zoo.
+Dialogue: 0,0:35:51.65,0:35:53.86,Default,,0000,0000,0000,,那时爸爸也经常带我们来动物园
+Dialogue: 0,0:35:54.32,0:35:57.40,英语,,0000,0000,0000,,We used to come every Sunday when he was home from sea.
+Dialogue: 0,0:35:54.32,0:35:57.40,Default,,0000,0000,0000,,只要他能在周末出海回来
+Dialogue: 0,0:35:58.90,0:36:01.70,英语,,0000,0000,0000,,Let's take a walk.
+Dialogue: 0,0:35:58.90,0:36:01.70,Default,,0000,0000,0000,,我们继续走走
+Dialogue: 0,0:36:04.95,0:36:07.66,英语,,0000,0000,0000,,No, don't do that. Turn around!
+Dialogue: 0,0:36:04.95,0:36:07.66,Default,,0000,0000,0000,,不 别这样 转过来
+Dialogue: 0,0:36:07.95,0:36:10.41,英语,,0000,0000,0000,,I look terrible today!
+Dialogue: 0,0:36:07.95,0:36:10.41,Default,,0000,0000,0000,,我今天看上去很糟糕
+Dialogue: 0,0:36:10.71,0:36:13.75,英语,,0000,0000,0000,,Stand still, it will be perfect.
+Dialogue: 0,0:36:10.71,0:36:13.75,Default,,0000,0000,0000,,站好了 会很漂亮的
+Dialogue: 0,0:36:19.63,0:36:22.39,英语,,0000,0000,0000,,One, two, three, four...
+Dialogue: 0,0:36:19.63,0:36:22.39,Default,,0000,0000,0000,,1 2 3 4…
+Dialogue: 0,0:36:36.15,0:36:37.36,英语,,0000,0000,0000,,Luigi?
+Dialogue: 0,0:36:36.15,0:36:37.36,Default,,0000,0000,0000,,路易吉？
+Dialogue: 0,0:36:39.61,0:36:40.86,英语,,0000,0000,0000,,Luigi!
+Dialogue: 0,0:36:39.61,0:36:40.86,Default,,0000,0000,0000,,路易吉
+Dialogue: 0,0:36:41.36,0:36:44.70,英语,,0000,0000,0000,,Good evening!
+Dialogue: 0,0:36:41.36,0:36:44.70,Default,,0000,0000,0000,,晚上好
+Dialogue: 0,0:36:44.99,0:36:49.37,英语,,0000,0000,0000,,I almost forgot. There's a package for you.
+Dialogue: 0,0:36:44.99,0:36:49.37,Default,,0000,0000,0000,,我差点忘了 您有一个包裹
+Dialogue: 0,0:36:58.42,0:36:59.67,英语,,0000,0000,0000,,Here.
+Dialogue: 0,0:36:58.42,0:36:59.67,Default,,0000,0000,0000,,给
+Dialogue: 0,0:37:01.13,0:37:03.80,英语,,0000,0000,0000,,- Who's it from? - I don't know.
+Dialogue: 0,0:37:01.13,0:37:03.80,Default,,0000,0000,0000,,- 它从哪儿来的？- 不知道
+Dialogue: 0,0:37:04.09,0:37:08.06,英语,,0000,0000,0000,,My sister received it while I was cleaning the boiler.
+Dialogue: 0,0:37:04.09,0:37:08.06,Default,,0000,0000,0000,,是我妹妹收到的 那时我正在清洗锅炉
+Dialogue: 0,0:37:08.56,0:37:11.89,英语,,0000,0000,0000,,Carlotta left it with me before she went out.
+Dialogue: 0,0:37:08.56,0:37:11.89,Default,,0000,0000,0000,,卡洛塔出去前才转交给我
+Dialogue: 0,0:37:13.52,0:37:16.81,英语,,0000,0000,0000,,Wait. I'm coming up too!
+Dialogue: 0,0:37:13.52,0:37:16.81,Default,,0000,0000,0000,,等等 我也要上去
+Dialogue: 0,0:37:17.11,0:37:20.61,英语,,0000,0000,0000,,- Hello, Mrs. Accardini. - I never have any mail.
+Dialogue: 0,0:37:17.11,0:37:20.61,Default,,0000,0000,0000,,- 你好 Accardini夫人 - 没我的信
+Dialogue: 0,0:37:20.90,0:37:24.61,英语,,0000,0000,0000,,No, Chopin! Miss Hacherman won't hurt you.
+Dialogue: 0,0:37:20.90,0:37:24.61,Default,,0000,0000,0000,,不 猫咪 哈切曼小姐可不会伤害你
+Dialogue: 0,0:37:24.91,0:37:26.78,英语,,0000,0000,0000,,She's a friend.
+Dialogue: 0,0:37:24.91,0:37:26.78,Default,,0000,0000,0000,,她是个好朋友
+Dialogue: 0,0:37:27.03,0:37:28.41,英语,,0000,0000,0000,,Hello, Luigi.
+Dialogue: 0,0:37:27.03,0:37:28.41,Default,,0000,0000,0000,,你好 路易吉
+Dialogue: 0,0:37:28.70,0:37:30.66,英语,,0000,0000,0000,,Here we are.
+Dialogue: 0,0:37:28.70,0:37:30.66,Default,,0000,0000,0000,,我们走
+Dialogue: 0,0:37:30.95,0:37:33.96,英语,,0000,0000,0000,,You're not allergic to cats, are you?
+Dialogue: 0,0:37:30.95,0:37:33.96,Default,,0000,0000,0000,,你对猫不过敏 对吗？
+Dialogue: 0,0:37:34.46,0:37:38.00,英语,,0000,0000,0000,,Do you believe a taxi driver wouldn't let me in with the cat?
+Dialogue: 0,0:37:34.46,0:37:38.00,Default,,0000,0000,0000,,你相信吗？有个出租车司机竟然不准我带猫上车
+Dialogue: 0,0:37:39.09,0:37:42.63,英语,,0000,0000,0000,,I can't understand why people don't like animals.
+Dialogue: 0,0:37:39.09,0:37:42.63,Default,,0000,0000,0000,,真弄不懂为何这些人都不喜欢动物
+Dialogue: 0,0:38:49.66,0:38:52.03,英语,,0000,0000,0000,,- Who is it? - It's me, Francesca.
+Dialogue: 0,0:38:49.66,0:38:52.03,Default,,0000,0000,0000,,- 谁呀 - 是我 弗朗西丝卡
+Dialogue: 0,0:38:54.00,0:38:56.50,英语,,0000,0000,0000,,- Hi, can I come in? - Sure.
+Dialogue: 0,0:38:54.00,0:38:56.50,Default,,0000,0000,0000,,- 嗨 能进来吗？- 当然
+Dialogue: 0,0:39:00.58,0:39:03.09,英语,,0000,0000,0000,,- Is Roberto here? - No, he left.
+Dialogue: 0,0:39:00.58,0:39:03.09,Default,,0000,0000,0000,,- 罗勃特不在？- 他昨天就出差了
+Dialogue: 0,0:39:03.30,0:39:06.17,英语,,0000,0000,0000,,- You must be lonely. - Yes.
+Dialogue: 0,0:39:03.30,0:39:06.17,Default,,0000,0000,0000,,- 那你肯定很孤单 - 没错
+Dialogue: 0,0:39:06.72,0:39:09.09,英语,,0000,0000,0000,,What a nice vase! Is it new?
+Dialogue: 0,0:39:06.72,0:39:09.09,Default,,0000,0000,0000,,好漂亮的花瓶 是新的吗？
+Dialogue: 0,0:39:10.09,0:39:11.22,英语,,0000,0000,0000,,Yes.
+Dialogue: 0,0:39:10.09,0:39:11.22,Default,,0000,0000,0000,,是的
+Dialogue: 0,0:39:12.10,0:39:15.64,英语,,0000,0000,0000,,My mother had one like it.
+Dialogue: 0,0:39:12.10,0:39:15.64,Default,,0000,0000,0000,,我母亲以前也有个类似的
+Dialogue: 0,0:39:16.14,0:39:19.52,英语,,0000,0000,0000,,- Are they for me? - Andy sent them to me.
+Dialogue: 0,0:39:16.14,0:39:19.52,Default,,0000,0000,0000,,- 特地为我买的？- 是安迪送我的
+Dialogue: 0,0:39:20.31,0:39:24.53,英语,,0000,0000,0000,,It's odd though. Twenty-four roses and two lilies.
+Dialogue: 0,0:39:20.31,0:39:24.53,Default,,0000,0000,0000,,奇怪的是他买了24支玫瑰加2支百合
+Dialogue: 0,0:39:24.82,0:39:26.94,英语,,0000,0000,0000,,Funny, isn't it?
+Dialogue: 0,0:39:24.82,0:39:26.94,Default,,0000,0000,0000,,很有趣 对么？
+Dialogue: 0,0:39:27.24,0:39:29.82,英语,,0000,0000,0000,,I brought some for you, I know you like them.
+Dialogue: 0,0:39:27.24,0:39:29.82,Default,,0000,0000,0000,,我拿来一些给你 我想你会喜欢
+Dialogue: 0,0:39:30.11,0:39:32.66,英语,,0000,0000,0000,,Thanks, that's so kind.
+Dialogue: 0,0:39:30.11,0:39:32.66,Default,,0000,0000,0000,,谢谢 它们很美
+Dialogue: 0,0:39:32.95,0:39:35.16,英语,,0000,0000,0000,,I'll put water in straight away.
+Dialogue: 0,0:39:32.95,0:39:35.16,Default,,0000,0000,0000,,我马上就浇水
+Dialogue: 0,0:39:37.04,0:39:38.91,英语,,0000,0000,0000,,I'd better run.
+Dialogue: 0,0:39:37.04,0:39:38.91,Default,,0000,0000,0000,,我得走了
+Dialogue: 0,0:39:39.21,0:39:41.71,英语,,0000,0000,0000,,I still have to get dressed! Bye!
+Dialogue: 0,0:39:39.21,0:39:41.71,Default,,0000,0000,0000,,连衣服都没来得及换 回见
+Dialogue: 0,0:39:41.96,0:39:43.92,英语,,0000,0000,0000,,Bye and thanks.
+Dialogue: 0,0:39:41.96,0:39:43.92,Default,,0000,0000,0000,,谢谢 再见
+Dialogue: 0,0:39:58.56,0:40:00.06,英语,,0000,0000,0000,,Silvia...
+Dialogue: 0,0:39:58.56,0:40:00.06,Default,,0000,0000,0000,,西尔维娅
+Dialogue: 0,0:42:31.21,0:42:34.97,英语,,0000,0000,0000,,- Is my picture ready? - I don't know what to tell you.
+Dialogue: 0,0:42:31.21,0:42:34.97,Default,,0000,0000,0000,,- 我的照片镶好了吗？- 真不知道该怎么告诉你
+Dialogue: 0,0:42:35.26,0:42:37.22,英语,,0000,0000,0000,,I can't find your picture anywhere.
+Dialogue: 0,0:42:35.26,0:42:37.22,Default,,0000,0000,0000,,不过我找不到了
+Dialogue: 0,0:42:37.51,0:42:41.06,英语,,0000,0000,0000,,I've searched the entire store.
+Dialogue: 0,0:42:37.51,0:42:41.06,Default,,0000,0000,0000,,我已经把整个店铺都搜了一遍
+Dialogue: 0,0:42:41.35,0:42:46.06,英语,,0000,0000,0000,,That's impossible, why won't you give it back?
+Dialogue: 0,0:42:41.35,0:42:46.06,Default,,0000,0000,0000,,这不可能 为什么不把照片给我？
+Dialogue: 0,0:42:46.35,0:42:49.86,英语,,0000,0000,0000,,Maybe someone else came to pick it up.
+Dialogue: 0,0:42:46.35,0:42:49.86,Default,,0000,0000,0000,,也许是其他顾客取错了
+Dialogue: 0,0:42:51.11,0:42:53.69,英语,,0000,0000,0000,,I want my picture back! Give it to me!
+Dialogue: 0,0:42:51.11,0:42:53.69,Default,,0000,0000,0000,,我要我的照片 还给我
+Dialogue: 0,0:42:53.98,0:42:57.15,英语,,0000,0000,0000,,- There's no use in getting angry... - Don't touch me!
+Dialogue: 0,0:42:53.98,0:42:57.15,Default,,0000,0000,0000,,- 请您别这么生气… - 别碰我
+Dialogue: 0,0:43:01.24,0:43:04.79,英语,,0000,0000,0000,,Just a few friends, they're all really swell.
+Dialogue: 0,0:43:01.24,0:43:04.79,Default,,0000,0000,0000,,只是一些朋友 他们都是好人
+Dialogue: 0,0:43:05.04,0:43:07.08,英语,,0000,0000,0000,,You have to be there!
+Dialogue: 0,0:43:05.04,0:43:07.08,Default,,0000,0000,0000,,你一定要来
+Dialogue: 0,0:43:07.37,0:43:12.25,英语,,0000,0000,0000,,I need your help too, you won't die without Roberto!
+Dialogue: 0,0:43:07.37,0:43:12.25,Default,,0000,0000,0000,,我还需要你帮忙呢 没了罗勃特你也死不了的
+Dialogue: 0,0:43:14.38,0:43:16.42,英语,,0000,0000,0000,,I'm just not in the mood tonight.
+Dialogue: 0,0:43:14.38,0:43:16.42,Default,,0000,0000,0000,,我今晚真的没心情
+Dialogue: 0,0:43:16.88,0:43:20.18,英语,,0000,0000,0000,,- <i>Come</i> on... <i>- I don't feel like getting ready.</i>
+Dialogue: 0,0:43:16.88,0:43:20.18,Default,,0000,0000,0000,,- 别这样… - 我觉得自己恐怕准备不好
+Dialogue: 0,0:43:20.47,0:43:21.89,英语,,0000,0000,0000,,<i>Not tonight...</i>
+Dialogue: 0,0:43:20.47,0:43:21.89,Default,,0000,0000,0000,,今晚就算了…
+Dialogue: 0,0:43:22.18,0:43:26.27,英语,,0000,0000,0000,,I'll see you tonight and make yourself pretty.
+Dialogue: 0,0:43:22.18,0:43:26.27,Default,,0000,0000,0000,,我晚上过来 保证你弄得美美的
+Dialogue: 0,0:43:36.24,0:43:39.20,英语,,0000,0000,0000,,It sends shivers up my spine, she's very good.
+Dialogue: 0,0:43:36.24,0:43:39.20,Default,,0000,0000,0000,,那让我脊背不寒而栗 她实在太棒了
+Dialogue: 0,0:43:42.12,0:43:45.37,英语,,0000,0000,0000,,I didn't think you could do it with a photo.
+Dialogue: 0,0:43:42.12,0:43:45.37,Default,,0000,0000,0000,,我没想到你通过照片就可以完成
+Dialogue: 0,0:43:47.45,0:43:51.96,英语,,0000,0000,0000,,Apart from two or three things, she guessed everything.
+Dialogue: 0,0:43:47.45,0:43:51.96,Default,,0000,0000,0000,,除了一两件以外 她可以算出其它全部事情
+Dialogue: 0,0:43:52.92,0:43:57.30,英语,,0000,0000,0000,,Let's see if she's as good with Miss Hacherman.
+Dialogue: 0,0:43:52.92,0:43:57.30,Default,,0000,0000,0000,,我们让哈切曼小姐试试吧
+Dialogue: 0,0:43:57.59,0:43:59.84,英语,,0000,0000,0000,,I'd rather not.
+Dialogue: 0,0:43:57.59,0:43:59.84,Default,,0000,0000,0000,,还是算了吧
+Dialogue: 0,0:44:00.13,0:44:02.34,英语,,0000,0000,0000,,You go first, Francesca.
+Dialogue: 0,0:44:00.13,0:44:02.34,Default,,0000,0000,0000,,你先来 弗朗西丝卡
+Dialogue: 0,0:44:02.80,0:44:05.51,英语,,0000,0000,0000,,No, I've already done it so many times
+Dialogue: 0,0:44:02.80,0:44:05.51,Default,,0000,0000,0000,,不 我都试了很多次了
+Dialogue: 0,0:44:06.02,0:44:07.77,英语,,0000,0000,0000,,that Orchidea knows me by heart.
+Dialogue: 0,0:44:06.02,0:44:07.77,Default,,0000,0000,0000,,她完全看透我了
+Dialogue: 0,0:44:08.02,0:44:10.39,英语,,0000,0000,0000,,Sorry, I'm so tired.
+Dialogue: 0,0:44:08.02,0:44:10.39,Default,,0000,0000,0000,,对不起 我有些累了
+Dialogue: 0,0:44:10.85,0:44:14.27,英语,,0000,0000,0000,,- Let's not waste time. - It's just a game, Silvia.
+Dialogue: 0,0:44:10.85,0:44:14.27,Default,,0000,0000,0000,,- 我们还是赶快开始吧 - 这只是个游戏 西尔维娅
+Dialogue: 0,0:44:14.57,0:44:16.11,英语,,0000,0000,0000,,Don't be afraid.
+Dialogue: 0,0:44:14.57,0:44:16.11,Default,,0000,0000,0000,,别害怕
+Dialogue: 0,0:44:16.40,0:44:20.11,英语,,0000,0000,0000,,Give me your hand. Your left hand.
+Dialogue: 0,0:44:16.40,0:44:20.11,Default,,0000,0000,0000,,把你的手给我 左手
+Dialogue: 0,0:44:21.45,0:44:22.41,英语,,0000,0000,0000,,Yes.
+Dialogue: 0,0:44:21.45,0:44:22.41,Default,,0000,0000,0000,,好的
+Dialogue: 0,0:44:26.16,0:44:29.12,英语,,0000,0000,0000,,You're afraid. I feel you're afraid.
+Dialogue: 0,0:44:26.16,0:44:29.12,Default,,0000,0000,0000,,你很害怕 我能感觉得到
+Dialogue: 0,0:44:30.12,0:44:33.50,英语,,0000,0000,0000,,Let yourself go. That's right.
+Dialogue: 0,0:44:30.12,0:44:33.50,Default,,0000,0000,0000,,请放松下来 很好
+Dialogue: 0,0:44:33.96,0:44:35.79,英语,,0000,0000,0000,,Clear your mind.
+Dialogue: 0,0:44:33.96,0:44:35.79,Default,,0000,0000,0000,,让思想沉静下来
+Dialogue: 0,0:44:36.09,0:44:40.97,英语,,0000,0000,0000,,I need an object, anything.
+Dialogue: 0,0:44:36.09,0:44:40.97,Default,,0000,0000,0000,,我需要一件东西 随便什么
+Dialogue: 0,0:44:41.22,0:44:46.26,英语,,0000,0000,0000,,Something that belongs to you, something that's yours.
+Dialogue: 0,0:44:41.22,0:44:46.26,Default,,0000,0000,0000,,只要是你随身携带的 自己的物品就可以了
+Dialogue: 0,0:44:46.56,0:44:49.93,英语,,0000,0000,0000,,- I have nothing here. - What about that doll?
+Dialogue: 0,0:44:46.56,0:44:49.93,Default,,0000,0000,0000,,- 我没什么东西 - 那个娃娃如何？
+Dialogue: 0,0:44:50.23,0:44:52.27,英语,,0000,0000,0000,,It's in your handbag.
+Dialogue: 0,0:44:50.23,0:44:52.27,Default,,0000,0000,0000,,在你包包里的那个
+Dialogue: 0,0:45:43.03,0:45:47.37,英语,,0000,0000,0000,,Mr. Rossetti went home to bed, he's off to the seaside tomorrow.
+Dialogue: 0,0:45:43.03,0:45:47.37,Default,,0000,0000,0000,,罗塞蒂先生回去了 他明天要去海滨
+Dialogue: 0,0:45:47.62,0:45:49.87,英语,,0000,0000,0000,,He said to tell you good night.
+Dialogue: 0,0:45:47.62,0:45:49.87,Default,,0000,0000,0000,,他向你道晚安
+Dialogue: 0,0:45:53.46,0:45:56.21,英语,,0000,0000,0000,,Have you found it? Let me see.
+Dialogue: 0,0:45:53.46,0:45:56.21,Default,,0000,0000,0000,,找到了吗？给我
+Dialogue: 0,0:46:04.97,0:46:07.22,英语,,0000,0000,0000,,Close your eyes.
+Dialogue: 0,0:46:04.97,0:46:07.22,Default,,0000,0000,0000,,闭上你的眼睛
+Dialogue: 0,0:46:35.21,0:46:36.58,英语,,0000,0000,0000,,What is it'?
+Dialogue: 0,0:46:35.21,0:46:36.58,Default,,0000,0000,0000,,这是怎么了？
+Dialogue: 0,0:46:37.67,0:46:40.46,英语,,0000,0000,0000,,Everything's dark now.
+Dialogue: 0,0:46:37.67,0:46:40.46,Default,,0000,0000,0000,,现在是一片黑暗
+Dialogue: 0,0:46:42.34,0:46:45.09,英语,,0000,0000,0000,,The boat is leaving.
+Dialogue: 0,0:46:42.34,0:46:45.09,Default,,0000,0000,0000,,船正在离开
+Dialogue: 0,0:46:47.22,0:46:48.59,英语,,0000,0000,0000,,Water.
+Dialogue: 0,0:46:47.22,0:46:48.59,Default,,0000,0000,0000,,水
+Dialogue: 0,0:46:49.43,0:46:51.51,英语,,0000,0000,0000,,Nothing but water.
+Dialogue: 0,0:46:49.43,0:46:51.51,Default,,0000,0000,0000,,只有水
+Dialogue: 0,0:46:55.23,0:46:57.52,英语,,0000,0000,0000,,The wind is coming up.
+Dialogue: 0,0:46:55.23,0:46:57.52,Default,,0000,0000,0000,,狂风正在呼啸
+Dialogue: 0,0:46:58.77,0:47:01.98,英语,,0000,0000,0000,,I can see a man.
+Dialogue: 0,0:46:58.77,0:47:01.98,Default,,0000,0000,0000,,我看见一个男人
+Dialogue: 0,0:47:03.23,0:47:05.65,英语,,0000,0000,0000,,Struggling against the waves.
+Dialogue: 0,0:47:03.23,0:47:05.65,Default,,0000,0000,0000,,正在浪里挣扎
+Dialogue: 0,0:47:07.32,0:47:08.95,英语,,0000,0000,0000,,He's shouting:
+Dialogue: 0,0:47:07.32,0:47:08.95,Default,,0000,0000,0000,,他在叫喊:
+Dialogue: 0,0:47:10.24,0:47:14.12,英语,,0000,0000,0000,,"Silvia! Silvia!"
+Dialogue: 0,0:47:10.24,0:47:14.12,Default,,0000,0000,0000,,"西尔维娅 西尔维娅 "
+Dialogue: 0,0:47:21.17,0:47:23.71,英语,,0000,0000,0000,,Now I see him sinking.
+Dialogue: 0,0:47:21.17,0:47:23.71,Default,,0000,0000,0000,,我看到他在下沉
+Dialogue: 0,0:47:24.67,0:47:26.97,英语,,0000,0000,0000,,Sinking to the depths.
+Dialogue: 0,0:47:24.67,0:47:26.97,Default,,0000,0000,0000,,沉得越来越深
+Dialogue: 0,0:47:27.34,0:47:29.51,英语,,0000,0000,0000,,Swallowed up by the ocean.
+Dialogue: 0,0:47:27.34,0:47:29.51,Default,,0000,0000,0000,,渐渐被大海吞噬
+Dialogue: 0,0:47:30.76,0:47:32.55,英语,,0000,0000,0000,,It's your father.
+Dialogue: 0,0:47:30.76,0:47:32.55,Default,,0000,0000,0000,,那是你父亲
+Dialogue: 0,0:47:33.06,0:47:34.43,英语,,0000,0000,0000,,Your father.
+Dialogue: 0,0:47:33.06,0:47:34.43,Default,,0000,0000,0000,,你的父亲
+Dialogue: 0,0:47:35.06,0:47:37.43,英语,,0000,0000,0000,,Seaweed is wrapped around his body.
+Dialogue: 0,0:47:35.06,0:47:37.43,Default,,0000,0000,0000,,海藻缠住了他的身体
+Dialogue: 0,0:47:37.68,0:47:40.23,英语,,0000,0000,0000,,Someone's hurting him.
+Dialogue: 0,0:47:37.68,0:47:40.23,Default,,0000,0000,0000,,有人伤害了他
+Dialogue: 0,0:47:42.48,0:47:44.57,英语,,0000,0000,0000,,Why have you opened your eyes?
+Dialogue: 0,0:47:42.48,0:47:44.57,Default,,0000,0000,0000,,为什么要把眼睛睁开？
+Dialogue: 0,0:47:45.07,0:47:48.61,英语,,0000,0000,0000,,I know you have, I can't read your thoughts now.
+Dialogue: 0,0:47:45.07,0:47:48.61,Default,,0000,0000,0000,,这样我就无法读懂你的思想了
+Dialogue: 0,0:47:49.11,0:47:51.07,英语,,0000,0000,0000,,Not like that.
+Dialogue: 0,0:47:49.11,0:47:51.07,Default,,0000,0000,0000,,别这样
+Dialogue: 0,0:47:57.08,0:47:59.54,英语,,0000,0000,0000,,I want to stop this game.
+Dialogue: 0,0:47:57.08,0:47:59.54,Default,,0000,0000,0000,,我想结束这个游戏
+Dialogue: 0,0:48:00.46,0:48:02.54,英语,,0000,0000,0000,,You can't stop now.
+Dialogue: 0,0:48:00.46,0:48:02.54,Default,,0000,0000,0000,,你现在不能结束
+Dialogue: 0,0:48:02.84,0:48:04.63,英语,,0000,0000,0000,,It's not a game.
+Dialogue: 0,0:48:02.84,0:48:04.63,Default,,0000,0000,0000,,这不是游戏
+Dialogue: 0,0:48:05.63,0:48:07.46,英语,,0000,0000,0000,,Close your eyes.
+Dialogue: 0,0:48:05.63,0:48:07.46,Default,,0000,0000,0000,,闭上眼睛
+Dialogue: 0,0:48:13.85,0:48:16.47,英语,,0000,0000,0000,,Now I can see when you were little.
+Dialogue: 0,0:48:13.85,0:48:16.47,Default,,0000,0000,0000,,我看见当你小时候
+Dialogue: 0,0:48:18.68,0:48:21.40,英语,,0000,0000,0000,,I see a man in your house.
+Dialogue: 0,0:48:18.68,0:48:21.40,Default,,0000,0000,0000,,一个男人在你家里
+Dialogue: 0,0:48:22.56,0:48:24.31,英语,,0000,0000,0000,,It isn't your father.
+Dialogue: 0,0:48:22.56,0:48:24.31,Default,,0000,0000,0000,,但他并不是你的父亲
+Dialogue: 0,0:48:26.32,0:48:29.03,英语,,0000,0000,0000,,You feel threatened by this man.
+Dialogue: 0,0:48:26.32,0:48:29.03,Default,,0000,0000,0000,,他让你感到害怕
+Dialogue: 0,0:48:32.11,0:48:33.28,英语,,0000,0000,0000,,What is it'?
+Dialogue: 0,0:48:32.11,0:48:33.28,Default,,0000,0000,0000,,是什么？
+Dialogue: 0,0:48:34.12,0:48:38.29,英语,,0000,0000,0000,,Something strange, I can't see it!
+Dialogue: 0,0:48:34.12,0:48:38.29,Default,,0000,0000,0000,,有些奇怪 我看不见了
+Dialogue: 0,0:48:41.83,0:48:45.59,英语,,0000,0000,0000,,The man the little girl is afraid of has vanished.
+Dialogue: 0,0:48:41.83,0:48:45.59,Default,,0000,0000,0000,,这个男人以及小女孩的恐惧都随之消失了
+Dialogue: 0,0:48:50.84,0:48:53.47,英语,,0000,0000,0000,,Now I can see your mother.
+Dialogue: 0,0:48:50.84,0:48:53.47,Default,,0000,0000,0000,,现在我看到了你的母亲
+Dialogue: 0,0:48:55.18,0:48:57.68,英语,,0000,0000,0000,,Your mother's putting out a flag.
+Dialogue: 0,0:48:55.18,0:48:57.68,Default,,0000,0000,0000,,她抽出一面旗子
+Dialogue: 0,0:48:58.56,0:49:00.48,英语,,0000,0000,0000,,You go up to her...
+Dialogue: 0,0:48:58.56,0:49:00.48,Default,,0000,0000,0000,,你走到她前面…
+Dialogue: 0,0:49:01.18,0:49:03.31,英语,,0000,0000,0000,,No, Silvia! Don't do it!
+Dialogue: 0,0:49:01.18,0:49:03.31,Default,,0000,0000,0000,,不 西尔维娅 别这样
+Dialogue: 0,0:49:03.56,0:49:07.52,英语,,0000,0000,0000,,That man will pursue you for the rest of your life!
+Dialogue: 0,0:49:03.56,0:49:07.52,Default,,0000,0000,0000,,这个男人会继续纠缠着你的人生
+Dialogue: 0,0:49:08.86,0:49:10.74,英语,,0000,0000,0000,,Stop! That's enough!
+Dialogue: 0,0:49:08.86,0:49:10.74,Default,,0000,0000,0000,,停下 够了
+Dialogue: 0,0:49:11.24,0:49:13.36,英语,,0000,0000,0000,,I hate you! I hate you!
+Dialogue: 0,0:49:11.24,0:49:13.36,Default,,0000,0000,0000,,我恨你 我恨你
+Dialogue: 0,0:49:17.66,0:49:19.54,英语,,0000,0000,0000,,It's later than I thought.
+Dialogue: 0,0:49:17.66,0:49:19.54,Default,,0000,0000,0000,,比我想象的要久
+Dialogue: 0,0:49:23.67,0:49:26.34,英语,,0000,0000,0000,,We'd better go, they're waiting for us.
+Dialogue: 0,0:49:23.67,0:49:26.34,Default,,0000,0000,0000,,我们该走了 他们还在等我们
+Dialogue: 0,0:52:37.40,0:52:38.78,英语,,0000,0000,0000,,Who is it?
+Dialogue: 0,0:52:37.40,0:52:38.78,Default,,0000,0000,0000,,是谁？
+Dialogue: 0,0:54:25.68,0:54:27.93,英语,,0000,0000,0000,,Where have you been? I rang and rang.
+Dialogue: 0,0:54:25.68,0:54:27.93,Default,,0000,0000,0000,,你在干什么？我一直在按门铃
+Dialogue: 0,0:54:51.16,0:54:54.50,英语,,0000,0000,0000,,You can't stay here. Do you know what time it is?
+Dialogue: 0,0:54:51.16,0:54:54.50,Default,,0000,0000,0000,,你不应该在这儿 知道现在几点了吗？
+Dialogue: 0,0:54:54.96,0:54:57.42,英语,,0000,0000,0000,,It's late for a little girl like you.
+Dialogue: 0,0:54:54.96,0:54:57.42,Default,,0000,0000,0000,,对你这样的小女孩来说已经很晚了
+Dialogue: 0,0:54:58.88,0:55:01.42,英语,,0000,0000,0000,,Your hair's all wet.
+Dialogue: 0,0:54:58.88,0:55:01.42,Default,,0000,0000,0000,,你的头发都湿了
+Dialogue: 0,0:55:01.71,0:55:04.51,英语,,0000,0000,0000,,- You wanted me to come, Silvia. - Me?
+Dialogue: 0,0:55:01.71,0:55:04.51,Default,,0000,0000,0000,,- 你需要我过来 西尔维娅 - 我？
+Dialogue: 0,0:55:06.55,0:55:10.10,英语,,0000,0000,0000,,- How do you know my name? - Where's the picture?
+Dialogue: 0,0:55:06.55,0:55:10.10,Default,,0000,0000,0000,,- 你怎么知道我的名字？- 那照片呢？
+Dialogue: 0,0:55:11.51,0:55:13.77,英语,,0000,0000,0000,,You probably made mother angry.
+Dialogue: 0,0:55:11.51,0:55:13.77,Default,,0000,0000,0000,,你会让妈妈生气的
+Dialogue: 0,0:55:15.48,0:55:17.10,英语,,0000,0000,0000,,You should go home.
+Dialogue: 0,0:55:15.48,0:55:17.10,Default,,0000,0000,0000,,你该回家了
+Dialogue: 0,0:55:17.94,0:55:21.06,英语,,0000,0000,0000,,Your parents are probably out worrying.
+Dialogue: 0,0:55:17.94,0:55:21.06,Default,,0000,0000,0000,,你的父母肯定正在担心
+Dialogue: 0,0:55:23.73,0:55:26.49,英语,,0000,0000,0000,,There's no point in calling anyone.
+Dialogue: 0,0:55:23.73,0:55:26.49,Default,,0000,0000,0000,,打给任何人都是没用的
+Dialogue: 0,0:55:32.58,0:55:33.99,英语,,0000,0000,0000,,Go away.
+Dialogue: 0,0:55:32.58,0:55:33.99,Default,,0000,0000,0000,,离开
+Dialogue: 0,0:55:37.71,0:55:39.67,英语,,0000,0000,0000,,Please go away.
+Dialogue: 0,0:55:37.71,0:55:39.67,Default,,0000,0000,0000,,请离开
+Dialogue: 0,0:55:40.71,0:55:41.96,英语,,0000,0000,0000,,Go away!
+Dialogue: 0,0:55:40.71,0:55:41.96,Default,,0000,0000,0000,,离开
+Dialogue: 0,0:55:42.25,0:55:44.84,英语,,0000,0000,0000,,It's late, I want to go to sleep.
+Dialogue: 0,0:55:42.25,0:55:44.84,Default,,0000,0000,0000,,太晚了 我想休息
+Dialogue: 0,0:55:45.13,0:55:47.09,英语,,0000,0000,0000,,Go away, do you hear?
+Dialogue: 0,0:55:45.13,0:55:47.09,Default,,0000,0000,0000,,离开 听见了么？
+Dialogue: 0,0:55:59.19,0:56:00.60,英语,,0000,0000,0000,,It's beautiful.
+Dialogue: 0,0:55:59.19,0:56:00.60,Default,,0000,0000,0000,,真漂亮
+Dialogue: 0,0:56:07.15,0:56:11.57,英语,,0000,0000,0000,,- Where did you get it? - It's mine, it's my favorite toy.
+Dialogue: 0,0:56:07.15,0:56:11.57,Default,,0000,0000,0000,,- 你从哪得到的？- 这是我的 我最喜欢的玩具
+Dialogue: 0,0:56:15.58,0:56:17.54,英语,,0000,0000,0000,,I had one just like it.
+Dialogue: 0,0:56:15.58,0:56:17.54,Default,,0000,0000,0000,,我有个和这一模一样
+Dialogue: 0,0:56:17.83,0:56:21.71,英语,,0000,0000,0000,,That's funny, her arm is broken.
+Dialogue: 0,0:56:17.83,0:56:21.71,Default,,0000,0000,0000,,真奇怪 她的胳膊也是坏的
+Dialogue: 0,0:56:21.96,0:56:23.75,英语,,0000,0000,0000,,Like mine.
+Dialogue: 0,0:56:21.96,0:56:23.75,Default,,0000,0000,0000,,和我的那个娃娃一样
+Dialogue: 0,0:56:25.34,0:56:26.67,英语,,0000,0000,0000,,It's mine!
+Dialogue: 0,0:56:25.34,0:56:26.67,Default,,0000,0000,0000,,这是我的
+Dialogue: 0,0:56:27.67,0:56:29.59,英语,,0000,0000,0000,,Where did you get it? Give it to me!
+Dialogue: 0,0:56:27.67,0:56:29.59,Default,,0000,0000,0000,,为什么会在你这儿？还给我
+Dialogue: 0,0:56:29.84,0:56:32.22,英语,,0000,0000,0000,,No, you're old now.
+Dialogue: 0,0:56:29.84,0:56:32.22,Default,,0000,0000,0000,,不 你已经长大了
+Dialogue: 0,0:56:32.68,0:56:34.80,英语,,0000,0000,0000,,What do you want it for, you're old!
+Dialogue: 0,0:56:32.68,0:56:34.80,Default,,0000,0000,0000,,你是个大人还要娃娃做什么
+Dialogue: 0,0:56:55.91,0:56:58.58,英语,,0000,0000,0000,,Open up!
+Dialogue: 0,0:56:55.91,0:56:58.58,Default,,0000,0000,0000,,开门
+Dialogue: 0,0:57:19.39,0:57:21.02,英语,,0000,0000,0000,,Mr. Rossetti!
+Dialogue: 0,0:57:19.39,0:57:21.02,Default,,0000,0000,0000,,罗塞蒂先生
+Dialogue: 0,0:57:21.31,0:57:23.23,英语,,0000,0000,0000,,Please help me!
+Dialogue: 0,0:57:21.31,0:57:23.23,Default,,0000,0000,0000,,帮帮我
+Dialogue: 0,0:57:23.69,0:57:25.02,英语,,0000,0000,0000,,What's the matter?
+Dialogue: 0,0:57:23.69,0:57:25.02,Default,,0000,0000,0000,,出什么事了？
+Dialogue: 0,0:57:25.31,0:57:28.98,英语,,0000,0000,0000,,- Make her go away, I'm afraid. - Who?
+Dialogue: 0,0:57:25.31,0:57:28.98,Default,,0000,0000,0000,,- 让她离开 我害怕 - 谁？
+Dialogue: 0,0:57:29.28,0:57:31.11,英语,,0000,0000,0000,,Who's there?
+Dialogue: 0,0:57:29.28,0:57:31.11,Default,,0000,0000,0000,,谁在这儿？
+Dialogue: 0,0:57:31.86,0:57:34.57,英语,,0000,0000,0000,,A little girl...
+Dialogue: 0,0:57:31.86,0:57:34.57,Default,,0000,0000,0000,,一个小女孩…
+Dialogue: 0,0:57:34.86,0:57:37.24,英语,,0000,0000,0000,,A horrible girl, she won't go away.
+Dialogue: 0,0:57:34.86,0:57:37.24,Default,,0000,0000,0000,,一个可怕的女孩儿 她不肯走
+Dialogue: 0,0:57:37.74,0:57:40.70,英语,,0000,0000,0000,,- A little girl? - Yes.
+Dialogue: 0,0:57:37.74,0:57:40.70,Default,,0000,0000,0000,,- 小女孩？- 是的
+Dialogue: 0,0:57:42.79,0:57:45.00,英语,,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:57:42.79,0:57:45.00,Default,,0000,0000,0000,,别担心
+Dialogue: 0,0:57:45.88,0:57:48.09,英语,,0000,0000,0000,,I'll see what I can do.
+Dialogue: 0,0:57:45.88,0:57:48.09,Default,,0000,0000,0000,,我去看看
+Dialogue: 0,0:58:25.96,0:58:28.38,英语,,0000,0000,0000,,Not there, in the living room.
+Dialogue: 0,0:58:25.96,0:58:28.38,Default,,0000,0000,0000,,不是这儿 她在客厅里
+Dialogue: 0,0:58:45.44,0:58:47.65,英语,,0000,0000,0000,,There's no one here at all.
+Dialogue: 0,0:58:45.44,0:58:47.65,Default,,0000,0000,0000,,这里根本没人
+Dialogue: 0,0:58:48.40,0:58:50.40,英语,,0000,0000,0000,,Come and see for yourself!
+Dialogue: 0,0:58:48.40,0:58:50.40,Default,,0000,0000,0000,,不信你自己过来看看
+Dialogue: 0,0:58:51.02,0:58:55.11,英语,,0000,0000,0000,,There's nothing to be afraid of, no sign of a little girl.
+Dialogue: 0,0:58:51.02,0:58:55.11,Default,,0000,0000,0000,,别害怕了 根本没有什么小女孩
+Dialogue: 0,0:59:04.04,0:59:05.96,英语,,0000,0000,0000,,That's not possible.
+Dialogue: 0,0:59:04.04,0:59:05.96,Default,,0000,0000,0000,,这不可能
+Dialogue: 0,0:59:06.21,0:59:09.21,英语,,0000,0000,0000,,You must have had a bad dream, because of the storm.
+Dialogue: 0,0:59:06.21,0:59:09.21,Default,,0000,0000,0000,,肯定是做噩梦吧 外面雨下得很大
+Dialogue: 0,0:59:11.04,0:59:13.34,英语,,0000,0000,0000,,Look, she bit my hand.
+Dialogue: 0,0:59:11.04,0:59:13.34,Default,,0000,0000,0000,,瞧 她还咬了我的手
+Dialogue: 0,0:59:14.21,0:59:16.80,英语,,0000,0000,0000,,If she did, there's no sign of it.
+Dialogue: 0,0:59:14.21,0:59:16.80,Default,,0000,0000,0000,,可是没有什么印记啊
+Dialogue: 0,0:59:23.39,0:59:27.69,英语,,0000,0000,0000,,I guess you're right, it was a dream. But it seemed so real.
+Dialogue: 0,0:59:23.39,0:59:27.69,Default,,0000,0000,0000,,我想你是对的 肯定是梦 但是它太真实了
+Dialogue: 0,0:59:28.90,0:59:30.86,英语,,0000,0000,0000,,I'm sorry I bothered you.
+Dialogue: 0,0:59:28.90,0:59:30.86,Default,,0000,0000,0000,,很抱歉麻烦你
+Dialogue: 0,0:59:31.19,0:59:32.86,英语,,0000,0000,0000,,Don't mention it.
+Dialogue: 0,0:59:31.19,0:59:32.86,Default,,0000,0000,0000,,别客气
+Dialogue: 0,0:59:33.27,0:59:35.19,英语,,0000,0000,0000,,Don't even joke of such a thing!
+Dialogue: 0,0:59:33.27,0:59:35.19,Default,,0000,0000,0000,,这没什么好介意的
+Dialogue: 0,0:59:35.94,0:59:37.90,英语,,0000,0000,0000,,You're like a daughter to me.
+Dialogue: 0,0:59:35.94,0:59:37.90,Default,,0000,0000,0000,,你就像我女儿一样
+Dialogue: 0,0:59:38.86,0:59:42.16,英语,,0000,0000,0000,,Get a good night's sleep and don't worry about it.
+Dialogue: 0,0:59:38.86,0:59:42.16,Default,,0000,0000,0000,,睡个好觉别再想这些事了
+Dialogue: 0,0:59:43.49,0:59:45.91,英语,,0000,0000,0000,,You have a spot on your shoes.
+Dialogue: 0,0:59:43.49,0:59:45.91,Default,,0000,0000,0000,,您的鞋子上有个污点
+Dialogue: 0,0:59:48.79,0:59:51.83,英语,,0000,0000,0000,,Dear! Another pair of shoes to clean.
+Dialogue: 0,0:59:48.79,0:59:51.83,Default,,0000,0000,0000,,见鬼 又有一双鞋子要洗了
+Dialogue: 0,0:59:53.09,0:59:55.76,英语,,0000,0000,0000,,My nose bleeds when it rains.
+Dialogue: 0,0:59:53.09,0:59:55.76,Default,,0000,0000,0000,,一到下雨天 我就爱流鼻血
+Dialogue: 0,0:59:56.05,0:59:58.17,英语,,0000,0000,0000,,Ever since I was a child.
+Dialogue: 0,0:59:56.05,0:59:58.17,Default,,0000,0000,0000,,从小时候起就这样
+Dialogue: 0,0:59:59.93,1:00:02.18,英语,,0000,0000,0000,,You get some sleep.
+Dialogue: 0,0:59:59.93,1:00:02.18,Default,,0000,0000,0000,,你该好好休息了
+Dialogue: 0,1:00:02.47,1:00:04.35,英语,,0000,0000,0000,,- Thank you. - Good night.
+Dialogue: 0,1:00:02.47,1:00:04.35,Default,,0000,0000,0000,,- 谢谢 - 晚安
+Dialogue: 0,1:00:52.06,1:00:53.77,英语,,0000,0000,0000,,Kitty, kitty!
+Dialogue: 0,1:00:52.06,1:00:53.77,Default,,0000,0000,0000,,猫咪 猫咪
+Dialogue: 0,1:01:04.41,1:01:07.45,英语,,0000,0000,0000,,Where are you hiding?
+Dialogue: 0,1:01:04.41,1:01:07.45,Default,,0000,0000,0000,,你躲在哪儿了？
+Dialogue: 0,1:01:16.50,1:01:18.50,英语,,0000,0000,0000,,Kitty, kitty!
+Dialogue: 0,1:01:16.50,1:01:18.50,Default,,0000,0000,0000,,猫咪 猫咪
+Dialogue: 0,1:01:18.96,1:01:20.55,英语,,0000,0000,0000,,Where have you got to?
+Dialogue: 0,1:01:18.96,1:01:20.55,Default,,0000,0000,0000,,你跑到哪儿去了？
+Dialogue: 0,1:01:23.47,1:01:26.14,英语,,0000,0000,0000,,I haven't forgotten about you.
+Dialogue: 0,1:01:23.47,1:01:26.14,Default,,0000,0000,0000,,我还没忘记你哪
+Dialogue: 0,1:02:26.57,1:02:29.62,英语,,0000,0000,0000,,She was such a lovely girl!
+Dialogue: 0,1:02:26.57,1:02:29.62,Default,,0000,0000,0000,,…她是个很好的姑娘
+Dialogue: 0,1:02:30.08,1:02:33.45,英语,,0000,0000,0000,,She asked me to bring her mail up but she wasn't answering.
+Dialogue: 0,1:02:30.08,1:02:33.45,Default,,0000,0000,0000,,我上去送信给她但没人答应
+Dialogue: 0,1:02:34.96,1:02:37.88,英语,,0000,0000,0000,,- How did it happen? - They don't know.
+Dialogue: 0,1:02:34.96,1:02:37.88,Default,,0000,0000,0000,,- 怎么会发生这样的事？- 他们也不知道
+Dialogue: 0,1:02:38.17,1:02:40.25,英语,,0000,0000,0000,,The poor girl must have fallen ill.
+Dialogue: 0,1:02:38.17,1:02:40.25,Default,,0000,0000,0000,,那个可怜的女孩肯定是晕倒了
+Dialogue: 0,1:02:40.55,1:02:43.01,英语,,0000,0000,0000,,- Does her family know? - She had none.
+Dialogue: 0,1:02:40.55,1:02:43.01,Default,,0000,0000,0000,,- 她的家人知道了吗？- 她没有亲人
+Dialogue: 0,1:02:43.30,1:02:45.09,英语,,0000,0000,0000,,She told me she was all alone.
+Dialogue: 0,1:02:43.30,1:02:45.09,Default,,0000,0000,0000,,她说自己一直是孤身一人
+Dialogue: 0,1:02:45.38,1:02:49.01,英语,,0000,0000,0000,,- Your sister found her? - Yes, she was supposed to clean.
+Dialogue: 0,1:02:45.38,1:02:49.01,Default,,0000,0000,0000,,- 你妹妹发现她的？- 是的 她上去打扫
+Dialogue: 0,1:02:49.30,1:02:54.10,英语,,0000,0000,0000,,She found her in the bathroom. It was horrible!
+Dialogue: 0,1:02:49.30,1:02:54.10,Default,,0000,0000,0000,,然后在浴室里发现了她 那太可怕了
+Dialogue: 0,1:02:54.39,1:02:58.15,英语,,0000,0000,0000,,It must have been, what a shock!
+Dialogue: 0,1:02:54.39,1:02:58.15,Default,,0000,0000,0000,,当然 这太令人震惊了
+Dialogue: 0,1:02:58.40,1:03:00.98,英语,,0000,0000,0000,,- Who are you talking about? - Miss!
+Dialogue: 0,1:02:58.40,1:03:00.98,Default,,0000,0000,0000,,- 你们在说谁？- 小姐
+Dialogue: 0,1:03:01.27,1:03:04.19,英语,,0000,0000,0000,,- It's dreadful! - What happened?
+Dialogue: 0,1:03:01.27,1:03:04.19,Default,,0000,0000,0000,,- 太可怕了 - 出什么事了？
+Dialogue: 0,1:03:04.44,1:03:07.49,英语,,0000,0000,0000,,Who could have imagined, of course it was an accident...
+Dialogue: 0,1:03:04.44,1:03:07.49,Default,,0000,0000,0000,,谁能想象得到 会有这样的意外发生…
+Dialogue: 0,1:03:07.99,1:03:11.03,英语,,0000,0000,0000,,Francesca is dead!
+Dialogue: 0,1:03:07.99,1:03:11.03,Default,,0000,0000,0000,,弗朗西丝卡死了
+Dialogue: 0,1:03:12.58,1:03:14.00,英语,,0000,0000,0000,,What?
+Dialogue: 0,1:03:12.58,1:03:14.00,Default,,0000,0000,0000,,什么？
+Dialogue: 0,1:03:14.50,1:03:16.50,英语,,0000,0000,0000,,- What? - She's dead.
+Dialogue: 0,1:03:14.50,1:03:16.50,Default,,0000,0000,0000,,- 什么？- 她死了
+Dialogue: 0,1:03:16.96,1:03:19.13,英语,,0000,0000,0000,,They found her in the bathtub.
+Dialogue: 0,1:03:16.96,1:03:19.13,Default,,0000,0000,0000,,他们在浴缸里找到了她
+Dialogue: 0,1:03:19.42,1:03:23.96,英语,,0000,0000,0000,,She was completely naked. It was awful.
+Dialogue: 0,1:03:19.42,1:03:23.96,Default,,0000,0000,0000,,她当时光着身子 太可怖了
+Dialogue: 0,1:03:24.26,1:03:27.47,英语,,0000,0000,0000,,She must have had too hot of a bath.
+Dialogue: 0,1:03:24.26,1:03:27.47,Default,,0000,0000,0000,,肯定是洗澡的时候温度太高了
+Dialogue: 0,1:03:27.72,1:03:32.18,英语,,0000,0000,0000,,Then felt giddy and her heart wasn't up to it.
+Dialogue: 0,1:03:27.72,1:03:32.18,Default,,0000,0000,0000,,然后导致晕厥 这让她的心脏出了毛病
+Dialogue: 0,1:03:32.76,1:03:37.14,英语,,0000,0000,0000,,She was all alone, poor creature. What a tragedy!
+Dialogue: 0,1:03:32.76,1:03:37.14,Default,,0000,0000,0000,,她是个孤儿 可怜的人 太悲惨了
+Dialogue: 0,1:03:40.02,1:03:42.52,英语,,0000,0000,0000,,Miss! There's no use!
+Dialogue: 0,1:03:40.02,1:03:42.52,Default,,0000,0000,0000,,小姐 没有用的
+Dialogue: 0,1:03:43.02,1:03:46.03,英语,,0000,0000,0000,,It's locked, they've taken her body away.
+Dialogue: 0,1:03:43.02,1:03:46.03,Default,,0000,0000,0000,,那儿锁起来了 他们已经把她的尸体运走了
+Dialogue: 0,1:04:08.72,1:04:11.01,英语,,0000,0000,0000,,See? I've come back early.
+Dialogue: 0,1:04:08.72,1:04:11.01,Default,,0000,0000,0000,,瞧？我这么快就回来了
+Dialogue: 0,1:04:12.76,1:04:15.60,英语,,0000,0000,0000,,- Francesca's dead. - I know.
+Dialogue: 0,1:04:12.76,1:04:15.60,Default,,0000,0000,0000,,- 弗朗西丝卡死了 - 我知道
+Dialogue: 0,1:04:16.06,1:04:18.02,英语,,0000,0000,0000,,It's scary.
+Dialogue: 0,1:04:16.06,1:04:18.02,Default,,0000,0000,0000,,太可怕了
+Dialogue: 0,1:04:19.77,1:04:22.56,英语,,0000,0000,0000,,I didn't know she had a weak heart.
+Dialogue: 0,1:04:19.77,1:04:22.56,Default,,0000,0000,0000,,我不知道她有心脏病
+Dialogue: 0,1:04:24.23,1:04:28.19,英语,,0000,0000,0000,,I'm so afraid, all these horrible things.
+Dialogue: 0,1:04:24.23,1:04:28.19,Default,,0000,0000,0000,,我好害怕 这么多可怕的事情
+Dialogue: 0,1:04:28.82,1:04:30.36,英语,,0000,0000,0000,,It's all right.
+Dialogue: 0,1:04:28.82,1:04:30.36,Default,,0000,0000,0000,,没事的
+Dialogue: 0,1:04:57.35,1:05:00.31,英语,,0000,0000,0000,,Everything is ready. Shall we proceed?
+Dialogue: 0,1:04:57.35,1:05:00.31,Default,,0000,0000,0000,,一切都准备好了 我们开始吧？
+Dialogue: 0,1:06:42.20,1:06:45.21,英语,,0000,0000,0000,,"Though she haunts me phantom wise,
+Dialogue: 0,1:06:42.20,1:06:45.21,Default,,0000,0000,0000,,但她还萦绕梦里
+Dialogue: 0,1:06:45.50,1:06:47.63,英语,,0000,0000,0000,,Alice under skies, never seen by eyes.
+Dialogue: 0,1:06:45.50,1:06:47.63,Default,,0000,0000,0000,,爱丽丝穿过光明 只是不牵手的倩影
+Dialogue: 0,1:06:47.88,1:06:50.34,英语,,0000,0000,0000,,Children yet, the tale to hear.
+Dialogue: 0,1:06:47.88,1:06:50.34,Default,,0000,0000,0000,,好奇的小童们 捂不住的心房 不知不觉睡安详
+Dialogue: 0,1:06:50.63,1:06:53.30,英语,,0000,0000,0000,,In a wonderland they lie.
+Dialogue: 0,1:06:50.63,1:06:53.30,Default,,0000,0000,0000,,他们躺在仙境
+Dialogue: 0,1:06:53.76,1:06:55.63,英语,,0000,0000,0000,,Dreaming as the days go by,
+Dialogue: 0,1:06:53.76,1:06:55.63,Default,,0000,0000,0000,,吮吸着日月
+Dialogue: 0,1:06:57.26,1:06:59.47,英语,,0000,0000,0000,,dreaming as the summers die.
+Dialogue: 0,1:06:57.26,1:06:59.47,Default,,0000,0000,0000,,回味仲夏的吻别
+Dialogue: 0,1:06:59.76,1:07:02.60,英语,,0000,0000,0000,,Ever drifting down the stream,
+Dialogue: 0,1:06:59.76,1:07:02.60,Default,,0000,0000,0000,,这不息的追逐
+Dialogue: 0,1:07:04.39,1:07:06.77,英语,,0000,0000,0000,,lingering in the golden gleam.
+Dialogue: 0,1:07:04.39,1:07:06.77,Default,,0000,0000,0000,,镀满了金光
+Dialogue: 0,1:07:08.52,1:07:10.90,Default,,0000,0000,0000,,人生莫非梦一场？\NLife, what is it but a dream?“
+Dialogue: 0,1:10:31.72,1:10:33.64,英语,,0000,0000,0000,,Excuse me, do you have any blackberry jam?
+Dialogue: 0,1:10:31.72,1:10:33.64,Default,,0000,0000,0000,,对不起 请问有黑莓果酱吗？
+Dialogue: 0,1:10:33.98,1:10:35.64,英语,,0000,0000,0000,,- Yes. - I'll take all you've got.
+Dialogue: 0,1:10:33.98,1:10:35.64,Default,,0000,0000,0000,,- 有 - 我全部都要
+Dialogue: 0,1:10:35.94,1:10:37.40,英语,,0000,0000,0000,,All right.
+Dialogue: 0,1:10:35.94,1:10:37.40,Default,,0000,0000,0000,,好的
+Dialogue: 0,1:10:44.82,1:10:46.11,英语,,0000,0000,0000,,Is that all you've got?
+Dialogue: 0,1:10:44.82,1:10:46.11,Default,,0000,0000,0000,,你这儿只有这些了？
+Dialogue: 0,1:10:46.61,1:10:49.91,英语,,0000,0000,0000,,I've got other kinds but this is all the blackberry.
+Dialogue: 0,1:10:46.61,1:10:49.91,Default,,0000,0000,0000,,还有其他种类的 不过黑莓酱就剩这些了
+Dialogue: 0,1:10:53.08,1:10:55.50,英语,,0000,0000,0000,,Wait... You forgot to pay.
+Dialogue: 0,1:10:53.08,1:10:55.50,Default,,0000,0000,0000,,等等…您还没付钱
+Dialogue: 0,1:10:56.04,1:10:57.58,英语,,0000,0000,0000,,Sorry.
+Dialogue: 0,1:10:56.04,1:10:57.58,Default,,0000,0000,0000,,抱歉
+Dialogue: 0,1:11:02.46,1:11:06.05,英语,,0000,0000,0000,,Hello, sorry to bother you. Were you sleeping?
+Dialogue: 0,1:11:02.46,1:11:06.05,Default,,0000,0000,0000,,你好 很抱歉打扰你 你在睡觉？
+Dialogue: 0,1:11:06.55,1:11:09.05,英语,,0000,0000,0000,,- No, what do you want? - Chopin is missing!
+Dialogue: 0,1:11:06.55,1:11:09.05,Default,,0000,0000,0000,,- 不 有什么事吗？- 我的猫不见了
+Dialogue: 0,1:11:09.55,1:11:11.51,英语,,0000,0000,0000,,Have you seen him around?
+Dialogue: 0,1:11:09.55,1:11:11.51,Default,,0000,0000,0000,,您看见他了吗？
+Dialogue: 0,1:11:11.76,1:11:14.89,英语,,0000,0000,0000,,- Seen who? - My black cat.
+Dialogue: 0,1:11:11.76,1:11:14.89,Default,,0000,0000,0000,,- 看见谁？- 我的小黑猫
+Dialogue: 0,1:11:15.18,1:11:18.48,英语,,0000,0000,0000,,He ran away last night, he's in heat.
+Dialogue: 0,1:11:15.18,1:11:18.48,Default,,0000,0000,0000,,他昨晚跑出去了 他正值发情期
+Dialogue: 0,1:11:18.77,1:11:21.69,英语,,0000,0000,0000,,I couldn't bear him mating with one of those alley cats!
+Dialogue: 0,1:11:18.77,1:11:21.69,Default,,0000,0000,0000,,我可不想看到他和外面的那些野猫乱搞
+Dialogue: 0,1:11:21.98,1:11:24.07,英语,,0000,0000,0000,,Sorry, but I haven't seen him.
+Dialogue: 0,1:11:21.98,1:11:24.07,Default,,0000,0000,0000,,对不起 不过我没看见他
+Dialogue: 0,1:11:27.15,1:11:29.74,英语,,0000,0000,0000,,They've all lost their minds!
+Dialogue: 0,1:11:27.15,1:11:29.74,Default,,0000,0000,0000,,他们脑子都坏了
+Dialogue: 0,1:12:20.58,1:12:22.50,英语,,0000,0000,0000,,Where did you get that box?
+Dialogue: 0,1:12:20.58,1:12:22.50,Default,,0000,0000,0000,,你从哪儿找到的这盒子？
+Dialogue: 0,1:12:22.96,1:12:25.13,英语,,0000,0000,0000,,It's mine, I had it at home.
+Dialogue: 0,1:12:22.96,1:12:25.13,Default,,0000,0000,0000,,这是我的 我家的
+Dialogue: 0,1:12:26.84,1:12:27.92,英语,,0000,0000,0000,,Home?
+Dialogue: 0,1:12:26.84,1:12:27.92,Default,,0000,0000,0000,,你家？
+Dialogue: 0,1:12:29.01,1:12:30.93,英语,,0000,0000,0000,,- Where do you live? - You know very well.
+Dialogue: 0,1:12:29.01,1:12:30.93,Default,,0000,0000,0000,,- 你住在哪儿？- 你应该很清楚
+Dialogue: 0,1:12:32.05,1:12:35.18,英语,,0000,0000,0000,,- Via Cavalier D'Arpino. - What?
+Dialogue: 0,1:12:32.05,1:12:35.18,Default,,0000,0000,0000,,- Via Cavalier D'Arpino - 什么？
+Dialogue: 0,1:12:35.64,1:12:37.85,英语,,0000,0000,0000,,Via Cavalier D'Arpino, number 5.
+Dialogue: 0,1:12:35.64,1:12:37.85,Default,,0000,0000,0000,,Via Cavalier D'Arpino 5号
+Dialogue: 0,1:12:38.77,1:12:40.23,英语,,0000,0000,0000,,I've brought you a surprise.
+Dialogue: 0,1:12:38.77,1:12:40.23,Default,,0000,0000,0000,,我给你带来了一个惊喜
+Dialogue: 0,1:12:58.83,1:13:01.17,英语,,0000,0000,0000,,Why have you brought them here?
+Dialogue: 0,1:12:58.83,1:13:01.17,Default,,0000,0000,0000,,为什么要把这些带来？
+Dialogue: 0,1:13:01.62,1:13:04.50,英语,,0000,0000,0000,,- I've come to live with you. - No!
+Dialogue: 0,1:13:01.62,1:13:04.50,Default,,0000,0000,0000,,- 我要过来和你一起 - 不
+Dialogue: 0,1:13:06.88,1:13:10.88,英语,,0000,0000,0000,,I'll be happy here, you have all that blackberry jam.
+Dialogue: 0,1:13:06.88,1:13:10.88,Default,,0000,0000,0000,,我在这儿会很开心 因为你有许多黑莓果酱
+Dialogue: 0,1:13:11.18,1:13:15.60,英语,,0000,0000,0000,,Look under the bottom dress for your surprise.
+Dialogue: 0,1:13:11.18,1:13:15.60,Default,,0000,0000,0000,,看看裙子底下 给你的惊喜
+Dialogue: 0,1:13:16.56,1:13:18.52,英语,,0000,0000,0000,,I want you to be happy too.
+Dialogue: 0,1:13:16.56,1:13:18.52,Default,,0000,0000,0000,,我想你会很开心的
+Dialogue: 0,1:13:34.03,1:13:36.16,英语,,0000,0000,0000,,You shouldn't have.
+Dialogue: 0,1:13:34.03,1:13:36.16,Default,,0000,0000,0000,,不会的
+Dialogue: 0,1:13:55.26,1:13:58.93,英语,,0000,0000,0000,,I've always wanted a black cat of my own.
+Dialogue: 0,1:13:55.26,1:13:58.93,Default,,0000,0000,0000,,我一直希望能有只黑猫
+Dialogue: 0,1:14:00.02,1:14:04.10,英语,,0000,0000,0000,,We can have him stuffed to look like he's alive.
+Dialogue: 0,1:14:00.02,1:14:04.10,Default,,0000,0000,0000,,我们可以想想办法 让他像活的一样
+Dialogue: 0,1:14:07.94,1:14:12.57,英语,,0000,0000,0000,,<i>Elisabeth, I'm fine. I don't need anything.</i>
+Dialogue: 0,1:14:07.94,1:14:12.57,Default,,0000,0000,0000,,伊丽莎白 我很好 我什么也不需要
+Dialogue: 0,1:14:12.86,1:14:17.12,英语,,0000,0000,0000,,Can you tell everyone I've left,
+Dialogue: 0,1:14:12.86,1:14:17.12,Default,,0000,0000,0000,,你告诉大家我要离开
+Dialogue: 0,1:14:17.41,1:14:19.87,英语,,0000,0000,0000,,that I'll be back in a week?
+Dialogue: 0,1:14:17.41,1:14:19.87,Default,,0000,0000,0000,,一个星期才能回来了吗？
+Dialogue: 0,1:14:20.74,1:14:21.91,英语,,0000,0000,0000,,Yes.
+Dialogue: 0,1:14:20.74,1:14:21.91,Default,,0000,0000,0000,,是的
+Dialogue: 0,1:14:22.91,1:14:24.67,英语,,0000,0000,0000,,- Thank you. - Okay.
+Dialogue: 0,1:14:22.91,1:14:24.67,Default,,0000,0000,0000,,- 谢谢 - 好
+Dialogue: 0,1:14:24.92,1:14:27.58,英语,,0000,0000,0000,,She said she'll be back next week.
+Dialogue: 0,1:14:24.92,1:14:27.58,Default,,0000,0000,0000,,她说自己下个星期才会回来
+Dialogue: 0,1:14:29.25,1:14:31.17,英语,,0000,0000,0000,,But she sounded strange.
+Dialogue: 0,1:14:29.25,1:14:31.17,Default,,0000,0000,0000,,但她听上去有些不对劲
+Dialogue: 0,1:14:54.99,1:14:57.87,英语,,0000,0000,0000,,Yes, he said that will be fine.
+Dialogue: 0,1:14:54.99,1:14:57.87,Default,,0000,0000,0000,,是的 他说可以搞定
+Dialogue: 0,1:14:58.45,1:15:00.95,英语,,0000,0000,0000,,But you'll have to wait three weeks.
+Dialogue: 0,1:14:58.45,1:15:00.95,Default,,0000,0000,0000,,但是你得等三个星期左右
+Dialogue: 0,1:15:01.24,1:15:02.87,英语,,0000,0000,0000,,That long?
+Dialogue: 0,1:15:01.24,1:15:02.87,Default,,0000,0000,0000,,那么久？
+Dialogue: 0,1:15:03.12,1:15:05.00,英语,,0000,0000,0000,,Couldn't he do it quicker?
+Dialogue: 0,1:15:03.12,1:15:05.00,Default,,0000,0000,0000,,能不能让他快点？
+Dialogue: 0,1:15:05.83,1:15:08.88,英语,,0000,0000,0000,,It's August and we're backed up.
+Dialogue: 0,1:15:05.83,1:15:08.88,Default,,0000,0000,0000,,现在正是活儿多的季节
+Dialogue: 0,1:15:09.21,1:15:11.21,英语,,0000,0000,0000,,I'll see what we can do.
+Dialogue: 0,1:15:09.21,1:15:11.21,Default,,0000,0000,0000,,我会尽量想办法的
+Dialogue: 0,1:15:13.21,1:15:16.34,英语,,0000,0000,0000,,But you'll have to leave an advance.
+Dialogue: 0,1:15:13.21,1:15:16.34,Default,,0000,0000,0000,,但是你得先提供预付款
+Dialogue: 0,1:15:17.09,1:15:20.22,英语,,0000,0000,0000,,Sorry but we don't accept orders without a down payment.
+Dialogue: 0,1:15:17.09,1:15:20.22,Default,,0000,0000,0000,,很抱歉 但我们不接没有定金的订单
+Dialogue: 0,1:15:20.85,1:15:24.22,英语,,0000,0000,0000,,I have no money with me, I left without my purse.
+Dialogue: 0,1:15:20.85,1:15:24.22,Default,,0000,0000,0000,,我身上没有钱 我没带钱包
+Dialogue: 0,1:15:26.10,1:15:28.69,英语,,0000,0000,0000,,Can you leave your name and address?
+Dialogue: 0,1:15:26.10,1:15:28.69,Default,,0000,0000,0000,,那能留下你的姓名地址吗？
+Dialogue: 0,1:15:49.25,1:15:50.17,英语,,0000,0000,0000,,Here.
+Dialogue: 0,1:15:49.25,1:15:50.17,Default,,0000,0000,0000,,给
+Dialogue: 0,1:15:52.04,1:15:53.09,英语,,0000,0000,0000,,Thanks.
+Dialogue: 0,1:15:52.04,1:15:53.09,Default,,0000,0000,0000,,谢谢
+Dialogue: 0,1:15:55.96,1:15:58.13,英语,,0000,0000,0000,,What about your telephone?
+Dialogue: 0,1:15:55.96,1:15:58.13,Default,,0000,0000,0000,,您的电话号码是多少？
+Dialogue: 0,1:15:59.09,1:16:00.43,英语,,0000,0000,0000,,We don't have one.
+Dialogue: 0,1:15:59.09,1:16:00.43,Default,,0000,0000,0000,,我没有电话
+Dialogue: 0,1:16:03.22,1:16:05.77,英语,,0000,0000,0000,,Can you wait a moment? I'll be right back.
+Dialogue: 0,1:16:03.22,1:16:05.77,Default,,0000,0000,0000,,请稍等一会儿 我马上回来
+Dialogue: 0,1:16:20.11,1:16:21.74,英语,,0000,0000,0000,,Silvia...
+Dialogue: 0,1:16:20.11,1:16:21.74,Default,,0000,0000,0000,,西尔维娅…
+Dialogue: 0,1:16:22.28,1:16:24.79,英语,,0000,0000,0000,,Little Silvia...
+Dialogue: 0,1:16:22.28,1:16:24.79,Default,,0000,0000,0000,,小西尔维娅…
+Dialogue: 0,1:16:25.04,1:16:26.91,英语,,0000,0000,0000,,Silvia Hacherman.
+Dialogue: 0,1:16:25.04,1:16:26.91,Default,,0000,0000,0000,,西尔维娅·哈切曼
+Dialogue: 0,1:16:28.50,1:16:30.29,英语,,0000,0000,0000,,Don't you remember me?
+Dialogue: 0,1:16:28.50,1:16:30.29,Default,,0000,0000,0000,,还记得我吗？
+Dialogue: 0,1:16:31.46,1:16:32.92,英语,,0000,0000,0000,,Yes.
+Dialogue: 0,1:16:31.46,1:16:32.92,Default,,0000,0000,0000,,是的
+Dialogue: 0,1:16:33.29,1:16:35.09,英语,,0000,0000,0000,,You're Nicola.
+Dialogue: 0,1:16:33.29,1:16:35.09,Default,,0000,0000,0000,,你是Nicola
+Dialogue: 0,1:16:37.13,1:16:39.68,英语,,0000,0000,0000,,Why did you write this address?
+Dialogue: 0,1:16:37.13,1:16:39.68,Default,,0000,0000,0000,,为什么要写这个地址？
+Dialogue: 0,1:16:40.38,1:16:43.30,英语,,0000,0000,0000,,You know nobody lives there anymore. Where are you going?
+Dialogue: 0,1:16:40.38,1:16:43.30,Default,,0000,0000,0000,,你知道那儿根本没人住了 你要去哪儿？
+Dialogue: 0,1:16:54.06,1:16:56.36,英语,,0000,0000,0000,,I don't need you anymore.
+Dialogue: 0,1:16:54.06,1:16:56.36,Default,,0000,0000,0000,,没你的事了
+Dialogue: 0,1:17:03.49,1:17:07.45,英语,,0000,0000,0000,,<i>Strong north-westerly winds.</i>
+Dialogue: 0,1:17:03.49,1:17:07.45,Default,,0000,0000,0000,,一股强大的西北风
+Dialogue: 0,1:17:08.29,1:17:10.75,英语,,0000,0000,0000,,<i>Partly sunny skies</i>
+Dialogue: 0,1:17:08.29,1:17:10.75,Default,,0000,0000,0000,,局部地区天晴
+Dialogue: 0,1:17:11.00,1:17:15.00,英语,,0000,0000,0000,,<i>except for a few cloud formations</i>
+Dialogue: 0,1:17:11.00,1:17:15.00,Default,,0000,0000,0000,,除了持续几天炎热外
+Dialogue: 0,1:17:15.29,1:17:20.42,英语,,0000,0000,0000,,<i>due to mid-Adriatic rain showers.</i>
+Dialogue: 0,1:17:15.29,1:17:20.42,Default,,0000,0000,0000,,由于中部亚得里亚阵雨影响
+Dialogue: 0,1:17:41.49,1:17:44.11,英语,,0000,0000,0000,,Have you made up your mind where?
+Dialogue: 0,1:17:41.49,1:17:44.11,Default,,0000,0000,0000,,请问您要去哪儿？
+Dialogue: 0,1:17:44.36,1:17:46.24,英语,,0000,0000,0000,,Via Cavalier D'Arpino, number 5.
+Dialogue: 0,1:17:44.36,1:17:46.24,Default,,0000,0000,0000,,Via Cavalier D'Arpino 5号
+Dialogue: 0,1:17:46.87,1:17:49.08,英语,,0000,0000,0000,,Behind the botanical gardens.
+Dialogue: 0,1:17:46.87,1:17:49.08,Default,,0000,0000,0000,,就在植物园的后面
+Dialogue: 0,1:22:36.45,1:22:39.20,英语,,0000,0000,0000,,Thought you'd be safe in your old room.
+Dialogue: 0,1:22:36.45,1:22:39.20,Default,,0000,0000,0000,,你以为回到老家就能安全
+Dialogue: 0,1:22:39.49,1:22:42.54,英语,,0000,0000,0000,,Now your mother's not here to protect you.
+Dialogue: 0,1:22:39.49,1:22:42.54,Default,,0000,0000,0000,,现在你母亲也不能保护你了
+Dialogue: 0,1:22:42.79,1:22:46.75,英语,,0000,0000,0000,,Remember how pretty she was? You ended all that...
+Dialogue: 0,1:22:42.79,1:22:46.75,Default,,0000,0000,0000,,还记得那时她有多美吗？是你结束了一切…
+Dialogue: 0,1:22:47.21,1:22:48.34,英语,,0000,0000,0000,,You...
+Dialogue: 0,1:22:47.21,1:22:48.34,Default,,0000,0000,0000,,是你…
+Dialogue: 0,1:22:49.75,1:22:52.21,英语,,0000,0000,0000,,murdering little bitch!
+Dialogue: 0,1:22:49.75,1:22:52.21,Default,,0000,0000,0000,,…该死的小婊子
+Dialogue: 0,1:23:13.49,1:23:15.65,英语,,0000,0000,0000,,Remember your mother?
+Dialogue: 0,1:23:13.49,1:23:15.65,Default,,0000,0000,0000,,还记得你母亲吗？
+Dialogue: 0,1:23:15.90,1:23:19.53,英语,,0000,0000,0000,,Impaled on the spikes of the front gate?
+Dialogue: 0,1:23:15.90,1:23:19.53,Default,,0000,0000,0000,,在前门被刺的时候？
+Dialogue: 0,1:25:36.54,1:25:37.88,英语,,0000,0000,0000,,What are you doing here?
+Dialogue: 0,1:25:36.54,1:25:37.88,Default,,0000,0000,0000,,你怎么在这儿？
+Dialogue: 0,1:25:40.63,1:25:42.80,英语,,0000,0000,0000,,What's your problem?
+Dialogue: 0,1:25:40.63,1:25:42.80,Default,,0000,0000,0000,,出什么事了？
+Dialogue: 0,1:25:47.64,1:25:49.68,英语,,0000,0000,0000,,I don't want to go home.
+Dialogue: 0,1:25:47.64,1:25:49.68,Default,,0000,0000,0000,,我不想回家
+Dialogue: 0,1:25:49.93,1:25:53.52,英语,,0000,0000,0000,,- Nicola. - What are you talking about?
+Dialogue: 0,1:25:49.93,1:25:53.52,Default,,0000,0000,0000,,- Nicola - 你在说什么？
+Dialogue: 0,1:25:56.77,1:25:58.57,英语,,0000,0000,0000,,I killed him.
+Dialogue: 0,1:25:56.77,1:25:58.57,Default,,0000,0000,0000,,我杀了他
+Dialogue: 0,1:26:01.44,1:26:03.57,英语,,0000,0000,0000,,- Hold me. - Another one of your fantasies...
+Dialogue: 0,1:26:01.44,1:26:03.57,Default,,0000,0000,0000,,- 帮我 - 你又产生幻觉了…
+Dialogue: 0,1:26:11.37,1:26:13.87,英语,,0000,0000,0000,,In there, in my old bedroom.
+Dialogue: 0,1:26:11.37,1:26:13.87,Default,,0000,0000,0000,,就在这儿 我小时候的房间
+Dialogue: 0,1:26:19.96,1:26:21.92,英语,,0000,0000,0000,,In your old bedroom...
+Dialogue: 0,1:26:19.96,1:26:21.92,Default,,0000,0000,0000,,在你的房间…
+Dialogue: 0,1:26:30.77,1:26:32.77,英语,,0000,0000,0000,,There's no one at all.
+Dialogue: 0,1:26:30.77,1:26:32.77,Default,,0000,0000,0000,,这儿根本没人
+Dialogue: 0,1:26:33.94,1:26:36.60,英语,,0000,0000,0000,,Come in, there's nobody here.
+Dialogue: 0,1:26:33.94,1:26:36.60,Default,,0000,0000,0000,,进来 没有人在这儿
+Dialogue: 0,1:26:37.56,1:26:39.48,英语,,0000,0000,0000,,See for yourself.
+Dialogue: 0,1:26:37.56,1:26:39.48,Default,,0000,0000,0000,,你自己过来看看
+Dialogue: 0,1:26:40.53,1:26:42.69,英语,,0000,0000,0000,,Where is this man?
+Dialogue: 0,1:26:40.53,1:26:42.69,Default,,0000,0000,0000,,哪有什么男人？
+Dialogue: 0,1:26:44.99,1:26:47.82,英语,,0000,0000,0000,,- Why did you come to this place? - It's my house.
+Dialogue: 0,1:26:44.99,1:26:47.82,Default,,0000,0000,0000,,- 为什么你当时会来这里？- 这是我的家
+Dialogue: 0,1:26:53.62,1:26:55.00,英语,,0000,0000,0000,,Listen.
+Dialogue: 0,1:26:53.62,1:26:55.00,Default,,0000,0000,0000,,快听着
+Dialogue: 0,1:26:56.50,1:26:58.79,英语,,0000,0000,0000,,Silvia's back.
+Dialogue: 0,1:26:56.50,1:26:58.79,Default,,0000,0000,0000,,西尔维娅回来了
+Dialogue: 0,1:27:00.04,1:27:02.42,英语,,0000,0000,0000,,- I have to go home. - Stop it.
+Dialogue: 0,1:27:00.04,1:27:02.42,Default,,0000,0000,0000,,- 我回家了 - 别这样
+Dialogue: 0,1:27:03.17,1:27:05.01,英语,,0000,0000,0000,,That's enough of this.
+Dialogue: 0,1:27:03.17,1:27:05.01,Default,,0000,0000,0000,,已经闹够了吧
+Dialogue: 0,1:27:05.72,1:27:07.97,英语,,0000,0000,0000,,- I'm taking you home. - Don't touch me!
+Dialogue: 0,1:27:05.72,1:27:07.97,Default,,0000,0000,0000,,- 我带你回去 - 别碰我
+Dialogue: 0,1:27:08.43,1:27:10.01,英语,,0000,0000,0000,,I'm not yours!
+Dialogue: 0,1:27:08.43,1:27:10.01,Default,,0000,0000,0000,,我不是你的
+Dialogue: 0,1:27:45.63,1:27:47.43,英语,,0000,0000,0000,,<i>Hello, Silvia?</i>
+Dialogue: 0,1:27:45.63,1:27:47.43,Default,,0000,0000,0000,,喂 西尔维娅？
+Dialogue: 0,1:27:47.68,1:27:51.14,英语,,0000,0000,0000,,<i>Silvia? Answer me!</i>
+Dialogue: 0,1:27:47.68,1:27:51.14,Default,,0000,0000,0000,,西尔维娅？回答我
+Dialogue: 0,1:28:03.98,1:28:05.69,英语,,0000,0000,0000,,Only Silvia's good.
+Dialogue: 0,1:28:03.98,1:28:05.69,Default,,0000,0000,0000,,只有西尔维娅最好
+Dialogue: 0,1:28:05.94,1:28:09.16,英语,,0000,0000,0000,,Everyone else is evil and wants to hurt us.
+Dialogue: 0,1:28:05.94,1:28:09.16,Default,,0000,0000,0000,,其他人都那样邪恶 想要伤害我们
+Dialogue: 0,1:28:09.61,1:28:13.16,英语,,0000,0000,0000,,Only Silvia's good. Only Silvia's good.
+Dialogue: 0,1:28:09.61,1:28:13.16,Default,,0000,0000,0000,,只有西尔维娅最好 只有西尔维娅最好
+Dialogue: 0,1:28:17.87,1:28:19.75,英语,,0000,0000,0000,,Stop it!
+Dialogue: 0,1:28:17.87,1:28:19.75,Default,,0000,0000,0000,,住手
+Dialogue: 0,1:28:21.54,1:28:24.92,英语,,0000,0000,0000,,Stop it! You've got to get ready!
+Dialogue: 0,1:28:21.54,1:28:24.92,Default,,0000,0000,0000,,快停下 你要做好准备
+Dialogue: 0,1:28:47.24,1:28:51.45,英语,,0000,0000,0000,,Don't leave me, don't ever leave me.
+Dialogue: 0,1:28:47.24,1:28:51.45,Default,,0000,0000,0000,,别离开我 永远都不要离开我
+Dialogue: 0,1:28:52.07,1:28:53.95,英语,,0000,0000,0000,,No one else loves me.
+Dialogue: 0,1:28:52.07,1:28:53.95,Default,,0000,0000,0000,,没有人再爱我了
+Dialogue: 0,1:28:55.03,1:28:57.58,英语,,0000,0000,0000,,Today is a big holiday.
+Dialogue: 0,1:28:55.03,1:28:57.58,Default,,0000,0000,0000,,今天是个很棒的节日
+Dialogue: 0,1:28:59.12,1:29:02.75,英语,,0000,0000,0000,,You must look your best. The whole city's lit up.
+Dialogue: 0,1:28:59.12,1:29:02.75,Default,,0000,0000,0000,,你一定要打扮得最漂亮 把整个城市都能点亮
+Dialogue: 0,1:29:04.63,1:29:05.92,英语,,0000,0000,0000,,I'm so glad.
+Dialogue: 0,1:29:04.63,1:29:05.92,Default,,0000,0000,0000,,我很高兴
+Dialogue: 0,1:29:07.84,1:29:11.76,英语,,0000,0000,0000,,Now you must do what I say, you must obey me.
+Dialogue: 0,1:29:07.84,1:29:11.76,Default,,0000,0000,0000,,现在你必须按我说的去做 一定要听我的
+Dialogue: 0,1:29:13.64,1:29:14.60,英语,,0000,0000,0000,,Yes.
+Dialogue: 0,1:29:13.64,1:29:14.60,Default,,0000,0000,0000,,好的
+Dialogue: 0,1:31:12.17,1:31:15.26,英语,,0000,0000,0000,," 'The Dormouse is asleep again,' said the Mad Hatter.
+Dialogue: 0,1:31:12.17,1:31:15.26,Default,,0000,0000,0000,,"睡鼠又睡着了" 帽匠一边说着
+Dialogue: 0,1:31:15.68,1:31:18.93,英语,,0000,0000,0000,,And he poured hot tea on his nose.
+Dialogue: 0,1:31:15.68,1:31:18.93,Default,,0000,0000,0000,,一边在睡鼠的鼻子上倒了点热茶
+Dialogue: 0,1:31:19.22,1:31:22.35,英语,,0000,0000,0000,,The Dormouse shook his head impatiently
+Dialogue: 0,1:31:19.22,1:31:22.35,Default,,0000,0000,0000,,睡鼠立即晃了晃自己的脑袋
+Dialogue: 0,1:31:22.77,1:31:24.64,英语,,0000,0000,0000,,and said without opening his eyes:
+Dialogue: 0,1:31:22.77,1:31:24.64,Default,,0000,0000,0000,,眼睛还没睁开就嚷嚷着
+Dialogue: 0,1:31:24.89,1:31:28.56,英语,,0000,0000,0000,,'Of course, I was about to say so myself!'
+Dialogue: 0,1:31:24.89,1:31:28.56,Default,,0000,0000,0000,,"当然 当然 我自己正要这么说呢"
+Dialogue: 0,1:31:29.69,1:31:34.69,英语,,0000,0000,0000,,'Have you solved the riddle?' said the Mad Hatter turning to Alice.
+Dialogue: 0,1:31:29.69,1:31:34.69,Default,,0000,0000,0000,,"你猜到那个谜语了吗？"帽匠问爱丽丝
+Dialogue: 0,1:31:36.24,1:31:38.70,英语,,0000,0000,0000,,'What is the answer?'
+Dialogue: 0,1:31:36.24,1:31:38.70,Default,,0000,0000,0000,,"谜底究竟是什么？"
+Dialogue: 0,1:31:39.32,1:31:42.70,英语,,0000,0000,0000,,'I haven't the faintest idea,' replied Alice."
+Dialogue: 0,1:31:39.32,1:31:42.70,Default,,0000,0000,0000,,"我想我猜不到"爱丽丝回答
+Dialogue: 0,1:31:47.71,1:31:50.92,英语,,0000,0000,0000,,We can't play without the Mad Hatter! Call Roberto.
+Dialogue: 0,1:31:47.71,1:31:50.92,Default,,0000,0000,0000,,没有帽匠我们根本玩不了游戏 喊罗勃特来
+Dialogue: 0,1:32:04.77,1:32:07.64,英语,,0000,0000,0000,,Is this game that important?
+Dialogue: 0,1:32:04.77,1:32:07.64,Default,,0000,0000,0000,,这是个很重要的游戏吗？
+Dialogue: 0,1:32:25.04,1:32:27.37,英语,,0000,0000,0000,,It's a fun game.
+Dialogue: 0,1:32:25.04,1:32:27.37,Default,,0000,0000,0000,,是个有趣的游戏
+Dialogue: 0,1:32:28.33,1:32:30.33,英语,,0000,0000,0000,,Today is a big holiday.
+Dialogue: 0,1:32:28.33,1:32:30.33,Default,,0000,0000,0000,,今天是个节日
+Dialogue: 0,1:32:30.79,1:32:34.38,英语,,0000,0000,0000,,I've invited some friends and made some tea.
+Dialogue: 0,1:32:30.79,1:32:34.38,Default,,0000,0000,0000,,我已经请了一些朋友并奉上了茶
+Dialogue: 0,1:32:34.84,1:32:36.71,英语,,0000,0000,0000,,You were the only one missing.
+Dialogue: 0,1:32:34.84,1:32:36.71,Default,,0000,0000,0000,,现在就差你一个了
+Dialogue: 0,1:33:40.49,1:33:42.82,英语,,0000,0000,0000,,Now we can start.
+Dialogue: 0,1:33:40.49,1:33:42.82,Default,,0000,0000,0000,,现在我们可以开始游戏了
+Dialogue: 0,1:33:43.07,1:33:45.87,英语,,0000,0000,0000,,You'll be the Mad Hatter.
+Dialogue: 0,1:33:43.07,1:33:45.87,Default,,0000,0000,0000,,你就是那个帽匠
+Dialogue: 0,1:33:47.49,1:33:51.41,英语,,0000,0000,0000,,"The Dormouse is asleep again," said the Mad Hatter.
+Dialogue: 0,1:33:47.49,1:33:51.41,Default,,0000,0000,0000,,"睡鼠又睡着了" 帽匠一边说着
+Dialogue: 0,1:33:51.87,1:33:54.79,英语,,0000,0000,0000,,And he poured hot tea on his nose.
+Dialogue: 0,1:33:51.87,1:33:54.79,Default,,0000,0000,0000,,一边在睡鼠的鼻子上倒了点热茶
+Dialogue: 0,1:34:17.98,1:34:21.28,英语,,0000,0000,0000,,Where are you going? Why don't you stay?
+Dialogue: 0,1:34:17.98,1:34:21.28,Default,,0000,0000,0000,,你要去哪儿？为什么不留在这儿？
+Dialogue: 0,1:34:23.36,1:34:25.20,英语,,0000,0000,0000,,Wait for me!
+Dialogue: 0,1:34:23.36,1:34:25.20,Default,,0000,0000,0000,,等等我
+Dialogue: 0,1:34:29.45,1:34:33.08,英语,,0000,0000,0000,,Music! Do you want to go see the band?
+Dialogue: 0,1:34:29.45,1:34:33.08,Default,,0000,0000,0000,,多棒的音乐 想看看是谁在演奏吗？
+

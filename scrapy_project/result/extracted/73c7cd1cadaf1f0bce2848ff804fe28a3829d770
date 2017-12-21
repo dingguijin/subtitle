@@ -1,0 +1,921 @@
+[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:48.17,0:00:54.13,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>上主之手临于我 上主之神引我去</font>\N<font face="微软雅黑" size=16>把我放在平原中 那里布满了遗骸</font>
+Dialogue: 0,0:00:54.13,0:00:56.42,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>《圣经 结 37:1》</font>
+Dialogue: 0,0:01:06.06,0:01:10.65,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>北达科他州 荒地</font>
+Dialogue: 0,0:01:59.28,0:02:01.57,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>下来</font>
+Dialogue: 0,0:02:22.68,0:02:25.89,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>来自教皇的礼物</font>
+Dialogue: 0,0:04:31.68,0:04:38.19,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>【骨 之 谷】</font>
+Dialogue: 0,0:04:39.57,0:04:40.41,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>卡尔</font>\N<font face="微软雅黑" size=10>Cal.</font>
+Dialogue: 0,0:04:40.41,0:04:44.91,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>还记得给你工作的那个农场主什么时候回来吗？</font>\N<font face="微软雅黑" size=10>You remember that rancher guy you had working for you, back when?</font>
+Dialogue: 0,0:04:47.85,0:04:49.42,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>就是他</font>\N<font face="微软雅黑" size=10>That's him.</font>
+Dialogue: 0,0:04:49.42,0:04:51.89,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我得和他弟弟联系一下</font>\N<font face="微软雅黑" size=10>Look, I gotta get in touch with his brother.</font>
+Dialogue: 0,0:04:51.89,0:04:56.36,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他是恐龙猎人吧？</font>\N<font face="微软雅黑" size=10>He was some kind of a dinosaur hunter, right?</font>
+Dialogue: 0,0:04:58.43,0:05:00.73,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他和他老婆？</font>\N<font face="微软雅黑" size=10>Him and his wife?</font>
+Dialogue: 0,0:05:03.97,0:05:05.93,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>兄弟们说的</font>\N<font face="微软雅黑" size=10>Brothers said that.</font>
+Dialogue: 0,0:05:10.94,0:05:12.97,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>现在 他老婆...</font>\N<font face="微软雅黑" size=10>Now, about the wife...</font>
+Dialogue: 0,0:05:25.75,0:05:27.65,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嘿 约翰</font>\N<font face="微软雅黑" size=10>Hey, John.</font>
+Dialogue: 0,0:05:27.66,0:05:29.09,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你在里面吗？</font>\N<font face="微软雅黑" size=10>You in there?</font>
+Dialogue: 0,0:05:29.09,0:05:34.33,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>奥尔森博士 我们得商量一下</font>\N<font face="微软雅黑" size=10>Come on, Dr. Olson. Got something we gotta discuss.</font>
+Dialogue: 0,0:05:36.40,0:05:38.83,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不再姓奥尔森了 特里</font>\N<font face="微软雅黑" size=10>Not Olson anymore, Terry.</font>
+Dialogue: 0,0:05:39.37,0:05:41.00,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好的 博士</font>\N<font face="微软雅黑" size=10>All right, doc.</font>
+Dialogue: 0,0:05:41.10,0:05:42.57,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>习惯了</font>\N<font face="微软雅黑" size=10>Old habits.</font>
+Dialogue: 0,0:05:42.57,0:05:47.07,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你是有事呢 还是没事找事？</font>\N<font face="微软雅黑" size=10>So, you wanting something or you just come by to shitheel me?</font>
+Dialogue: 0,0:05:47.08,0:05:48.68,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>石油公司来了</font>\N<font face="微软雅黑" size=10>The oil company's moving in.</font>
+Dialogue: 0,0:05:48.68,0:05:53.55,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好吧 昨天签了地皮 所以...</font>\N<font face="微软雅黑" size=10>All right. Signed off on the land, yesterday, so...</font>
+Dialogue: 0,0:05:55.88,0:05:56.68,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你在调情</font>\N<font face="微软雅黑" size=10>You flirt.</font>
+Dialogue: 0,0:05:56.69,0:05:58.75,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>贝肯油矿往南没有延伸到这么远</font>\N<font face="微软雅黑" size=10>The bakken don't extend this far south.</font>
+Dialogue: 0,0:05:58.75,0:06:00.72,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嘿 等等 宝贝</font>\N<font face="微软雅黑" size=10>Hey, hold off, now, doll.</font>
+Dialogue: 0,0:06:00.72,0:06:03.66,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你一直在这里</font>\N<font face="微软雅黑" size=10>As long as you've been out here,</font>
+Dialogue: 0,0:06:03.66,0:06:08.53,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>天天搜寻化石 有多少发现啊？</font>\N<font face="微软雅黑" size=10>how much have we seen from all your fossil hunting?</font>
+Dialogue: 0,0:06:10.03,0:06:10.93,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好吧</font>\N<font face="微软雅黑" size=10>All right, well,</font>
+Dialogue: 0,0:06:10.93,0:06:13.90,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我想你该走了</font>\N<font face="微软雅黑" size=10>think it's time for you to move on.</font>
+Dialogue: 0,0:06:17.37,0:06:18.97,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你是对的</font>\N<font face="微软雅黑" size=10>You're right.</font>
+Dialogue: 0,0:07:13.86,0:07:15.53,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嘿</font>\N<font face="微软雅黑" size=10>Hey.</font>
+Dialogue: 0,0:07:18.43,0:07:22.10,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>要我给你做点吃的吗？</font>\N<font face="微软雅黑" size=10>You want me to make you something to eat?</font>
+Dialogue: 0,0:07:24.57,0:07:27.21,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>想听听我的发掘工作吗？</font>\N<font face="微软雅黑" size=10>Want to know how the dig went?</font>
+Dialogue: 0,0:07:30.85,0:07:35.15,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那是灾难 谢谢你问我</font>\N<font face="微软雅黑" size=10>It was a total disaster. Thanks for asking.</font>
+Dialogue: 0,0:07:51.83,0:07:54.13,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我能进来吗？</font>\N<font face="微软雅黑" size=10>Can I come in?</font>
+Dialogue: 0,0:07:59.24,0:08:01.17,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你在做什么？</font>\N<font face="微软雅黑" size=10>So, whatcha working on?</font>
+Dialogue: 0,0:08:02.04,0:08:03.51,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>水瓶座？</font>\N<font face="微软雅黑" size=10>Aquarius?</font>
+Dialogue: 0,0:08:03.51,0:08:06.01,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>间隔不错</font>\N<font face="微软雅黑" size=10>Yeah, the spacing's good.</font>
+Dialogue: 0,0:08:06.55,0:08:08.72,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你要许个愿吗？</font>\N<font face="微软雅黑" size=10>You gonna make a wish on one?</font>
+Dialogue: 0,0:08:09.05,0:08:11.85,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这是给孩子玩的</font>\N<font face="微软雅黑" size=10>That's stuff for kids.</font>
+Dialogue: 0,0:08:20.06,0:08:23.86,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>外公没太让你沉迷这本书吧？</font>\N<font face="微软雅黑" size=10>Granddad didn't get you too far in this book, huh?</font>
+Dialogue: 0,0:08:24.17,0:08:27.03,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他试过了</font>\N<font face="微软雅黑" size=10>Hmm. He tried.</font>
+Dialogue: 0,0:08:30.91,0:08:32.14,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嘿 伊奇</font>\N<font face="微软雅黑" size=10>Hey, Ezekiel.</font>
+Dialogue: 0,0:08:32.14,0:08:34.07,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>来看看好吗？</font>\N<font face="微软雅黑" size=10>Wanna see something?</font>
+Dialogue: 0,0:08:34.08,0:08:36.28,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>看什么？</font>\N<font face="微软雅黑" size=10>What is it?</font>
+Dialogue: 0,0:08:37.01,0:08:40.81,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 看 - 又是有关恐龙的吗？</font>\N<font face="微软雅黑" size=10>- Check it out. - Another one of your dinosaur things?</font>
+Dialogue: 0,0:08:40.82,0:08:42.78,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是的 差不多吧</font>\N<font face="微软雅黑" size=10>Yeah. Yeah, kind of.</font>
+Dialogue: 0,0:08:42.78,0:08:43.78,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>挖出来的</font>\N<font face="微软雅黑" size=10>It's from the dig.</font>
+Dialogue: 0,0:08:43.79,0:08:47.02,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 我希望能找到... - 我还有作业</font>\N<font face="微软雅黑" size=10>- I was hoping to find... - I got homework.</font>
+Dialogue: 0,0:08:48.16,0:08:49.52,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好吧</font>\N<font face="微软雅黑" size=10>Okay.</font>
+Dialogue: 0,0:08:49.53,0:08:52.09,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>想知道他们是什么品种吗？</font>\N<font face="微软雅黑" size=10>Do you wanna at least know what species they are?</font>
+Dialogue: 0,0:08:52.09,0:08:53.69,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 妈妈... - 我还不能确定</font>\N<font face="微软雅黑" size=10>- Mom... - I'm not gonna know for sure</font>
+Dialogue: 0,0:08:53.70,0:08:55.66,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 除非提取整个胚胎 - 太酷了 妈妈</font>\N<font face="微软雅黑" size=10>- until I extract the entire embryo. - That's cool, mom,</font>
+Dialogue: 0,0:08:55.66,0:08:57.76,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 但我真的还有作业要做 好吗？ - 我有充份的论断</font>\N<font face="微软雅黑" size=10>- but I really have homework, okay? - I have a strong theory</font>
+Dialogue: 0,0:08:57.77,0:08:59.70,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是三角龙的幼崽</font>\N<font face="微软雅黑" size=10>they are triceratops cubs.</font>
+Dialogue: 0,0:08:59.70,0:09:00.60,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>酷吧？</font>\N<font face="微软雅黑" size=10>Isn't that cool?</font>
+Dialogue: 0,0:09:00.60,0:09:02.30,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 你想抱抱三解龙幼崽吗？ - 也许等以后吧</font>\N<font face="微软雅黑" size=10>- You wanna hold a triceratops cub? - Maybe later.</font>
+Dialogue: 0,0:09:02.30,0:09:04.80,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>伊奇 拜托 这可是你的绝佳机会...</font>\N<font face="微软雅黑" size=10>Ezekiel. Come on, this is your chance to hold a piece of...</font>
+Dialogue: 0,0:09:04.81,0:09:07.67,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>妈妈 我不想要那蠢东西</font>\N<font face="微软雅黑" size=10>Mom! I don't want to hold your stupid thing.</font>
+Dialogue: 0,0:09:07.68,0:09:09.04,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>伊奇 怎么了？</font>\N<font face="微软雅黑" size=10>Ezekiel! What's happening?</font>
+Dialogue: 0,0:09:09.04,0:09:10.58,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你到底在干什么？</font>\N<font face="微软雅黑" size=10>What the hell did you just do?</font>
+Dialogue: 0,0:09:10.58,0:09:12.61,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 你什么时候回家的？- 这是最完美的文物</font>\N<font face="微软雅黑" size=10>- When did you get home? - It's the best goddamn piece</font>
+Dialogue: 0,0:09:12.61,0:09:13.81,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 我今天发现的 - 嘿...</font>\N<font face="微软雅黑" size=10>- I found today. - Hey...</font>
+Dialogue: 0,0:09:13.82,0:09:15.82,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我没兴趣 我说了不</font>\N<font face="微软雅黑" size=10>I wasn't interested. I said no!</font>
+Dialogue: 0,0:09:25.83,0:09:27.63,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那个 嗯...</font>\N<font face="微软雅黑" size=10>What, uh...</font>
+Dialogue: 0,0:09:29.26,0:09:31.97,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>欢迎回家 安娜</font>\N<font face="微软雅黑" size=10>Well, welcome home, Anna.</font>
+Dialogue: 0,0:09:31.97,0:09:34.83,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我要哄这个小壮汉上床</font>\N<font face="微软雅黑" size=10>I'll put the little bruiser to bed.</font>
+Dialogue: 0,0:09:44.95,0:09:49.54,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>伊桑·奥尔森博士死于致命毒蛇</font>
+Dialogue: 0,0:10:22.18,0:10:25.12,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我想有点不顺利 嗯？</font>\N<font face="微软雅黑" size=10>I guess that didn't go so well, huh?</font>
+Dialogue: 0,0:10:26.85,0:10:27.72,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>爸爸</font>\N<font face="微软雅黑" size=10>Well, dad,</font>
+Dialogue: 0,0:10:27.72,0:10:30.72,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你总是要我试着去亲近孩子</font>\N<font face="微软雅黑" size=10>you're the one who's always telling me I oughta try and get closer to the boy.</font>
+Dialogue: 0,0:10:30.73,0:10:34.13,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>没错 问问他喜欢什么事</font>\N<font face="微软雅黑" size=10>Well, yeah, by asking eze what sort of things he likes.</font>
+Dialogue: 0,0:10:34.13,0:10:38.16,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>而不是强迫他做你喜欢的事</font>\N<font face="微软雅黑" size=10>Not by forcing on him the stuff that you do.</font>
+Dialogue: 0,0:10:38.73,0:10:41.84,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我不知道他喜欢什么</font>\N<font face="微软雅黑" size=10>I have no idea what he likes.</font>
+Dialogue: 0,0:10:42.07,0:10:44.90,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我就是这意思</font>\N<font face="微软雅黑" size=10>I think that's what I mean.</font>
+Dialogue: 0,0:10:48.94,0:10:52.88,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>听着... 现在有点晚了</font>\N<font face="微软雅黑" size=10>Look... it's getting a little late.</font>
+Dialogue: 0,0:10:53.38,0:10:57.32,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不如你去哄你儿子</font>\N<font face="微软雅黑" size=10>Why don't you go tuck your son in</font>
+Dialogue: 0,0:10:57.32,0:11:00.69,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 我去洗个澡 - 好的</font>\N<font face="微软雅黑" size=10>- and I'll finish up. - Okay.</font>
+Dialogue: 0,0:11:01.36,0:11:04.06,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你知道 过去的好时光</font>\N<font face="微软雅黑" size=10>You know, a nice thing about the past,</font>
+Dialogue: 0,0:11:04.06,0:11:07.89,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你醒来时 它仍然还在你身边</font>\N<font face="微软雅黑" size=10>it will still be there when you wake up.</font>
+Dialogue: 0,0:11:08.23,0:11:10.33,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>对</font>\N<font face="微软雅黑" size=10>Yup.</font>
+Dialogue: 0,0:11:10.90,0:11:13.77,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>可惜也是最糟糕的事</font>\N<font face="微软雅黑" size=10>Worst thing, too.</font>
+Dialogue: 0,0:11:28.05,0:11:30.28,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嘿 伊奇</font>\N<font face="微软雅黑" size=10>Hey, Ezekiel.</font>
+Dialogue: 0,0:11:30.29,0:11:32.02,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我...</font>\N<font face="微软雅黑" size=10>I'm...</font>
+Dialogue: 0,0:11:33.92,0:11:36.92,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我知道那是意外 好吗？</font>\N<font face="微软雅黑" size=10>I know it was an accident, okay?</font>
+Dialogue: 0,0:11:43.00,0:11:44.73,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嘿</font>\N<font face="微软雅黑" size=10>Hey.</font>
+Dialogue: 0,0:11:44.93,0:11:47.47,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我们去睡觉 好吗？</font>\N<font face="微软雅黑" size=10>Let's get to bed, okay?</font>
+Dialogue: 0,0:11:56.84,0:11:58.41,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那是...</font>\N<font face="微软雅黑" size=10>Is that...</font>
+Dialogue: 0,0:11:58.41,0:12:00.85,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这是我的表</font>\N<font face="微软雅黑" size=10>It's my watch.</font>
+Dialogue: 0,0:12:01.92,0:12:05.99,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>坏了 你不想再买块新的吗？</font>\N<font face="微软雅黑" size=10>Well, it's broken. Don't you want another one?</font>
+Dialogue: 0,0:12:06.05,0:12:07.49,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是爸爸的</font>\N<font face="微软雅黑" size=10>It's dad's.</font>
+Dialogue: 0,0:12:07.49,0:12:09.89,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是 我知道</font>\N<font face="微软雅黑" size=10>Yes, I know it was.</font>
+Dialogue: 0,0:12:11.93,0:12:14.49,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你从哪弄来的？</font>\N<font face="微软雅黑" size=10>Where did you get that?</font>
+Dialogue: 0,0:12:17.23,0:12:18.97,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嘿</font>\N<font face="微软雅黑" size=10>Hey.</font>
+Dialogue: 0,0:12:20.27,0:12:21.90,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我们还没开门</font>\N<font face="微软雅黑" size=10>We're not open.</font>
+Dialogue: 0,0:12:21.90,0:12:23.94,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>内特 是我</font>\N<font face="微软雅黑" size=10>Nate, it's me.</font>
+Dialogue: 0,0:12:28.08,0:12:30.24,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我们还没开门</font>\N<font face="微软雅黑" size=10>We're not open.</font>
+Dialogue: 0,0:12:32.75,0:12:34.08,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你收到我的语音留言了</font>\N<font face="微软雅黑" size=10>You got my voice mail.</font>
+Dialogue: 0,0:12:34.08,0:12:36.75,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 什么？- 你收到我的语音留言没有？</font>\N<font face="微软雅黑" size=10>- What? - You get my voice mail?</font>
+Dialogue: 0,0:12:36.75,0:12:37.52,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>没有 我... 听着</font>\N<font face="微软雅黑" size=10>No, I... look.</font>
+Dialogue: 0,0:12:37.52,0:12:39.99,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我没空和你...</font>\N<font face="微软雅黑" size=10>I don't want you hanging out with...</font>
+Dialogue: 0,0:12:39.99,0:12:43.06,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我不想你把东西给我的孩子</font>\N<font face="微软雅黑" size=10>I don't want you giving stuff to my kid.</font>
+Dialogue: 0,0:12:43.32,0:12:46.79,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那个手表？上帝啊</font>\N<font face="微软雅黑" size=10>The watch? Jesus Christ!</font>
+Dialogue: 0,0:12:47.80,0:12:48.93,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这么急</font>\N<font face="微软雅黑" size=10>This couldn't wait a bit.</font>
+Dialogue: 0,0:12:48.93,0:12:50.80,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>等到明天早上不行吗？</font>\N<font face="微软雅黑" size=10>That could have waited till tomorrow morning, huh?</font>
+Dialogue: 0,0:12:50.80,0:12:55.00,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不行 内特 因为我清楚记得交代过</font>\N<font face="微软雅黑" size=10>No, Nate. Because i distinctly remember already having this conversation.</font>
+Dialogue: 0,0:12:55.00,0:12:59.44,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我不希望我出城时 你和伊奇在一起</font>\N<font face="微软雅黑" size=10>I don't want you hanging out with Ezekiel when I'm out of town.</font>
+Dialogue: 0,0:13:00.84,0:13:03.31,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你出城时</font>\N<font face="微软雅黑" size=10>When you're out of town.</font>
+Dialogue: 0,0:13:03.78,0:13:04.81,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我是他叔叔</font>\N<font face="微软雅黑" size=10>I'm the boy's uncle.</font>
+Dialogue: 0,0:13:04.81,0:13:06.51,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>有人应该陪他一起</font>\N<font face="微软雅黑" size=10>Someone oughta be spending time with him</font>
+Dialogue: 0,0:13:06.52,0:13:08.41,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>而你外出了几个月</font>\N<font face="微软雅黑" size=10>when you're out for months on end,</font>
+Dialogue: 0,0:13:08.42,0:13:10.42,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>在骨堆里到处挖</font>\N<font face="微软雅黑" size=10>digging around in boneshit nowhere.</font>
+Dialogue: 0,0:13:10.42,0:13:12.85,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嗯哼 好吧 很好 谢谢</font>\N<font face="微软雅黑" size=10>Mmm-hmm. Okay, great. Thank you very much.</font>
+Dialogue: 0,0:13:12.85,0:13:17.12,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>内特 我知道伊奇是你家族唯一的亲人了</font>\N<font face="微软雅黑" size=10>Nate, I realize Ezekiel's the only family you got left,</font>
+Dialogue: 0,0:13:17.13,0:13:18.32,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>但我不需要父母...</font>\N<font face="微软雅黑" size=10>but I don't need parent...</font>
+Dialogue: 0,0:13:18.33,0:13:21.13,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不需要你的育儿建议</font>\N<font face="微软雅黑" size=10>I don't need parenting advice from you.</font>
+Dialogue: 0,0:13:22.10,0:13:24.10,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你给我打了两次电话</font>\N<font face="微软雅黑" size=10>Okay, so, you called me, twice.</font>
+Dialogue: 0,0:13:24.10,0:13:26.37,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我现来了 你到底想要什么？</font>\N<font face="微软雅黑" size=10>I'm here. What the hell did you want?</font>
+Dialogue: 0,0:13:26.37,0:13:28.94,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>如果你听过我的语音留言</font>\N<font face="微软雅黑" size=10>Well, if you had listened to my voice mail,</font>
+Dialogue: 0,0:13:28.94,0:13:30.57,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>电话里就搞定了 上帝</font>\N<font face="微软雅黑" size=10>we could have done it over the phone. Jesus.</font>
+Dialogue: 0,0:13:30.57,0:13:33.01,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你不需要费心来这里</font>\N<font face="微软雅黑" size=10>You wouldn't have to bother coming down here.</font>
+Dialogue: 0,0:13:33.84,0:13:36.34,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>但是既然你来了 喝杯啤酒吧</font>\N<font face="微软雅黑" size=10>But since you're here, have a beer.</font>
+Dialogue: 0,0:13:38.98,0:13:40.51,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>谢谢</font>\N<font face="微软雅黑" size=10>Thanks.</font>
+Dialogue: 0,0:13:45.32,0:13:47.22,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这是你以前工作过的牧场吧？</font>\N<font face="微软雅黑" size=10>This that ranch you used to work on?</font>
+Dialogue: 0,0:13:47.22,0:13:50.56,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>很熟悉？</font>\N<font face="微软雅黑" size=10>Napping around on? Uh-huh.</font>
+Dialogue: 0,0:13:51.93,0:13:53.83,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好吧？</font>\N<font face="微软雅黑" size=10>Okay, and?</font>
+Dialogue: 0,0:13:54.30,0:13:55.86,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那么</font>\N<font face="微软雅黑" size=10>Well,</font>
+Dialogue: 0,0:13:55.86,0:13:59.87,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我在语音信箱里都告诉你了</font>\N<font face="微软雅黑" size=10>I told you all about it in the voice mail.</font>
+Dialogue: 0,0:13:59.87,0:14:02.57,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>如果你愿意 我可以重复一遍</font>\N<font face="微软雅黑" size=10>We could go over it again if you'd like.</font>
+Dialogue: 0,0:14:04.17,0:14:08.47,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你好 是我</font>\N<font face="微软雅黑" size=10>Hey, you. It's me.</font>
+Dialogue: 0,0:14:08.54,0:14:10.54,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我在你通讯录里是 “婊子养的”？</font>\N<font face="微软雅黑" size=10>You got me on your phone as "son of a bitch"?</font>
+Dialogue: 0,0:14:10.55,0:14:13.28,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你能安静一会吗？我在听你的留言</font>\N<font face="微软雅黑" size=10>Would you be quiet? I'm trying to listen to you.</font>
+Dialogue: 0,0:14:13.28,0:14:15.08,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你没有回话 很明显</font>\N<font face="微软雅黑" size=10>Well, you're not answering, obviously,</font>
+Dialogue: 0,0:14:15.08,0:14:17.42,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那意思你还很生气 我不知道 疯了</font>\N<font face="微软雅黑" size=10>which means you're probably still, I don't know, mad,</font>
+Dialogue: 0,0:14:17.42,0:14:23.06,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>但是我的旧老板接到石油钻塔公司来电</font>\N<font face="微软雅黑" size=10>but my old boss got a call from one of them oil rig guys,</font>
+Dialogue: 0,0:14:23.06,0:14:23.99,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>维斯·麦考伊</font>\N<font face="微软雅黑" size=10>Wes McCoy.</font>
+Dialogue: 0,0:14:23.99,0:14:26.63,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他可能无意中发现了些东西</font>\N<font face="微软雅黑" size=10>Thinks he might have stumbled on something.</font>
+Dialogue: 0,0:14:26.63,0:14:29.40,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他发现了一颗牙齿</font>\N<font face="微软雅黑" size=10>He found a tooth.</font>
+Dialogue: 0,0:14:29.40,0:14:30.60,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>大的...</font>\N<font face="微软雅黑" size=10>Big one...</font>
+Dialogue: 0,0:14:30.60,0:14:32.27,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你挂了我的电话</font>\N<font face="微软雅黑" size=10>You hung up on me.</font>
+Dialogue: 0,0:14:32.27,0:14:33.13,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>牙齿 内特？</font>\N<font face="微软雅黑" size=10>A tooth, Nate?</font>
+Dialogue: 0,0:14:33.13,0:14:35.30,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 你耍我 - 是啊 很酷吧？</font>\N<font face="微软雅黑" size=10>- You've got to be kidding me. - Yeah. Pretty cool, huh?</font>
+Dialogue: 0,0:14:35.30,0:14:37.07,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不 因为发现兽脚亚目的牙齿意味着完蛋了</font>\N<font face="微软雅黑" size=10>No. Because a therapod tooth means shit.</font>
+Dialogue: 0,0:14:37.07,0:14:41.47,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>因为食肉恐龙要是换牙齿了 是会随便乱扔的</font>\N<font face="微软雅黑" size=10>If it's even what they think it is, carnivores shed them suckers like mad.</font>
+Dialogue: 0,0:14:41.48,0:14:43.64,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>可能根本就没有恐龙</font>\N<font face="微软雅黑" size=10>It's probably nothing.</font>
+Dialogue: 0,0:14:43.91,0:14:46.28,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那可能是什么东西</font>\N<font face="微软雅黑" size=10>Yeah, well, it could be something.</font>
+Dialogue: 0,0:14:46.58,0:14:50.22,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>很棒 是的 伟大的科学 天才</font>\N<font face="微软雅黑" size=10>Great. Yeah, it's great science there, genius.</font>
+Dialogue: 0,0:14:53.19,0:14:54.22,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你知道的</font>\N<font face="微软雅黑" size=10>You know,</font>
+Dialogue: 0,0:14:54.22,0:14:56.29,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>对于不喜欢抚养伊森的人</font>\N<font face="微软雅黑" size=10>for somebody who doesn't like bringing up Ethan,</font>
+Dialogue: 0,0:14:56.29,0:14:59.46,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你似乎挺喜欢他</font>\N<font face="微软雅黑" size=10>you sure sound a heck of a lot like him.</font>
+Dialogue: 0,0:14:59.53,0:15:03.66,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>也许我不是科学天才</font>\N<font face="微软雅黑" size=10>Yeah, maybe I'm no scientific genius.</font>
+Dialogue: 0,0:15:03.67,0:15:09.20,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>如果我是话 我就不会让你参与这笔交易了</font>\N<font face="微软雅黑" size=10>If I was, I wouldn't have to bring you in on this deal.</font>
+Dialogue: 0,0:15:09.20,0:15:11.97,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>天哪 内特 你想我怎么样？</font>\N<font face="微软雅黑" size=10>Jesus, Nate, what do you want from me?</font>
+Dialogue: 0,0:15:11.97,0:15:16.18,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我应该扔下一切 路你去挖土吗？</font>\N<font face="微软雅黑" size=10>I'm just suppose to drop everything and rush up there?</font>
+Dialogue: 0,0:15:17.41,0:15:21.05,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>老兄 你没有什么好放弃的</font>\N<font face="微软雅黑" size=10>Dude, you got nothing to drop.</font>
+Dialogue: 0,0:15:21.35,0:15:23.98,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我是说 最坏的情况会是什么？</font>\N<font face="微软雅黑" size=10>I mean, what's the worst that could happen?</font>
+Dialogue: 0,0:15:23.99,0:15:27.95,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>也就是你什么都没发现</font>\N<font face="微软雅黑" size=10>Go up there, you don't find anything.</font>
+Dialogue: 0,0:15:28.02,0:15:30.42,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我还是个“妹子养的”</font>\N<font face="微软雅黑" size=10>I'm still a son of a bitch.</font>
+Dialogue: 0,0:15:35.66,0:15:38.16,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>管他呢 妈的 内特</font>\N<font face="微软雅黑" size=10>What the hell. God damn it, Nate.</font>
+Dialogue: 0,0:15:38.17,0:15:40.43,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 你算同意了？- 对</font>\N<font face="微软雅黑" size=10>- Is that a yeah? - Yeah.</font>
+Dialogue: 0,0:15:40.44,0:15:42.50,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你要跟我走</font>\N<font face="微软雅黑" size=10>You're coming with me, though.</font>
+Dialogue: 0,0:15:42.50,0:15:43.54,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>当然</font>\N<font face="微软雅黑" size=10>Sure.</font>
+Dialogue: 0,0:15:43.54,0:15:46.17,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>总得有人把你引荐给牧场主</font>\N<font face="微软雅黑" size=10>Somebody's gotta introduce you to the ranch owner.</font>
+Dialogue: 0,0:15:46.17,0:15:48.24,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不是 万一发现什么东西</font>\N<font face="微软雅黑" size=10>No. Because when it turns out to be nothing,</font>
+Dialogue: 0,0:15:48.24,0:15:52.51,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我需要有人帮忙挖土</font>\N<font face="微软雅黑" size=10>I'm gonna need someone within swatting distance.</font>
+Dialogue: 0,0:15:58.19,0:16:01.15,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那我明早来接你</font>\N<font face="微软雅黑" size=10>I'll pick you up tomorrow morning, then.</font>
+Dialogue: 0,0:16:03.99,0:16:05.46,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>明天</font>\N<font face="微软雅黑" size=10>Tomorrow.</font>
+Dialogue: 0,0:16:24.18,0:16:27.05,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>拜托 这太荒谬了</font>\N<font face="微软雅黑" size=10>Well, come on. This is ridiculous.</font>
+Dialogue: 0,0:16:27.05,0:16:28.72,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 你才刚回来 - 爸爸</font>\N<font face="微软雅黑" size=10>- You just got back. - Dad.</font>
+Dialogue: 0,0:16:28.72,0:16:33.05,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>爸爸 可以是周末吧 撑死最多三天</font>\N<font face="微软雅黑" size=10>Dad, it's probably just for the weekend. Three days, tops.</font>
+Dialogue: 0,0:16:33.05,0:16:34.19,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>再好不过了</font>\N<font face="微软雅黑" size=10>Well, maybe that's good, then.</font>
+Dialogue: 0,0:16:34.19,0:16:36.16,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>因为这样你会在星期一回来 对吗？</font>\N<font face="微软雅黑" size=10>'Cause this way, you'll be back on Monday, right?</font>
+Dialogue: 0,0:16:36.16,0:16:38.02,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>求你了 爸爸 我知道你要说什么</font>\N<font face="微软雅黑" size=10>Please, dad. I know what you're gonna say.</font>
+Dialogue: 0,0:16:38.03,0:16:40.16,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他应该跟... 是的 他应该来...</font>\N<font face="微软雅黑" size=10>That he should come with... Yeah, that he should come with...</font>
+Dialogue: 0,0:16:40.16,0:16:42.03,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我当然会这么说</font>\N<font face="微软雅黑" size=10>Of course I'm gonna say that.</font>
+Dialogue: 0,0:16:42.03,0:16:43.70,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>为什么不呢？</font>\N<font face="微软雅黑" size=10>Why the hell not?</font>
+Dialogue: 0,0:16:43.70,0:16:46.07,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你知道为什么不行的 爸爸</font>\N<font face="微软雅黑" size=10>You know exactly why the hell not, dad.</font>
+Dialogue: 0,0:16:46.07,0:16:48.20,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>因为这是荒地 不是游乐场</font>\N<font face="微软雅黑" size=10>Because it's the badlands, not a playground.</font>
+Dialogue: 0,0:16:48.20,0:16:52.77,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>上帝 那里有野生动物 糟糕的天气等等</font>\N<font face="微软雅黑" size=10>Jesus. There's wild animals, crap weather. The list goes on.</font>
+Dialogue: 0,0:16:52.77,0:16:54.14,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这不好笑 安娜</font>\N<font face="微软雅黑" size=10>This ain't funny, Anna.</font>
+Dialogue: 0,0:16:54.14,0:16:56.31,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你说个不停 有完没完</font>\N<font face="微软雅黑" size=10>You're telling me. It's a long list.</font>
+Dialogue: 0,0:16:56.31,0:16:58.38,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>安娜 嘿</font>\N<font face="微软雅黑" size=10>Anna! Hey.</font>
+Dialogue: 0,0:16:58.45,0:17:00.15,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>苏珊娜</font>\N<font face="微软雅黑" size=10>Susanna!</font>
+Dialogue: 0,0:17:00.48,0:17:03.02,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嘿 早上好 比尔</font>\N<font face="微软雅黑" size=10>Hey. Morning, bill.</font>
+Dialogue: 0,0:17:03.02,0:17:05.52,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你想我怎么办 爸爸？</font>\N<font face="微软雅黑" size=10>What do you want from me, dad?</font>
+Dialogue: 0,0:17:05.52,0:17:08.05,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这不是我想要的</font>\N<font face="微软雅黑" size=10>It ain't what I want.</font>
+Dialogue: 0,0:17:09.49,0:17:14.53,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>现在 我有点问题是替他打包</font>\N<font face="微软雅黑" size=10>Now, I went to the trouble of packing him a little bag.</font>
+Dialogue: 0,0:17:15.53,0:17:16.53,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>学校怎么样？</font>\N<font face="微软雅黑" size=10>What about school?</font>
+Dialogue: 0,0:17:16.53,0:17:19.63,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我跟校长有点麻烦</font>\N<font face="微软雅黑" size=10>I went to the trouble of notifying his principal.</font>
+Dialogue: 0,0:17:19.63,0:17:23.34,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你似乎遇到了不少麻烦</font>\N<font face="微软雅黑" size=10>Well, you went to quite a lot of trouble, seems like.</font>
+Dialogue: 0,0:17:23.67,0:17:24.60,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>听着 孩子</font>\N<font face="微软雅黑" size=10>Listen, kiddo,</font>
+Dialogue: 0,0:17:24.61,0:17:27.41,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你总得处理这事情</font>\N<font face="微软雅黑" size=10>you're gonna have to deal with this sometime.</font>
+Dialogue: 0,0:17:27.41,0:17:29.71,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你不能老抱着石头和骨头</font>\N<font face="微软雅黑" size=10>You can't go running off with your rocks and bones,</font>
+Dialogue: 0,0:17:29.71,0:17:33.31,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>假装你在抚养一个儿子</font>\N<font face="微软雅黑" size=10>and pretend that you're raising a son.</font>
+Dialogue: 0,0:17:33.75,0:17:37.32,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>内疚不等于保护</font>\N<font face="微软雅黑" size=10>Guilt ain't the same as protection.</font>
+Dialogue: 0,0:17:46.66,0:17:49.70,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这跟贩毒集团没有任何关系</font>\N<font face="微软雅黑" size=10>Right. But that doesn't have anything to do with the cartel.</font>
+Dialogue: 0,0:17:49.70,0:17:51.43,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>没有任何关系...</font>\N<font face="微软雅黑" size=10>It doesn't have anything to do...</font>
+Dialogue: 0,0:17:51.43,0:17:53.13,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>一切都与贩毒集团有关</font>\N<font face="微软雅黑" size=10>It has everything to do with the cartel.</font>
+Dialogue: 0,0:17:53.13,0:17:54.63,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>繁荣带来了人口过剩</font>\N<font face="微软雅黑" size=10>The boom brought overpopulation.</font>
+Dialogue: 0,0:17:54.64,0:17:57.17,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他们把冰毒的交易带到了历史高点</font>\N<font face="微软雅黑" size=10>They brought the trade of crystal meth to an all-time high,</font>
+Dialogue: 0,0:17:57.17,0:17:59.54,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>墨西哥的贩毒集团</font>\N<font face="微软雅黑" size=10>and now, you got these Mexican cartels.</font>
+Dialogue: 0,0:17:59.54,0:18:02.34,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他们在这里贩卖枪支</font>\N<font face="微软雅黑" size=10>They're up here and they're trading guns.</font>
+Dialogue: 0,0:18:02.34,0:18:03.28,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>毒品</font>\N<font face="微软雅黑" size=10>Or drugs.</font>
+Dialogue: 0,0:18:03.28,0:18:05.78,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>对 但贩毒集团从90年代就一直在这里了</font>\N<font face="微软雅黑" size=10>Right, but the cartel has been here since the '90s, at least,</font>
+Dialogue: 0,0:18:05.78,0:18:08.41,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>只不过过去没消息 而现在消息满天飞</font>\N<font face="微软雅黑" size=10>just didn't hear about it regularly. You hear about it now.</font>
+Dialogue: 0,0:18:08.42,0:18:10.85,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你知道 整个州的帮派</font>\N<font face="微软雅黑" size=10>Do you realize that we have gangs competing for territory</font>
+Dialogue: 0,0:18:10.85,0:18:12.19,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>都在争夺地盘吗？</font>\N<font face="微软雅黑" size=10>all across the state?</font>
+Dialogue: 0,0:18:12.19,0:18:13.82,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我说的不仅仅是威利斯顿</font>\N<font face="微软雅黑" size=10>And I'm not just talking about williston.</font>
+Dialogue: 0,0:18:13.82,0:18:15.66,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 我在说... - 我只是说...</font>\N<font face="微软雅黑" size=10>- I'm talking about... - I'm just saying...</font>
+Dialogue: 0,0:18:15.66,0:18:18.12,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我说的是 像东部法戈那么远的地方 - 是你的地盘 是不是？</font>\N<font face="微软雅黑" size=10>I'm talking as far east as Fargo. You had 'em, right?</font>
+Dialogue: 0,0:18:18.13,0:18:20.29,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>如果你想夺走贩毒集画的饭碗</font>\N<font face="微软雅黑" size=10>If you wanna take the power away from the cartel,</font>
+Dialogue: 0,0:18:20.30,0:18:23.80,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你必须夺走他们的市场 我的意夏是...</font>\N<font face="微软雅黑" size=10>you have to take away their market. It's just, I mean...</font>
+Dialogue: 0,0:19:14.75,0:19:16.15,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>跳 小心点</font>\N<font face="微软雅黑" size=10>Jump. Look out.</font>
+Dialogue: 0,0:19:16.15,0:19:17.22,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 废物 - 嘿</font>\N<font face="微软雅黑" size=10>- Crap. - Hey.</font>
+Dialogue: 0,0:19:17.22,0:19:18.28,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>注意言辞</font>\N<font face="微软雅黑" size=10>Easy on the language.</font>
+Dialogue: 0,0:19:18.29,0:19:20.69,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>比利就可以说 他才七岁</font>\N<font face="微软雅黑" size=10>Billy can say it, and he's only seven.</font>
+Dialogue: 0,0:19:20.69,0:19:22.89,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是吗？让我来玩</font>\N<font face="微软雅黑" size=10>Oh, yeah? Let me get a game.</font>
+Dialogue: 0,0:19:22.89,0:19:24.76,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>请看专业人士</font>\N<font face="微软雅黑" size=10>Show you how the pros do it.</font>
+Dialogue: 0,0:19:27.83,0:19:29.63,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>废物</font>\N<font face="微软雅黑" size=10>Crap.</font>
+Dialogue: 0,0:19:47.85,0:19:49.82,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你们俩还要什么吗？</font>\N<font face="微软雅黑" size=10>Anything else for you two?</font>
+Dialogue: 0,0:19:49.82,0:19:51.75,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>经常过来就行</font>\N<font face="微软雅黑" size=10>Just keep 'em coming.</font>
+Dialogue: 0,0:19:52.79,0:19:54.62,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嗨 甜心</font>\N<font face="微软雅黑" size=10>Hi, hon.</font>
+Dialogue: 0,0:19:58.29,0:19:59.46,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>麦考伊</font>\N<font face="微软雅黑" size=10>So, McCoy.</font>
+Dialogue: 0,0:19:59.46,0:20:02.86,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>言下之意 你觉得在荒地里</font>\N<font face="微软雅黑" size=10>Word down the line is, you think you found yourself something</font>
+Dialogue: 0,0:20:02.86,0:20:03.90,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>有所发现</font>\N<font face="微软雅黑" size=10>out in the badlands.</font>
+Dialogue: 0,0:20:03.90,0:20:09.30,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我知道有东西在下面 所以 亲爱的 问题是</font>\N<font face="微软雅黑" size=10>I know I got something down there, so, hon, the question is,</font>
+Dialogue: 0,0:20:09.60,0:20:12.27,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>对你有价值吗？</font>\N<font face="微软雅黑" size=10>what's it worth to you?</font>
+Dialogue: 0,0:20:34.36,0:20:35.46,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>怎样？</font>\N<font face="微软雅黑" size=10>So?</font>
+Dialogue: 0,0:20:35.46,0:20:39.60,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>行家知道 食肉恐龙会不停地换牙</font>\N<font face="微软雅黑" size=10>Carnivore species were known to shed their teeth all over the goddamn place,</font>
+Dialogue: 0,0:20:39.60,0:20:41.00,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>但这牙齿的牙根完好无损</font>\N<font face="微软雅黑" size=10>but this still has its root intact.</font>
+Dialogue: 0,0:20:41.00,0:20:45.47,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那代表着 它死时 门牙仍然长在恐龙嘴里</font>\N<font face="微软雅黑" size=10>That means the incisor was still attached to the dinosaur when it died.</font>
+Dialogue: 0,0:20:45.47,0:20:48.27,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你是说 也许还有更多</font>\N<font face="微软雅黑" size=10>You're saying there's maybe more.</font>
+Dialogue: 0,0:20:49.88,0:20:52.58,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>也许非常多</font>\N<font face="微软雅黑" size=10>There may be a lot more.</font>
+Dialogue: 0,0:20:53.35,0:20:54.78,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>看到了吗？</font>\N<font face="微软雅黑" size=10>See?</font>
+Dialogue: 0,0:20:54.78,0:20:56.78,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我怎么跟你说的？</font>\N<font face="微软雅黑" size=10>What did I tell you?</font>
+Dialogue: 0,0:20:56.78,0:20:59.25,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>她在外面</font>\N<font face="微软雅黑" size=10>She's out there.</font>
+Dialogue: 0,0:20:59.72,0:21:02.26,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你怎么知道是母的？</font>\N<font face="微软雅黑" size=10>How do you know it's a she?</font>
+Dialogue: 0,0:21:04.76,0:21:05.93,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我不知道</font>\N<font face="微软雅黑" size=10>I don't know.</font>
+Dialogue: 0,0:21:05.93,0:21:09.63,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我之所以称呼为她 是因为...</font>\N<font face="微软雅黑" size=10>I've just been calling it a she, like a...</font>
+Dialogue: 0,0:21:10.63,0:21:12.77,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>就像个食客</font>\N<font face="微软雅黑" size=10>Well, like a captain.</font>
+Dialogue: 0,0:21:12.77,0:21:16.30,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>白鲸之类的 你知道我的意思？</font>\N<font face="微软雅黑" size=10>White whale kind of shit. You know what I mean?</font>
+Dialogue: 0,0:21:16.30,0:21:19.61,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好吧 你说的没错</font>\N<font face="微软雅黑" size=10>Okay, well, you're not wrong.</font>
+Dialogue: 0,0:21:20.01,0:21:22.01,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>看这里？</font>\N<font face="微软雅黑" size=10>This here?</font>
+Dialogue: 0,0:21:22.01,0:21:22.91,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>霸王龙的牙齿</font>\N<font face="微软雅黑" size=10>T-Rex tooth.</font>
+Dialogue: 0,0:21:22.91,0:21:27.95,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这是霸王龙家族中相当大的标本</font>\N<font face="微软雅黑" size=10>It's a fairly large specimen, too, which among tyrannosaur breeds means,</font>
+Dialogue: 0,0:21:27.95,0:21:30.02,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>所以可能是母的</font>\N<font face="微软雅黑" size=10>yeah, it's probably female.</font>
+Dialogue: 0,0:21:30.28,0:21:31.88,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>酷</font>\N<font face="微软雅黑" size=10>Cool.</font>
+Dialogue: 0,0:21:32.49,0:21:33.65,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>操蛋的霸王龙？</font>\N<font face="微软雅黑" size=10>A t-fucking-Rex?</font>
+Dialogue: 0,0:21:36.49,0:21:37.82,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我会被诅咒的</font>\N<font face="微软雅黑" size=10>I'll be damned.</font>
+Dialogue: 0,0:21:37.83,0:21:40.56,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嘿 死人</font>\N<font face="微软雅黑" size=10>Hey. Dead man.</font>
+Dialogue: 0,0:21:40.56,0:21:42.80,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你该走了</font>\N<font face="微软雅黑" size=10>You're supposed to be gone.</font>
+Dialogue: 0,0:21:42.80,0:21:45.06,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>但他来了</font>\N<font face="微软雅黑" size=10>But here he is.</font>
+Dialogue: 0,0:21:46.87,0:21:47.87,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我来了</font>\N<font face="微软雅黑" size=10>Here I am.</font>
+Dialogue: 0,0:21:47.87,0:21:51.90,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我有正事 小滑头 好吗？</font>\N<font face="微软雅黑" size=10>I'm kind of in the middle of something here, slick, all right?</font>
+Dialogue: 0,0:21:53.91,0:21:54.91,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是 我看到了</font>\N<font face="微软雅黑" size=10>Yeah, I see that.</font>
+Dialogue: 0,0:21:54.91,0:21:57.74,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我无意打扰你的约会</font>\N<font face="微软雅黑" size=10>I didn't mean to intrude on your date.</font>
+Dialogue: 0,0:21:58.78,0:22:01.41,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>但我们盯着你了</font>\N<font face="微软雅黑" size=10>But we've seen you now.</font>
+Dialogue: 0,0:22:03.92,0:22:04.88,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我们走吧 里斯</font>\N<font face="微软雅黑" size=10>Let's go, Reese.</font>
+Dialogue: 0,0:22:04.89,0:22:07.95,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>下一次 他们应该把你埋得更深</font>\N<font face="微软雅黑" size=10>Next time, they ought to bury you deeper.</font>
+Dialogue: 0,0:22:08.42,0:22:11.92,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>很好 巨大的牙根 牙齿 这些真他妈的棒</font>\N<font face="微软雅黑" size=10>So, good. Great, roots, teeth, all that. That's fucking awesome.</font>
+Dialogue: 0,0:22:11.93,0:22:15.83,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那些家伙什么意思？</font>\N<font face="微软雅黑" size=10>That something i ought to be concerned about?</font>
+Dialogue: 0,0:22:16.40,0:22:18.33,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我以前从没见过他们</font>\N<font face="微软雅黑" size=10>I've never seem 'em before in my life.</font>
+Dialogue: 0,0:22:18.33,0:22:19.87,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>只是几个愚蠢的醉鬼...</font>\N<font face="微软雅黑" size=10>Just a couple of dumb drunks...</font>
+Dialogue: 0,0:22:19.87,0:22:20.90,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>因为我不了解你</font>\N<font face="微软雅黑" size=10>'Cause I don't know you.</font>
+Dialogue: 0,0:22:20.90,0:22:22.70,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我不知道在搞什么鬼</font>\N<font face="微软雅黑" size=10>I don't know what the hell this is.</font>
+Dialogue: 0,0:22:22.70,0:22:26.01,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我挖掘时 最好别搞事</font>\N<font face="微软雅黑" size=10>But I do not need that shit on my dig.</font>
+Dialogue: 0,0:23:07.98,0:23:10.92,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是王牌 好吧</font>\N<font face="微软雅黑" size=10>It's Ace. Okay.</font>
+Dialogue: 0,0:23:10.92,0:23:15.55,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 他没事 - 你很好 知道不？</font>\N<font face="微软雅黑" size=10>- He's all right. - You're all right. See?</font>
+Dialogue: 0,0:23:15.76,0:23:17.39,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>看到没有？</font>\N<font face="微软雅黑" size=10>See?</font>
+Dialogue: 0,0:23:17.69,0:23:19.39,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>朋友</font>\N<font face="微软雅黑" size=10>Friends.</font>
+Dialogue: 0,0:23:19.76,0:23:21.16,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>老兄</font>\N<font face="微软雅黑" size=10>Buddies.</font>
+Dialogue: 0,0:23:21.16,0:23:22.93,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>对吗？</font>\N<font face="微软雅黑" size=10>Right?</font>
+Dialogue: 0,0:23:23.46,0:23:24.96,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是的</font>\N<font face="微软雅黑" size=10>Yeah.</font>
+Dialogue: 0,0:23:27.53,0:23:29.40,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你看到我了</font>\N<font face="微软雅黑" size=10>You've seen me.</font>
+Dialogue: 0,0:23:45.62,0:23:48.82,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>内特·奥尔森 千真万确</font>\N<font face="微软雅黑" size=10>Well, well. Nate Olson, as I live and shit.</font>
+Dialogue: 0,0:23:48.82,0:23:51.99,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 金伯利 - 你见过麦考伊吗？</font>\N<font face="微软雅黑" size=10>- Kimberly. - You meet with McCoy?</font>
+Dialogue: 0,0:23:52.79,0:23:54.53,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是她见我的</font>\N<font face="微软雅黑" size=10>She did.</font>
+Dialogue: 0,0:23:55.56,0:23:58.56,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>乔朵太太 嗨 见到你很高兴</font>\N<font face="微软雅黑" size=10>Mrs. jordall. Hi, it's a pleasure.</font>
+Dialogue: 0,0:23:58.57,0:24:00.13,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>叫我金伯利</font>\N<font face="微软雅黑" size=10>Kimberly, please.</font>
+Dialogue: 0,0:24:00.53,0:24:02.60,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>“太太”是称呼老处女或办公女性的</font>\N<font face="微软雅黑" size=10>"Mrs." is for spinsters and suits.</font>
+Dialogue: 0,0:24:02.60,0:24:05.74,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我们的指甲下面有泥土 不是吗 博士？</font>\N<font face="微软雅黑" size=10>We got dirt under our nails, don't we, doctor?</font>
+Dialogue: 0,0:24:05.74,0:24:06.74,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>安娜 这里 她...</font>\N<font face="微软雅黑" size=10>Anna, here, she...</font>
+Dialogue: 0,0:24:06.74,0:24:08.87,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你不必给我高谈阔论 内特</font>\N<font face="微软雅黑" size=10>You don't have to give me a big spiel, Nate.</font>
+Dialogue: 0,0:24:08.88,0:24:10.64,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我知道她是谁</font>\N<font face="微软雅黑" size=10>I know who she is.</font>
+Dialogue: 0,0:24:10.65,0:24:12.04,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你是古生物学家 对吧？</font>\N<font face="微软雅黑" size=10>You're the paleontologist, yes?</font>
+Dialogue: 0,0:24:12.05,0:24:17.18,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>在政府土地上挖骨头 而坐牢的那个</font>\N<font face="微软雅黑" size=10>The one that was thrown into prison for digging up bones on government land.</font>
+Dialogue: 0,0:24:19.95,0:24:22.49,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>事实上 我当时不知道 那片归土地管理局管</font>\N<font face="微软雅黑" size=10>Actually, I didn't know it was blm land at the time.</font>
+Dialogue: 0,0:24:22.49,0:24:24.82,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我敢肯定 你有完美的故事</font>\N<font face="微软雅黑" size=10>I'm sure there's a pretty story.</font>
+Dialogue: 0,0:24:24.83,0:24:26.09,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>总是有的</font>\N<font face="微软雅黑" size=10>There always is.</font>
+Dialogue: 0,0:24:26.09,0:24:28.49,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>听着 我很懂你们的套路</font>\N<font face="微软雅黑" size=10>Look, I know how this works.</font>
+Dialogue: 0,0:24:28.50,0:24:30.86,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你这种人来挖骨头</font>\N<font face="微软雅黑" size=10>Someone like you comes and digs up the bones,</font>
+Dialogue: 0,0:24:30.87,0:24:32.63,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我们应该安排一个经纪人</font>\N<font face="微软雅黑" size=10>and we're supposed to arrange for a broker</font>
+Dialogue: 0,0:24:32.63,0:24:37.54,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>去迪拜找个买家 那家伙肯定希望他是街区里唯一</font>\N<font face="微软雅黑" size=10>to find a buyer in Dubai who wants to be the only guy on his block</font>
+Dialogue: 0,0:24:37.54,0:24:38.97,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>在房间里有恐龙的人</font>\N<font face="微软雅黑" size=10>with a dinosaur in his living room.</font>
+Dialogue: 0,0:24:38.97,0:24:42.84,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我想知道的是 我为什么要让一个有前科的罪犯</font>\N<font face="微软雅黑" size=10>What I want to know is, why should I let an ex-convict</font>
+Dialogue: 0,0:24:42.84,0:24:44.91,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>象猴子一样肆虐我的土地？</font>\N<font face="微软雅黑" size=10>monkey around on my land?</font>
+Dialogue: 0,0:24:48.11,0:24:49.88,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我需要这个</font>\N<font face="微软雅黑" size=10>I need this.</font>
+Dialogue: 0,0:24:50.75,0:24:56.62,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>如果霸王龙在那里 她被掩埋了6700万年</font>\N<font face="微软雅黑" size=10>If that Rex is down there, she's been trapped for 67 million years.</font>
+Dialogue: 0,0:24:58.02,0:25:00.69,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我觉得她应该得到新生</font>\N<font face="微软雅黑" size=10>I think she deserves a new life.</font>
+Dialogue: 0,0:25:04.56,0:25:07.73,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我当然希望她能新生</font>\N<font face="微软雅黑" size=10>Well, I certainly hope she gets one.</font>
+Dialogue: 0,0:25:11.07,0:25:14.07,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我期待见到我们的恐龙</font>\N<font face="微软雅黑" size=10>I look forward to meeting our dinosaur.</font>
+Dialogue: 0,0:25:16.94,0:25:18.61,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>谢谢</font>\N<font face="微软雅黑" size=10>Thank you.</font>
+Dialogue: 0,0:27:13.75,0:27:16.96,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>两种方式偿还 588-7730</font>
+Dialogue: 0,0:27:47.06,0:27:49.16,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>别是她</font>\N<font face="微软雅黑" size=10>Not her.</font>
+Dialogue: 0,0:27:53.83,0:27:55.03,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我仍然可以...</font>\N<font face="微软雅黑" size=10>I can still...</font>
+Dialogue: 0,0:29:15.32,0:29:16.05,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>干嘛？</font>\N<font face="微软雅黑" size=10>What?</font>
+Dialogue: 0,0:29:16.05,0:29:19.12,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>别“干嘛” 这本书是“干嘛”的？</font>\N<font face="微软雅黑" size=10>Don't "what." The book. The book is "what."</font>
+Dialogue: 0,0:29:19.92,0:29:20.89,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>为什么装进去？</font>\N<font face="微软雅黑" size=10>Why did you pack it?</font>
+Dialogue: 0,0:29:20.89,0:29:24.22,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>给伊奇的小东西 当你...</font>\N<font face="微软雅黑" size=10>Well, it's just a little something I got for eze when you...</font>
+Dialogue: 0,0:29:24.23,0:29:26.19,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我知道是什么</font>\N<font face="微软雅黑" size=10>I know what it is.</font>
+Dialogue: 0,0:29:26.26,0:29:30.36,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我不知道我为什么要装进去</font>\N<font face="微软雅黑" size=10>I don't know why i packed it exactly.</font>
+Dialogue: 0,0:29:30.50,0:29:34.30,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我只是想 也许</font>\N<font face="微软雅黑" size=10>I just thought maybe,</font>
+Dialogue: 0,0:29:34.30,0:29:35.27,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我不知道...</font>\N<font face="微软雅黑" size=10>I don't know...</font>
+Dialogue: 0,0:29:35.27,0:29:38.87,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>也许让你们有共同语言</font>\N<font face="微软雅黑" size=10>Might be a little middle ground for you two.</font>
+Dialogue: 0,0:29:44.31,0:29:46.48,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那么你留下吗？</font>\N<font face="微软雅黑" size=10>So, you staying?</font>
+Dialogue: 0,0:29:47.01,0:29:50.55,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>在我看到骨床之前 还有点为时过早</font>\N<font face="微软雅黑" size=10>It's a little premature before I've seen the bone bed.</font>
+Dialogue: 0,0:29:50.55,0:29:52.25,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>但看起来很有希望</font>\N<font face="微软雅黑" size=10>But looks promising.</font>
+Dialogue: 0,0:29:52.25,0:29:54.99,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>亲爱的 太好了</font>\N<font face="微软雅黑" size=10>Oh, honey, that's great.</font>
+Dialogue: 0,0:29:55.09,0:29:57.42,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我真为你高兴</font>\N<font face="微软雅黑" size=10>I'm really happy for you.</font>
+Dialogue: 0,0:29:57.42,0:30:02.53,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你觉得伊奇会和你住在一起吗？</font>\N<font face="微软雅黑" size=10>So, do you think eze's gonna be staying with you?</font>
+Dialogue: 0,0:30:02.86,0:30:06.00,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>如果有结果 嗯</font>\N<font face="微软雅黑" size=10>If it turns out, uh,</font>
+Dialogue: 0,0:30:07.10,0:30:09.10,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我会考虑的</font>\N<font face="微软雅黑" size=10>I'll think about it.</font>
+Dialogue: 0,0:30:09.20,0:30:13.21,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>只是不知道他是否愿意</font>\N<font face="微软雅黑" size=10>Just don't know if he'd want to.</font>
+Dialogue: 0,0:30:13.54,0:30:16.48,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你们两个只是需要点时间磨合</font>\N<font face="微软雅黑" size=10>You two just need some time.</font>
+Dialogue: 0,0:30:17.38,0:30:19.14,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他还年轻</font>\N<font face="微软雅黑" size=10>He's young.</font>
+Dialogue: 0,0:30:19.21,0:30:23.52,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>看起来却很老沉 就这样</font>\N<font face="微软雅黑" size=10>He just seems older, that's all.</font>
+Dialogue: 0,0:30:26.12,0:30:27.82,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是的</font>\N<font face="微软雅黑" size=10>Yeah.</font>
+Dialogue: 0,0:30:28.05,0:30:30.22,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他总是这样</font>\N<font face="微软雅黑" size=10>He always does.</font>
+Dialogue: 0,0:30:32.26,0:30:35.53,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>事情就是这样的</font>\N<font face="微软雅黑" size=10>Yeah. That's the way it happens.</font>
+Dialogue: 0,0:30:37.40,0:30:39.83,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他们长大</font>\N<font face="微软雅黑" size=10>They grow up.</font>
+Dialogue: 0,0:30:44.30,0:30:46.37,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>晚安</font>\N<font face="微软雅黑" size=10>You have a good night.</font>
+Dialogue: 0,0:30:46.37,0:30:49.31,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>替我抱他一下</font>\N<font face="微软雅黑" size=10>Give that boy a big squeeze from me.</font>
+Dialogue: 0,0:30:49.51,0:30:52.31,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 晚安 爸爸 - 拜拜</font>\N<font face="微软雅黑" size=10>- Good night, dad. - Bye-bye.</font>
+Dialogue: 0,0:31:20.91,0:31:22.57,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嘿 怎么了？</font>\N<font face="微软雅黑" size=10>Hey, what's up?</font>
+Dialogue: 0,0:31:27.15,0:31:32.38,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我刚和斯科菲尔德的值班经理通了电话</font>\N<font face="微软雅黑" size=10>I just got off the phone with the shift manager over at Scofield.</font>
+Dialogue: 0,0:31:32.39,0:31:34.95,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他说他的一个钻孔工没来</font>\N<font face="微软雅黑" size=10>He said one of his drillers didn't show.</font>
+Dialogue: 0,0:31:36.52,0:31:37.46,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>该死的斯科菲尔德</font>\N<font face="微软雅黑" size=10>Fucking Scofield.</font>
+Dialogue: 0,0:31:37.46,0:31:42.56,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>所以 你需要去把这个缺口填上</font>\N<font face="微软雅黑" size=10>So, I'm going to need you to fill one of these for me.</font>
+Dialogue: 0,0:31:44.53,0:31:48.30,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>繁荣在减退 公司在倒闭</font>\N<font face="微软雅黑" size=10>The boom's slowing up. The company's cracking down.</font>
+Dialogue: 0,0:31:48.30,0:31:49.30,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这不是私人恩怨</font>\N<font face="微软雅黑" size=10>It ain't personal.</font>
+Dialogue: 0,0:31:49.30,0:31:53.17,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>见鬼 他们在测试每个人</font>\N<font face="微软雅黑" size=10>Hell, they're testing everybody, even folks who got no</font>
+Dialogue: 0,0:31:53.17,0:31:55.24,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>有没有吸毒史</font>\N<font face="微软雅黑" size=10>history of abuse.</font>
+Dialogue: 0,0:31:57.51,0:31:58.38,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>当然</font>\N<font face="微软雅黑" size=10>Of course,</font>
+Dialogue: 0,0:31:58.38,0:32:02.55,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我本可以说你今天早上没露面</font>\N<font face="微软雅黑" size=10>I could always say you never showed this morning.</font>
+Dialogue: 0,0:32:05.25,0:32:06.99,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是的</font>\N<font face="微软雅黑" size=10>Yeah.</font>
+Dialogue: 0,0:33:35.41,0:33:37.44,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你喜欢那个吧？</font>\N<font face="微软雅黑" size=10>You like that one, huh?</font>
+Dialogue: 0,0:33:39.65,0:33:41.31,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你...</font>\N<font face="微软雅黑" size=10>You...</font>
+Dialogue: 0,0:33:41.32,0:33:43.32,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你喜欢马？</font>\N<font face="微软雅黑" size=10>You like horses?</font>
+Dialogue: 0,0:33:44.05,0:33:46.52,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是的 他们很好</font>\N<font face="微软雅黑" size=10>Yeah. They're okay.</font>
+Dialogue: 0,0:33:48.22,0:33:51.26,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>当你喂他们的时候 一定要把手放平</font>\N<font face="微软雅黑" size=10>When you feed 'em, make sure you hold your hand flat</font>
+Dialogue: 0,0:33:51.26,0:33:53.13,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这样你就不会被咬到了</font>\N<font face="微软雅黑" size=10>so you don't get bit.</font>
+Dialogue: 0,0:33:53.13,0:33:54.56,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我几天后 就不麻烦你了</font>\N<font face="微软雅黑" size=10>I'll be out of your hair in a couple of days,</font>
+Dialogue: 0,0:33:54.56,0:33:57.36,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那你就不用担心什么了</font>\N<font face="微软雅黑" size=10>then you don't have to worry about anything.</font>
+Dialogue: 0,0:33:57.36,0:33:59.23,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不 我只是...</font>\N<font face="微软雅黑" size=10>No, I was just...</font>
+Dialogue: 0,0:34:00.53,0:34:02.50,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>小心点 就这样</font>\N<font face="微软雅黑" size=10>Be careful, that's all.</font>
+Dialogue: 0,0:34:02.50,0:34:04.20,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嗯哼</font>\N<font face="微软雅黑" size=10>Mmm-hmm.</font>
+Dialogue: 0,0:34:04.20,0:34:09.74,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你和爸爸在工作的时候骑过马吗？</font>\N<font face="微软雅黑" size=10>Did you and dad use to ride horses when you were working?</font>
+Dialogue: 0,0:34:14.45,0:34:16.35,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>一些时候骑过</font>\N<font face="微软雅黑" size=10>Sometimes, yeah.</font>
+Dialogue: 0,0:34:17.52,0:34:19.48,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是 条件允许的话</font>\N<font face="微软雅黑" size=10>Yeah, when we could.</font>
+Dialogue: 0,0:34:20.52,0:34:22.19,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>酷</font>\N<font face="微软雅黑" size=10>Cool.</font>
+Dialogue: 0,0:35:32.19,0:35:35.16,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你在吹什么？</font>\N<font face="微软雅黑" size=10>What's that you're playing?</font>
+Dialogue: 0,0:35:35.86,0:35:39.26,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这根本不能算演奏</font>\N<font face="微软雅黑" size=10>I'm not sure you could call it playing just yet.</font>
+Dialogue: 0,0:35:39.27,0:35:40.73,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>比我好多了</font>\N<font face="微软雅黑" size=10>That's a lot better than I can do.</font>
+Dialogue: 0,0:35:40.73,0:35:44.57,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>找不到我的卡祖笛 更不用说</font>\N<font face="微软雅黑" size=10>Couldn't find my sorry way around a kazoo, let alone</font>
+Dialogue: 0,0:35:44.57,0:35:47.77,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那个怪物了</font>\N<font face="微软雅黑" size=10>that monster.</font>
+Dialogue: 0,0:35:49.18,0:35:51.41,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我家有个小姑娘</font>\N<font face="微软雅黑" size=10>I got a little girl back home.</font>
+Dialogue: 0,0:35:51.41,0:35:53.88,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>比你的孩子小一点</font>\N<font face="微软雅黑" size=10>A bit younger than your boy.</font>
+Dialogue: 0,0:35:54.48,0:35:55.85,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>艾米莉</font>\N<font face="微软雅黑" size=10>Emily.</font>
+Dialogue: 0,0:35:55.85,0:36:00.52,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>总想给她打个电话</font>\N<font face="微软雅黑" size=10>Get to call her, or whatever, now and again,</font>
+Dialogue: 0,0:36:00.52,0:36:03.49,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>只有我能瞒过她妈妈的时候</font>\N<font face="微软雅黑" size=10>when I can sneak it past her mom.</font>
+Dialogue: 0,0:36:04.36,0:36:05.66,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>所以 你知道</font>\N<font face="微软雅黑" size=10>So, you know,</font>
+Dialogue: 0,0:36:05.66,0:36:08.79,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我只是想学一首她喜欢的曲子</font>\N<font face="微软雅黑" size=10>just thought I'd learn a little ditty she liked.</font>
+Dialogue: 0,0:36:08.86,0:36:10.56,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>摇篮曲</font>\N<font face="微软雅黑" size=10>A lullaby.</font>
+Dialogue: 0,0:36:11.70,0:36:12.80,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那很好啊</font>\N<font face="微软雅黑" size=10>That's nice.</font>
+Dialogue: 0,0:36:12.80,0:36:14.70,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不 这很蠢</font>\N<font face="微软雅黑" size=10>Nah, it's stupid.</font>
+Dialogue: 0,0:36:14.90,0:36:16.70,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嘿</font>\N<font face="微软雅黑" size=10>Hey!</font>
+Dialogue: 0,0:36:17.60,0:36:19.47,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>干什么呢？</font>\N<font face="微软雅黑" size=10>What gives?</font>
+Dialogue: 0,0:36:19.54,0:36:21.24,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我们浪费时间</font>\N<font face="微软雅黑" size=10>We're burning daylight.</font>
+Dialogue: 0,0:36:21.24,0:36:23.71,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>快走 就在前面</font>\N<font face="微软雅黑" size=10>Get a move on. It's up ahead.</font>
+Dialogue: 0,0:36:36.22,0:36:38.56,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不 她不会的</font>\N<font face="微软雅黑" size=10>No, she won't.</font>
+Dialogue: 0,0:36:41.66,0:36:44.86,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你真的认为你能在一个月内把她弄出来</font>\N<font face="微软雅黑" size=10>So, you really think you can have her out inside a month.</font>
+Dialogue: 0,0:36:44.87,0:36:46.33,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>当然 必须的</font>\N<font face="微软雅黑" size=10>Well, we'll have to.</font>
+Dialogue: 0,0:36:46.33,0:36:49.53,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>挖这么大面积 时间有点不够了</font>\N<font face="微软雅黑" size=10>It's late in the year for a dig of this size.</font>
+Dialogue: 0,0:36:49.54,0:36:51.20,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>请放那边</font>\N<font face="微软雅黑" size=10>Over there, please.</font>
+Dialogue: 0,0:36:51.21,0:36:51.97,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不乱说</font>\N<font face="微软雅黑" size=10>It's not unheard of.</font>
+Dialogue: 0,0:36:51.97,0:36:53.67,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我们得在入冬之前把她弄出来</font>\N<font face="微软雅黑" size=10>We'll have to have her out before winter, though,</font>
+Dialogue: 0,0:36:53.67,0:36:55.74,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>否则就得等到下一个季节</font>\N<font face="微软雅黑" size=10>or, we're looking at having to break till next season.</font>
+Dialogue: 0,0:36:55.74,0:36:57.34,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 你的狗屎？- 谢谢 滑头</font>\N<font face="微软雅黑" size=10>- This your shit? - Thanks, slick.</font>
+Dialogue: 0,0:36:57.34,0:36:58.74,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>真了不起 博士</font>\N<font face="微软雅黑" size=10>That is mighty impressive, doctor.</font>
+Dialogue: 0,0:36:58.75,0:37:01.98,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>别太兴奋了 我们至少要花两年时间</font>\N<font face="微软雅黑" size=10>Don't get too excited. It's going to take us a minimum of two years</font>
+Dialogue: 0,0:37:01.98,0:37:05.72,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>在她能被拍卖之前的实验室里</font>\N<font face="微软雅黑" size=10>in a lab before she's ready for auction.</font>
+Dialogue: 0,0:37:05.79,0:37:09.35,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好吧 我会让我男人起草文件</font>\N<font face="微软雅黑" size=10>All right, well, I'll have my man draw up the papers.</font>
+Dialogue: 0,0:37:09.36,0:37:11.36,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>最后一件事 分成</font>\N<font face="微软雅黑" size=10>Last thing, shares.</font>
+Dialogue: 0,0:37:11.36,0:37:15.23,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我们的人平分七成 你拿三成</font>\N<font face="微软雅黑" size=10>We split our 70. You keep your 30 all to your lonesome.</font>
+Dialogue: 0,0:37:15.23,0:37:15.76,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>明白了</font>\N<font face="微软雅黑" size=10>I see.</font>
+Dialogue: 0,0:37:15.76,0:37:19.50,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>从迪拜来的钱 总是不错的选择 金伯利</font>\N<font face="微软雅黑" size=10>Sacks of money from Dubai are always an option, Kim.</font>
+Dialogue: 0,0:37:19.60,0:37:20.40,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不要不要的</font>\N<font face="微软雅黑" size=10>Like hell.</font>
+Dialogue: 0,0:37:20.40,0:37:23.97,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>让迪拜自己去挖霸王龙 这条龙是美国龙</font>\N<font face="微软雅黑" size=10>Let Dubai dig up its own tyrannosaur. This gal's American.</font>
+Dialogue: 0,0:37:26.91,0:37:28.51,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嘿 陌生人</font>\N<font face="微软雅黑" size=10>Hey, stranger.</font>
+Dialogue: 0,0:37:28.51,0:37:30.44,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你要加入文明吗？</font>\N<font face="微软雅黑" size=10>You gonna join civilization?</font>
+Dialogue: 0,0:37:30.44,0:37:33.48,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我很好 谢谢</font>\N<font face="微软雅黑" size=10>I'm good right here. Thanks.</font>
+Dialogue: 0,0:37:43.02,0:37:44.49,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这样行吗？</font>\N<font face="微软雅黑" size=10>This okay?</font>
+Dialogue: 0,0:37:44.49,0:37:47.76,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我看看 这里有什么？</font>\N<font face="微软雅黑" size=10>Let's see. What have we got here?</font>
+Dialogue: 0,0:37:48.63,0:37:50.86,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>从我们的姑娘那里有些发现</font>\N<font face="微软雅黑" size=10>We got some from our gal.</font>
+Dialogue: 0,0:37:50.96,0:37:52.50,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>还有... 哦</font>\N<font face="微软雅黑" size=10>And... oh.</font>
+Dialogue: 0,0:37:52.50,0:37:56.70,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>埃德蒙顿龙的化石碎片</font>\N<font face="微软雅黑" size=10>Some fragments of edmontosaurus annectens.</font>
+Dialogue: 0,0:37:56.84,0:37:58.90,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我念二年级</font>\N<font face="微软雅黑" size=10>I'm in second grade.</font>
+Dialogue: 0,0:37:59.44,0:38:01.64,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>抱歉 鸭嘴兽</font>\N<font face="微软雅黑" size=10>Sorry. Duckbill.</font>
+Dialogue: 0,0:38:01.64,0:38:03.64,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>霸王龙早餐</font>\N<font face="微软雅黑" size=10>T-Rex breakfast.</font>
+Dialogue: 0,0:38:03.94,0:38:05.71,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>漂亮的发现</font>\N<font face="微软雅黑" size=10>Nice find.</font>
+Dialogue: 0,0:38:09.62,0:38:12.88,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你认为爸爸会以我为荣吗？</font>\N<font face="微软雅黑" size=10>Do you think dad would have been proud of me?</font>
+Dialogue: 0,0:38:14.52,0:38:18.36,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>安娜 你来看下 拜托</font>\N<font face="微软雅黑" size=10>Anna, I need your eye over here, please.</font>
+Dialogue: 0,0:38:18.79,0:38:21.96,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>做什么？伊奇 有什么发现吗？</font>\N<font face="微软雅黑" size=10>Whatcha doing there, eze? Find something?</font>
+Dialogue: 0,0:38:40.41,0:38:43.38,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>苏珊娜 啤酒</font>\N<font face="微软雅黑" size=10>Susanna, have a beer.</font>
+Dialogue: 0,0:38:44.35,0:38:45.38,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>放松 谢谢</font>\N<font face="微软雅黑" size=10>Relax. Thank you.</font>
+Dialogue: 0,0:38:45.39,0:38:47.99,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这太棒了 看看这个</font>\N<font face="微软雅黑" size=10>This is going great. Look at this.</font>
+Dialogue: 0,0:39:06.74,0:39:08.54,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嘿 伙计们</font>\N<font face="微软雅黑" size=10>Hey, guys.</font>
+Dialogue: 0,0:39:08.77,0:39:10.74,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>来看看这个</font>\N<font face="微软雅黑" size=10>Come look at this.</font>
+Dialogue: 0,0:39:30.76,0:39:33.37,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>见鬼 看那个头骨</font>\N<font face="微软雅黑" size=10>Goddamn, look at that skull.</font>
+Dialogue: 0,0:39:33.93,0:39:35.67,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>大奖</font>\N<font face="微软雅黑" size=10>Jackpot.</font>
+Dialogue: 0,0:39:49.42,0:39:50.58,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你在这里做什么？</font>\N<font face="微软雅黑" size=10>What are you doing up here?</font>
+Dialogue: 0,0:39:50.58,0:39:54.42,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这里有一格信号 我应该检查下天气</font>\N<font face="微软雅黑" size=10>I get one bar up here. I thought I'd check the weather.</font>
+Dialogue: 0,0:39:54.42,0:39:55.85,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你在做什么？</font>\N<font face="微软雅黑" size=10>What are you doing?</font>
+Dialogue: 0,0:39:55.86,0:39:57.82,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>检查天气</font>\N<font face="微软雅黑" size=10>Checking the weather.</font>
+Dialogue: 0,0:40:01.16,0:40:03.06,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你觉得怎么样？</font>\N<font face="微软雅黑" size=10>What do you think?</font>
+Dialogue: 0,0:40:03.63,0:40:06.03,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那些云看起来很薄</font>\N<font face="微软雅黑" size=10>Those clouds sure look mean.</font>
+Dialogue: 0,0:40:07.47,0:40:09.07,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我不知道</font>\N<font face="微软雅黑" size=10>I don't know.</font>
+Dialogue: 0,0:40:09.14,0:40:11.07,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>记得几年前</font>\N<font face="微软雅黑" size=10>Remember a couple of years ago.</font>
+Dialogue: 0,0:40:11.07,0:40:13.41,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>有大风暴</font>\N<font face="微软雅黑" size=10>We had that big storm.</font>
+Dialogue: 0,0:40:13.41,0:40:14.84,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是的</font>\N<font face="微软雅黑" size=10>Yeah.</font>
+Dialogue: 0,0:40:16.11,0:40:17.94,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是 我记得</font>\N<font face="微软雅黑" size=10>Yeah, I remember.</font>
+Dialogue: 0,0:41:17.80,0:41:20.74,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你说梦话</font>\N<font face="微软雅黑" size=10>You were talking in your sleep.</font>
+Dialogue: 0,0:41:25.58,0:41:28.61,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是 我做了个恶梦</font>\N<font face="微软雅黑" size=10>Yeah. I had a bad dream.</font>
+Dialogue: 0,0:41:29.75,0:41:31.55,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>有关爸爸的？</font>\N<font face="微软雅黑" size=10>About dad?</font>
+Dialogue: 0,0:41:31.62,0:41:33.15,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>什么？</font>\N<font face="微软雅黑" size=10>What?</font>
+Dialogue: 0,0:41:34.09,0:41:35.75,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不</font>\N<font face="微软雅黑" size=10>No.</font>
+Dialogue: 0,0:41:36.82,0:41:37.59,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不</font>\N<font face="微软雅黑" size=10>No.</font>
+Dialogue: 0,0:41:37.59,0:41:40.89,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>没关系 你可以对我说说他</font>\N<font face="微软雅黑" size=10>It's okay. You can talk about him around me.</font>
+Dialogue: 0,0:41:40.89,0:41:43.56,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我... 我和内特叔叔经常这样</font>\N<font face="微软雅黑" size=10>Me... me and uncle Nate do.</font>
+Dialogue: 0,0:41:43.86,0:41:45.86,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>说说他</font>\N<font face="微软雅黑" size=10>Talk about him.</font>
+Dialogue: 0,0:41:52.71,0:41:54.27,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嘿</font>\N<font face="微软雅黑" size=10>Hey.</font>
+Dialogue: 0,0:41:54.27,0:41:56.17,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>过来</font>\N<font face="微软雅黑" size=10>Come here.</font>
+Dialogue: 0,0:42:15.60,0:42:16.83,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我告诉你 她出老千</font>\N<font face="微软雅黑" size=10>I'm telling you, she's cheatin'.</font>
+Dialogue: 0,0:42:16.83,0:42:20.03,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你只是一脸假正经</font>\N<font face="微软雅黑" size=10>You just got a shit poker face, that's all.</font>
+Dialogue: 0,0:42:20.23,0:42:23.10,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>一脸假正经的家伙</font>\N<font face="微软雅黑" size=10>Would a guy with a shit poker face</font>
+Dialogue: 0,0:42:23.10,0:42:24.20,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 有这种牌？- 是的</font>\N<font face="微软雅黑" size=10>- throw that? - Yes.</font>
+Dialogue: 0,0:42:24.20,0:42:26.30,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这正是假正经的表现</font>\N<font face="微软雅黑" size=10>That's actually exactly what he would do.</font>
+Dialogue: 0,0:42:26.31,0:42:30.74,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不用说 你是虚张声势 知道我要怎么做的吗？</font>\N<font face="微软雅黑" size=10>Needless to say, i called your bluff. Did you see how I did that?</font>
+Dialogue: 0,0:42:30.74,0:42:34.88,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好吧 摊牌 伙计 你有什么？</font>\N<font face="微软雅黑" size=10>Well, we're laying 'em down there, buddy. What you got?</font>
+Dialogue: 0,0:42:37.28,0:42:38.25,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>看看这些</font>\N<font face="微软雅黑" size=10>Look at these.</font>
+Dialogue: 0,0:42:38.25,0:42:41.12,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这才是假正经国王</font>\N<font face="微软雅黑" size=10>King pokerface over here.</font>
+Dialogue: 0,0:42:41.59,0:42:44.56,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>装逼就要装得像</font>\N<font face="微软雅黑" size=10>Layin' it down full houses, like it ain't no shit.</font>
+Dialogue: 0,0:42:44.56,0:42:45.56,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嗯哼</font>\N<font face="微软雅黑" size=10>Mmm-hmm.</font>
+Dialogue: 0,0:42:45.56,0:42:47.66,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是的 我希望你玩点大的</font>\N<font face="微软雅黑" size=10>Yeah, I bet you wish you were playing for more</font>
+Dialogue: 0,0:42:47.66,0:42:49.66,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不只是奶油瓶盖代币 嗯？</font>\N<font face="微软雅黑" size=10>than just butterscotch and bottle caps, huh?</font>
+Dialogue: 0,0:42:49.66,0:42:53.16,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>玩真钱吗？</font>\N<font face="微软雅黑" size=10>You wanna put some real money on it?</font>
+Dialogue: 0,0:42:55.07,0:42:58.90,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我认为你没钱</font>\N<font face="微软雅黑" size=10>Yeah, I don't think you could afford it.</font>
+Dialogue: 0,0:43:00.91,0:43:02.11,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>就你的牌技</font>\N<font face="微软雅黑" size=10>Well, the way you're playing,</font>
+Dialogue: 0,0:43:02.11,0:43:04.01,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我根本不担心</font>\N<font face="微软雅黑" size=10>I don't think I'm the one that needs to be worried.</font>
+Dialogue: 0,0:43:04.01,0:43:07.11,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我还没出大招 我口袋里还有</font>\N<font face="微软雅黑" size=10>Well, I'm not out yet. I see I've got some more bullshit here</font>
+Dialogue: 0,0:43:07.11,0:43:09.61,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>隔壁地里的分成</font>\N<font face="微软雅黑" size=10>in my pocket that I found out in the field.</font>
+Dialogue: 0,0:43:09.62,0:43:12.28,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我们可以重新比赛</font>\N<font face="微软雅黑" size=10>We can get back in this game here.</font>
+Dialogue: 0,0:43:12.29,0:43:14.15,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那是我的赌注</font>\N<font face="微软雅黑" size=10>That's my ante.</font>
+Dialogue: 0,0:43:18.29,0:43:20.12,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>现在看看</font>\N<font face="微软雅黑" size=10>Now look at that.</font>
+Dialogue: 0,0:43:20.13,0:43:22.86,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>发现了这玩意</font>\N<font face="微软雅黑" size=10>Found that out there, too.</font>
+Dialogue: 0,0:43:25.16,0:43:27.80,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那是什么？</font>\N<font face="微软雅黑" size=10>What the hell is that?</font>
+Dialogue: 0,0:43:27.80,0:43:29.37,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>问他</font>\N<font face="微软雅黑" size=10>Ask him.</font>
+Dialogue: 0,0:43:29.90,0:43:35.24,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>内特 这不好笑 把他从桌子上拿下来 快点</font>\N<font face="微软雅黑" size=10>Nate, this isn't funny. Get that off the table. Now.</font>
+Dialogue: 0,0:43:37.34,0:43:42.08,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你别把那恶心的东西带到我侄子身边</font>\N<font face="微软雅黑" size=10>You don't bring that nasty shit out here around my nephew.</font>
+Dialogue: 0,0:43:42.82,0:43:45.28,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>明白吗？</font>\N<font face="微软雅黑" size=10>You understand me?</font>
+Dialogue: 0,0:43:47.22,0:43:48.82,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嗯？</font>\N<font face="微软雅黑" size=10>Huh?</font>
+Dialogue: 0,0:43:49.09,0:43:52.19,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>比利 你听到了吗？</font>\N<font face="微软雅黑" size=10>Billy, you hear?</font>
+Dialogue: 0,0:43:52.26,0:43:54.33,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我说 不要带那个...</font>\N<font face="微软雅黑" size=10>I said, don't bring that...</font>
+Dialogue: 0,0:43:54.93,0:43:58.16,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你真的以为我会把那玩意给孩子？</font>\N<font face="微软雅黑" size=10>You actually think I'd give that shit to a kid?</font>
+Dialogue: 0,0:43:58.16,0:44:00.30,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 你这个笨瓜... - 弟兄们</font>\N<font face="微软雅黑" size=10>- You crack head... - Boys!</font>
+Dialogue: 0,0:44:15.21,0:44:16.88,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>爸爸</font>\N<font face="微软雅黑" size=10>Dad.</font>
+Dialogue: 0,0:44:16.88,0:44:19.18,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嘿 小妞</font>\N<font face="微软雅黑" size=10>Hey, baby girl.</font>
+Dialogue: 0,0:44:22.22,0:44:23.96,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我打电话太晚了吗？</font>\N<font face="微软雅黑" size=10>Am I calling too late?</font>
+Dialogue: 0,0:44:23.96,0:44:26.12,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我不是小孩子了</font>\N<font face="微软雅黑" size=10>I'm not a toddler anymore.</font>
+Dialogue: 0,0:44:26.13,0:44:30.23,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>今天是星期五 我可以玩到9:00点</font>\N<font face="微软雅黑" size=10>And it's Friday. I can stay up till 9:00.</font>
+Dialogue: 0,0:44:31.13,0:44:32.13,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我相信你能</font>\N<font face="微软雅黑" size=10>I'm sure you can.</font>
+Dialogue: 0,0:44:32.13,0:44:35.77,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我只是不想让你妈找我麻烦</font>\N<font face="微软雅黑" size=10>I just don't want to get in trouble with your mom is all.</font>
+Dialogue: 0,0:44:35.77,0:44:37.94,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你总是和妈妈有麻烦</font>\N<font face="微软雅黑" size=10>You're always in trouble with mama.</font>
+Dialogue: 0,0:44:37.94,0:44:41.44,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>哦 那没错</font>\N<font face="微软雅黑" size=10>Oh, that's right.</font>
+Dialogue: 0,0:44:43.91,0:44:47.08,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那是小狗吗？她在吗？</font>\N<font face="微软雅黑" size=10>Is that the pup? Is she around?</font>
+Dialogue: 0,0:44:47.08,0:44:48.15,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是 在院子里</font>\N<font face="微软雅黑" size=10>Yeah. Out in the yard.</font>
+Dialogue: 0,0:44:48.15,0:44:50.08,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>一定以为她看到了什么</font>\N<font face="微软雅黑" size=10>Must have thought she saw something out back.</font>
+Dialogue: 0,0:44:50.08,0:44:53.15,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>在你打电话来之前 她疯了</font>\N<font face="微软雅黑" size=10>She was crazy begging to go out before you called.</font>
+Dialogue: 0,0:44:54.32,0:44:56.12,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>太糟糕了</font>\N<font face="微软雅黑" size=10>That's too bad.</font>
+Dialogue: 0,0:44:56.12,0:44:58.29,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我想打招呼的</font>\N<font face="微软雅黑" size=10>I was hoping to say hi.</font>
+Dialogue: 0,0:44:58.29,0:45:00.93,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我叫它过来</font>\N<font face="微软雅黑" size=10>I'll pass it along.</font>
+Dialogue: 0,0:45:02.46,0:45:05.03,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>她很想念你</font>\N<font face="微软雅黑" size=10>She misses you.</font>
+Dialogue: 0,0:45:07.00,0:45:11.74,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你告诉那个毛茸茸的杂种 我也很想她</font>\N<font face="微软雅黑" size=10>Well, you tell that shaggy son of a bitch i miss her, too.</font>
+Dialogue: 0,0:45:15.24,0:45:15.94,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嘿</font>\N<font face="微软雅黑" size=10>Hey.</font>
+Dialogue: 0,0:45:15.94,0:45:17.44,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我有东西要给你</font>\N<font face="微软雅黑" size=10>I got something i want you to check out.</font>
+Dialogue: 0,0:45:17.44,0:45:19.91,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我得去准备睡觉了</font>\N<font face="微软雅黑" size=10>I gotta get ready for bed.</font>
+Dialogue: 0,0:45:22.08,0:45:23.38,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>没关系</font>\N<font face="微软雅黑" size=10>That's okay.</font>
+Dialogue: 0,0:45:23.38,0:45:25.08,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>没关系</font>\N<font face="微软雅黑" size=10>That's all right.</font>
+Dialogue: 0,0:45:25.09,0:45:28.45,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你进被窝 也能听</font>\N<font face="微软雅黑" size=10>You just get yourself tucked in and listen.</font>
+Dialogue: 0,0:45:28.46,0:45:30.09,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好吗？</font>\N<font face="微软雅黑" size=10>All right?</font>
+Dialogue: 0,0:47:53.13,0:47:56.87,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>麦考伊 暴风来了 我们要回去...</font>\N<font face="微软雅黑" size=10>McCoy, storm's comin'. We're headed back to...</font>
+Dialogue: 0,0:47:56.87,0:48:00.34,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你总是窥探别人的帐篷 还是碰巧被我碰到？</font>\N<font face="微软雅黑" size=10>You always snooping around everybody's tent, or am I just lucky?</font>
+Dialogue: 0,0:48:00.34,0:48:02.41,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我们一直在喊你</font>\N<font face="微软雅黑" size=10>We've been calling you.</font>
+Dialogue: 0,0:48:02.41,0:48:04.91,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那是什么鬼东西？</font>\N<font face="微软雅黑" size=10>What the hell was that thing?</font>
+Dialogue: 0,0:48:06.18,0:48:08.28,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我能给你看点东西吗？</font>\N<font face="微软雅黑" size=10>Can I show you something?</font>
+Dialogue: 0,0:48:11.52,0:48:13.18,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>行</font>\N<font face="微软雅黑" size=10>Yeah.</font>
+Dialogue: 0,0:48:18.26,0:48:20.16,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你的艾米丽？</font>\N<font face="微软雅黑" size=10>This your Emily?</font>
+Dialogue: 0,0:48:20.39,0:48:23.29,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那是她在玩狗</font>\N<font face="微软雅黑" size=10>That's her playing with a dog there.</font>
+Dialogue: 0,0:48:24.33,0:48:26.33,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我们叫她“窃笑”</font>\N<font face="微软雅黑" size=10>We call her snickers.</font>
+Dialogue: 0,0:48:26.33,0:48:29.60,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>她爱用喜欢的东西命名</font>\N<font face="微软雅黑" size=10>She wanted to name it after something she liked.</font>
+Dialogue: 0,0:48:30.67,0:48:34.04,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>她希望那条狗那副样子</font>\N<font face="微软雅黑" size=10>She wanted that dog in the worst way.</font>
+Dialogue: 0,0:48:36.91,0:48:38.38,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>麦考伊</font>\N<font face="微软雅黑" size=10>McCoy.</font>
+Dialogue: 0,0:48:38.58,0:48:40.51,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>有什么麻烦吗？</font>\N<font face="微软雅黑" size=10>Are you in some kind of trouble?</font>
+Dialogue: 0,0:48:40.51,0:48:42.48,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>她也很聪明</font>\N<font face="微软雅黑" size=10>She's so smart, too.</font>
+Dialogue: 0,0:48:42.48,0:48:46.98,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>她做词汇纵横字谜</font>\N<font face="微软雅黑" size=10>She does these little, like, vocab crosswords.</font>
+Dialogue: 0,0:48:47.29,0:48:48.39,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>她懂“全副武装”</font>\N<font face="微软雅黑" size=10>She got "panoply."</font>
+Dialogue: 0,0:48:48.39,0:48:52.49,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>八岁的孩子懂 但我根本写不来“全副武装”几个字</font>\N<font face="微软雅黑" size=10>Little eight-year-old kid, i don't even know what a panoply is.</font>
+Dialogue: 0,0:48:52.49,0:48:54.13,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>维斯</font>\N<font face="微软雅黑" size=10>Wes.</font>
+Dialogue: 0,0:48:57.53,0:49:01.17,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>她比她的老爸聪明多了</font>\N<font face="微软雅黑" size=10>She's a lot smarter than her old man.</font>
+Dialogue: 0,0:49:05.04,0:49:06.57,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我曾经...</font>\N<font face="微软雅黑" size=10>I used to...</font>
+Dialogue: 0,0:49:07.14,0:49:09.54,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>替坏人工作</font>\N<font face="微软雅黑" size=10>work for some bad people.</font>
+Dialogue: 0,0:49:10.44,0:49:11.94,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>贩毒集团之类的</font>\N<font face="微软雅黑" size=10>Cartel kind of bad.</font>
+Dialogue: 0,0:49:11.95,0:49:17.18,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我被追捕了一段时间</font>\N<font face="微软雅黑" size=10>I got caught doing a run and did some time for it.</font>
+Dialogue: 0,0:49:19.55,0:49:22.25,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>花了很多钱</font>\N<font face="微软雅黑" size=10>Cost 'em a lot of money.</font>
+Dialogue: 0,0:49:22.32,0:49:25.56,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>她对那些人一无所知</font>\N<font face="微软雅黑" size=10>She don't know nothing about those people.</font>
+Dialogue: 0,0:49:25.66,0:49:27.39,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>何必针对她？</font>\N<font face="微软雅黑" size=10>Why should she?</font>
+Dialogue: 0,0:49:27.39,0:49:29.43,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这让我恶心</font>\N<font face="微软雅黑" size=10>It makes me sick.</font>
+Dialogue: 0,0:49:32.53,0:49:34.47,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>因为是我干的坏事</font>\N<font face="微软雅黑" size=10>'Cause I did that.</font>
+Dialogue: 0,0:49:39.04,0:49:41.27,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你可以继续尝试得到...</font>\N<font face="微软雅黑" size=10>You can keep trying to get...</font>
+Dialogue: 0,0:49:41.27,0:49:43.24,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不知何故 继续努力争取领先</font>\N<font face="微软雅黑" size=10>Just keep trying to get ahead of it, somehow.</font>
+Dialogue: 0,0:49:43.24,0:49:46.04,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我试图放弃 试图...</font>\N<font face="微软雅黑" size=10>I tried to quit, tried to...</font>
+Dialogue: 0,0:49:46.21,0:49:47.98,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>但是...</font>\N<font face="微软雅黑" size=10>But it's...</font>
+Dialogue: 0,0:49:52.65,0:49:54.45,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我不知道</font>\N<font face="微软雅黑" size=10>I don't know.</font>
+Dialogue: 0,0:49:57.16,0:50:00.59,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>有时候我在想 也许我不在身边最好</font>\N<font face="微软雅黑" size=10>Sometimes I wonder, maybe it'd be best if I'm not around.</font>
+Dialogue: 0,0:50:03.03,0:50:05.43,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这真的是你想要的吗？</font>\N<font face="微软雅黑" size=10>Is that really what you want?</font>
+Dialogue: 0,0:50:15.67,0:50:17.44,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我 嗯...</font>\N<font face="微软雅黑" size=10>I, uh...</font>
+Dialogue: 0,0:50:18.21,0:50:21.48,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我也在里面待了一段时间</font>\N<font face="微软雅黑" size=10>I spent some time inside, too.</font>
+Dialogue: 0,0:50:22.55,0:50:24.55,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>三年</font>\N<font face="微软雅黑" size=10>Three years.</font>
+Dialogue: 0,0:50:24.55,0:50:25.42,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不会吧？</font>\N<font face="微软雅黑" size=10>No shit.</font>
+Dialogue: 0,0:50:25.42,0:50:28.62,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我猜法官想拿我杀鸡儆猴</font>\N<font face="微软雅黑" size=10>Yeah, the judge wanted to make an example of me, I guess.</font>
+Dialogue: 0,0:50:28.62,0:50:33.12,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我怀孕了 却根本不重要</font>\N<font face="微软雅黑" size=10>It didn't even matter that I was pregnant.</font>
+Dialogue: 0,0:50:33.69,0:50:35.39,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>和...</font>\N<font face="微软雅黑" size=10>With...</font>
+Dialogue: 0,0:50:35.66,0:50:39.06,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是的 我甚至都没抱过他</font>\N<font face="微软雅黑" size=10>Yeah. I never even got to hold him.</font>
+Dialogue: 0,0:50:39.56,0:50:40.40,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>上帝</font>\N<font face="微软雅黑" size=10>Jesus.</font>
+Dialogue: 0,0:50:40.40,0:50:41.57,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他去和我爸爸住</font>\N<font face="微软雅黑" size=10>He went to live with my dad</font>
+Dialogue: 0,0:50:41.57,0:50:45.27,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>因为我丈夫在那时已经不在了</font>\N<font face="微软雅黑" size=10>'cause my husband was already out of the picture at that point.</font>
+Dialogue: 0,0:50:45.80,0:50:49.61,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>联邦调查局来找我们 只有我当替罪羊了</font>\N<font face="微软雅黑" size=10>Then the FBI came down on us, and it was just me left to take the fall</font>
+Dialogue: 0,0:50:49.61,0:50:56.41,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我一直说我不知道那是联邦土地 但伊森知道</font>\N<font face="微软雅黑" size=10>and I kept saying I didn't know it was federal land. It was Ethan who knew.</font>
+Dialogue: 0,0:50:57.52,0:51:01.55,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我不知道那是不是真的</font>\N<font face="微软雅黑" size=10>But I don't even know if that's true.</font>
+Dialogue: 0,0:51:03.26,0:51:05.12,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>也许我知道</font>\N<font face="微软雅黑" size=10>Maybe I did.</font>
+Dialogue: 0,0:51:07.43,0:51:09.46,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>也许我自以为知道</font>\N<font face="微软雅黑" size=10>Maybe I know I did.</font>
+Dialogue: 0,0:51:13.37,0:51:17.84,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我出去后才看到伊奇</font>\N<font face="微软雅黑" size=10>I didn't even see Ezekiel till after I got out.</font>
+Dialogue: 0,0:51:19.10,0:51:24.44,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不是因为我不能 而是...</font>\N<font face="微软雅黑" size=10>You know, not 'cause i couldn't, but...</font>
+Dialogue: 0,0:51:26.28,0:51:30.78,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我回家时 他甚至不知道我是谁</font>\N<font face="微软雅黑" size=10>And then when I did get home, he didn't even know who I was.</font>
+Dialogue: 0,0:51:31.08,0:51:35.72,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>所以 我花了所有的时间在这里</font>\N<font face="微软雅黑" size=10>So, I spent every spare moment out here</font>
+Dialogue: 0,0:51:35.72,0:51:39.86,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这似乎是更好的方式</font>\N<font face="微软雅黑" size=10>'cause it just seemed like it was better somehow.</font>
+Dialogue: 0,0:51:40.16,0:51:41.86,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>对我们俩来说</font>\N<font face="微软雅黑" size=10>For both of us.</font>
+Dialogue: 0,0:51:47.40,0:51:50.47,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你还是这么想的吗？</font>\N<font face="微软雅黑" size=10>Is that still what you think?</font>
+Dialogue: 0,0:51:54.81,0:51:56.14,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>安娜 你来吗？</font>\N<font face="微软雅黑" size=10>Anna, you coming?</font>
+Dialogue: 0,0:51:56.14,0:51:58.21,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>如果我们现在不走 就走不了啦</font>\N<font face="微软雅黑" size=10>If we don't leave now, we ain't leaving.</font>
+Dialogue: 0,0:51:58.21,0:52:01.18,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是 我们马上就来</font>\N<font face="微软雅黑" size=10>Yeah. We're coming.</font>
+Dialogue: 0,0:52:01.45,0:52:02.51,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>啊...</font>\N<font face="微软雅黑" size=10>Ah...</font>
+Dialogue: 0,0:52:33.45,0:52:34.85,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>听说有争吵</font>\N<font face="微软雅黑" size=10>Heard about the ruckus.</font>
+Dialogue: 0,0:52:34.85,0:52:37.92,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那是我应该担心的事吗？</font>\N<font face="微软雅黑" size=10>That something i ought to be worried about?</font>
+Dialogue: 0,0:52:39.15,0:52:41.35,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他会冷静下来的</font>\N<font face="微软雅黑" size=10>He'll cool off.</font>
+Dialogue: 0,0:52:41.72,0:52:43.72,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>漫长的日子</font>\N<font face="微软雅黑" size=10>Long days.</font>
+Dialogue: 0,0:52:43.72,0:52:46.29,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>大量的工作 嗯哼</font>\N<font face="微软雅黑" size=10>Lotta work. Mmm-hmm.</font>
+Dialogue: 0,0:52:49.86,0:52:55.20,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>内特有没有告诉你 我是怎么认识韦斯的？</font>\N<font face="微软雅黑" size=10>Did Nate ever tell you how I happened to come to know Wes?</font>
+Dialogue: 0,0:52:55.77,0:52:56.77,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>麦考伊？</font>\N<font face="微软雅黑" size=10>McCoy?</font>
+Dialogue: 0,0:52:56.77,0:53:00.40,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 我的意思是我假设... - 我是他的担保人</font>\N<font face="微软雅黑" size=10>- I mean, i guess I assumed... - I'm his sponsor.</font>
+Dialogue: 0,0:53:03.58,0:53:07.95,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>所以 这意味着... 嗯哼 嗯哼</font>\N<font face="微软雅黑" size=10>So, that means... Mmm-hmm. Mmm-hmm.</font>
+Dialogue: 0,0:53:08.51,0:53:14.59,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我是说 我们都曾经年轻和犯傻 对不对？</font>\N<font face="微软雅黑" size=10>Well, you know, I mean, we were all young and dumb once, right?</font>
+Dialogue: 0,0:53:21.26,0:53:24.56,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>无论如何 我只是觉得让你知道最好</font>\N<font face="微软雅黑" size=10>Anyway, I just thought it best you know it.</font>
+Dialogue: 0,0:53:25.43,0:53:29.67,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我以前处理过100万次了</font>\N<font face="微软雅黑" size=10>Ain't nothing I've ain't handled a million times before.</font>
+Dialogue: 0,0:53:31.74,0:53:34.67,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>现在没有什么我不能处理的了</font>\N<font face="微软雅黑" size=10>Ain't nothing i can't handle now.</font>
+Dialogue: 0,0:54:32.80,0:54:36.80,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你不应该偷偷摸摸的</font>\N<font face="微软雅黑" size=10>You shouldn't sneak up on folks.</font>
+Dialogue: 0,0:54:36.94,0:54:39.87,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>对不起</font>\N<font face="微软雅黑" size=10>Oh, sorry.</font>
+Dialogue: 0,0:54:41.37,0:54:46.31,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>别冻着 进来 外面在下雨</font>\N<font face="微软雅黑" size=10>Come in out of the cold, at least. It's pissing rain outside.</font>
+Dialogue: 0,0:54:53.49,0:54:56.85,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>怎么了 你闷闷不乐？</font>\N<font face="微软雅黑" size=10>So, what's the deal? You moping?</font>
+Dialogue: 0,0:54:57.86,0:54:59.69,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我不知道</font>\N<font face="微软雅黑" size=10>I don't know.</font>
+Dialogue: 0,0:55:00.29,0:55:04.03,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我不会逼你说的</font>\N<font face="微软雅黑" size=10>Well, I ain't gonna yank it out of you.</font>
+Dialogue: 0,0:55:06.40,0:55:08.57,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>起初我不想跟你一起去</font>\N<font face="微软雅黑" size=10>Didn't wanna come with, at first.</font>
+Dialogue: 0,0:55:08.57,0:55:09.73,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嗯哼</font>\N<font face="微软雅黑" size=10>Mmm-hmm.</font>
+Dialogue: 0,0:55:09.74,0:55:12.44,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>现在你很高兴你这么做了？</font>\N<font face="微软雅黑" size=10>And now you're glad you did?</font>
+Dialogue: 0,0:55:13.84,0:55:17.44,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这让我很想我爸爸</font>\N<font face="微软雅黑" size=10>Well, it makes me miss my dad.</font>
+Dialogue: 0,0:55:19.41,0:55:20.51,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>妈的 孩子</font>\N<font face="微软雅黑" size=10>Shit, kid.</font>
+Dialogue: 0,0:55:20.51,0:55:26.08,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你知道 爸爸们并不总是按你的需要行事</font>\N<font face="微软雅黑" size=10>You know, dads ain't always all they're cracked up to be.</font>
+Dialogue: 0,0:55:27.32,0:55:29.79,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>昨天不代表今天</font>\N<font face="微软雅黑" size=10>Yesterday don't mean Jack.</font>
+Dialogue: 0,0:55:37.03,0:55:38.36,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你拿的是什么？</font>\N<font face="微软雅黑" size=10>What's that you got there?</font>
+Dialogue: 0,0:55:38.36,0:55:43.40,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>有人要我把这个给你</font>\N<font face="微软雅黑" size=10>Oh, somebody told me i was supposed to give this to you.</font>
+Dialogue: 0,0:55:44.34,0:55:47.37,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>谁？牧场的人？</font>\N<font face="微软雅黑" size=10>Who? Someone from the ranch?</font>
+Dialogue: 0,0:55:47.64,0:55:48.91,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>呃 是的 也许吧</font>\N<font face="微软雅黑" size=10>Uh, yeah, maybe.</font>
+Dialogue: 0,0:55:48.91,0:55:51.11,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我以前没见过他</font>\N<font face="微软雅黑" size=10>I haven't seen him before.</font>
+Dialogue: 0,0:55:58.12,0:55:59.85,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>听着 嗯...</font>\N<font face="微软雅黑" size=10>Look, uh...</font>
+Dialogue: 0,0:55:59.85,0:56:01.72,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>进去</font>\N<font face="微软雅黑" size=10>Get inside.</font>
+Dialogue: 0,0:56:03.09,0:56:04.92,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>去睡觉吧</font>\N<font face="微软雅黑" size=10>Head off to bed.</font>
+Dialogue: 0,0:56:04.92,0:56:06.69,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好</font>\N<font face="微软雅黑" size=10>Okay.</font>
+Dialogue: 0,0:56:09.13,0:56:12.46,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>别提起那个不认识的人</font>\N<font face="微软雅黑" size=10>And don't talk to no one else you don't know.</font>
+Dialogue: 0,0:56:47.67,0:56:49.17,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>操</font>\N<font face="微软雅黑" size=10>Fuck!</font>
+Dialogue: 0,0:57:01.20,0:57:03.04,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>下一个是你家小婊子</font>
+Dialogue: 0,0:57:02.98,0:57:06.42,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>让你的老板接电话 滑头</font>\N<font face="微软雅黑" size=10>Put your boss on the phone, slick.</font>
+Dialogue: 0,0:57:06.79,0:57:09.49,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我有他的骨头</font>\N<font face="微软雅黑" size=10>I got his bones.</font>
+Dialogue: 0,0:57:12.52,0:57:14.12,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你听到我说的了吗？</font>\N<font face="微软雅黑" size=10>You heard what I said?</font>
+Dialogue: 0,0:57:14.13,0:57:17.13,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我受够了他妈的救助</font>\N<font face="微软雅黑" size=10>I'm tired of talking to the fucking help.</font>
+Dialogue: 0,0:57:17.20,0:57:20.03,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>教皇会来找你的</font>\N<font face="微软雅黑" size=10>El papa will come to you.</font>
+Dialogue: 0,0:57:20.13,0:57:21.93,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>操</font>\N<font face="微软雅黑" size=10>Fuck!</font>
+Dialogue: 0,0:57:27.07,0:57:29.01,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他们对你做了什么？</font>\N<font face="微软雅黑" size=10>Oh, what did they do to you?</font>
+Dialogue: 0,0:57:43.66,0:57:45.82,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>行吗？很紧了</font>\N<font face="微软雅黑" size=10>Well? It's tight.</font>
+Dialogue: 0,0:57:49.19,0:57:51.93,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你做得很好 恐龙女士</font>\N<font face="微软雅黑" size=10>You done good, dinosaur lady.</font>
+Dialogue: 0,0:57:52.46,0:57:55.07,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>谢了 恐龙小子</font>\N<font face="微软雅黑" size=10>Thanks, dinosaur fella.</font>
+Dialogue: 0,0:57:55.07,0:57:59.07,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>哦 我被提拔了</font>\N<font face="微软雅黑" size=10>Oh. I've been promoted.</font>
+Dialogue: 0,0:57:59.07,0:58:01.54,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我去拿背包 然后我们就可以出去了</font>\N<font face="微软雅黑" size=10>I'm gonna go grab my pack, then we can caravan outta here.</font>
+Dialogue: 0,0:58:01.54,0:58:04.14,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 你有卡车钥匙吗？- 有的</font>\N<font face="微软雅黑" size=10>- You got the keys to the truck, right?. - Got it.</font>
+Dialogue: 0,0:58:04.14,0:58:05.51,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好了 我们走吧</font>\N<font face="微软雅黑" size=10>Right, let's get going.</font>
+Dialogue: 0,0:58:05.51,0:58:06.94,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>伊奇 快点 我们走</font>\N<font face="微软雅黑" size=10>Hey, eze, come on, let's go.</font>
+Dialogue: 0,0:58:06.95,0:58:09.11,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 好的 - 东西都收拾好了吗？</font>\N<font face="微软雅黑" size=10>- Okay. - You got all your stuff packed?</font>
+Dialogue: 0,0:58:09.11,0:58:10.68,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 没有 - 快 我们装车了</font>\N<font face="微软雅黑" size=10>- Nope. - Come on, let's load up.</font>
+Dialogue: 0,0:58:10.68,0:58:13.65,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我想在太阳落山之前离开这里</font>\N<font face="微软雅黑" size=10>I wanna get out of here before the sun sets.</font>
+Dialogue: 0,0:58:13.65,0:58:15.12,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好的</font>\N<font face="微软雅黑" size=10>Okay.</font>
+Dialogue: 0,0:58:16.55,0:58:17.96,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你都弄好了吗？</font>\N<font face="微软雅黑" size=10>You got everything?</font>
+Dialogue: 0,0:58:17.96,0:58:20.59,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好孩子 来吧 我们走</font>\N<font face="微软雅黑" size=10>Good boy. Come on, let's go.</font>
+Dialogue: 0,0:58:20.59,0:58:23.56,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嘿 内特...</font>\N<font face="微软雅黑" size=10>Hey, Nate...</font>
+Dialogue: 0,0:58:25.70,0:58:27.97,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>听着 伙计 我只是想...</font>\N<font face="微软雅黑" size=10>Look, man, I just wanna...</font>
+Dialogue: 0,0:58:27.97,0:58:28.97,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我想说我感觉不好</font>\N<font face="微软雅黑" size=10>I wanna say I feel bad</font>
+Dialogue: 0,0:58:28.97,0:58:32.54,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>就因为他妈的纸牌游戏的事情失控了</font>\N<font face="微软雅黑" size=10>for how things got outta hand at the fucking card game.</font>
+Dialogue: 0,0:58:32.54,0:58:33.67,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>别反感</font>\N<font face="微软雅黑" size=10>No hard feelings.</font>
+Dialogue: 0,0:58:43.82,0:58:44.72,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>内特</font>\N<font face="微软雅黑" size=10>Nate!</font>
+Dialogue: 0,0:58:44.72,0:58:46.08,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 内特 - 伊奇 趴下</font>\N<font face="微软雅黑" size=10>- Nate! - Eze, stay down.</font>
+Dialogue: 0,0:58:46.09,0:58:47.85,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>伊奇 趴下</font>\N<font face="微软雅黑" size=10>Ezekiel, get down!</font>
+Dialogue: 0,0:58:48.75,0:58:50.92,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 哦 妈的 - 内特</font>\N<font face="微软雅黑" size=10>- Ah, shit. - Nate!</font>
+Dialogue: 0,0:58:50.92,0:58:53.66,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你上车 低头</font>\N<font face="微软雅黑" size=10>You get in the car and keep your head down.</font>
+Dialogue: 0,0:58:54.53,0:58:55.16,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>内特</font>\N<font face="微软雅黑" size=10>Nate!</font>
+Dialogue: 0,0:58:55.16,0:58:56.29,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这到底是怎么回事？</font>\N<font face="微软雅黑" size=10>What the hell is going on?</font>
+Dialogue: 0,0:58:56.30,0:58:59.83,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 待在那里 - 你听到没有？</font>\N<font face="微软雅黑" size=10>- Stay right there. - You hear me?</font>
+Dialogue: 0,0:58:59.83,0:59:00.86,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>妈的 妈妈</font>\N<font face="微软雅黑" size=10>Shit. Mom!</font>
+Dialogue: 0,0:59:00.87,0:59:03.03,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>伙计们没事吧？</font>\N<font face="微软雅黑" size=10>Are you guys okay?</font>
+Dialogue: 0,0:59:03.90,0:59:05.70,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 哦 不不 别是钥匙 - 安娜</font>\N<font face="微软雅黑" size=10>- Oh, no. No, not the keys. - Anna!</font>
+Dialogue: 0,0:59:05.70,0:59:07.91,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>安娜 你在干什么？上车离开这里</font>\N<font face="微软雅黑" size=10>Anna, what are you doing? Get in the truck and get outta here.</font>
+Dialogue: 0,0:59:07.91,0:59:10.74,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>钥匙 我丢了钥匙...</font>\N<font face="微软雅黑" size=10>Keys! I lost the keys in the...</font>
+Dialogue: 0,0:59:13.98,0:59:18.08,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 麦考伊 - 他到底在干什么？</font>\N<font face="微软雅黑" size=10>- McCoy. - What the hell is he doing?</font>
+Dialogue: 0,0:59:19.25,0:59:21.99,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你们这些混蛋想杀我？</font>\N<font face="微软雅黑" size=10>You motherfuckers wanna kill me?</font>
+Dialogue: 0,0:59:21.99,0:59:23.72,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你最好直接瞄准</font>\N<font face="微软雅黑" size=10>You better aim straight!</font>
+Dialogue: 0,0:59:23.72,0:59:27.66,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>听到吗？就待在那里 你没事的</font>\N<font face="微软雅黑" size=10>You hear me? Stay right there. You're okay.</font>
+Dialogue: 0,0:59:28.03,0:59:29.73,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>妈妈</font>\N<font face="微软雅黑" size=10>Mom!</font>
+Dialogue: 0,0:59:31.83,0:59:32.83,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我找不到钥匙</font>\N<font face="微软雅黑" size=10>I can't find 'em.</font>
+Dialogue: 0,0:59:32.83,0:59:34.63,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这不值得 安娜 走吧</font>\N<font face="微软雅黑" size=10>It's not worth it, Anna, come on.</font>
+Dialogue: 0,0:59:34.63,0:59:37.07,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我们不能把她留在这里</font>\N<font face="微软雅黑" size=10>We can't just leave her here.</font>
+Dialogue: 0,0:59:49.71,0:59:53.68,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我就说 我们不该相信那个瘾君子</font>\N<font face="微软雅黑" size=10>I knew we never should have trusted that junkie son of a bitch.</font>
+Dialogue: 0,0:59:53.69,0:59:55.29,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>哎哟 哎哟 是的 好吧</font>\N<font face="微软雅黑" size=10>Ouch. Ouch! Yeah, all right.</font>
+Dialogue: 0,0:59:55.29,0:59:56.99,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我知道 像火烧一样刺痛</font>\N<font face="微软雅黑" size=10>I know, it will sting like spitfire,</font>
+Dialogue: 0,0:59:56.99,0:59:58.19,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>但至少没有脱落</font>\N<font face="微软雅黑" size=10>but at least it won't fall off.</font>
+Dialogue: 0,0:59:58.19,1:00:00.06,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我还是不敢相信我们把她留在外面了</font>\N<font face="微软雅黑" size=10>I still can't believe we just left her out there.</font>
+Dialogue: 0,1:00:00.06,1:00:05.70,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>有比恐龙更让人担心的事 博士</font>\N<font face="微软雅黑" size=10>Well, we have worse things to worry about than that dinosaur, doctor.</font>
+Dialogue: 0,1:00:05.70,1:00:07.33,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你要去哪里？麦考伊还没回来</font>\N<font face="微软雅黑" size=10>Where are you going? McCoy ain't back yet.</font>
+Dialogue: 0,1:00:07.33,1:00:10.97,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>很好 够了 好吗？你们俩</font>\N<font face="微软雅黑" size=10>Good. That's enough, okay? From both of you.</font>
+Dialogue: 0,1:00:10.97,1:00:13.84,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>金伯利 这整件事都是他的错</font>\N<font face="微软雅黑" size=10>Kim, this whole thing is his fault.</font>
+Dialogue: 0,1:00:14.97,1:00:20.64,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我知道 但我还是要去找他</font>\N<font face="微软雅黑" size=10>Well, I know that, but I'm gonna go look for him anyway.</font>
+Dialogue: 0,1:00:27.19,1:00:29.12,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你拿的是什么？</font>\N<font face="微软雅黑" size=10>What you got there?</font>
+Dialogue: 0,1:00:29.69,1:00:32.06,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他说那是为了好运</font>\N<font face="微软雅黑" size=10>He said it was for good luck.</font>
+Dialogue: 0,1:00:33.36,1:00:35.16,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>谁说的？</font>\N<font face="微软雅黑" size=10>Who did?</font>
+Dialogue: 0,1:00:42.00,1:00:44.67,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他妈的</font>\N<font face="微软雅黑" size=10>Fuck.</font>
+Dialogue: 0,1:00:49.37,1:00:53.18,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>等等 等等 等等 妈的</font>\N<font face="微软雅黑" size=10>Wait. Wait. Wait, god damn it!</font>
+Dialogue: 0,1:00:53.81,1:00:58.85,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>人不大 却挺难杀</font>
+Dialogue: 0,1:00:58.68,1:01:02.35,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>等一下 听我说 好吗？</font>\N<font face="微软雅黑" size=10>Just wait a minute and listen to me, yeah?</font>
+Dialogue: 0,1:01:07.58,1:01:13.54,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你知道我多痛恨干这种事吗？</font>
+Dialogue: 0,1:01:13.33,1:01:16.83,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>仅仅是对一个他妈的...</font>\N<font face="微软雅黑" size=10>Just hablar for a fucking...</font>
+Dialogue: 0,1:01:16.84,1:01:19.04,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>该死... 英语 说英语 现在</font>\N<font face="微软雅黑" size=10>Goddamn... English, English, right now.</font>
+Dialogue: 0,1:01:19.04,1:01:21.97,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>结束了 外国佬</font>\N<font face="微软雅黑" size=10>It's over, gringo.</font>
+Dialogue: 0,1:01:21.97,1:01:25.24,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你干脆点</font>\N<font face="微软雅黑" size=10>You make this easier on yourself.</font>
+Dialogue: 0,1:01:25.24,1:01:28.21,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你 还是你女儿</font>\N<font face="微软雅黑" size=10>You, or your daughter.</font>
+Dialogue: 0,1:01:28.21,1:01:33.25,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我可以付钱 好吗？我付钱</font>\N<font face="微软雅黑" size=10>I can still pay, all right? I can.</font>
+Dialogue: 0,1:01:33.25,1:01:35.15,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>别做懦夫</font>\N<font face="微软雅黑" size=10>Don't be a coward.</font>
+Dialogue: 0,1:01:35.22,1:01:38.36,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>做个好父亲 然后死</font>\N<font face="微软雅黑" size=10>Be a good father and die.</font>
+Dialogue: 0,1:01:38.36,1:01:43.06,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不 我有霸王龙 就在那儿 我有的</font>\N<font face="微软雅黑" size=10>No. No, no. I have the t-Rex. It's there. I have it.</font>
+Dialogue: 0,1:01:44.76,1:01:46.33,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>这里？</font>\N<font face="微软雅黑" size=10>Here?</font>
+Dialogue: 0,1:01:48.17,1:01:49.90,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嗯？</font>\N<font face="微软雅黑" size=10>Huh?</font>
+Dialogue: 0,1:01:49.97,1:01:52.24,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>图片为证？</font>\N<font face="微软雅黑" size=10>Pictures. Huh?</font>
+Dialogue: 0,1:01:52.70,1:01:54.14,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>看到没？</font>\N<font face="微软雅黑" size=10>See?</font>
+Dialogue: 0,1:01:56.37,1:01:58.34,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>就像我说的</font>\N<font face="微软雅黑" size=10>Just like I said.</font>
+Dialogue: 0,1:01:58.48,1:02:01.11,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>就是今天</font>\N<font face="微软雅黑" size=10>That's from today.</font>
+Dialogue: 0,1:02:01.11,1:02:02.88,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>已经装车了</font>\N<font face="微软雅黑" size=10>It's already loaded up.</font>
+Dialogue: 0,1:02:02.88,1:02:07.45,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我该怎么处理一只大的死晰蜴？</font>\N<font face="微软雅黑" size=10>What I'm supposed to do with a big, dead lizard?</font>
+Dialogue: 0,1:02:07.45,1:02:08.99,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嗯？</font>\N<font face="微软雅黑" size=10>Huh?</font>
+Dialogue: 0,1:02:08.99,1:02:11.42,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你他妈的知道什么</font>\N<font face="微软雅黑" size=10>You know exactly fucking what.</font>
+Dialogue: 0,1:02:11.42,1:02:13.36,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>拍卖</font>\N<font face="微软雅黑" size=10>Auction it off.</font>
+Dialogue: 0,1:02:13.42,1:02:15.16,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>黑市？</font>\N<font face="微软雅黑" size=10>Black market?</font>
+Dialogue: 0,1:02:15.16,1:02:20.10,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>最后一只800万美元的死蜥蜴</font>\N<font face="微软雅黑" size=10>The last one that complete was an $8-million dead lizard.</font>
+Dialogue: 0,1:02:31.28,1:02:33.14,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>别傻了</font>\N<font face="微软雅黑" size=10>Don't be stupid.</font>
+Dialogue: 0,1:02:36.38,1:02:39.75,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你杀了我 我只是另一具尸体</font>\N<font face="微软雅黑" size=10>You kill me, I'm just another body.</font>
+Dialogue: 0,1:02:41.09,1:02:44.99,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>荒地上的坟墓 有什么价值？</font>\N<font face="微软雅黑" size=10>The grave out in the badlands, what's that worth?</font>
+Dialogue: 0,1:02:47.93,1:02:50.39,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你让我把这化石给你</font>\N<font face="微软雅黑" size=10>You let me get this fossil for you,</font>
+Dialogue: 0,1:02:51.36,1:02:54.53,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你会得到比我欠你更多的东西</font>\N<font face="微软雅黑" size=10>you'll get a hell of a lot more than I owe you.</font>
+Dialogue: 0,1:02:55.87,1:02:57.83,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>两种偿还方式</font>\N<font face="微软雅黑" size=10>Two ways to pay.</font>
+Dialogue: 0,1:02:58.47,1:03:00.54,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>恐龙</font>\N<font face="微软雅黑" size=10>It's the dinosaur.</font>
+Dialogue: 0,1:03:00.97,1:03:02.87,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>或者我</font>\N<font face="微软雅黑" size=10>Or it's me.</font>
+Dialogue: 0,1:03:02.88,1:03:05.44,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>但你放过我的孩子</font>\N<font face="微软雅黑" size=10>But you leave my kid out of it.</font>
+Dialogue: 0,1:03:07.85,1:03:13.12,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你现在很危险 老兄</font>\N<font face="微软雅黑" size=10>You're in tight spot to be making threats, hombre.</font>
+Dialogue: 0,1:03:15.29,1:03:16.79,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那开枪吧</font>\N<font face="微软雅黑" size=10>Then do it.</font>
+Dialogue: 0,1:03:27.06,1:03:28.87,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>今晚？</font>\N<font face="微软雅黑" size=10>Tonight?</font>
+Dialogue: 0,1:03:30.54,1:03:32.27,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>今晚</font>\N<font face="微软雅黑" size=10>Tonight.</font>
+Dialogue: 0,1:03:32.87,1:03:34.54,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>在石油钻塔</font>\N<font face="微软雅黑" size=10>At the oil rig.</font>
+Dialogue: 0,1:03:39.41,1:03:41.55,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你今晚就能拿到</font>\N<font face="微软雅黑" size=10>You'll get it tonight.</font>
+Dialogue: 0,1:04:04.24,1:04:09.17,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你在这破房子里买了多少张专辑？</font>\N<font face="微软雅黑" size=10>How many albums you got in this shit house?</font>
+Dialogue: 0,1:04:10.04,1:04:12.88,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我不知道 七盘</font>\N<font face="微软雅黑" size=10>I don't know. Seven.</font>
+Dialogue: 0,1:04:12.88,1:04:14.11,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嗯哼</font>\N<font face="微软雅黑" size=10>Uh-huh.</font>
+Dialogue: 0,1:04:14.11,1:04:18.85,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那你最好去拿我的蜥蜴</font>\N<font face="微软雅黑" size=10>Well, you better go get my lizard</font>
+Dialogue: 0,1:04:18.85,1:04:21.15,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>因为你只剩下</font>\N<font face="微软雅黑" size=10>because you only got</font>
+Dialogue: 0,1:04:21.15,1:04:24.32,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>6.5盘磁带了</font>\N<font face="微软雅黑" size=10>six-and-a-half tapes left.</font>
+Dialogue: 0,1:04:59.92,1:05:02.29,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我们得回去了</font>\N<font face="微软雅黑" size=10>We gotta go back out there.</font>
+Dialogue: 0,1:05:03.56,1:05:06.16,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你疯了吗 安娜？</font>\N<font face="微软雅黑" size=10>Are you nuts, Anna?</font>
+Dialogue: 0,1:05:06.43,1:05:09.50,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你想把她留在外面？</font>\N<font face="微软雅黑" size=10>You wanna just leave her out there?</font>
+Dialogue: 0,1:05:10.37,1:05:12.54,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我们已经完成了所有的工作了 好吗？</font>\N<font face="微软雅黑" size=10>We already did all the work. Okay?</font>
+Dialogue: 0,1:05:12.54,1:05:15.91,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>她就在外面 暴露在卡车里</font>\N<font face="微软雅黑" size=10>She's just sitting out there, exposed in the truck.</font>
+Dialogue: 0,1:05:15.91,1:05:19.31,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>如果你还记得的话 你没有钥匙</font>\N<font face="微软雅黑" size=10>Which you don't have the keys to, if you remember.</font>
+Dialogue: 0,1:05:19.31,1:05:22.31,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>没有人能拿到钥匙</font>\N<font face="微软雅黑" size=10>Nobody else is gonna get those keys.</font>
+Dialogue: 0,1:05:23.05,1:05:24.41,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>拜托</font>\N<font face="微软雅黑" size=10>Come on, hey.</font>
+Dialogue: 0,1:05:24.42,1:05:28.92,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>放松 进去吧 考虑一下你的儿子</font>\N<font face="微软雅黑" size=10>Just relax. Go inside. Think about your son.</font>
+Dialogue: 0,1:05:30.42,1:05:32.66,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>天哪 你说得对</font>\N<font face="微软雅黑" size=10>Oh, my god, you're right.</font>
+Dialogue: 0,1:05:32.66,1:05:33.56,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好</font>\N<font face="微软雅黑" size=10>Good.</font>
+Dialogue: 0,1:05:33.56,1:05:36.13,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>谢谢 不 内特</font>\N<font face="微软雅黑" size=10>Thank you. No, Nate,</font>
+Dialogue: 0,1:05:37.03,1:05:38.56,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他很适合</font>\N<font face="微软雅黑" size=10>he'd fit.</font>
+Dialogue: 0,1:05:40.46,1:05:43.33,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 什么？- 伊奇能从缝隙进去</font>\N<font face="微软雅黑" size=10>- What? - Ezekiel would fit into the fissure.</font>
+Dialogue: 0,1:05:43.34,1:05:46.50,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 他能拿到钥匙 - 你疯了吗？</font>\N<font face="微软雅黑" size=10>- He could get the keys. - Are you insane?</font>
+Dialogue: 0,1:05:46.51,1:05:49.31,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我中弹了 刚才被枪击中的</font>\N<font face="微软雅黑" size=10>I got shot out there. I just got shot out there.</font>
+Dialogue: 0,1:05:49.31,1:05:50.71,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>子弹是射麦考伊的</font>\N<font face="微软雅黑" size=10>You know the bullet was meant for McCoy.</font>
+Dialogue: 0,1:05:50.71,1:05:55.55,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他们没在外面 他们没料到我们今晚会回去</font>\N<font face="微软雅黑" size=10>They're not still out there. They're not thinking we're gonna come back tonight.</font>
+Dialogue: 0,1:05:55.55,1:05:57.35,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你不能再回去了</font>\N<font face="微软雅黑" size=10>You're not going back out there.</font>
+Dialogue: 0,1:05:57.35,1:06:00.02,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>伊奇不能再回去了</font>\N<font face="微软雅黑" size=10>Ezekiel can't go back out there.</font>
+Dialogue: 0,1:06:00.02,1:06:01.72,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我可以</font>\N<font face="微软雅黑" size=10>Yes, I can.</font>
+Dialogue: 0,1:06:01.72,1:06:04.45,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我可以帮忙 我可以</font>\N<font face="微软雅黑" size=10>I can help with this. I can.</font>
+Dialogue: 0,1:06:04.56,1:06:06.16,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不</font>\N<font face="微软雅黑" size=10>No.</font>
+Dialogue: 0,1:06:07.12,1:06:08.16,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不 伊奇 你不能</font>\N<font face="微软雅黑" size=10>No, eze. You can't.</font>
+Dialogue: 0,1:06:08.16,1:06:11.23,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>妈妈 你说要我帮忙的</font>\N<font face="微软雅黑" size=10>Mom, you said you wanted my help.</font>
+Dialogue: 0,1:06:11.30,1:06:13.46,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>让我来吧</font>\N<font face="微软雅黑" size=10>Let me do this.</font>
+Dialogue: 0,1:06:17.47,1:06:19.27,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>安娜</font>\N<font face="微软雅黑" size=10>Anna.</font>
+Dialogue: 0,1:06:25.31,1:06:27.31,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>安娜 你...</font>\N<font face="微软雅黑" size=10>Anna, what are you...</font>
+Dialogue: 0,1:06:49.43,1:06:50.43,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他妈的</font>\N<font face="微软雅黑" size=10>Fuck.</font>
+Dialogue: 0,1:07:52.16,1:07:54.23,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>很好 你做得很好</font>\N<font face="微软雅黑" size=10>Okay, you're doing great.</font>
+Dialogue: 0,1:07:57.70,1:07:59.84,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>在哪儿？</font>\N<font face="微软雅黑" size=10>Where are they?</font>
+Dialogue: 0,1:08:06.31,1:08:09.08,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不可能太远</font>\N<font face="微软雅黑" size=10>They can't have gone too far.</font>
+Dialogue: 0,1:08:32.14,1:08:33.67,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>伊奇</font>\N<font face="微软雅黑" size=10>Ezekiel.</font>
+Dialogue: 0,1:08:34.24,1:08:35.54,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>伊奇</font>\N<font face="微软雅黑" size=10>Ezekiel.</font>
+Dialogue: 0,1:08:35.54,1:08:38.14,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>慢慢的向后退</font>\N<font face="微软雅黑" size=10>Move back very slowly.</font>
+Dialogue: 0,1:08:39.28,1:08:42.75,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我要进去 安娜 把他弄出去</font>\N<font face="微软雅黑" size=10>I'm going in there, Anna. Get him out of there.</font>
+Dialogue: 0,1:08:43.31,1:08:44.15,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>伊奇</font>\N<font face="微软雅黑" size=10>Ezekiel.</font>
+Dialogue: 0,1:08:44.15,1:08:46.48,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>快离开那里 伊奇 快出来</font>\N<font face="微软雅黑" size=10>Get out of there, now. Eze, come on out of there.</font>
+Dialogue: 0,1:08:53.89,1:08:57.56,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 妈妈 - 不 快 宝贝</font>\N<font face="微软雅黑" size=10>- Mom. - No. Come on, baby.</font>
+Dialogue: 0,1:08:58.66,1:09:00.26,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>妈妈</font>\N<font face="微软雅黑" size=10>Mom.</font>
+Dialogue: 0,1:09:00.50,1:09:01.43,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>宝贝 快</font>\N<font face="微软雅黑" size=10>Baby, come on.</font>
+Dialogue: 0,1:09:01.43,1:09:03.27,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 快 伊奇 - 救命</font>\N<font face="微软雅黑" size=10>- Come on. Ezekiel. - Help.</font>
+Dialogue: 0,1:09:03.27,1:09:07.34,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>快 把手给我 手给我</font>\N<font face="微软雅黑" size=10>Come on. Give me your hand. Give me your hand.</font>
+Dialogue: 0,1:09:08.14,1:09:09.81,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我被卡住了</font>\N<font face="微软雅黑" size=10>I'm stuck.</font>
+Dialogue: 0,1:09:11.61,1:09:14.71,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我们抓到你了</font>\N<font face="微软雅黑" size=10>We got you. We got you.</font>
+Dialogue: 0,1:09:14.71,1:09:15.85,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>求救</font>\N<font face="微软雅黑" size=10>Call for help.</font>
+Dialogue: 0,1:09:15.85,1:09:18.62,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>尽量保持镇静 安娜 你听到了吗？</font>\N<font face="微软雅黑" size=10>Try to stay calm, Anna. You hear me?</font>
+Dialogue: 0,1:09:18.62,1:09:21.72,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 安娜 - 内特打电话</font>\N<font face="微软雅黑" size=10>- Anna. - Nate! Call someone.</font>
+Dialogue: 0,1:09:22.15,1:09:23.42,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你被咬了吗？</font>\N<font face="微软雅黑" size=10>Are you bit?</font>
+Dialogue: 0,1:09:23.42,1:09:26.86,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 伊奇 它咬到你了吗 - 妈妈 我不...</font>\N<font face="微软雅黑" size=10>- Ezekiel, did it bite you? - Mom, I don't...</font>
+Dialogue: 0,1:09:28.86,1:09:30.93,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 哦 天啊 - 妈妈</font>\N<font face="微软雅黑" size=10>- Oh, god. - Mom.</font>
+Dialogue: 0,1:09:30.93,1:09:33.63,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你会没事的 宝贝 好吗？</font>\N<font face="微软雅黑" size=10>You're gonna be fine, baby, okay?</font>
+Dialogue: 0,1:09:35.87,1:09:37.73,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>哪儿去了...</font>\N<font face="微软雅黑" size=10>Where's the...</font>
+Dialogue: 0,1:09:43.78,1:09:45.54,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>只有一个</font>\N<font face="微软雅黑" size=10>There's only one.</font>
+Dialogue: 0,1:09:45.54,1:09:47.51,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好的</font>\N<font face="微软雅黑" size=10>Okay.</font>
+Dialogue: 0,1:09:47.58,1:09:50.55,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好了 准备好了吗？别动</font>\N<font face="微软雅黑" size=10>Okay, ready? Hold still.</font>
+Dialogue: 0,1:09:53.48,1:09:56.19,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好吗？好了</font>\N<font face="微软雅黑" size=10>Okay? Okay.</font>
+Dialogue: 0,1:10:05.63,1:10:07.73,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>妈妈 我弄坏了爸爸的手表</font>\N<font face="微软雅黑" size=10>Mom, I broke dad's watch.</font>
+Dialogue: 0,1:10:07.73,1:10:10.43,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>没事的 宝贝 我在这里</font>\N<font face="微软雅黑" size=10>That's okay, baby. I'm here.</font>
+Dialogue: 0,1:10:10.44,1:10:13.70,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 我在这里 - 妈妈 我成功了</font>\N<font face="微软雅黑" size=10>- I'm here. - Mom, I did it.</font>
+Dialogue: 0,1:10:14.21,1:10:15.91,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我知道 宝贝</font>\N<font face="微软雅黑" size=10>I know, sweetheart.</font>
+Dialogue: 0,1:10:16.27,1:10:18.37,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不 我真的做到了</font>\N<font face="微软雅黑" size=10>No, I really did it.</font>
+Dialogue: 0,1:10:23.45,1:10:26.55,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好极了 伊奇</font>\N<font face="微软雅黑" size=10>Yes. Yes, eze.</font>
+Dialogue: 0,1:10:32.42,1:10:35.93,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>快 你这坨屎 给我点信号</font>\N<font face="微软雅黑" size=10>Come on, you piece of shit. Give me something.</font>
+Dialogue: 0,1:10:36.29,1:10:37.26,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>能听到我吗？</font>\N<font face="微软雅黑" size=10>Can you hear me?</font>
+Dialogue: 0,1:10:37.26,1:10:38.80,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>伊奇被蛇咬了 我们在挖掘现场</font>\N<font face="微软雅黑" size=10>Eze's snake-bit, we're up at the dig site.</font>
+Dialogue: 0,1:10:38.80,1:10:41.80,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你得派辆救护车...</font>\N<font face="微软雅黑" size=10>You gotta send an ambulance...</font>
+Dialogue: 0,1:10:46.34,1:10:48.67,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>大家都好吗？</font>\N<font face="微软雅黑" size=10>Is everyone okay?</font>
+Dialogue: 0,1:10:48.67,1:10:50.34,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>内特？</font>\N<font face="微软雅黑" size=10>Nate?</font>
+Dialogue: 0,1:10:50.34,1:10:52.74,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>内特 妈的 说话啊</font>\N<font face="微软雅黑" size=10>Nate, goddamn it, talk to me.</font>
+Dialogue: 0,1:10:52.74,1:10:57.01,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>内特 内特</font>\N<font face="微软雅黑" size=10>Nate. Nate.</font>
+Dialogue: 0,1:10:57.55,1:10:59.68,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那边发生什么事了？</font>\N<font face="微软雅黑" size=10>What's going on over there?</font>
+Dialogue: 0,1:10:59.95,1:11:01.78,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>喂？</font>\N<font face="微软雅黑" size=10>Hello?</font>
+Dialogue: 0,1:11:38.39,1:11:39.89,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>内特</font>\N<font face="微软雅黑" size=10>Nate.</font>
+Dialogue: 0,1:11:39.89,1:11:41.76,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>内特叔叔</font>\N<font face="微软雅黑" size=10>Uncle Nate.</font>
+Dialogue: 0,1:11:43.59,1:11:45.80,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>内特 你在哪？</font>\N<font face="微软雅黑" size=10>Nate, where are you?</font>
+Dialogue: 0,1:11:51.07,1:11:53.30,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你会没事的吧？</font>\N<font face="微软雅黑" size=10>Are you gonna be okay?</font>
+Dialogue: 0,1:11:53.31,1:11:54.47,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是</font>\N<font face="微软雅黑" size=10>Yeah.</font>
+Dialogue: 0,1:11:54.47,1:11:55.51,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>是的 我会没事的</font>\N<font face="微软雅黑" size=10>Yeah. I'm gonna be fine.</font>
+Dialogue: 0,1:11:55.51,1:11:58.94,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>只要找到你叔叔 去医院就可以了</font>\N<font face="微软雅黑" size=10>Just have to find your uncle and get to a hospital.</font>
+Dialogue: 0,1:11:58.94,1:12:01.68,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>第二口咬的我 所以我毒液较少</font>\N<font face="微软雅黑" size=10>I got the second bite, so I got the least of the venom.</font>
+Dialogue: 0,1:12:01.68,1:12:02.71,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我会没事的</font>\N<font face="微软雅黑" size=10>I'm gonna be fine.</font>
+Dialogue: 0,1:12:02.71,1:12:04.81,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我们得离开这里</font>\N<font face="微软雅黑" size=10>We just gotta get out of here.</font>
+Dialogue: 0,1:12:04.82,1:12:06.48,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好了 呆在这</font>\N<font face="微软雅黑" size=10>Okay, stay here.</font>
+Dialogue: 0,1:12:06.48,1:12:08.32,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>看好你叔叔</font>\N<font face="微软雅黑" size=10>Keep an eye out for your uncle.</font>
+Dialogue: 0,1:12:08.32,1:12:11.52,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我要去找个信号弹 把他拦下来</font>\N<font face="微软雅黑" size=10>I'm gonna go find a flare and flag him down.</font>
+Dialogue: 0,1:12:12.39,1:12:13.86,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好的</font>\N<font face="微软雅黑" size=10>Okay.</font>
+Dialogue: 0,1:12:14.02,1:12:15.09,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>好的</font>\N<font face="微软雅黑" size=10>Okay.</font>
+Dialogue: 0,1:13:15.89,1:13:18.82,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>那愚蠢的东西到底在哪？</font>\N<font face="微软雅黑" size=10>Where the hell is that stupid thing?</font>
+Dialogue: 0,1:13:20.39,1:13:22.83,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>内特 我们得谈谈</font>\N<font face="微软雅黑" size=10>Nate. We gotta talk.</font>
+Dialogue: 0,1:13:23.69,1:13:25.16,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>麦考伊</font>\N<font face="微软雅黑" size=10>McCoy!</font>
+Dialogue: 0,1:13:25.46,1:13:28.50,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你到底去哪了？后面是什么？</font>\N<font face="微软雅黑" size=10>Where the hell have you been? What was that back there?</font>
+Dialogue: 0,1:13:28.50,1:13:29.67,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>别激动</font>\N<font face="微软雅黑" size=10>Don't get all excited.</font>
+Dialogue: 0,1:13:29.67,1:13:33.07,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>有人朝我们开枪 我们本来死了</font>\N<font face="微软雅黑" size=10>People were shooting at us. We could have died.</font>
+Dialogue: 0,1:13:33.07,1:13:35.10,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>人已经死了</font>\N<font face="微软雅黑" size=10>People have died.</font>
+Dialogue: 0,1:13:36.51,1:13:40.18,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 内特在哪？ - 你来挖我的东西</font>\N<font face="微软雅黑" size=10>- Where's Nate? - You come diggin' in my shit,</font>
+Dialogue: 0,1:13:40.61,1:13:43.68,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 我是来挖你的 - 麦考伊？</font>\N<font face="微软雅黑" size=10>- I come diggin' in yours. - McCoy?</font>
+Dialogue: 0,1:13:43.95,1:13:46.05,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我要那些骨头</font>\N<font face="微软雅黑" size=10>I want those bones.</font>
+Dialogue: 0,1:13:47.65,1:13:49.89,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你给我 我的东西</font>\N<font face="微软雅黑" size=10>You give me what's mine.</font>
+Dialogue: 0,1:13:49.95,1:13:52.79,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我不知道你在说什么 她不是你的</font>\N<font face="微软雅黑" size=10>I don't know what you're talking about. She's not yours.</font>
+Dialogue: 0,1:13:52.79,1:13:56.93,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>胡说 她不是我的 她一直在我的脚下</font>\N<font face="微软雅黑" size=10>Bullshit, she ain't mine. She's been under my feet.</font>
+Dialogue: 0,1:13:56.93,1:14:02.10,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 麦考伊 她不是... - 我找到她了 是我</font>\N<font face="微软雅黑" size=10>- McCoy, she isn't... - I found her. Me.</font>
+Dialogue: 0,1:14:02.97,1:14:04.17,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我要带走她 好吗？</font>\N<font face="微软雅黑" size=10>And I'm taking her, all right?</font>
+Dialogue: 0,1:14:04.17,1:14:06.87,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我不会留下她的 别逼我</font>\N<font face="微软雅黑" size=10>And I don't give a good goddamn what I gotta do to do it.</font>
+Dialogue: 0,1:14:06.87,1:14:12.71,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你现在很不爽是吗？</font>\N<font face="微软雅黑" size=10>Now, you still gotta be all mean and unpleasant?</font>
+Dialogue: 0,1:14:12.88,1:14:15.81,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你不该像我一样</font>\N<font face="微软雅黑" size=10>You don't gotta do this my way.</font>
+Dialogue: 0,1:14:17.18,1:14:19.85,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你可以选条好路</font>\N<font face="微软雅黑" size=10>You can do it the nice way.</font>
+Dialogue: 0,1:14:22.55,1:14:24.45,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>把钥匙给我</font>\N<font face="微软雅黑" size=10>Give me the keys.</font>
+Dialogue: 0,1:14:36.10,1:14:37.07,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>现在别犯傻了</font>\N<font face="微软雅黑" size=10>Don't be stupid now.</font>
+Dialogue: 0,1:14:37.07,1:14:41.00,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>用你的科学大脑想想 别犯傻了</font>\N<font face="微软雅黑" size=10>Use that big science brain you got, and don't be stupid.</font>
+Dialogue: 0,1:14:41.01,1:14:42.57,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我觉得有误会</font>\N<font face="微软雅黑" size=10>I think there's been a misunderstanding.</font>
+Dialogue: 0,1:14:42.57,1:14:43.81,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>没人想骗你...</font>\N<font face="微软雅黑" size=10>Nobody's trying to cheat you...</font>
+Dialogue: 0,1:14:43.81,1:14:45.94,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我没几年了 恐龙女</font>\N<font face="微软雅黑" size=10>I ain't got a couple of years, dinosaur woman.</font>
+Dialogue: 0,1:14:45.94,1:14:48.21,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我还有五秒</font>\N<font face="微软雅黑" size=10>I got fucking five seconds.</font>
+Dialogue: 0,1:14:48.21,1:14:49.75,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>冷静下来</font>\N<font face="微软雅黑" size=10>Just settle down.</font>
+Dialogue: 0,1:14:49.75,1:14:51.55,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>没人会生气</font>\N<font face="微软雅黑" size=10>Nobody's mad.</font>
+Dialogue: 0,1:14:52.02,1:14:55.08,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>现在没人会兴奋了吧？</font>\N<font face="微软雅黑" size=10>Nobody's getting excited now. Huh?</font>
+Dialogue: 0,1:14:56.59,1:14:58.22,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>朋友</font>\N<font face="微软雅黑" size=10>Friends.</font>
+Dialogue: 0,1:14:59.09,1:15:00.92,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>兄弟</font>\N<font face="微软雅黑" size=10>Buddies.</font>
+Dialogue: 0,1:15:00.99,1:15:02.93,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>对吗？好了</font>\N<font face="微软雅黑" size=10>Right? Okay.</font>
+Dialogue: 0,1:15:02.99,1:15:04.63,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嗯哼</font>\N<font face="微软雅黑" size=10>Uh-huh.</font>
+Dialogue: 0,1:15:06.63,1:15:09.53,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我告诉过你我不想这样</font>\N<font face="微软雅黑" size=10>McCoy: I told you i didn't want it this way!</font>
+Dialogue: 0,1:15:12.60,1:15:14.10,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>妈妈</font>\N<font face="微软雅黑" size=10>Mom!</font>
+Dialogue: 0,1:15:23.08,1:15:26.12,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我说了 你不想要这种结果的</font>\N<font face="微软雅黑" size=10>I told you you didn't want it.</font>
+Dialogue: 0,1:15:26.12,1:15:30.52,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我知道你嘲笑我 我知道你笑了</font>\N<font face="微软雅黑" size=10>I know you laugh at me. I know you laugh.</font>
+Dialogue: 0,1:15:31.26,1:15:35.02,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>爸爸要回家了 宝贝</font>\N<font face="微软雅黑" size=10>Daddy's coming home now, baby girl.</font>
+Dialogue: 0,1:16:19.10,1:16:21.14,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>走 快走</font>\N<font face="微软雅黑" size=10>Go. Go.</font>
+Dialogue: 0,1:16:23.87,1:16:26.01,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>把门关上 宝贝</font>\N<font face="微软雅黑" size=10>Close the door, baby.</font>
+Dialogue: 0,1:16:27.58,1:16:29.58,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>妈妈 不</font>\N<font face="微软雅黑" size=10>Mom! No!</font>
+Dialogue: 0,1:16:29.58,1:16:31.65,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>妈妈 救命</font>\N<font face="微软雅黑" size=10>Mom, help!</font>
+Dialogue: 0,1:16:34.99,1:16:36.15,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>闭嘴</font>\N<font face="微软雅黑" size=10>Shut up.</font>
+Dialogue: 0,1:16:36.15,1:16:37.32,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>妈妈 不</font>\N<font face="微软雅黑" size=10>Mom. No.</font>
+Dialogue: 0,1:16:37.32,1:16:40.06,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>她是我的 妈的</font>\N<font face="微软雅黑" size=10>She's mine, god damn it!</font>
+Dialogue: 0,1:16:40.89,1:16:43.03,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你会把她带给我</font>\N<font face="微软雅黑" size=10>You'll bring her to me.</font>
+Dialogue: 0,1:16:46.90,1:16:48.70,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>安娜</font>\N<font face="微软雅黑" size=10>Anna.</font>
+Dialogue: 0,1:16:49.33,1:16:51.30,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>安娜 伊奇在哪里？</font>\N<font face="微软雅黑" size=10>Anna, where's eze?</font>
+Dialogue: 0,1:16:51.64,1:16:53.07,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>内特</font>\N<font face="微软雅黑" size=10>Nate.</font>
+Dialogue: 0,1:16:53.27,1:16:54.64,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>内特</font>\N<font face="微软雅黑" size=10>Nate.</font>
+Dialogue: 0,1:16:54.64,1:16:56.27,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>快 快</font>\N<font face="微软雅黑" size=10>Come on. Come on.</font>
+Dialogue: 0,1:16:56.27,1:16:58.21,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>他带走了我的孩子</font>\N<font face="微软雅黑" size=10>He took my boy.</font>
+Dialogue: 0,1:17:11.25,1:17:12.92,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>会没事的</font>\N<font face="微软雅黑" size=10>It's gonna be all right.</font>
+Dialogue: 0,1:17:12.92,1:17:15.99,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>妈妈会做正确的事</font>\N<font face="微软雅黑" size=10>Your mom's gonna do the right thing.</font>
+Dialogue: 0,1:17:15.99,1:17:17.76,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你会知道的</font>\N<font face="微软雅黑" size=10>You'll see.</font>
+Dialogue: 0,1:17:32.71,1:17:34.11,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不</font>\N<font face="微软雅黑" size=10>No!</font>
+Dialogue: 0,1:17:35.88,1:17:37.88,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>停车</font>\N<font face="微软雅黑" size=10>Stop!</font>
+Dialogue: 0,1:17:53.20,1:17:55.30,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你也被咬了吗？</font>\N<font face="微软雅黑" size=10>Did you get bit, too?</font>
+Dialogue: 0,1:18:06.08,1:18:07.71,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>伊奇？</font>\N<font face="微软雅黑" size=10>Ezekiel?</font>
+Dialogue: 0,1:18:09.68,1:18:11.18,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>伊奇？</font>\N<font face="微软雅黑" size=10>Ezekiel?</font>
+Dialogue: 0,1:18:22.86,1:18:24.13,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>嘿</font>\N<font face="微软雅黑" size=10>Hey.</font>
+Dialogue: 0,1:18:24.13,1:18:25.33,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我玩真的</font>\N<font face="微软雅黑" size=10>I meant what I said.</font>
+Dialogue: 0,1:18:25.33,1:18:28.30,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你把我弄出去 你这混蛋</font>\N<font face="微软雅黑" size=10>You get me out of here, you fuck!</font>
+Dialogue: 0,1:18:35.07,1:18:36.97,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>她安全吗？</font>\N<font face="微软雅黑" size=10>Is she safe?</font>
+Dialogue: 0,1:18:37.27,1:18:39.04,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>她安全吗？</font>\N<font face="微软雅黑" size=10>Is she safe?</font>
+Dialogue: 0,1:18:49.68,1:18:52.42,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>滚出卡车</font>
+Dialogue: 0,1:18:51.89,1:18:55.19,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>出来 妈的</font>\N<font face="微软雅黑" size=10>Get out. Shit.</font>
+Dialogue: 0,1:19:31.36,1:19:34.30,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>它应该埋在地下的</font>\N<font face="微软雅黑" size=10>It should have just stayed in the ground.</font>
+Dialogue: 0,1:19:53.28,1:19:55.45,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>伊奇？伊奇？</font>\N<font face="微软雅黑" size=10>Ezekiel? Ezekiel?</font>
+Dialogue: 0,1:19:55.45,1:19:58.09,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>宝贝 你没事吧？醒醒</font>\N<font face="微软雅黑" size=10>Baby, are you okay? Wake up.</font>
+Dialogue: 0,1:19:58.09,1:20:00.02,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>说说话啊</font>\N<font face="微软雅黑" size=10>Say something.</font>
+Dialogue: 0,1:20:00.32,1:20:01.92,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>伊奇？</font>\N<font face="微软雅黑" size=10>Ezekiel?</font>
+Dialogue: 0,1:20:02.43,1:20:03.79,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>说话啊</font>\N<font face="微软雅黑" size=10>Say something.</font>
+Dialogue: 0,1:20:03.80,1:20:06.20,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>- 醒醒 - 妈妈</font>\N<font face="微软雅黑" size=10>- Wake up. - Mommy.</font>
+Dialogue: 0,1:20:11.30,1:20:14.34,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你把我们吓死了 孩子</font>\N<font face="微软雅黑" size=10>You scared the bejesus out of us, kid.</font>
+Dialogue: 0,1:20:14.97,1:20:17.27,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>都吓死了</font>\N<font face="微软雅黑" size=10>All out of bejesus now.</font>
+Dialogue: 0,1:20:21.48,1:20:23.18,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>妈妈</font>\N<font face="微软雅黑" size=10>Mom.</font>
+Dialogue: 0,1:20:25.25,1:20:26.95,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>妈妈</font>\N<font face="微软雅黑" size=10>Mommy.</font>
+Dialogue: 0,1:20:27.05,1:20:28.35,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>妈妈</font>\N<font face="微软雅黑" size=10>Mom.</font>
+Dialogue: 0,1:20:28.35,1:20:31.09,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>妈妈 妈妈</font>\N<font face="微软雅黑" size=10>Mom. Mommy.</font>
+Dialogue: 0,1:21:42.43,1:21:44.66,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你看过扯犊子吗？</font>\N<font face="微软雅黑" size=10>Have you seen this pile of crap?</font>
+Dialogue: 0,1:21:44.66,1:21:47.50,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>什么扯犊子？</font>\N<font face="微软雅黑" size=10>Which pile of crap was that?</font>
+Dialogue: 0,1:21:49.98,1:21:52.73,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>迪拜发现霸王龙</font>
+Dialogue: 0,1:21:53.10,1:21:54.00,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>迪拜 嗯？</font>\N<font face="微软雅黑" size=10>Dubai, huh?</font>
+Dialogue: 0,1:21:54.01,1:21:55.64,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我想这不重要 真的</font>\N<font face="微软雅黑" size=10>Well, I guess it doesn't matter, really.</font>
+Dialogue: 0,1:21:55.64,1:21:58.57,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>毕竟我们是在荒地</font>\N<font face="微软雅黑" size=10>We're in the badlands, after all.</font>
+Dialogue: 0,1:21:58.64,1:22:01.41,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>总有更多的骨头</font>\N<font face="微软雅黑" size=10>There's always more bones.</font>
+Dialogue: 0,1:22:01.98,1:22:04.11,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>我们应该告诉博士吗？</font>\N<font face="微软雅黑" size=10>Should we tell the doctor?</font>
+Dialogue: 0,1:22:04.18,1:22:06.92,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>不 她很忙</font>\N<font face="微软雅黑" size=10>Nah. She's busy.</font>
+Dialogue: 0,1:22:06.92,1:22:10.25,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>就像树的年轮？</font>\N<font face="微软雅黑" size=10>So, it's like the rings in a tree?</font>
+Dialogue: 0,1:22:10.32,1:22:11.15,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>正确</font>\N<font face="微软雅黑" size=10>Exactly.</font>
+Dialogue: 0,1:22:11.16,1:22:13.46,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>岩石能告诉我们地球的年龄</font>\N<font face="微软雅黑" size=10>Yeah, the rocks tell us how old the earth is.</font>
+Dialogue: 0,1:22:13.46,1:22:18.26,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>每层代表了几百万年的里程碑</font>\N<font face="微软雅黑" size=10>Each line represents a milestone of a few million years.</font>
+Dialogue: 0,1:22:18.26,1:22:22.97,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>它们告诉我们更多 我们是谁 从哪里来</font>\N<font face="微软雅黑" size=10>They tell us more about who we are, where we came from.</font>
+Dialogue: 0,1:22:23.57,1:22:26.27,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>你想去古代吗？</font>\N<font face="微软雅黑" size=10>Do you ever wish you can go back?</font>
+Dialogue: 0,1:22:26.27,1:22:28.04,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>亲眼见证一下吗？</font>\N<font face="微软雅黑" size=10>See it yourself?</font>
+Dialogue: 0,1:22:29.04,1:22:30.64,Default,,0000,0000,0000,,<font face="微软雅黑" size=16>也许 曾经想</font>\N<font face="微软雅黑" size=10>Once, maybe.</font>
+

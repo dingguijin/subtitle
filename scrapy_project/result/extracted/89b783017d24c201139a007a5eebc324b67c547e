@@ -1,0 +1,1498 @@
+[Script Info]
+;本字幕文件用 SrtEdit MPC播放版 Version 5.2 编辑制作
+;Unicode SrtEdit Copyright(C) 2005-2009 袁卫国
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 800
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CHS,Microsoft YaHei,55,&H00FFFFFF,&HFFFFFFFF,&H96000000,&H66000000,0,0,0,0,100,100,2,0,1,1,2,2,0,0,38,134
+Style: ENG,Microsoft YaHei,32,&H0000D8F8,&H000000FF,&H96000000,&H66000000,-1,0,0,0,100,100,0,0,1,1,2,2,0,0,38,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.00,0:00:10.00,CHS,,0,0,0,,{\fad(300,300)\b1}TLF字幕组\N{\b0\c&H24EFFF&}翻译＆校对｜{\b1\c&HFFFFFF&}hero5912
+Dialogue: 0,0:00:10.00,0:00:15.00,CHS,,0,0,0,,{\fad(300,300)\c&H24EFFF&}字幕转制｜{\b1\c&HFFFFFF&}天外生物\N{\b0\fs45\c&H079FFF&}感谢原字幕制作者
+Dialogue: 0,0:01:46.00,0:01:50.06,CHS,,0,0,0,,爱情好比束缚的链子\N{\rENG}And love slipped the bonds of restraint.
+Dialogue: 0,0:01:50.23,0:01:55.76,CHS,,0,0,0,,他的触及好似巨大的“肯定”\N{\rENG}His touch was like a cosmic "yes."
+Dialogue: 0,0:01:55.94,0:01:59.20,CHS,,0,0,0,,凯莉尖叫着“妈的，你他妈的死去地狱吧”\N{\rENG}"Fuck you, " screamed Kelly. "Fuck you to hell."
+Dialogue: 0,0:01:59.38,0:02:05.58,CHS,,0,0,0,,斯科特从门里退去，嘴里还唠唠叨叨着“他妈的”\N{\rENG}Scott stepped back from the cell door as the gob of spit flew. "Fuck you."
+Dialogue: 0,0:02:06.65,0:02:10.92,CHS,,0,0,0,,这种模式是哈迪意味的“现代缺陷”\N{\rENG}This matrix is what Hardy meant by "the ache of modernism."
+Dialogue: 0,0:02:12.66,0:02:13.68,CHS,,0,0,0,,废话\N{\rENG}Crap.
+Dialogue: 0,0:02:13.86,0:02:17.38,CHS,,0,0,0,,英迟康博深知可怕的弱肉强食的尘世\N{\rENG}Inchcombe knew too well the dreadful mundanity of murder.
+Dialogue: 0,0:02:18.53,0:02:20.62,CHS,,0,0,0,,而帕特尔就曾蒙世之沉\N{\rENG}But Patel was stricken.
+Dialogue: 0,0:02:20.80,0:02:25.24,CHS,,0,0,0,,英迟康博意识到感觉的缺失\N{\rENG}Inchcombe realized his lack of feeling was almost...
+Dialogue: 0,0:02:25.90,0:02:27.34,CHS,,0,0,0,,成了病态\N{\rENG}Pathological.
+Dialogue: 0,0:02:28.71,0:02:31.90,CHS,,0,0,0,,凯迪也说“我一生好似穿错尺码”\N{\rENG}"'I've been wearing the wrong size all my life,' says Katie.
+Dialogue: 0,0:02:32.08,0:02:37.71,CHS,,0,0,0,,总是不舒服，原来我是三十码的\N{\rENG}'I was always popping out. Turns out I'm a 30 GG,' she says.
+Dialogue: 0,0:02:37.88,0:02:40.85,CHS,,0,0,0,,现在终于合适了\N{\rENG}'Now my bras finally fit.
+Dialogue: 0,0:02:42.32,0:02:45.52,CHS,,0,0,0,,尽管西蒙除了我谁也不喜欢\N{\rENG}Though Simon prefers me without one."'
+Dialogue: 0,0:02:50.33,0:02:52.13,CHS,,0,0,0,,如果你想，我们可以去矿上\N{\rENG}We can go round mine, if you like.
+Dialogue: 0,0:02:52.30,0:02:55.46,CHS,,0,0,0,,去看你爸爸躺在沙发上？\N{\rENG}And watch your dad farting into a sofa?
+Dialogue: 0,0:03:03.68,0:03:05.24,CHS,,0,0,0,,出租车？\N{\rENG}A taxi?
+Dialogue: 0,0:03:06.28,0:03:08.30,CHS,,0,0,0,,尤都村？\N{\rENG}In Ewedown?
+Dialogue: 0,0:03:08.85,0:03:10.75,CHS,,0,0,0,,- 来  - 我们现在去哪？\N{\rENG}- Come on.  - Where are we going?
+Dialogue: 0,0:03:10.92,0:03:12.91,CHS,,0,0,0,,不去哪里\N{\rENG}Nowhere.
+Dialogue: 0,0:03:18.36,0:03:22.23,CHS,,0,0,0,,- 格伦，尝尝吗？ - 哇，谢谢你了\N{\rENG}- Glen, can I tempt you?  - Oh, wow, thank you.
+Dialogue: 0,0:03:22.40,0:03:25.59,CHS,,0,0,0,,我每天这个时候，都常常把这些甜点给尼古拉斯\N{\rENG}Uh, I often take something snack y to Nicholas this time of day.
+Dialogue: 0,0:03:25.77,0:03:28.60,CHS,,0,0,0,,- 我知道用脑需要营养  - 嗯\N{\rENG}- I know how the brain needs feeding.  - Mm.
+Dialogue: 0,0:03:29.20,0:03:31.90,CHS,,0,0,0,,你觉得怎么样？\N{\rENG}So how you settling in?
+Dialogue: 0,0:03:32.07,0:03:33.13,CHS,,0,0,0,,很好吃\N{\rENG}Great.
+Dialogue: 0,0:03:33.31,0:03:37.40,CHS,,0,0,0,,我过去在新作家休息寓所，不太爱和外界打交道，你知道吗？\N{\rENG}The last writers' retreat I was at, I kind of froze my balls off, you know?
+Dialogue: 0,0:03:37.58,0:03:39.98,CHS,,0,0,0,,有扇防盗门，一碗咖喱酱汁饭\N{\rENG}Screeching fire doors and curried lasagna,
+Dialogue: 0,0:03:40.15,0:03:43.71,CHS,,0,0,0,,一段乐道的诗文，我就很知足了\N{\rENG}and a needy poet, from whom I still bear the scars.
+Dialogue: 0,0:03:43.89,0:03:48.65,CHS,,0,0,0,,那我们就保持这样的平静，离那些喧嚣的人远点\N{\rENG}Well, we try to keep it peaceful here. Far from the madding crowd.
+Dialogue: 0,0:03:48.83,0:03:50.32,CHS,,0,0,0,,- 我能再来一个吗？ - 当然\N{\rENG}- May I?  - Oh.
+Dialogue: 0,0:03:50.49,0:03:52.62,CHS,,0,0,0,,真是一种享受\N{\rENG}Well, it's paradise.
+Dialogue: 0,0:03:54.76,0:03:58.10,CHS,,0,0,0,,在尤都村？你在那里干什么？\N{\rENG}In Ewedown? What are you doing there?
+Dialogue: 0,0:03:58.27,0:03:59.70,CHS,,0,0,0,,我原来没有告诉过她\N{\rENG}I haven't told her yet.
+Dialogue: 0,0:03:59.90,0:04:03.39,CHS,,0,0,0,,为什么不告诉？你总说愿意陪我的\N{\rENG}Why not? You keep saying you want to be with me.
+Dialogue: 0,0:04:03.61,0:04:08.27,CHS,,0,0,0,,我可没那么说过，那是二十五年前结婚时才说的\N{\rENG}Well, I can't tell her just like that. It's 25 years. A marriage.
+Dialogue: 0,0:04:08.45,0:04:10.68,CHS,,0,0,0,,哦，尼古拉斯，快点过来\N{\rENG}Ah. Come on, Nicholas.
+Dialogue: 0,0:04:10.85,0:04:13.25,CHS,,0,0,0,,或者我打车过来找你\N{\rENG}Or I'm gonna get in a taxi and find your farm.
+Dialogue: 0,0:04:13.42,0:04:15.58,CHS,,0,0,0,,- 别啊  - 我过去你该不会赶我走吧\N{\rENG}- No.  - Come up there and I'll drag you out.
+Dialogue: 0,0:04:15.75,0:04:17.91,CHS,,0,0,0,,那倒不会\N{\rENG}No, don't.
+Dialogue: 0,0:04:18.09,0:04:20.99,CHS,,0,0,0,,我想和你在一起，原以为你会开心的\N{\rENG}I wanted to be with you. I thought you'd be pleased.
+Dialogue: 0,0:04:21.16,0:04:23.72,CHS,,0,0,0,,我当然很开心\N{\rENG}Well, of course I'm pleased.
+Dialogue: 0,0:04:24.33,0:04:29.10,CHS,,0,0,0,,纳迪亚，去酒馆那等等，一会我就回去了\N{\rENG}Nadia, go to the pub and stay there. I'll come when I can.
+Dialogue: 0,0:04:29.27,0:04:30.76,CHS,,0,0,0,,你要和她去谈谈吗？\N{\rENG}Are you going to tell her?
+Dialogue: 0,0:04:30.94,0:04:32.60,CHS,,0,0,0,,就两三个小时\N{\rENG}Just give me a couple of hours.
+Dialogue: 0,0:04:34.01,0:04:35.23,CHS,,0,0,0,,鸡肉馅饼\N{\rENG}Cock pie.
+Dialogue: 0,0:04:35.91,0:04:38.34,CHS,,0,0,0,,- 工作的如何？ - 还不错，一切顺利\N{\rENG}- How's the worker?  - Good, actually.
+Dialogue: 0,0:04:38.51,0:04:40.41,CHS,,0,0,0,,刚还想着手辩学\N{\rENG}Just about to embark on forensics.
+Dialogue: 0,0:04:40.58,0:04:43.78,CHS,,0,0,0,,给你看看我刚开始的稿子\N{\rENG}Well, give me your pages and I'll get started.
+Dialogue: 0,0:04:43.95,0:04:46.08,CHS,,0,0,0,,原以为今早稿子不会出来这么多\N{\rENG}Reckon I might pack it in a bit early today.
+Dialogue: 0,0:04:46.25,0:04:48.31,CHS,,0,0,0,,需要顾虑的很多\N{\rENG}Need to think about my blood smears.
+Dialogue: 0,0:04:48.49,0:04:51.05,CHS,,0,0,0,,或许开车，随便的饮品\N{\rENG}Might take a drive, have a pint.
+Dialogue: 0,0:04:51.22,0:04:53.28,CHS,,0,0,0,,都勾起了我的陈年往事\N{\rENG}Stir the old grey matter up.
+Dialogue: 0,0:04:53.46,0:04:55.76,CHS,,0,0,0,,你刚刚和谁说话呢？\N{\rENG}Who were you talking to just then?
+Dialogue: 0,0:04:55.93,0:05:01.39,CHS,,0,0,0,,茱蒂，她说这《黑斑羚》合同应该在一两天前就完成\N{\rENG}Judy. She said the Impala contract should be through in a day or two.
+Dialogue: 0,0:05:01.57,0:05:03.30,CHS,,0,0,0,,我能和你一起去\N{\rENG}I could come with you.
+Dialogue: 0,0:05:03.47,0:05:04.99,CHS,,0,0,0,,- 什么？ - 一起开车去\N{\rENG}- What?  - For a drive.
+Dialogue: 0,0:05:05.17,0:05:06.87,CHS,,0,0,0,,我不记得上次我们何时离开的\N{\rENG}I don't know when we last went out.
+Dialogue: 0,0:05:07.04,0:05:09.51,CHS,,0,0,0,,这饼真是绝对的美味\N{\rENG}Mm. This is absolutely yummy.
+Dialogue: 0,0:05:09.68,0:05:11.87,CHS,,0,0,0,,或者我们去哈蒂森，一起吃一顿\N{\rENG}Or we could go into Hadditon, get a meal.
+Dialogue: 0,0:05:12.05,0:05:13.48,CHS,,0,0,0,,好啊\N{\rENG}Yes.
+Dialogue: 0,0:05:14.25,0:05:15.84,CHS,,0,0,0,,但是客人呢？\N{\rENG}But what about the guests?
+Dialogue: 0,0:05:16.02,0:05:17.35,CHS,,0,0,0,,玛丽原来还不是得到了凯西的帮助\N{\rENG}Mary's got Casey to help.
+Dialogue: 0,0:05:17.52,0:05:20.25,CHS,,0,0,0,,但我…我假设也这么考虑，你知道…\N{\rENG}But I... I'm supposed to be thinking, you know, about...
+Dialogue: 0,0:05:20.42,0:05:23.91,CHS,,0,0,0,,你要写好稿子还是问问我吧，我很擅长辩学\N{\rENG}You can run it by me. I'm good at forensics.
+Dialogue: 0,0:05:35.00,0:05:37.49,CHS,,0,0,0,,安迪，不过来尝尝我的手艺？\N{\rENG}Andy, can I tempt you?
+Dialogue: 0,0:05:38.14,0:05:40.84,CHS,,0,0,0,,我们已经请来了一个学术专家，叫格伦的美国人\N{\rENG}Oh, uh, we've got a new academic. Glen, American.
+Dialogue: 0,0:05:41.01,0:05:43.10,CHS,,0,0,0,,他一直在托马斯·哈代那里工作\N{\rENG}Turns out he's working on Thomas Hardy.
+Dialogue: 0,0:05:43.28,0:05:45.65,CHS,,0,0,0,,可能要讲授一些农场问题\N{\rENG}Said he might have some farming questions.
+Dialogue: 0,0:05:45.82,0:05:48.44,CHS,,0,0,0,,- 他是需要一个技术熟练的庄稼汉吗？ - 你觉得呢？\N{\rENG}- Needs an expert yokel, does he?  - Would you mind?
+Dialogue: 0,0:05:48.62,0:05:51.14,CHS,,0,0,0,,这…作家们晚上都在户外共进晚宴\N{\rENG}Oh, and the... The writers are eating alfresco tonight.
+Dialogue: 0,0:05:51.32,0:05:54.48,CHS,,0,0,0,,你能检查一下那里的凳子上有没有鸟屎吗？不好意思\N{\rENG}Could you check there's no bird shit on the seats? Sorry.
+Dialogue: 0,0:05:54.99,0:05:56.02,CHS,,0,0,0,,你还好吗？\N{\rENG}You okay?
+Dialogue: 0,0:05:57.19,0:05:58.59,CHS,,0,0,0,,还好啊\N{\rENG}Yes.
+Dialogue: 0,0:05:58.76,0:06:01.42,CHS,,0,0,0,,今晚尼古拉斯和我一同赴宴\N{\rENG}Nicholas and I are going out to dinner.
+Dialogue: 0,0:06:11.48,0:06:12.70,CHS,,0,0,0,,扔\N{\rENG}Now.
+Dialogue: 0,0:06:15.08,0:06:17.28,CHS,,0,0,0,,真他妈好玩\N{\rENG}Fucking bingo.
+Dialogue: 0,0:06:29.59,0:06:32.06,CHS,,0,0,0,,真是个垃圾场\N{\rENG}What a dump.
+Dialogue: 0,0:07:04.50,0:07:07.52,CHS,,0,0,0,,- 到了  - 我们在这里坐坐吧\N{\rENG}- Yeah.  - We could walk up the garage.
+Dialogue: 0,0:07:07.70,0:07:11.00,CHS,,0,0,0,,我原以为在斯通菲尔德农场能帮上我妈妈呢\N{\rENG}Oh. I'm supposed to be helping my mom up at Stonefield.
+Dialogue: 0,0:07:11.17,0:07:13.57,CHS,,0,0,0,,- 他们总让你忙这忙那  - 就是\N{\rENG}- They keep you busy.  - Yeah.
+Dialogue: 0,0:07:13.74,0:07:16.21,CHS,,0,0,0,,你从来就没有休息过\N{\rENG}You never stop, you.
+Dialogue: 0,0:07:16.68,0:07:18.91,CHS,,0,0,0,,我敢打赌那些作家都道貌岸然\N{\rENG}Bet them writers are wankers.
+Dialogue: 0,0:07:19.08,0:07:21.01,CHS,,0,0,0,,过去称为“从炉灶边到荒野上”\N{\rENG}It was called From Hearth to Heath:
+Dialogue: 0,0:07:21.18,0:07:23.78,CHS,,0,0,0,,“维多利亚时代的诗歌，世界末日和启示录”\N{\rENG}The Doomsday and Revelation in Victorian Verse.
+Dialogue: 0,0:07:23.95,0:07:24.98,CHS,,0,0,0,,它是关于什么的？\N{\rENG}What was it about?
+Dialogue: 0,0:07:25.15,0:07:29.32,CHS,,0,0,0,,你应该知道，无力的诗人喝着鸦片酒，数个黑暗中的塔和不见天日的海水\N{\rENG}Well, you know, pale poets on laudanum and dark towers and sunless seas.
+Dialogue: 0,0:07:29.49,0:07:31.48,CHS,,0,0,0,,茶杯里泛起了一点点涟漪\N{\rENG}A little Sturm und Drang in a teacup.
+Dialogue: 0,0:07:31.66,0:07:32.72,CHS,,0,0,0,,原来能买到这本书吗？\N{\rENG}Did it sell?
+Dialogue: 0,0:07:32.90,0:07:38.33,CHS,,0,0,0,,我的这类书不是买的，这也是我为什么没有写的原因，所以买不着\N{\rENG}Well, of course, my kind of books aren't about sales, that's not why I write. So, no.
+Dialogue: 0,0:07:40.67,0:07:42.47,CHS,,0,0,0,,你下一步工作是什么？\N{\rENG}So, what are you working on next?
+Dialogue: 0,0:07:42.64,0:07:43.97,CHS,,0,0,0,,托马斯·哈代\N{\rENG}Thomas Hardy.
+Dialogue: 0,0:07:44.14,0:07:47.30,CHS,,0,0,0,,那里没有留下任何让人感伤的字眼？\N{\rENG}Is there anything left to say about that maudlin bore?
+Dialogue: 0,0:07:47.48,0:07:51.14,CHS,,0,0,0,,不好意思，除了认为哈代是一个呆滞，而别的什么都没有的人，这本身就是一个错误的观点\N{\rENG}Excuse me, but there's nothing dull about Hardy. That is a misconception.
+Dialogue: 0,0:07:51.35,0:07:55.11,CHS,,0,0,0,,至少你已经出版了，我有点嫉妒的激动\N{\rENG}At least you've been published. I'm seething with envy.
+Dialogue: 0,0:07:55.29,0:07:58.69,CHS,,0,0,0,,- 我很希望作品能被出版  - 自己的作品在网上出版\N{\rENG}- I'd love to be published.  - I publish myself on the Internet.
+Dialogue: 0,0:07:58.86,0:08:01.32,CHS,,0,0,0,,- 哦，那个上面能赚到钱吗？ - 不能\N{\rENG}- Oh, do you earn money doing that?  - No.
+Dialogue: 0,0:08:01.49,0:08:03.29,CHS,,0,0,0,,- 你写的什么？ - 女同性恋的犯罪\N{\rENG}- What do you write?  - Lesbian crime.
+Dialogue: 0,0:08:05.23,0:08:08.10,CHS,,0,0,0,,我能在雇主这里拿到一些小费\N{\rENG}I'm here picking up tips from the master.
+Dialogue: 0,0:08:14.91,0:08:16.90,CHS,,0,0,0,,- 贝丝？ - 怎么了？\N{\rENG}- Beth?  - Yeah?
+Dialogue: 0,0:08:17.08,0:08:19.20,CHS,,0,0,0,,我为什么没有弹出我自己的？\N{\rENG}Why don't I just pop out on my own?
+Dialogue: 0,0:08:19.38,0:08:21.40,CHS,,0,0,0,,我都准备好了，走吧\N{\rENG}Well, I'm ready now. Come on.
+Dialogue: 0,0:08:21.58,0:08:23.21,CHS,,0,0,0,,是哪个？\N{\rENG}Is that..?
+Dialogue: 0,0:08:23.38,0:08:25.58,CHS,,0,0,0,,我的意思是你怎么穿成这样？\N{\rENG}I mean, are you wearing that?
+Dialogue: 0,0:08:26.18,0:08:27.65,CHS,,0,0,0,,噢\N{\rENG}Oh.
+Dialogue: 0,0:08:28.52,0:08:31.51,CHS,,0,0,0,,看起来有点热\N{\rENG}It just looks a bit hot.
+Dialogue: 0,0:08:32.69,0:08:36.13,CHS,,0,0,0,,你知道周五在哈蒂森那里总是挤满了喝多的伦敦人\N{\rENG}You know, Hadditon's always packed with pissed Londonites on a Friday.
+Dialogue: 0,0:08:36.30,0:08:37.76,CHS,,0,0,0,,我想我们去根本就没位置了\N{\rENG}I doubt we get a table anyway.
+Dialogue: 0,0:08:37.93,0:08:40.42,CHS,,0,0,0,,下周要是有合适的时间，我们再约吧\N{\rENG}Let's do it properly next week. Make an occasion.
+Dialogue: 0,0:08:40.60,0:08:44.09,CHS,,0,0,0,,我总是想照顾你，你知道，我也蛮坏的\N{\rENG}I'm always taking you for granted. I'm vile, I know.
+Dialogue: 0,0:08:44.27,0:08:46.83,CHS,,0,0,0,,你应该踢我两脚\N{\rENG}You should kick me, really.
+Dialogue: 0,0:08:48.34,0:08:49.64,CHS,,0,0,0,,你约了谁？\N{\rENG}Who is she?
+Dialogue: 0,0:08:50.18,0:08:51.51,CHS,,0,0,0,,什么？\N{\rENG}What?
+Dialogue: 0,0:08:53.38,0:08:55.11,CHS,,0,0,0,,别闹了，贝丝\N{\rENG}Oh, come on, Beth.
+Dialogue: 0,0:08:55.62,0:08:57.17,CHS,,0,0,0,,到底是谁\N{\rENG}Tell me who.
+Dialogue: 0,0:09:00.19,0:09:02.55,CHS,,0,0,0,,听着，谁也没约\N{\rENG}Look, it's nothing.
+Dialogue: 0,0:09:02.99,0:09:05.58,CHS,,0,0,0,,一两次都太多了，恰恰…\N{\rENG}It's been once or twice, that's all. It's just...
+Dialogue: 0,0:09:06.09,0:09:08.65,CHS,,0,0,0,,- 贝丝，真的谁也没约  - 她是谁？\N{\rENG}- Beth, it's not anything.  - Who is she?
+Dialogue: 0,0:09:08.83,0:09:11.39,CHS,,0,0,0,,他走在路上，新娘和新郎正在…\N{\rENG}So she's on her way in, the bride and groom are...
+Dialogue: 0,0:09:11.57,0:09:14.33,CHS,,0,0,0,,- 就是四频道的一个研究院  - 她叫什么？\N{\rENG}- Just a researcher on Radio 4.  - What's her name?
+Dialogue: 0,0:09:14.50,0:09:17.06,CHS,,0,0,0,,- 纳迪亚，纳迪亚·派特  - 纳迪亚？就是写进你书里的那个\N{\rENG}- Nadia. Nadia Patel. Patel?  - She's in your book.
+Dialogue: 0,0:09:17.24,0:09:19.37,CHS,,0,0,0,,不，不是的，我遇见她是我在听《荒岛磁盘》的时候\N{\rENG}No. No. I met her when I was on Desert Is land Discs.
+Dialogue: 0,0:09:19.54,0:09:21.53,CHS,,0,0,0,,- 所以你把她写进你的书里  - 不是，就是个名字而已\N{\rENG}- You put her in your book.  - Well, just the name.
+Dialogue: 0,0:09:21.71,0:09:23.34,CHS,,0,0,0,,- 《荒岛磁盘》是一年前的了  - 是\N{\rENG}- Desert Is land Discs was a year ago.  - Yes...
+Dialogue: 0,0:09:23.51,0:09:24.54,CHS,,0,0,0,,那你还说“一两次”？\N{\rENG}So "once or twice"?
+Dialogue: 0,0:09:24.71,0:09:25.98,CHS,,0,0,0,,- 我原来告诉过你  - 啊，啊！\N{\rENG}- I was going to tell you.  - Ha-ha!
+Dialogue: 0,0:09:26.15,0:09:27.98,CHS,,0,0,0,,- 书里，从那些女性  - 嘘，嘘！\N{\rENG}- In the book, from your woman.  - Shh! Shh!
+Dialogue: 0,0:09:28.15,0:09:30.02,CHS,,0,0,0,,给你说他们正在下面…\N{\rENG}saying that they're coming to the par...
+Dialogue: 0,0:09:30.19,0:09:33.35,CHS,,0,0,0,,- 我已经受够了  - 贝丝，别这样\N{\rENG}- I've had enough of this.  - Beth. I'm a ruin, I know.
+Dialogue: 0,0:09:33.52,0:09:35.75,CHS,,0,0,0,,我是认真的\N{\rENG}But I've been in a real state about this.
+Dialogue: 0,0:09:35.93,0:09:38.19,CHS,,0,0,0,,- 我不想伤害你  - 哦！\N{\rENG}- I... I didn't want to hurt you.  - Oh!
+Dialogue: 0,0:09:39.23,0:09:41.06,CHS,,0,0,0,,你怎么能这么欺骗我呢？\N{\rENG}How could you lie to my face?
+Dialogue: 0,0:09:41.23,0:09:43.67,CHS,,0,0,0,,你能平静点吗？人们都在户外吃饭\N{\rENG}Can we talk calmly? There are people out there.
+Dialogue: 0,0:09:43.83,0:09:45.53,CHS,,0,0,0,,你看着我，你骗我\N{\rENG}You looked me in the face and lied.
+Dialogue: 0,0:09:45.70,0:09:47.73,CHS,,0,0,0,,为了上帝的利益我们聚集了一些小说家\N{\rENG}For God's sake, we're surrounded by novelists.
+Dialogue: 0,0:09:47.90,0:09:50.27,CHS,,0,0,0,,- 你个王八蛋  - 贝丝\N{\rENG}- You bastard.  - Beth,
+Dialogue: 0,0:09:50.44,0:09:53.27,CHS,,0,0,0,,- 我现在都不知道东南西北了  - 哦，你怎么可能\N{\rENG}- we're like a pair of compasses.  - Oh, don't you dare.
+Dialogue: 0,0:09:53.44,0:09:55.27,CHS,,0,0,0,,开始写的那么铿锵有力\N{\rENG}joined solidly at the top,
+Dialogue: 0,0:09:55.45,0:09:58.31,CHS,,0,0,0,,要是用了这个结局会使得结尾更加自由\N{\rENG}but with the ends able to roam in freedom.
+Dialogue: 0,0:10:00.38,0:10:02.65,CHS,,0,0,0,,是她的短信吧，你一直在这里等，对吗？\N{\rENG}That's her, isn't it? Are you keeping her waiting?
+Dialogue: 0,0:10:02.82,0:10:04.72,CHS,,0,0,0,,我们正在讨论关于创新思想\N{\rENG}We've talked a lot about the creative mind,
+Dialogue: 0,0:10:04.89,0:10:07.22,CHS,,0,0,0,,我们觉得文章需要把确定的自由拓展开\N{\rENG}and we agreed it needs a certain freedom to explore.
+Dialogue: 0,0:10:07.39,0:10:09.86,CHS,,0,0,0,,拓展你的自由区，我不想再在这里待下去了\N{\rENG}Take your freedom. I can't live like this any more.
+Dialogue: 0,0:10:10.03,0:10:12.43,CHS,,0,0,0,,- 对我毫无价值  - 冷静点\N{\rENG}- It makes me feel worthless.  - Calm yourself down.
+Dialogue: 0,0:10:12.60,0:10:15.53,CHS,,0,0,0,,去和你的派特过吧，看看她能不能让你的书畅销\N{\rENG}Go set up home with Patel. See if she does your tax returns.
+Dialogue: 0,0:10:15.70,0:10:17.67,CHS,,0,0,0,,你不是爱她吗？她不是年轻嘛？\N{\rENG}Do you love her? Is she young?
+Dialogue: 0,0:10:17.84,0:10:19.53,CHS,,0,0,0,,- 为了天堂的利益  - 为了她吧？\N{\rENG}- For heaven's sake...  - Is she?!
+Dialogue: 0,0:10:19.71,0:10:21.61,CHS,,0,0,0,,够了！\N{\rENG}Yes!
+Dialogue: 0,0:10:25.31,0:10:29.41,CHS,,0,0,0,,你要是今晚离开这去陪她，以后就不用回来了\N{\rENG}If you leave here tonight to be with her, don't come back.
+Dialogue: 0,0:10:30.28,0:10:33.51,CHS,,0,0,0,,贝丝别这样对我们\N{\rENG}Beth, you're making fools of us both.
+Dialogue: 0,0:10:34.82,0:10:36.69,CHS,,0,0,0,,骗子！\N{\rENG}Liar!
+Dialogue: 0,0:10:42.96,0:10:44.43,CHS,,0,0,0,,天啊\N{\rENG}Fuck.
+Dialogue: 0,0:10:44.60,0:10:48.69,CHS,,0,0,0,,我还不知道他们原来是这样的\N{\rENG}I didn't know they provided material too.
+Dialogue: 0,0:11:00.65,0:11:03.45,CHS,,0,0,0,,你们知道，贝丝为他做了那么多，整理他的稿件\N{\rENG}Beth does everything for him, you know. Types his manuscript,
+Dialogue: 0,0:11:03.62,0:11:06.75,CHS,,0,0,0,,联系中介，又有十足的女人味\N{\rENG}deals with his agent, makes his female characters convincing.
+Dialogue: 0,0:11:06.92,0:11:09.22,CHS,,0,0,0,,她甚至还用过英迟康博先生的名字\N{\rENG}She even came up with the name Dr. Inchcombe.
+Dialogue: 0,0:11:09.39,0:11:11.76,CHS,,0,0,0,,难怪他那么生气\N{\rENG}No wonder he's bored.
+Dialogue: 0,0:11:11.93,0:11:15.52,CHS,,0,0,0,,我倒希望她打发这男的去做个他妈的清洁工\N{\rENG}I hope she takes him to the fucking cleaners.
+Dialogue: 0,0:11:26.01,0:11:29.54,CHS,,0,0,0,,在最后的日子里，这也是我为什么一个人那么快乐\N{\rENG}At the end of the day, this is why I'm glad I'm single.
+Dialogue: 0,0:11:42.76,0:11:45.25,CHS,,0,0,0,,她是否愿意让他回来？这可是个问题\N{\rENG}Will she take him back though? That's the question.
+Dialogue: 0,0:11:45.43,0:11:47.49,CHS,,0,0,0,,- 你怎么想？ - 其实我也不知道\N{\rENG}- Would you?  - Well, I'd be torn.
+Dialogue: 0,0:11:47.66,0:11:50.57,CHS,,0,0,0,,他不了解他自己，那他的农场怎么样？\N{\rENG}He's far too up himself. Yeah, but what about their farm?
+Dialogue: 0,0:11:50.73,0:11:54.23,CHS,,0,0,0,,要是事情不是这样？一定值得称道\N{\rENG}Splitting up all this? Must be worth a fortune.
+Dialogue: 0,0:11:54.91,0:11:57.14,CHS,,0,0,0,,纳迪亚·派特\N{\rENG}Nadia Patel.
+Dialogue: 0,0:11:57.31,0:12:01.24,CHS,,0,0,0,,“羚羊小眼，秘密约会”\N{\rENG}"Gazelle eyes. " "Tantric sex."
+Dialogue: 0,0:12:01.45,0:12:04.24,CHS,,0,0,0,,她太轻率了，把他赶走了\N{\rENG}She's very rash, making him choose.
+Dialogue: 0,0:12:05.12,0:12:07.71,CHS,,0,0,0,,他为什么选择我？\N{\rENG}Why would he choose me?
+Dialogue: 0,0:12:09.76,0:12:14.89,CHS,,0,0,0,,- 我原以为你不来了  - 我太忙了，还和老婆吵架了\N{\rENG}- I thought you weren't going to come.  - I was busy. Rowing with my wife.
+Dialogue: 0,0:12:15.06,0:12:17.36,CHS,,0,0,0,,- 现在去哪里？ - 回家\N{\rENG}- Where are we going?  - Home.
+Dialogue: 0,0:12:17.53,0:12:18.69,CHS,,0,0,0,,去你们农场？\N{\rENG}To your farm?
+Dialogue: 0,0:12:23.07,0:12:25.30,CHS,,0,0,0,,我们可以去我们原先去过的地方\N{\rENG}We could have gone on just as we were.
+Dialogue: 0,0:12:25.47,0:12:28.50,CHS,,0,0,0,,好的，你可说过你想和我在一起的\N{\rENG}Yes, but you said you wanted to be with me.
+Dialogue: 0,0:12:28.68,0:12:32.01,CHS,,0,0,0,,对啊，那就去伦敦\N{\rENG}Yes. In London.
+Dialogue: 0,0:12:32.35,0:12:33.78,CHS,,0,0,0,,现在就走\N{\rENG}Now and then.
+Dialogue: 0,0:12:45.66,0:12:48.39,CHS,,0,0,0,,来一大瓶里奥哈葡萄酒，再预定个房间\N{\rENG}Big glass of Rioja, please. And I need a room.
+Dialogue: 0,0:12:48.56,0:12:50.29,CHS,,0,0,0,,好的，定几晚上？\N{\rENG}Sure. How many nights?
+Dialogue: 0,0:12:50.46,0:12:52.56,CHS,,0,0,0,,不知道，先一晚上，行吗？\N{\rENG}Don't know. Just one?
+Dialogue: 0,0:12:52.73,0:12:56.83,CHS,,0,0,0,,- 你在这是要定那些作家公寓？ - 不，我本身就是作家\N{\rENG}- Are you here for the writers' retreat?  - No, but I'm a writer.
+Dialogue: 0,0:12:57.00,0:12:58.30,CHS,,0,0,0,,是一个记者\N{\rENG}Well, journalist.
+Dialogue: 0,0:12:58.74,0:13:02.14,CHS,,0,0,0,,我不想抬杠，只是随便问问\N{\rENG}I don't mean to pry. I'm just really nosey.
+Dialogue: 0,0:13:02.34,0:13:04.14,CHS,,0,0,0,,我就在这里生活，有几分地\N{\rENG}I'm from here. Sort of.
+Dialogue: 0,0:13:04.31,0:13:07.37,CHS,,0,0,0,,真是一个好地方，我很喜欢\N{\rENG}Well, it's a nice place. I love it.
+Dialogue: 0,0:13:07.55,0:13:12.15,CHS,,0,0,0,,我原来想离开的，可是却没能走成\N{\rENG}I keep meaning to leave, but... Hard to get away.
+Dialogue: 0,0:13:12.35,0:13:14.22,CHS,,0,0,0,,我妈妈的房子就在这路上段\N{\rENG}My mom's house is just up the road.
+Dialogue: 0,0:13:14.39,0:13:17.59,CHS,,0,0,0,,- 那你没和她住在一起？ - 她…她已经死了\N{\rENG}- You're not staying with her?  - She's... She died.
+Dialogue: 0,0:13:18.23,0:13:19.59,CHS,,0,0,0,,我妈妈也过世了\N{\rENG}Have that on me.
+Dialogue: 0,0:13:19.76,0:13:23.16,CHS,,0,0,0,,这是钥匙\N{\rENG}And here's your key.
+Dialogue: 0,0:13:23.33,0:13:26.63,CHS,,0,0,0,,上楼右转往前走就到了\N{\rENG}Up the stairs, right in front. You can't miss it.
+Dialogue: 0,0:13:26.80,0:13:28.33,CHS,,0,0,0,,谢谢\N{\rENG}Thanks.
+Dialogue: 0,0:13:32.31,0:13:35.37,CHS,,0,0,0,,什么风把你吹到这里了\N{\rENG}Didn't think I'd see you tonight.
+Dialogue: 0,0:13:35.55,0:13:38.95,CHS,,0,0,0,,- 来呼吸一下这农场的空气  - 说吧，怎么了\N{\rENG}- Bit of an atmosphere at Stonefield.  - Tell me everything.
+Dialogue: 0,0:13:39.12,0:13:42.55,CHS,,0,0,0,,结婚呗，我根本不想尝试\N{\rENG}Marriage. Remind me never to try it.
+Dialogue: 0,0:13:42.72,0:13:47.16,CHS,,0,0,0,,安迪，你这么性感，没人能得到你\N{\rENG}Andy, you're just a sex object. No one would have you.
+Dialogue: 0,0:14:11.75,0:14:14.65,CHS,,0,0,0,,这种勇敢行为已经存在了好几个世纪了？\N{\rENG}Ahem. So the Hardiments have lived here for centuries, huh?
+Dialogue: 0,0:14:15.02,0:14:17.99,CHS,,0,0,0,,不是吧，大概二十年\N{\rENG}No. About 20 years.
+Dialogue: 0,0:14:18.16,0:14:20.09,CHS,,0,0,0,,在当地标准看来还是很陌生\N{\rENG}Still strangers, by local standards.
+Dialogue: 0,0:14:30.40,0:14:33.17,CHS,,0,0,0,,安迪，来看看英格丽，我…额…\N{\rENG}Andy, uh, come look at Ingrid. I, uh...
+Dialogue: 0,0:14:33.34,0:14:35.71,CHS,,0,0,0,,我想她现在很激动\N{\rENG}I think she's coming into heat.
+Dialogue: 0,0:14:39.65,0:14:41.67,CHS,,0,0,0,,贝丝，她很漂亮\N{\rENG}She's very nice, Beth.
+Dialogue: 0,0:14:41.85,0:14:44.65,CHS,,0,0,0,,是啊，我也这么觉得\N{\rENG}Yeah. I owe her a lot.
+Dialogue: 0,0:14:45.42,0:14:47.89,CHS,,0,0,0,,他丈夫这人倒是不怎么样？\N{\rENG}Husband's kind of a sleaze bag, huh?
+Dialogue: 0,0:14:48.49,0:14:50.48,CHS,,0,0,0,,我们过去在这说的事实上的“刺痛”\N{\rENG}We'd say "prick" here, actually.
+Dialogue: 0,0:14:50.66,0:14:52.22,CHS,,0,0,0,,或是一个自欺欺人的人\N{\rENG}Or wanker.
+Dialogue: 0,0:14:52.53,0:14:56.46,CHS,,0,0,0,,说得好，甚至我们可以说他是一个混蛋\N{\rENG}That's good. We might even call him a fuck.
+Dialogue: 0,0:14:57.33,0:14:59.36,CHS,,0,0,0,,你说的也不赖\N{\rENG}That's good too.
+Dialogue: 0,0:15:05.37,0:15:09.00,CHS,,0,0,0,,- 我能帮你吗？ - 我就铲铲锅底\N{\rENG}- Can I help?  - It's going rotten underneath.
+Dialogue: 0,0:15:09.18,0:15:12.41,CHS,,0,0,0,,- 我能看看英格丽吗？ - 看…她已经离开了\N{\rENG}- Can I have a look at Ingrid?  - Look, it's... It's falling apart.
+Dialogue: 0,0:15:12.58,0:15:14.45,CHS,,0,0,0,,好了，贝丝，还是让我来吧\N{\rENG}Yeah, well, I can do that. Beth...
+Dialogue: 0,0:15:16.19,0:15:18.81,CHS,,0,0,0,,花不了五分钟就可以了\N{\rENG}He won't last five minutes.
+Dialogue: 0,0:15:32.10,0:15:38.30,CHS,,0,0,0,,噢，天哪，他已经翻译成了冰岛语和斯瓦西里语\N{\rENG}Oh, Jesus. He's been translated into Icelandic and Swahili.
+Dialogue: 0,0:15:40.64,0:15:42.70,CHS,,0,0,0,,“出版的真多”\N{\rENG}What an output.
+Dialogue: 0,0:15:43.78,0:15:46.11,CHS,,0,0,0,,“我的书也一定能成功”\N{\rENG}I need my book to be a success.
+Dialogue: 0,0:15:46.28,0:15:50.45,CHS,,0,0,0,,“至少需要一个奖赏来安慰一下自己的付出”\N{\rENG}I need a tiny reward for all my endeavors.
+Dialogue: 0,0:15:53.56,0:15:55.46,CHS,,0,0,0,,“我想上厕所”\N{\rENG}I need a dump.
+Dialogue: 0,0:16:13.15,0:16:15.34,CHS,,0,0,0,,- 贝丝  - 别碰我\N{\rENG}- Beth.  - No, don't touch me.
+Dialogue: 0,0:16:15.52,0:16:17.07,CHS,,0,0,0,,- 你有什么不敢的  - 对不起\N{\rENG}- Don't you dare.  - I'm sorry.
+Dialogue: 0,0:16:17.25,0:16:19.41,CHS,,0,0,0,,- 够了，别说了  - 对不起\N{\rENG}- Not good enough, not any more.  - I'm sorry.
+Dialogue: 0,0:16:19.59,0:16:21.64,CHS,,0,0,0,,你很喜欢说对不起是吗？\N{\rENG}You do what you like, then you're sorry?
+Dialogue: 0,0:16:21.82,0:16:24.45,CHS,,0,0,0,,我痛恨我自己，我真的恨我自己\N{\rENG}I hate myself. I hate myself.
+Dialogue: 0,0:16:24.63,0:16:26.35,CHS,,0,0,0,,你去哪里了？\N{\rENG}Where were you?
+Dialogue: 0,0:16:26.73,0:16:29.16,CHS,,0,0,0,,我带她去伦敦了，谈了一夜\N{\rENG}I drove her back to London. Took all night.
+Dialogue: 0,0:16:29.33,0:16:33.99,CHS,,0,0,0,,- 你去她家了？ - 一切都结束了，她不会再来了\N{\rENG}- You drove her home?  - I finished it. She was in a state.
+Dialogue: 0,0:16:35.47,0:16:38.67,CHS,,0,0,0,,- 就这么结束了？ - 对不起\N{\rENG}- So it's over?  - I'm sorry.
+Dialogue: 0,0:16:40.44,0:16:42.91,CHS,,0,0,0,,我不知道我为什么这样\N{\rENG}I don't know why I'm like this.
+Dialogue: 0,0:16:43.55,0:16:46.64,CHS,,0,0,0,,我的生活不能没有你\N{\rENG}I couldn't manage without you.
+Dialogue: 0,0:17:10.77,0:17:12.37,CHS,,0,0,0,,我的去一下瓶子仓库\N{\rENG}I've got to go to the bottle bank.
+Dialogue: 0,0:17:12.54,0:17:13.94,CHS,,0,0,0,,好的\N{\rENG}Okay.
+Dialogue: 0,0:17:14.51,0:17:18.21,CHS,,0,0,0,,- 那等一下聊  - 好的\N{\rENG}- Let's talk later.  - Yeah.
+Dialogue: 0,0:17:18.78,0:17:22.34,CHS,,0,0,0,,- 你这色鬼又让我为你心动  - 有吗？\N{\rENG}- The goat's come into heat.  - Has it?
+Dialogue: 0,0:17:24.59,0:17:27.18,CHS,,0,0,0,,我太爱你了\N{\rENG}I love you so much.
+Dialogue: 0,0:17:27.86,0:17:29.92,CHS,,0,0,0,,我也是\N{\rENG}Me too.
+Dialogue: 0,0:17:53.35,0:17:55.79,CHS,,0,0,0,,我刚刚看了勇敢的亲吻还有弥补\N{\rENG}I've just seen the Hardiments kiss and make up.
+Dialogue: 0,0:17:55.95,0:17:59.08,CHS,,0,0,0,,- 顺其自然  - 看起来她很希望他回来\N{\rENG}- The hat's on.  - Looks like she's taking him back.
+Dialogue: 0,0:17:59.26,0:18:02.56,CHS,,0,0,0,,这么显而易见，根本不用说\N{\rENG}When the hat's on, it means don't speak.
+Dialogue: 0,0:18:02.73,0:18:06.83,CHS,,0,0,0,,又和好如初了\N{\rENG}So peace is restored.
+Dialogue: 0,0:18:08.53,0:18:10.66,CHS,,0,0,0,,为了混蛋的利益！\N{\rENG}Oh, for fuck's sake!
+Dialogue: 0,0:18:12.57,0:18:14.01,CHS,,0,0,0,,- 我很不喜欢牛  - 是吗\N{\rENG}- I don't like cows.  - Yeah.
+Dialogue: 0,0:18:14.17,0:18:17.17,CHS,,0,0,0,,- 他们发出一股不善意的预谋  - 是吗\N{\rENG}- They exude bovine malice.  - Yeah.
+Dialogue: 0,0:18:17.34,0:18:19.54,CHS,,0,0,0,,这些女孩正在遭弄这些机器\N{\rENG}These girls are killing machines.
+Dialogue: 0,0:18:19.71,0:18:22.11,CHS,,0,0,0,,- 她们同样不喜欢美国人  - 那倒非常有意思\N{\rENG}- They don't like Americans either.  - Very funny.
+Dialogue: 0,0:18:24.52,0:18:26.01,CHS,,0,0,0,,这是维纳兹农场\N{\rENG}It's Winnards Farm.
+Dialogue: 0,0:18:26.19,0:18:29.49,CHS,,0,0,0,,夫人前一久在这里去世了，地方倒也空旷\N{\rENG}Lady there died a while back. Place is empty.
+Dialogue: 0,0:18:29.66,0:18:31.78,CHS,,0,0,0,,- 这里好像被洗劫过？ - 是嘛\N{\rENG}- Think it's being robbed?  - Nah.
+Dialogue: 0,0:18:32.19,0:18:33.82,CHS,,0,0,0,,可能是小孩在这里淘气\N{\rENG}Probably just kids.
+Dialogue: 0,0:18:33.99,0:18:37.12,CHS,,0,0,0,,在这里除了惹是生非，没有什么可干的\N{\rENG}Nothing to do around here except make trouble.
+Dialogue: 0,0:18:39.07,0:18:41.23,CHS,,0,0,0,,那要是有坏人该怎么办？\N{\rENG}What if it's bad guys?
+Dialogue: 0,0:18:41.40,0:18:44.37,CHS,,0,0,0,,那你没有短枪或是猎枪或别的武器？\N{\rENG}Don't you have a blunderbuss or a fowling piece or something?
+Dialogue: 0,0:18:47.38,0:18:49.43,CHS,,0,0,0,,这片地方原来属于我爸\N{\rENG}Used to belong to my dad, this place.
+Dialogue: 0,0:18:49.61,0:18:52.21,CHS,,0,0,0,,- 真的吗？ - 但是现在却烟消云散了\N{\rENG}- Really?  - But it all went tits up.
+Dialogue: 0,0:18:52.38,0:18:55.82,CHS,,0,0,0,,土地被一个大财团收购，房子卖给了一个伦敦人\N{\rENG}The land was flogged to a consortium and the house sold to Londoners.
+Dialogue: 0,0:18:55.99,0:18:59.79,CHS,,0,0,0,,- 德雷威斯家族  - 这是你们祖传的房子吗？\N{\rENG}- The Drewes.  - So this is your ancestral pile?
+Dialogue: 0,0:18:59.96,0:19:01.51,CHS,,0,0,0,,过去是\N{\rENG}Was.
+Dialogue: 0,0:19:01.89,0:19:03.92,CHS,,0,0,0,,我就出生在那个房间里\N{\rENG}Born in that room up there.
+Dialogue: 0,0:19:04.29,0:19:06.85,CHS,,0,0,0,,看见这情景心里不是滋味吧\N{\rENG}You must have been pretty resentful.
+Dialogue: 0,0:19:09.20,0:19:13.40,CHS,,0,0,0,,这个农场是我的，你这个大鼻子\N{\rENG}Oil This farm's mine, big nose.
+Dialogue: 0,0:19:21.18,0:19:24.64,CHS,,0,0,0,,- 你在干什么？ - 你是谁啊？\N{\rENG}- Hey, what are you doing?  - Who are you?
+Dialogue: 0,0:19:24.82,0:19:27.34,CHS,,0,0,0,,傻瓜，安迪，是我啊\N{\rENG}Andy, you moron. It's me.
+Dialogue: 0,0:19:28.29,0:19:30.05,CHS,,0,0,0,,泰姆？\N{\rENG}Tam?
+Dialogue: 0,0:19:30.25,0:19:32.35,CHS,,0,0,0,,我怎么就没有认出你\N{\rENG}I didn't even recognize you.
+Dialogue: 0,0:19:33.56,0:19:35.39,CHS,,0,0,0,,你不能这么干\N{\rENG}Well, you won't do it that way.
+Dialogue: 0,0:19:35.56,0:19:37.32,CHS,,0,0,0,,那你快来帮帮我啊\N{\rENG}Then help me.
+Dialogue: 0,0:19:37.50,0:19:38.99,CHS,,0,0,0,,过去常常为你母亲做点工\N{\rENG}Used to do bits of work for your mom.
+Dialogue: 0,0:19:39.16,0:19:41.03,CHS,,0,0,0,,她死了以后就一直把它放在容易看见的这里\N{\rENG}Been keeping an eye on the place since she died.
+Dialogue: 0,0:19:41.20,0:19:42.53,CHS,,0,0,0,,这是什么工作，制图？\N{\rENG}What kind of work, graphics?
+Dialogue: 0,0:19:42.70,0:19:46.14,CHS,,0,0,0,,- 不是，我现在做园艺  - 你是个园艺师？\N{\rENG}- No, I do horticulture now.  - You're a gardener?
+Dialogue: 0,0:19:46.77,0:19:50.07,CHS,,0,0,0,,哇，这真是一个老房子\N{\rENG}Wow, this is a great old house.
+Dialogue: 0,0:19:50.28,0:19:52.33,CHS,,0,0,0,,谢谢，你想买吗？\N{\rENG}Thanks. Do you want to buy it?
+Dialogue: 0,0:19:52.51,0:19:56.91,CHS,,0,0,0,,我的风格或许不适合，我更喜欢我的生活里有个行李包\N{\rENG}I'm not the property-owning type, no. I prefer my life to fit in hand luggage.
+Dialogue: 0,0:19:57.08,0:20:00.57,CHS,,0,0,0,,- 所以你回去想收购它？ - 对啊\N{\rENG}- That why you're back, to flog it?  - Yep.
+Dialogue: 0,0:20:00.79,0:20:03.22,CHS,,0,0,0,,为那些银行的傻瓜准备第二套新家\N{\rENG}Make a nice second home for some banker wankers.
+Dialogue: 0,0:20:03.39,0:20:05.92,CHS,,0,0,0,,听着，安迪，如果你想要，你为什么不给我发个邀请函呢？\N{\rENG}Look, Andy, if you want it, why don't you just make me an offer?
+Dialogue: 0,0:20:06.46,0:20:09.52,CHS,,0,0,0,,因为受经济的原因，自己挺难过的\N{\rENG}Because, sadly, I'm still prey to the economic forces
+Dialogue: 0,0:20:09.70,0:20:12.93,CHS,,0,0,0,,这使得我们这些农村人不得不离开这里\N{\rENG}that threw the peasant classes off the land.
+Dialogue: 0,0:20:13.40,0:20:15.16,CHS,,0,0,0,,真不幸\N{\rENG}Unlucky.
+Dialogue: 0,0:20:15.67,0:20:17.03,CHS,,0,0,0,,泰姆\N{\rENG}Tam.
+Dialogue: 0,0:20:19.11,0:20:21.37,CHS,,0,0,0,,你怎么神奇的弄了一下你的鼻子？\N{\rENG}What the fuck have you done to your nose?
+Dialogue: 0,0:20:21.54,0:20:25.38,CHS,,0,0,0,,听好了，安迪，外星人来弄得\N{\rENG}Oh, come on, Andy. Aliens came and took it.
+Dialogue: 0,0:20:25.55,0:20:26.84,CHS,,0,0,0,,她完全不一样\N{\rENG}She's completely different.
+Dialogue: 0,0:20:28.22,0:20:30.81,CHS,,0,0,0,,他原来什么样，有什么有趣的故事吗？\N{\rENG}What was she like before? What's the story?
+Dialogue: 0,0:20:30.99,0:20:32.58,CHS,,0,0,0,,- 不止一个  - 说来听听\N{\rENG}- There isn't one.  - Oh, come on.
+Dialogue: 0,0:20:32.75,0:20:36.95,CHS,,0,0,0,,其实也没什么，都是十几年前年轻人的事情了\N{\rENG}It was nothing. Decade ago. Just a teenage thing.
+Dialogue: 0,0:20:38.23,0:20:40.35,CHS,,0,0,0,,你应该找个人来一起坠入爱河\N{\rENG}You should find someone you're in love with.
+Dialogue: 0,0:20:40.53,0:20:42.86,CHS,,0,0,0,,- 大笨蛋  - 你说你爱我啊，小甜甜？\N{\rENG}- Stupid prick.  - You saying you love me, frosty tits?
+Dialogue: 0,0:20:43.03,0:20:45.02,CHS,,0,0,0,,- 你先说  - 你是女孩，你先说\N{\rENG}- You first.  - You're the girl, you say it.
+Dialogue: 0,0:20:45.20,0:20:46.43,CHS,,0,0,0,,我爱你\N{\rENG}I love you.
+Dialogue: 0,0:20:46.60,0:20:50.16,CHS,,0,0,0,,让开，我爱你！\N{\rENG}Fuck off. I love you!
+Dialogue: 0,0:20:50.87,0:20:53.24,CHS,,0,0,0,,罗密欧和朱丽叶啊？\N{\rENG}Romeo and Juliet, huh?
+Dialogue: 0,0:20:53.41,0:20:56.78,CHS,,0,0,0,,还在一个高级的小木屋里？\N{\rENG}Something classy in the wood shed, huh? Heh.
+Dialogue: 0,0:21:06.36,0:21:08.42,CHS,,0,0,0,,- 你觉得他怎么样？ - 不行\N{\rENG}- Would you do him?  - No.
+Dialogue: 0,0:21:08.59,0:21:10.58,CHS,,0,0,0,,- 那他呢？ - 他可是个同性恋\N{\rENG}- What about him?  - He's gay, you dobbin.
+Dialogue: 0,0:21:10.76,0:21:12.96,CHS,,0,0,0,,- 是吗？ - 当然\N{\rENG}- So?  - Oh.
+Dialogue: 0,0:21:13.13,0:21:14.22,CHS,,0,0,0,,真讽刺\N{\rENG}Swipe.
+Dialogue: 0,0:21:14.40,0:21:17.46,CHS,,0,0,0,,中士本，我看见他就激动\N{\rENG}Ben Sergeant. I'd walk through fire to do him.
+Dialogue: 0,0:21:17.63,0:21:19.83,CHS,,0,0,0,,- 他是个鼓手？ - 他可不仅仅是个鼓手\N{\rENG}- The drummer?  - He's not just the drummer.
+Dialogue: 0,0:21:20.04,0:21:23.50,CHS,,0,0,0,,他能作词，他能指挥，他简直就是他妈的天才\N{\rENG}He writes all the lyrics. It's his band. He's the fucking genius.
+Dialogue: 0,0:21:23.68,0:21:27.30,CHS,,0,0,0,,他不像斯蒂芬·易凯，也不像任何其他的傻瓜，他可是本啊\N{\rENG}Not Steve Culley, or any of these wankers. It's Ben.
+Dialogue: 0,0:21:27.48,0:21:30.64,CHS,,0,0,0,,额，是吗，我好像认识\N{\rENG}Okay, yeah. I... I'd do Ben.
+Dialogue: 0,0:21:30.82,0:21:35.75,CHS,,0,0,0,,我要是她就好了，穿着那样的裙子，还能得到他的亲吻\N{\rENG}I wanna be her, in that dress, with him licking my teapot lids.
+Dialogue: 0,0:21:35.92,0:21:38.65,CHS,,0,0,0,,我也想\N{\rENG}Yeah, me too.
+Dialogue: 0,0:21:38.86,0:21:41.09,CHS,,0,0,0,,你文章构思的怎么样，格蕾丝？\N{\rENG}So has the muse shone on you, Greg?
+Dialogue: 0,0:21:41.26,0:21:43.23,CHS,,0,0,0,,我最近对这总是不能集中精力了\N{\rENG}I've been pretty distracted most recently
+Dialogue: 0,0:21:43.40,0:21:47.13,CHS,,0,0,0,,就是由于这些美味，贝丝下午还要在做\N{\rENG}by those delicious cookie things Beth brought around this afternoon.
+Dialogue: 0,0:21:47.30,0:21:50.27,CHS,,0,0,0,,那当然，这里有很多美味的饼干\N{\rENG}Oh, yes. Of course, we call them biscuits here.
+Dialogue: 0,0:21:50.44,0:21:52.53,CHS,,0,0,0,,这就这里的人自己做的\N{\rENG}And by the place itself, the people.
+Dialogue: 0,0:21:52.71,0:21:54.90,CHS,,0,0,0,,有的时候自己都想糊涂一点\N{\rENG}I sometimes wish I could get distracted.
+Dialogue: 0,0:21:55.07,0:21:56.97,CHS,,0,0,0,,一天写上十页文章，或好或坏\N{\rENG}Ten-page-a-day man, rain or shine.
+Dialogue: 0,0:21:57.14,0:21:59.87,CHS,,0,0,0,,哇，听起来让人提心吊胆，一天只写十页？你怎么可能那么做\N{\rENG}Wow. That's scary. Ten pages a day, how do you do that?
+Dialogue: 0,0:22:00.05,0:22:01.45,CHS,,0,0,0,,- 哦，格雷格  - 格伦\N{\rENG}- Oh, Greg,  - Glen.
+Dialogue: 0,0:22:01.62,0:22:03.88,CHS,,0,0,0,,我根本就没有假设能给学术费用\N{\rENG}I wouldn't presume to give an academic tips.
+Dialogue: 0,0:22:04.05,0:22:05.75,CHS,,0,0,0,,事实上，我读了一本你的书\N{\rENG}Matter of fact, I read one of your books...
+Dialogue: 0,0:22:05.92,0:22:08.95,CHS,,0,0,0,,是另外一种困惑，我原以为它是很棒的材料\N{\rENG}Another distraction. ...I thought it was decent stuff.
+Dialogue: 0,0:22:10.06,0:22:15.02,CHS,,0,0,0,,那我该怎么做呢？格雷格，我可是刚刚写好它\N{\rENG}Well, how do I do it? I just get on with it, Greg.
+Dialogue: 0,0:22:16.70,0:22:19.46,CHS,,0,0,0,,“我得再来一份饼干”\N{\rENG}"We call them biscuits here."
+Dialogue: 0,0:22:19.63,0:22:21.66,CHS,,0,0,0,,- 为了这冥想构思  - 对啊\N{\rENG}- To the muse.  - The muse.
+Dialogue: 0,0:22:22.37,0:22:23.89,CHS,,0,0,0,,无论你怎么找到她\N{\rENG}However you find her.
+Dialogue: 0,0:22:24.11,0:22:25.83,CHS,,0,0,0,,干杯\N{\rENG}Cheers.
+Dialogue: 0,0:22:26.67,0:22:28.04,CHS,,0,0,0,,那是谁？\N{\rENG}Who's that?
+Dialogue: 0,0:22:30.55,0:22:32.14,CHS,,0,0,0,,是塔玛拉·德鲁\N{\rENG}That's Tamara Drewe.
+Dialogue: 0,0:22:32.31,0:22:35.65,CHS,,0,0,0,,- 不像吧  - 我和安迪一起见过的\N{\rENG}- No, it isn't.  - I met her with Andy.
+Dialogue: 0,0:22:36.12,0:22:39.49,CHS,,0,0,0,,我的天啊，她怎么了？她鼻子表漂亮了，爸爸\N{\rENG}Good God, what's happened to her? She had a nose job, Dad.
+Dialogue: 0,0:22:39.86,0:22:41.29,CHS,,0,0,0,,简直完全不一样了\N{\rENG}She's completely different.
+Dialogue: 0,0:22:41.46,0:22:42.55,CHS,,0,0,0,,安迪也这么说\N{\rENG}That's what Andy said.
+Dialogue: 0,0:22:42.72,0:22:45.56,CHS,,0,0,0,,可怜的塔玛拉，她可是个忧伤的女孩\N{\rENG}Poor Tamara, she's such a sad girl.
+Dialogue: 0,0:22:46.09,0:22:48.46,CHS,,0,0,0,,尼古拉斯，她原来常常帮你洗车，不是吗？\N{\rENG}She used to come help you wash the car, didn't she, Nicholas?
+Dialogue: 0,0:22:48.63,0:22:49.96,CHS,,0,0,0,,那是她还很年轻\N{\rENG}When she was a teenager.
+Dialogue: 0,0:22:50.13,0:22:52.07,CHS,,0,0,0,,她父亲死后，她就一个人过\N{\rENG}She liked a bit of family after her dad left.
+Dialogue: 0,0:22:52.24,0:22:53.83,CHS,,0,0,0,,他就是在每周日论坛上面\N{\rENG}Is that Tamara Drewe that writes a column
+Dialogue: 0,0:22:54.00,0:22:55.23,CHS,,0,0,0,,- 写文章的塔玛拉·德鲁？ - 原来是的\N{\rENG}- in one of the Sundays?  - Used to.
+Dialogue: 0,0:22:55.41,0:22:57.46,CHS,,0,0,0,,- 现在好像自己写点东西了  - 噢\N{\rENG}- Writes for The Independent now.  - Oh.
+Dialogue: 0,0:22:58.07,0:23:01.91,CHS,,0,0,0,,她活了几个星期去做了鼻子整形术\N{\rENG}She spent weeks going on about her nose job.
+Dialogue: 0,0:23:02.11,0:23:05.24,CHS,,0,0,0,,- 她原来的鼻子真的很难看？ - 是啊\N{\rENG}- Was her old one an awful conk?  - Yes.
+Dialogue: 0,0:23:05.85,0:23:09.08,CHS,,0,0,0,,看来她还挺满意这超短裤\N{\rENG}She's poured herself into those shorts.
+Dialogue: 0,0:23:09.29,0:23:12.02,CHS,,0,0,0,,真希望她没画眉\N{\rENG}Hope they don't give her thrush.
+Dialogue: 0,0:23:12.19,0:23:14.28,CHS,,0,0,0,,你们好啊，请原来我的冒昧\N{\rENG}Hello. Sorry to intrude.
+Dialogue: 0,0:23:14.49,0:23:17.98,CHS,,0,0,0,,- 你好，塔玛拉  - 你好啊，波比？\N{\rENG}- Hi, Tamara. Poppy.  - How are you?
+Dialogue: 0,0:23:18.16,0:23:19.96,CHS,,0,0,0,,我真喜欢你的新鼻子\N{\rENG}I love your new hooter.
+Dialogue: 0,0:23:20.16,0:23:22.69,CHS,,0,0,0,,谢谢了，不过它不是新的，仅仅小了一点\N{\rENG}Thanks. It's not actually new, it's just smaller.
+Dialogue: 0,0:23:23.40,0:23:26.23,CHS,,0,0,0,,塔玛拉，很对不起你母亲\N{\rENG}Tamara. So sorry about your mom.
+Dialogue: 0,0:23:26.40,0:23:28.46,CHS,,0,0,0,,- 没关系了  - 你打算在这里待多久？\N{\rENG}- Thanks.  - Are you staying down for long?
+Dialogue: 0,0:23:28.64,0:23:30.63,CHS,,0,0,0,,我带着看吧，得把一些事情处理完\N{\rENG}I'll have to. There's so much to be done.
+Dialogue: 0,0:23:30.81,0:23:32.61,CHS,,0,0,0,,那你要是需要帮助就告诉我\N{\rENG}Well, let us know if we can help.
+Dialogue: 0,0:23:32.78,0:23:35.11,CHS,,0,0,0,,那这里有个能干力气活的吗？\N{\rENG}Could you spare a pair of strong arms?
+Dialogue: 0,0:23:35.28,0:23:37.54,CHS,,0,0,0,,这几天我都需要搬些东西\N{\rENG}I've got a skip coming tomorrow, and...
+Dialogue: 0,0:23:37.72,0:23:39.58,CHS,,0,0,0,,尼古拉斯？\N{\rENG}Nicholas?
+Dialogue: 0,0:23:40.19,0:23:42.38,CHS,,0,0,0,,- 我可以的  - 我也可以做\N{\rENG}- I'm available.  - I do skips.
+Dialogue: 0,0:23:42.56,0:23:45.05,CHS,,0,0,0,,尼古拉斯？哦，这东西不行啊\N{\rENG}Nicholas? Oh, bug...
+Dialogue: 0,0:23:45.22,0:23:47.02,CHS,,0,0,0,,喔\N{\rENG}Oh. Um...
+Dialogue: 0,0:23:47.19,0:23:50.13,CHS,,0,0,0,,谢谢你们每个人，你们都很善良\N{\rENG}Thank you, everyone. You're very kind.
+Dialogue: 0,0:23:50.33,0:23:52.13,CHS,,0,0,0,,安迪不在这里吗？\N{\rENG}Is Andy around at all?
+Dialogue: 0,0:23:52.33,0:23:53.99,CHS,,0,0,0,,哦，安迪不行\N{\rENG}Oh, I... I can't spare Andy.
+Dialogue: 0,0:23:54.17,0:23:57.50,CHS,,0,0,0,,他正为我的黄色奥尔顿鸡做个笼子\N{\rENG}He's making a new coop for my Buff Orpingtons. Heh.
+Dialogue: 0,0:23:58.87,0:24:01.74,CHS,,0,0,0,,没事的，等下把它弄干\N{\rENG}We'll soon have that dry, don't worry. Heh-heh.
+Dialogue: 0,0:24:01.91,0:24:04.34,CHS,,0,0,0,,她让格伦去哪里帮了她一早上\N{\rENG}She's had Glen down there helping her all morning.
+Dialogue: 0,0:24:04.51,0:24:06.34,CHS,,0,0,0,,我真希望她能意识到格伦本应在这工作\N{\rENG}I hope she realizes he's here to work.
+Dialogue: 0,0:24:06.51,0:24:08.78,CHS,,0,0,0,,简直不能相信她的鼻子有这么大的变化\N{\rENG}Can't believe what a difference her nose makes.
+Dialogue: 0,0:24:08.95,0:24:11.54,CHS,,0,0,0,,我觉得这本来就错了，变得一点没特点了\N{\rENG}I think it's a mistake. Taken away all her character.
+Dialogue: 0,0:24:11.72,0:24:13.98,CHS,,0,0,0,,- 不是吧，她比原来看起来漂亮多了  - 嗯\N{\rENG}- Come on, she looks 10 times better.  - Huh.
+Dialogue: 0,0:24:14.16,0:24:16.99,CHS,,0,0,0,,她应该知道，我是看见他的超短裤才生气的\N{\rENG}And she knows it. I found those shorts really irritating.
+Dialogue: 0,0:24:17.16,0:24:19.89,CHS,,0,0,0,,他四处闲逛，还漏半个屁股在外面，我意思就是为什么啊？\N{\rENG}Going around with half her bum hanging out. I mean, why?
+Dialogue: 0,0:24:20.06,0:24:22.72,CHS,,0,0,0,,- 看来别人喜欢你都会给你带来麻烦  - 嗯\N{\rENG}- To annoy people like you.  - Hmm.
+Dialogue: 0,0:24:22.90,0:24:24.26,CHS,,0,0,0,,人有两面性嘛\N{\rENG}I might get a pair myself.
+Dialogue: 0,0:24:24.43,0:24:26.16,CHS,,0,0,0,,- 当然，难道你没有嘛  - 我为什么不能有？\N{\rENG}- Of course you wouldn't.  - Why not?
+Dialogue: 0,0:24:26.33,0:24:28.17,CHS,,0,0,0,,因为你又不是那么绝望，不是吗？\N{\rENG}Because you're not desperate, are you?
+Dialogue: 0,0:24:28.34,0:24:32.07,CHS,,0,0,0,,过去其他人可是对塔玛拉·德鲁绝望透顶\N{\rENG}There was always something desperate about Tamara Drewe.
+Dialogue: 0,0:24:33.34,0:24:35.83,CHS,,0,0,0,,你为什么要去整容？\N{\rENG}Why did you change your face?
+Dialogue: 0,0:24:36.18,0:24:38.67,CHS,,0,0,0,,整容是我人生至此做的最有意义的事情\N{\rENG}Changing my face is the best thing I ever did.
+Dialogue: 0,0:24:38.88,0:24:40.85,CHS,,0,0,0,,我从来就不担心别人怎么想\N{\rENG}I don't care what anybody else thinks.
+Dialogue: 0,0:24:41.02,0:24:44.61,CHS,,0,0,0,,你觉得我也可以做一个吗？可以啊，要是你有皱纹的话\N{\rENG}You think it would work for me? Maybe, if you did the wrinkles too.
+Dialogue: 0,0:24:44.79,0:24:46.55,CHS,,0,0,0,,你可别这么对我\N{\rENG}Oh, you're just coming on to me now.
+Dialogue: 0,0:24:52.76,0:24:55.23,CHS,,0,0,0,,在你的论坛里，你写了你自己，你觉得这一切来之容易吗？\N{\rENG}In your column, you write about yourself. Does that come easily?
+Dialogue: 0,0:24:55.40,0:24:58.73,CHS,,0,0,0,,不容易，仅仅感觉正确\N{\rENG}Not easily. It just feels right.
+Dialogue: 0,0:24:58.90,0:25:01.20,CHS,,0,0,0,,我的第一部小说想写成自传体\N{\rENG}My first novel is definitely going to be autobiographical.
+Dialogue: 0,0:25:01.37,0:25:03.74,CHS,,0,0,0,,你的第一部小说？那你可要把它快点写完，就像说的那样？\N{\rENG}Your first novel? You're gonna dash one off, just like that?
+Dialogue: 0,0:25:03.91,0:25:08.44,CHS,,0,0,0,,有点理想化了，我想三十岁以前写出来\N{\rENG}Heh. Ideally, I'd like to make it into fiction before I'm 30.
+Dialogue: 0,0:25:08.61,0:25:12.45,CHS,,0,0,0,,那你可以收藏泳衣，弄个聊天平台，或者有很多意大利面酱\N{\rENG}Then maybe a swimwear collection, chat show, pasta-sauce range.
+Dialogue: 0,0:25:12.62,0:25:13.64,CHS,,0,0,0,,什么？\N{\rENG}What?
+Dialogue: 0,0:25:13.82,0:25:16.65,CHS,,0,0,0,,生活为了美丽而变得简单\N{\rENG}Life sure comes easy for the beautiful.
+Dialogue: 0,0:25:19.06,0:25:20.96,CHS,,0,0,0,,你知道嘛，在我没整形鼻子以前\N{\rENG}You know, before I had the nose job,
+Dialogue: 0,0:25:21.13,0:25:23.89,CHS,,0,0,0,,我可能很容易就严肃起来\N{\rENG}I had no problem being taken seriously.
+Dialogue: 0,0:25:24.06,0:25:26.39,CHS,,0,0,0,,他们可能因为一点点的事情就离开\N{\rENG}Maybe when they removed that bit of cartilage,
+Dialogue: 0,0:25:26.57,0:25:29.09,CHS,,0,0,0,,他们总是那我的鼻子说事\N{\rENG}they pulled out my brain by mistake.
+Dialogue: 0,0:25:29.27,0:25:31.33,CHS,,0,0,0,,你会想到什么？\N{\rENG}What do you think?
+Dialogue: 0,0:25:32.34,0:25:33.36,CHS,,0,0,0,,谢谢你\N{\rENG}Thank you.
+Dialogue: 0,0:25:36.48,0:25:38.50,CHS,,0,0,0,,她单身，你知道吧\N{\rENG}She's single, you know.
+Dialogue: 0,0:25:38.95,0:25:42.24,CHS,,0,0,0,,嗯，但不是太准确的知道这层关系，我们只是偶尔见过几次\N{\rENG}Well, it's not exactly a relationship. We have an occasional thing.
+Dialogue: 0,0:25:42.42,0:25:45.15,CHS,,0,0,0,,- 佐伊可没这么冷静  - 不是佐伊\N{\rENG}- Zoe doesn't wanna be tied down...  - Not Zoe.
+Dialogue: 0,0:25:46.52,0:25:48.18,CHS,,0,0,0,,是塔玛拉\N{\rENG}Tamara.
+Dialogue: 0,0:25:48.35,0:25:51.45,CHS,,0,0,0,,你应该去哪里娶这个女孩，你们就可以再哪里生活了\N{\rENG}You should get in there. Marry the girl. Then you could live
+Dialogue: 0,0:25:51.62,0:25:54.32,CHS,,0,0,0,,- 这样又可以住在你们祖上的房里了  - 算了，这不是她的风格\N{\rENG}- in your ancestral home again.  - No. Not her type.
+Dialogue: 0,0:25:54.50,0:25:58.33,CHS,,0,0,0,,安迪，你知道嘛，问题就出在你自己，认为你自己是个失败者\N{\rENG}Andy, you know, the trouble with you is that you think like a loser.
+Dialogue: 0,0:25:58.80,0:26:02.53,CHS,,0,0,0,,我知道因为我自己就是个失败者，所以还想提醒一下身边的其他失败者\N{\rENG}I know this because I'm the loser that all other losers come to for tips.
+Dialogue: 0,0:26:02.70,0:26:04.40,CHS,,0,0,0,,我可是失败者中的失败者\N{\rENG}I am a loser's loser.
+Dialogue: 0,0:26:04.57,0:26:06.27,CHS,,0,0,0,,我是个纯种失败者\N{\rENG}I'm a pedigree loser.
+Dialogue: 0,0:26:06.44,0:26:08.77,CHS,,0,0,0,,本来可以去坐坐制图事业，可是破产了\N{\rENG}Had a graphics business, went bust.
+Dialogue: 0,0:26:08.94,0:26:10.47,CHS,,0,0,0,,那是我自认为自己有商业头脑\N{\rENG}Then with my great business acumen,
+Dialogue: 0,0:26:10.65,0:26:13.34,CHS,,0,0,0,,我投资过一家大麻栽培业\N{\rENG}I invested in a poly tunnel full of ganja.
+Dialogue: 0,0:26:13.52,0:26:17.71,CHS,,0,0,0,,可是六年之后，我的存钱罐里一个大子也没有了，我只能和盒子一起回去\N{\rENG}Spent six years stoned out of my box. I'm only just getting it back together.
+Dialogue: 0,0:26:17.89,0:26:19.72,CHS,,0,0,0,,除此之外\N{\rENG}Besides,
+Dialogue: 0,0:26:20.02,0:26:22.99,CHS,,0,0,0,,即便我是世上剩下的最后一个男人\N{\rENG}even if I was the last man in the world,
+Dialogue: 0,0:26:23.29,0:26:24.92,CHS,,0,0,0,,塔玛拉·德鲁也不会得到我\N{\rENG}Tamara Drewe wouldn't have me.
+Dialogue: 0,0:26:25.26,0:26:26.42,CHS,,0,0,0,,为什么这样？\N{\rENG}Why not?
+Dialogue: 0,0:26:27.63,0:26:30.72,CHS,,0,0,0,,- 我抛弃过她  - 哦，真失败\N{\rENG}- I dumped her.  - Oh, you are a loser.
+Dialogue: 0,0:26:30.90,0:26:32.33,CHS,,0,0,0,,我那时才二十岁\N{\rENG}I was 20.
+Dialogue: 0,0:26:32.50,0:26:35.33,CHS,,0,0,0,,同事们说我老牛吃嫩草\N{\rENG}And my mates thought I was cradle-snatching.
+Dialogue: 0,0:26:35.74,0:26:38.64,CHS,,0,0,0,,- 他们都叫她是鹰钩鼻子  - 鹰钩鼻子？\N{\rENG}- And they used to call her Beaky.  - Beaky?
+Dialogue: 0,0:26:39.11,0:26:40.20,CHS,,0,0,0,,鹰钩鼻子？\N{\rENG}Beaky?
+Dialogue: 0,0:27:05.57,0:27:07.23,CHS,,0,0,0,,“男的什么也不知道”\N{\rENG}Boys know nothing.
+Dialogue: 0,0:27:09.04,0:27:12.53,CHS,,0,0,0,,我正在读《英迟康博》这本书，书是英迟康博先生的\N{\rENG}I've been reading Inchcombe's Dose. The bit where Dr. Inchcombe
+Dialogue: 0,0:27:12.71,0:27:16.44,CHS,,0,0,0,,想法是关于这该死家伙的女儿\N{\rENG}finds himself having thoughts about the dead guy's daughter.
+Dialogue: 0,0:27:16.62,0:27:21.64,CHS,,0,0,0,,你把她描述的满脸雀斑，轮廓突出\N{\rENG}You describe her light smattering of freckles and her striking profile.
+Dialogue: 0,0:27:21.82,0:27:26.35,CHS,,0,0,0,,是谁让你这么想的？\N{\rENG}So who did you base her on?
+Dialogue: 0,0:27:26.86,0:27:29.02,CHS,,0,0,0,,你有注意过我么？\N{\rENG}Have you noticed me?
+Dialogue: 0,0:27:29.23,0:27:31.66,CHS,,0,0,0,,我倒还很注意你\N{\rENG}Because I've noticed you.
+Dialogue: 0,0:27:32.40,0:27:34.19,CHS,,0,0,0,,你这样弄得我很尴尬\N{\rENG}You're making yourself ridiculous.
+Dialogue: 0,0:27:37.60,0:27:39.04,CHS,,0,0,0,,尼古拉斯你蠢货！\N{\rENG}Nichol-arse!
+Dialogue: 0,0:27:40.57,0:27:43.20,CHS,,0,0,0,,你做什么美梦呢？\N{\rENG}A man can dream, huh?
+Dialogue: 0,0:27:48.72,0:27:50.24,CHS,,0,0,0,,没有啦\N{\rENG}No.
+Dialogue: 0,0:27:57.29,0:28:00.42,CHS,,0,0,0,,哦，写啊，你个笨蛋\N{\rENG}Oh, write, you numbskull.
+Dialogue: 0,0:28:03.30,0:28:05.77,CHS,,0,0,0,,- “这是那个年代最好电影演员”  - “是的”\N{\rENG}- The best ham I've had in ages.  - Good.
+Dialogue: 0,0:28:06.23,0:28:08.03,CHS,,0,0,0,,怎么了托马斯·哈代？\N{\rENG}How's Thomas Hardy?
+Dialogue: 0,0:28:08.20,0:28:10.93,CHS,,0,0,0,,- 我正在浪费我的节假日  - 哦，我的天啊\N{\rENG}- I'm wasting my sabbatical.  - Oh, dear.
+Dialogue: 0,0:28:11.11,0:28:14.94,CHS,,0,0,0,,我一直在写这本书，可是总是不能截稿\N{\rENG}I've been writing this book forever. Don't know why I can't finish it.
+Dialogue: 0,0:28:15.11,0:28:17.74,CHS,,0,0,0,,交付日期到现在都要两年了\N{\rENG}Two years behind on my delivery date,
+Dialogue: 0,0:28:17.91,0:28:21.28,CHS,,0,0,0,,而这样的结尾，怎么好意思要一点点预付款\N{\rENG}and Fantail could ask for their chickenshit advance back.
+Dialogue: 0,0:28:21.45,0:28:24.18,CHS,,0,0,0,,我写不出来，我都快难产了\N{\rENG}I can't write. I'm fucking constipated.
+Dialogue: 0,0:28:25.96,0:28:27.62,CHS,,0,0,0,,真实糟糕\N{\rENG}It's a disaster.
+Dialogue: 0,0:28:27.79,0:28:29.12,CHS,,0,0,0,,哎呀\N{\rENG}Crikey.
+Dialogue: 0,0:28:31.59,0:28:35.22,CHS,,0,0,0,,额…对不起，格伦，我得赶在安迪离开前把他揪回来\N{\rENG}Oh. Uh, sorry, Glen. Um... I've gotta grab Andy before he rushes off.
+Dialogue: 0,0:28:35.40,0:28:37.30,CHS,,0,0,0,,塔玛拉想让他去帮忙收拾屋子\N{\rENG}Tamara's asked him to do up her house.
+Dialogue: 0,0:28:37.47,0:28:40.63,CHS,,0,0,0,,为什么？她知道他要为我干多累的活嘛\N{\rENG}Why? She knows how hard he works for me.
+Dialogue: 0,0:28:44.14,0:28:45.80,CHS,,0,0,0,,这些都是他粉丝的信吗？\N{\rENG}Is this all his fan mail?
+Dialogue: 0,0:28:47.31,0:28:50.44,CHS,,0,0,0,,是啊，我每周都会有两到三个讲习会，来让这个数量保持高度\N{\rENG}Yeah. I do a couple of sessions a week to keep on top of it.
+Dialogue: 0,0:28:50.61,0:28:53.14,CHS,,0,0,0,,这对打造尼古拉斯的名气有帮助\N{\rENG}Pretty good at forging Nick's signature.
+Dialogue: 0,0:28:57.06,0:28:59.05,CHS,,0,0,0,,我们为社么不找个合适的时间谈谈呢？\N{\rENG}Why don't we have a proper chat about it?
+Dialogue: 0,0:28:59.22,0:29:02.25,CHS,,0,0,0,,- 过去总是帮助尼古拉斯  - 你就这么帮他？那你有时间吗？\N{\rENG}- Always used to help Nicholas...  - You'd do that? You have time?
+Dialogue: 0,0:29:04.36,0:29:05.73,CHS,,0,0,0,,以后会有的\N{\rENG}I'll just, uh...
+Dialogue: 0,0:29:09.57,0:29:11.23,CHS,,0,0,0,,泰姆？\N{\rENG}Tam?
+Dialogue: 0,0:29:11.87,0:29:13.60,CHS,,0,0,0,,泰姆？\N{\rENG}Tam?
+Dialogue: 0,0:29:14.54,0:29:16.30,CHS,,0,0,0,,泰姆？\N{\rENG}Tam?
+Dialogue: 0,0:29:21.88,0:29:24.64,CHS,,0,0,0,,我弄了一些有色图表，你来看看\N{\rENG}Got some col or charts for you to see.
+Dialogue: 0,0:29:28.85,0:29:31.82,CHS,,0,0,0,,你觉得在这房里应该添加什么颜色？\N{\rENG}What col or do you think it should be in here?
+Dialogue: 0,0:29:33.93,0:29:36.26,CHS,,0,0,0,,噢，我过去认为\N{\rENG}Well, I was thinking, um,
+Dialogue: 0,0:29:38.40,0:29:40.83,CHS,,0,0,0,,这种颜色比较好吧\N{\rENG}this one for down here.
+Dialogue: 0,0:29:43.34,0:29:45.03,CHS,,0,0,0,,其他的，嗯\N{\rENG}And, um...
+Dialogue: 0,0:29:47.14,0:29:49.97,CHS,,0,0,0,,- 这种颜色放在卧室吧  - 好啊\N{\rENG}- This one for the bedroom.  - Okay.
+Dialogue: 0,0:29:54.85,0:29:58.22,CHS,,0,0,0,,你就不觉得应该倒杯茶啊，或比的什么的吗？\N{\rENG}So, uh, what do you have to do to get a cup of tea around here?
+Dialogue: 0,0:29:58.39,0:30:02.25,CHS,,0,0,0,,那你自己弄，茶，糖，冰箱\N{\rENG}Make it. Tea, sugar, fridge.
+Dialogue: 0,0:30:03.82,0:30:05.29,CHS,,0,0,0,,我的去上班了\N{\rENG}I'm off to work.
+Dialogue: 0,0:30:15.60,0:30:16.80,CHS,,0,0,0,,嘿\N{\rENG}Hey!
+Dialogue: 0,0:30:16.97,0:30:20.46,CHS,,0,0,0,,- 这是我们自己的村子！真他妈见鬼的地方！ - 下来\N{\rENG}- This is our village! Our fucking field!  - Go on.
+Dialogue: 0,0:30:20.64,0:30:22.61,CHS,,0,0,0,,- 放开我！ - 走开，你这个蠢货，让我们进去！\N{\rENG}- Get off!  - Come on, bastard. Let us in!
+Dialogue: 0,0:30:22.78,0:30:24.84,CHS,,0,0,0,,你和你妈也这么说话吗？滚开\N{\rENG}Kiss your mother with that mouth? Fuck off.
+Dialogue: 0,0:30:25.31,0:30:27.31,CHS,,0,0,0,,马上走开\N{\rENG}Get on, shove it.
+Dialogue: 0,0:31:23.41,0:31:24.67,CHS,,0,0,0,,少胡扯，滚开！\N{\rENG}Bullshit! Fuck off!
+Dialogue: 0,0:31:25.48,0:31:29.14,CHS,,0,0,0,,斯维普他妈的结束了！斯蒂夫·易凯其实是个…\N{\rENG}Swipe is fucking finished! Steve Culley is a...
+Dialogue: 0,0:31:30.52,0:31:33.51,CHS,,0,0,0,,滚开，佛兰现在就是个废物\N{\rENG}Fuck off. Fran has been shagging that tosser.
+Dialogue: 0,0:31:33.69,0:31:35.35,CHS,,0,0,0,,- 斯蒂夫，别动手！ - 来啊\N{\rENG}- Steve, stop it!  - Come on then.
+Dialogue: 0,0:31:35.76,0:31:37.55,CHS,,0,0,0,,- 别打了！ - 噢\N{\rENG}- Stop it!  - Uhn!
+Dialogue: 0,0:31:38.02,0:31:39.46,CHS,,0,0,0,,- 我叫塔玛拉·德鲁  - 什么？\N{\rENG}- I'm Tamara Drewe.  - What?
+Dialogue: 0,0:31:39.63,0:31:43.15,CHS,,0,0,0,,我想我应该认识你了，为了你的不受约束\N{\rENG}I'm supposed to be interviewing you, for The Independent.
+Dialogue: 0,0:31:43.33,0:31:45.32,CHS,,0,0,0,,原来的日程安排总是推迟\N{\rENG}It was scheduled for later,
+Dialogue: 0,0:31:46.13,0:31:48.36,CHS,,0,0,0,,现在却是一个好时机？\N{\rENG}but is now a good time?
+Dialogue: 0,0:31:48.54,0:31:51.87,CHS,,0,0,0,,“斯维普！斯维普！斯维普！”\N{\rENG}Swipel Swipel Swipel
+Dialogue: 0,0:31:52.04,0:31:54.67,CHS,,0,0,0,,“斯维普！斯维普！斯维普！”\N{\rENG}Swipel Swipel Swipel
+Dialogue: 0,0:31:57.04,0:31:59.34,CHS,,0,0,0,,- 他们应该让我们自由进出的  - 就是\N{\rENG}- They should let us in for free.  - Too right.
+Dialogue: 0,0:31:59.51,0:32:02.75,CHS,,0,0,0,,他们来这里，吃我们的，用我们的\N{\rENG}They come here, drink our water, use our fields.
+Dialogue: 0,0:32:02.92,0:32:05.05,CHS,,0,0,0,,只能在我们的地下水里留下大粪\N{\rENG}And they leave all their crap in our drains.
+Dialogue: 0,0:32:05.59,0:32:06.68,CHS,,0,0,0,,好漂亮的女朋友啊\N{\rENG}Nice girlfriend, mate.
+Dialogue: 0,0:32:08.06,0:32:09.55,CHS,,0,0,0,,本，本，本！\N{\rENG}Ben. Ben!
+Dialogue: 0,0:32:09.73,0:32:12.22,CHS,,0,0,0,,- 你在干什么？ - 那是斯维普乐队的本啊\N{\rENG}- What are you doing?  - That's Ben from Swipe.
+Dialogue: 0,0:32:12.39,0:32:15.52,CHS,,0,0,0,,他和他的狗啊，本！\N{\rENG}And he's got his dog. Ben!
+Dialogue: 0,0:32:15.90,0:32:19.43,CHS,,0,0,0,,本，本！\N{\rENG}Ben! Ben!
+Dialogue: 0,0:32:39.39,0:32:40.79,CHS,,0,0,0,,他是老板\N{\rENG}That's Boss.
+Dialogue: 0,0:32:42.26,0:32:43.42,CHS,,0,0,0,,上来\N{\rENG}Up.
+Dialogue: 0,0:32:43.59,0:32:45.72,CHS,,0,0,0,,小伙子，过来\N{\rENG}Boy. Come on.
+Dialogue: 0,0:32:45.90,0:32:47.56,CHS,,0,0,0,,- 嗨，老板  - 对\N{\rENG}- Hi, Boss.  - There.
+Dialogue: 0,0:32:47.73,0:32:50.63,CHS,,0,0,0,,- 你不反感这么叫吧？ - 为独立的鼓手？\N{\rENG}- Not allergic, are you?  - To in die drummers?
+Dialogue: 0,0:32:50.80,0:32:52.29,CHS,,0,0,0,,或许会吧\N{\rENG}Maybe.
+Dialogue: 0,0:32:52.74,0:32:54.26,CHS,,0,0,0,,那是他妈的谁啊？\N{\rENG}Who the fuck's she?
+Dialogue: 0,0:32:54.44,0:32:57.90,CHS,,0,0,0,,我在斯通菲尔德农场，他还做过鼻子的矫形\N{\rENG}I've seen her up at Stonefield. She's got a nose made of plastic.
+Dialogue: 0,0:33:02.38,0:33:05.32,CHS,,0,0,0,,谁影响到你了？\N{\rENG}So who are your influences?
+Dialogue: 0,0:33:05.48,0:33:07.47,CHS,,0,0,0,,人人总这么问\N{\rENG}Everyone asks that.
+Dialogue: 0,0:33:07.65,0:33:09.64,CHS,,0,0,0,,我的意思是你想要我怎么说？菲尔·柯林斯？\N{\rENG}I mean, what do you want me to say? Phil Collins?
+Dialogue: 0,0:33:09.82,0:33:11.85,CHS,,0,0,0,,还是《提线木偶》里面的动物？\N{\rENG}Animal from The Muppets?
+Dialogue: 0,0:33:13.83,0:33:15.49,CHS,,0,0,0,,- 这是你的房子？ - 是啊\N{\rENG}- This your house?  - Yeah.
+Dialogue: 0,0:33:15.66,0:33:18.19,CHS,,0,0,0,,- 你想买它吗？ - 不想\N{\rENG}- Do you want to buy it?  - No.
+Dialogue: 0,0:33:19.90,0:33:21.99,CHS,,0,0,0,,我也想要些东西\N{\rENG}I want something else.
+Dialogue: 0,0:33:23.60,0:33:27.60,CHS,,0,0,0,,她是怎么接近本的？三月份开始我就爱上他了\N{\rENG}How come she gets Ben? I've loved him since March.
+Dialogue: 0,0:33:29.14,0:33:32.11,CHS,,0,0,0,,- 想来点啤酒吗？ - 好啊\N{\rENG}- Would you like a beer?  - Yeah.
+Dialogue: 0,0:33:34.55,0:33:36.14,CHS,,0,0,0,,- 莫林·塔克  - 谁啊？\N{\rENG}- Maureen Tucker.  - Who?
+Dialogue: 0,0:33:36.32,0:33:39.08,CHS,,0,0,0,,莫林·塔克，天鹅乐队的，用脚趾都可以弹奏\N{\rENG}Moe Tucker. The Velvets. Five-foot-nothing.
+Dialogue: 0,0:33:39.25,0:33:40.48,CHS,,0,0,0,,以前经常站着敲\N{\rENG}Used to stand up to play.
+Dialogue: 0,0:33:40.65,0:33:44.25,CHS,,0,0,0,,用木棒使劲敲那旋鼓，真是精神的享受啊\N{\rENG}Put the snare drum on its side and whacked it with mallets. Mentalist.
+Dialogue: 0,0:33:44.43,0:33:46.72,CHS,,0,0,0,,你写了那么多歌\N{\rENG}You write a lot of songs. That's pretty rare for a drummer.
+Dialogue: 0,0:33:46.89,0:33:49.59,CHS,,0,0,0,,是啊，你听到的一切关于鼓手的消息都是放屁\N{\rENG}Yeah, well, everything you've heard about drummers is complete shit.
+Dialogue: 0,0:33:49.76,0:33:52.36,CHS,,0,0,0,,你的意思他们不自相残杀？\N{\rENG}You mean they don't spontaneously combust?
+Dialogue: 0,0:33:52.53,0:33:53.63,CHS,,0,0,0,,没这意思\N{\rENG}No.
+Dialogue: 0,0:33:53.80,0:33:56.00,CHS,,0,0,0,,仅仅有时候会\N{\rENG}Only sometimes.
+Dialogue: 0,0:34:27.90,0:34:29.13,CHS,,0,0,0,,有问题吗？\N{\rENG}Any more questions?
+Dialogue: 0,0:35:14.89,0:35:16.91,CHS,,0,0,0,,天啊，我的老天爷\N{\rENG}Jesus. Oh, my God.
+Dialogue: 0,0:35:27.07,0:35:28.56,CHS,,0,0,0,,你好啊\N{\rENG}Hello.
+Dialogue: 0,0:35:28.84,0:35:30.63,CHS,,0,0,0,,谁家的狗？\N{\rENG}Who are you?
+Dialogue: 0,0:35:43.12,0:35:44.98,CHS,,0,0,0,,泰姆，这是谁家的狗？\N{\rENG}You know anything about this dog, Tam?
+Dialogue: 0,0:35:53.96,0:35:56.33,CHS,,0,0,0,,泰姆，来点早餐吧？\N{\rENG}You want some breakfast, Tam?
+Dialogue: 0,0:35:58.33,0:35:59.93,CHS,,0,0,0,,泰姆？\N{\rENG}Tam?
+Dialogue: 0,0:36:26.33,0:36:30.63,CHS,,0,0,0,,- 你的作品怎么样了？ - 蛮好的，尼古拉斯，刚完成\N{\rENG}- How goes the opus?  - Fine, Nicholas, just fine.
+Dialogue: 0,0:36:32.47,0:36:36.24,CHS,,0,0,0,,这可是最晦涩的小说了《受人爱戴的人》\N{\rENG}It's his most obscure novel, The Well-Beloved.
+Dialogue: 0,0:36:36.41,0:36:38.34,CHS,,0,0,0,,大多数人从来没有听过他\N{\rENG}Most people have never even heard of it.
+Dialogue: 0,0:36:38.51,0:36:42.57,CHS,,0,0,0,,说的是一个二十岁的小伙子，爱上了一个年轻貌美的女人\N{\rENG}It's about a young guy of 20 who falls in love with a beautiful young woman.
+Dialogue: 0,0:36:42.95,0:36:46.41,CHS,,0,0,0,,等到他四十岁的时候却爱上了这女人的女儿\N{\rENG}Then when he's 40, he meets the woman's daughter and he falls in love with her.
+Dialogue: 0,0:36:46.58,0:36:49.64,CHS,,0,0,0,,最后，到他六十岁的时候爱上了他的孙女\N{\rENG}And finally, when he's 60, he meets her granddaughter.
+Dialogue: 0,0:36:49.82,0:36:51.26,CHS,,0,0,0,,噢，真是太不应该了\N{\rENG}Oh, he doesn't.
+Dialogue: 0,0:36:51.42,0:36:54.82,CHS,,0,0,0,,坠入神奇的爱情\N{\rENG}Yeah. Falls in mystical love.
+Dialogue: 0,0:36:54.99,0:36:57.29,CHS,,0,0,0,,哈代在他生活里也这样吧\N{\rENG}Hardy was the same in his life too.
+Dialogue: 0,0:36:57.46,0:37:00.80,CHS,,0,0,0,,他都一把年纪了，眼睛还是离不开年轻女性\N{\rENG}Even as he aged, he only had eyes for young women.
+Dialogue: 0,0:37:00.97,0:37:03.96,CHS,,0,0,0,,对他来说永远长不大好像是必须的\N{\rENG}It's like, in one essential way, he never grew up.
+Dialogue: 0,0:37:04.14,0:37:05.54,CHS,,0,0,0,,- 他总穿那裤子啊  - 是啊\N{\rENG}- In his trousers.  - Ha. Yeah.
+Dialogue: 0,0:37:05.71,0:37:08.44,CHS,,0,0,0,,要知道，他八十多岁时应该还那样\N{\rENG}He was still at it in his 80s, you know.
+Dialogue: 0,0:37:08.61,0:37:10.80,CHS,,0,0,0,,大雪满屋顶时，依然可以在炉壁旁烤火\N{\rENG}Snow on the rooftop, fire in the cellar.
+Dialogue: 0,0:37:10.98,0:37:13.64,CHS,,0,0,0,,哈哈，格伦，你怎么也不过一下这样的生活？\N{\rENG}Ha-ha. Why won't it come for you, Glen?
+Dialogue: 0,0:37:13.81,0:37:16.11,CHS,,0,0,0,,你说的好像专门为你定做的一样\N{\rENG}The way you talk about it is so engaging.
+Dialogue: 0,0:37:16.28,0:37:18.01,CHS,,0,0,0,,你怎么能不试试哪？\N{\rENG}Do you wanna try?
+Dialogue: 0,0:37:18.42,0:37:21.29,CHS,,0,0,0,,你要知道，那只是一本小说而已？\N{\rENG}Well, there's an academic style, you know?
+Dialogue: 0,0:37:21.45,0:37:25.02,CHS,,0,0,0,,那你写了给谁看？谁会是你理想的读者？\N{\rENG}Who are you writing for? Who's your ideal reader?
+Dialogue: 0,0:37:25.19,0:37:28.29,CHS,,0,0,0,,你要是写成你说的这样，你会使我更愿意读哈代的书\N{\rENG}If wrote the way you spoke, you'd make me want to read Hardy.
+Dialogue: 0,0:37:28.46,0:37:30.02,CHS,,0,0,0,,- 是吗？ - 是的\N{\rENG}- Really?  - Yeah.
+Dialogue: 0,0:37:30.20,0:37:33.02,CHS,,0,0,0,,要是你写成和你朋友讨论的那样，就再试试\N{\rENG}If you wrote like you were talking to a friend. Try it again.
+Dialogue: 0,0:37:39.04,0:37:40.37,CHS,,0,0,0,,哦\N{\rENG}Oh.
+Dialogue: 0,0:37:42.64,0:37:44.27,CHS,,0,0,0,,喔，喔，喔\N{\rENG}Oh! Ha-ha-ha.
+Dialogue: 0,0:37:52.95,0:37:55.15,CHS,,0,0,0,,不，不，不，即便我是先锋也不应该吧\N{\rENG}No, no, no. It's not as if I'm avant-garde.
+Dialogue: 0,0:37:55.32,0:37:59.09,CHS,,0,0,0,,- 我只是稍微迎合了一下流行口味  - 你的作品离要求差的太远\N{\rENG}- I simply pander to popular taste.  - Your books are far more than that.
+Dialogue: 0,0:37:59.26,0:38:02.39,CHS,,0,0,0,,可能有一小点问题吧，或许是我写作的时候打了一小点盹\N{\rENG}Just airport fodder. I think I write them in my sleep sometimes.
+Dialogue: 0,0:38:02.57,0:38:04.29,CHS,,0,0,0,,我还希望我写作的时候是清醒的\N{\rENG}I wish I wrote so well awake.
+Dialogue: 0,0:38:04.47,0:38:07.90,CHS,,0,0,0,,你的散文能赚钱又生动，简直好伟大\N{\rENG}Your prose are so economical, so vivid, like the greats.
+Dialogue: 0,0:38:08.07,0:38:09.70,CHS,,0,0,0,,- 就像雷蒙德·钱德勒  - 哦，不是吧\N{\rENG}- Like Raymond Chandler.  - Oh, come on.
+Dialogue: 0,0:38:09.87,0:38:11.90,CHS,,0,0,0,,- 格雷罕姆·格林  - 我仅仅赚回我包装费\N{\rENG}- Graham Greene.  - I'm just earning a crust.
+Dialogue: 0,0:38:12.08,0:38:14.17,CHS,,0,0,0,,你成功创造了英迟康博\N{\rENG}You created Inchcombe.
+Dialogue: 0,0:38:14.34,0:38:16.74,CHS,,0,0,0,,要是他生活在现实中，他一定是个十全男人\N{\rENG}If only he were real. He's my kind of man.
+Dialogue: 0,0:38:16.91,0:38:21.18,CHS,,0,0,0,,是啊，他经验丰富，整天忙碌，但又很感性\N{\rENG}Yes. Sophisticated, jaded, but so vulnerable.
+Dialogue: 0,0:38:21.35,0:38:24.34,CHS,,0,0,0,,有点讽刺，但他绝对是个完好男人了\N{\rENG}Cynical, but a man of total integrity.
+Dialogue: 0,0:38:24.52,0:38:26.75,CHS,,0,0,0,,我的书写的远远没有那么好\N{\rENG}My books don't say anything remotely profound.
+Dialogue: 0,0:38:26.92,0:38:32.99,CHS,,0,0,0,,我又不能向我们这里的一些作家假装智者\N{\rENG}I can't pretend to be an intellectual, not like the professor here,
+Dialogue: 0,0:38:33.16,0:38:37.26,CHS,,0,0,0,,用自己批判的光辉照亮别人的无知\N{\rENG}illuminating our ignorance with his critical glow.
+Dialogue: 0,0:38:37.44,0:38:40.56,CHS,,0,0,0,,我喜欢散文，我写了很多正派的东西，我很喜欢他们\N{\rENG}I love prose. I turn a decent plot. That's pretty much it.
+Dialogue: 0,0:38:40.74,0:38:42.80,CHS,,0,0,0,,- 离开一下  - 人们现在要想越来越喜欢犯罪小说了\N{\rENG}- Excuse me.  - People like crime fiction,
+Dialogue: 0,0:38:42.97,0:38:45.94,CHS,,0,0,0,,无论多么暴力，多么震惊似乎都能取悦他们\N{\rENG}because no matter how violent or shocking, it comforts them.
+Dialogue: 0,0:38:46.11,0:38:48.67,CHS,,0,0,0,,告诉你个秘密，尼古拉斯很讨厌这样的情形\N{\rENG}Secretly, Nicholas hates all this.
+Dialogue: 0,0:38:48.85,0:38:51.11,CHS,,0,0,0,,这种可怕的周末肯定让他精疲力尽\N{\rENG}These crime weekends really take it out of him.
+Dialogue: 0,0:38:51.28,0:38:52.91,CHS,,0,0,0,,在我的书里，一个疲惫的先生\N{\rENG}...in my case, a jaded doctor.
+Dialogue: 0,0:38:53.09,0:38:54.18,CHS,,0,0,0,,我能帮你什么\N{\rENG}Let me help.
+Dialogue: 0,0:38:54.35,0:38:56.22,CHS,,0,0,0,,嗯，他们需要用这个打扫\N{\rENG}Oh, well, they need dusting with this.
+Dialogue: 0,0:38:56.39,0:38:57.79,CHS,,0,0,0,,恢复体力是为了…\N{\rENG}Restoring order to...
+Dialogue: 0,0:38:57.96,0:38:59.82,CHS,,0,0,0,,今天我在我的屋子里\N{\rENG}I went to my room today,
+Dialogue: 0,0:39:00.26,0:39:03.35,CHS,,0,0,0,,写了三个小时，时间一下就没了\N{\rENG}and I wrote for three hours. The time, it just vanished.
+Dialogue: 0,0:39:03.83,0:39:05.63,CHS,,0,0,0,,真不错，你真是有才华啊\N{\rENG}That's great. That's brilliant.
+Dialogue: 0,0:39:05.80,0:39:09.50,CHS,,0,0,0,,我自己觉得像一个刚刚走出阴影的男人\N{\rENG}I feel like a man who's just passed a gargantuan stool.
+Dialogue: 0,0:39:09.67,0:39:12.30,CHS,,0,0,0,,哦，超级的\N{\rENG}Oh, super.
+Dialogue: 0,0:39:12.57,0:39:14.10,CHS,,0,0,0,,哦\N{\rENG}Oh! Uh...
+Dialogue: 0,0:39:14.27,0:39:15.40,CHS,,0,0,0,,里面放点薄荷\N{\rENG}Sprig of mint on top.
+Dialogue: 0,0:39:15.58,0:39:19.27,CHS,,0,0,0,,我的生活根本就不像那样，我写前会准备很多素材，哈哈\N{\rENG}Of course, my life isn't like that, so I just make stuff up. Ha-ha.
+Dialogue: 0,0:39:21.35,0:39:24.25,CHS,,0,0,0,,其实作为作家真实的秘密就是学会怎么撒谎\N{\rENG}The real secret of being a writer is learning how to lie,
+Dialogue: 0,0:39:24.42,0:39:27.32,CHS,,0,0,0,,因为不管讲故事的人怎么样，小偷或者骗子\N{\rENG}because that's what storytellers are, thieves and liars.
+Dialogue: 0,0:39:27.49,0:39:32.15,CHS,,0,0,0,,{\fs45\c&H9AD1DD&}塞缪尔·约翰逊：十八世纪英国作家，批评家\N{\rCHS}“所有美德的基础是真实”塞缪尔·约翰逊\N{\rENG}"The basis of all excellence is truth." Samuel Johnson.
+Dialogue: 0,0:39:40.40,0:39:44.17,CHS,,0,0,0,,“我在农场遇见一位女孩，她的名字叫塔玛拉”\N{\rENG}! I met a girl on a farm Her name was Tamara!
+Dialogue: 0,0:39:44.34,0:39:45.57,CHS,,0,0,0,,本，我正在写作\N{\rENG}Ben, I'm trying to write.
+Dialogue: 0,0:39:45.74,0:39:48.97,CHS,,0,0,0,,“我想为她写一首歌，但是一件事情又提醒了我”\N{\rENG}! I wanted to write her a song But one thing caused me alarm!
+Dialogue: 0,0:39:49.14,0:39:50.61,CHS,,0,0,0,,好了，本，这是一个新故事\N{\rENG}Please, Ben, it's a new story.
+Dialogue: 0,0:39:50.78,0:39:53.04,CHS,,0,0,0,,“他的名字和任何东西不押韵”\N{\rENG}! Her name didn't rhyme With anything!
+Dialogue: 0,0:39:53.22,0:39:55.28,CHS,,0,0,0,,“我单独是这个问题，我还得歌唱出来”\N{\rENG}! Not a single thing I wanted to sing!
+Dialogue: 0,0:39:55.45,0:39:57.42,CHS,,0,0,0,,故事来自我的内心，关于我父母的\N{\rENG}It comes from my heart, it's about my mom and dad.
+Dialogue: 0,0:39:57.59,0:40:00.99,CHS,,0,0,0,,“所有东西她都弄得井井有条，是我很舒适”\N{\rENG}! All she wants to do is type It's making me want a little bite!
+Dialogue: 0,0:40:01.16,0:40:06.39,CHS,,0,0,0,,“因为我太贪吃了，塔玛拉亲自为我做意大利面”\N{\rENG}! So cook me pasta carbonara Because I'm ravenous, Tamara!
+Dialogue: 0,0:40:06.56,0:40:09.73,CHS,,0,0,0,,“把我的发型弄得和王冠一样”\N{\rENG}! Then shag me Wearing your tiara!
+Dialogue: 0,0:40:31.29,0:40:32.72,CHS,,0,0,0,,安迪\N{\rENG}Andy.
+Dialogue: 0,0:40:33.12,0:40:35.18,CHS,,0,0,0,,你能别打扰我的狗吗？\N{\rENG}Let me dog in, will you?
+Dialogue: 0,0:40:35.66,0:40:37.32,CHS,,0,0,0,,上来喝一杯吧，帅哥\N{\rENG}Cheers, mate.
+Dialogue: 0,0:40:48.74,0:40:51.94,CHS,,0,0,0,,- 他肯定很喜欢亲人造美女  - 他根本就不是真的爱她\N{\rENG}- He must like kissing plastic.  - He doesn't really love her.
+Dialogue: 0,0:40:52.11,0:40:54.14,CHS,,0,0,0,,他仅仅是因为失去佛兰的一种报复\N{\rENG}He's just on the rebound from losing Fran.
+Dialogue: 0,0:40:54.31,0:40:57.68,CHS,,0,0,0,,用这种滥交来麻痹他的伤口\N{\rENG}Numbing his pain with loads of empty rampant sex.
+Dialogue: 0,0:40:57.85,0:40:58.98,CHS,,0,0,0,,他真的想要什么\N{\rENG}What he really needs...
+Dialogue: 0,0:40:59.15,0:41:02.31,CHS,,0,0,0,,- 一个十五岁就来自尤都村？ - 所以？奇怪的东西发生了\N{\rENG}- Is a 15 year old from Ewedown?  - So? Stranger things happen.
+Dialogue: 0,0:41:02.49,0:41:05.69,CHS,,0,0,0,,他仅仅大十岁，也没什么别的，要是他遇到我\N{\rENG}He's only 10 years older, and that's nothing. If he met me...
+Dialogue: 0,0:41:05.86,0:41:08.23,CHS,,0,0,0,,- 假设他遇到我  - 一定会有爱的，对吗？\N{\rENG}- If he just met me...  - It'd be love, right?
+Dialogue: 0,0:41:08.40,0:41:11.19,CHS,,0,0,0,,是的，兴许我会勉强同意和他做爱\N{\rENG}Yeah. But I'd settle for sex.
+Dialogue: 0,0:41:11.57,0:41:16.16,CHS,,0,0,0,,你父母的卧室还养鸽子吗？我还以为他是一个爱出风头\N{\rENG}Cooer, in your parents' bedroom? Still, I suppose being an exhibitionist
+Dialogue: 0,0:41:16.34,0:41:18.67,CHS,,0,0,0,,并且是在舞台上的顶梁柱\N{\rENG}is part of his job, strutting about on stage.
+Dialogue: 0,0:41:18.84,0:41:21.04,CHS,,0,0,0,,他才不是顶梁柱，他只是个鼓手\N{\rENG}He doesn't strut. He's a drummer.
+Dialogue: 0,0:41:21.21,0:41:23.14,CHS,,0,0,0,,他简直就是头蠢驴\N{\rENG}He sits on his ass.
+Dialogue: 0,0:41:23.31,0:41:26.30,CHS,,0,0,0,,他长得倒蛮英俊的？深红色的夹克\N{\rENG}He's very good-looking, isn't he? Poppy You Tubed him.
+Dialogue: 0,0:41:26.48,0:41:28.28,CHS,,0,0,0,,总让我们对他没什么好感\N{\rENG}We both got quite hot and bothered.
+Dialogue: 0,0:41:28.45,0:41:31.18,CHS,,0,0,0,,- 他不是有车吗？一辆黄色的保时捷  - 是啊\N{\rENG}- Is that his car? The yellow Porsche.  - Yep.
+Dialogue: 0,0:41:31.35,0:41:34.05,CHS,,0,0,0,,总是在村里发动机呜呜地开得那么快\N{\rENG}Yeah, a bit brash, vrooming through the village.
+Dialogue: 0,0:41:34.22,0:41:38.13,CHS,,0,0,0,,想想我们的塔玛拉把一个摇滚明星打包了\N{\rENG}Fancy our Tamara bagging a bona fide rock star.
+Dialogue: 0,0:41:38.29,0:41:43.46,CHS,,0,0,0,,她原来是只丑小鸭，现在一定兴奋极了\N{\rENG}She was such an ugly duckling. She must be thrilled to bits.
+Dialogue: 0,0:42:04.65,0:42:07.45,CHS,,0,0,0,,我们一个小时以后才开门\N{\rENG}We're not open for another hour.
+Dialogue: 0,0:42:07.63,0:42:09.25,CHS,,0,0,0,,好的\N{\rENG}Good.
+Dialogue: 0,0:42:19.00,0:42:22.50,CHS,,0,0,0,,我意思是，她过去是个蛮有意思的人\N{\rENG}I mean, she used to be so funny. So human.
+Dialogue: 0,0:42:22.67,0:42:25.34,CHS,,0,0,0,,他到底在伦敦遇到什么了？\N{\rENG}What does she see in that London knob?
+Dialogue: 0,0:42:25.51,0:42:29.71,CHS,,0,0,0,,他甚至还化妆，她原来怎么这么肤浅？\N{\rENG}He even wears fucking make up. How did she get so shallow?
+Dialogue: 0,0:42:29.88,0:42:35.22,CHS,,0,0,0,,安迪，你真的现在想和她做爱吗？\N{\rENG}Andy, are you really going on about her now?
+Dialogue: 0,0:42:35.45,0:42:37.94,CHS,,0,0,0,,- 哦  - 还是你刚才那样？\N{\rENG}- Oh.  - Where are your manners?
+Dialogue: 0,0:42:38.12,0:42:39.39,CHS,,0,0,0,,不好意思\N{\rENG}I'm sorry.
+Dialogue: 0,0:42:39.56,0:42:43.76,CHS,,0,0,0,,你的下面很大，再多一点时间\N{\rENG}Bide your time, you big prick.
+Dialogue: 0,0:42:50.24,0:42:51.26,CHS,,0,0,0,,哦，本\N{\rENG}Oh, Ben.
+Dialogue: 0,0:43:00.85,0:43:04.31,CHS,,0,0,0,,停下，可耻的宠物！\N{\rENG}Come here, you wretched beast!
+Dialogue: 0,0:43:05.35,0:43:07.95,CHS,,0,0,0,,臭狗一条！\N{\rENG}Stinking animal!
+Dialogue: 0,0:43:08.12,0:43:10.95,CHS,,0,0,0,,肮脏的破狗！\N{\rENG}Filthy hound!
+Dialogue: 0,0:43:16.46,0:43:19.09,CHS,,0,0,0,,他妈的在跑\N{\rENG}Fuck soup.
+Dialogue: 0,0:43:19.27,0:43:20.53,CHS,,0,0,0,,停下\N{\rENG}Here.
+Dialogue: 0,0:43:20.70,0:43:23.67,CHS,,0,0,0,,- 这是什么？ - 他看起来像什么？\N{\rENG}- What's this?  - What does it look like?
+Dialogue: 0,0:43:25.77,0:43:27.47,CHS,,0,0,0,,本\N{\rENG}Ben.
+Dialogue: 0,0:43:27.98,0:43:29.97,CHS,,0,0,0,,戴哪个手指？\N{\rENG}Which finger?
+Dialogue: 0,0:43:30.81,0:43:32.87,CHS,,0,0,0,,随便你\N{\rENG}Wherever you want.
+Dialogue: 0,0:43:36.75,0:43:38.65,CHS,,0,0,0,,这个应该最好了\N{\rENG}That one's nice.
+Dialogue: 0,0:43:39.12,0:43:40.75,CHS,,0,0,0,,就把戒指戴在这个上面吧\N{\rENG}Stick it on that one.
+Dialogue: 0,0:43:42.49,0:43:46.76,CHS,,0,0,0,,- 我的母牛可能要流产了  - 潘妮平静点，我来收拾这狗\N{\rENG}- Those girls could have aborted.  - Calm down, Penny. I'll sort him out.
+Dialogue: 0,0:43:46.93,0:43:49.26,CHS,,0,0,0,,它还咬我，你们一家为什么还要生活在这镇子上呢\N{\rENG}It beats me why you people want to live in the country.
+Dialogue: 0,0:43:49.43,0:43:53.33,CHS,,0,0,0,,- 一点责任感都没有  - 这有不是我们的狗\N{\rENG}- You have no sense of responsibility.  - It's not our dog.
+Dialogue: 0,0:43:53.50,0:43:56.17,CHS,,0,0,0,,你好，潘妮，怎么了？\N{\rENG}Hello, Penny. How's tricks?
+Dialogue: 0,0:43:56.34,0:43:59.21,CHS,,0,0,0,,- 哦，尼古拉斯  - 你看起来精神蛮好的，外套很精致\N{\rENG}- Oh, Nicholas.  - You're looking good. Terrific coat.
+Dialogue: 0,0:43:59.38,0:44:02.28,CHS,,0,0,0,,- 哦，不会吧，这个看起来不是旧衣服？ - 你看起来像个王室贵族\N{\rENG}- Oh, what, this old thing?  - You look like royalty.
+Dialogue: 0,0:44:02.45,0:44:06.14,CHS,,0,0,0,,- 好的，我努力试试  - 不能等你下一部书了\N{\rENG}- Well, I try.  - Can't wait for your next book.
+Dialogue: 0,0:44:06.32,0:44:08.15,CHS,,0,0,0,,英迟康博现在简直是个热点\N{\rENG}Inchcombe's such a sauce pot.
+Dialogue: 0,0:44:08.32,0:44:10.25,CHS,,0,0,0,,贾尔斯还总说，“你正在读什么？\N{\rENG}Giles always says, "What are you reading, Penny?
+Dialogue: 0,0:44:10.42,0:44:12.15,CHS,,0,0,0,,你自己听见的就足以让你精力充沛了”\N{\rENG}You've got steam coming out of your ears."
+Dialogue: 0,0:44:19.63,0:44:22.29,CHS,,0,0,0,,这戒指在说什么？\N{\rENG}What's the ring saying, Ben?
+Dialogue: 0,0:44:23.87,0:44:28.90,CHS,,0,0,0,,“你好，我是戒指，你能嫁给我吗”？\N{\rENG}"Hello, I'm a ring. Will you marry me?"
+Dialogue: 0,0:44:32.24,0:44:33.71,CHS,,0,0,0,,什么？\N{\rENG}What?
+Dialogue: 0,0:44:34.05,0:44:35.91,CHS,,0,0,0,,我不知道\N{\rENG}I didn't know.
+Dialogue: 0,0:44:36.48,0:44:38.24,CHS,,0,0,0,,不知道什么？\N{\rENG}Didn't know what?
+Dialogue: 0,0:44:38.65,0:44:40.98,CHS,,0,0,0,,不知道你是不是真的爱我\N{\rENG}That you're in love with me.
+Dialogue: 0,0:44:42.82,0:44:46.82,CHS,,0,0,0,,戒指说：“我可是白金长久版\N{\rENG}The ring is saying, "I'm platinum with a long guarantee.
+Dialogue: 0,0:44:46.99,0:44:48.02,CHS,,0,0,0,,你愿意嫁给我吗”？\N{\rENG}Will you marry me?"
+Dialogue: 0,0:44:50.33,0:44:52.06,CHS,,0,0,0,,愿意\N{\rENG}Yes.
+Dialogue: 0,0:45:00.14,0:45:01.94,CHS,,0,0,0,,- 谁啊？ - “塔玛拉在吗”\N{\rENG}- What?  - Oh, is Tamara there?
+Dialogue: 0,0:45:02.11,0:45:03.67,CHS,,0,0,0,,她正在计划被推出\N{\rENG}She is being proposed to.
+Dialogue: 0,0:45:15.79,0:45:19.02,CHS,,0,0,0,,嘘，这里有作家正在思索写作\N{\rENG}Shh. There are writers here trying to write.
+Dialogue: 0,0:45:25.53,0:45:26.97,CHS,,0,0,0,,你好啊\N{\rENG}Hello.
+Dialogue: 0,0:45:27.50,0:45:31.70,CHS,,0,0,0,,额，这是黄色奥尔顿鸡，现在有很高的鸡冠\N{\rENG}Oh, um, this is, uh, a Buff Orpington. He's a bit peaky today.
+Dialogue: 0,0:45:31.87,0:45:34.97,CHS,,0,0,0,,他们不是什么下蛋的能手，但是他们很好看\N{\rENG}They're not great layers, but they're very decorative. Heh.
+Dialogue: 0,0:45:36.08,0:45:37.94,CHS,,0,0,0,,我们这，我们这里蛮有秩序的\N{\rENG}We're, um... We're fully organic here.
+Dialogue: 0,0:45:38.11,0:45:43.45,CHS,,0,0,0,,尽管我院向我们的主要任务是写作\N{\rENG}Though, uh, I like to think our champion product is, uh, the written word. Heh-heh.
+Dialogue: 0,0:45:44.22,0:45:46.25,CHS,,0,0,0,,著名的本\N{\rENG}The famous Ben.
+Dialogue: 0,0:45:46.86,0:45:48.79,CHS,,0,0,0,,斯维普乐队的？\N{\rENG}Swipe, eh?
+Dialogue: 0,0:45:48.96,0:45:52.26,CHS,,0,0,0,,不是，斯维普已经解散了，我想全世界都应该知道了\N{\rENG}No, Swipe's over. I thought the whole world knew that.
+Dialogue: 0,0:45:52.43,0:45:54.23,CHS,,0,0,0,,我一般都没看过新闻之夜\N{\rENG}It wasn't on Newsnight, no.
+Dialogue: 0,0:45:54.40,0:45:56.59,CHS,,0,0,0,,本要去塔玛拉，听起来不好吗？\N{\rENG}Ben's engaged to Tamara. Isn't that lovely?
+Dialogue: 0,0:45:56.77,0:45:58.79,CHS,,0,0,0,,当我出来是，他刚刚爆出这事\N{\rENG}He'd just popped the question when I rang.
+Dialogue: 0,0:45:59.44,0:46:00.84,CHS,,0,0,0,,那女方同意吗？\N{\rENG}And she said yes?
+Dialogue: 0,0:46:02.74,0:46:03.90,CHS,,0,0,0,,我们会为你们高兴的\N{\rENG}We're delighted for you both.
+Dialogue: 0,0:46:06.98,0:46:09.31,CHS,,0,0,0,,妈的为什么给狗套链子？\N{\rENG}Why is he on a fucking chain?
+Dialogue: 0,0:46:09.48,0:46:11.61,CHS,,0,0,0,,他刚才不听话\N{\rENG}He was out of control.
+Dialogue: 0,0:46:11.78,0:46:13.77,CHS,,0,0,0,,你们怎么会喜欢约束动物？\N{\rENG}How would you like to be chained up?
+Dialogue: 0,0:46:13.95,0:46:17.65,CHS,,0,0,0,,他追逐家禽，还到处乱咬\N{\rENG}He was chasing livestock. He could have got shot.
+Dialogue: 0,0:46:18.42,0:46:22.05,CHS,,0,0,0,,谁敢动它，我他妈就动谁\N{\rENG}They shoot him, I'll fucking shoot them.
+Dialogue: 0,0:46:23.00,0:46:24.90,CHS,,0,0,0,,真难以相信\N{\rENG}Unbelievable.
+Dialogue: 0,0:46:25.83,0:46:29.10,CHS,,0,0,0,,这杂种狗，我觉得这世界真是一坨狗屎\N{\rENG}Here, pooch. I think the word is gobshite.
+Dialogue: 0,0:46:29.27,0:46:31.13,CHS,,0,0,0,,我真希望他能让她快乐\N{\rENG}I hope he makes her happy.
+Dialogue: 0,0:46:31.30,0:46:33.50,CHS,,0,0,0,,女孩们的父亲一旦离开，女孩们往往过的艰辛\N{\rENG}It's hard for girls when their dads walk out.
+Dialogue: 0,0:46:33.67,0:46:36.33,CHS,,0,0,0,,男人们会带给她们苦果\N{\rENG}Gives them bad taste in men.
+Dialogue: 0,0:46:36.51,0:46:38.17,CHS,,0,0,0,,你这是什么意思？\N{\rENG}What's that supposed to mean?
+Dialogue: 0,0:46:38.34,0:46:41.47,CHS,,0,0,0,,哦，我是说塔玛拉还是女孩的时候，她父亲就离开了\N{\rENG}Oh, just saying Tamara's father left when she was a girl and...
+Dialogue: 0,0:46:41.65,0:46:43.91,CHS,,0,0,0,,那可是“十便士心理学”\N{\rENG}That is 1 0-pence psychology.
+Dialogue: 0,0:46:44.08,0:46:46.55,CHS,,0,0,0,,你根本不知道你说的是什么\N{\rENG}You don't know what you're talking about.
+Dialogue: 0,0:46:48.89,0:46:50.08,CHS,,0,0,0,,可怜的小男人\N{\rENG}Poor little man.
+Dialogue: 0,0:47:12.81,0:47:15.01,CHS,,0,0,0,,“我的黄色奥尔顿鸡”，“我的写作世界”\N{\rENG}"My Buff Orpingtons." "Oh, the written word."
+Dialogue: 0,0:47:15.18,0:47:17.01,CHS,,0,0,0,,真他妈的怪人\N{\rENG}What a fucking freak.
+Dialogue: 0,0:47:17.19,0:47:19.21,CHS,,0,0,0,,真不好意思，戒指不合适\N{\rENG}It's a shame the ring doesn't fit.
+Dialogue: 0,0:47:19.62,0:47:22.45,CHS,,0,0,0,,你怎么没有带个你原来买给我的？\N{\rENG}Why didn't you bring one of mine along when you bought it?
+Dialogue: 0,0:47:22.62,0:47:24.89,CHS,,0,0,0,,那时我不认识你，不是吗？\N{\rENG}I didn't know you then, did I?
+Dialogue: 0,0:47:26.63,0:47:28.65,CHS,,0,0,0,,那你什么时候买的？\N{\rENG}So when did you buy it?
+Dialogue: 0,0:47:31.33,0:47:33.39,CHS,,0,0,0,,还是给别人买的？\N{\rENG}Was it for someone else?
+Dialogue: 0,0:47:34.60,0:47:36.94,CHS,,0,0,0,,你是给佛兰买的，是吗？\N{\rENG}You bought it for Fran, didn't you?
+Dialogue: 0,0:47:37.11,0:47:38.23,CHS,,0,0,0,,那有怎么了？\N{\rENG}So?
+Dialogue: 0,0:47:39.31,0:47:40.57,CHS,,0,0,0,,现在不是你的了吗\N{\rENG}It's yours now.
+Dialogue: 0,0:47:42.68,0:47:44.54,CHS,,0,0,0,,她重来都没有戴过他，她没有戴过\N{\rENG}She never wore it. She didn't want it.
+Dialogue: 0,0:47:44.72,0:47:47.34,CHS,,0,0,0,,- 你问她愿意嫁给你吗？ - 仅仅做个样子\N{\rENG}- Did you ask her to marry you?  - Just as a gesture,
+Dialogue: 0,0:47:47.52,0:47:50.45,CHS,,0,0,0,,当她看见斯提夫，一切都变了\N{\rENG}when she started seeing Steve. That backfired.
+Dialogue: 0,0:47:50.62,0:47:53.18,CHS,,0,0,0,,看，现在不是你的了吗，我现在娶你\N{\rENG}Look, it's you I wanna marry now.
+Dialogue: 0,0:47:53.36,0:47:54.76,CHS,,0,0,0,,这戒指，这戒指无关紧要\N{\rENG}The ring... The ring doesn't matter.
+Dialogue: 0,0:47:54.93,0:47:57.05,CHS,,0,0,0,,戒指仅仅就是个消费品\N{\rENG}The ring's just a consumerist piece of zinc.
+Dialogue: 0,0:47:57.23,0:47:59.32,CHS,,0,0,0,,现在无论怎样我都爱你\N{\rENG}What matters is that I love you.
+Dialogue: 0,0:47:59.50,0:48:01.19,CHS,,0,0,0,,是吗？\N{\rENG}Do you?
+Dialogue: 0,0:48:01.37,0:48:03.06,CHS,,0,0,0,,是啊\N{\rENG}Yes.
+Dialogue: 0,0:48:05.87,0:48:07.90,CHS,,0,0,0,,我整个的心都爱你\N{\rENG}With my whole heart.
+Dialogue: 0,0:48:08.34,0:48:10.50,CHS,,0,0,0,,和我其他所有的东西\N{\rENG}And all the other stuff.
+Dialogue: 0,0:48:12.04,0:48:15.54,CHS,,0,0,0,,比如我的脑子，我的内脏\N{\rENG}Like me brain, me entrails.
+Dialogue: 0,0:48:17.32,0:48:20.08,CHS,,0,0,0,,我的胰腺\N{\rENG}Me pancreas.
+Dialogue: 0,0:48:20.25,0:48:22.91,CHS,,0,0,0,,所有的一切全部嫁给你\N{\rENG}It all wants to marry you.
+Dialogue: 0,0:48:24.66,0:48:26.02,CHS,,0,0,0,,好吗？\N{\rENG}Hmm?
+Dialogue: 0,0:48:26.76,0:48:30.13,CHS,,0,0,0,,她希望你能有个大概交付日期，我说复活节\N{\rENG}She wondered if you had a delivery date in mind. I said Easterish.
+Dialogue: 0,0:48:30.30,0:48:32.59,CHS,,0,0,0,,来杯咖啡吧，还是热的\N{\rENG}Oh, mind that cocoa, it's hot.
+Dialogue: 0,0:48:32.77,0:48:34.86,CHS,,0,0,0,,这有几份邀请，我会出席的\N{\rENG}There's a few invites. I'll pop them there.
+Dialogue: 0,0:48:35.04,0:48:37.09,CHS,,0,0,0,,你把你想去的标好记号\N{\rENG}You just tick the ones you want to go to.
+Dialogue: 0,0:48:37.27,0:48:42.04,CHS,,0,0,0,,哦，提姆想知道，你到底在圣诞假做不做哈蒂森的签名会\N{\rENG}Oh, and, uh, Tim wants to know if you'll do your Christmas signing in Hadditon.
+Dialogue: 0,0:48:42.21,0:48:45.51,CHS,,0,0,0,,我知道他总是不开心，但我觉得他蛮重要\N{\rENG}I know he's always ungrateful, but I think it's so important
+Dialogue: 0,0:48:45.68,0:48:48.38,CHS,,0,0,0,,对于保持一些小书店的盈利，对吗？\N{\rENG}to keep these little bookshops open, don't you?
+Dialogue: 0,0:48:48.55,0:48:50.14,CHS,,0,0,0,,嗯\N{\rENG}Mm-hm.
+Dialogue: 0,0:48:55.09,0:48:57.46,CHS,,0,0,0,,快点过来，亲爱的\N{\rENG}Come in soon, my love.
+Dialogue: 0,0:49:25.76,0:49:27.95,CHS,,0,0,0,,看着胖女人屁股上的肉\N{\rENG}Look at that cellulite.
+Dialogue: 0,0:49:28.12,0:49:31.36,CHS,,0,0,0,,她坐在车里显得座位那么小，还有什么？\N{\rENG}She been sitting on a bead car seat or what?
+Dialogue: 0,0:49:32.10,0:49:34.19,CHS,,0,0,0,,“他的纹身有九块\N{\rENG}"Her latest tattoo count was nine,
+Dialogue: 0,0:49:34.36,0:49:39.73,CHS,,0,0,0,,包括苏门答腊虎，永生符文”\N{\rENG}including a Sumatran tiger and 'eternity' written in Sanskrit."
+Dialogue: 0,0:49:39.90,0:49:43.27,CHS,,0,0,0,,之后他在两者之间弄个条形码\N{\rENG}She'll be getting a bar code done next, right across there.
+Dialogue: 0,0:49:43.44,0:49:47.21,CHS,,0,0,0,,{\fs45\c&H9AD1DD&}朱迪·加兰：演员\N{\rCHS}朱迪·加兰的脸也画在上面\N{\rENG}And Judy Garland's face right on there.
+Dialogue: 0,0:49:49.48,0:49:51.41,CHS,,0,0,0,,亲爱的宝贝\N{\rENG}Nice baby, though.
+Dialogue: 0,0:49:51.58,0:49:53.41,CHS,,0,0,0,,我还是喜欢那种颜色\N{\rENG}I'd like one that col or.
+Dialogue: 0,0:49:58.02,0:49:59.25,CHS,,0,0,0,,他妈的闭嘴\N{\rENG}Shut the fuck up.
+Dialogue: 0,0:49:59.42,0:50:02.48,CHS,,0,0,0,,- 赖安这个变态  - 我觉得他挺机灵的\N{\rENG}- That Ryan's a dick.  - I think he's cute.
+Dialogue: 0,0:50:02.66,0:50:05.43,CHS,,0,0,0,,不是吧你，难道你还想亲吻他？\N{\rENG}No, you don't. Would you snog him?
+Dialogue: 0,0:50:06.43,0:50:10.06,CHS,,0,0,0,,- 或许会的  - 他喜欢把鼻涕掉在你嘴里\N{\rENG}- Maybe.  - Be like having a slug in your mouth.
+Dialogue: 0,0:50:11.24,0:50:12.36,CHS,,0,0,0,,妈的\N{\rENG}Shit.
+Dialogue: 0,0:50:14.27,0:50:16.10,CHS,,0,0,0,,闭嘴，饭桶，这有什么好笑的\N{\rENG}Shut up, fat arse. It ain't funny.
+Dialogue: 0,0:50:16.28,0:50:17.71,CHS,,0,0,0,,- 本  - 本？\N{\rENG}- Ben.  - Ben?
+Dialogue: 0,0:50:17.88,0:50:19.78,CHS,,0,0,0,,来，我们一起来捣乱一顿\N{\rENG}Come on, let's do some messing.
+Dialogue: 0,0:50:26.25,0:50:29.59,CHS,,0,0,0,,- 打扰一下格伦先生，有空吗？ - 你下一站将去哪里？\N{\rENG}- What about you, Glen? Sorry.  - Where will you be?
+Dialogue: 0,0:50:29.76,0:50:32.09,CHS,,0,0,0,,带着我剩下的作品去伦敦吧\N{\rENG}In London with a collection of spare academics.
+Dialogue: 0,0:50:32.26,0:50:35.59,CHS,,0,0,0,,我们还得装饰大厅，用我自己的饱学之法\N{\rENG}We'll be decking the halls in our own erudite way.
+Dialogue: 0,0:50:35.76,0:50:36.85,CHS,,0,0,0,,我现在还没有时间聊天\N{\rENG}I'll miss our chats.
+Dialogue: 0,0:50:37.03,0:50:40.43,CHS,,0,0,0,,在过去几周里，我一直沉浸在写作艺术带给我的极乐中\N{\rENG}Yeah. I've been in a state of writerly bliss these past weeks.
+Dialogue: 0,0:50:40.60,0:50:43.50,CHS,,0,0,0,,- 我希望我能快点恢复  - 我也是，我们希望你早日回归\N{\rENG}- I hope I get to come back.  - Oh. Me too. We'd love to have you.
+Dialogue: 0,0:50:43.67,0:50:46.50,CHS,,0,0,0,,知道吗，这是我吃过的最好的切成小块的饼\N{\rENG}You know, these are the best mince pies I've ever had.
+Dialogue: 0,0:50:47.87,0:50:50.17,CHS,,0,0,0,,听说有一种食物人吃了会有性快感\N{\rENG}If it were possible to have an orgasm from food,
+Dialogue: 0,0:50:50.35,0:50:52.61,CHS,,0,0,0,,这种小饼就是\N{\rENG}these mince pies would do it.
+Dialogue: 0,0:50:52.91,0:50:54.58,CHS,,0,0,0,,哦，我的天啊\N{\rENG}Golly. Heh.
+Dialogue: 0,0:50:57.42,0:50:58.44,CHS,,0,0,0,,“真恶心”\N{\rENG}Fuck.
+Dialogue: 0,0:51:03.93,0:51:05.48,CHS,,0,0,0,,她为了安迪把钥匙放在这里\N{\rENG}She keeps this here for Andy.
+Dialogue: 0,0:51:05.66,0:51:08.86,CHS,,0,0,0,,- 即使她有警报又能怎么样？ - 这么快就找到了\N{\rENG}- What if she's got an alarm?  - Soon find out.
+Dialogue: 0,0:51:09.03,0:51:13.93,CHS,,0,0,0,,- 要是他们回来了怎么办？ - 你要是那么胆小就回家去吧\N{\rENG}- What if they come back?  - If you're too chicken, go home.
+Dialogue: 0,0:51:46.40,0:51:49.90,CHS,,0,0,0,,- 我们他妈来这里干什么？ - 这也算我的一项调研吧\N{\rENG}- What the fuck are we doing here?  - It's kind of research.
+Dialogue: 0,0:51:50.07,0:51:52.57,CHS,,0,0,0,,我需要写一下关于他们的东西，他们很有意思\N{\rENG}I want to write about them. They're funny.
+Dialogue: 0,0:51:52.74,0:51:54.77,CHS,,0,0,0,,来吧，本\N{\rENG}Come on, Ben.
+Dialogue: 0,0:51:55.25,0:51:59.11,CHS,,0,0,0,,二〇〇一是最好的一年，我买了三本书\N{\rENG}2001 was the best year. I just sold my last three cases.
+Dialogue: 0,0:51:59.28,0:52:02.81,CHS,,0,0,0,,- 价格方面也领人振奋  - 除此之外，还推出了你\N{\rENG}- It's a perfect wine for the price.  - Besides, I want to show you off.
+Dialogue: 0,0:52:02.99,0:52:05.29,CHS,,0,0,0,,那我算什么，漂亮女人？\N{\rENG}What am I, arm candy?
+Dialogue: 0,0:52:05.46,0:52:07.98,CHS,,0,0,0,,你就想有漂亮面容的细菌\N{\rENG}More like arm fungus with that face.
+Dialogue: 0,0:52:08.16,0:52:13.26,CHS,,0,0,0,,我有她漂亮的婚纱服\N{\rENG}I got her this gorgeous Rajasthani Ghagra skirt.
+Dialogue: 0,0:52:14.03,0:52:15.52,CHS,,0,0,0,,真神奇\N{\rENG}Divine.
+Dialogue: 0,0:52:15.70,0:52:17.79,CHS,,0,0,0,,她可能不喜欢这婚纱吧，哈哈\N{\rENG}She'll probably loathe it. Ha-ha.
+Dialogue: 0,0:52:17.97,0:52:20.06,CHS,,0,0,0,,- 他要是不喜欢，我就会要的  - 格伦\N{\rENG}- But if she does, I'll have it.  - Glen.
+Dialogue: 0,0:52:20.24,0:52:22.07,CHS,,0,0,0,,- 你好啊  - 本，本，这是格伦\N{\rENG}- Hi.  - Meet Ben. Ben, Glen.
+Dialogue: 0,0:52:22.24,0:52:23.77,CHS,,0,0,0,,- 嗨，本  - 本是我的未婚夫\N{\rENG}- Hi, Ben.  - Ben's my fiance.
+Dialogue: 0,0:52:23.94,0:52:25.21,CHS,,0,0,0,,- 你们要结婚了吗？ - 是啊\N{\rENG}- You're getting married?  - Uh-huh.
+Dialogue: 0,0:52:25.38,0:52:28.07,CHS,,0,0,0,,这穿着真漂亮，足够拍电影了\N{\rENG}Okay. Beautiful dress, magazine photo shoot.
+Dialogue: 0,0:52:28.25,0:52:30.31,CHS,,0,0,0,,每件事都追求小说家的需求\N{\rENG}Everything the aspiring novelist needs.
+Dialogue: 0,0:52:30.48,0:52:33.89,CHS,,0,0,0,,- 我知道你很开心吧  - 吃块切饼吗？不要啊\N{\rENG}- I knew you'd be pleased.  - Have a mince pie? No.
+Dialogue: 0,0:52:34.29,0:52:36.26,CHS,,0,0,0,,祝福你\N{\rENG}Congratulations.
+Dialogue: 0,0:52:37.19,0:52:40.18,CHS,,0,0,0,,- 我们他妈的能不能离开？ - 等一下\N{\rENG}- Can we get the fuck out of here?  - Wait.
+Dialogue: 0,0:52:42.60,0:52:45.43,CHS,,0,0,0,,在《有害领域》里面，你塑造了弗兰德下士\N{\rENG}In Field of Tares, you made Fred a corporal,
+Dialogue: 0,0:52:45.60,0:52:48.69,CHS,,0,0,0,,但是在皇室炮手里没有这种编制\N{\rENG}but there's no such thing in the Royal Artillery.
+Dialogue: 0,0:52:48.87,0:52:51.10,CHS,,0,0,0,,我们只能叫他投弹手\N{\rENG}They call them bombardiers.
+Dialogue: 0,0:52:51.41,0:52:54.07,CHS,,0,0,0,,- 哦，谢谢你告诉我这个  - 没关系\N{\rENG}- Oh, thank you for that.  - Very good.
+Dialogue: 0,0:52:55.98,0:52:57.50,CHS,,0,0,0,,不好意思\N{\rENG}Sorry.
+Dialogue: 0,0:52:57.68,0:52:59.61,CHS,,0,0,0,,- 你好  - 塔玛拉\N{\rENG}- Hello.  - Tamara.
+Dialogue: 0,0:52:59.78,0:53:02.41,CHS,,0,0,0,,你能帮我给本签个名吗？\N{\rENG}Would you make that out for Ben?
+Dialogue: 0,0:53:02.58,0:53:05.38,CHS,,0,0,0,,- 给本  - 我的未婚夫\N{\rENG}- To Ben.  - My fiancE.
+Dialogue: 0,0:53:06.32,0:53:08.76,CHS,,0,0,0,,我们夏天就要结婚了\N{\rENG}We're getting married in the summer.
+Dialogue: 0,0:53:08.92,0:53:10.45,CHS,,0,0,0,,我听说了\N{\rENG}So I hear.
+Dialogue: 0,0:53:14.73,0:53:21.19,CHS,,0,0,0,,那送上我最真心的同情，塔玛拉\N{\rENG}My heartiest commiserations, Tamara.
+Dialogue: 0,0:53:21.54,0:53:24.87,CHS,,0,0,0,,圣诞快乐，尼古混蛋\N{\rENG}Merry Christmas, Nichol-arse.
+Dialogue: 0,0:53:28.88,0:53:31.31,CHS,,0,0,0,,凯西，看\N{\rENG}Casey, look.
+Dialogue: 0,0:53:32.72,0:53:34.34,CHS,,0,0,0,,这鼓棒\N{\rENG}The sticks.
+Dialogue: 0,0:53:36.15,0:53:38.14,CHS,,0,0,0,,别，别碰\N{\rENG}No, don't touch.
+Dialogue: 0,0:53:42.53,0:53:44.39,CHS,,0,0,0,,真单纯的孩子\N{\rENG}Pour Homme.
+Dialogue: 0,0:53:46.20,0:53:48.93,CHS,,0,0,0,,一股男人味\N{\rENG}Smells like men.
+Dialogue: 0,0:53:50.87,0:53:53.77,CHS,,0,0,0,,- 太爽了  - 茱蒂，简直和做梦一样\N{\rENG}- Live the dream, Case.  - Live the dream, Jode.
+Dialogue: 0,0:53:53.94,0:53:55.03,CHS,,0,0,0,,他的鞋\N{\rENG}His boots.
+Dialogue: 0,0:53:55.21,0:53:58.51,CHS,,0,0,0,,这叫做家庭的争吵\N{\rENG}! This is a call for a domestic dispute!
+Dialogue: 0,0:53:58.68,0:54:02.34,CHS,,0,0,0,,她使我在角落里，她把我…\N{\rENG}! She's got me in the corner And she's put in...!
+Dialogue: 0,0:54:04.75,0:54:06.27,CHS,,0,0,0,,本\N{\rENG}Ben.
+Dialogue: 0,0:54:08.92,0:54:10.01,CHS,,0,0,0,,哦，我的上帝\N{\rENG}Oh, my God.
+Dialogue: 0,0:54:14.49,0:54:15.93,CHS,,0,0,0,,好了，停车\N{\rENG}Look, stop going on about it.
+Dialogue: 0,0:54:16.10,0:54:19.55,CHS,,0,0,0,,我对这个房子投了太多心血了\N{\rENG}I've invested a lot of time into this house.
+Dialogue: 0,0:54:19.73,0:54:23.00,CHS,,0,0,0,,- 那你为什么不卖掉呢？ - 因为我已经在这里开始写作了\N{\rENG}- Why don't you sell it, then?  - Because I've started writing.
+Dialogue: 0,0:54:23.17,0:54:25.26,CHS,,0,0,0,,在那里写不一样\N{\rENG}You can write anywhere.
+Dialogue: 0,0:54:25.61,0:54:27.30,CHS,,0,0,0,,好了，我们跑出来了\N{\rENG}Yes, we've done it.
+Dialogue: 0,0:54:31.11,0:54:34.01,CHS,,0,0,0,,不，本，这里比较合适，有许多的素材\N{\rENG}No, Ben, this is proper. It's not just stuff for the paper.
+Dialogue: 0,0:54:34.18,0:54:37.48,CHS,,0,0,0,,还有我的青年读者，基本都在这里\N{\rENG}It's about my teens, and it's actually working for me here.
+Dialogue: 0,0:54:37.65,0:54:40.64,CHS,,0,0,0,,我很开心这里对你有这么好的回忆，但是这里对我简直就是头疼死了\N{\rENG}I'm glad it's memory lane for you, but it's doing my fucking head in.
+Dialogue: 0,0:54:40.82,0:54:43.79,CHS,,0,0,0,,我想去伦敦，那有人气，也像个城市\N{\rENG}I want some London. Some noise, some urban.
+Dialogue: 0,0:54:45.16,0:54:46.96,CHS,,0,0,0,,我已经受够了，你到底愿意和我在一起吗？\N{\rENG}I've had enough. Are you with me or what?
+Dialogue: 0,0:54:47.13,0:54:48.32,CHS,,0,0,0,,当然，我当然喜欢和你在一起\N{\rENG}Of course, I'm with you.
+Dialogue: 0,0:54:48.50,0:54:51.52,CHS,,0,0,0,,这里真是压抑，烦死了\N{\rENG}It's depressing here. It's boring.
+Dialogue: 0,0:54:52.63,0:54:55.66,CHS,,0,0,0,,每次我往窗外看的时候，就能看到安迪·科布这个蠢货\N{\rENG}And every time I look out the window, I see Andy Cobb's arse.
+Dialogue: 0,0:54:55.84,0:54:57.67,CHS,,0,0,0,,怎么回事？\N{\rENG}What's that about?
+Dialogue: 0,0:55:03.85,0:55:05.11,CHS,,0,0,0,,哎\N{\rENG}Oi!
+Dialogue: 0,0:55:05.19,0:55:07.82,CHS,,0,0,0,,塔玛拉说让你拿几只圣诞鹅\N{\rENG}Tammy says you got Christmas geese.
+Dialogue: 0,0:55:08.00,0:55:09.52,CHS,,0,0,0,,知道了\N{\rENG}Yep.
+Dialogue: 0,0:55:11.70,0:55:14.00,CHS,,0,0,0,,我们要走了，妈的谢了\N{\rENG}We're leaving, thank fuck.
+Dialogue: 0,0:55:14.87,0:55:16.57,CHS,,0,0,0,,那给我一只吧\N{\rENG}Well, give us one then.
+Dialogue: 0,0:55:16.74,0:55:18.30,CHS,,0,0,0,,现在吗？\N{\rENG}Right now?
+Dialogue: 0,0:55:18.67,0:55:20.27,CHS,,0,0,0,,是啊\N{\rENG}Yeah.
+Dialogue: 0,0:55:21.41,0:55:24.21,CHS,,0,0,0,,哪里有多余的，你随便选\N{\rENG}That one's spare. Help yourself.
+Dialogue: 0,0:55:24.38,0:55:25.54,CHS,,0,0,0,,你那是在笑吗？\N{\rENG}You having a laugh?
+Dialogue: 0,0:55:25.72,0:55:27.91,CHS,,0,0,0,,什么？这些事他妈活的\N{\rENG}What? It's fucking alive.
+Dialogue: 0,0:55:28.68,0:55:30.85,CHS,,0,0,0,,我觉得你随便就能把它弄死\N{\rENG}I suppose you'd better kill it then.
+Dialogue: 0,0:55:32.36,0:55:33.95,CHS,,0,0,0,,怎么弄啊？\N{\rENG}How?
+Dialogue: 0,0:55:37.73,0:55:39.96,CHS,,0,0,0,,这样轻轻地把它的头放下去\N{\rENG}Gently put its head down there.
+Dialogue: 0,0:55:40.13,0:55:43.19,CHS,,0,0,0,,用这个敲鹅的后脑勺，要是乱动就拽住\N{\rENG}Quick in the back of skull with this. Pluck it while it's warm.
+Dialogue: 0,0:55:44.33,0:55:46.73,CHS,,0,0,0,,用这个小瓶子盛血\N{\rENG}Little pot to catch all the blood.
+Dialogue: 0,0:55:47.57,0:55:48.87,CHS,,0,0,0,,你觉得这样很爽吗？\N{\rENG}You enjoy that?
+Dialogue: 0,0:55:49.61,0:55:51.04,CHS,,0,0,0,,一点都不\N{\rENG}No.
+Dialogue: 0,0:55:51.21,0:55:54.30,CHS,,0,0,0,,但是在我这种低收入人里，这些是必须的\N{\rENG}But in my low-wage economy, this flock's worth a lot.
+Dialogue: 0,0:55:57.98,0:56:00.71,CHS,,0,0,0,,安迪，你他妈简直就是个混蛋\N{\rENG}You are one sick fuck, Andy.
+Dialogue: 0,0:56:01.29,0:56:03.38,CHS,,0,0,0,,- 随你便  - 你说什么？\N{\rENG}- Grow up.  - What, mate?
+Dialogue: 0,0:56:03.56,0:56:06.79,CHS,,0,0,0,,我说我不和你一般见识\N{\rENG}I said, grow up.
+Dialogue: 0,0:56:07.09,0:56:08.82,CHS,,0,0,0,,鼓手小男孩\N{\rENG}Little drummer boy.
+Dialogue: 0,0:56:26.28,0:56:28.47,CHS,,0,0,0,,塔玛拉早上打电话了\N{\rENG}Tam phoned this morning.
+Dialogue: 0,0:56:29.62,0:56:31.41,CHS,,0,0,0,,说让我早点把房子弄好\N{\rENG}Told me to finish the house.
+Dialogue: 0,0:56:31.59,0:56:35.99,CHS,,0,0,0,,说春天里要用，完了\N{\rENG}Goes on the market in the spring, and that's it. Over.
+Dialogue: 0,0:56:37.79,0:56:40.85,CHS,,0,0,0,,这蠢货为什么老跟着这女孩？\N{\rENG}Why does the ass hole always get the girl?
+Dialogue: 0,0:56:42.23,0:56:45.39,CHS,,0,0,0,,快点吧，你要错过训练了\N{\rENG}Come on, or you'll miss that train.
+Dialogue: 0,0:57:05.45,0:57:07.29,CHS,,0,0,0,,安迪\N{\rENG}Andy.
+Dialogue: 0,0:57:07.46,0:57:11.89,CHS,,0,0,0,,这房子怎么样了？我能拆了重装一下吗？\N{\rENG}So, what about this shed? Am I dismantling it or mending it?
+Dialogue: 0,0:57:12.06,0:57:13.58,CHS,,0,0,0,,等一下\N{\rENG}Hang on.
+Dialogue: 0,0:57:18.17,0:57:20.97,CHS,,0,0,0,,那房子具体我也说不清\N{\rENG}I don't know. The shed.
+Dialogue: 0,0:57:21.30,0:57:22.46,CHS,,0,0,0,,你是怎么想的？\N{\rENG}What do you think?
+Dialogue: 0,0:57:23.17,0:57:25.47,CHS,,0,0,0,,我还是建议保留原样\N{\rENG}I recommend preserving it.
+Dialogue: 0,0:57:25.64,0:57:27.08,CHS,,0,0,0,,真的吗？\N{\rENG}Really?
+Dialogue: 0,0:57:27.48,0:57:31.21,CHS,,0,0,0,,老房子还是实用\N{\rENG}Always useful, a good shed.
+Dialogue: 0,0:57:31.98,0:57:35.85,CHS,,0,0,0,,那交给你了\N{\rENG}Well, then keep it.
+Dialogue: 0,0:57:48.87,0:57:50.70,CHS,,0,0,0,,好的\N{\rENG}Oh...
+Dialogue: 0,0:57:50.87,0:57:54.20,CHS,,0,0,0,,安迪叔叔真是上等手艺\N{\rENG}Classy job, Uncle Andy.
+Dialogue: 0,0:57:55.11,0:57:58.44,CHS,,0,0,0,,太漂亮了，完全变样\N{\rENG}It's like, transformed.
+Dialogue: 0,0:57:58.61,0:58:00.51,CHS,,0,0,0,,本肯定不喜欢这里\N{\rENG}Ben won't like this.
+Dialogue: 0,0:58:00.68,0:58:02.67,CHS,,0,0,0,,一定很讨厌这\N{\rENG}Bit boring.
+Dialogue: 0,0:58:02.85,0:58:05.91,CHS,,0,0,0,,认为太老气了\N{\rENG}Bit old folks.
+Dialogue: 0,0:58:06.09,0:58:08.95,CHS,,0,0,0,,我喜欢这窗帘，我喜欢那个\N{\rENG}I like those curtains. And I like that.
+Dialogue: 0,0:58:09.12,0:58:12.09,CHS,,0,0,0,,我才不喜欢呢，不喜欢这台灯，不喜欢这壁纸\N{\rENG}No, don't like those lamps, or that paper.
+Dialogue: 0,0:58:12.26,0:58:15.23,CHS,,0,0,0,,要是我就会掉很多金色的叶子\N{\rENG}I'd have gold leaf embossed all round there,
+Dialogue: 0,0:58:15.39,0:58:17.42,CHS,,0,0,0,,满墙的火烈鸟\N{\rENG}and a wall of flamingo.
+Dialogue: 0,0:58:17.60,0:58:21.53,CHS,,0,0,0,,- 本肯定喜欢那样  - 这么漂亮的椅子\N{\rENG}- Ben would like that.  - That's a lovely chair.
+Dialogue: 0,0:58:22.44,0:58:24.63,CHS,,0,0,0,,这下面是什么？\N{\rENG}What's under here?
+Dialogue: 0,0:58:35.42,0:58:37.01,CHS,,0,0,0,,我有一串珠的窗帘\N{\rENG}I'd have a bead curtain.
+Dialogue: 0,0:58:37.18,0:58:42.99,CHS,,0,0,0,,浴室弄得稍微暗一点，深巧克力色或者天鹅紫\N{\rENG}And the bathroom needs to be darker, like deep chocolate or velvet plum.
+Dialogue: 0,0:58:43.26,0:58:46.45,CHS,,0,0,0,,我洗澡时要在各种香精了\N{\rENG}And I'd bathe in scented oils.
+Dialogue: 0,0:58:49.50,0:58:53.19,CHS,,0,0,0,,这一切准备都是为了本\N{\rENG}And then I'd be ready for Ben.
+Dialogue: 0,0:58:54.84,0:58:58.57,CHS,,0,0,0,,每个细节都很精致，就像个典礼\N{\rENG}It won't just be a shag, Case. It'll be an event.
+Dialogue: 0,0:58:58.74,0:59:04.37,CHS,,0,0,0,,我穿上我喜爱的薄纱外套和普拉达的胸罩\N{\rENG}I'll be wearing, like, a gossamer shirt and a bra set, Prada.
+Dialogue: 0,0:59:04.55,0:59:06.61,CHS,,0,0,0,,他穿一件黑T恤\N{\rENG}And he'll be wearing a black T-shirt.
+Dialogue: 0,0:59:09.42,0:59:11.98,CHS,,0,0,0,,全身紧身衣裹在那矫健的身材上\N{\rENG}And it'll be all taut over his buff bod.
+Dialogue: 0,0:59:12.15,0:59:16.28,CHS,,0,0,0,,下面穿着卡尔文·克莱恩的四角裤\N{\rENG}And underneath, Calvin Klein boxers, black.
+Dialogue: 0,0:59:17.23,0:59:21.56,CHS,,0,0,0,,他把我的名字纹在他身上，显露发达的胸肌\N{\rENG}And he'll have a tattoo of my name, and lush pecs.
+Dialogue: 0,0:59:21.73,0:59:24.83,CHS,,0,0,0,,来自香奈儿的一股迷人气味\N{\rENG}And I'll smell of Allure by Chanel.
+Dialogue: 0,0:59:27.17,0:59:30.37,CHS,,0,0,0,,他还想逃避我，可是我太诱人了\N{\rENG}And he tries to resist me but I'm a vision.
+Dialogue: 0,0:59:30.54,0:59:32.84,CHS,,0,0,0,,这一切都太“金属”了\N{\rENG}"Ahh."
+Dialogue: 0,0:59:33.01,0:59:35.14,CHS,,0,0,0,,却也很恭敬\N{\rENG}But also respectful.
+Dialogue: 0,0:59:35.31,0:59:38.71,CHS,,0,0,0,,我的全部都要融化了\N{\rENG}And my V plates will melt into nothing.
+Dialogue: 0,0:59:41.35,0:59:42.51,CHS,,0,0,0,,你在听吗？\N{\rENG}Are you listening?
+Dialogue: 0,0:59:43.09,0:59:44.99,CHS,,0,0,0,,- 我太喜欢这个了  - 什么啊？\N{\rENG}- I like this.  - What?
+Dialogue: 0,0:59:45.16,0:59:48.22,CHS,,0,0,0,,这里有点塔玛拉父亲带她一起出去吃饭的事情\N{\rENG}There's this bit where Tamara's dad takes her out for dinner,
+Dialogue: 0,0:59:48.39,0:59:51.49,CHS,,0,0,0,,她原以为还可以好好吃一顿，但是她父亲在那时\N{\rENG}and she thinks it's some big treat, but what he's doing, right,
+Dialogue: 0,0:59:51.66,0:59:55.33,CHS,,0,0,0,,却告诉他们要离开他们，所以那时她完全吐了\N{\rENG}is telling her that he's leaving them, and she... Right, she's gutted.
+Dialogue: 0,0:59:55.50,0:59:58.90,CHS,,0,0,0,,她把她吐出来的东西装在餐厅纸里，放在他爸爸的盘子里\N{\rENG}She yak s up her food into her napkin and puts it on his plate.
+Dialogue: 0,0:59:59.27,1:00:02.26,CHS,,0,0,0,,- 然后呢？ - 让人痛苦\N{\rENG}- So?  - It's painful.
+Dialogue: 0,1:00:02.47,1:00:07.38,CHS,,0,0,0,,除了娱乐，再就是她的那些假鼻子传奇\N{\rENG}But funny. It's about her, Plastic Fantastic.
+Dialogue: 0,1:00:07.91,1:00:12.82,CHS,,0,0,0,,- 茱蒂，她其实蛮忧伤的  - 忧伤？她简直就是幸运的母牛\N{\rENG}- Jode, she's sad. Sad?  - She's a lucky cow.
+Dialogue: 0,1:00:17.72,1:00:20.09,CHS,,0,0,0,,我又读了一下《英迟康博·艾森瑞德》\N{\rENG}I've been re-reading Inchcombe Etherised,
+Dialogue: 0,1:00:20.26,1:00:22.12,CHS,,0,0,0,,尼古拉斯早期的一本书\N{\rENG}one of Nicholas's early books.
+Dialogue: 0,1:00:22.30,1:00:26.26,CHS,,0,0,0,,书里也有个典型叫西奥的奸夫\N{\rENG}There's a character, Theo, who's an adulterer.
+Dialogue: 0,1:00:26.43,1:00:32.10,CHS,,0,0,0,,西奥还有个黄金准则是哄骗已婚女性的\N{\rENG}And Theo has a list of golden rules called Lulling the Spouse.
+Dialogue: 0,1:00:32.47,1:00:37.38,CHS,,0,0,0,,“为了消除疑惑”他说“你也得贼喊捉贼”\N{\rENG}"To allay suspicion," he says, "you must first arouse it."
+Dialogue: 0,1:00:37.65,1:00:40.05,CHS,,0,0,0,,尼古拉斯刚才打电话说他要去一趟老房子\N{\rENG}Nicholas rang me earlier to say he was going to be late home.
+Dialogue: 0,1:00:41.42,1:00:43.54,CHS,,0,0,0,,喂，我碰上乌拉尔和西莉亚了\N{\rENG}Yeah, I just bumped into Raoul and Celia.
+Dialogue: 0,1:00:43.72,1:00:46.24,CHS,,0,0,0,,我说：“哦，真不错”\N{\rENG}I said, "Oh, that's nice."
+Dialogue: 0,1:00:46.42,1:00:49.48,CHS,,0,0,0,,后来我想“真的吗”？\N{\rENG}And thought, "Have you?"
+Dialogue: 0,1:00:49.79,1:00:51.78,CHS,,0,0,0,,可是我又不想被怀疑所动\N{\rENG}And I couldn't shake the suspicion.
+Dialogue: 0,1:00:51.96,1:00:54.72,CHS,,0,0,0,,可是一小时以后，我还是给乌拉尔打电话了\N{\rENG}So after an hour, I phoned Raoul.
+Dialogue: 0,1:00:56.20,1:00:58.89,CHS,,0,0,0,,你好？是的，他在这里\N{\rENG}Hello? Yeah, he's right here.
+Dialogue: 0,1:00:59.07,1:01:01.87,CHS,,0,0,0,,然后他把电话给尼古拉斯了\N{\rENG}And he put Nicholas straight on the line.
+Dialogue: 0,1:01:02.04,1:01:03.97,CHS,,0,0,0,,你好\N{\rENG}Hello.
+Dialogue: 0,1:01:04.97,1:01:07.94,CHS,,0,0,0,,他现在说的句句属实\N{\rENG}He's been telling the truth a lot recently.
+Dialogue: 0,1:01:08.74,1:01:11.04,CHS,,0,0,0,,他真的对我好了吗？\N{\rENG}Is he lulling me?
+Dialogue: 0,1:01:15.99,1:01:19.51,CHS,,0,0,0,,这又让我想起了《英迟康博·艾森瑞德》\N{\rENG}I might remind him that in Inchcombe Etherized,
+Dialogue: 0,1:01:19.69,1:01:23.42,CHS,,0,0,0,,西奥的妻子会为他准备用餐刀叉的\N{\rENG}Theo's wife runs him through with a carving knife.
+Dialogue: 0,1:01:38.04,1:01:39.84,CHS,,0,0,0,,- 你这是干什么？ - 有点乱吗\N{\rENG}- What are you doing?  - Just messing.
+Dialogue: 0,1:01:40.01,1:01:41.84,CHS,,0,0,0,,我原来有三个情人节礼物\N{\rENG}I got three valentines.
+Dialogue: 0,1:01:42.01,1:01:44.74,CHS,,0,0,0,,一份来自我妈妈，还有一份来自上次摔了一跤的赖安\N{\rENG}One from Mom, one from that peanut Ryan,
+Dialogue: 0,1:01:44.92,1:01:46.82,CHS,,0,0,0,,还有一份神秘礼物来自本\N{\rENG}and a mystery one from Ben.
+Dialogue: 0,1:01:47.52,1:01:49.28,CHS,,0,0,0,,我给你一份吧\N{\rENG}I sent you that.
+Dialogue: 0,1:01:50.02,1:01:52.05,CHS,,0,0,0,,是三者其一吗？\N{\rENG}Is that theirs?
+Dialogue: 0,1:01:52.26,1:01:54.35,CHS,,0,0,0,,是我妈妈的，他们不喜欢喝这种饮料\N{\rENG}It's my mom's. They don't drink this shit.
+Dialogue: 0,1:01:54.53,1:01:57.05,CHS,,0,0,0,,来楼上，给你看看我干的\N{\rENG}Come upstairs and look at what I'm doing.
+Dialogue: 0,1:01:58.10,1:02:02.86,CHS,,0,0,0,,我已经进入她的邮箱，让本回来\N{\rENG}I've got into her e-mails. We have to get Ben to come back.
+Dialogue: 0,1:02:03.94,1:02:05.37,CHS,,0,0,0,,我给他寄送了一份情人节礼物\N{\rENG}I'm sending him a valentine.
+Dialogue: 0,1:02:05.54,1:02:07.34,CHS,,0,0,0,,- 不是吧，真的不应该  - 用她的联系方式\N{\rENG}- No, you're not.  - From her address.
+Dialogue: 0,1:02:07.51,1:02:10.03,CHS,,0,0,0,,笨蛋，他会以为是塔玛拉送的\N{\rENG}Then he'll think it's from Tamara, you dipshit.
+Dialogue: 0,1:02:10.21,1:02:12.40,CHS,,0,0,0,,我知道它是来自我的\N{\rENG}But I know it'll be from me.
+Dialogue: 0,1:02:12.58,1:02:15.95,CHS,,0,0,0,,标题：热爱\N{\rENG}Hot love.
+Dialogue: 0,1:02:16.95,1:02:18.54,CHS,,0,0,0,,亲爱的，茱蒂\N{\rENG}Oh, God. Jody.
+Dialogue: 0,1:02:19.25,1:02:22.31,CHS,,0,0,0,,“联系方式”本的联系方式在那？\N{\rENG}"Contacts." Where are you, Ben?
+Dialogue: 0,1:02:22.49,1:02:25.22,CHS,,0,0,0,,我妈妈就为这个小伙子工作呢，他叫尼古拉斯·哈迪蒙特\N{\rENG}There's that bloke my mom works for, Nicholas Hardiment.
+Dialogue: 0,1:02:25.39,1:02:27.88,CHS,,0,0,0,,那把她也加上，还有谁？\N{\rENG}Let's put him on. Who else?
+Dialogue: 0,1:02:28.06,1:02:31.19,CHS,,0,0,0,,- 安迪叔叔  - 安迪·科布\N{\rENG}- Uncle Andy.  - Andy Cobb.
+Dialogue: 0,1:02:31.47,1:02:34.59,CHS,,0,0,0,,写上“来自维纳斯农场吧\N{\rENG}Come to Winnards Farm.
+Dialogue: 0,1:02:34.77,1:02:40.64,CHS,,0,0,0,,我将给你带来人生最大的刺激\N{\rENG}I'll give you the biggest shagging of your life.
+Dialogue: 0,1:02:40.81,1:02:43.14,CHS,,0,0,0,,爱你，亲你，亲你，亲你，塔玛拉”\N{\rENG}Love, Tamara. Kiss, kiss, kiss.
+Dialogue: 0,1:02:43.31,1:02:47.12,CHS,,0,0,0,,- 不是曾经，曾经发送过的吧  - 我刚刚写好的\N{\rENG}- Don't ever, ever send that.  - I just did.
+Dialogue: 0,1:02:49.48,1:02:51.54,CHS,,0,0,0,,这是他妈的什么？\N{\rENG}What the fuck is this?
+Dialogue: 0,1:02:52.92,1:02:55.15,CHS,,0,0,0,,“来自维纳斯农场吧\N{\rENG}"Come to Winnards Farm,
+Dialogue: 0,1:02:56.93,1:03:00.33,CHS,,0,0,0,,我将给你带来人生最大的刺激”\N{\rENG}and I'll give you the biggest shagging of your life."
+Dialogue: 0,1:03:00.50,1:03:03.99,CHS,,0,0,0,,“我将给你带来人生最大的刺激”\N{\rENG}"I'll give you the biggest shagging of your life."
+Dialogue: 0,1:03:06.57,1:03:08.16,CHS,,0,0,0,,你在听我说话吗？\N{\rENG}Are you listening to me?
+Dialogue: 0,1:03:08.34,1:03:12.17,CHS,,0,0,0,,本，你能不能别敲了？我根本就没写这种邮件\N{\rENG}Ben, will you stop drumming? I didn't write that e-mail.
+Dialogue: 0,1:03:12.34,1:03:13.71,CHS,,0,0,0,,你为什么就不相信我？\N{\rENG}Why don't you believe me?
+Dialogue: 0,1:03:13.88,1:03:15.37,CHS,,0,0,0,,佛兰和斯蒂夫·易凯闹别扭时\N{\rENG}When Fran started fucking Steve Culley,
+Dialogue: 0,1:03:15.55,1:03:17.81,CHS,,0,0,0,,至少她还比较体面，也不至于告诉全世界\N{\rENG}at least she had the decency not to tell the whole world.
+Dialogue: 0,1:03:17.98,1:03:19.35,CHS,,0,0,0,,你这到底是什么意思？\N{\rENG}What's that supposed to mean?
+Dialogue: 0,1:03:21.89,1:03:24.79,CHS,,0,0,0,,她一定是想要一个四人组或者其他\N{\rENG}She must want a foursome or something.
+Dialogue: 0,1:03:25.79,1:03:28.28,CHS,,0,0,0,,你幻想你们四人组里还有尼古拉斯·哈迪蒙特？\N{\rENG}You fancy a foursome with Nicholas Hardiment?
+Dialogue: 0,1:03:28.46,1:03:29.86,CHS,,0,0,0,,那个鸡奸者\N{\rENG}Bugger that.
+Dialogue: 0,1:03:30.03,1:03:31.46,CHS,,0,0,0,,她会怎么想？\N{\rENG}What was she thinking?
+Dialogue: 0,1:03:31.63,1:03:34.60,CHS,,0,0,0,,或许她会激起你的嫉妒心\N{\rENG}Well, maybe she's trying to make you jealous.
+Dialogue: 0,1:03:34.77,1:03:37.33,CHS,,0,0,0,,或许她会让他的男友嫉妒\N{\rENG}Or maybe she's trying to make the boyfriend jealous.
+Dialogue: 0,1:03:37.50,1:03:40.60,CHS,,0,0,0,,或许她仅仅给你一个暗示\N{\rENG}Or maybe she's just trying to give him a really big hint
+Dialogue: 0,1:03:40.77,1:03:42.40,CHS,,0,0,0,,或许她不会想这么多\N{\rENG}that she's not getting enough.
+Dialogue: 0,1:03:42.57,1:03:45.81,CHS,,0,0,0,,或许她有一点古怪，又或许她疯了\N{\rENG}Or maybe she's just a bit kinky. Or maybe she's crazy.
+Dialogue: 0,1:03:45.98,1:03:48.85,CHS,,0,0,0,,或许她会板着脸\N{\rENG}Or maybe she was off her face.
+Dialogue: 0,1:03:49.01,1:03:50.07,CHS,,0,0,0,,他很生气\N{\rENG}She was pissed.
+Dialogue: 0,1:03:50.25,1:03:52.62,CHS,,0,0,0,,“我过去重来没有生气过，没有卑鄙过，或其他的任何事”\N{\rENG}I wasn't pissed or depraved or anything.
+Dialogue: 0,1:03:52.79,1:03:53.95,CHS,,0,0,0,,对，你说的对\N{\rENG}It's okay. It's okay.
+Dialogue: 0,1:03:54.12,1:03:57.05,CHS,,0,0,0,,“那你能帮我去看看我的房子吗？确定没有人在里面”\N{\rENG}Can you go look at the house? To make sure no one's been in.
+Dialogue: 0,1:03:57.22,1:03:58.95,CHS,,0,0,0,,- 没问题  - 谢谢了\N{\rENG}- No problem.  - Thanks.
+Dialogue: 0,1:03:59.13,1:04:00.49,CHS,,0,0,0,,本现在真的气疯了\N{\rENG}Ben's really pissed off.
+Dialogue: 0,1:04:00.66,1:04:02.82,CHS,,0,0,0,,- 他被气得弯腰驼背，气喘嘘嘘  - 我有吗？\N{\rENG}- He's massively got the hump.  - Have I?
+Dialogue: 0,1:04:03.00,1:04:05.76,CHS,,0,0,0,,我只是告诉安迪让他去看看维纳斯农场\N{\rENG}I've just asked Andy to have a look at Winnards.
+Dialogue: 0,1:04:05.93,1:04:08.26,CHS,,0,0,0,,我的挂了，不好意思\N{\rENG}I've got to go, I'm sorry.
+Dialogue: 0,1:04:08.44,1:04:10.16,CHS,,0,0,0,,- 你是他妈的白痴吗？ - 你说什么？\N{\rENG}- Are you a fucking idiot?  - What?
+Dialogue: 0,1:04:10.34,1:04:13.79,CHS,,0,0,0,,你没病吧？谁写电子邮件难道还不明显吗？就是安迪·科布这个废物\N{\rENG}Are you thick? Isn't it obvious who wrote that e-mail? That tosser Andy Cobb.
+Dialogue: 0,1:04:13.97,1:04:16.20,CHS,,0,0,0,,- 安迪不会这么做的  - 让他在你的房子里过的那么惬意\N{\rENG}- Andy wouldn't do that.  - Making himself cozy in your house,
+Dialogue: 0,1:04:16.38,1:04:18.90,CHS,,0,0,0,,到处用你的，可能还穿条你的短裤吧\N{\rENG}going through your stuff. Probably got a pair of your pants on.
+Dialogue: 0,1:04:19.08,1:04:20.74,CHS,,0,0,0,,来打赌他把我的黑T恤划破了\N{\rENG}Bet it was him who nicked my black T-shirt.
+Dialogue: 0,1:04:20.92,1:04:23.61,CHS,,0,0,0,,- 他肯定不会的  - 哦，真行，现在和他一伙了\N{\rENG}- Of course, he didn't.  - Oh, that's it, jumping to his defense.
+Dialogue: 0,1:04:23.78,1:04:26.62,CHS,,0,0,0,,- 他根本就不可能这么做  - 老板，老板\N{\rENG}- He hasn't done anything.  - Boss. Boss.
+Dialogue: 0,1:04:28.86,1:04:30.52,CHS,,0,0,0,,你要干嘛去？\N{\rENG}What are you doing?
+Dialogue: 0,1:04:31.06,1:04:32.89,CHS,,0,0,0,,你知道佛兰有个小孩吧\N{\rENG}You know Fran's having a baby.
+Dialogue: 0,1:04:33.06,1:04:36.12,CHS,,0,0,0,,她一直想来看看我，我都没同意，我看现在合适了\N{\rENG}She wanted to see me. I wasn't going to, but now,
+Dialogue: 0,1:04:36.90,1:04:38.53,CHS,,0,0,0,,为什么不行呢？\N{\rENG}why not?
+Dialogue: 0,1:04:39.23,1:04:41.67,CHS,,0,0,0,,来吧，老板，带你出去走走\N{\rENG}Come on, Boss, let's go for a crap.
+Dialogue: 0,1:04:43.27,1:04:46.26,CHS,,0,0,0,,妈妈，塔玛拉就像个搅屎棍子，总是这样\N{\rENG}Come on, mom, she's just stirring shit. Tamara's always done that.
+Dialogue: 0,1:04:46.44,1:04:49.93,CHS,,0,0,0,,- 是啊，但是那又如何？ - 你知道她是怎样的颠覆份子\N{\rENG}- Yes, but why?  - You know how subversive she is.
+Dialogue: 0,1:04:50.11,1:04:53.91,CHS,,0,0,0,,她曾经给了我一个哈瑞王子的情人节礼物，我还很相信\N{\rENG}She once sent me a valentine from Prince Harry and I believed it.
+Dialogue: 0,1:04:54.08,1:04:56.78,CHS,,0,0,0,,她有幽默感，但也惹了很多麻烦\N{\rENG}It's her sense of hum or. She likes causing trouble.
+Dialogue: 0,1:04:56.95,1:05:00.32,CHS,,0,0,0,,过去在学校，一开学她就教我从小卖铺偷东西\N{\rENG}At school, she used to give us first-years tips on how to shoplift.
+Dialogue: 0,1:05:00.49,1:05:02.72,CHS,,0,0,0,,她叫你怎么从小卖铺偷东西？\N{\rENG}She taught you how to shoplift?
+Dialogue: 0,1:05:02.89,1:05:06.26,CHS,,0,0,0,,妈妈，他都要嫁给中士本了\N{\rENG}Mom, she's marrying Ben Sergeant.
+Dialogue: 0,1:05:06.43,1:05:08.49,CHS,,0,0,0,,为什么还傻傻的像爸爸？\N{\rENG}Why would she look at an old git like Dad?
+Dialogue: 0,1:05:08.67,1:05:10.60,CHS,,0,0,0,,我可没和你开玩笑\N{\rENG}Hmm. I just don't get the joke.
+Dialogue: 0,1:05:10.77,1:05:13.03,CHS,,0,0,0,,为什么她会有你爸爸的邮件地址，还有安迪？\N{\rENG}And why is your father on the e-mail? And Andy?
+Dialogue: 0,1:05:13.20,1:05:16.10,CHS,,0,0,0,,- 真是无聊  - 你能用这个帮帮我吗？\N{\rENG}- It's so tasteless.  - Help me out with these, would you?
+Dialogue: 0,1:05:16.27,1:05:18.37,CHS,,0,0,0,,我不得不把我的工作重心放在塔利班分子上\N{\rENG}I have to work on my thesis on the Taliban.
+Dialogue: 0,1:05:18.54,1:05:20.34,CHS,,0,0,0,,塔利班，我知道了\N{\rENG}Taliban, I know.
+Dialogue: 0,1:05:25.35,1:05:28.62,CHS,,0,0,0,,你是怎么看塔玛拉发来的邮件的？\N{\rENG}What do you make of that e-mail from Tamara?
+Dialogue: 0,1:05:28.79,1:05:30.62,CHS,,0,0,0,,没什么感觉\N{\rENG}Don't make any sense.
+Dialogue: 0,1:05:30.79,1:05:34.49,CHS,,0,0,0,,我想是伦敦的男友想报复她一下呗\N{\rENG}That London boyfriend's trying to fuck her up. That's my theory.
+Dialogue: 0,1:05:34.66,1:05:36.85,CHS,,0,0,0,,她可以做的更好\N{\rENG}She could do so much better.
+Dialogue: 0,1:05:37.23,1:05:39.13,CHS,,0,0,0,,我才不这么理解呢\N{\rENG}I couldn't agree more.
+Dialogue: 0,1:05:44.57,1:05:47.51,CHS,,0,0,0,,- 这是本啊  - “小孩的爸爸是谁”？\N{\rENG}- It's Ben.  - "Who's the Daddy?"
+Dialogue: 0,1:05:48.24,1:05:49.87,CHS,,0,0,0,,斯蒂夫·易凯和弗兰·雷蒙德\N{\rENG}"Steve Culley and Fran Redmond
+Dialogue: 0,1:05:50.04,1:05:52.88,CHS,,0,0,0,,进来宣布他们的美好愿望\N{\rENG}recently announced they were expecting.
+Dialogue: 0,1:05:53.05,1:05:57.85,CHS,,0,0,0,,但在情人节约会最震惊的消息里，弗兰和前夫去拍了海报\N{\rENG}But in a valentine-tryst shocker, Fran is snapped with ex Ben Sergeant.
+Dialogue: 0,1:05:58.02,1:05:59.82,CHS,,0,0,0,,本和佛兰，居然去“开房了”\N{\rENG}Ben and Fran, we say, 'Get a room."'
+Dialogue: 0,1:05:59.99,1:06:03.35,CHS,,0,0,0,,- 他又回弗兰哪里了？ - 茱蒂，那可是在你发完邮件后\N{\rENG}- He's back with Fran?  - After you sent that e-mail, Jode.
+Dialogue: 0,1:06:03.52,1:06:05.58,CHS,,0,0,0,,不可能，不可能\N{\rENG}No way. No way.
+Dialogue: 0,1:06:07.96,1:06:09.29,CHS,,0,0,0,,整形鼻子回来了\N{\rENG}There's Plastic.
+Dialogue: 0,1:06:10.80,1:06:13.46,CHS,,0,0,0,,- 天啊，我都做了什么？ - 你说你做了什么？\N{\rENG}- Oh, my God, what have I done?  - What have you done?
+Dialogue: 0,1:06:13.63,1:06:15.30,CHS,,0,0,0,,如果本把她甩了怎么办？\N{\rENG}What if Ben's dumped her?
+Dialogue: 0,1:06:17.31,1:06:19.27,CHS,,0,0,0,,如果本不回来那该怎么办？\N{\rENG}What if he never comes back?
+Dialogue: 0,1:06:45.10,1:06:47.57,CHS,,0,0,0,,我再也看不到本了，全是我的错\N{\rENG}I'll never see Ben again and it's all my fault.
+Dialogue: 0,1:06:48.07,1:06:50.34,CHS,,0,0,0,,- 你错什么了？ - 不管你的事\N{\rENG}- What's all your fault?  - None of your business.
+Dialogue: 0,1:06:50.77,1:06:53.40,CHS,,0,0,0,,我看你病怏怏的像周末遇到了下雨天\N{\rENG}I'm bloody sick of you looking like a wet weekend.
+Dialogue: 0,1:06:53.58,1:06:54.80,CHS,,0,0,0,,- 到底谁是本？ - 没谁\N{\rENG}- Who's Ben?  - No one.
+Dialogue: 0,1:06:54.98,1:06:56.41,CHS,,0,0,0,,- 那你怎么了？ - 我没怎么\N{\rENG}- What have you done?  - Nothing.
+Dialogue: 0,1:06:56.58,1:06:59.55,CHS,,0,0,0,,- 你有麻烦了？ - 没有让我一个人静静\N{\rENG}- You in trouble?  - No, leave me alone.
+Dialogue: 0,1:06:59.78,1:07:02.18,CHS,,0,0,0,,茱蒂，你喜欢上男孩了\N{\rENG}You take care with boys, Jody.
+Dialogue: 0,1:07:02.35,1:07:04.75,CHS,,0,0,0,,你知道那会发生什么\N{\rENG}You know what can happen.
+Dialogue: 0,1:07:06.62,1:07:07.65,CHS,,0,0,0,,会发生什么啊？\N{\rENG}What can happen?
+Dialogue: 0,1:07:07.83,1:07:12.23,CHS,,0,0,0,,这种地方究竟难发生什么啊？\N{\rENG}What can ever, ever happen in a place like this?
+Dialogue: 0,1:07:20.14,1:07:23.87,CHS,,0,0,0,,你好，我以为你还在伦敦，和斯维普乐队的本在一起\N{\rENG}Hello. I thought you were in London with Ben from Swipe.
+Dialogue: 0,1:07:24.04,1:07:27.50,CHS,,0,0,0,,- 我来找安迪  - 他已经不在斯通菲尔德农场了\N{\rENG}- I'm looking for Andy.  - Well, he's not up at Stonefield.
+Dialogue: 0,1:07:28.78,1:07:30.81,CHS,,0,0,0,,你最刺激的享受也邀请我了？\N{\rENG}So where's this shag you've been offering me?
+Dialogue: 0,1:07:30.98,1:07:32.51,CHS,,0,0,0,,- 闭嘴  - 行了，我都看到邮件了\N{\rENG}- Fuck off.  - Come on. I saw that e-mail.
+Dialogue: 0,1:07:32.68,1:07:34.02,CHS,,0,0,0,,得了，我根本没发过\N{\rENG}Well, I didn't send it.
+Dialogue: 0,1:07:34.19,1:07:38.71,CHS,,0,0,0,,就算你是世上最后一个冬天剩下的男人，我都不会邀请你的\N{\rENG}And I wouldn't shag you if you were the last man left after a nuclear winter.
+Dialogue: 0,1:07:39.29,1:07:41.16,CHS,,0,0,0,,那明天三点我去拜访你吧？\N{\rENG}I'll come round tomorrow then, about 3?
+Dialogue: 0,1:07:41.33,1:07:44.02,CHS,,0,0,0,,去死吧，自以为是的东西\N{\rENG}Drop dead, you smug prick.
+Dialogue: 0,1:07:48.00,1:07:49.09,CHS,,0,0,0,,小心\N{\rENG}Watch out.
+Dialogue: 0,1:08:39.09,1:08:43.62,CHS,,0,0,0,,对的，我将呆在图书馆里，一到两个小时吧\N{\rENG}Yeah, I'll... I'll probably stay at the library another hour or two.
+Dialogue: 0,1:08:44.09,1:08:45.92,CHS,,0,0,0,,对\N{\rENG}Yeah.
+Dialogue: 0,1:08:47.33,1:08:50.63,CHS,,0,0,0,,就是查一些法律报告\N{\rENG}Yeah, just checking some law reports.
+Dialogue: 0,1:08:51.33,1:08:53.96,CHS,,0,0,0,,你真是奇怪\N{\rENG}You're a marvel.
+Dialogue: 0,1:08:55.14,1:08:57.07,CHS,,0,0,0,,好的\N{\rENG}Okay.
+Dialogue: 0,1:09:13.66,1:09:15.35,CHS,,0,0,0,,你好啊\N{\rENG}Hello.
+Dialogue: 0,1:09:17.93,1:09:19.59,CHS,,0,0,0,,你要怎样\N{\rENG}So,
+Dialogue: 0,1:09:20.07,1:09:21.97,CHS,,0,0,0,,尼古拉斯\N{\rENG}Nicholas.
+Dialogue: 0,1:09:31.18,1:09:33.51,CHS,,0,0,0,,你可以让我离开\N{\rENG}You can tell me to leave.
+Dialogue: 0,1:09:36.98,1:09:39.54,CHS,,0,0,0,,你可以立刻马上把我扔出去\N{\rENG}You can throw me right out.
+Dialogue: 0,1:09:44.12,1:09:46.39,CHS,,0,0,0,,只要你说一句\N{\rENG}Just say the word,
+Dialogue: 0,1:09:47.39,1:09:49.49,CHS,,0,0,0,,我立刻就走\N{\rENG}and I'll go.
+Dialogue: 0,1:10:18.79,1:10:21.06,CHS,,0,0,0,,做完爱以后你抽烟吗？\N{\rENG}Do you smoke after sex?
+Dialogue: 0,1:10:21.23,1:10:22.86,CHS,,0,0,0,,不知道，好像原来没有过\N{\rENG}I don't know, I've never looked.
+Dialogue: 0,1:10:26.54,1:10:28.40,CHS,,0,0,0,,过去常常从我的窗子里看你\N{\rENG}I used to watch you out of my window,
+Dialogue: 0,1:10:28.57,1:10:31.27,CHS,,0,0,0,,看你拉着你女儿在路上滑滑板\N{\rENG}helping your daughter skateboard up the lane.
+Dialogue: 0,1:10:32.01,1:10:34.24,CHS,,0,0,0,,还是有点迷人的，不是吗？\N{\rENG}Bit of an obvious crush, wasn't it?
+Dialogue: 0,1:10:34.71,1:10:38.58,CHS,,0,0,0,,这就是为什么我在这里？难道不是消除你的迷恋？\N{\rENG}Is that why I'm here? To expurgate the crush?
+Dialogue: 0,1:10:38.75,1:10:40.24,CHS,,0,0,0,,我不知道\N{\rENG}I don't know.
+Dialogue: 0,1:10:40.42,1:10:42.32,CHS,,0,0,0,,还是单纯的代替了你的前夫？\N{\rENG}Or as revenge on your ex?
+Dialogue: 0,1:10:43.15,1:10:45.52,CHS,,0,0,0,,我不知道，尼古拉斯\N{\rENG}I don't know, Nicholas.
+Dialogue: 0,1:10:45.76,1:10:46.92,CHS,,0,0,0,,你为什么在这里呢？\N{\rENG}Why are you here?
+Dialogue: 0,1:10:48.19,1:10:49.78,CHS,,0,0,0,,这不是显而易见\N{\rENG}I should have thought that was obvious.
+Dialogue: 0,1:10:52.60,1:10:56.19,CHS,,0,0,0,,自从你夏天爬上那梯子的时候，我就没有忘记过你\N{\rENG}Since you climbed over that stile in the summer,
+Dialogue: 0,1:10:57.03,1:10:59.87,CHS,,0,0,0,,我根本就没有想太多\N{\rENG}I haven't thought about very much else.
+Dialogue: 0,1:11:07.04,1:11:09.67,CHS,,0,0,0,,- 我们何时还能再来一次？ - 那贝丝呢？\N{\rENG}- When can we do this again?  - What about Beth?
+Dialogue: 0,1:11:09.85,1:11:12.11,CHS,,0,0,0,,- 我和贝丝是公开的…  - 胡说\N{\rENG}- Beth and I have this kind of open...  - Bullshit.
+Dialogue: 0,1:11:12.28,1:11:15.55,CHS,,0,0,0,,- 星期四吧？ - 这样难道不复杂吗？\N{\rENG}- Thursday?  - Isn't life complicated enough?
+Dialogue: 0,1:11:15.72,1:11:17.95,CHS,,0,0,0,,别把我写到你的专栏里\N{\rENG}Don't put me in your column.
+Dialogue: 0,1:11:18.62,1:11:20.85,CHS,,0,0,0,,你倒蛮会做梦的\N{\rENG}In your dreams.
+Dialogue: 0,1:11:29.60,1:11:31.80,CHS,,0,0,0,,这种结构显得单调无味，不是吗？\N{\rENG}Structure can be so sterile, can't it?
+Dialogue: 0,1:11:31.97,1:11:34.10,CHS,,0,0,0,,我总是在考虑第三章\N{\rENG}I always think of it as a 3-dimensional...
+Dialogue: 0,1:11:34.27,1:11:36.11,CHS,,0,0,0,,- 哦  - 他不是来了嘛\N{\rENG}- Oh.  - Oh, here he is.
+Dialogue: 0,1:11:36.58,1:11:40.67,CHS,,0,0,0,,哦，你也真是的，你回来早点？我一直担心你呢\N{\rENG}Oh, poor you. Was it awful? I was starting to worry.
+Dialogue: 0,1:11:40.85,1:11:45.05,CHS,,0,0,0,,十足的担心啊，好了，像奇思维克，别动，看看这个\N{\rENG}Bloody terrible. Didn't move till well past Chiswick, but look.
+Dialogue: 0,1:11:45.22,1:11:47.95,CHS,,0,0,0,,- 我去佛特南那里的买的  - 这可是我最喜欢的按摩机啊\N{\rENG}- I popped into Fortnum's.  - My favorite teas.
+Dialogue: 0,1:11:51.19,1:11:54.99,CHS,,0,0,0,,我的天啊，我得赶紧给他充电，完了试试这伸缩牙刷\N{\rENG}Oh, my goodness, you feel like my buzzy toothbrush just after I've charged it up.
+Dialogue: 0,1:11:55.16,1:11:58.62,CHS,,0,0,0,,- 你以后得多去几次伦敦哈  - 好的，当然会的\N{\rENG}- You should go to London more often.  - Well, maybe I will.
+Dialogue: 0,1:11:58.80,1:12:02.39,CHS,,0,0,0,,各位对不住了，公车根本不走，那继续吧，我错过了什么没？\N{\rENG}Oh. Sorry, everybody. Traffic was a pig. Do carry on. What have I missed?
+Dialogue: 0,1:12:02.57,1:12:05.80,CHS,,0,0,0,,我试着在第三段填上一点传奇现实主义的文字\N{\rENG}Well, I'm trying this magic realist bit at the end of Chapter 3.
+Dialogue: 0,1:12:05.97,1:12:08.34,CHS,,0,0,0,,- 听起来蛮有新意的  - 哦，你是怎么觉得？\N{\rENG}- Oh. That sounds very innovative.  - Oh, you think so?
+Dialogue: 0,1:12:08.51,1:12:11.78,CHS,,0,0,0,,是啊，我总是等这种…额，传奇现实犯罪的小说\N{\rENG}Yes. I think I've always been waiting for the, uh, magic realist crime novel.
+Dialogue: 0,1:12:13.15,1:12:16.14,CHS,,0,0,0,,《呼啸山庄》，或者那种《北方天使》\N{\rENG}Wuthering Heights, it's kind of Angel of the North.
+Dialogue: 0,1:12:28.10,1:12:33.54,CHS,,0,0,0,,电台停播两年后，我就联系了编辑\N{\rENG}So after two years of radio silence, I contact my editor,
+Dialogue: 0,1:12:34.17,1:12:37.77,CHS,,0,0,0,,她爱…我的意思是她很爱这文章，我也是\N{\rENG}and she loves... I mean, she loves the chapters I did in the fall.
+Dialogue: 0,1:12:37.94,1:12:40.53,CHS,,0,0,0,,噢，格伦\N{\rENG}Oh, Glen. Ha-ha.
+Dialogue: 0,1:12:41.18,1:12:42.81,CHS,,0,0,0,,我试着在图书馆里写作\N{\rENG}I tried writing at the library
+Dialogue: 0,1:12:42.98,1:12:46.38,CHS,,0,0,0,,但是又觉得力不从心，又开始走下坡路\N{\rENG}but I could feel that awful paralysis descending again.
+Dialogue: 0,1:12:46.55,1:12:50.68,CHS,,0,0,0,,我错过了以前遇到的一切，于是我找到了这里\N{\rENG}I missed everything that I've been, you know, finding here.
+Dialogue: 0,1:12:51.09,1:12:53.18,CHS,,0,0,0,,哦，我的天啊\N{\rENG}Oh, my God.
+Dialogue: 0,1:12:53.36,1:12:56.16,CHS,,0,0,0,,太美了\N{\rENG}It's so beautiful.
+Dialogue: 0,1:12:56.33,1:12:58.02,CHS,,0,0,0,,很高兴你能回来\N{\rENG}Well, I'm very glad you've come back.
+Dialogue: 0,1:12:58.20,1:13:00.06,CHS,,0,0,0,,是啊，肯定会多待几周的\N{\rENG}Yeah, in a few solid weeks...
+Dialogue: 0,1:13:00.23,1:13:02.36,CHS,,0,0,0,,吓我一跳！\N{\rENG}Holy cow!
+Dialogue: 0,1:13:04.37,1:13:06.27,CHS,,0,0,0,,- 白痴！ - 哈哈\N{\rENG}- Idiots!  - Ha-ha.
+Dialogue: 0,1:13:06.70,1:13:08.23,CHS,,0,0,0,,蠢货！\N{\rENG}Morons!
+Dialogue: 0,1:13:08.41,1:13:10.00,CHS,,0,0,0,,哈哈\N{\rENG}Ha-ha.
+Dialogue: 0,1:13:12.28,1:13:16.01,CHS,,0,0,0,,嘿，那就把这些鸡蛋装进垃圾袋吧\N{\rENG}Hey, writers, let's egg the self-regarding sacks of shit.
+Dialogue: 0,1:13:16.18,1:13:19.24,CHS,,0,0,0,,他们这半个学期，好像很无聊\N{\rENG}It's half term, they're just bored.
+Dialogue: 0,1:13:21.62,1:13:24.45,CHS,,0,0,0,,你知道嘛，据说哈代给他的妻子染上了性病\N{\rENG}There's this theory that Hardy gave his wife syphilis, you know.
+Dialogue: 0,1:13:24.62,1:13:27.39,CHS,,0,0,0,,不明显，但是已经开始发作了，可怜的女人啊\N{\rENG}No evidence, but the symptoms fit. Poor woman,
+Dialogue: 0,1:13:27.56,1:13:31.33,CHS,,0,0,0,,她开始变得很古怪，还把床搬到了顶楼\N{\rENG}she starts to get eccentric and then she moves her bed up to their attic.
+Dialogue: 0,1:13:31.50,1:13:32.52,CHS,,0,0,0,,哪个王八蛋\N{\rENG}The bastard.
+Dialogue: 0,1:13:32.70,1:13:35.73,CHS,,0,0,0,,哈代可是爱上了一个比他小三十九岁的女人\N{\rENG}Meanwhile, Hardy falls in love with a woman 39 years younger than him.
+Dialogue: 0,1:13:35.90,1:13:39.70,CHS,,0,0,0,,- 真难以置信  - 他都六十五岁了，女的才二十六岁\N{\rENG}- I don't believe it.  - Yeah, he was 65 and she was 26.
+Dialogue: 0,1:13:39.87,1:13:42.40,CHS,,0,0,0,,- 杰夫  - 是格伦\N{\rENG}- Geoff.  - Glen.
+Dialogue: 0,1:13:42.58,1:13:44.10,CHS,,0,0,0,,- 亨利·詹姆斯？ - 托马斯·哈代\N{\rENG}- Henry James?  - Thomas Hardy.
+Dialogue: 0,1:13:44.28,1:13:47.27,CHS,,0,0,0,,- 你说的是哈代的书  - 最近怎么样？\N{\rENG}- That's it, a Hardy book.  - Coming well?
+Dialogue: 0,1:13:47.45,1:13:50.01,CHS,,0,0,0,,- 还不错  - 他可是给他的妻子染上性病了\N{\rENG}- Yes, actually.  - He gave his wife syphilis.
+Dialogue: 0,1:13:50.18,1:13:52.21,CHS,,0,0,0,,这个玩笑蛮有意思\N{\rENG}Jolly good.
+Dialogue: 0,1:13:54.29,1:13:56.31,CHS,,0,0,0,,哦，他…他完全心不在焉\N{\rENG}Oh, he... He's completely distracted.
+Dialogue: 0,1:13:56.49,1:13:58.46,CHS,,0,0,0,,他老是来来回回跑伦敦\N{\rENG}He's up and down to London all the time.
+Dialogue: 0,1:13:58.63,1:14:01.75,CHS,,0,0,0,,最近写的《英迟康博》的内容，好像什么都发生在他身上\N{\rENG}This latest Inchcombe's taking everything he's got.
+Dialogue: 0,1:14:02.20,1:14:04.56,CHS,,0,0,0,,肯定有人勾引他\N{\rENG}It's really preying on him.
+Dialogue: 0,1:14:06.10,1:14:08.50,CHS,,0,0,0,,哪里有什么好东西吗？我来是想换点东西\N{\rENG}Is it any good? Because I keep changing things
+Dialogue: 0,1:14:08.67,1:14:09.69,CHS,,0,0,0,,- 还有…  - 嘘…\N{\rENG}- and...  - Shh.
+Dialogue: 0,1:14:15.61,1:14:18.08,CHS,,0,0,0,,太有杀伤力的直白了\N{\rENG}It's brutally candid.
+Dialogue: 0,1:14:18.88,1:14:22.37,CHS,,0,0,0,,你一个人完全赤裸的躺着\N{\rENG}You lay yourself completely bare.
+Dialogue: 0,1:14:25.46,1:14:30.45,CHS,,0,0,0,,真是有点大胆的书风，需要有个好编辑，但是…\N{\rENG}It's a bit over-written. It needs a good edit, but, uh,
+Dialogue: 0,1:14:32.03,1:14:33.55,CHS,,0,0,0,,非常感动\N{\rENG}it's very moving.
+Dialogue: 0,1:14:34.90,1:14:36.39,CHS,,0,0,0,,谢谢你\N{\rENG}Thank you.
+Dialogue: 0,1:14:36.57,1:14:38.30,CHS,,0,0,0,,然后呢\N{\rENG}So,
+Dialogue: 0,1:14:39.17,1:14:40.97,CHS,,0,0,0,,那我来帮你把把关吧？\N{\rENG}have I done my duty?
+Dialogue: 0,1:14:41.37,1:14:43.00,CHS,,0,0,0,,求之不得\N{\rENG}Admirably.
+Dialogue: 0,1:14:43.41,1:14:45.47,CHS,,0,0,0,,那我就没点好处吗？\N{\rENG}Now do I get my treat?
+Dialogue: 0,1:14:47.18,1:14:49.84,CHS,,0,0,0,,你真没出息\N{\rENG}You are so cheesy.
+Dialogue: 0,1:14:56.32,1:14:59.02,CHS,,0,0,0,,已经压根两个月没看见过本了\N{\rENG}Zero Ben sightings in two whole months.
+Dialogue: 0,1:14:59.19,1:15:04.09,CHS,,0,0,0,,上次看见整形女的时候，就觉得他很脆弱\N{\rENG}Last time I saw Plastic, she looked like a minger.
+Dialogue: 0,1:15:04.26,1:15:06.09,CHS,,0,0,0,,流着鼻涕，哭红了眼睛\N{\rENG}All red-eyed and gutted.
+Dialogue: 0,1:15:06.30,1:15:08.09,CHS,,0,0,0,,本背叛了爱情\N{\rENG}Ben's a love rat.
+Dialogue: 0,1:15:08.27,1:15:10.13,CHS,,0,0,0,,她那么痴心，本还翻脸就不认人\N{\rENG}You gotta face it, she should move on.
+Dialogue: 0,1:15:10.30,1:15:11.83,CHS,,0,0,0,,她现在可能已经没事了\N{\rENG}She's probably topped herself.
+Dialogue: 0,1:15:12.20,1:15:16.47,CHS,,0,0,0,,- 就算本甩了我，我也会没事的  - 茱蒂，别这么说\N{\rENG}- I would, if Ben dumped me.  - Jode, don't say that.
+Dialogue: 0,1:15:16.64,1:15:18.51,CHS,,0,0,0,,即使她努力又能怎么样呢？\N{\rENG}What if she's done something?
+Dialogue: 0,1:15:18.68,1:15:21.41,CHS,,0,0,0,,就像洗热水澡一样用个烧红的项圈？\N{\rENG}Like got in the bath with her heated tongs?
+Dialogue: 0,1:15:21.58,1:15:24.71,CHS,,0,0,0,,就应该给她一堆药，导致她倒地不起\N{\rENG}Like taken a stack of pills. Think she might be lying there,
+Dialogue: 0,1:15:24.88,1:15:27.61,CHS,,0,0,0,,- 让她窒息，让她口吐白沫？ - 太极端了\N{\rENG}- all choked in vomit and drug froth?  - That'd be dire.
+Dialogue: 0,1:15:27.79,1:15:30.65,CHS,,0,0,0,,要是我们找到她，我们一定登报，哦，我的天啊\N{\rENG}If we find her, we'll get in the papers. Oh, my God.
+Dialogue: 0,1:15:30.82,1:15:32.72,CHS,,0,0,0,,把这个小女人蹂躏死在维纳斯农场\N{\rENG}Rock chick dead at Winnards Farm.
+Dialogue: 0,1:15:49.18,1:15:51.34,CHS,,0,0,0,,安迪叔叔来这里干什么？\N{\rENG}What's Uncle Andy doing here?
+Dialogue: 0,1:16:03.79,1:16:05.89,CHS,,0,0,0,,是那个蠢货\N{\rENG}Ass biscuits.
+Dialogue: 0,1:16:15.64,1:16:17.40,CHS,,0,0,0,,别出声\N{\rENG}No answer.
+Dialogue: 0,1:16:17.57,1:16:20.94,CHS,,0,0,0,,她这几天都在这里，天天在家淫乱，真恶心\N{\rENG}She could've been there days. She could be all putrid-like, rancid.
+Dialogue: 0,1:16:21.11,1:16:23.08,CHS,,0,0,0,,哦，好了，别说了\N{\rENG}Oh, no, gonna chuck.
+Dialogue: 0,1:16:23.25,1:16:27.05,CHS,,0,0,0,,- 肯定头脑发胀，看什么都是绿色  - 安迪叔叔问问就能找到她了\N{\rENG}- All bloated and all green y.  - Uncle Andy will find her by the smell.
+Dialogue: 0,1:16:27.68,1:16:28.98,CHS,,0,0,0,,- 哦  - 嘘\N{\rENG}- Ugh.  - Shh.
+Dialogue: 0,1:16:30.39,1:16:31.68,CHS,,0,0,0,,安迪\N{\rENG}Andy.
+Dialogue: 0,1:16:31.86,1:16:35.05,CHS,,0,0,0,,- 胡说，她居然还活着  - 有一久没有看到你了\N{\rENG}- Oh, bollocks, she's alive.  - Haven't seen you for a while.
+Dialogue: 0,1:16:35.66,1:16:37.92,CHS,,0,0,0,,你怎么看起来像病了，还是有什么事或者沮丧\N{\rENG}Thought you might be ill or something, or depressed.
+Dialogue: 0,1:16:38.10,1:16:40.36,CHS,,0,0,0,,我一直低头写作呢\N{\rENG}I've had my head down, writing.
+Dialogue: 0,1:16:40.53,1:16:41.59,CHS,,0,0,0,,出来喝点什么\N{\rENG}Come for a drink.
+Dialogue: 0,1:16:42.17,1:16:44.36,CHS,,0,0,0,,- 放松一下吧  - 我很愿意去，但是…\N{\rENG}- Let's lighten up.  - I'd love to, but,
+Dialogue: 0,1:16:45.37,1:16:48.53,CHS,,0,0,0,,我正在写东西\N{\rENG}I'm kind of on one with my writing, and...
+Dialogue: 0,1:16:49.87,1:16:51.40,CHS,,0,0,0,,等我写完再一起去吧？\N{\rENG}Can we do it soon, though?
+Dialogue: 0,1:16:51.58,1:16:55.10,CHS,,0,0,0,,我真的很想和你去，但是现在不行\N{\rENG}I really would like to. Just not right now.
+Dialogue: 0,1:16:55.78,1:16:57.41,CHS,,0,0,0,,好吧\N{\rENG}Sure.
+Dialogue: 0,1:17:07.99,1:17:09.82,CHS,,0,0,0,,他来这里干嘛？\N{\rENG}What is he doing here?
+Dialogue: 0,1:17:10.00,1:17:11.93,CHS,,0,0,0,,他很少来这\N{\rENG}Oh, he just came by on the off-chance.
+Dialogue: 0,1:17:12.10,1:17:13.96,CHS,,0,0,0,,很少吗？\N{\rENG}Off-chance of what?
+Dialogue: 0,1:17:14.13,1:17:16.57,CHS,,0,0,0,,就是来检查一下屋顶\N{\rENG}Something about the roofing for the shed.
+Dialogue: 0,1:17:22.91,1:17:25.24,CHS,,0,0,0,,- 你认为他有机会吗？ - 没有吧\N{\rENG}- Do you think he's in with a chance?  - No way.
+Dialogue: 0,1:17:25.41,1:17:28.40,CHS,,0,0,0,,- 为什么没有？他蛮适合的，我支持他  - 茱蒂，他可是我叔叔\N{\rENG}- Why not? He's fit. I'd do him.  - Jody, he's my uncle.
+Dialogue: 0,1:17:28.58,1:17:31.57,CHS,,0,0,0,,她找不到他时都要疯了，打赌他也喜欢着女的\N{\rENG}She'd be mad not to have him. Bet he goes like a train.
+Dialogue: 0,1:17:38.46,1:17:39.98,CHS,,0,0,0,,走吧，我的短裤都湿了\N{\rENG}Let's go, my knickers are wet.
+Dialogue: 0,1:17:40.16,1:17:42.29,CHS,,0,0,0,,等一下，等一下\N{\rENG}Wait, wait.
+Dialogue: 0,1:17:46.00,1:17:48.94,CHS,,0,0,0,,哦，我的天啊\N{\rENG}Oh, my God.
+Dialogue: 0,1:17:52.87,1:17:54.17,CHS,,0,0,0,,好了，快走吧\N{\rENG}Nicholas, go.
+Dialogue: 0,1:18:02.69,1:18:05.62,CHS,,0,0,0,,“智力犯罪小说的多产作家”\N{\rENG}"Prolific author of intelligent crime novels."
+Dialogue: 0,1:18:05.79,1:18:08.72,CHS,,0,0,0,,他妈的D清单，她和本好了，他怎么又能这样？\N{\rENG}Fucking D-list. How could she do that after Ben?
+Dialogue: 0,1:18:08.89,1:18:12.05,CHS,,0,0,0,,- 他根本算不上什么名流  - 或许她想麻痹她的伤口\N{\rENG}- He's not even a proper celeb.  - Maybe she's numbing the pain.
+Dialogue: 0,1:18:12.23,1:18:13.25,CHS,,0,0,0,,试着抚平原来的爱\N{\rENG}Trying to tear love...
+Dialogue: 0,1:18:13.43,1:18:15.09,CHS,,0,0,0,,凯西，闭嘴吧，他简直就是个荡妇\N{\rENG}Oh, shut up, Case. She's just a slag.
+Dialogue: 0,1:18:15.26,1:18:18.06,CHS,,0,0,0,,她怎么能和一个有婚男子有染\N{\rENG}She went out and pulled a married man.
+Dialogue: 0,1:18:18.60,1:18:21.83,CHS,,0,0,0,,像那个勾引我爸爸的婊子一样\N{\rENG}Like that bitch that went off with my dad.
+Dialogue: 0,1:18:23.41,1:18:26.47,CHS,,0,0,0,,我不知道我对不起谁\N{\rENG}I know who I feel sorry for.
+Dialogue: 0,1:18:30.81,1:18:33.44,CHS,,0,0,0,,这样可能导致离婚太讽刺性了\N{\rENG}Then there'll be the divorce and acrimony,
+Dialogue: 0,1:18:33.62,1:18:36.35,CHS,,0,0,0,,- 贝丝的生活肯定会土崩瓦解  - 是啊\N{\rENG}- and Beth's world will fall apart.  - Yeah.
+Dialogue: 0,1:18:36.52,1:18:40.65,CHS,,0,0,0,,或许有一天她会怨恨她\N{\rENG}But maybe one day, she'll put the bitterness behind her,
+Dialogue: 0,1:18:40.83,1:18:42.09,CHS,,0,0,0,,找一个新的爱人\N{\rENG}and find a new love.
+Dialogue: 0,1:18:42.26,1:18:44.99,CHS,,0,0,0,,你笨啊，别发疯了，那时她早就老了\N{\rENG}Don't be daft. She's old, you sop.
+Dialogue: 0,1:18:45.16,1:18:46.93,CHS,,0,0,0,,看？\N{\rENG}See?
+Dialogue: 0,1:18:47.63,1:18:50.43,CHS,,0,0,0,,这可是D清单的车\N{\rENG}That's D-list's car.
+Dialogue: 0,1:18:52.00,1:18:55.27,CHS,,0,0,0,,原来他把车藏在这里，偷偷去见贱人整形女\N{\rENG}This is where he hides his car when he goes to shag Plastic.
+Dialogue: 0,1:18:55.44,1:18:58.47,CHS,,0,0,0,,这个蠢货，一坨屎\N{\rENG}Yeah. Dirty git. Big old turd.
+Dialogue: 0,1:18:58.64,1:19:02.24,CHS,,0,0,0,,- 他简直有伤风化  - 真像我爸\N{\rENG}- He's a rotten cheater.  - Like my dad.
+Dialogue: 0,1:19:03.28,1:19:06.44,CHS,,0,0,0,,来吧，凯西，让我们好好戏弄一下他\N{\rENG}Come on, Case. Let's fuck him up.
+Dialogue: 0,1:19:10.56,1:19:13.42,CHS,,0,0,0,,真该死\N{\rENG}Shit salad.
+Dialogue: 0,1:19:16.80,1:19:19.89,CHS,,0,0,0,,哦，你真可怜，快找个拖车\N{\rENG}Oh, poor you. What a drag.
+Dialogue: 0,1:19:20.27,1:19:21.53,CHS,,0,0,0,,是啊，肯定是什么讨厌的人干的\N{\rENG}Yes, it's a frightful bore.
+Dialogue: 0,1:19:21.70,1:19:23.33,CHS,,0,0,0,,那我晚点在做饭好了\N{\rENG}I'll hold off on the paella then.
+Dialogue: 0,1:19:23.50,1:19:25.40,CHS,,0,0,0,,你真是贤妻良母，等会见\N{\rENG}You're a marvel. See you soon.
+Dialogue: 0,1:19:25.57,1:19:27.20,CHS,,0,0,0,,那你…？\N{\rENG}Did you...?
+Dialogue: 0,1:19:30.38,1:19:33.35,CHS,,0,0,0,,贝丝，我能借一下你的打印机吗？\N{\rENG}Beth, can I use the printer?
+Dialogue: 0,1:19:33.51,1:19:37.28,CHS,,0,0,0,,尼古拉斯在高速路上把车胎弄爆了\N{\rENG}Nicholas is stuck on the motorway with a flat tire,
+Dialogue: 0,1:19:37.75,1:19:39.98,CHS,,0,0,0,,我从来没听过这种事，是不是骗我呢\N{\rENG}but I couldn't hear traffic, just rooks.
+Dialogue: 0,1:19:40.15,1:19:41.49,CHS,,0,0,0,,嗯\N{\rENG}Hmm.
+Dialogue: 0,1:19:42.32,1:19:44.31,CHS,,0,0,0,,哦，对不起，你要让我读写什么吗？\N{\rENG}Sorry, um, did you want me to read something?
+Dialogue: 0,1:19:44.49,1:19:46.48,CHS,,0,0,0,,不是，我能使用一下打印机吗？\N{\rENG}No. Can I use the printer?
+Dialogue: 0,1:19:50.50,1:19:54.43,CHS,,0,0,0,,尼古拉斯，肯定有人知道了\N{\rENG}Nicholas, someone knows.
+Dialogue: 0,1:19:54.67,1:19:57.60,CHS,,0,0,0,,- 或许我们应该…  - 谁会在乎？\N{\rENG}- Maybe we should...  - Who cares?
+Dialogue: 0,1:20:07.02,1:20:11.35,CHS,,0,0,0,,凯西，快拍他们，快拍\N{\rENG}Casey, pop them. Pop them.
+Dialogue: 0,1:20:16.19,1:20:19.06,CHS,,0,0,0,,他妈的成功了\N{\rENG}Fucking bingo.
+Dialogue: 0,1:20:23.80,1:20:26.06,CHS,,0,0,0,,你好啊，凯西，最近好吗？你好\N{\rENG}Hello, Casey, how are you? Hello.
+Dialogue: 0,1:20:26.24,1:20:28.30,CHS,,0,0,0,,- 还不错  - 等公车吗？\N{\rENG}- All right.  - Waiting for the bus?
+Dialogue: 0,1:20:28.47,1:20:30.34,CHS,,0,0,0,,- 公车早就报废了  - 哦，对\N{\rENG}- Bus got scrapped.  - Oh, so it did.
+Dialogue: 0,1:20:30.51,1:20:33.77,CHS,,0,0,0,,那就希望别下雨好了\N{\rENG}Well, hope it doesn't rain.
+Dialogue: 0,1:20:35.41,1:20:38.41,CHS,,0,0,0,,- 看来她心神不宁  - 我也这么觉得\N{\rENG}- Gutted for her.  - Me too.
+Dialogue: 0,1:20:39.08,1:20:41.57,CHS,,0,0,0,,她简直就像个肥婆，不是吗？\N{\rENG}Fat arse though, hasn't she?
+Dialogue: 0,1:20:44.96,1:20:46.69,CHS,,0,0,0,,- 凯西，给她发照片  - 我不\N{\rENG}- Send her the photo, Case.  - I can't.
+Dialogue: 0,1:20:46.86,1:20:48.92,CHS,,0,0,0,,- 为什么？ - 这样会毁了她生活的？\N{\rENG}- Why not?  - What if it ruins her life?
+Dialogue: 0,1:20:49.09,1:20:51.15,CHS,,0,0,0,,我们明明知道，整形女就是个蠢货\N{\rENG}We gotta do something. Plastic's an idiot.
+Dialogue: 0,1:20:51.33,1:20:54.16,CHS,,0,0,0,,- 她毁了本的生活  - 茱蒂，使我们毁了本的生活\N{\rENG}- She fucked it up with Ben.  - We fucked it up with Ben, Jode.
+Dialogue: 0,1:20:57.24,1:20:59.14,CHS,,0,0,0,,事实上…\N{\rENG}It's like...
+Dialogue: 0,1:21:01.71,1:21:04.54,CHS,,0,0,0,,我们应该把D清单营救回她的身边\N{\rENG}We've gotta rescue her from D-list.
+Dialogue: 0,1:21:33.91,1:21:35.60,CHS,,0,0,0,,- 凯西  - 怎么了？\N{\rENG}- Casey.  - What?
+Dialogue: 0,1:21:35.78,1:21:39.91,CHS,,0,0,0,,她又有本的电子邮件了，他们重新联系了\N{\rENG}She's back in touch with him. She's got an e-mail from Ben.
+Dialogue: 0,1:21:40.22,1:21:43.41,CHS,,0,0,0,,“塔玛拉，弗兰的孩子已经出生了”\N{\rENG}"Tamara, Fran's baby has come."
+Dialogue: 0,1:21:43.59,1:21:46.95,CHS,,0,0,0,,凯西，他说生了一个咖啡肤色、头发还卷卷的小女孩\N{\rENG}Case, he says it's a little brown girl with curly black hair.
+Dialogue: 0,1:21:47.12,1:21:48.52,CHS,,0,0,0,,哦，太可爱了\N{\rENG}Oh, cute.
+Dialogue: 0,1:21:48.69,1:21:52.75,CHS,,0,0,0,,我想我们能确保孩子不是我的，是斯蒂夫·尹楷的\N{\rENG}"I think we can safely say it's Steven Culley's, not mine.
+Dialogue: 0,1:21:52.93,1:21:55.42,CHS,,0,0,0,,真的，我觉得释放了\N{\rENG}Truth is, I feel free.
+Dialogue: 0,1:21:55.60,1:21:57.83,CHS,,0,0,0,,我再在巴黎待几天\N{\rENG}Gig in Paris for a few days.
+Dialogue: 0,1:21:58.00,1:22:01.13,CHS,,0,0,0,,要是我回来，你还愿意养“老板”吗？\N{\rENG}If I bring him down, would you have Boss?"
+Dialogue: 0,1:22:01.30,1:22:04.93,CHS,,0,0,0,,哇，是的，他要回来了\N{\rENG}Yes. Yes, he's coming back.
+Dialogue: 0,1:22:05.27,1:22:07.57,CHS,,0,0,0,,- 你在干什么？ - 亲爱的本\N{\rENG}- What are you doing?  - Dear, Ben,
+Dialogue: 0,1:22:07.74,1:22:11.44,CHS,,0,0,0,,我可是镇子里最爱狗的人了\N{\rENG}I have found a reliable dog lover in the village.
+Dialogue: 0,1:22:11.61,1:22:13.51,CHS,,0,0,0,,- 谁啊？ - 请打电话给茱蒂\N{\rENG}- Who?  - Please call Jody,
+Dialogue: 0,1:22:13.68,1:22:17.55,CHS,,0,0,0,,- 你不能发这个  - 电话是〇七七〇〇九〇〇九二九\N{\rENG}- You can't send that.  - on 07 700-900-929.
+Dialogue: 0,1:22:17.72,1:22:20.62,CHS,,0,0,0,,- 我会让他回到这里的！ - 为了谁？为了你吗？\N{\rENG}- I'm getting him back down here!  - For who? You?
+Dialogue: 0,1:22:20.79,1:22:22.95,CHS,,0,0,0,,- 为什么不能是我？ - 你疯了吗？\N{\rENG}- Why not me?  - Are you mental?
+Dialogue: 0,1:22:23.13,1:22:25.75,CHS,,0,0,0,,- “最爱狗的人”？ - 你一定会制造一个大混乱的\N{\rENG}- "Reliable dog lover"?  - You're making a great big mess...
+Dialogue: 0,1:22:25.93,1:22:28.30,CHS,,0,0,0,,我正在让什么事情发生！\N{\rENG}I'm making something happen!
+Dialogue: 0,1:22:28.63,1:22:30.50,CHS,,0,0,0,,另外，我的生命就这样一天天过去\N{\rENG}Otherwise, my whole life will go by,
+Dialogue: 0,1:22:30.67,1:22:33.03,CHS,,0,0,0,,我也会三十四岁，我也会像妈妈一样失去一切\N{\rENG}and I'll be 34 and washed up like my mom.
+Dialogue: 0,1:22:33.20,1:22:36.30,CHS,,0,0,0,,没有一个正直的人真正、真正地疼我\N{\rENG}And no one decent will ever even have snogged me.
+Dialogue: 0,1:22:36.47,1:22:39.34,CHS,,0,0,0,,如果你这么做了，你真的就一个人了\N{\rENG}If you do this, you're on your own.
+Dialogue: 0,1:22:39.51,1:22:41.64,CHS,,0,0,0,,行了，闭嘴\N{\rENG}Fuck off, then.
+Dialogue: 0,1:22:42.15,1:22:44.44,CHS,,0,0,0,,你个笨蛋\N{\rENG}You twat.
+Dialogue: 0,1:22:47.85,1:22:50.91,CHS,,0,0,0,,这是活动纪念册，你正在做的这种兰松字幕\N{\rENG}There's the festival brochure. You're on in the Lanson marquee.
+Dialogue: 0,1:22:51.22,1:22:53.82,CHS,,0,0,0,,我标记了一部分，方便你选读\N{\rENG}And, um, I've marked a few bits, in case you want to read.
+Dialogue: 0,1:22:53.99,1:22:56.96,CHS,,0,0,0,,你真是太好了，亲爱的\N{\rENG}You're a marvel. Cheers.
+Dialogue: 0,1:22:57.13,1:22:58.79,CHS,,0,0,0,,我都会陪着你左右的\N{\rENG}I could come with you.
+Dialogue: 0,1:22:58.96,1:23:01.16,CHS,,0,0,0,,哦，不用了吧，你不是讨厌活动吗\N{\rENG}Oh, don't. You hate festivals.
+Dialogue: 0,1:23:01.33,1:23:04.30,CHS,,0,0,0,,但是那里只有哈德森，我还是可以去的\N{\rENG}But it's only Hadditon. I'll come.
+Dialogue: 0,1:23:04.47,1:23:07.37,CHS,,0,0,0,,它完全没意思，你肯定不喜欢的\N{\rENG}It'll be completely boring. You'll hate it.
+Dialogue: 0,1:23:07.54,1:23:09.41,CHS,,0,0,0,,就呆在家里吧\N{\rENG}Stay here.
+Dialogue: 0,1:23:22.22,1:23:23.62,CHS,,0,0,0,,哦\N{\rENG}Wow.
+Dialogue: 0,1:23:30.83,1:23:35.03,CHS,,0,0,0,,过分，啊，真是的\N{\rENG}Wanker! Aah! Right.
+Dialogue: 0,1:23:37.07,1:23:38.60,CHS,,0,0,0,,- 哈哈哈  - 写完了\N{\rENG}- Ha-ha-ha.  - Finished.
+Dialogue: 0,1:23:38.77,1:23:41.61,CHS,,0,0,0,,我正在做庆功宴上面的糕点，你做的真不错\N{\rENG}I'm doing this cake in celebration. Well done.
+Dialogue: 0,1:23:41.78,1:23:43.11,CHS,,0,0,0,,嗯，给哈代的吧\N{\rENG}Well, to Hardy.
+Dialogue: 0,1:23:44.48,1:23:48.11,CHS,,0,0,0,,是啊，虽然我不能容忍一个这么对他妻子的男人\N{\rENG}Yeah, even though I can't bear the man for what he did to his wife.
+Dialogue: 0,1:23:48.48,1:23:51.71,CHS,,0,0,0,,谢谢你了，安迪，放那边吧\N{\rENG}Oh, thanks, Andy. Just pop them over there.
+Dialogue: 0,1:23:57.36,1:23:59.99,CHS,,0,0,0,,我怎么才能找出谁发这个给我的？\N{\rENG}How do I find out who sent this?
+Dialogue: 0,1:24:05.50,1:24:07.87,CHS,,0,0,0,,这是一种“保留号码”\N{\rENG}It says "number withheld."
+Dialogue: 0,1:24:10.41,1:24:12.34,CHS,,0,0,0,,你知道吗？\N{\rENG}Did you know?
+Dialogue: 0,1:24:15.48,1:24:17.74,CHS,,0,0,0,,我不能告诉你\N{\rENG}I couldn't tell you.
+Dialogue: 0,1:24:18.08,1:24:19.95,CHS,,0,0,0,,对不起，贝丝\N{\rENG}I'm sorry, Beth.
+Dialogue: 0,1:24:26.22,1:24:28.02,CHS,,0,0,0,,她\N{\rENG}Her.
+Dialogue: 0,1:24:28.43,1:24:30.36,CHS,,0,0,0,,哦，我的天啊\N{\rENG}Oh, my God.
+Dialogue: 0,1:24:30.53,1:24:33.55,CHS,,0,0,0,,这真是…真是让人挺意外的\N{\rENG}Oh, this is just... This is just horrible.
+Dialogue: 0,1:24:33.73,1:24:34.76,CHS,,0,0,0,,我的感觉是对的\N{\rENG}Right under my nose.
+Dialogue: 0,1:24:34.93,1:24:36.80,CHS,,0,0,0,,- 这是在太过分了  - 天啊，我恶心\N{\rENG}- Oh, it's so shitty.  - God, I feel sick.
+Dialogue: 0,1:24:36.97,1:24:39.77,CHS,,0,0,0,,真是太伤人了，你也不用太认真了\N{\rENG}So insulting. You do not deserve to be treated like this.
+Dialogue: 0,1:24:39.94,1:24:41.60,CHS,,0,0,0,,你这么说，我会哭的\N{\rENG}If you're kind to me, I'll cry.
+Dialogue: 0,1:24:41.77,1:24:44.67,CHS,,0,0,0,,但是我不能哭，我必须清醒\N{\rENG}And I don't want to cry, I must be very clear.
+Dialogue: 0,1:24:45.11,1:24:47.55,CHS,,0,0,0,,那我能为你做什么呢\N{\rENG}If there's anything that I can do...
+Dialogue: 0,1:24:47.81,1:24:50.04,CHS,,0,0,0,,我还是靠我自己吧\N{\rENG}I have to do it by myself.
+Dialogue: 0,1:24:54.15,1:24:56.78,CHS,,0,0,0,,好了，贝丝，好了，别难过了\N{\rENG}Oh, come on. Come on, Beth. Come on.
+Dialogue: 0,1:24:56.96,1:24:59.89,CHS,,0,0,0,,我要报复这种混乱的交往\N{\rENG}I trod in the sponge mix.
+Dialogue: 0,1:25:06.20,1:25:09.07,CHS,,0,0,0,,茱蒂？我是本中士\N{\rENG}Jody? This is Ben Sergeant.
+Dialogue: 0,1:25:10.00,1:25:11.94,CHS,,0,0,0,,是吗，太好了，我很爱狗\N{\rENG}Yeah, that's right. I love dogs.
+Dialogue: 0,1:25:12.54,1:25:16.27,CHS,,0,0,0,,下午两点我来维纳斯农场看你\N{\rENG}Yeah, so I'll see you at Winnards Farm at 2:00.
+Dialogue: 0,1:25:16.44,1:25:18.91,CHS,,0,0,0,,好啊，一言为定\N{\rENG}Yeah. Perfect.
+Dialogue: 0,1:25:27.59,1:25:29.32,CHS,,0,0,0,,安迪\N{\rENG}Andy.
+Dialogue: 0,1:25:29.56,1:25:32.25,CHS,,0,0,0,,嘿，你怎么了？\N{\rENG}Hey, how are you?
+Dialogue: 0,1:25:34.03,1:25:37.00,CHS,,0,0,0,,我想你能否陪我出去喝点什么？\N{\rENG}I wondered if you wanted to go for that drink?
+Dialogue: 0,1:25:37.53,1:25:40.33,CHS,,0,0,0,,- 我想要个朋友…  - 你和尼古拉斯·哈迪蒙特\N{\rENG}- I need a friend at the mo...  - You and Nicholas Hardiment.
+Dialogue: 0,1:25:40.50,1:25:42.73,CHS,,0,0,0,,那有一份好工作，不是吗？\N{\rENG}That's a nice piece of work, isn't it?
+Dialogue: 0,1:25:42.91,1:25:46.84,CHS,,0,0,0,,那是我站在他的立场上，他真是有点自欺欺人了\N{\rENG}I get it from his point of view. He's always been a cheating wanker.
+Dialogue: 0,1:25:47.01,1:25:49.77,CHS,,0,0,0,,他有一个自己的蛋糕，可以去享受\N{\rENG}Loves having his cake and eating it.
+Dialogue: 0,1:25:50.88,1:25:53.82,CHS,,0,0,0,,但是你的标准那么低吗？\N{\rENG}But since when did your standards drop so low?
+Dialogue: 0,1:25:53.98,1:25:55.28,CHS,,0,0,0,,你可以和任何人上床\N{\rENG}You could have anyone.
+Dialogue: 0,1:25:55.45,1:25:58.22,CHS,,0,0,0,,- 这是你自作自受  - 安迪\N{\rENG}- All you have to do is bat your eyes.  - Andy.
+Dialogue: 0,1:25:58.39,1:26:02.29,CHS,,0,0,0,,我很在乎贝丝的感受，至少她在我人生低谷的时候帮助过我\N{\rENG}I care a lot about Beth. She helped me out when I was at rock bottom.
+Dialogue: 0,1:26:02.46,1:26:03.98,CHS,,0,0,0,,我根本就没有想拆撒他们\N{\rENG}I'm not going to split them up.
+Dialogue: 0,1:26:04.16,1:26:05.96,CHS,,0,0,0,,- 仅仅是…  - 真有点搞笑？\N{\rENG}- It's just...  - A bit of fun?
+Dialogue: 0,1:26:06.13,1:26:09.03,CHS,,0,0,0,,这根本就不关你什么事情\N{\rENG}It's none of your bloody business.
+Dialogue: 0,1:26:11.20,1:26:13.73,CHS,,0,0,0,,- 安迪·科布已经知道了  - 真是爱嚼舌头，他告诉贝丝了？\N{\rENG}- Andy Cobb knows.  - Cock pie. Has he told Beth?
+Dialogue: 0,1:26:13.90,1:26:16.53,CHS,,0,0,0,,我不知道，肯能吧，但我也没责备他\N{\rENG}I don't know, but he might. And I wouldn't blame him.
+Dialogue: 0,1:26:16.71,1:26:18.17,CHS,,0,0,0,,曾今我假设发生过这事\N{\rENG}I suppose it has to come out sometime.
+Dialogue: 0,1:26:18.34,1:26:19.37,CHS,,0,0,0,,你假设什么？\N{\rENG}Does it?
+Dialogue: 0,1:26:19.54,1:26:22.51,CHS,,0,0,0,,其实也是一件好事，感觉放松了，还能考虑\N{\rENG}It's a good thing. Feels like a relief. It means we can think about
+Dialogue: 0,1:26:22.68,1:26:24.77,CHS,,0,0,0,,- 我们将来的计划  - 什么将来？\N{\rENG}- our plans for the future.  - What future?
+Dialogue: 0,1:26:24.95,1:26:27.48,CHS,,0,0,0,,我知道对你来说很难分享我和贝丝\N{\rENG}I know it's been hard for you, sharing me with Beth.
+Dialogue: 0,1:26:27.65,1:26:29.78,CHS,,0,0,0,,但是我是你的人了，我决定离开她\N{\rENG}But I'm yours now. I'm gonna leave her.
+Dialogue: 0,1:26:29.96,1:26:32.92,CHS,,0,0,0,,哈迪蒙特先生，时间到了\N{\rENG}Mr. Hardiment. It's time.
+Dialogue: 0,1:26:34.19,1:26:38.09,CHS,,0,0,0,,我想和你有个新生活\N{\rENG}I want a new life with you.
+Dialogue: 0,1:26:41.23,1:26:42.50,CHS,,0,0,0,,妈妈，它是很漂亮的狗\N{\rENG}It's a nice dog, Mom.
+Dialogue: 0,1:26:42.67,1:26:46.00,CHS,,0,0,0,,我可不想让狗毛和口水到处都是\N{\rENG}Well, I don't like having dog hair and slobber all over the place.
+Dialogue: 0,1:26:46.17,1:26:47.50,CHS,,0,0,0,,但是我答应了\N{\rENG}But I said yes.
+Dialogue: 0,1:26:47.67,1:26:50.27,CHS,,0,0,0,,我不养狗，绝不可能，就这么多\N{\rENG}No dogs, no way, and that's final.
+Dialogue: 0,1:26:50.44,1:26:54.54,CHS,,0,0,0,,你个失败者，我讨厌你，你毁了我的生活！\N{\rENG}You loser, I hate you! You want to ruin my life!
+Dialogue: 0,1:26:56.28,1:26:57.91,CHS,,0,0,0,,靠梦想生活，茱蒂\N{\rENG}Live the dream, Jody.
+Dialogue: 0,1:26:58.09,1:26:59.68,CHS,,0,0,0,,现在所有运行还蛮顺利的\N{\rENG}Well, it all runs very smoothly.
+Dialogue: 0,1:26:59.85,1:27:03.12,CHS,,0,0,0,,今年夏天准备再写一本书，出版要到来年春天\N{\rENG}I start a book in the summer and publish it the following spring.
+Dialogue: 0,1:27:03.29,1:27:05.28,CHS,,0,0,0,,成了小型加工厂了，真的\N{\rENG}Bit of a factory, really.
+Dialogue: 0,1:27:06.66,1:27:10.79,CHS,,0,0,0,,你已经完成了《像夜里》，其中描述了十七世纪英迟康博的那种冒险精神\N{\rENG}So you've finished Like The Night, which is the 1 7th of the Inchcombe adventures.
+Dialogue: 0,1:27:10.96,1:27:14.13,CHS,,0,0,0,,我们假定你下一步正在准备\N{\rENG}And we all assume you're planning the next one already.
+Dialogue: 0,1:27:14.30,1:27:16.03,CHS,,0,0,0,,是这样\N{\rENG}Well,
+Dialogue: 0,1:27:17.27,1:27:19.33,CHS,,0,0,0,,我不打算再写下一部了\N{\rENG}there isn't gonna be a next one.
+Dialogue: 0,1:27:19.51,1:27:20.60,CHS,,0,0,0,,- 不会吧  - 什么？\N{\rENG}- No.  - What?
+Dialogue: 0,1:27:20.78,1:27:22.94,CHS,,0,0,0,,坦白讲，把英迟康博写死我会很难受的\N{\rENG}Frankly, I'm sick to death of Inchcombe.
+Dialogue: 0,1:27:23.11,1:27:25.74,CHS,,0,0,0,,事实，我会把他写死的\N{\rENG}In fact, I'm about to kill him off.
+Dialogue: 0,1:27:25.91,1:27:27.35,CHS,,0,0,0,,- 不  - 他不应该那么做\N{\rENG}- No.  - He can't do that.
+Dialogue: 0,1:27:27.52,1:27:29.75,CHS,,0,0,0,,我觉得这场发布会\N{\rENG}Well, I think that's what we call in the trade,
+Dialogue: 0,1:27:29.92,1:27:32.89,CHS,,0,0,0,,就是你给你的粉丝们一个爆炸性新闻\N{\rENG}a bit of a bombshell, for your fans here.
+Dialogue: 0,1:27:33.42,1:27:37.52,CHS,,0,0,0,,是的，我想去一个新鲜的农场\N{\rENG}Yes, but I'm moving on to fresh pastures.
+Dialogue: 0,1:27:37.69,1:27:39.46,CHS,,0,0,0,,不\N{\rENG}No.
+Dialogue: 0,1:27:39.63,1:27:41.89,CHS,,0,0,0,,英迟康博这个人物不太好收场\N{\rENG}Inchcombe is about to meet a very sticky end,
+Dialogue: 0,1:27:42.06,1:27:45.16,CHS,,0,0,0,,我还是愿意他是一个凶手收场\N{\rENG}and it's one murder I'm really looking forward to.
+Dialogue: 0,1:27:46.54,1:27:49.94,CHS,,0,0,0,,现在我觉得观众们可以提几个问题\N{\rENG}Now, at this point, we should get some questions, I think.
+Dialogue: 0,1:27:50.11,1:27:53.91,CHS,,0,0,0,,对，就是那个举手的女性\N{\rENG}And I'm... Yes, there's a lady over there.
+Dialogue: 0,1:27:57.25,1:28:02.24,CHS,,0,0,0,,你写了很多通奸的故事，都来自你的经历吗？\N{\rENG}You write a lot about adultery, is that from personal experience?
+Dialogue: 0,1:28:03.39,1:28:04.91,CHS,,0,0,0,,女士\N{\rENG}Madam,
+Dialogue: 0,1:28:06.92,1:28:08.92,CHS,,0,0,0,,这真是一个好问题\N{\rENG}what a saucy question. Uh...
+Dialogue: 0,1:28:09.09,1:28:11.65,CHS,,0,0,0,,但是作者的工作并不是在写自传\N{\rENG}But there's no need for an author's work to be autobiographical...
+Dialogue: 0,1:28:11.83,1:28:13.69,CHS,,0,0,0,,那你为什么一直欺骗你的妻子？\N{\rENG}Why do you cheat persistently on your wife?
+Dialogue: 0,1:28:15.37,1:28:17.23,CHS,,0,0,0,,这人是谁？\N{\rENG}Who's that?
+Dialogue: 0,1:28:22.71,1:28:24.80,CHS,,0,0,0,,她容许我这样的\N{\rENG}Because she lets me.
+Dialogue: 0,1:28:26.21,1:28:27.94,CHS,,0,0,0,,塔玛拉\N{\rENG}Tamara.
+Dialogue: 0,1:28:28.95,1:28:31.25,CHS,,0,0,0,,- 要去哪？ - 尼古拉斯就到这停止吧\N{\rENG}- Where...?  - Nicholas, this has got to stop.
+Dialogue: 0,1:28:31.42,1:28:33.61,CHS,,0,0,0,,你说得对，我不可能和她再好了，我欺骗了她\N{\rENG}You're right. I can't go on using her. Lying to her.
+Dialogue: 0,1:28:33.79,1:28:35.22,CHS,,0,0,0,,我是认真的，但我已经这么做了\N{\rENG}It won't be fun but I've gotta do it.
+Dialogue: 0,1:28:35.39,1:28:38.12,CHS,,0,0,0,,和贝丝生活索然无味，好多年我们都没有一起生活了\N{\rENG}I don't feel alive with Beth. I haven't been living for years.
+Dialogue: 0,1:28:38.29,1:28:41.32,CHS,,0,0,0,,- 她像个隔氧层领我窒息  - 尼古拉斯，听我说\N{\rENG}- She's smothered me like a blanket.  - Nicholas, listen to me.
+Dialogue: 0,1:28:41.49,1:28:45.26,CHS,,0,0,0,,这本来就是一场游戏，该结束了\N{\rENG}It was fun, but it's wrong and it's over.
+Dialogue: 0,1:28:48.33,1:28:51.00,CHS,,0,0,0,,- 我真的爱上你了  - 对不起\N{\rENG}- I'm in love with you.  - I'm sorry.
+Dialogue: 0,1:28:51.17,1:28:52.57,CHS,,0,0,0,,不\N{\rENG}No.
+Dialogue: 0,1:28:52.74,1:28:56.18,CHS,,0,0,0,,不，不，不，你不能结束他，塔玛拉\N{\rENG}No. No. No. You can't end it. Tamara...
+Dialogue: 0,1:28:56.34,1:28:58.40,CHS,,0,0,0,,- 他妈的晚餐！ - 你能小声点吗？\N{\rENG}- Fuck supper!  - Will you keep it down?
+Dialogue: 0,1:28:58.58,1:29:00.98,CHS,,0,0,0,,- 我的天啊，你是冷血的吗  - 不，我不是\N{\rENG}- My God, you're cold-hearted.  - No, I'm not.
+Dialogue: 0,1:29:01.15,1:29:03.95,CHS,,0,0,0,,- 你对事情没有感觉，不是吗？ - 我有，我有感觉\N{\rENG}- You don't feel a thing, do you?  - I do. I do feel.
+Dialogue: 0,1:29:04.12,1:29:07.32,CHS,,0,0,0,,我喜欢在内心火辣辣的感觉\N{\rENG}I feel like I'm blazing away inside all the time.
+Dialogue: 0,1:29:07.96,1:29:11.25,CHS,,0,0,0,,我为什么要做这些事呢？我都和你做了些什么？\N{\rENG}Why do I do these things? What am I doing with you?
+Dialogue: 0,1:29:12.56,1:29:15.69,CHS,,0,0,0,,- 哪里还有谁，还有谁和你睡过？ - 哦，我的天啊\N{\rENG}- There's someone else, isn't there?  - Oh, for God's sake.
+Dialogue: 0,1:29:15.86,1:29:18.59,CHS,,0,0,0,,- 不是那个自以为是的鼓手啊？ - 再见\N{\rENG}- Not the narcissist drummer?  - Goodbye.
+Dialogue: 0,1:29:18.77,1:29:20.46,CHS,,0,0,0,,还是那个无知的笨蛋？\N{\rENG}It's that ignorant lunk, isn't it?
+Dialogue: 0,1:29:20.64,1:29:23.50,CHS,,0,0,0,,那个肌肉僵直的笨蛋，安迪·科布\N{\rENG}That muscle-bound wastrel Andy Cobb.
+Dialogue: 0,1:29:23.97,1:29:27.24,CHS,,0,0,0,,安迪·科布比你优秀多了\N{\rENG}Andy Cobb is a far better man than you.
+Dialogue: 0,1:29:30.85,1:29:32.47,CHS,,0,0,0,,快去\N{\rENG}Go on.
+Dialogue: 0,1:29:36.82,1:29:40.55,CHS,,0,0,0,,哈迪蒙特先生，能帮我签个名吗？想了很久让你签名\N{\rENG}Mr. Hardiment, will you sign this? Imagine getting him to sign.
+Dialogue: 0,1:29:40.72,1:29:43.21,CHS,,0,0,0,,我很爱你的书\N{\rENG}I love your books.
+Dialogue: 0,1:29:59.84,1:30:01.81,CHS,,0,0,0,,谢谢\N{\rENG}Thank you.
+Dialogue: 0,1:30:09.69,1:30:11.45,CHS,,0,0,0,,有人吗？\N{\rENG}Hello?
+Dialogue: 0,1:30:14.19,1:30:16.96,CHS,,0,0,0,,我是领狗的茱蒂·郎\N{\rENG}It's Jody Long about the dog.
+Dialogue: 0,1:30:21.03,1:30:22.73,CHS,,0,0,0,,本？\N{\rENG}Ben?
+Dialogue: 0,1:30:28.11,1:30:29.80,CHS,,0,0,0,,有人吗？\N{\rENG}Hello?
+Dialogue: 0,1:30:32.71,1:30:34.34,CHS,,0,0,0,,本？\N{\rENG}Ben?
+Dialogue: 0,1:30:40.75,1:30:42.45,CHS,,0,0,0,,本？\N{\rENG}Ben?
+Dialogue: 0,1:30:56.67,1:30:58.70,CHS,,0,0,0,,你说话啊？\N{\rENG}Well, you gonna answer that?
+Dialogue: 0,1:30:59.94,1:31:02.41,CHS,,0,0,0,,茱蒂，你在干什么，怎么不说话？\N{\rENG}Jody, what are you doing not fucking answering?
+Dialogue: 0,1:31:06.18,1:31:10.21,CHS,,0,0,0,,本的狗在这里，它没套缰绳，本肯定已经去了维纳斯农场\N{\rENG}Ben's dog is here. It's loose. It means Ben must be up at Winnards.
+Dialogue: 0,1:31:12.29,1:31:13.55,CHS,,0,0,0,,老板！\N{\rENG}Boss!
+Dialogue: 0,1:31:15.22,1:31:16.55,CHS,,0,0,0,,你来看狗？\N{\rENG}Dog minder?
+Dialogue: 0,1:31:17.76,1:31:22.03,CHS,,0,0,0,,你随便破门而入，乱发邮件，让大家不欢而散\N{\rENG}You've been breaking in, sending e-mails and fucking people off.
+Dialogue: 0,1:31:23.40,1:31:26.73,CHS,,0,0,0,,- 你撕坏了我的黑色T恤？ - 我太想见到你了，就那一次\N{\rENG}- Did you nick my black T-shirt?  - I just wanted to meet you. Just once.
+Dialogue: 0,1:31:26.90,1:31:29.96,CHS,,0,0,0,,- 仅仅想告诉你我的心里话  - 心里话？什么心里话？\N{\rENG}- Just to tell you stuff.  - Stuff? What stuff?
+Dialogue: 0,1:31:30.14,1:31:32.23,CHS,,0,0,0,,比如我爱你\N{\rENG}Like, I love you.
+Dialogue: 0,1:31:32.88,1:31:35.37,CHS,,0,0,0,,我真的真的爱你\N{\rENG}I really, really love you.
+Dialogue: 0,1:31:35.85,1:31:38.54,CHS,,0,0,0,,听起来真好\N{\rENG}That's really nice.
+Dialogue: 0,1:31:39.82,1:31:43.12,CHS,,0,0,0,,我过去常常因为你的到来而惊醒\N{\rENG}I used to lie awake thinking about you being here.
+Dialogue: 0,1:31:43.29,1:31:44.95,CHS,,0,0,0,,在尤道村\N{\rENG}In Ewedown.
+Dialogue: 0,1:31:45.12,1:31:48.42,CHS,,0,0,0,,觉得到处都很快乐\N{\rENG}In the bum-hole of nowhere.
+Dialogue: 0,1:31:49.43,1:31:52.16,CHS,,0,0,0,,当你离开的时候，我忍受不了\N{\rENG}When you left, I couldn't bear it.
+Dialogue: 0,1:31:52.53,1:31:55.86,CHS,,0,0,0,,我只想让你回来\N{\rENG}I just wanted to make you come back.
+Dialogue: 0,1:32:00.44,1:32:05.21,CHS,,0,0,0,,你真的爱我吗，茱蒂？即便我把你锁起来？\N{\rENG}Do you still love me, Jody? Even though I wanna lock you up?
+Dialogue: 0,1:32:06.54,1:32:08.64,CHS,,0,0,0,,那是你能为我做什么？\N{\rENG}What would you do for me then?
+Dialogue: 0,1:32:09.38,1:32:11.54,CHS,,0,0,0,,你能像个普通的粉丝做一切吗？\N{\rENG}Would you do anything, like a proper fan?
+Dialogue: 0,1:32:13.02,1:32:15.14,CHS,,0,0,0,,那我们拭目以待，好吗？\N{\rENG}Let's see then, shall we?
+Dialogue: 0,1:32:16.45,1:32:19.69,CHS,,0,0,0,,我打赌这个婊子想要个孩子，可她会发现尼古拉斯根本没有生育能力\N{\rENG}I bet that bitch wants a baby. Well, she'll find out. Nicholas doesn't do children.
+Dialogue: 0,1:32:19.86,1:32:21.79,CHS,,0,0,0,,他会把所有的东西都给她\N{\rENG}He'll leave it all up to her. Oh.
+Dialogue: 0,1:32:21.96,1:32:23.55,CHS,,0,0,0,,- 只能让她变老  - 贝丝\N{\rENG}- That'll age her.  - Beth.
+Dialogue: 0,1:32:23.73,1:32:26.29,CHS,,0,0,0,,假设他失去了父权？正和他们意，这群男人\N{\rENG}Suppose he discovers fatherhood? They do, these men.
+Dialogue: 0,1:32:26.47,1:32:30.33,CHS,,0,0,0,,这都第二次了，他的婚外幸福\N{\rENG}Second time around, they get all nappy-happy.
+Dialogue: 0,1:32:30.50,1:32:32.30,CHS,,0,0,0,,当我怀孕的时候我才二十岁\N{\rENG}I was barely 20 when I got pregnant.
+Dialogue: 0,1:32:32.47,1:32:35.77,CHS,,0,0,0,,- 我从来没有想他这样  - 是啊，你从来没有过像这样的情况\N{\rENG}- I've never done anything. God.  - Yes, you have. Look at this place.
+Dialogue: 0,1:32:35.94,1:32:38.17,CHS,,0,0,0,,我就让他这么戏弄我，为什么？为什么我这么做？\N{\rENG}I've let him walk all over me. Why? Why have I done that?
+Dialogue: 0,1:32:38.35,1:32:39.71,CHS,,0,0,0,,我真是浪费生命\N{\rENG}I... I've wasted my life.
+Dialogue: 0,1:32:39.88,1:32:41.68,CHS,,0,0,0,,不是啊，你不是在这里也工作了吗？\N{\rENG}No. What about the work you've done here?
+Dialogue: 0,1:32:41.85,1:32:42.87,CHS,,0,0,0,,- 工作？ - 是啊\N{\rENG}- Work?  - Yes.
+Dialogue: 0,1:32:43.05,1:32:46.04,CHS,,0,0,0,,就是养了一个色鬼？他妈的烤饼干？\N{\rENG}What, breeding goats? Baking fucking biscuits?
+Dialogue: 0,1:32:46.22,1:32:47.55,CHS,,0,0,0,,真没意义！\N{\rENG}It's meaningless!
+Dialogue: 0,1:32:48.96,1:32:50.42,CHS,,0,0,0,,贝丝\N{\rENG}Beth.
+Dialogue: 0,1:32:50.66,1:32:53.72,CHS,,0,0,0,,当我写作迷茫的时候，你帮助我比你自己还多\N{\rENG}When I was lost with my book, you helped me more than you know.
+Dialogue: 0,1:32:53.90,1:32:56.16,CHS,,0,0,0,,你问我这是写给谁\N{\rENG}You asked me who I was writing it for.
+Dialogue: 0,1:32:56.96,1:32:58.63,CHS,,0,0,0,,这是写给你的\N{\rENG}You.
+Dialogue: 0,1:33:21.49,1:33:23.29,CHS,,0,0,0,,打扰一下\N{\rENG}Excuse me.
+Dialogue: 0,1:33:26.06,1:33:27.62,CHS,,0,0,0,,我能和我的妻子说几句话吗？\N{\rENG}May I speak with my wife?
+Dialogue: 0,1:33:27.80,1:33:31.10,CHS,,0,0,0,,不，我不是你妻子\N{\rENG}No, you may not.
+Dialogue: 0,1:33:32.77,1:33:35.10,CHS,,0,0,0,,贝丝，贝丝\N{\rENG}Beth. Beth.
+Dialogue: 0,1:33:36.84,1:33:38.64,CHS,,0,0,0,,结束了\N{\rENG}It's over.
+Dialogue: 0,1:33:39.58,1:33:41.27,CHS,,0,0,0,,我已经结束它\N{\rENG}I've finished it.
+Dialogue: 0,1:33:41.45,1:33:43.68,CHS,,0,0,0,,是她勾引我的\N{\rENG}She's been chasing me.
+Dialogue: 0,1:33:43.85,1:33:46.15,CHS,,0,0,0,,我想她可能神经错乱\N{\rENG}I think there's something unhinged about her.
+Dialogue: 0,1:33:46.32,1:33:47.78,CHS,,0,0,0,,是一种错误的迷恋\N{\rENG}This wild crush.
+Dialogue: 0,1:33:49.15,1:33:53.28,CHS,,0,0,0,,这是中士本那恶心的狗，滚出去，快点\N{\rENG}Ben Sergeant's bloody dog again. Go on, get out.
+Dialogue: 0,1:33:53.46,1:33:57.76,CHS,,0,0,0,,滚回维纳斯农场那个妓女那去，快滚！\N{\rENG}Back to that tart at Winnards Farm. Go on. Bugger off!
+Dialogue: 0,1:33:58.73,1:34:00.22,CHS,,0,0,0,,贝丝\N{\rENG}Beth.
+Dialogue: 0,1:34:01.50,1:34:03.23,CHS,,0,0,0,,你知道我错了\N{\rENG}You know I'm sorry.
+Dialogue: 0,1:34:04.04,1:34:07.03,CHS,,0,0,0,,我想让你离开，我想离婚\N{\rENG}I want you to leave. I want a divorce.
+Dialogue: 0,1:34:07.21,1:34:09.20,CHS,,0,0,0,,不，你不会的，别开玩笑了\N{\rENG}No, you don't. Don't be ridiculous.
+Dialogue: 0,1:34:09.64,1:34:11.47,CHS,,0,0,0,,你看，我不是在这里了吗\N{\rENG}Now, look... And I want this place.
+Dialogue: 0,1:34:12.28,1:34:13.40,CHS,,0,0,0,,你不会的\N{\rENG}You can't.
+Dialogue: 0,1:34:13.88,1:34:17.34,CHS,,0,0,0,,看着我，我会的\N{\rENG}Watch me. I will.
+Dialogue: 0,1:34:18.72,1:34:22.78,CHS,,0,0,0,,就像这样，很好，在倒点，再来点，停，两块糖\N{\rENG}That's it, lovely. Keep it going, keep it going. Stop. Couple of sugars.
+Dialogue: 0,1:34:24.62,1:34:26.29,CHS,,0,0,0,,搅匀\N{\rENG}Stir it.
+Dialogue: 0,1:34:35.50,1:34:38.90,CHS,,0,0,0,,这杯茶还不错，还得谢谢你了，茱蒂\N{\rENG}That is a very good cup of tea. Which is lucky for you, Jody.
+Dialogue: 0,1:34:39.07,1:34:40.13,CHS,,0,0,0,,不过它里面搅匀了欺骗\N{\rENG}Had it been shit,
+Dialogue: 0,1:34:40.31,1:34:42.87,CHS,,0,0,0,,我会给一个当地极其胆小的警察打电话的\N{\rENG}I'd be on the phone to the extremely scary local cops right now.
+Dialogue: 0,1:34:43.04,1:34:44.44,CHS,,0,0,0,,请别告诉我妈妈\N{\rENG}Please don't tell my mom.
+Dialogue: 0,1:34:44.61,1:34:47.17,CHS,,0,0,0,,我知道你在这里很无聊，但是得有他妈的理由\N{\rENG}I know it's boring round here, but for fuck's sakes.
+Dialogue: 0,1:34:47.35,1:34:48.94,CHS,,0,0,0,,我尽快出去\N{\rENG}I'm gonna get out soon as I can.
+Dialogue: 0,1:34:49.12,1:34:52.61,CHS,,0,0,0,,去维加斯找个工作，当个赌场总管，或者一个巡航员\N{\rENG}I'm gonna work in Vegas as a croupier. Vegas or a cruise liner.
+Dialogue: 0,1:34:53.55,1:34:57.92,CHS,,0,0,0,,目标很高啊，茱蒂，这是我说的，目标很高\N{\rENG}Aim high, Jody. That's what I say. Aim high.
+Dialogue: 0,1:35:04.80,1:35:06.60,CHS,,0,0,0,,本？\N{\rENG}Ben?
+Dialogue: 0,1:35:09.34,1:35:12.43,CHS,,0,0,0,,- 你已经被侵扰了  - 什么啊？\N{\rENG}- You've had an infestation.  - Of what?
+Dialogue: 0,1:35:12.74,1:35:14.37,CHS,,0,0,0,,茱蒂\N{\rENG}Jody.
+Dialogue: 0,1:35:35.67,1:35:38.00,CHS,,0,0,0,,嘿，格蕾丝！\N{\rENG}Hey, Greg!
+Dialogue: 0,1:35:38.17,1:35:41.16,CHS,,0,0,0,,- 我和你说句话  - 我叫格伦，蠢驴\N{\rENG}- I want a word with you.  - It's Glen, ass hole.
+Dialogue: 0,1:35:41.34,1:35:43.97,CHS,,0,0,0,,你他妈这个不光明正大的杂种\N{\rENG}You fucking devious bastard.
+Dialogue: 0,1:35:44.14,1:35:46.44,CHS,,0,0,0,,我不不光明正大？我是个杂种？\N{\rENG}I'm devious? I'm a bastard?
+Dialogue: 0,1:35:46.61,1:35:50.57,CHS,,0,0,0,,你认为我没有注意到你的一举一动？\N{\rENG}You think I haven't noticed you've been worming your way in?
+Dialogue: 0,1:35:50.75,1:35:55.41,CHS,,0,0,0,,你老跟我妻子闪闪烁烁，一文不值的书呆子\N{\rENG}You keep your hands off my wife, you low-rent pedant.
+Dialogue: 0,1:35:56.49,1:35:59.39,CHS,,0,0,0,,你说贝丝的还少吗？你这个十足的骗子\N{\rENG}You've abused Beth long enough with all of your god damn lies.
+Dialogue: 0,1:35:59.56,1:36:01.03,CHS,,0,0,0,,滚出我家房子去\N{\rENG}I want you out of my house.
+Dialogue: 0,1:36:01.19,1:36:04.25,CHS,,0,0,0,,- 是贝丝的，是她住的地方  - 他妈是我付的钱\N{\rENG}- It's Beth's. She made this place.  - And I fucking paid for it.
+Dialogue: 0,1:36:04.43,1:36:06.76,CHS,,0,0,0,,我给了贝丝所有，你给她什么了？\N{\rENG}I've given Beth all this. What can you give her?
+Dialogue: 0,1:36:06.93,1:36:10.96,CHS,,0,0,0,,- 我能给她诚实  - 你知道的那点东西\N{\rENG}- I can give her integrity.  - Obscure literary shit,
+Dialogue: 0,1:36:11.14,1:36:12.57,CHS,,0,0,0,,还不值十文钱\N{\rENG}not worth 10 pence.
+Dialogue: 0,1:36:12.74,1:36:16.54,CHS,,0,0,0,,你知道我的钱都用来幻想强奸和谋杀了\N{\rENG}You know, if I made my fortune fantasizing about rapes and murders,
+Dialogue: 0,1:36:16.71,1:36:18.04,CHS,,0,0,0,,我太不骄傲了\N{\rENG}I wouldn't be so proud.
+Dialogue: 0,1:36:18.21,1:36:21.54,CHS,,0,0,0,,- 你个白痴  - 你他妈的\N{\rENG}- You cretin.  - Fuck you.
+Dialogue: 0,1:36:22.08,1:36:23.64,CHS,,0,0,0,,贝丝有他自己的感觉\N{\rENG}Beth will come to her senses.
+Dialogue: 0,1:36:23.82,1:36:28.12,CHS,,0,0,0,,- 你需要钱来运转费尔斯通农场  - 我的比你的可是大多了\N{\rENG}- You need an income to run Stonefield.  - and mine's bigger than yours.
+Dialogue: 0,1:36:35.23,1:36:39.93,CHS,,0,0,0,,起来啊，尼古拉斯，来啊，起来和我讨论成年男性\N{\rENG}Get up, Nicholas, come on. Let's talk about this like grown men.
+Dialogue: 0,1:36:46.17,1:36:48.97,CHS,,0,0,0,,哦，我的天啊，尼古拉斯\N{\rENG}Oh, my God. Nicholas.
+Dialogue: 0,1:36:49.34,1:36:50.57,CHS,,0,0,0,,尼…\N{\rENG}Nic...
+Dialogue: 0,1:36:50.78,1:36:53.18,CHS,,0,0,0,,- 额  - 起来啊\N{\rENG}- Uh...  - Get up.
+Dialogue: 0,1:37:01.42,1:37:03.75,CHS,,0,0,0,,尼古拉斯，起来啊\N{\rENG}Nicholas, get up.
+Dialogue: 0,1:37:04.16,1:37:06.72,CHS,,0,0,0,,跑啊，快起来，快点啊\N{\rENG}Run. Come on. Get up.
+Dialogue: 0,1:37:13.44,1:37:15.70,CHS,,0,0,0,,尼古拉斯，尼古拉斯\N{\rENG}Nicholas. Nicholas.
+Dialogue: 0,1:37:51.61,1:37:53.37,CHS,,0,0,0,,是你吗？\N{\rENG}It was you?
+Dialogue: 0,1:37:54.61,1:37:56.67,CHS,,0,0,0,,是你发了这些邮件吗？\N{\rENG}It was you who sent the e-mail?
+Dialogue: 0,1:37:56.85,1:38:00.11,CHS,,0,0,0,,茱蒂解释她做这些都是我因为爱我\N{\rENG}Jody's explained that she did it out of a deep love for me.
+Dialogue: 0,1:38:04.32,1:38:07.62,CHS,,0,0,0,,- 泰蜜  - 本\N{\rENG}- Tammy.  - Ben.
+Dialogue: 0,1:38:18.47,1:38:21.17,CHS,,0,0,0,,我想你应该把这个拿回去\N{\rENG}I think you should have this back.
+Dialogue: 0,1:38:21.84,1:38:23.78,CHS,,0,0,0,,对不起\N{\rENG}I'm sorry.
+Dialogue: 0,1:38:25.21,1:38:27.81,CHS,,0,0,0,,茱蒂，这狗！\N{\rENG}Jody! The dog!
+Dialogue: 0,1:39:12.26,1:39:16.16,CHS,,0,0,0,,打死他，这个畜生\N{\rENG}Got him. The beast. Hm.
+Dialogue: 0,1:39:44.50,1:39:46.22,CHS,,0,0,0,,尼古拉斯\N{\rENG}Nicholas.
+Dialogue: 0,1:39:48.80,1:39:52.17,CHS,,0,0,0,,哦，天啊，尼古拉斯\N{\rENG}God. Oh, God. Nicholas.
+Dialogue: 0,1:39:52.34,1:39:54.10,CHS,,0,0,0,,婊子，厚颜无耻\N{\rENG}Bitch. Brazen.
+Dialogue: 0,1:39:54.87,1:39:56.20,CHS,,0,0,0,,- 太不要脸了你  - 贝丝\N{\rENG}- Brazen.  - Beth.
+Dialogue: 0,1:39:56.38,1:39:59.97,CHS,,0,0,0,,- 你太无耻了  - 贝丝，别看！求你了，别看！\N{\rENG}- That is brazen.  - Beth, don't look! Please, don't look!
+Dialogue: 0,1:40:04.15,1:40:06.05,CHS,,0,0,0,,尼古拉斯？！\N{\rENG}Nicholas?!
+Dialogue: 0,1:40:12.43,1:40:13.45,CHS,,0,0,0,,不！\N{\rENG}No!
+Dialogue: 0,1:40:13.63,1:40:17.62,CHS,,0,0,0,,不，你不能看他，他已经面目全非了\N{\rENG}No, but you can see it. It's broken. It's smashed.
+Dialogue: 0,1:40:18.87,1:40:22.73,CHS,,0,0,0,,不，我没有，但是很明显\N{\rENG}No, I haven't, but it's obvious.
+Dialogue: 0,1:40:24.57,1:40:28.23,CHS,,0,0,0,,对，他的妻子，是的她是\N{\rENG}Yes, his wife. Yes, she is.
+Dialogue: 0,1:40:28.41,1:40:31.17,CHS,,0,0,0,,谢谢你，谢谢你，我会的\N{\rENG}Thank you. Thank you, I will.
+Dialogue: 0,1:40:32.75,1:40:34.81,CHS,,0,0,0,,他们在路上了\N{\rENG}They're on their way.
+Dialogue: 0,1:40:36.58,1:40:38.45,CHS,,0,0,0,,贝丝，救援马上就到\N{\rENG}Beth, help is coming.
+Dialogue: 0,1:40:38.62,1:40:40.02,CHS,,0,0,0,,啊！\N{\rENG}Aah!
+Dialogue: 0,1:40:46.66,1:40:48.56,CHS,,0,0,0,,它坏了\N{\rENG}It's broken.
+Dialogue: 0,1:41:18.76,1:41:20.39,CHS,,0,0,0,,塔玛拉\N{\rENG}Tamara.
+Dialogue: 0,1:41:22.03,1:41:23.69,CHS,,0,0,0,,听着\N{\rENG}Listen.
+Dialogue: 0,1:41:26.20,1:41:28.33,CHS,,0,0,0,,对不起\N{\rENG}I'm sorry.
+Dialogue: 0,1:41:29.84,1:41:31.71,CHS,,0,0,0,,好了\N{\rENG}Come on.
+Dialogue: 0,1:41:31.88,1:41:34.28,CHS,,0,0,0,,你内疚了？\N{\rENG}Are you blaming yourself?
+Dialogue: 0,1:41:36.38,1:41:37.71,CHS,,0,0,0,,都过去了\N{\rENG}It was an accident.
+Dialogue: 0,1:41:52.97,1:41:55.37,CHS,,0,0,0,,我们回斯通菲尔德农场吧\N{\rENG}I'd better get back up to Stonefield.
+Dialogue: 0,1:41:55.80,1:41:59.50,CHS,,0,0,0,,和我在一起，我们重新开始\N{\rENG}Come with me. We'll get this sorted.
+Dialogue: 0,1:42:04.58,1:42:07.34,CHS,,0,0,0,,那你还是找你的本一起回伦敦吧\N{\rENG}Then get Ben to take you back to London.
+Dialogue: 0,1:42:07.98,1:42:10.54,CHS,,0,0,0,,我根本就不是去找什么本\N{\rENG}I don't want to be with Ben.
+Dialogue: 0,1:42:27.30,1:42:29.63,CHS,,0,0,0,,赶紧把这个放在后位上\N{\rENG}Put it on the back seat right here.
+Dialogue: 0,1:42:41.48,1:42:42.47,CHS,,0,0,0,,你在干什么？\N{\rENG}What are you doing?
+Dialogue: 0,1:42:42.65,1:42:45.05,CHS,,0,0,0,,你知道，我是说我现在离开最好不过了\N{\rENG}I figured it was best, you know, that I take off.
+Dialogue: 0,1:42:45.22,1:42:47.45,CHS,,0,0,0,,这地方根本不需要作家\N{\rENG}She doesn't want writers around the place now.
+Dialogue: 0,1:42:47.62,1:42:49.72,CHS,,0,0,0,,警察，验尸，都不适合我\N{\rENG}And police, autopsies, not my thing.
+Dialogue: 0,1:42:49.89,1:42:52.29,CHS,,0,0,0,,- 你不需要离开的  - 我没有离开\N{\rENG}- You can't run away.  - I'm not running away.
+Dialogue: 0,1:42:52.46,1:42:56.59,CHS,,0,0,0,,我去完成我的书，写好了通知大家\N{\rENG}I've finished my book. My time here is up. Destiny calls.
+Dialogue: 0,1:42:56.77,1:43:00.36,CHS,,0,0,0,,- 贝丝正在找你呢  - 真的吗？\N{\rENG}- Beth is asking for you.  - Really?
+Dialogue: 0,1:43:00.60,1:43:02.94,CHS,,0,0,0,,她一个人在哪里\N{\rENG}She's on her own over there.
+Dialogue: 0,1:43:03.54,1:43:08.20,CHS,,0,0,0,,他也不想这个地方有作家\N{\rENG}Glen, she doesn't need a writer around the place,
+Dialogue: 0,1:43:08.71,1:43:10.80,CHS,,0,0,0,,她需要一个男人\N{\rENG}she needs a man.
+Dialogue: 0,1:43:19.69,1:43:22.02,CHS,,0,0,0,,对不起\N{\rENG}I'm so sorry.
+Dialogue: 0,1:43:23.63,1:43:26.12,CHS,,0,0,0,,是我的错，我让狗跑了的\N{\rENG}It was my fault. I let the dog go.
+Dialogue: 0,1:43:26.30,1:43:28.39,CHS,,0,0,0,,- 不，不是的  - 我把它赶跑的\N{\rENG}- No. No.  - I shooed him away.
+Dialogue: 0,1:43:28.57,1:43:31.80,CHS,,0,0,0,,警察说这是一场事故，但是要是我能抓住他，我一定不会放过\N{\rENG}The police said it was an accident, but if I'd caught him, tied him up...
+Dialogue: 0,1:43:31.97,1:43:33.20,CHS,,0,0,0,,好了，这根本就不是你的错\N{\rENG}No, it wasn't your fault.
+Dialogue: 0,1:43:33.37,1:43:36.57,CHS,,0,0,0,,我不理解尼古拉斯为什么会在那里？\N{\rENG}What I don't understand is why was Nicholas in that field anyway?
+Dialogue: 0,1:43:36.74,1:43:39.21,CHS,,0,0,0,,当牛来的时候，他总说讨厌牛\N{\rENG}He hated cows. And when he saw them coming,
+Dialogue: 0,1:43:39.38,1:43:44.11,CHS,,0,0,0,,- 可为什么又会出现在那？ - 贝丝，我想和你说说话\N{\rENG}- why didn't he get out of their way...?  - Beth, I have to tell you that...
+Dialogue: 0,1:43:56.66,1:43:58.79,CHS,,0,0,0,,你生活在这个国度\N{\rENG}You live in the country.
+Dialogue: 0,1:43:58.97,1:44:01.06,CHS,,0,0,0,,你应该明白，就算凶猛的野兽\N{\rENG}You share it with those dangerous beasts,
+Dialogue: 0,1:44:01.23,1:44:03.96,CHS,,0,0,0,,当他们受到惊吓时，也会四散逃窜\N{\rENG}and when they get scared, they run.
+Dialogue: 0,1:44:04.14,1:44:06.13,CHS,,0,0,0,,正如我们一样\N{\rENG}Like we do.
+Dialogue: 0,1:44:07.61,1:44:09.17,CHS,,0,0,0,,哦，格伦\N{\rENG}Oh, Glen.
+Dialogue: 0,1:44:12.51,1:44:14.61,CHS,,0,0,0,,和我在一起\N{\rENG}Stay with me.
+Dialogue: 0,1:44:48.82,1:44:51.48,CHS,,0,0,0,,- 你这样子蛮合适的么  - 不许你说\N{\rENG}- Kind of suits you.  - Don't say anything.
+Dialogue: 0,1:44:51.65,1:44:53.99,CHS,,0,0,0,,我还是喜欢原先的\N{\rENG}I always did like the old one.
+Dialogue: 0,1:44:57.23,1:45:00.16,CHS,,0,0,0,,- 这就是你的目的啊，是吗？ - 什么？\N{\rENG}- You did it on purpose, didn't you?  - What?
+Dialogue: 0,1:45:00.33,1:45:03.36,CHS,,0,0,0,,让这个地方变得如此美丽，使我舍不得离开\N{\rENG}Made this place so beautiful I'd never be able to leave.
+Dialogue: 0,1:45:03.53,1:45:05.83,CHS,,0,0,0,,我真恨不得把你开除出去\N{\rENG}Been dying to get rid of you.
+Dialogue: 0,1:45:07.14,1:45:09.04,CHS,,0,0,0,,这是我的房子\N{\rENG}This is my house.
+Dialogue: 0,1:45:09.81,1:45:13.54,CHS,,0,0,0,,- 我出生在这里  - 原来可是你的\N{\rENG}- I was born in that room.  - So you were.
+Dialogue: 0,1:45:14.68,1:45:16.67,CHS,,0,0,0,,欢迎回家\N{\rENG}Welcome home.
+Dialogue: 0,1:45:57.46,1:45:58.92,CHS,,0,0,0,,“拍我，拍我”\N{\rENG}Pap-pap me.
+Dialogue: 0,1:45:59.69,1:46:00.92,CHS,,0,0,0,,“什么”？\N{\rENG}What?
+Dialogue: 0,1:46:01.10,1:46:03.56,CHS,,0,0,0,,“拍我，拍我”\N{\rENG}Pap-pap me.
+Dialogue: 0,1:46:26.70,1:46:30.00,CHS,,0,0,0,,{\fad(300,300)\b1\fs120\fsp5\bord0.5\shad0\c&H8C00A3&\3a&H00&}塔玛拉·德鲁
+Dialogue: 0,1:46:33.00,1:46:38.00,CHS,,0,0,0,,{\fad(300,300)\c&H24EFFF&}双语合成｜{\b1\c&HFFFFFF&}天外生物\N{\b0\fs45\c&H079FFF&}感谢原字幕制作者

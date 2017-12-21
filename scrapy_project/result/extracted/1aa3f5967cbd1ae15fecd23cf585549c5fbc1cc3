@@ -1,0 +1,883 @@
+[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:54.56,0:02:57.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×˘ŇâÓĐşŁľÁ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Attention, pirates alongside!</font>
+Dialogue: 0,0:02:58.59,0:03:02.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×˘ŇâÓĐşŁľÁ ˝řČë´Ź˛ŐśăąÜ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Pirates alongside! Take cover. All crew below deck!</font>
+Dialogue: 0,0:03:02.61,0:03:05.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔŮËľŇťąé ×˘ŇâÓĐşŁľÁ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I repeat Pirates alongside!</font>
+Dialogue: 0,0:03:06.54,0:03:08.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ö´ĐĐ˝ôźą´ëĘŠ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Initiate emergency procedure!</font>
+Dialogue: 0,0:03:09.56,0:03:11.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËůÓĐ´ŹÔąľ˝´Ź˛ŐśăąÜ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>All crew below deck!</font>
+Dialogue: 0,0:03:52.58,0:03:55.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>˝ôźą´ëĘŠ şěÉŤžŻą¨</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Emergency positions! Code red! Code red!</font>
+Dialogue: 0,0:03:56.51,0:03:58.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËůÓĐ´ŹÔąľ˝´Ź˛ŐśăąÜ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Get everybody below deck, now!</font>
+Dialogue: 0,0:04:00.53,0:04:02.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËůÓĐČËĹżĎÂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Everyone, get down!</font>
+Dialogue: 0,0:04:04.56,0:04:06.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>˝ÜżË ÁŞşĎšúť¤ÎŔ˝˘ÔÚÄÄŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Jack, where's that UN convoy?</font>
+Dialogue: 0,0:04:06.58,0:04:09.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÖąÉýťúĆđˇÉÁË ČýĘŽˇÖÖÓľ˝</font>\N<font face="Î˘ČíŃĹşÚ" size=10>The chopper's on its way,sir. ETA 30 minutes!</font>
+Dialogue: 0,0:04:09.60,0:04:11.60,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËůÓĐČËśăąÜľ˝˛ŐŔď</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Get everybody below deck</font>
+Dialogue: 0,0:06:58.55,0:07:01.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇÔÚľČ°łśů×Ó°Ą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I'm waiting for my son</font>
+Dialogue: 0,0:07:01.58,0:07:05.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇ˛ťÄÜČĂËűťŘŔ´ŐŇ˛ť×ĹźŇ°Ą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I need our home for his return!</font>
+Dialogue: 0,0:07:06.50,0:07:09.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ľČžŻ˛ěŔ´ÁË ÎŇż´ÄăĂÇťš¸Ň˛ť¸Ň˛đ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Wait till police get here! Let's see how you're going to tear our houses!</font>
+Dialogue: 0,0:07:10.52,0:07:12.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĎëËŔžÍąđŔš×Ĺ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>If they wanna die, then let 'em</font>
+Dialogue: 0,0:07:26.55,0:07:28.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Éô ÉŠ×Ó</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Mrs. Yu, Mrs.Fei.</font>
+Dialogue: 0,0:07:29.57,0:07:31.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇ°ŃĐĄˇÉËÍťŘŔ´ÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>We brought Xiao Fei home</font>
+Dialogue: 0,0:07:32.50,0:07:34.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ž´Ŕń</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Salute!</font>
+Dialogue: 0,0:07:50.52,0:07:53.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸ćËßĐÂŔ´ľÄ °łĂÇÖĐśÓľÄ×ůÓŇĂúĘÇÉś°ĄŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Tell these rookies what our motto is</font>
+Dialogue: 0,0:07:53.54,0:07:55.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÇŤĐé</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Be humble</font>
+Dialogue: 0,0:07:55.57,0:07:57.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇŔ´ľąąřžÍĘÇÎŞÁË´ňŐĚ </font>\N<font face="Î˘ČíŃĹşÚ" size=10>I became a soldier because I wanted to be in battles</font>
+Dialogue: 0,0:07:57.59,0:07:59.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĎÖÔÚÄŘ ´ňÉśŐĚ°Ą´ňŐĚŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>and now, what about the battles?</font>
+Dialogue: 0,0:07:59.62,0:08:01.62,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔÚźŇśźĹăĹăŔĎĆĹş˘×ÓśŕşĂ°Ą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Much better to be at home with wife and kids instead</font>
+Dialogue: 0,0:08:06.54,0:08:08.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇšëĹŽ ĆŻÁÁ°ÉŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>My daughter, she's beautiful, huh?</font>
+Dialogue: 0,0:08:32.56,0:08:34.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ňť¸ö¸öÂżÇňÂíľ°ľÄ°Ą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You gang of sumbags!</font>
+Dialogue: 0,0:08:34.59,0:08:36.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ťšŐćÄĂ×ÔźşľąťŘĘÂÁË ĘÇ°ÉŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You think you're tough, huh?</font>
+Dialogue: 0,0:08:43.51,0:08:45.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸řÎŇ´ň śźÉĎ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go get them! Get them!</font>
+Dialogue: 0,0:09:04.54,0:09:06.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>žŻ˛ěÍŹÖžËűÓĐÇš</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Officer see! He's got a gun!</font>
+Dialogue: 0,0:09:06.56,0:09:08.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÓĐÇš</font>\N<font face="Î˘ČíŃĹşÚ" size=10>a gun!</font>
+Dialogue: 0,0:09:09.58,0:09:11.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>˝âˇĹžüÍŹÖž ÇëÄă°ŃÇšˇĹĎÂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Comrade, put down your weapon!</font>
+Dialogue: 0,0:09:22.51,0:09:24.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÍŚÄÜ´ňĘÇ°ÉŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You're pretty lethal, huh?</font>
+Dialogue: 0,0:09:24.53,0:09:26.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŐŚ˛ťĹŞËŔÎŇÄŘŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Well you'd better kill me now,</font>
+Dialogue: 0,0:09:26.56,0:09:28.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÓĐ˛ťÔÚľÄĘąşň°É</font>\N<font face="Î˘ČíŃĹşÚ" size=10>because you're gone,</font>
+Dialogue: 0,0:09:29.58,0:09:31.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Äăż´ÎŇÔőĂ´ĹŞËŔËűĂÇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I'm gonna make them wish they were dead</font>
+Dialogue: 0,0:09:53.50,0:09:55.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şŮ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Hey!</font>
+Dialogue: 0,0:10:00.53,0:10:02.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ŕäˇć</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Leng Feng!</font>
+Dialogue: 0,0:10:31.55,0:10:33.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>žüČË ÖŽËůŇÔąťČË×đÖŘ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>The reason a soldier is respected</font>
+Dialogue: 0,0:10:34.58,0:10:36.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>˛ťĘÇŇňÎŞžüČËÁ˝¸ö×Ö</font>\N<font face="Î˘ČíŃĹşÚ" size=10>is not because of the uniform he wears,</font>
+Dialogue: 0,0:10:37.50,0:10:40.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>śřĘÇŇňÎŞžüČËľŁ¸şľÄÔđČÎ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>but is because of the sense of duty he carries</font>
+Dialogue: 0,0:10:41.52,0:10:44.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ź´ĘšÍŃÁËžü×° Ö°ÔđťšÔÚ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>With or without the uniform, the duty remains</font>
+Dialogue: 0,0:10:44.55,0:10:46.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŇťŃůťáąťČË×đÖŘ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>And he continues to be respected</font>
+Dialogue: 0,0:11:14.52,0:11:16.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>żěľă</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Hey, hurry up!</font>
+Dialogue: 0,0:11:19.54,0:11:21.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şŮ Ŕä ÎŇĂÇľÄÓ˘ĐŰ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Hey, Leng. There's our hero</font>
+Dialogue: 0,0:11:21.57,0:11:23.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸ĐĐťÄăžČÁËÎŇĂÇ´óźŇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Thanks for saving the lives of everyone</font>
+Dialogue: 0,0:11:23.59,0:11:25.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ÎŇĂÇşĎ¸öÓ°ßÂŁż- ĂťÎĘĚâ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Let's take a picture together - No problem!</font>
+Dialogue: 0,0:11:27.52,0:11:28.92,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ĐťĐť - şĂľÄ ÔŮźű</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Thank you! - Ok, see you!</font>
+Dialogue: 0,0:11:28.92,0:11:30.92,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔŮźű ąŁÖŘ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Take care, see you!</font>
+Dialogue: 0,0:11:35.54,0:11:37.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şŮ ŔĎ°ĺ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Hey, boss!</font>
+Dialogue: 0,0:11:37.56,0:11:40.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- Âňľă°É ŐâĘÇşĂśŤÎ÷ - ÉĎ´ÎËţÂü´ĺŇßÇéąŹˇ˘</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Buy some, it's good stuff - There was an outbreak in Taman recently</font>
+Dialogue: 0,0:11:40.59,0:11:43.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>žÍŇňÎŞÍňłÔÁËŐâ¸öŇŠ˛Ä ÓĐËÄ¸öČËťîĎÂŔ´ÄŘ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Because of consuming this herbs, there were 4 survivors</font>
+Dialogue: 0,0:11:43.61,0:11:45.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- °ÝÍĐ - ˛ťÁË ĐťĐť</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Please! - No, thank you!</font>
+Dialogue: 0,0:11:45.64,0:11:47.64,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>°ď°ďĂŚ°É żźÂÇŇťĎÂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Please help please consider</font>
+Dialogue: 0,0:11:47.66,0:11:49.66,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŔĎ°ĺ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Boss.</font>
+Dialogue: 0,0:11:51.58,0:11:53.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÖĐšúžĆŔ´ÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Chinese wine.</font>
+Dialogue: 0,0:11:54.51,0:11:56.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Őâśů</font>\N<font face="Î˘ČíŃĹşÚ" size=10>This</font>
+Dialogue: 0,0:11:56.53,0:11:58.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- şŮ - ąđŐâŃůĐÖľÜ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Hey, hey. - Come on man</font>
+Dialogue: 0,0:11:58.56,0:12:00.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şĂ°É Őâ´ÎžÍËăÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Ok, this one is okay</font>
+Dialogue: 0,0:12:01.58,0:12:04.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şĎ×÷Óäżě ĎÂ´Îźű</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Nice one. See you next time.</font>
+Dialogue: 0,0:12:08.50,0:12:10.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÉĎŔ´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Get up here!</font>
+Dialogue: 0,0:12:11.53,0:12:13.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ťśÓ­ťŘŔ´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Welcome back!</font>
+Dialogue: 0,0:12:21.55,0:12:23.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔŮźű</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Bye</font>
+Dialogue: 0,0:12:24.58,0:12:26.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Őâ¸ö şĂśŤÎ÷</font>\N<font face="Î˘ČíŃĹşÚ" size=10>This, good for you</font>
+Dialogue: 0,0:12:27.50,0:12:29.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄÜČĂÄă˛ťÔŮšÂľĽ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You're not alone</font>
+Dialogue: 0,0:12:29.52,0:12:33.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>20ĂŔÔŞ ÂňŇťËÍŇť</font>\N<font face="Î˘ČíŃĹşÚ" size=10>20 dollars. Buy one get one free</font>
+Dialogue: 0,0:12:35.55,0:12:37.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ÎŇĘÇË­ - ÎŇľÄ¸Éľů</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Who am I? - My godfather</font>
+Dialogue: 0,0:12:37.57,0:12:40.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Čçšű¸Éľů°ŃŐâ¸ö¸ćËßÄăÂčÂč</font>\N<font face="Î˘ČíŃĹşÚ" size=10>If your godfather tells your mother about this,</font>
+Dialogue: 0,0:12:40.60,0:12:43.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËýťáÔőĂ´ĎëŁż ĂťĘŐÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>what would she think? Confiscated!</font>
+Dialogue: 0,0:12:52.54,0:12:54.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>żŞĘź</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Begin!</font>
+Dialogue: 0,0:12:55.57,0:13:00.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸Éľů ¸Éľů ¸Éľů</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Godfather! Godfather! Godfather!</font>
+Dialogue: 0,0:13:02.59,0:13:09.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>šţŔď šţŔď šţŔď</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Harry! Harry! Harry!</font>
+Dialogue: 0,0:13:09.62,0:13:11.62,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸Éľů ¸Éľů ¸Éľů</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Godfather! Godfather! Godfather!</font>
+Dialogue: 0,0:13:24.54,0:13:29.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>°˘Ŕä °˘Ŕä °˘Ŕä</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Leng! Leng! Leng!</font>
+Dialogue: 0,0:13:37.56,0:13:39.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ë­Łż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Who?</font>
+Dialogue: 0,0:13:42.59,0:13:44.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ë­Łż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Who?</font>
+Dialogue: 0,0:13:45.51,0:13:48.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ťšÓĐË­Łż ťšÓĐË­Łż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Who else? Who else?</font>
+Dialogue: 0,0:13:48.54,0:13:50.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăÉĎ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Do it, do it</font>
+Dialogue: 0,0:13:51.56,0:13:53.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ČĽÄăľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Fuck it!</font>
+Dialogue: 0,0:13:53.58,0:13:55.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăŇÔÎŞÄăĘÇË­°ĄŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Who the fuck you think you are?</font>
+Dialogue: 0,0:13:55.61,0:13:57.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ŕ´°É</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Come on!</font>
+Dialogue: 0,0:13:57.63,0:13:59.63,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şĂ°Ą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Yeah</font>
+Dialogue: 0,0:14:13.56,0:14:16.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĹÁĚŘŔďżË ĹÁĚŘŔďżË ĹÁĚŘŔďżË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Patrick! Patrick! Patrick!</font>
+Dialogue: 0,0:14:54.58,0:14:56.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇŇŞČĽąßžłÖ´ĐĐŇťĎîČÎÎń</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I've been sent to the border for a mission</font>
+Dialogue: 0,0:14:57.50,0:14:59.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ľČÎŇťŘŔ´ľÄĘąşň</font>\N<font face="Î˘ČíŃĹşÚ" size=10>When I get back,</font>
+Dialogue: 0,0:14:59.53,0:15:02.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĎŁÍűÄăÄÜÔÚŐâ¸öÎÄźţÉĎÇŠ×Ö</font>\N<font face="Î˘ČíŃĹşÚ" size=10>this had better be signed</font>
+Dialogue: 0,0:15:14.05,0:15:16.05,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>˝áťéÉęÇë</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Marriage Application</font>
+Dialogue: 0,0:15:17.08,0:15:19.08,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŞĘ˛Ă´ľąąřŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Why did you join the army?</font>
+Dialogue: 0,0:15:19.10,0:15:21.10,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ľąąřşóťÚÁ˝Äę ˛ťľąąřşóťÚŇťą˛×Ó</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Join the army, you regret it for two years. Don't join the army, regret it for life.</font>
+Dialogue: 0,0:15:23.02,0:15:25.02,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- Őćť°Łż- Őćť°</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- The truth? - That's the truth.</font>
+Dialogue: 0,0:15:26.05,0:15:28.05,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔŮşČ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Drink! again!</font>
+Dialogue: 0,0:15:34.00,0:15:36.00,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÁúĐĄÔĆÍŹÖž</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Comrade Long Xiao Yun.</font>
+Dialogue: 0,0:15:36.02,0:15:38.02,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔÚąßžłÖ´ĐĐČÎÎńĘą˛ťĐŇÓöĎŽ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>was attacked while carrying her mission at the border.</font>
+Dialogue: 0,0:15:39.04,0:15:42.04,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔÚĎÖłĄ ÎŇĂÇˇ˘ĎÖÁËŐâĂś×ÓľŻ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>We found this bullet.</font>
+Dialogue: 0,0:15:45.07,0:15:47.07,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔŮşČ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Drink again.</font>
+Dialogue: 0,0:15:54.09,0:15:56.09,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĎëĚýĘ˛Ă´Łż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What do you want to hear?</font>
+Dialogue: 0,0:15:56.12,0:15:58.02,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĎëĚýĘ˛Ă´Łż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What do you want to hear?</font>
+Dialogue: 0,0:15:58.04,0:16:00.04,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔŮşČ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Drink!</font>
+Dialogue: 0,0:16:12.06,0:16:14.06,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔŮşČ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Again!</font>
+Dialogue: 0,0:16:32.09,0:16:33.99,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăÓŽÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You win.</font>
+Dialogue: 0,0:16:34.01,0:16:36.01,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăÓŽÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You win.</font>
+Dialogue: 0,0:16:37.04,0:16:39.04,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĘäÁË...</font>\N<font face="Î˘ČíŃĹşÚ" size=10>But I lost...</font>
+Dialogue: 0,0:16:39.06,0:16:41.06,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>łšłšľ×ľ×ľÄĘäÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I've lost completely.</font>
+Dialogue: 0,0:16:42.08,0:16:44.08,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Äă¸ú´ŹŇŃž­ÓĐŇťÄęśŕÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>It's been more than a year since you came on board</font>
+Dialogue: 0,0:16:44.11,0:16:48.01,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>´Ó˝Üśű°Íľ˝ÔĺŔ­ÄÉÂł</font>\N<font face="Î˘ČíŃĹşÚ" size=10>During that time, from Djerba to Tolanaro,</font>
+Dialogue: 0,0:16:48.03,0:16:52.03,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>´ó°ë¸öˇÇÖŢľÄ˛żÂäł¤ŔĎÎŇśźÎĘšý</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I've asked all the chiefs. More than half of Africa,</font>
+Dialogue: 0,0:16:52.06,0:16:56.06,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>śźĂťÓĐźűšýÄăľÄŐâżĹ×ÓľŻ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>And nobody has seen that bullet before. peluru itu sebelumnya.</font>
+Dialogue: 0,0:16:56.08,0:16:59.08,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇŇťś¨ťáŐŇľ˝ľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I will find it,</font>
+Dialogue: 0,0:16:59.10,0:17:01.10,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄÄ˛Ž×ßąéŐű¸öˇÇÖŢ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>even if I have to scour the entire continent.</font>
+Dialogue: 0,0:17:20.03,0:17:22.03,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ç×°ŽľÄ×ćšúÍŹ°űĂÇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Dear fellow countrymen,</font>
+Dialogue: 0,0:17:22.05,0:17:27.05,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ę×ĎČÎŇśÔą´ż¨´ĺĘÜÄŃľÄÍŹ°űąíĘžłÁÍ´°§ľż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>my deepest condolences to the families their loved ones during Batchka Village incident</font>
+Dialogue: 0,0:17:28.08,0:17:31.08,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>˝ńČŐÔçĐŠĘąşň ˇÇˇ¨Îä×°×éÖŻşě˝ížüąíĘžśÔą´Ćäż¨Ăđ´ĺĐĐśŻ¸şÔđ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Early today, the red scarf rebel army claimed responsibility for the Batchka Village</font>
+Dialogue: 0,0:17:31.10,0:17:33.10,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇśÔŐâÖÖ˛ŇžřČËĺžľÄĐĐÎŞÇżÁŇÇ´Ôđ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Our government condemns their barbaric behavior.</font>
+Dialogue: 0,0:17:33.12,0:17:36.02,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇľÄźŇÔ° ŐýÔÚÔâĘÜŇťÁŹ´ŽľÄÉËşŚ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Our homeland has been attacked on multiple occasions.</font>
+Dialogue: 0,0:17:36.05,0:17:39.05,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>˛ťĐŇľÄĘÂ˝ÓśţÁŹČýľÄˇ˘Éú</font>\N<font face="Î˘ČíŃĹşÚ" size=10>These are great tragedies.</font>
+Dialogue: 0,0:17:41.07,0:17:47.07,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şě˝ížüľÄżÖ˛ŔĘĆÁŚČçÍŹŇßÇéŇťŃůÂűŃÓ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>The rebels continue to advance as the country grapples with the Lamanla outbreak.</font>
+Dialogue: 0,0:17:47.10,0:17:51.00,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Őţ¸Ž˛ťťá×řŇÔ´ýąĐ Î°´óľÄČËĂńžüśÓĘÄÎŞźŇÔ°ˇÜŐ˝ľ˝ľ×</font>\N<font face="Î˘ČíŃĹşÚ" size=10>As your government, we will not back down. The great people's army will fight to the very end.</font>
+Dialogue: 0,0:17:51.02,0:17:55.02,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÁíÍâšúźŇÉčÁ˘ÁËŇßÇé¸ôŔëÇř</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Quarantine have been set up across the country,</font>
+Dialogue: 0,0:17:55.04,0:17:57.04,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×î´óˇśÎ§ÄÚżŘÖĆÁËŇßÇéÔěłÉľÄÉËşŚ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>in an attempt to contain the Lamanla outbreak.</font>
+Dialogue: 0,0:17:57.07,0:18:04.07,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>šúźŇŇŃž­°ŃŇ˝ÁĆžČÖúźśąđşÍ˝ôźąłĚśČÉčÎŞ×î¸ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>We have declared a state of emergency.</font>
+Dialogue: 0,0:18:12.09,0:18:14.09,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>°Ľ ¸çĂÇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Hey, brother</font>
+Dialogue: 0,0:18:14.12,0:18:16.12,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÉŮČýŐĹ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You shorted me 300 bucks.</font>
+Dialogue: 0,0:18:17.04,0:18:19.04,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Çáľăśů</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Be careful with that.</font>
+Dialogue: 0,0:18:21.06,0:18:23.06,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>´óźŇśźĘÇÖĐšúČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Look, we're both Chinese.</font>
+Dialogue: 0,0:18:23.09,0:18:25.09,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŐâŃůşĂĂ´Łż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You do this to your own people?</font>
+Dialogue: 0,0:18:25.11,0:18:28.01,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇ´ÓÉĎ¸öÔÂ14şĹĎÂÎçČýľăżŞĘź</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Since 3 pm on the 14th of last month,</font>
+Dialogue: 0,0:18:28.04,0:18:30.04,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>žÍ˛ťĘÇÖĐšúČËÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I am no longer officailly Chinese.</font>
+Dialogue: 0,0:18:32.06,0:18:34.06,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔőĂ´×ĹŁż¸Ő´ÓšúÄÚŔ´°ĄŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What? Fresh off the boat?</font>
+Dialogue: 0,0:18:38.08,0:18:41.08,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ż´źűÁËĂ´Łż ĎÖÔÚŐâžÖĘĆ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Hear that? In times like this,</font>
+Dialogue: 0,0:18:41.11,0:18:43.11,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>žÍĘÇŐâ¸öźŰ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>that's the price you get.</font>
+Dialogue: 0,0:18:48.03,0:18:50.03,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>źűšýŐâ¸öĂ´Łż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Seen this before?</font>
+Dialogue: 0,0:18:53.06,0:18:55.06,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ăťźűšý</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Nope</font>
+Dialogue: 0,0:18:57.08,0:18:59.08,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÓĐČËËľÔÚŐâ¸öšúźŇłöĎÖšý</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I've been told that it came from these parts.</font>
+Dialogue: 0,0:19:01.00,0:19:03.00,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇŐćĂťźűšý</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Definitely never seen it.</font>
+Dialogue: 0,0:19:03.03,0:19:05.03,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŔĎ°ĺ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Hey boss.</font>
+Dialogue: 0,0:19:06.05,0:19:08.05,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăÔőĂ´ŃůÁËŁżŔ´¸ůŃĚŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>How are you? Smoking?</font>
+Dialogue: 0,0:20:40.08,0:20:42.08,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Tundu</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Tundu!</font>
+Dialogue: 0,0:20:53.00,0:20:55.00,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ß ×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go! Go!</font>
+Dialogue: 0,0:21:01.02,0:21:03.02,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ąđżŞÇš</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Don't shoot!</font>
+Dialogue: 0,0:21:03.05,0:21:05.05,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ąđżŞÇš</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Don't shoot!</font>
+Dialogue: 0,0:21:05.07,0:21:06.17,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ąđżŞÇš - ËűĂÇĘÇşĂČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Don't shoot! - Good people</font>
+Dialogue: 0,0:21:06.20,0:21:08.20,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>šýČĽ šýČĽ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go, go, go!</font>
+Dialogue: 0,0:21:15.22,0:21:17.22,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĎëťîľÄžÍ¸řÎŇĹżĎÂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Get the fuck down or you die!</font>
+Dialogue: 0,0:21:17.24,0:21:20.04,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- şě˝ížüąŘĘ¤ - ÄăÖŞľŔÄăÔÚ¸úË­Ëľť°Âđ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Hail the revolution! - You're now talking to rebels!</font>
+Dialogue: 0,0:21:20.07,0:21:22.07,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>˛ťŇŞĆ­ÎŇ ÄăľšĂšÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Don't lie to me. Your luck is down!</font>
+Dialogue: 0,0:21:22.09,0:21:24.09,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şě˝ížüąŘĘ¤</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Hail the revolution!</font>
+Dialogue: 0,0:21:27.02,0:21:28.42,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>˛ť˛ť˛ť żěż´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>No, no, no Guys, look!</font>
+Dialogue: 0,0:21:28.44,0:21:30.44,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ąŘĘ¤</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Revolution!</font>
+Dialogue: 0,0:21:32.06,0:21:34.06,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ŐâËűÂčľÄĘÇĘ˛Ă´Łż - ˛ť˛ť˛ť</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- What the fuck is this?! - No, no, no</font>
+Dialogue: 0,0:21:34.09,0:21:36.09,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËűĘÇŐţ¸ŽžüľÄ×ßšˇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>He's a pro-government rat!</font>
+Dialogue: 0,0:21:36.11,0:21:38.01,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ˛ť˛ť˛ť - ÄăÔÚĆ­ÎŇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- NO! - You lied to me!</font>
+Dialogue: 0,0:21:38.04,0:21:40.04,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>˛ť˛ť˛ť şě˝ížüąŘĘ¤ şě˝ížüąŘĘ¤</font>\N<font face="Î˘ČíŃĹşÚ" size=10>No! Hail the rebels! Hail the rebels!</font>
+Dialogue: 0,0:22:27.06,0:22:29.06,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÂčľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Shit!</font>
+Dialogue: 0,0:22:36.08,0:22:38.08,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Tundu</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Tundu!</font>
+Dialogue: 0,0:22:49.01,0:22:51.01,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ÖĐšú´óĘššÝ - ČĽ´óĘššÝ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Chinese embassy - Let's go to the Chinese embassy.</font>
+Dialogue: 0,0:22:51.03,0:22:53.03,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËűĂÇťáĘŐÁôÎŇĂÇľÄ ÎŇĂÇĘÇÖĐšúČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>They'll take us in. We're Chinese.</font>
+Dialogue: 0,0:22:55.06,0:22:57.06,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄÇÎŇĂÇÔőĂ´°ěŁż ÎŇĂÇ¸ĂÔőĂ´°ěŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What about us? What're we suppose to do?</font>
+Dialogue: 0,0:22:57.08,0:22:59.08,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ËűĂÇťáĘŐÁôÎŇĂÇÂđŁż- şÜÄŃËľ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Will they accept us? - Hard to say.</font>
+Dialogue: 0,0:22:59.10,0:23:02.00,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ÄÇĘÇÎŇĂÇľÄšúźŇ - ËůÓĐČË¸úÎŇ×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- That's our country. - Everybody follow me.</font>
+Dialogue: 0,0:23:07.03,0:23:09.03,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go!</font>
+Dialogue: 0,0:23:10.05,0:23:12.05,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go!</font>
+Dialogue: 0,0:23:24.08,0:23:26.08,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go!</font>
+Dialogue: 0,0:23:33.00,0:23:35.00,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go!</font>
+Dialogue: 0,0:23:39.52,0:23:41.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>żě×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Come on!</font>
+Dialogue: 0,0:23:55.05,0:23:57.05,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>˛ť</font>\N<font face="Î˘ČíŃĹşÚ" size=10>No!</font>
+Dialogue: 0,0:23:58.57,0:24:00.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Őâąß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Here</font>
+Dialogue: 0,0:26:31.00,0:26:34.00,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Âý×Ĺ Âý×Ĺ ˛ť˛ť ÖĐšúČË ÖĐšúČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Slow down! No, no! We're Chinese</font>
+Dialogue: 0,0:26:34.02,0:26:36.02,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- żě×ß - Tundu</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Go, go! - Tundu!</font>
+Dialogue: 0,0:26:36.04,0:26:38.04,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ß ×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go, go, go!</font>
+Dialogue: 0,0:26:39.07,0:26:41.07,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ßšˇČĽËŔ şě˝ížüąŘĘ¤</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Die! Scum! Hail the revolution!</font>
+Dialogue: 0,0:26:41.09,0:26:43.09,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ßšˇ¸ĂËŔ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Die! Scum!</font>
+Dialogue: 0,0:26:45.02,0:26:47.02,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ČĽËŔ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Die! Scum!</font>
+Dialogue: 0,0:26:51.04,0:26:53.04,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ČĽËŔ°É - °ŃÇšˇĹĎÂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Die! - Lower your guns!</font>
+Dialogue: 0,0:26:53.06,0:26:55.06,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ˇĹĎÂÎäĆ÷</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Put down your weapons!</font>
+Dialogue: 0,0:26:57.09,0:26:59.09,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>°ŃÇšˇĹĎÂ °ŃÇšˇĹĎÂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Lower your guns! Lower your guns!</font>
+Dialogue: 0,0:27:03.01,0:27:05.01,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>´óźŇÔÝÍŁ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Stand down!</font>
+Dialogue: 0,0:27:05.04,0:27:07.04,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇĘÇÖĐšúČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>We are Chinese!</font>
+Dialogue: 0,0:27:07.06,0:27:09.06,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇĘÇÖĐšúČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>We are Chinese!</font>
+Dialogue: 0,0:27:10.08,0:27:12.08,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÖĐšúşÍˇÇÖŢśźĘÇĹóÓŃ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>China and Africa are friends!</font>
+Dialogue: 0,0:27:21.01,0:27:23.01,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go</font>
+Dialogue: 0,0:27:24.03,0:27:26.03,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ß żě×ß ×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go, hurry. Go.</font>
+Dialogue: 0,0:27:26.06,0:27:28.06,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go.</font>
+Dialogue: 0,0:27:30.08,0:27:32.08,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>łˇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Fall back!</font>
+Dialogue: 0,0:27:37.00,0:27:39.00,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>°ďĂŚ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Help! Help!</font>
+Dialogue: 0,0:29:03.55,0:29:07.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ę×ł¤ ËűšúŐ˝˝˘ŇŃž­ČŤ˛żĘťŔëŐ˝śˇÇř</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Commander, all foreign vessels are leaving the war zone.</font>
+Dialogue: 0,0:29:07.58,0:29:10.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ç°ˇ˝şÜÎŁĎŐ ÎŇĂÇťšŇŞźĚĐř˝ř¸ŰÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>The harbor is unsafe. Are you certain about docking?</font>
+Dialogue: 0,0:29:13.50,0:29:15.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ç°˝řĘŽ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Forward 10 knots.</font>
+Dialogue: 0,0:29:15.52,0:29:17.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ş˝Ďň270</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Set course bearing for 270.</font>
+Dialogue: 0,0:29:30.55,0:29:32.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>żŞŐ˘ĂĹ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Open the gate!</font>
+Dialogue: 0,0:29:50.57,0:29:53.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŔĎˇŽ ĐÁżŕÁË ÄăĂÇşŁžüŔ´ľÄĚŤź°ĘąÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Well done, you got here just in time</font>
+Dialogue: 0,0:29:53.60,0:29:56.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ĎÖÔÚžÖĘĆÔőĂ´ŃůŁż- Őâ¸öšúźŇľÄĹŃÂŇÍęČŤąŹˇ˘ÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- What's the situation? - The entire country's in chaos.</font>
+Dialogue: 0,0:29:56.52,0:29:59.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇÇČĂńľÄÉúĂüşÍ˛Ć˛úĘÜľ˝ŃĎÖŘÎŁşŚ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>The war has destroyed lives of many of countrymen.</font>
+Dialogue: 0,0:29:59.54,0:30:02.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĂÇÄÜ˛ťÄÜĹÉąř°ŃËűĂÇąŁť¤łöŔ´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Can you send our troops in to help?</font>
+Dialogue: 0,0:30:02.57,0:30:04.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Î´ž­ÁŞşĎšúÔĘĐí</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Without the UN's authorization,</font>
+Dialogue: 0,0:30:04.59,0:30:06.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇˇ˝×÷Ő˝ČËÔąĘÇ˛ťÄÜ˝řČëľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>our troops aren't premitted  to enter the war zone.</font>
+Dialogue: 0,0:30:08.98,0:30:10.35,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄúÂýľă 62şĹ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>OK, slow, No.62</font>
+Dialogue: 0,0:30:10.52,0:30:15.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ŕ´Ŕ´Ŕ´ ÍůÉĎ×ß şĂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go go go, Up we go! Nice!</font>
+Dialogue: 0,0:30:16.54,0:30:18.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăÄÄľÄŁżŐâ˛ťÄÜÉĎ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Where are from? He can't board.</font>
+Dialogue: 0,0:30:18.56,0:30:20.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇśů×Ó</font>\N<font face="Î˘ČíŃĹşÚ" size=10>He's my son.</font>
+Dialogue: 0,0:30:20.59,0:30:22.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇÓĐĆą ż´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>We have tickets. See, look!</font>
+Dialogue: 0,0:30:22.61,0:30:24.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ČýŐĹ 79 80 81</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Three tickets. 79, 80, 81.</font>
+Dialogue: 0,0:30:26.54,0:30:28.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şĂ 79 89 30</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Fine then. 79, 80, 81.</font>
+Dialogue: 0,0:30:28.56,0:30:30.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĐťĐť</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Thank you.</font>
+Dialogue: 0,0:30:31.58,0:30:33.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇČĽÄÄŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Where are we going?</font>
+Dialogue: 0,0:30:33.61,0:30:36.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ÜŔíĎČÉú ÄăĚýÎŇËľ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Mr. Prime Minister, please listen to me.</font>
+Dialogue: 0,0:30:36.53,0:30:39.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>šóšúˇ˘ÉúŐâŃůľÄĘÂÇé ÎŇşÜŇĹşś</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I'm deeply sorry for what's happening in your country.</font>
+Dialogue: 0,0:30:40.51,0:30:43.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ľŤĘÇÎŇĎŕĐĹ ÄăŇ˛Ňťś¨˛ťťáÍüźÇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>But I believe you have not forgotten about the help,</font>
+Dialogue: 0,0:30:43.53,0:30:45.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŔúĘˇÉĎÎŇšúśÔšóšúľÄÔŽÖúÖŽÇé</font>\N<font face="Î˘ČíŃĹşÚ" size=10>we provided to your country</font>
+Dialogue: 0,0:30:45.55,0:30:48.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇÁ˝šúÖŽźäľÄÓŃŇę</font>\N<font face="Î˘ČíŃĹşÚ" size=10>and friendship between our countries</font>
+Dialogue: 0,0:30:48.58,0:30:50.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĎŕĐĹÄăŇ˛ÖŞľŔ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I believe you understand how important</font>
+Dialogue: 0,0:30:50.60,0:30:53.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇšúÔŽˇÇľÄłÂ˛ŠĘżśÔˇÇÖŢľÄÖŘŇŞĐÔ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>our citizen Dr. Chen is to Africa.</font>
+Dialogue: 0,0:30:53.53,0:30:56.03,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÇëĹÉąřąŁŐĎłÂ˛ŠĘżľÄ°˛ČŤ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Please send somebody to protect his safety.</font>
+Dialogue: 0,0:30:56.05,0:30:58.05,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>śÔ˛ťĆđ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I'm sorry,</font>
+Dialogue: 0,0:30:58.07,0:31:00.97,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ÄăĂÇĎÖÔÚÖťÄÜżż×ÔźşÁË - ×ÜŔíĎČÉú</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- you're on your own this time - Prime Minister</font>
+Dialogue: 0,0:31:01.00,0:31:03.00,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>łÂ˛ŠĘżÔÚÄÄŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Where's Dr. Chen?</font>
+Dialogue: 0,0:31:05.02,0:31:07.02,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇžř˛ťťá</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I will never</font>
+Dialogue: 0,0:31:07.05,0:31:09.05,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸ćËßÄăľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>tell you</font>
+Dialogue: 0,0:31:15.07,0:31:17.07,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇ×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Let's go!</font>
+Dialogue: 0,0:31:19.09,0:31:21.09,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĘŽśţÄęľÄÎÔĐ˝ł˘ľ¨°Ą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>12 years of hard work.</font>
+Dialogue: 0,0:31:22.02,0:31:25.02,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŇťłŻŐ˝ÂŇ ČŤËűÂčĂťÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>One war, and it's all fucking gone</font>
+Dialogue: 0,0:31:27.04,0:31:29.04,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Őâ×ÓľŻ...</font>\N<font face="Î˘ČíŃĹşÚ" size=10>The bullet...</font>
+Dialogue: 0,0:31:29.07,0:31:31.07,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÓĐĘ˛Ă´šĘĘÂĂ´Łż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>what's the story?</font>
+Dialogue: 0,0:31:43.09,0:31:45.09,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Tundu</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Tundu!</font>
+Dialogue: 0,0:31:46.01,0:31:48.01,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Tundu ĎÂÁË´ŹžÍ˛ťÄÜÉĎ´ŹÁË°Ą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Tundu! If you get off, you can't get back on.</font>
+Dialogue: 0,0:31:49.04,0:31:51.04,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Tundu Tundu</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Tundu! Tundu!</font>
+Dialogue: 0,0:31:51.06,0:31:52.46,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- Őž×Ą - śÔ˛ťĆđ śÔ˛ťĆđ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Stop right there! - I'm sorry, I'm sorry</font>
+Dialogue: 0,0:31:52.46,0:31:54.06,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇŇŞÎŇÂčÂč</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I want my mom!</font>
+Dialogue: 0,0:31:54.09,0:31:56.09,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇŇŞÎŇÂčÂč ÎŇ˛ťŇŞČĽÖĐšú</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I want my mom, I don't want to go to China!</font>
+Dialogue: 0,0:31:56.61,0:31:58.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- Äăż´×ĹÎŇ - ÎŇŇŞÎŇÂčÂč</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Look at me - I want my mom!</font>
+Dialogue: 0,0:31:58.53,0:32:00.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĎŕĐĹ¸Éľů</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I want my mom!</font>
+Dialogue: 0,0:32:01.56,0:32:03.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ĎŕĐĹ¸Éľů - ĐÖľÜ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Ok? I want my mom! - Hey brother</font>
+Dialogue: 0,0:32:06.58,0:32:08.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăÔőĂ´Ň˛ĎÂŔ´ÁËŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What are you doing down here?</font>
+Dialogue: 0,0:32:08.61,0:32:11.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÓĐŇťźţĘÂÇéÎŇąŘĐë¸úÄăËľĘľť°</font>\N<font face="Î˘ČíŃĹşÚ" size=10>There's something I have to tell you.</font>
+Dialogue: 0,0:32:11.53,0:32:13.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Äă´÷ľÄŐâ¸ö×ÓľŻ...</font>\N<font face="Î˘ČíŃĹşÚ" size=10>That bullet...</font>
+Dialogue: 0,0:32:14.55,0:32:17.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇźűšý ŐâÉĎĂćľÄť¨ÎĆ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I've seen it before. That pattern,</font>
+Dialogue: 0,0:32:17.58,0:32:20.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şĂĎńĘÇˇ´Őţ¸ŽÎä×°ÄÇąßľÄŇť¸öĘ˛Ă´ąęźÇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>is a symbol used by the rebel forces.</font>
+Dialogue: 0,0:32:21.50,0:32:23.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇÓĐŇť¸ö¸ăžüťđľÄĹóÓŃ¸úÎŇËľ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>An arm dealer friend of mine told me</font>
+Dialogue: 0,0:32:23.53,0:32:26.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËűĂÇĎÖÔÚŇŃž­šÍÓśÁËĹˇÖŢźŰ×î¸ßľÄšÍÓśąř</font>\N<font face="Î˘ČíŃĹşÚ" size=10>the rebels have hired the most expensive mercenaries out of Europe.</font>
+Dialogue: 0,0:32:27.55,0:32:29.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇ˛ťšÜÄă¸úËűĂÇÓĐĘ˛Ă´ś÷Ôš</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Whatever grudge you've got against them,</font>
+Dialogue: 0,0:32:29.57,0:32:31.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇČ°ÄăŇťžä</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I urge you,</font>
+Dialogue: 0,0:32:31.60,0:32:33.60,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ąđČĽËÍËŔ - ÉŁżâźÓŐňľÄťŞ×Ęš¤ł§</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- don't go seeking death. - 47 Chinese workers!</font>
+Dialogue: 0,0:32:33.62,0:32:35.62,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ťšÓĐËÄĘŽĆßĂűÖĐšúÔąš¤</font>\N<font face="Î˘ČíŃĹşÚ" size=10>are still stuck at the Hanbond Chinese factory</font>
+Dialogue: 0,0:32:35.65,0:32:38.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸üżÉĹÂľÄĘÇÎĺĘŽÎĺšŤŔďÍâ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What's worse, Dr, Chen is stuck 55 km</font>
+Dialogue: 0,0:32:38.57,0:32:39.97,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ťšÓĐÔŽˇÇĐĄ×éľÄłÂ˛ŠĘż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>behind enemy lines on a medical relief mission</font>
+Dialogue: 0,0:32:39.97,0:32:42.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËűżÉĘÇżÖ˛ŔˇÖ×ÓľÄÍˇşĹÄżąę</font>\N<font face="Î˘ČíŃĹşÚ" size=10>He's a high value target for the rebel army.</font>
+Dialogue: 0,0:32:42.60,0:32:44.60,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>´ÓÂĺĆćĹľľ˝ĘĽˇđŔźŇŃž­ČŤĂćˇâËř</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Everything is in total lockdown from Lochino to St. Francis.</font>
+Dialogue: 0,0:32:45.52,0:32:47.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĂťÓĐÁŞşĎšúľÄÔĘĐí</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Without UN's authorization,</font>
+Dialogue: 0,0:32:47.54,0:32:49.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇˇ˝×÷Ő˝ČËÔą˝űÖš˝řČë˝ťŐ˝Çř</font>\N<font face="Î˘ČíŃĹşÚ" size=10>my troops aren't allowed to enter the war zone.</font>
+Dialogue: 0,0:32:49.57,0:32:51.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Őâ´ÎłˇÇČĐĐśŻ ĘÂšŘÖŘ´ó</font>\N<font face="Î˘ČíŃĹşÚ" size=10>This operation is highly important!</font>
+Dialogue: 0,0:32:51.59,0:32:53.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇąŘĐëČĂËůÓĐľÄÖĐšúÔąš¤</font>\N<font face="Î˘ČíŃĹşÚ" size=10>We have to evacuate those Chinese workers!</font>
+Dialogue: 0,0:32:53.62,0:32:55.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ťšÓĐłÂ˛ŠĘż°˛ČŤłˇŔë</font>\N<font face="Î˘ČíŃĹşÚ" size=10>and Dr. Chen by all means!</font>
+Dialogue: 0,0:32:55.54,0:32:58.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔÚÄżÇ°ÇéżöĎÂ ×÷Ő˝ČËÔą˝űÖš˝řČë˝ťŐ˝Çř</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Under current circumstances, combat troops are prohibited from entering the warzone!</font>
+Dialogue: 0,0:32:58.56,0:33:00.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ľŤÎŇĂÇŇŞźážöÍęłÉłˇÇČ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>In order to complete the evacuation,</font>
+Dialogue: 0,0:33:00.59,0:33:02.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ąŘĐëŇŞŇť¸öČËľĽśŔÍęłÉČÎÎń</font>\N<font face="Î˘ČíŃĹşÚ" size=10>someone has to undertake the mission alone!</font>
+Dialogue: 0,0:33:02.61,0:33:04.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ÎŇČĽ - Őž×Ą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- I'll go. - Stop right there!</font>
+Dialogue: 0,0:33:04.64,0:33:06.64,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸ÉĘ˛Ă´ľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What's your purpose?</font>
+Dialogue: 0,0:33:07.56,0:33:10.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ô­ÖĐšúČËĂń˝âˇĹžüśŤÄĎžüÇř</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Former PLA, South-east region,</font>
+Dialogue: 0,0:33:10.58,0:33:12.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĚŘÖÖ×÷Ő˝ÂĂ Ő˝ŔÇÖĐśÓ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Specail Ops Brigade,  Wolf Warrior squadron,</font>
+Dialogue: 0,0:33:13.51,0:33:15.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ŕäˇć</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Leng Feng.</font>
+Dialogue: 0,0:33:15.53,0:33:17.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Őâş˘×ÓľÄÂčÂčžÍÔÚÄÇźŇťŞ×Ęš¤ł§</font>\N<font face="Î˘ČíŃĹşÚ" size=10>This child's mother is  at Hanbond Chinese factory.</font>
+Dialogue: 0,0:33:17.56,0:33:19.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇ´ó¸ĹÖŞľŔÄÇŔďľÄÎťÖĂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I know approximately where it is located.</font>
+Dialogue: 0,0:33:25.58,0:33:27.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇąŁÖ¤</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I promise you,</font>
+Dialogue: 0,0:33:27.60,0:33:30.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇťá´řÄăÂčÂčťŘŔ´ľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I will bring your mom back.</font>
+Dialogue: 0,0:33:36.53,0:33:38.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇŇŃž­ĚćÄă¸ăś¨şĂÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>We took care of business now, didn't we?</font>
+Dialogue: 0,0:33:38.55,0:33:40.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Íâ˝ť˛żľÄĚŔĚŘĘš °˛ľÂŔ­Ç×Íő ľÂÂłÍő×Ó</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Ambassador Thomas, King Angola, Prince Drew.</font>
+Dialogue: 0,0:33:41.58,0:33:43.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸ĂËŔľÄÍ¨Ńś˛żž­Ŕí</font>\N<font face="Î˘ČíŃĹşÚ" size=10>That goddamn communications manager.</font>
+Dialogue: 0,0:33:44.50,0:33:46.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËűĂÇśźĎűĘ§ÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>They're all gone. They all disappeared,</font>
+Dialogue: 0,0:33:46.52,0:33:48.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÉńĂŘľÄĘ§×Ů</font>\N<font face="Î˘ČíŃĹşÚ" size=10>real mysterously!</font>
+Dialogue: 0,0:33:48.55,0:33:51.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>˛ťŇŞÓĂŐâĐŠĆĆĘÂşýĹŞÎŇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Stop wasting my time with that crap!</font>
+Dialogue: 0,0:33:51.57,0:33:53.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>łÂ˛ŠĘżÔÚÄÄśůŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Where's Dr. Chen?</font>
+Dialogue: 0,0:33:54.50,0:33:56.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>°Ą ŇŽöŐ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Ah, Jesus.</font>
+Dialogue: 0,0:34:12.52,0:34:14.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸ćËßËű Äă¸ŐśÔÎŇËľľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You tell him what you told me.</font>
+Dialogue: 0,0:34:14.54,0:34:16.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>łÂ˛ŠĘż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Dr. Chen</font>
+Dialogue: 0,0:34:16.57,0:34:20.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔÚĘĽˇđŔźťŞ×ĘŇ˝Ôş</font>\N<font face="Î˘ČíŃĹşÚ" size=10>is at St. Francis Chinese-invested hospital.</font>
+Dialogue: 0,0:34:20.59,0:34:22.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>šÔş˘×Ó</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Good boy.</font>
+Dialogue: 0,0:34:30.52,0:34:32.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ěýľ˝ÁËĂ´Łż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Did you hear that?</font>
+Dialogue: 0,0:34:32.54,0:34:34.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄÇŇ˛ÓĐżÉÄÜĘÇÄăľÄĎÂłĄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>That could be sound of the future.</font>
+Dialogue: 0,0:34:42.56,0:34:46.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇÎŞĘ˛Ă´ŇŞĘŐşě˝ížüÄÇ°ď´ŔťőľÄÇŽŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Sir, Why are we helping these fucking idiots?</font>
+Dialogue: 0,0:34:46.59,0:34:48.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ťśÓ­Ŕ´ľ˝ˇÇÖŢťďźĆ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Welcome to Africa, son.</font>
+Dialogue: 0,0:34:49.51,0:34:51.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ťďźĆĂÇłöˇ˘</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Alrights, let's move out boys!</font>
+Dialogue: 0,0:35:10.56,0:35:12.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇľĂľ˝×îĐÂĎűĎ˘</font>\N<font face="Î˘ČíŃĹşÚ" size=10>From the latest report,</font>
+Dialogue: 0,0:35:12.58,0:35:14.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ő˝ťđŇŃž­ÂűŃÓľ˝ÉŁČřŔ×Äˇ¸ŰżÚ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>the fighting is reaching Semshalemu harbour.</font>
+Dialogue: 0,0:35:14.61,0:35:18.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄÇŔďľČ´ýžČÔŽľÄŇťÇ§Îĺ°ŮČýĘŽÁůĂűÖĐšúÍŹ°űľÄÉúĂü</font>\N<font face="Î˘ČíŃĹşÚ" size=10>The urgency of the evacuating 1536 Chinese nationals wating there</font>
+Dialogue: 0,0:35:18.53,0:35:20.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ąäľĂÎŁÔÚľŠĎŚ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>has just been escalated.</font>
+Dialogue: 0,0:35:20.56,0:35:22.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>łˇÇČžü˝˘ąŘĐëČŤËŮ¸ĎÍů</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Our vessels are heading over at top speed.</font>
+Dialogue: 0,0:35:22.58,0:35:25.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şÜą§Ç¸ ŇňÎŞĘÇąđšú˝ťŐ˝Çř</font>\N<font face="Î˘ČíŃĹşÚ" size=10>My apologies, because the conflict is on foreign soil,</font>
+Dialogue: 0,0:35:25.60,0:35:27.60,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăŐâ´ÎľÄĐĐśŻĂťÓĐÖ§ÔŽ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>you'll have no reinforcements,</font>
+Dialogue: 0,0:35:27.63,0:35:29.63,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĂťÓĐĂËžü Ň˛ĂťÓĐÎäĆ÷</font>\N<font face="Î˘ČíŃĹşÚ" size=10>no allies and no weapons.</font>
+Dialogue: 0,0:35:29.65,0:35:32.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>łÂ˛ŠĘż ťšÓĐËÄĘŽĆßĂűÖĐšúÍŹ°ű</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Dr. Chen and 47 Chinese workers,</font>
+Dialogue: 0,0:35:32.58,0:35:34.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>śź´řťŘŔ´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>evacuate them all.</font>
+Dialogue: 0,0:36:09.47,0:36:11.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇŔĎ°ĺ˝ť´úÎŇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>My boss asked me</font>
+Dialogue: 0,0:36:11.60,0:36:13.60,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŐŇłÂ˛ŠĘż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>to find Dr. Chen.</font>
+Dialogue: 0,0:36:13.62,0:36:16.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĂÇĂťČËÓĐČÎşÎˇ´ÓŚ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Nobody wants to do something!</font>
+Dialogue: 0,0:36:16.54,0:36:19.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĎÖÔÚ ÄÇÎŇÖťÄÜĘÔĘÔÔËĆřÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Now, I have to try my luck.</font>
+Dialogue: 0,0:36:19.57,0:36:21.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŇňÎŞ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Because</font>
+Dialogue: 0,0:36:21.59,0:36:23.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇÓĐ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I have</font>
+Dialogue: 0,0:36:23.62,0:36:25.62,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĚŘĘâľÄŃŰÁŚ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>a special vision.</font>
+Dialogue: 0,0:36:26.54,0:36:28.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇ˛Â˛Â...</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Let me guess...</font>
+Dialogue: 0,0:36:53.59,0:36:55.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĘÇłÂ˛ŠĘżÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Are you Dr. Chen?</font>
+Dialogue: 0,0:36:55.61,0:36:58.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ÎŇ˛ťĘÇ ÎŇ˛ťĘÇ - ÄăĘÇłÂ˛ŠĘżÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- I'm not! I'm not! - Are you Dr. Chen?</font>
+Dialogue: 0,0:36:59.54,0:37:01.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ÄăĘÇłÂ˛ŠĘżÂđŁż- ˛ť˛ť˛ť</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Are you Dr. Chen? - No, no, no.</font>
+Dialogue: 0,0:37:01.56,0:37:03.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĎĹľ˝ËýÁË ËýťšĘÇ¸öş˘×Ó</font>\N<font face="Î˘ČíŃĹşÚ" size=10>She's a child, just a child</font>
+Dialogue: 0,0:37:03.58,0:37:05.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ÎŇĘÇ - ˛ť</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- I am - No</font>
+Dialogue: 0,0:37:08.51,0:37:10.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>˛ťŇŞ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>No</font>
+Dialogue: 0,0:37:13.53,0:37:15.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĘÇłÂ˛ŠĘż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I'm Dr. Chen.</font>
+Dialogue: 0,0:37:22.56,0:37:24.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĘÇłÂ˛ŠĘżŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You are Dr. Chen?</font>
+Dialogue: 0,0:37:24.58,0:37:27.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>łÂ˛ŠĘżÔőĂ´Ăťľ°ľ°ÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Looks like Dr. Chen doesn't have balls.</font>
+Dialogue: 0,0:37:28.50,0:37:30.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĎëŇŞĘ˛Ă´Łż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What do you want?</font>
+Dialogue: 0,0:37:30.53,0:37:32.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ÎŇžÍĘÇ - RachelŇ˝Éú ˛ť</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- I am Dr. Chen. - Dr. Rachel, no!</font>
+Dialogue: 0,0:37:34.55,0:37:36.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ëý˛ťĘÇłÂ˛ŠĘż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>She's not Dr. Chen.</font>
+Dialogue: 0,0:37:36.58,0:37:38.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËýĘÇˇÇłŁşĂľÄŇ˝Éú</font>\N<font face="Î˘ČíŃĹşÚ" size=10>She's a very good doctor.</font>
+Dialogue: 0,0:37:38.60,0:37:40.60,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËýžČšýşÜśŕČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>She saved so many lives.</font>
+Dialogue: 0,0:37:41.52,0:37:43.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ěě°Ą ˛ťŇŞ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>No!</font>
+Dialogue: 0,0:37:51.55,0:37:53.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>łÂ˛ŠĘż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Dr. Chen!</font>
+Dialogue: 0,0:37:53.57,0:37:55.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>papa</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Papa!</font>
+Dialogue: 0,0:37:57.50,0:37:59.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Äă¸ŐÉąÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You just killed</font>
+Dialogue: 0,0:37:59.52,0:38:00.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>łÂ˛ŠĘż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Dr. Chen.</font>
+Dialogue: 0,0:38:02.57,0:38:04.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- Papa - łÂ˛ŠĘż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Papa! - Dr. Chen!</font>
+Dialogue: 0,0:39:42.59,0:39:44.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>łÂ˛ŠĘżĘÇ°ÉŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Dr. Chen, right?</font>
+Dialogue: 0,0:39:44.62,0:39:46.62,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĘÇˇŽ´óĘšĹÉŔ´žČÄăĂÇľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I was sent by Ambassador Fan to rescue you.</font>
+Dialogue: 0,0:39:49.54,0:39:51.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŐâĘÇÎŇľÄĹŽśůPasha</font>\N<font face="Î˘ČíŃĹşÚ" size=10>This is my daughter, Pasha.</font>
+Dialogue: 0,0:39:51.56,0:39:53.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÇóÄăÎńąŘąŁť¤şĂËý</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Please, I beg you, protect her.</font>
+Dialogue: 0,0:39:59.59,0:40:01.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>łÂ˛ŠĘż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Dr. Chen!</font>
+Dialogue: 0,0:40:02.51,0:40:04.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸úÎŇ×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Come with me!</font>
+Dialogue: 0,0:40:04.54,0:40:06.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÉĎłľ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Get in the car!</font>
+Dialogue: 0,0:40:31.56,0:40:33.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĎňśŤ×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go fast!</font>
+Dialogue: 0,0:40:39.58,0:40:41.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĎë¸ÉÂďŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What are you doing?</font>
+Dialogue: 0,0:40:41.61,0:40:44.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăŇÔÎŞÎŇÔÚ¸ÉÂďŁżÎŇÔÚžČÄăĐĄĂü</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What do you think I'm doing? I'm saving your ass!</font>
+Dialogue: 0,0:40:56.53,0:40:58.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇŔ´żŞłľ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Let me drive!</font>
+Dialogue: 0,0:40:58.56,0:41:00.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ČĂżŞ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Move!</font>
+Dialogue: 0,0:41:53.58,0:41:55.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÂčÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What the hell!</font>
+Dialogue: 0,0:41:56.50,0:41:58.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ľôÍˇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Turn around!</font>
+Dialogue: 0,0:41:59.53,0:42:01.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>żěżěżě</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go, go, go!</font>
+Dialogue: 0,0:42:32.55,0:42:34.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Éńž­</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Jesus.</font>
+Dialogue: 0,0:43:15.58,0:43:17.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Pasha</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Pasha!</font>
+Dialogue: 0,0:44:31.50,0:44:33.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĂťĘÂ°ÉŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Are you okay?</font>
+Dialogue: 0,0:44:33.52,0:44:35.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĂťĘÂ°ÉŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Are you okay?</font>
+Dialogue: 0,0:44:35.55,0:44:37.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĂťĘÂ°ÉŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Are you okay?</font>
+Dialogue: 0,0:44:47.57,0:44:49.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĂťĘÂ°ÉŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Are you okay?</font>
+Dialogue: 0,0:44:52.50,0:44:54.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĂťĘÂ°ÉŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Are you okay?</font>
+Dialogue: 0,0:44:54.52,0:44:56.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĂťĘÂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Yeah.</font>
+Dialogue: 0,0:44:56.54,0:45:01.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Pasha</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Pasha.</font>
+Dialogue: 0,0:45:06.57,0:45:08.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Őž×Ą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Stop!</font>
+Dialogue: 0,0:45:09.59,0:45:11.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Őž×Ą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Stop!</font>
+Dialogue: 0,0:45:22.52,0:45:24.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĂÇŇŞÁ¸ĘłÂđŁżÎŇĂÇÓĐÁ¸Ęł</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You want food? We have food.</font>
+Dialogue: 0,0:45:25.54,0:45:27.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇÓĐÁ¸Ęł</font>\N<font face="Î˘ČíŃĹşÚ" size=10>We have food, okay?</font>
+Dialogue: 0,0:45:27.56,0:45:29.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇÓĐÁ¸Ęł</font>\N<font face="Î˘ČíŃĹşÚ" size=10>We have food.</font>
+Dialogue: 0,0:45:59.59,0:46:01.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĂťĘÂ°É</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Are you okay?</font>
+Dialogue: 0,0:46:19.51,0:46:21.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĐťĐť</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Thank you.</font>
+Dialogue: 0,0:46:26.54,0:46:28.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĘÇ¸ôŔëÇřĘÜľÄÉËÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Is that from quarantine zone?</font>
+Dialogue: 0,0:46:29.56,0:46:31.46,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>°ŃŇŠĎäľÝ¸řÎŇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Pasha, can you please hand me the bag?</font>
+Dialogue: 0,0:46:31.52,0:46:33.72,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇËľĘÇ¸ôŔëÇřĘÜľÄÉËÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I said, did you get that in the quarantine zone?</font>
+Dialogue: 0,0:46:37.54,0:46:39.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ĂťšŘĎľ - ÄăąđžőľĂÎŇ´óžŞĐĄšÖ°Ą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- It's nothing. - I'm not overreacting.</font>
+Dialogue: 0,0:46:40.56,0:46:42.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĂťÓĐ×´żö×îşĂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>In fact, it's better if I was.</font>
+Dialogue: 0,0:46:42.59,0:46:45.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸Ő˛ĹÄÇĐŠČË¸ĐČžľÄĘÇŔ­ÂüŔ­˛Ąśž</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Those people back there were infected with the Lamanla virus.</font>
+Dialogue: 0,0:46:45.61,0:46:47.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸ĐČžŐßşÜżěžÍťáłöĎÖˇ˘ČČ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Symptoms include the sudden onset fever,</font>
+Dialogue: 0,0:46:47.64,0:46:49.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ťĂžő ŔŁŔĂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>hallucinations, lesions,</font>
+Dialogue: 0,0:46:49.56,0:46:54.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĐéşšľČÖ˘×´ ĘÇŇťÖÖÍ¨šý˝Ó´Ľ´Ť˛ĽľÄˇÇłŁşąźűľÄÁŇĐÔ˛Ąśž</font>\N<font face="Î˘ČíŃĹşÚ" size=10>cold sweats. It's a fatal virus that's transmitted  through direct human contact.</font>
+Dialogue: 0,0:46:54.58,0:46:57.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>´Óˇ˘˛Ąľ˝ËŔÍö ×îł¤Îĺ¸öÔÂ ×îśĚËÄ¸öĐĄĘą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Upon contraction, death strikes between four hours and five months.</font>
+Dialogue: 0,0:46:57.61,0:47:01.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>śřÇŇľ˝ĎÖÔÚ ťšĂťÓĐŃĐÖĆłöÄÜÖÎÓúŐâÖÖ˛ĄśžľÄŇßĂç</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Up until now, no cure has been found.</font>
+Dialogue: 0,0:47:01.53,0:47:03.83,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĂťĘÂ ÎŇÂňŇ˝ąŁÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Don't worry, I'm insured.</font>
+Dialogue: 0,0:47:23.56,0:47:25.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăÉąÁËÖĐšúČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You're killing the Chinese?</font>
+Dialogue: 0,0:47:26.58,0:47:28.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Âéˇł´óÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>This is a big trouble.</font>
+Dialogue: 0,0:47:28.60,0:47:30.60,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăÎŞĘ˛Ă´ÉąÖĐšúČËŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Why are you killing the Chinese?</font>
+Dialogue: 0,0:47:33.53,0:47:36.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- Íˇśů... - ÄăŇťÖąĎëŇŞľĂľ˝łÂ˛ŠĘż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Sir... - I thought you wanted Dr. Chen.</font>
+Dialogue: 0,0:47:38.55,0:47:41.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>š§Ď˛Äă ÄăľĂľ˝ËűÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Congratulations. You found him.</font>
+Dialogue: 0,0:47:44.60,0:47:46.60,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÂčľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Fuck!</font>
+Dialogue: 0,0:47:46.62,0:47:48.62,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇŇŞľÄĘÇťîČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I wanted him alive!</font>
+Dialogue: 0,0:47:48.65,0:47:49.65,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ťîČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>alive!</font>
+Dialogue: 0,0:47:49.67,0:47:53.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄŃľŔÄă˛ťÖŞľŔËűśÔÎŇÓĐśŕÖŘŇŞÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Don't you understand how important it is to me?</font>
+Dialogue: 0,0:47:57.50,0:47:59.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÂčľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Fuck!</font>
+Dialogue: 0,0:48:01.52,0:48:03.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ľČľČ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Wait.</font>
+Dialogue: 0,0:48:03.54,0:48:05.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Őâ¸öĹŽş˘</font>\N<font face="Î˘ČíŃĹşÚ" size=10>That girl.</font>
+Dialogue: 0,0:48:06.57,0:48:08.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĎ˛ťśËý</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I like her.</font>
+Dialogue: 0,0:48:08.59,0:48:13.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Íˇśů ÎŇĂÇĹˇÖŢ×Ü˛ż¸Ő´ŤŔ´Ăć˛żĘśąđ˝ášű</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Sir, our facial recognition crew uploaded video of this man fighting off some of the pirates.</font>
+Dialogue: 0,0:48:13.62,0:48:15.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŐâČË˝ĐŔä</font>\N<font face="Î˘ČíŃĹşÚ" size=10>His name's Leng.</font>
+Dialogue: 0,0:48:15.54,0:48:18.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔřšŠÖ°ÓÚÖĐšúÄłÉńĂŘĚŘÖÖ˛żśÓ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Ex-member of a secretive special ops unit pot of China.</font>
+Dialogue: 0,0:48:18.56,0:48:20.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ő˝ŔÇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Wolf Warrior.</font>
+Dialogue: 0,0:48:20.59,0:48:22.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ťďźĆĂÇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Boys!</font>
+Dialogue: 0,0:48:32.51,0:48:34.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔŽˇÇŇ˝ÁĆĐĄ×éŇŃąťÎä×°ˇÖ×ÓÍŔÉą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>The Doctors Without Borders were killed by armed mercenaries.</font>
+Dialogue: 0,0:48:34.54,0:48:37.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>łÂ˛ŠĘżşÍĆäËűÖĐˇ˝Ň˝ť¤ČËÔąŇŃž­ÎţÉüÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>The lives of Dr. Cheng and other Chinese medical staff were scarificed.</font>
+Dialogue: 0,0:48:37.56,0:48:39.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŔäˇćÍŹÖž</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Comrade Leng,</font>
+Dialogue: 0,0:48:39.58,0:48:41.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăÄÜśÔÄăËľľÄť°¸şÔđÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>do you stand by what are you're saying?</font>
+Dialogue: 0,0:48:41.61,0:48:44.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăÄÜČˇČĎÇ×ŃŰż´źűšÍÓśąřÇšÉąÎŇšúŇ˝ť¤ČËÔąşÍÇČĂńÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Are you certain you witnessed the massacre or our medical team?</font>
+Dialogue: 0,0:48:44.53,0:48:46.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇČˇś¨</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I'm cetain.</font>
+Dialogue: 0,0:48:46.56,0:48:49.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔÚÎţÉüÇ° łÂ˛ŠĘż°ŃËűľÄĹŽśů˝ť¸řÎŇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Dr. Chen give me his daughter before he died.</font>
+Dialogue: 0,0:48:49.58,0:48:51.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ňť¸öşÚČËĐĄšĂÄď</font>\N<font face="Î˘ČíŃĹşÚ" size=10>An African girl.</font>
+Dialogue: 0,0:48:51.60,0:48:53.60,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>˝ĐPasha ťšÓĐŇť¸öĹŽť¤Ęż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Her name is Pasha. Oh, and anurse too.</font>
+Dialogue: 0,0:48:53.63,0:48:55.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Äă˝ĐĘ˛Ă´Łż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What's your name?</font>
+Dialogue: 0,0:48:55.55,0:48:57.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Rachel Prescott Smith ÄăżÉŇÔ˝ĐÎŇRachel</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Rachel Prescott Smith. You can call me Rachel.</font>
+Dialogue: 0,0:48:58.58,0:49:00.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ťšÓĐĘÇ RachelŇ˝Éú ˛ťĘÇť¤Ęż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Doctor Rachel, I'm not a nurse.</font>
+Dialogue: 0,0:49:01.50,0:49:03.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>°ŃËůÓĐÇéżöÁ˘ź´ĎňˇŽ´óĘšťăą¨</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Report the situation to Ambassador Fan immediately.</font>
+Dialogue: 0,0:49:03.52,0:49:05.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĘÇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Yes sir.</font>
+Dialogue: 0,0:49:05.55,0:49:07.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ę×ł¤ ÎŇśů×ÓÄŘŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Commander, may I speak to  my son please?</font>
+Dialogue: 0,0:49:08.57,0:49:11.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸Éľů ÎŇÂčÂčÔÚÄÄŁż¸Éľů ÎŇÂčÂčÔÚÄÄŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Godfather, godfather! Where's my mom? Where's my mom?</font>
+Dialogue: 0,0:49:11.60,0:49:13.60,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Tundu ĎŕĐĹ¸Éľů</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Hey, Tundu, Tundu! Trust me, Trust your godfather.</font>
+Dialogue: 0,0:49:14.52,0:49:16.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĎÖÔÚŐýÔÚżŞÍůşş°îš¤ł§</font>\N<font face="Î˘ČíŃĹşÚ" size=10>We are going to Hanbond Chinese factoty</font>
+Dialogue: 0,0:49:16.54,0:49:18.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ľ˝ÄÇŔďČĽ˝ÓÄăÂčÂč OK</font>\N<font face="Î˘ČíŃĹşÚ" size=10>to find your mom right now, okay?</font>
+Dialogue: 0,0:49:19.57,0:49:21.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĐťĐť¸Éľů</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Thank you, godfather.</font>
+Dialogue: 0,0:49:21.59,0:49:23.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ŕäˇć ÓĐŇť¸öˇÇłŁ˛ťşĂľÄĎűĎ˘Í¨ÖŞÄă</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Leng, I have some bad news for you.</font>
+Dialogue: 0,0:49:23.62,0:49:26.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şě˝ížüŐýÔÚ´óËÁťŮťľÖŘŇŞľÄšŤÂˇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>The rebel army is sobotaging all major roads,</font>
+Dialogue: 0,0:49:26.54,0:49:28.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĚúÂˇŇÔź°ÇĹÁş</font>\N<font face="Î˘ČíŃĹşÚ" size=10>railways and bridges.</font>
+Dialogue: 0,0:49:28.56,0:49:30.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>žÍÔÚĘŽˇÖÖÓŇÔÇ°</font>\N<font face="Î˘ČíŃĹşÚ" size=10>As of 10 minutes ago,</font>
+Dialogue: 0,0:49:30.59,0:49:32.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>´ÓťŞ×Ęš¤ł§Í¨ĎňÂëÍˇľÄ˛¨śűÄáźÓÇĹ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>your only route to the port, the Bowerneja bridge,</font>
+Dialogue: 0,0:49:32.61,0:49:36.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŇŃąťŐ¨śĎ ÎŇşÍˇŽ´óĘšŐýÔÚČŤÁŚĎë°ěˇ¨</font>\N<font face="Î˘ČíŃĹşÚ" size=10>was bombed. We are formulating an escape plan now.</font>
+Dialogue: 0,0:49:36.54,0:49:39.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ľŤĎÖÔÚÖťÄÜżżÄă×ÔźşÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>But untill then, you're on your own.</font>
+Dialogue: 0,0:49:39.56,0:49:43.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>´ÓĎÖÔÚżŞĘź ÎŇĂÇ×îśŕÖťÄÜľČÄăĘŽ°ËĐĄĘą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Set your watch. The macimum time we can wait is 18 hours.</font>
+Dialogue: 0,0:49:43.58,0:49:45.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Čťşóžü˝˘žÍąŘĐëˇľş˝</font>\N<font face="Î˘ČíŃĹşÚ" size=10>After that, we'll be forced to leave.</font>
+Dialogue: 0,0:49:45.61,0:49:47.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ˇÇłŁˇÇłŁą§Ç¸</font>\N<font face="Î˘ČíŃĹşÚ" size=10>my deepest apologies.</font>
+Dialogue: 0,0:49:47.53,0:49:49.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇąŘĐëśÔČŤĚĺÇČĂń¸şÔđ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I have the responsibility to everyone onboard.</font>
+Dialogue: 0,0:49:49.56,0:49:51.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ă÷°×</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I understand.</font>
+Dialogue: 0,0:49:55.58,0:49:57.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăŇŞČĽťŞ×Ęš¤ł§ÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You're going to the Chinese factory?</font>
+Dialogue: 0,0:49:57.60,0:49:59.60,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇČĎÎŞÎŇĂÇ¸üÓŚ¸ĂČĽĂŔšúÁěĘÂšÝ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>We should go to the Ameriacn Consulate.</font>
+Dialogue: 0,0:49:59.63,0:50:02.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄÇŔďÓĐşŁžüÂ˝Ő˝śÓ ĘÇČŤĘŔ˝ç×î°˛ČŤľÄľŘˇ˝</font>\N<font face="Î˘ČíŃĹşÚ" size=10>The US marines are stationed there. That's our safest bet.</font>
+Dialogue: 0,0:50:03.55,0:50:05.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şŁžüÂ˝Ő˝śÓĘÇĘŔ˝ç×îşĂľÄĚŘÖÖ˛żśÓ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You think the US marines are the best in the world?</font>
+Dialogue: 0,0:50:06.58,0:50:08.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËűĂÇÔőĂ´ĂťŔ´˝ÓÄă°ĄŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>That may be true, but where are they now?</font>
+Dialogue: 0,0:50:09.50,0:50:11.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇŇŃž­Í¨ÖŞšýËűĂÇÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I've informed the  consulate of the situation.</font>
+Dialogue: 0,0:50:11.52,0:50:13.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ČËÄŘŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Where are they?</font>
+Dialogue: 0,0:50:13.53,0:50:14.93,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăÍ¨ÖŞËűĂÇľÄˇ˝Ę˝ĘÇŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Tell me exactly how you informed them?</font>
+Dialogue: 0,0:50:14.93,0:50:17.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇŁŔÁËËűĂÇľÄÍĆĚŘŐËşĹ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I tweeted at them on Twitter.</font>
+Dialogue: 0,0:50:24.55,0:50:26.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ťśÓ­ÖÂľçĂŔšúÁěĘÂšÝ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Welcome to American Consulate.</font>
+Dialogue: 0,0:50:26.57,0:50:28.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şÜ˛ťĐŇ ÎŇĂÇŇŃž­ąŐšÝÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Unfortunately, we are closed.</font>
+Dialogue: 0,0:50:28.60,0:50:30.60,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÂčľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Fuck!</font>
+Dialogue: 0,0:50:33.52,0:50:35.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇŔ´ľÄĘąşň¸÷šúžü˝˘śźŇŃž­łˇŔëÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>All foreign navy ships have left when I arrived.</font>
+Dialogue: 0,0:50:36.55,0:50:38.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ľąÎŇŐžÔÚÂëÍˇÉĎĎňşŁĂćĚ÷Íű</font>\N<font face="Î˘ČíŃĹşÚ" size=10>A I watch them sail away from port.</font>
+Dialogue: 0,0:50:39.57,0:50:41.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŢĘýÔśČĽľÄÎŚ¸ËÖĐ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Among the countless departing masts.</font>
+Dialogue: 0,0:50:42.59,0:50:44.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇż´ľ˝ŇťĂćĐÇĚőĆě</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I saw one with the stars and stripes.</font>
+Dialogue: 0,0:50:48.52,0:50:50.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÍŁłľ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Stop the car.</font>
+Dialogue: 0,0:50:50.54,0:50:52.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÍŁłľ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Stop the car!</font>
+Dialogue: 0,0:50:52.57,0:50:54.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÍŁłľ ÎŇŇŞĎÂłľ ÍŁ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Stop the car, I want to get out! Stop!</font>
+Dialogue: 0,0:51:10.59,0:51:12.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Rachel</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Rachel.</font>
+Dialogue: 0,0:51:28.51,0:51:30.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şŁžüÂ˝Ő˝śÓ˝ÓÄăŔ´ÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Your GIs are here to get you.</font>
+Dialogue: 0,0:52:54.56,0:52:56.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĘÇÖĐšúČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I'm Chinese.</font>
+Dialogue: 0,0:52:56.59,0:52:58.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇŔ´ŐŇNessa</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I'm here for Nessa.</font>
+Dialogue: 0,0:52:58.61,0:53:00.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>TunduľÄÂčÂč</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Tundu's mom.</font>
+Dialogue: 0,0:53:03.53,0:53:05.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Nessa</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Nessa!</font>
+Dialogue: 0,0:53:16.56,0:53:18.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÓĐČËÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Anyone home?</font>
+Dialogue: 0,0:53:18.58,0:53:20.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĘÇŔ´žČÄăĂÇľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I've been sent here to rescue you.</font>
+Dialogue: 0,0:53:20.61,0:53:22.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĘÇˇŽ´óĘšČĂÎŇŔ´ľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>By Ambassador Fan himself.</font>
+Dialogue: 0,0:53:26.53,0:53:28.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You?</font>
+Dialogue: 0,0:53:28.55,0:53:30.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>žČÎŇĂÇŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Rescue us?</font>
+Dialogue: 0,0:53:39.58,0:53:41.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇŐâÓĐ18¸Ë AK</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I've got 18 AK-47s.</font>
+Dialogue: 0,0:53:42.50,0:53:44.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>30Ăś79Ę˝ĘÖŔ×</font>\N<font face="Î˘ČíŃĹşÚ" size=10>30 M79 grenade launchers,</font>
+Dialogue: 0,0:53:44.53,0:53:47.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>šťÎä×°Ňť¸öźÓÇżĹĹÁË°ÉŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>enough to arm a platoon.</font>
+Dialogue: 0,0:53:50.55,0:53:53.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĎÖÔÚŇť°ŃM1911ľÖÔÚÄăÍˇÉĎ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I have a M1911 pointed at your head right now.</font>
+Dialogue: 0,0:53:54.57,0:53:56.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăËűÂčÔőĂ´žČÎŇĂÇ°ĄŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>How the fuck are you supposed  to rescue us?</font>
+Dialogue: 0,0:53:56.60,0:53:58.60,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ŕä Ŕä ÄăĘÇ˛ťĘÇŔäŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Leng, Leng! Are you Leng?</font>
+Dialogue: 0,0:53:58.62,0:54:00.62,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĘÇ˛ťĘÇŔä</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Are you Leng?</font>
+Dialogue: 0,0:54:00.65,0:54:02.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- NessaŁż- ĘÇ ĘÇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Nessa? - Yes, yes, yes!</font>
+Dialogue: 0,0:54:02.57,0:54:04.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ÎŇśů×ÓÔőĂ´ŃůÁËŁż- ËűşÜ°˛ČŤ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- What about my son? - He's safe.</font>
+Dialogue: 0,0:54:04.59,0:54:06.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ËűĂťĘÂ°ÉŁż- ËűĂťĘÂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- He's okay? - He's okay.</font>
+Dialogue: 0,0:54:08.52,0:54:10.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĐťĚěĐťľŘ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Oh, thank god!</font>
+Dialogue: 0,0:54:12.54,0:54:14.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËűĂťĘÂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>He's okay.</font>
+Dialogue: 0,0:54:14.57,0:54:16.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÂčÂč ÎŇĂťĘÂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Mom, mom, I'm ok, I'm ok!</font>
+Dialogue: 0,0:54:16.59,0:54:19.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ĐťĐťŔĎĚě - Âč ÎŇĂťĘÂ ÄăÔőĂ´Ńů</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Oh, thank god! - Mom, I'm ok!</font>
+Dialogue: 0,0:54:19.61,0:54:22.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăÔÚÖĐšúžü˝˘ÉĎ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Because you're on a Chinese warship.</font>
+Dialogue: 0,0:54:22.54,0:54:25.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇÔçžÍ¸ćËßÄă˛ťŇŞÂôĂŤĆŹ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I told you, not to sell that porn.</font>
+Dialogue: 0,0:54:25.56,0:54:28.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ŕ´ÁË ÔÚˇÇÖŢžřśÔŐŇ˛ťľ˝ŐâĂ´şĂłÔľÄ˝Č×Ó</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Here we go.You definitely won't find better dumplings in Africa.</font>
+Dialogue: 0,0:54:28.59,0:54:30.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŐâĘÇÎŇ´ÓÖĐšú´řŔ´ľÄ´ółř</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I flew in a chef from China.</font>
+Dialogue: 0,0:54:30.61,0:54:32.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- Ç××Ô¸řÄăĂÇ×öľÄ - ĐťĐť</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Fresh, just for you. - Thank you.</font>
+Dialogue: 0,0:54:34.53,0:54:36.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ż´Ę˛Ă´ÄŘŁżźűšýÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What are you looking at? Seen one before?</font>
+Dialogue: 0,0:54:36.56,0:54:38.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÍćšýŐâÇšÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Ever shot one of these?</font>
+Dialogue: 0,0:54:38.58,0:54:40.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŐâŔÇ°Ą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>This wolf here,</font>
+Dialogue: 0,0:54:40.61,0:54:42.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>žÍĘÇÎŇÓĂŐâÇš´ňľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I killed myself with this gun.</font>
+Dialogue: 0,0:54:43.53,0:54:45.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŐâľŘÍźË­×öľÄŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Who drew this map?</font>
+Dialogue: 0,0:54:45.55,0:54:47.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŐâĘÇÎŇÖ¸ľźÎŇĂÇźŇąŁÎŔ¸ÉĘÂŔĎşÎ×öľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I instructed our head of security, Laohe, how to do it.</font>
+Dialogue: 0,0:54:48.58,0:54:50.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ťšÓĐź¸¸öľŘĂťĐŢ¸ÄşĂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>It still needs some work.</font>
+Dialogue: 0,0:54:50.60,0:54:52.60,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŔĎşÎ Ŕ´ šýŔ´ŇťĎÂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Laohe, come here for a second.</font>
+Dialogue: 0,0:54:54.53,0:54:56.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>´ÓAÇřľ˝DÇř</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Sector A to Sector D.</font>
+Dialogue: 0,0:54:56.55,0:54:58.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Őâ¸öľŘÎŇŇŃž­ËľšýşÜśŕąéÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I've told you so many times.</font>
+Dialogue: 0,0:54:59.57,0:55:01.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŞĘ˛Ă´ĂťÓĐĐŢ¸ÄšýŔ´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Why isn't it done yet?</font>
+Dialogue: 0,0:55:02.50,0:55:04.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ÂíÉĎžÍ¸Ä - ŔĎşÎ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- I'll get on it right away.  - Laohe,</font>
+Dialogue: 0,0:55:04.52,0:55:06.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸Ď˝ôÄĂąĘźÇŇťĎÂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>write it down quickly.</font>
+Dialogue: 0,0:55:06.55,0:55:09.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăťšąŁ°˛śÓł¤ ŐâŇŞĘÇĘľĘŠĆđŔ´łöÁËÎĘĚâ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>As our head of security. What if something happens during the operation?</font>
+Dialogue: 0,0:55:09.57,0:55:11.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔőĂ´°ěŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Then what?</font>
+Dialogue: 0,0:55:15.59,0:55:17.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄĐČËžÍ¸ĂÍćŐâ¸ö</font>\N<font face="Î˘ČíŃĹşÚ" size=10>This is a real man's toy.</font>
+Dialogue: 0,0:55:21.52,0:55:24.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ąđĹÂ ´ÓĎÖÔÚżŞĘźÄăľÄ°˛ČŤ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Don't be afraid. From now on, your safety</font>
+Dialogue: 0,0:55:25.54,0:55:27.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ÓÉÎŇŔ´¸şÔđ - Ŕä ĐťĐťÄă</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- will be my responsibilty. - Leng, thank you!</font>
+Dialogue: 0,0:55:27.57,0:55:29.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ąđżÍĆř - ˇÇłŁ¸ĐĐť</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- You're welcome. - Thank you so much!</font>
+Dialogue: 0,0:55:30.59,0:55:32.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ąđżÍĆř</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You're welcome.</font>
+Dialogue: 0,0:55:32.61,0:55:34.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĐťĐťÄă</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Thank you.</font>
+Dialogue: 0,0:55:35.54,0:55:37.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĐĄąŚą´ Őâ¸öĚŘąđşĂłÔ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Hey, kiddo. It's super yummy</font>
+Dialogue: 0,0:55:37.56,0:55:39.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĘÔŇťĎÂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>try this.</font>
+Dialogue: 0,0:55:40.59,0:55:42.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ÄăŐâş˘×Ó - ĂťĘÂ ¸ÉÂďÄŘÄăŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Hey! You brat! - I'm fine. What's the big deal?</font>
+Dialogue: 0,0:55:42.61,0:55:44.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ČËŐâş˘×ÓÍŚżÉ°ŽľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I think she's kind of cute.</font>
+Dialogue: 0,0:55:45.53,0:55:47.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şĂĎűĎ˘</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Good news.</font>
+Dialogue: 0,0:55:47.56,0:55:49.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ˇŽ´óĘš´ňŔ´ľÄľçť° Ă÷ĚěÉĎÎçĆßľă</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Ambassador Fan just called. Tomorrow 07:00 AM,</font>
+Dialogue: 0,0:55:49.58,0:55:51.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÁŞşĎšúŇťźÜžČÔŽÖąÉýťú</font>\N<font face="Î˘ČíŃĹşÚ" size=10>A UN rescue helicopter</font>
+Dialogue: 0,0:55:51.61,0:55:53.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×źĘąÔÚš¤ł§˝ľÂä °ďÖúÎŇĂÇłˇŔë</font>\N<font face="Î˘ČíŃĹşÚ" size=10>will be landing at this factory to evacuate us.</font>
+Dialogue: 0,0:55:53.63,0:55:55.63,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŇťźÜŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Just one?</font>
+Dialogue: 0,0:55:59.55,0:56:01.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸÷ÎťÇë×˘Ňâ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Attention please.</font>
+Dialogue: 0,0:56:01.58,0:56:03.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËůÓĐČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Everybody.</font>
+Dialogue: 0,0:56:03.60,0:56:06.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËůÓĐČËĚýÎŇËľ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Everybody listen to me.</font>
+Dialogue: 0,0:56:07.53,0:56:09.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>´óźŇśź°˛ž˛</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Quiet down everyone.</font>
+Dialogue: 0,0:56:09.55,0:56:14.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĚýÎŇËľ ËůÓĐÖĐšúČËČŤśźŐžľ˝ŐâŇťąßśů</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Listen to me. All Chinese employees, stand on this side.</font>
+Dialogue: 0,0:56:14.57,0:56:18.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇÖť´řÖĐšúČË ľÚŇťĹúšÜŔí˛ăÓĹĎČ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>We are only taking Chinese people. Management goes first.</font>
+Dialogue: 0,0:56:18.60,0:56:20.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇ´ř´óźŇ×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I will lead the evacuation.</font>
+Dialogue: 0,0:56:20.52,0:56:25.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ă÷°×ÂđŁżËůÓĐˇÇÖŢČËŐžÔÚŐâąß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Is that clear? All the Africans please stand this side, please.</font>
+Dialogue: 0,0:56:25.55,0:56:27.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ă÷°×ÁËÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Clear?</font>
+Dialogue: 0,0:56:27.57,0:56:29.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>šţŔď</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Harry.</font>
+Dialogue: 0,0:56:29.59,0:56:31.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ˛ť ŔĎ°ĺ - °ÝÍĐ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- No, boss, no. - Please.</font>
+Dialogue: 0,0:56:31.62,0:56:33.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>żŞĘźśŻĆđŔ´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Come on, come on.</font>
+Dialogue: 0,0:56:33.54,0:56:35.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>śŻĆđŔ´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Get moving.</font>
+Dialogue: 0,0:56:37.57,0:56:40.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ťšÓĐÄŘŁżśźÍůÄÇąßČĽ ÍůÄÇąßČĽ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Anyone else? Come, move. That side. That side.</font>
+Dialogue: 0,0:56:42.59,0:56:44.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ÄăÔőĂ´ťŘĘÂ°ĄŁż- °łŔĎĆĹËýťłÔĐÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- What are you doing? - She's my wife. She's pregnant</font>
+Dialogue: 0,0:56:44.62,0:56:44.90,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Äăż´ż´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Look</font>
+Dialogue: 0,0:56:44.94,0:56:46.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ťšÓĐÖĐšúČËÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Any more Chinese?</font>
+Dialogue: 0,0:56:47.54,0:56:49.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ťšÓĐÖĐšúČËÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Any other Chinese?</font>
+Dialogue: 0,0:56:49.56,0:56:51.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŔĎÁÖ Äă¸řÎŇĚýşĂÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Lin, listen to me.</font>
+Dialogue: 0,0:56:51.59,0:56:53.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>śźĘÇÎŇĂÇźŇÔąš¤</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Everyone here is my employee.</font>
+Dialogue: 0,0:56:53.61,0:56:55.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇśźŇŞ´ř×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I'm taking them all with me.</font>
+Dialogue: 0,0:56:58.53,0:57:00.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔőĂ´´ř°ĄŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>How?</font>
+Dialogue: 0,0:57:03.56,0:57:05.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ąđÍŁĎÂŔ´ ąđÍŁĎÂŔ´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Come on, come on! Don't stop, get moving.</font>
+Dialogue: 0,0:57:05.58,0:57:07.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŐâąßĘÇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Get moving. For this side,</font>
+Dialogue: 0,0:57:07.61,0:57:09.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ˇÇÖŢÍŹ°ű</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Fellow African.</font>
+Dialogue: 0,0:57:09.53,0:57:11.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ŐâąßĘÇ ÖĐšúČË - ÎŇŔĎĆĹźŢ¸řÎŇÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Chinese people, this side. - She married me.</font>
+Dialogue: 0,0:57:11.55,0:57:13.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>žÍĘÇÖĐšúČË ÎŇŇŞ°ŃËý´ř×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>so she's is one of us.</font>
+Dialogue: 0,0:57:13.58,0:57:14.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ß ×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Move, move.</font>
+Dialogue: 0,0:57:14.60,0:57:16.60,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Äă...</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You...</font>
+Dialogue: 0,0:57:18.53,0:57:20.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĂťĘÂ ÄăžÍŐžÄÇ°É ŐâśůÍŚşĂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Fine, stay there. There's perfect.</font>
+Dialogue: 0,0:57:20.55,0:57:23.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ŕ´Ŕ´Ŕ´ ÄĐĘżĂÇśŻŇťśŻ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Come on! Come on! Guys, guys please, please move.</font>
+Dialogue: 0,0:57:23.57,0:57:26.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÇëŐžľšÄÇąß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Stand that side, please.</font>
+Dialogue: 0,0:57:26.60,0:57:29.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ˇÇÖŢÍŹ°űĂÇ °ÝÍĐ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Please, African friends.</font>
+Dialogue: 0,0:57:29.52,0:57:31.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĎŕĐĹÎŇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Trust me.</font>
+Dialogue: 0,0:57:36.55,0:57:38.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ŕ´ żěŇťľă</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Come on, hurry uo, get moving.</font>
+Dialogue: 0,0:57:38.57,0:57:40.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ÄăšöżŞ ÄăšöżŞ - ąđĹöÎŇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- You want to be on this side, yeah? - Fuck off, bro!</font>
+Dialogue: 0,0:57:41.59,0:57:43.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔőĂ´ÁËŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What's up?</font>
+Dialogue: 0,0:57:43.62,0:57:45.62,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŞĘ˛Ă´Łż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Why?</font>
+Dialogue: 0,0:58:06.54,0:58:08.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÖĐźä¸řÎŇČĂłöŇťĚőĎßŔ´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Give a line down the middle.</font>
+Dialogue: 0,0:58:08.57,0:58:11.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇŇŞż´ÇĺłţŇťľŔˇÖ˝çĎß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I want to see a clear boundary line.</font>
+Dialogue: 0,0:58:11.59,0:58:14.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇŇŞż´ÇĺłţŇťľŔˇÖ˝çĎß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Show me the line, please.</font>
+Dialogue: 0,0:58:19.51,0:58:21.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŇťľŔˇÖ˝çĎß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I brought the helicopter.</font>
+Dialogue: 0,0:58:22.54,0:58:24.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>´óźŇĚýÎŇľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I call the shots.</font>
+Dialogue: 0,0:58:25.56,0:58:27.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ă÷Ěě´óźŇŇťĆđ×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Everyone leaves tomorrow.</font>
+Dialogue: 0,0:58:27.59,0:58:29.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸žĹŽśůÍŻÉĎˇÉťú</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Children and women leave with the chopper.</font>
+Dialogue: 0,0:58:29.61,0:58:31.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄĐČË¸úÎŇ×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>The men will follow me on foot.</font>
+Dialogue: 0,0:58:36.53,0:58:38.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËůÓĐČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Everybody.</font>
+Dialogue: 0,0:58:40.56,0:58:42.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇŇťĆđ×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>We leave together.</font>
+Dialogue: 0,0:59:11.58,0:59:13.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŔĎĘŚ¸ľ ĂĹżÚÄÇżÚ´ü</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Old timer, the defensive formation out front,</font>
+Dialogue: 0,0:59:13.61,0:59:15.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Äú˛źľÄ°ÉŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>that was you, right?</font>
+Dialogue: 0,0:59:16.53,0:59:18.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăŇ˛˛ť´í</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You're not bad yourself.</font>
+Dialogue: 0,0:59:26.55,0:59:29.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ô­ÖĐšúČËĂń˝âˇĹžü Î÷ÄĎžüÇřĘŽËÄźŻÍĹžü</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Former People's Liberation Army of China, 14th Corps, South-West region,</font>
+Dialogue: 0,0:59:29.58,0:59:31.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Őě˛ěÁŹÁŹł¤ şÎ˝¨šú</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Recon Company Commander, He JianGuo.</font>
+Dialogue: 0,0:59:32.50,0:59:34.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ô­ÖĐšúČËĂń˝âˇĹžü śŤÄĎžüÇřĚŘÖÖ×÷Ő˝ÂĂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Former People's Liberation Army, Special Ops Birgade, South-East region,</font>
+Dialogue: 0,0:59:34.53,0:59:36.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ő˝ŔÇÖĐśÓ Ŕäˇć</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Wolf Warrior Squadron, Leng Feng.</font>
+Dialogue: 0,0:59:36.55,0:59:38.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>°ŕł¤şĂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>At your service.</font>
+Dialogue: 0,0:59:41.57,0:59:43.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ž´°ŕł¤</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Drink in your honor.</font>
+Dialogue: 0,0:59:55.50,0:59:57.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŐâĐŠČËŇťĐĄĘąÇ°</font>\N<font face="Î˘ČíŃĹşÚ" size=10>An hour ago, these people</font>
+Dialogue: 0,0:59:57.52,0:59:59.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ťš˛ťÖŞľŔÄÜ˛ťÄÜťîľ˝Ă÷Ěě</font>\N<font face="Î˘ČíŃĹşÚ" size=10>didn't know if they'd live to see tomorrow.</font>
+Dialogue: 0,0:59:59.55,1:00:01.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ÔőĂ´ÄÇĂ´żŞĐÄ°ĄŁż- Őâ°ďşÚ¸çĂÇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Why are they so happy? - Our African friends,</font>
+Dialogue: 0,1:00:01.57,1:00:03.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŢÂŰĘ˛Ă´Ő˝Őů°Ą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>it doesn't matter if it's war,</font>
+Dialogue: 0,1:00:03.59,1:00:05.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎÁŇß°Ą ĆśÇî°Ą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>disease or poverty,</font>
+Dialogue: 0,1:00:05.62,1:00:08.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăÖťŇŞ¸řËűĂÇŇťśŃťđ ËűĂÇÁ˘żĚžÍŐâŃů</font>\N<font face="Î˘ČíŃĹşÚ" size=10>once they're around the bonfire, all their cares go away.</font>
+Dialogue: 0,1:00:10.54,1:00:12.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ˇÇÖŢ°Ą łÔľÄşĂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Africa. Great food.</font>
+Dialogue: 0,1:00:13.57,1:00:15.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ž°şĂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Nice scenery.</font>
+Dialogue: 0,1:00:16.59,1:00:18.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>šĂÄďşĂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Hot women.</font>
+Dialogue: 0,1:00:53.51,1:00:55.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şŮ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Hey.</font>
+Dialogue: 0,1:00:55.54,1:00:57.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ¸Éą­ - ¸Éą­</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Cheers. - Cheers.</font>
+Dialogue: 0,1:01:02.56,1:01:04.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇ˛ťÔ¸ŇâŇťą˛×ÓťîÔÚÎŇ°ÖľÄšâťˇÖŽĎÂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I don't want to ride my father's coat tail all my life.</font>
+Dialogue: 0,1:01:05.59,1:01:07.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Äăż´ż´ŐâśŕşĂ°Ą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I love this place!</font>
+Dialogue: 0,1:01:07.61,1:01:09.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÓĐĘ¨×ÓÓĐöůÓă</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Lions, crocodiles,</font>
+Dialogue: 0,1:01:09.53,1:01:11.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÓĐAK ÓĐžŃ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>AK-47s, sniper rifles,</font>
+Dialogue: 0,1:01:11.56,1:01:14.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÓĐşÍĆ˝ľŘ´řŇťą˛×ÓśźĚý˛ťľ˝ľÄĹÚťđÖŽÉů</font>\N<font face="Î˘ČíŃĹşÚ" size=10>and the melody of gunfire you can't get in a peaceful country.</font>
+Dialogue: 0,1:01:17.58,1:01:19.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄÇĘÇŐâ¸öĘŔ˝çÉĎ×îĂŔĂîľÄÉůŇô</font>\N<font face="Î˘ČíŃĹşÚ" size=10>That's the most wonderful  sound in the world.</font>
+Dialogue: 0,1:01:20.51,1:01:22.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăÖŞľŔ˝ńĚěPashaÎŞĘ˛Ă´Ň§ÄăÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Do you want to know why Pasha bit you today?</font>
+Dialogue: 0,1:01:24.53,1:01:27.13,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŇňÎŞËű°Ö°ÖžÍĘÇąťÄăĎ˛ťśľÄAK´ňËŔľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Because her father was killed AK-47s you so adore.</font>
+Dialogue: 0,1:01:31.55,1:01:33.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ČçšűŐâ¸öĘÇÄă</font>\N<font face="Î˘ČíŃĹşÚ" size=10>If this were you,</font>
+Dialogue: 0,1:01:34.58,1:01:37.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăťšžőľĂĂŔĂîÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>would you still thinl it's wonderful??</font>
+Dialogue: 0,1:01:59.50,1:02:01.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĚěÄĹ Äăż´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Oh man, look at this.</font>
+Dialogue: 0,1:02:01.53,1:02:03.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şĂ´óŇť¸öÍíťá</font>\N<font face="Î˘ČíŃĹşÚ" size=10>That's a big party.</font>
+Dialogue: 0,1:02:14.55,1:02:16.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĚŤĎ˛ťśÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I love these things.</font>
+Dialogue: 0,1:02:16.57,1:02:18.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÇĆËűĂÇľÄŃů×Ó</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Look at them.</font>
+Dialogue: 0,1:02:47.50,1:02:48.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÂčľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Fuck!</font>
+Dialogue: 0,1:02:48.52,1:02:50.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Pasha</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Pasha!</font>
+Dialogue: 0,1:02:56.55,1:02:58.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Pasha</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Pasha!</font>
+Dialogue: 0,1:03:15.57,1:03:17.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÂčľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Shit!</font>
+Dialogue: 0,1:03:29.59,1:03:31.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ˇĹżŞÎŇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Let me go!</font>
+Dialogue: 0,1:03:31.62,1:03:34.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>°ŃÄÇ¸öŔĎąřłýľô ŃĹľäÄČ¸ÉľôÄÇ¸öŔĎźŇťď</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Take out the veteran. Athena,take out the old man.</font>
+Dialogue: 0,1:03:40.54,1:03:42.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>´ýÔÚŐâśů</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Stay here!</font>
+Dialogue: 0,1:03:46.57,1:03:48.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ˇĹżŞËý</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Let her go!</font>
+Dialogue: 0,1:04:18.59,1:04:20.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Pasha</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Pasha!</font>
+Dialogue: 0,1:04:23.51,1:04:25.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĚŤĎ˛ťśËűĂÇŐâ¸öŃů×ÓÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Like ants when you lift a rock.</font>
+Dialogue: 0,1:04:32.34,1:04:34.34,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÂčľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Fuck!</font>
+Dialogue: 0,1:04:52.56,1:04:54.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>žČÎŇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Help me!</font>
+Dialogue: 0,1:04:54.59,1:04:56.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇÍČĘÜÉËÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>They got my leg!</font>
+Dialogue: 0,1:04:57.51,1:04:59.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĂťĘÂśů</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You're fine.</font>
+Dialogue: 0,1:05:07.53,1:05:09.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÂčľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Shit!</font>
+Dialogue: 0,1:05:09.56,1:05:11.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go!</font>
+Dialogue: 0,1:05:13.58,1:05:15.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ß ×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go! Go!</font>
+Dialogue: 0,1:06:11.51,1:06:13.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ťťľŻźĐ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I need a reload!</font>
+Dialogue: 0,1:06:15.53,1:06:17.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go!</font>
+Dialogue: 0,1:06:27.55,1:06:29.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĎë¸ÉĘ˛Ă´Łż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What are you doing, man?</font>
+Dialogue: 0,1:06:35.58,1:06:37.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÂčľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Fuck!</font>
+Dialogue: 0,1:06:46.50,1:06:48.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ˇÖÍˇ×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Let's split up!</font>
+Dialogue: 0,1:06:53.53,1:06:55.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ČĽ ČĽ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go! Go!</font>
+Dialogue: 0,1:06:59.55,1:07:01.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÂčľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Damn it.</font>
+Dialogue: 0,1:07:04.57,1:07:06.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- Ŕ´°Ą - żě×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Come on! - Let's go!</font>
+Dialogue: 0,1:07:28.50,1:07:30.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Pasha</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Pasha.</font>
+Dialogue: 0,1:07:31.52,1:07:33.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>PashaÄăÔÚÄÄŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Pasha, where are you?</font>
+Dialogue: 0,1:07:40.55,1:07:45.05,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>šöżŞ łôĆĹÄď</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Move out of the way, bitch!</font>
+Dialogue: 0,1:07:50.57,1:07:52.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>żě×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Run!</font>
+Dialogue: 0,1:08:58.59,1:09:00.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăŇŃž­˛ťĘÇžüČËÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>We know you're not a soldier anymore.</font>
+Dialogue: 0,1:09:00.62,1:09:03.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËűÂčľÄťšÄÇĂ´Ć´¸ÉÂďŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What the fuck are you fighting for?</font>
+Dialogue: 0,1:09:07.54,1:09:09.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŇťłŻĘÇŐ˝ŔÇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Once a Wolf Warrior</font>
+Dialogue: 0,1:09:09.57,1:09:11.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÖŐÉíĘÇŐ˝ŔÇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>always a Wolf Warrior!</font>
+Dialogue: 0,1:09:31.59,1:09:33.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>´óĐÜĎČˇć</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Bear, you're on point.</font>
+Dialogue: 0,1:09:33.61,1:09:37.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŃĹľäÄČˇâ×ĄËůÓĐłöżÚ Őâ¸öťěľ°ÎŇŇŞś¨ÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Athena, cover the exit. I want this son of a bitch.</font>
+Dialogue: 0,1:10:15.54,1:10:18.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>C śÓˇ˘ĎÖÄżąę ŐýÔÚ×ˇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Team Charlie, spotted target. We are in pursuit.</font>
+Dialogue: 0,1:10:19.56,1:10:22.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Íˇśů B śÓˇ˘ĎÖÄżąęÔÚÇ°ˇ˝</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Sir, Team Bravo has target 12 o'clock.</font>
+Dialogue: 0,1:11:16.59,1:11:20.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÂčľÄ Őâ°ď´ŔťőĎÖÔÚČĂÎŇĂÇłˇÍË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What the fuck? Those idiots want us to retreat now?</font>
+Dialogue: 0,1:11:35.51,1:11:37.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĘÇ°ÂśĹ˝Ťžü</font>\N<font face="Î˘ČíŃĹşÚ" size=10>This is General Actu</font>
+Dialogue: 0,1:11:37.53,1:11:39.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËůÓĐČËÂíÉĎłˇŔë</font>\N<font face="Î˘ČíŃĹşÚ" size=10>everyone return to base.</font>
+Dialogue: 0,1:11:39.56,1:11:41.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÂíÉĎłˇŔë</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Return to base.</font>
+Dialogue: 0,1:11:44.58,1:11:48.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŔĎľů ÎŇËűÂčĂüÁîÄăÁ˘ź´¸řÎŇšöťŘŔ´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Big Daddy, I'm ordering you to get the fuck back here now!</font>
+Dialogue: 0,1:12:05.51,1:12:07.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăËűÂčľÄÔÚ×öĘ˛Ă´Łż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Hey! What the fuck are you doing?</font>
+Dialogue: 0,1:12:07.53,1:12:09.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇËűÂčľÄ¸úÄăËľÁËśŕÉŮąéŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I told you so many fucking times</font>
+Dialogue: 0,1:12:09.55,1:12:12.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇ˛ťÄÜÉąÖĐšúČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>that we cannot kill the Chinese!</font>
+Dialogue: 0,1:12:13.58,1:12:16.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÖĐšúĘÇłŁČÎŔíĘÂšú</font>\N<font face="Î˘ČíŃĹşÚ" size=10>China is a permanent member of the UN Security Council.</font>
+Dialogue: 0,1:12:17.50,1:12:20.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇśáČĄŐţČ¨şóťšŇŞľĂľ˝ÖĐšúľÄłĐČĎ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>And I need them on my side if I am to take political power.</font>
+Dialogue: 0,1:12:20.53,1:12:22.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăËűÂč¸ö´Ŕťő</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You fucking asshole!</font>
+Dialogue: 0,1:12:30.55,1:12:32.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÉąľôŔä ×Ľľ˝Pasha</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Kill Leng, and find Pasha,</font>
+Dialogue: 0,1:12:32.57,1:12:34.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Äă˝ŤťáĘÇŐâ¸öšúźŇľÄÖ÷ČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>and you'll be the king of this fucking country</font>
+Dialogue: 0,1:12:37.50,1:12:39.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ńĂü Ö÷ČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>As you comment, sir!</font>
+Dialogue: 0,1:12:48.52,1:12:50.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ľČľČ - Ŕäˇć</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Hold it! - Leng Feng!</font>
+Dialogue: 0,1:12:54.55,1:12:56.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Äăľ˝ľ×Ę˛Ă´ČËŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Who are you?</font>
+Dialogue: 0,1:13:00.57,1:13:02.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ¸ŐŇťĆđ´ňÍęŐĚÄă¸ÉÂďÄŘŁż- ˇ˛¸ç</font>\N<font face="Î˘ČíŃĹşÚ" size=10>We just fought a battle together, what's your deal? - Brither Fan</font>
+Dialogue: 0,1:13:03.59,1:13:05.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔŰĂÇŐâąžŔ´şÜ°˛ČŤ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>we were pretty safe before he got here.</font>
+Dialogue: 0,1:13:05.62,1:13:07.62,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËűŇťŔ´ÁËˇ´ĹŃžüžÍŔ´ÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Ever wonder why the rebels show up</font>
+Dialogue: 0,1:13:07.64,1:13:09.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĂÇ˛ťžőľĂşÜĆćšÖÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>after he got here?</font>
+Dialogue: 0,1:13:09.57,1:13:11.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËűĘÇÎŇśů×ÓľÄĹóÓŃ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>He's a friend of my son.</font>
+Dialogue: 0,1:13:11.59,1:13:13.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËűĘÇŔ´˝ÓÎŇľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>He came here for me.</font>
+Dialogue: 0,1:13:13.61,1:13:16.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ÄăÖŽÇ°źűšýËűÂđŁż- ÎŇş˘×ÓĚěĚěśźĚáĆđËű</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Have you met him before? - My son always talks about him.</font>
+Dialogue: 0,1:13:17.54,1:13:19.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄÇÓÖÔőŃůŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>So?</font>
+Dialogue: 0,1:13:19.56,1:13:23.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĎŕĐĹËű Ëű˝ńĚěÉĎÎçÔÚŇ˝ÔşžÍžČšýÎŇşÍPasha</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I trust him! He rescued Pasha and me earlier today at the hospital</font>
+Dialogue: 0,1:13:23.59,1:13:25.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÖŽşóËűŇ˛ŇťÖąÔÚąŁť¤ÎŇĂÇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>He's been protecting us ever since.</font>
+Dialogue: 0,1:13:25.61,1:13:27.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ČçšűÎŇĂťŔí˝â´íľÄť°</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Let me get this straight.</font>
+Dialogue: 0,1:13:27.53,1:13:30.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăźűËűľÄĘąşňŐýĘÇÄăľÄĹóÓŃłÂ˛ŠĘżËŔľÄĘąşň</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You met him the same time your doctor friend died?</font>
+Dialogue: 0,1:13:30.56,1:13:34.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËűŇťłöĎÖžÍżŞĘźËŔČË śřËű×ÔźşČ´Ę˛Ă´ĘÂśźĂťÓĐ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>People are getting killed around him, while he's unscathed.</font>
+Dialogue: 0,1:13:35.58,1:13:37.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĹóÓŃ Äă×ÔźşËľËľ°ÉŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Friend, speak for yourself.</font>
+Dialogue: 0,1:13:39.51,1:13:41.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ąđŔš×ĹÎŇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>get off me!</font>
+Dialogue: 0,1:13:54.53,1:13:56.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- Ŕ­ÂüŔ­ - Ŕ­ÂüŔ­Łż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Lamanla (Virus). - Lamanla?</font>
+Dialogue: 0,1:13:57.55,1:13:59.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËűľĂÁËŔ­ÂüŔ­</font>\N<font face="Î˘ČíŃĹşÚ" size=10>He has Lamanla!</font>
+Dialogue: 0,1:14:02.58,1:14:04.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŔĎÁÖ ËűĘÇÎŇĹóÓŃ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Lin! He's my friend.</font>
+Dialogue: 0,1:14:07.50,1:14:09.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ëű¸Ő˛ĹžČÁËÎŇľÄĂü</font>\N<font face="Î˘ČíŃĹşÚ" size=10>He just saved my life.</font>
+Dialogue: 0,1:14:10.53,1:14:12.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ëű ËűĂÇÔőĂ´°ěŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What about them?</font>
+Dialogue: 0,1:14:13.55,1:14:15.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËűĂÇÔőĂ´°ě ÉĎ¸öÔÂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What about them? Last month,</font>
+Dialogue: 0,1:14:15.57,1:14:17.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĘŽšŤŔďÖŽÍâľÄÍ¨ŃśÖĐĐÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>The comms center10 km away,</font>
+Dialogue: 0,1:14:17.60,1:14:21.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ňť¸öČËľĂÁËŔ­ÂüŔ­ ×îşóČŤł§śźËűÂčËŔžřÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>one person got Lamanla. In the end, the whole place was wiped out.</font>
+Dialogue: 0,1:14:21.52,1:14:23.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŐâżÉĘÇŐűł§ČËľÄĐÔĂü°Ą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Everyone's life is at stake here.</font>
+Dialogue: 0,1:14:24.55,1:14:26.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇËľľÄŐâĐŠť°˛˘˛ťĘÇÎŇŇť¸öČËľÄŇâËź</font>\N<font face="Î˘ČíŃĹşÚ" size=10>look , it is not just my opinion.</font>
+Dialogue: 0,1:14:27.57,1:14:29.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>˛ťĐĹÄăżÉŇÔÎĘËűĂÇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Ask them yourself.</font>
+Dialogue: 0,1:14:41.59,1:14:43.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇ×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I'll leave.</font>
+Dialogue: 0,1:14:47.52,1:14:49.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ľČľČ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Wait.</font>
+Dialogue: 0,1:14:51.54,1:14:54.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĂÇÖŞľŔËůÓĐľĂÁËŔ­ÂüŔ­˛ĄśžľÄČËśźťáşÜżěËŔČĽ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You all know what will happen to someone infected with Lamanla.</font>
+Dialogue: 0,1:14:56.57,1:14:58.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĎŁÍűÄăĂÇÓŔÔśźÇľĂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I hope you'll always remember</font>
+Dialogue: 0,1:14:59.59,1:15:02.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Őâ˝ŤËŔľÄČËžČÁËÄăĂÇËůÓĐČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>this dying man saved all of you.</font>
+Dialogue: 0,1:15:02.61,1:15:04.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăŐćżÉłÜ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Shame on you!</font>
+Dialogue: 0,1:15:04.54,1:15:06.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĂÇËůÓĐČËśźżÉłÜ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Shame on all of you!</font>
+Dialogue: 0,1:15:58.59,1:16:00.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ŕäˇć</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Leng Feng!</font>
+Dialogue: 0,1:16:00.61,1:16:02.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ŕäˇć</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Leng Feng!</font>
+Dialogue: 0,1:16:02.63,1:16:04.63,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ŕäˇć</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Leng Feng!</font>
+Dialogue: 0,1:16:36.56,1:16:38.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ÄăżŞÇšÓĐśŕ´ó°ŃÎŐ - °ŮˇÖÖŽÎĺĘŽ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- How confident are you with a gun? - So-50%</font>
+Dialogue: 0,1:16:38.58,1:16:41.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔÚÎŇŐâśůĂťÓĐÄÇ°ŮˇÖÖŽÎĺĘŽ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>There's no place in my team for so-50%.</font>
+Dialogue: 0,1:16:43.51,1:16:45.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄúĘÇĎëČĂÎŇžĆşóÍÂŐćŃÔÄĹ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Trying to get me drunk so I blurt out the truth?</font>
+Dialogue: 0,1:16:45.53,1:16:47.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăťáÍÂŐćŃÔÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Will you blurt out the truth?</font>
+Dialogue: 0,1:16:47.55,1:16:49.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ťá</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Certainly.</font>
+Dialogue: 0,1:16:53.58,1:16:55.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăşČ×íÁËÉśŃůŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What are you like when you're drunk?</font>
+Dialogue: 0,1:16:55.60,1:16:57.60,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇľČÄăťŘŔ´ÇëÎŇşČžĆ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I'll let you buy me drinks when you come back.</font>
+Dialogue: 0,1:17:03.53,1:17:05.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĂťťŘŔ´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You're the one who didn't come back.</font>
+Dialogue: 0,1:17:09.55,1:17:11.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăťŘŔ´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Come back to bed.</font>
+Dialogue: 0,1:17:11.57,1:17:13.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ąđÄÖ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Cut it out.</font>
+Dialogue: 0,1:17:22.50,1:17:24.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĎŁÍűÎŇťŘŔ´ľÄĘąşň</font>\N<font face="Î˘ČíŃĹşÚ" size=10>When I get back</font>
+Dialogue: 0,1:17:24.52,1:17:26.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăÄÜÔÚŐâ¸öÎÄźţÉĎÇŠ×Ö</font>\N<font face="Î˘ČíŃĹşÚ" size=10>this had better be signed.</font>
+Dialogue: 0,1:17:40.55,1:17:42.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>łĺÉĎČĽąť´ňËŔşÜČÝŇ×</font>\N<font face="Î˘ČíŃĹşÚ" size=10>It's an easy death when you're on the attack.</font>
+Dialogue: 0,1:17:44.57,1:17:47.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄŃľÄĘÇął¸ş×ĹÄÚžÎşÍĘšĂü¸ĐźĚĐřťîĎÂČĽ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>but it's a hard life carrying a survivor's guilt.</font>
+Dialogue: 0,1:17:56.59,1:17:58.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĘÇÄăĂťťŘŔ´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>But you didn't come back.</font>
+Dialogue: 0,1:17:59.52,1:18:01.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĂťťŘŔ´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>It's you who didn't come back.</font>
+Dialogue: 0,1:18:02.54,1:18:04.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĂťťŘŔ´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You didn't come back.</font>
+Dialogue: 0,1:18:22.57,1:18:24.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ľ˝ľ×ĘÇË­Łż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Against who?</font>
+Dialogue: 0,1:18:24.59,1:18:26.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ňĚě¸úÎŇĂÇ˝ťľÄĘÖ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Who were we fighting yesterday?</font>
+Dialogue: 0,1:18:39.51,1:18:41.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăÂčÂčĂť¸ćËßÄăŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Didn't your mom tell you that</font>
+Dialogue: 0,1:18:41.54,1:18:43.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĐĄş˘×Ó˛ťŇŞÍćÇšÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>you shouldn't play with a gun?</font>
+Dialogue: 0,1:18:47.56,1:18:49.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ŕä</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Leng!</font>
+Dialogue: 0,1:18:50.59,1:18:52.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>žÍĘÇŔä žÍĘÇËűŇť¸öČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>That was Leng, only him alone.</font>
+Dialogue: 0,1:18:54.51,1:18:56.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĘÇÎŇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>It was me!</font>
+Dialogue: 0,1:18:58.53,1:19:01.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇÔÚŐâš¤×÷ÖŽÇ°ĘÇ¸öžüČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I was in the military before I worked here.</font>
+Dialogue: 0,1:19:01.56,1:19:03.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Äăż´ż´ĆäËűČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Does anyone here</font>
+Dialogue: 0,1:19:03.58,1:19:05.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĎńťáżŞÇšÉäť÷ľÄŃů×ÓÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>look like they can shoot?</font>
+Dialogue: 0,1:19:05.61,1:19:07.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şĂ°Ą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Okay.</font>
+Dialogue: 0,1:19:29.53,1:19:31.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĐŃÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You're up.</font>
+Dialogue: 0,1:19:34.55,1:19:37.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>żÉĎ§łÂ˛ŠĘżĂťÓĐż´ľ˝ŐâŇťÄť</font>\N<font face="Î˘ČíŃĹşÚ" size=10>It's a shame Dr. Chen didn't live to see this.</font>
+Dialogue: 0,1:19:37.58,1:19:40.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËűĘÇČŤĘŔ˝çÎ¨Ňťˇ˘ĎÖ×ÔÓúťîĚĺľÄ×¨źŇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>He discovered the presence of self-healing properties in humans.</font>
+Dialogue: 0,1:19:40.60,1:19:44.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>łÂ˛ŠĘżˇ˘ĎÖÓĐźŤÉŮĘýČËĚĺÄÚÓĐľÖżšŔ­ÂüŔ­ľÄżšĚĺ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>In extreme rare cases, Lamanla antibodies can be found in patients.</font>
+Dialogue: 0,1:19:44.53,1:19:48.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔÚËűÎŢĘý´ÎşÍŔ­ÂüŔ­ťźŐßľÄÖÎÁĆšýłĚÖĐ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Among the thousands of Lamanla patients he treated</font>
+Dialogue: 0,1:19:48.55,1:19:50.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËűĹźČťˇ˘ĎÖÁËŇť¸ö×ÔÓúťîĚĺľÄĘľŔý</font>\N<font face="Î˘ČíŃĹşÚ" size=10>He chanced upon one such person</font>
+Dialogue: 0,1:19:51.57,1:19:53.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>śřŐâ¸ö×ÔÓúťîĚĺžÍĘÇPasha</font>\N<font face="Î˘ČíŃĹşÚ" size=10>And that person is Pasha.</font>
+Dialogue: 0,1:19:54.50,1:19:57.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ëý˛ťĘÇłÂ˛ŠĘżľÄĹŽśů ĘÇËűľÄ˛ĄČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>So Pasha's not his daughter, but his patient.</font>
+Dialogue: 0,1:19:57.52,1:20:00.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>łÂ˛ŠĘżÍ¨šýśÔPashaŃŞŇşłÉˇÖľÄˇÖÎöşÍÝÍČĄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>From the analysis of Pasha's blood</font>
+Dialogue: 0,1:20:00.55,1:20:03.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸Ő¸ŐŃĐÖĆłöŇťÖÖĐÂŇŠ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>he created an experimental vaccine.</font>
+Dialogue: 0,1:20:03.57,1:20:05.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ňĚěÍíÉĎŇňÎŞÇéżö˝ôźą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Last night was a dire situation,</font>
+Dialogue: 0,1:20:05.59,1:20:08.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇÖťÄÜÔÚÄăÉíÉĎ×öÁËŇť¸öłÂ˛ŠĘżÔřž­ÉčĎë</font>\N<font face="Î˘ČíŃĹşÚ" size=10>so I experimented on you, what Dr. Chen was planning to do.</font>
+Dialogue: 0,1:20:08.62,1:20:11.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ľŤĘÇťšĂťŔ´ľĂź°×öľÄťîĚĺĘľŃé</font>\N<font face="Î˘ČíŃĹşÚ" size=10>The first human trial that he was hoping for</font>
+Dialogue: 0,1:20:11.54,1:20:14.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇ°ŃłÂ˛ŠĘżľÄĐÂŇŠ×˘Éäľ˝ÁËÄăľÄÉíÉĎ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Injecting you with Dr. Chen's newly synthesized vaccine immunogens</font>
+Dialogue: 0,1:20:15.57,1:20:17.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËľĘľť°</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Honestly speaking,</font>
+Dialogue: 0,1:20:17.59,1:20:19.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄÇ¸öĘąşňÎŇŐć˛ťÖŞľŔťáˇ˘ÉúĘ˛Ă´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I didn't know what would happen.</font>
+Dialogue: 0,1:20:22.51,1:20:24.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĐŇÔËľÄĘÇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Luckily</font>
+Dialogue: 0,1:20:24.54,1:20:26.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÉĎľŰŐžÔÚÎŇĂÇŐâąß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>God was on your side.</font>
+Dialogue: 0,1:20:33.56,1:20:38.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Őâ¸öšúźŇČËĂńż´ľ˝Őţ¸ŽśÔ˛ĄśžľÄÎŢÄÜÎŞÁŚźŤśČĘ§Íű</font>\N<font face="Î˘ČíŃĹşÚ" size=10>The population has lost faith in the government to contain the outbreak.</font>
+Dialogue: 0,1:20:38.59,1:20:40.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËůŇÔ Ë­ľĂľ˝Pasha</font>\N<font face="Î˘ČíŃĹşÚ" size=10>So, whoever takes Pasha</font>
+Dialogue: 0,1:20:40.61,1:20:42.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ë­žÍÄÜÇáŇ×ľÄŐĆżŘŐâ¸öšúźŇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>takes the country easily.</font>
+Dialogue: 0,1:20:42.53,1:20:45.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>šÖ˛ťľĂˇ´Őţ¸ŽžüŇťÖąÍů×ˇÉąÎŇĂÇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>That explains why the rebel army is hot on our heels.</font>
+Dialogue: 0,1:21:07.56,1:21:10.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇ°Ö°ÖËľĘŽÍňÄęÇ°ČËŔŕ×ßłöˇÇÖŢ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>My dad said man walked out of Africa 100.000 years ago.</font>
+Dialogue: 0,1:21:10.58,1:21:13.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ˇÇÖŢĘÇĎÖ´úÎÄĂ÷ľÄŇĄŔş</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Africa is the cradle of modern civilization.</font>
+Dialogue: 0,1:21:13.61,1:21:16.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>żÉĘÇľą×ÔÚźÎÄĂ÷ľÄČËĂÇÔŮ´ÎŔ´ľ˝ˇÇÖŢ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Yet when the "evolved, civilized" humans returned to this land,</font>
+Dialogue: 0,1:21:16.53,1:21:18.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>´řŔ´ľÄČ´ĘÇżŕÄŃ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>they brought along with them nothing but suffering,</font>
+Dialogue: 0,1:21:18.55,1:21:20.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĹŤŇŰ ź˛˛ĄşÍŐ˝Őů</font>\N<font face="Î˘ČíŃĹşÚ" size=10>slavery, disease and war.</font>
+Dialogue: 0,1:21:21.58,1:21:25.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şŤšúČË ąůľşČË ËšŔ­ˇňČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Koreans, Icelanders, Slavs,</font>
+Dialogue: 0,1:21:25.60,1:21:27.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĂŔšúČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Americans</font>
+Dialogue: 0,1:21:27.53,1:21:30.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄÇĐŠĘÇÖĐšúČË ËűĂÇśźĘÇŔ´×ÔĘŔ˝ç¸÷ľŘľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>and over there are Chinese. People from all over the world,</font>
+Dialogue: 0,1:21:30.55,1:21:32.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĎńÎŇ°Ö°ÖŇťŃůľÄČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>people like my father.</font>
+Dialogue: 0,1:21:33.57,1:21:35.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŞÁËˇÇÖŢ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>For Africa</font>
+Dialogue: 0,1:21:35.60,1:21:38.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËűĂÇ¸śłöÁË×ÔźşľÄÇŕ´ş</font>\N<font face="Î˘ČíŃĹşÚ" size=10>they gave their best years.</font>
+Dialogue: 0,1:21:38.52,1:21:40.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ľ˝×îşó</font>\N<font face="Î˘ČíŃĹşÚ" size=10>In the end,</font>
+Dialogue: 0,1:21:40.55,1:21:43.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>°Ń×ÔźşÓŔÔśľŘÁôÔÚŐâĆŹÍÁľŘ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>they got to remain here for eternity.</font>
+Dialogue: 0,1:21:54.57,1:21:56.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ëý˝ĐĘ˛Ă´Ăű×Ö</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What's her name?</font>
+Dialogue: 0,1:21:56.59,1:21:58.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŕĹŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Huh?</font>
+Dialogue: 0,1:21:58.62,1:22:00.62,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄÇ¸öÄăÍü˛ťÁËľÄČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>The person you can't seem to forget.</font>
+Dialogue: 0,1:22:04.54,1:22:06.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÁúĐĄÔĆ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Long XiaoYun.</font>
+Dialogue: 0,1:22:09.57,1:22:11.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËýşĂĐŇÔË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>She's lucky</font>
+Dialogue: 0,1:22:12.59,1:22:14.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÓĐŇť¸öŐâĂ´°ŽËýľÄÄĐČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>to have a man that loves her so much.</font>
+Dialogue: 0,1:22:15.51,1:22:17.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËýÎŞĘ˛Ă´ĂťÓĐťŘŔ´ÄŘŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Why didn't she come back?</font>
+Dialogue: 0,1:22:28.54,1:22:30.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>śÔ˛ťĆđ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Sorry.</font>
+Dialogue: 0,1:22:49.56,1:22:52.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>°ŃËűĂÇľą×÷˝Č×Ó¸řÎŇ°üĆđŔ´ ČĂËűĂÇŇÔÎŞĘÇ°˛ČŤľÄ Ă÷°×ÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I want you to round 'em up like cattle. Make 'em feel safe. You understand me?</font>
+Dialogue: 0,1:22:52.59,1:22:54.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĘŐľ˝</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Yes, sir.</font>
+Dialogue: 0,1:23:04.51,1:23:06.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>śŤąßĘÇÉ˝Çř</font>\N<font face="Î˘ČíŃĹşÚ" size=10>We got mountains to the west,</font>
+Dialogue: 0,1:23:06.53,1:23:10.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Î÷ąßĘÇÓęÁÖ ČçšűËűšť´ĎĂ÷ žÍťáŔ´ŐâľČÖąÉýťú</font>\N<font face="Î˘ČíŃĹşÚ" size=10>we got forests to the east. The only smart place for them to come is right here and wait for the rescue helicopter.</font>
+Dialogue: 0,1:23:11.56,1:23:13.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÖĐšúŔĐ ÄăżÉąđËŔ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I sure hope these Chinese people don't die.</font>
+Dialogue: 0,1:23:14.58,1:23:16.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄÜžČÄăľÄÖťÓĐÎŇÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I'm about the only thing that can save them right now.</font>
+Dialogue: 0,1:23:22.51,1:23:24.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ČŤĚĺźŻşĎ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Round 'em up.</font>
+Dialogue: 0,1:23:24.53,1:23:27.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËůÓĐČË×źą¸łöˇ˘ łöˇ˘ łöˇ˘ łöˇ˘ łöˇ˘</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Everybody, let's go! Let's go! Move, move, move!</font>
+Dialogue: 0,1:23:42.55,1:23:44.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ľČÎŇËűÂčłöČĽÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Wait till I get out of here,</font>
+Dialogue: 0,1:23:44.58,1:23:46.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇËűÂčžřśÔ˛ťťáˇĹšýŐâ°ďËď×Ó</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I'm going to settle the score with them.</font>
+Dialogue: 0,1:23:47.50,1:23:49.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ˇ˛¸ç</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Brother Fan,</font>
+Dialogue: 0,1:23:49.53,1:23:51.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ąđËűÂč´ľĹŁąĆÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>cut the fucking bullshit.</font>
+Dialogue: 0,1:23:52.55,1:23:54.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔőĂ´łöČĽ°ĄŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>How are we going to get out?</font>
+Dialogue: 0,1:23:55.57,1:23:58.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÔŮËľÁË ÄúłöČĽÄÜ¸ÉĘ˛Ă´Ń˝Łż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>And besides, what are you planning to do?</font>
+Dialogue: 0,1:23:58.60,1:24:00.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄúťáĘ˛Ă´Ń˝Łż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>What can you even do?</font>
+Dialogue: 0,1:24:00.52,1:24:02.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ˇ˛¸ç</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Brother Fan,</font>
+Dialogue: 0,1:24:02.55,1:24:04.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ć˝ĘąÎŇĂÇśźČĂ×ĹÄă</font>\N<font face="Î˘ČíŃĹşÚ" size=10>in normal times, everyone gives in to you.</font>
+Dialogue: 0,1:24:05.57,1:24:09.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>´ňĆđŐĚŔ´ ĂťČËťáČĂ×ĹÎŇĂÇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>In battle, no one will be giving in to us.</font>
+Dialogue: 0,1:24:09.59,1:24:11.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸řÎŇąŐ×ě</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Shut the fuck up!</font>
+Dialogue: 0,1:25:23.52,1:25:25.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ČĽËŔ°É</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go to hell!</font>
+Dialogue: 0,1:25:44.54,1:25:46.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>łĹľĂ×ĄÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Brother, how are you holding up?</font>
+Dialogue: 0,1:25:46.57,1:25:48.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ąČŇÔÇ°˛îÔśÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Not as well as back in the day.</font>
+Dialogue: 0,1:25:53.59,1:25:56.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăľÄĘÖĘÇÓĂŔ´žČČËľÄ ˛ťĘÇÓĂŔ´ÉąČËľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Your hands are for saving lives not taking lives.</font>
+Dialogue: 0,1:26:14.51,1:26:16.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŐâÖÖŐĚŐ˝ŔÇťáÔőĂ´´ň</font>\N<font face="Î˘ČíŃĹşÚ" size=10>How would Wolf Warriors fight this battle?</font>
+Dialogue: 0,1:27:00.54,1:27:02.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go!</font>
+Dialogue: 0,1:27:05.56,1:27:07.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go!</font>
+Dialogue: 0,1:28:27.59,1:28:31.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăÂčÂčĂť¸ćËßÄăĐĄş˘×Ó˛ťŇŞÍćÇšÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Didn't your mom tell you not to play with weap?</font>
+Dialogue: 0,1:28:37.51,1:28:39.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăÂčĂť¸ćËßÄăąđĆŰ¸şĐÜş˘×ÓÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Didn't your mom tell you not to fuck with spoiled brats?</font>
+Dialogue: 0,1:28:39.53,1:28:41.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ßŔ˛</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Let's go!</font>
+Dialogue: 0,1:29:05.56,1:29:07.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŐâžÍĘÇšÍÓľžüÓëˇ´ĹŃžüÍŔÉąÎŇšúÇČĂńľÄÖ¤žÝ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Here's evidence of the rebel  army killing our citizens.</font>
+Dialogue: 0,1:29:07.58,1:29:10.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĘŐľ˝ ÎŇĂÇÂíÉĎ°Ń×ĘÁĎťă×Ü</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Transmission received. We will gather up all the information,</font>
+Dialogue: 0,1:29:10.61,1:29:12.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ČĂˇŽ´óĘšžĄżěľÝ˝ťÁŞşĎšú</font>\N<font face="Î˘ČíŃĹşÚ" size=10>and have Ambassador Fan submit it to the UN.</font>
+Dialogue: 0,1:29:13.53,1:29:14.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ă÷°×</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Copy that.</font>
+Dialogue: 0,1:29:14.55,1:29:18.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÁíÍâ ľąľŘŐţ¸ŽŇŃž­ĎňÎŇšúŐýĘ˝ÇëÇóžüĘÂÔŽÖú</font>\N<font face="Î˘ČíŃĹşÚ" size=10>oh and one more thing. The local government has critically requested for our military assistance</font>
+Dialogue: 0,1:29:18.58,1:29:21.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÖąÉýťúÂíÉĎžÍľ˝</font>\N<font face="Î˘ČíŃĹşÚ" size=10>The chopper will arrive shortly</font>
+Dialogue: 0,1:29:21.60,1:29:23.60,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ÎŇĂÇľČÄăťŘźŇ - şĂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- We're waiting for you. - Copy that!</font>
+Dialogue: 0,1:29:39.55,1:29:43.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- Äă¸Ď˝ôÉĎˇÉťú - ťšÓĐşÜśŕČËĐčŇŞÎŇ°ďÖú</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Get on the chopper - There're a lot of people here who still need me.</font>
+Dialogue: 0,1:29:44.57,1:29:46.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÁÖÖžĐŰ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Lin Zhi Xiong!</font>
+Dialogue: 0,1:29:48.50,1:29:52.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ĹŽČËş˘×ÓśźľĂÉĎˇÉťú - ÔÚŐâŔďÎŇ˛ťĘÇĹŽČËÎŇĘÇŇ˝Éú</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Women and childern must get on the chopper. - Right now I'm not a woman. I'm a doctor</font>
+Dialogue: 0,1:29:52.52,1:29:54.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÂŰžČÔŽ ÎŇąČÄă×¨Ňľ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>The more professional than you when it comes to saving lives.</font>
+Dialogue: 0,1:29:54.55,1:29:56.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÂŰąŁť¤ČËÎŇąČÄă×¨Ňľ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>But I'm more professional than you in protecting lives!</font>
+Dialogue: 0,1:29:57.57,1:29:59.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Pasha Äă×źą¸şĂ×řÖąÉýťúÁËÂđŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Pasha, are you ready to get on the helicopter?</font>
+Dialogue: 0,1:30:00.59,1:30:02.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ľÝŇťĐŠÉ´˛ź¸řÎŇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Can you pass me some gauze please?</font>
+Dialogue: 0,1:30:04.52,1:30:06.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>żěÉĎÖąÉýťú</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Get on the helicopter.</font>
+Dialogue: 0,1:30:06.54,1:30:09.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Äăąđ¸řÎŇĚíÂŇ şĂ˛ťşĂŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Don't be difficult, okay?</font>
+Dialogue: 0,1:30:09.57,1:30:12.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ČĂŇťĎÂŁż- ČĂĘ˛Ă´ČĂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Excuse me? - Excuse you my ass!</font>
+Dialogue: 0,1:30:48.59,1:30:50.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ˇ˘ÉúĘ˛Ă´ĘÂÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Whoa, what was that?</font>
+Dialogue: 0,1:30:52.51,1:30:54.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÇóžČ ÇóžČ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Mayday! Mayday!</font>
+Dialogue: 0,1:30:54.54,1:30:56.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂÇąťĎŽť÷ Ę§ČĽÎ˛ĐýŇí</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Missile strike! Tail rotor lost!</font>
+Dialogue: 0,1:30:56.56,1:30:58.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇťšÄÜżŘÖĆ Ó˛×ĹÂ˝</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I have control. Going down!</font>
+Dialogue: 0,1:30:58.59,1:31:00.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÇóžČ ÇóžČ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Mayday! Mayday!</font>
+Dialogue: 0,1:31:02.51,1:31:04.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×źą¸ĆČ˝ľ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Brace! Brace!</font>
+Dialogue: 0,1:31:41.53,1:31:43.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ×ß ×ß - ×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Go! Go! - Go!</font>
+Dialogue: 0,1:31:44.56,1:31:46.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>żěĹÜ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Run!</font>
+Dialogue: 0,1:32:02.58,1:32:04.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŔĎżâˇż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>To the bunker!</font>
+Dialogue: 0,1:32:04.61,1:32:06.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>żě</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Hurry!</font>
+Dialogue: 0,1:32:11.53,1:32:13.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Rachel</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Rachel!</font>
+Dialogue: 0,1:32:15.55,1:32:17.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĐŃĐŃ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Wake up!</font>
+Dialogue: 0,1:32:21.58,1:32:23.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĐŃĐŃ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Come on! Come on!</font>
+Dialogue: 0,1:32:39.50,1:32:41.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Rachel</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Rachel!</font>
+Dialogue: 0,1:32:52.53,1:32:54.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ČĽŐŇŔĎşÎ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go find LaoHe!</font>
+Dialogue: 0,1:33:22.55,1:33:24.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĆđÉí żěľă</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Get up! Come on!</font>
+Dialogue: 0,1:33:30.57,1:33:32.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÂčľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Fuck!</font>
+Dialogue: 0,1:33:33.50,1:33:35.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>żě˝řŔĎżâˇż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Get to the bunker!</font>
+Dialogue: 0,1:33:59.52,1:34:01.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ß żě ×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go! Quickly! Go!</font>
+Dialogue: 0,1:34:01.55,1:34:03.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ß żě</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go! Quickly!</font>
+Dialogue: 0,1:34:22.57,1:34:24.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×źą¸</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Get ready!</font>
+Dialogue: 0,1:34:35.59,1:34:37.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>żŞĹÚ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Fire!</font>
+Dialogue: 0,1:34:38.52,1:34:40.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>°ŃÄÇ¸öźŇťď¸Éľô</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Kill that motherfucker!</font>
+Dialogue: 0,1:34:42.54,1:34:44.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×°ľŻ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Reload!</font>
+Dialogue: 0,1:34:49.57,1:34:51.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇĂé˛ťľ˝</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I can't aim.</font>
+Dialogue: 0,1:34:51.59,1:34:53.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ŐâĂ´ÖŘ - ŐŇËŔ°Ą</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- This thing's so heavy! - You wanna die!?</font>
+Dialogue: 0,1:34:54.51,1:34:56.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŇýĐĹŇťĹö śźľĂËŔ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Trigger that fuse and it'll kill us all!</font>
+Dialogue: 0,1:35:12.54,1:35:14.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>żŞĹÚ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Fire!</font>
+Dialogue: 0,1:35:58.56,1:36:00.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ĺś şĂźŤÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Oh, check it.</font>
+Dialogue: 0,1:36:03.59,1:36:05.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĎÂČý¸Ü</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Three clicks down.</font>
+Dialogue: 0,1:36:13.51,1:36:15.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ˇ˘ĹÚ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Fire!</font>
+Dialogue: 0,1:36:58.53,1:37:00.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ËűĂÇŐŇľ˝ŔĎżâˇżÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>They found the bunker!</font>
+Dialogue: 0,1:37:03.56,1:37:05.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Äżąę ×óŇĄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I got it! I got it! To the left.</font>
+Dialogue: 0,1:37:05.58,1:37:07.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ĘŐľ˝ - ×°ľŻ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Copy that. - Reload!</font>
+Dialogue: 0,1:37:07.61,1:37:09.61,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĂťľŻÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>We're out!</font>
+Dialogue: 0,1:37:19.53,1:37:21.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ĽÎČÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Hang on!</font>
+Dialogue: 0,1:37:28.55,1:37:30.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>żŞĹÚ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Fire!</font>
+Dialogue: 0,1:38:25.58,1:38:27.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>šˇÄďŃřľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Son of a bitch!</font>
+Dialogue: 0,1:38:47.50,1:38:50.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÂčľÄ ĚšżËĆôśŻ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Fuck! Move this fucking thing.</font>
+Dialogue: 0,1:39:05.53,1:39:07.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>żěľă</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Come on! Come on!</font>
+Dialogue: 0,1:39:10.55,1:39:12.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>şĂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Good, good, good.</font>
+Dialogue: 0,1:39:43.57,1:39:45.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÂčľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Fuck!</font>
+Dialogue: 0,1:39:48.50,1:39:51.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ż´Ŕ´ÖĐšúČËĂťÓĐÎŇĎëľÄÄÇĂ´ĹłČő</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I guess the Chinese military ain't as lame as I thought.</font>
+Dialogue: 0,1:39:51.52,1:39:53.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăÉŮˇĎť°</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Cut the crap.</font>
+Dialogue: 0,1:40:00.55,1:40:02.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go!</font>
+Dialogue: 0,1:40:02.57,1:40:04.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Go!</font>
+Dialogue: 0,1:40:29.59,1:40:31.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>żě×ß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Hurry!</font>
+Dialogue: 0,1:43:49.52,1:43:51.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>˛ťŇŞłöŔ´</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Don't come out!</font>
+Dialogue: 0,1:43:56.54,1:43:58.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Á˘ź´ËŃË÷ĐĹşĹ Čˇś¨ÄżąęÎťÖĂ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Track the signals and verify targets positions!</font>
+Dialogue: 0,1:44:24.57,1:44:26.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸Éľů</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Godfather!</font>
+Dialogue: 0,1:44:26.59,1:44:30.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÂčÂč</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Mom!</font>
+Dialogue: 0,1:45:17.51,1:45:20.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ą¨¸ć ĘÖťúÎťÖĂËřś¨ - ą¨¸ć ÄżąęËřś¨</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Sir, we have triangulated on the phone's position! - Sir, targets locked on!</font>
+Dialogue: 0,1:45:56.54,1:45:59.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- ą¨¸ć ÎŇĂÇľĂľ˝ÉĎźśĂüÁî - żŞťđ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Sir, we recieved orders from COMMAND! - Fire!</font>
+Dialogue: 0,1:48:14.56,1:48:16.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĎÖÔÚĘÇË˝ČËŐË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Now it's personal.</font>
+Dialogue: 0,1:48:20.59,1:48:22.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÁúĐĄÔĆ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Long XiaoYun.</font>
+Dialogue: 0,1:48:29.51,1:48:31.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄÇĘÇÄăĹŽČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Is that your girl?</font>
+Dialogue: 0,1:48:32.53,1:48:34.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ł¤ľĂşÜĆŻÁÁ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>She's pretty.</font>
+Dialogue: 0,1:48:34.56,1:48:36.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŃŞŐŽ... ŃŞłĽ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Blood... for blood.</font>
+Dialogue: 0,1:50:32.58,1:50:34.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ąđ´ňÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Please don't fight!</font>
+Dialogue: 0,1:50:38.51,1:50:40.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Äăż´ËýĂÇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Look at them.</font>
+Dialogue: 0,1:50:42.53,1:50:45.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ăť´í Äă˝ŤťáÎŞŐâĐŠČËśřËŔ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>You're gonna die for this people.</font>
+Dialogue: 0,1:50:51.55,1:50:54.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇžÍĘÇÎŞËűĂÇśřÉúľÄ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I was born for them.</font>
+Dialogue: 0,1:50:58.58,1:51:02.58,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Őâ¸öĘŔ˝çÖťÓĐÇżŐßşÍČőŐß ÄăĂÇŐâÖÖÁÓľČĂń×ĺÓŔÔśĘôÓÚČőŐß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>People like you will always be inferior to people like me</font>
+Dialogue: 0,1:51:02.60,1:51:05.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăŇŞĎ°šß ÄăąŘĐëĎ°šß</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Get used to it. Get fucking used to it.</font>
+Dialogue: 0,1:51:43.53,1:51:45.53,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄÇËűÂčĘÇŇÔÇ°</font>\N<font face="Î˘ČíŃĹşÚ" size=10>That's fucking history.</font>
+Dialogue: 0,1:52:26.55,1:52:28.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÄăĐŃÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Welcome back.</font>
+Dialogue: 0,1:53:25.57,1:53:28.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ç°ˇ˝ĘÇ˝ťŐ˝Çř ÎŇĂÇšý˛ťČĽÁË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>The war zone is up ahead. We can't get through.</font>
+Dialogue: 0,1:53:53.50,1:53:57.50,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Čýľăˇ˝ĎňÓĐ˛ťĂ÷łľśÓ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>UNidentified vehicle convoy at three o'clock.</font>
+Dialogue: 0,1:54:06.52,1:54:08.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>¸ç</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Brother,</font>
+Dialogue: 0,1:54:08.55,1:54:10.55,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>°ŃšúĆě¸řÎŇ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>pass me the flag.</font>
+Dialogue: 0,1:54:38.57,1:54:40.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>żŞłľ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Drive.</font>
+Dialogue: 0,1:55:00.59,1:55:02.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĘÇÖĐšúČË ÍŁÖšÉäť÷</font>\N<font face="Î˘ČíŃĹşÚ" size=10>It's the Chinese. Hold your fire.</font>
+Dialogue: 0,1:55:05.52,1:55:10.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÍŁÖšÉäť÷ ĘÇÖĐšúČË</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Hold your fire! It's Chinese.</font>
+Dialogue: 0,1:57:54.57,1:57:56.57,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>Ŕäˇć</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Leng Feng.</font>
+Dialogue: 0,1:57:59.59,1:58:01.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>- Ę×ł¤şĂ - ĐĄČŐ×ÓšýľÄÍŚĂŔľÄŃ˝</font>\N<font face="Î˘ČíŃĹşÚ" size=10>- Commander! - I see you're enjoying your life.</font>
+Dialogue: 0,1:58:02.52,1:58:04.52,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>˛ťĎëťŘŐ˝ŔÇÁË°ÉŁż</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Not planning on rejoining the Wolf Warriors?</font>
+Dialogue: 0,1:58:04.54,1:58:06.54,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ŔëżŞŐâŔď×îÔçľÄş˝°ŕ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>Sir, the earliest flight out of here,</font>
+Dialogue: 0,1:58:06.56,1:58:09.56,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ĘÇĎÂĐÇĆÚśţ ĘŽËÄľăĘŽÎĺˇÖ ĐÇĆÚÎĺÉĎÎçžĹľă</font>\N<font face="Î˘ČíŃĹşÚ" size=10>departs next Tuesday at 14:15 by Friday 09:00.</font>
+Dialogue: 0,1:58:09.59,1:58:11.59,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÎŇ×źĘąĎňÄúą¨ľŔ</font>\N<font face="Î˘ČíŃĹşÚ" size=10>I will report for duty sir!</font>
+Dialogue: 0,1:58:12.51,1:58:14.51,Default,,0000,0000,0000,,<font face="Î˘ČíŃĹşÚ" size=16>ÓĐźţĘÂÎŇąŘĐë¸ćËßÄă</font>\N<font face="Î˘ČíŃĹşÚ" size=10>There's something I need to tell you...</font>
+

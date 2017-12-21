@@ -1,0 +1,897 @@
+[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft YaHei,24,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,2,2,2,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:34.63,0:00:39.33,Default,,0000,0000,0000,,片名：《大峡谷》
+Dialogue: 0,0:00:46.51,0:00:49.41,Default,,0000,0000,0000,,嘿 我们能赶到\N{\fnCentury Schoolbook\fs12}Hey, we're gonna make it.{\r}
+Dialogue: 0,0:00:49.41,0:00:51.78,Default,,0000,0000,0000,,除非你减速\N{\fnCentury Schoolbook\fs12}Not if you don't slow down.{\r}
+Dialogue: 0,0:00:51.78,0:00:54.15,Default,,0000,0000,0000,,大峡谷的日出  记得吗？\N{\fnCentury Schoolbook\fs12}Grand canyon by sunrise, remember?{\r}
+Dialogue: 0,0:00:54.15,0:00:55.92,Default,,0000,0000,0000,,我怎么会忘记？\N{\fnCentury Schoolbook\fs12}How could I forget?{\r}
+Dialogue: 0,0:01:02.50,0:01:04.83,Default,,0000,0000,0000,,欢迎来到威廉姆斯-大峡谷入口
+Dialogue: 0,0:01:06.78,0:01:08.44,Default,,0000,0000,0000,,到了\N{\fnCentury Schoolbook\fs12}Here it is.{\r}
+Dialogue: 0,0:01:09.58,0:01:12.91,Default,,0000,0000,0000,,"便宜干净"  最好不过了\N{\fnCentury Schoolbook\fs12}"Cheap and clean."\nCan't ask for more than that.{\r}
+Dialogue: 0,0:01:24.76,0:01:27.14,Default,,0000,0000,0000,,新婚
+Dialogue: 0,0:01:40.00,0:01:43.44,Default,,0000,0000,0000,,- 你先请  康韦夫人 - 谢谢  康韦先生\N{\fnCentury Schoolbook\fs12}- After you, Mrs. Conway.\n- Why, thank you, Mr. Conway.{\r}
+Dialogue: 0,0:01:58.15,0:02:01.56,Default,,0000,0000,0000,,来了  来了  我动作慢但不是聋子\N{\fnCentury Schoolbook\fs12}Yeah yeah yeah. I may be slow,\nbut I'm not deaf.{\r}
+Dialogue: 0,0:02:01.56,0:02:03.56,Default,,0000,0000,0000,,我知道现在很早  但我们希望..\N{\fnCentury Schoolbook\fs12}I know it's early, but we were\nhoping that we could...{\r}
+Dialogue: 0,0:02:03.56,0:02:05.43,Default,,0000,0000,0000,,不要说  让我猜猜\N{\fnCentury Schoolbook\fs12}Don't tell me. Let me guess.{\r}
+Dialogue: 0,0:02:05.43,0:02:06.86,Default,,0000,0000,0000,,你们需要一间房\N{\fnCentury Schoolbook\fs12}You need a room.{\r}
+Dialogue: 0,0:02:08.10,0:02:10.33,Default,,0000,0000,0000,,我是通灵师  这是我的天赋\N{\fnCentury Schoolbook\fs12}I'm psychic. It's a gift.{\r}
+Dialogue: 0,0:02:12.27,0:02:16.04,Default,,0000,0000,0000,,- 你们从哪儿来的？- 芝加哥\N{\fnCentury Schoolbook\fs12}- So where are you from?\n- Chicago.{\r}
+Dialogue: 0,0:02:16.04,0:02:19.48,Default,,0000,0000,0000,,- 你不是说你是通灵师吗？- 灵感来去匆匆\N{\fnCentury Schoolbook\fs12}- I thought you were psychic.\n- It comes and goes.{\r}
+Dialogue: 0,0:02:19.48,0:02:21.48,Default,,0000,0000,0000,,我们从芝加哥来\N{\fnCentury Schoolbook\fs12}We're from Chicago.{\r}
+Dialogue: 0,0:02:21.48,0:02:24.28,Default,,0000,0000,0000,,- 我们刚结婚 - 我们私奔的\N{\fnCentury Schoolbook\fs12}- We just got married.\n- We eloped.{\r}
+Dialogue: 0,0:02:24.28,0:02:27.05,Default,,0000,0000,0000,,- 你相信吗？- 我真是不敢相信\N{\fnCentury Schoolbook\fs12}- Can you believe it?\n- I'm beside myself with wonder.{\r}
+Dialogue: 0,0:02:27.05,0:02:30.02,Default,,0000,0000,0000,,我们打算周末骑骡子去大峡谷游玩\N{\fnCentury Schoolbook\fs12}We're taking a mule trip into\nthe grand canyon this weekend.{\r}
+Dialogue: 0,0:02:30.02,0:02:31.46,Default,,0000,0000,0000,,那你们比我好\N{\fnCentury Schoolbook\fs12}Better you than me.{\r}
+Dialogue: 0,0:02:31.46,0:02:33.79,Default,,0000,0000,0000,,你总是这么热情好客吗？\N{\fnCentury Schoolbook\fs12}You always this cheerful?{\r}
+Dialogue: 0,0:02:33.79,0:02:36.39,Default,,0000,0000,0000,,不  我通常很暴躁\N{\fnCentury Schoolbook\fs12}No, I'm usually a tad cranky.{\r}
+Dialogue: 0,0:02:36.39,0:02:40.27,Default,,0000,0000,0000,,3号房  星期一早上11点退房\N{\fnCentury Schoolbook\fs12}Room 3. Checkout is\nMonday at 11:00 in the A.M.{\r}
+Dialogue: 0,0:02:51.00,0:02:54.10,Default,,0000,0000,0000,,- 行李怎么办？- 行李可以等\N{\fnCentury Schoolbook\fs12}- What about the luggage?\n- It can wait.{\r}
+Dialogue: 0,0:02:54.10,0:02:57.67,Default,,0000,0000,0000,,- 康韦先生？- 怎么  康韦夫人？\N{\fnCentury Schoolbook\fs12}- Mr. Conway?\n- Yes, Mrs. Conway?{\r}
+Dialogue: 0,0:02:57.67,0:03:00.24,Default,,0000,0000,0000,,- 再说一遍 - 什么  康韦夫人？\N{\fnCentury Schoolbook\fs12}- Say that again.\n- What, Mrs. Conway?{\r}
+Dialogue: 0,0:03:00.24,0:03:02.24,Default,,0000,0000,0000,,我很喜欢这个称谓\N{\fnCentury Schoolbook\fs12}I can't help it.\nI love the way it sounds.{\r}
+Dialogue: 0,0:03:02.24,0:03:04.38,Default,,0000,0000,0000,,慢慢习惯吧\N{\fnCentury Schoolbook\fs12}Get used to it.{\r}
+Dialogue: 0,0:03:04.38,0:03:06.25,Default,,0000,0000,0000,,我永远也不想习惯\N{\fnCentury Schoolbook\fs12}And I never want to get used to it.{\r}
+Dialogue: 0,0:03:49.39,0:03:51.93,Default,,0000,0000,0000,,明天的旅行你兴奋吗？\N{\fnCentury Schoolbook\fs12}So are you getting excited\nabout tomorrow?{\r}
+Dialogue: 0,0:03:51.93,0:03:54.09,Default,,0000,0000,0000,,我是否为\N{\fnCentury Schoolbook\fs12}Am I excited about riding{\r}
+Dialogue: 0,0:03:54.10,0:03:56.62,Default,,0000,0000,0000,,骑着一头脾气暴躁的骡子\N{\fnCentury Schoolbook\fs12}a smelly ill-tempered beast{\r}
+Dialogue: 0,0:03:56.62,0:03:59.43,Default,,0000,0000,0000,,进入一个满是灰尘的地下大峡谷而兴奋？\N{\fnCentury Schoolbook\fs12}into a big, dusty hole in the ground?{\r}
+Dialogue: 0,0:03:59.43,0:04:01.39,Default,,0000,0000,0000,,让我想想\N{\fnCentury Schoolbook\fs12}Let me think.{\r}
+Dialogue: 0,0:04:01.39,0:04:03.39,Default,,0000,0000,0000,,它们脾气没那么暴躁\N{\fnCentury Schoolbook\fs12}They're not that ill-tempered,{\r}
+Dialogue: 0,0:04:03.40,0:04:04.69,Default,,0000,0000,0000,,你会习惯那气味的\N{\fnCentury Schoolbook\fs12}and you get used to the smell.{\r}
+Dialogue: 0,0:04:04.69,0:04:07.10,Default,,0000,0000,0000,,噢  这我也很期待\N{\fnCentury Schoolbook\fs12}Oh, now that is something\nthat I look forward too.{\r}
+Dialogue: 0,0:04:07.10,0:04:09.13,Default,,0000,0000,0000,,不要这么悲观\N{\fnCentury Schoolbook\fs12}Don't be such a pessimist.{\r}
+Dialogue: 0,0:04:09.14,0:04:10.54,Default,,0000,0000,0000,,会很棒的\N{\fnCentury Schoolbook\fs12}It's gonna be amazing.{\r}
+Dialogue: 0,0:04:12.00,0:04:14.00,Default,,0000,0000,0000,,我有个主意\N{\fnCentury Schoolbook\fs12}I've got an idea.{\r}
+Dialogue: 0,0:04:14.00,0:04:15.40,Default,,0000,0000,0000,,为什么我们不\N{\fnCentury Schoolbook\fs12}Why don't we...{\r}
+Dialogue: 0,0:04:15.40,0:04:17.87,Default,,0000,0000,0000,,这个周末躺在床上\N{\fnCentury Schoolbook\fs12}Stay in bed all weekend{\r}
+Dialogue: 0,0:04:17.87,0:04:21.38,Default,,0000,0000,0000,,时不时看看照片来消遣呢？\N{\fnCentury Schoolbook\fs12}and just look at the picture\nevery once in a while?{\r}
+Dialogue: 0,0:04:26.42,0:04:29.62,Default,,0000,0000,0000,,不  必须反对\N{\fnCentury Schoolbook\fs12}No. Must resist.{\r}
+Dialogue: 0,0:04:29.62,0:04:33.42,Default,,0000,0000,0000,,我们必须按计划行事\N{\fnCentury Schoolbook\fs12}Must stick to plan. Must...{\r}
+Dialogue: 0,0:04:33.42,0:04:36.12,Default,,0000,0000,0000,,咱们路上玩\N{\fnCentury Schoolbook\fs12}Let's get this show on the road.{\r}
+Dialogue: 0,0:04:37.15,0:04:38.56,Default,,0000,0000,0000,,周五
+Dialogue: 0,0:04:46.19,0:04:48.22,Default,,0000,0000,0000,,你们没有许可证？\N{\fnCentury Schoolbook\fs12}You don't have a permit?{\r}
+Dialogue: 0,0:04:48.22,0:04:51.62,Default,,0000,0000,0000,,没有边缘地区许可证的话\N{\fnCentury Schoolbook\fs12}Well, you can't take\na mule trip into the canyon{\r}
+Dialogue: 0,0:04:51.63,0:04:53.19,Default,,0000,0000,0000,,你们不能骡子去大峡谷\N{\fnCentury Schoolbook\fs12}without a backcountry permit.{\r}
+Dialogue: 0,0:04:53.19,0:04:57.70,Default,,0000,0000,0000,,呃...上哪儿去弄许可证？\N{\fnCentury Schoolbook\fs12}Okay. Um, where do you get a permit?{\r}
+Dialogue: 0,0:04:57.70,0:05:00.80,Default,,0000,0000,0000,,现在是五月下旬  问题不是哪里而是何时\N{\fnCentury Schoolbook\fs12}This is late May. The question\nisn't where, the question is when{\r}
+Dialogue: 0,0:05:00.80,0:05:02.96,Default,,0000,0000,0000,,答案是一月\N{\fnCentury Schoolbook\fs12}and the answer is January.{\r}
+Dialogue: 0,0:05:02.96,0:05:05.60,Default,,0000,0000,0000,,最迟是二月初\N{\fnCentury Schoolbook\fs12}Early February at the latest.{\r}
+Dialogue: 0,0:05:05.60,0:05:09.77,Default,,0000,0000,0000,,你可以去大峡谷村的牧场问问\N{\fnCentury Schoolbook\fs12}You could try the Ranger Station\nat Grand Canyon village,{\r}
+Dialogue: 0,0:05:09.77,0:05:11.87,Default,,0000,0000,0000,,但结果不会有什么不同\N{\fnCentury Schoolbook\fs12}but I doubt they'll tell\nyou anything different.{\r}
+Dialogue: 0,0:05:15.53,0:05:18.06,Default,,0000,0000,0000,,好吧\N{\fnCentury Schoolbook\fs12}Yeah. Okay.{\r}
+Dialogue: 0,0:05:29.49,0:05:31.26,Default,,0000,0000,0000,,噢  天啊\N{\fnCentury Schoolbook\fs12}Oh my God.{\r}
+Dialogue: 0,0:05:48.28,0:05:50.11,Default,,0000,0000,0000,,所以你也没有边区许可证？\N{\fnCentury Schoolbook\fs12}So you don't have\nany backcountry permits?{\r}
+Dialogue: 0,0:05:50.11,0:05:51.61,Default,,0000,0000,0000,,抱歉  你们应该在...\N{\fnCentury Schoolbook\fs12}I'm sorry, you should've applied...{\r}
+Dialogue: 0,0:05:51.62,0:05:54.12,Default,,0000,0000,0000,,我知道  本该在一月份申请\N{\fnCentury Schoolbook\fs12}I know, I know,\nI should've applied in January.{\r}
+Dialogue: 0,0:05:54.12,0:05:55.69,Default,,0000,0000,0000,,最迟二月初\N{\fnCentury Schoolbook\fs12}Early February at the latest.{\r}
+Dialogue: 0,0:06:11.14,0:06:12.97,Default,,0000,0000,0000,,或许你是对的\N{\fnCentury Schoolbook\fs12}No, you're right.{\r}
+Dialogue: 0,0:06:12.97,0:06:15.34,Default,,0000,0000,0000,,也许是注定去不成\N{\fnCentury Schoolbook\fs12}Maybe it's just not meant to be.{\r}
+Dialogue: 0,0:06:15.34,0:06:18.47,Default,,0000,0000,0000,,说实话  这样也许最好\N{\fnCentury Schoolbook\fs12}Honestly, I think it's for the best.{\r}
+Dialogue: 0,0:06:18.55,0:06:20.91,Default,,0000,0000,0000,,或许是吧\N{\fnCentury Schoolbook\fs12}Well, maybe it is,{\r}
+Dialogue: 0,0:06:20.91,0:06:22.95,Default,,0000,0000,0000,,但或许不是\N{\fnCentury Schoolbook\fs12}and then again maybe it ain't.{\r}
+Dialogue: 0,0:06:24.00,0:06:26.45,Default,,0000,0000,0000,,我不是有意偷听你们说话\N{\fnCentury Schoolbook\fs12}I couldn't help but overhear,seeing as I was eavesdropping and all.{\r}
+Dialogue: 0,0:06:26.45,0:06:28.65,Default,,0000,0000,0000,,我只想说  我被你们的两难处境深深打动了\N{\fnCentury Schoolbook\fs12}I just want to say that I'm\ndeeply moved by your dilemma.{\r}
+Dialogue: 0,0:06:28.65,0:06:32.82,Default,,0000,0000,0000,,听着  我不是故意炫耀\N{\fnCentury Schoolbook\fs12}Now see, I'm not one\nto really toot my own horn,{\r}
+Dialogue: 0,0:06:32.82,0:06:36.09,Default,,0000,0000,0000,,但事实是\N{\fnCentury Schoolbook\fs12}but the fact of the matter is that.{\r}
+Dialogue: 0,0:06:36.09,0:06:37.76,Default,,0000,0000,0000,,这些事我都做过\N{\fnCentury Schoolbook\fs12}I've done it all.{\r}
+Dialogue: 0,0:06:37.76,0:06:40.19,Default,,0000,0000,0000,,我捕猎过海狸  黑熊\N{\fnCentury Schoolbook\fs12}I trapped beaver, I hunted bear,{\r}
+Dialogue: 0,0:06:40.20,0:06:42.26,Default,,0000,0000,0000,,挖过黄金  和印第安人住一起\N{\fnCentury Schoolbook\fs12}I panned for gold,\nI lived with the Indians{\r}
+Dialogue: 0,0:06:42.26,0:06:44.57,Default,,0000,0000,0000,,被雷电击中过...\N{\fnCentury Schoolbook\fs12}and I've been struck by lightning...{\r}
+Dialogue: 0,0:06:44.57,0:06:45.83,Default,,0000,0000,0000,,两次\N{\fnCentury Schoolbook\fs12}Twice.{\r}
+Dialogue: 0,0:06:47.00,0:06:48.77,Default,,0000,0000,0000,,我被滑坡埋过\N{\fnCentury Schoolbook\fs12}I've been buried by rockslides,{\r}
+Dialogue: 0,0:06:48.77,0:06:50.94,Default,,0000,0000,0000,,被蝎子蛰过\N{\fnCentury Schoolbook\fs12}I've been stung by scorpions,{\r}
+Dialogue: 0,0:06:50.94,0:06:52.77,Default,,0000,0000,0000,,被一头山狮袭击过\N{\fnCentury Schoolbook\fs12}I've been mauled by a Mountain Lion{\r}
+Dialogue: 0,0:06:52.78,0:06:55.01,Default,,0000,0000,0000,,被一头灰熊追着跑了几圈后伤到了这儿\N{\fnCentury Schoolbook\fs12}and I went a couple of rounds with\na Grizzly before he give me this,{\r}
+Dialogue: 0,0:06:55.01,0:06:56.64,Default,,0000,0000,0000,,但我挖出了它的左眼\N{\fnCentury Schoolbook\fs12}but I took his left eye in return,{\r}
+Dialogue: 0,0:06:56.65,0:06:58.28,Default,,0000,0000,0000,,所以我们算是扯平了\N{\fnCentury Schoolbook\fs12}so I guess you could say\nthat we're even.{\r}
+Dialogue: 0,0:06:58.28,0:06:59.10,Default,,0000,0000,0000,,天啊\N{\fnCentury Schoolbook\fs12}Jeez.{\r}
+Dialogue: 0,0:06:59.10,0:07:01.55,Default,,0000,0000,0000,,远不止这些  朋友\N{\fnCentury Schoolbook\fs12}And that ain't\nthe half of it, my friend.{\r}
+Dialogue: 0,0:07:01.55,0:07:02.70,Default,,0000,0000,0000,,你到底是谁？\N{\fnCentury Schoolbook\fs12}Who are you exactly?{\r}
+Dialogue: 0,0:07:02.70,0:07:05.75,Default,,0000,0000,0000,,我是你们难题的答案\N{\fnCentury Schoolbook\fs12}I'm the answer to your prayers.{\r}
+Dialogue: 0,0:07:05.75,0:07:07.99,Default,,0000,0000,0000,,我名字叫普理查德  两位\N{\fnCentury Schoolbook\fs12}The name's Pritchard, folks.{\r}
+Dialogue: 0,0:07:07.99,0:07:10.06,Default,,0000,0000,0000,,亨利·西奥多·罗斯福·普里查德\N{\fnCentury Schoolbook\fs12}Henry Theodore Roosevelt Pritchard,{\r}
+Dialogue: 0,0:07:10.06,0:07:12.73,Default,,0000,0000,0000,,一流导游\N{\fnCentury Schoolbook\fs12}guide extraordinaire.{\r}
+Dialogue: 0,0:07:12.73,0:07:14.93,Default,,0000,0000,0000,,我有骡子和相关器械\N{\fnCentury Schoolbook\fs12}I've got the mules, I've got the gear,{\r}
+Dialogue: 0,0:07:14.93,0:07:18.07,Default,,0000,0000,0000,,我有专业技能和勇气\N{\fnCentury Schoolbook\fs12}I've got the know-how\nand I've got the Huevos.{\r}
+Dialogue: 0,0:07:18.07,0:07:20.04,Default,,0000,0000,0000,,我现在正向你们提供\N{\fnCentury Schoolbook\fs12}And I'm hereby offering{\r}
+Dialogue: 0,0:07:20.04,0:07:22.84,Default,,0000,0000,0000,,专业服务\N{\fnCentury Schoolbook\fs12}my expert services.{\r}
+Dialogue: 0,0:07:26.68,0:07:29.04,Default,,0000,0000,0000,,你是说你可以带我们\N{\fnCentury Schoolbook\fs12}Are you saying that you can take us{\r}
+Dialogue: 0,0:07:29.05,0:07:30.44,Default,,0000,0000,0000,,到大峡谷下面去吗？\N{\fnCentury Schoolbook\fs12}down into the canyon?{\r}
+Dialogue: 0,0:07:30.44,0:07:32.71,Default,,0000,0000,0000,,基佬屁股是水密的吗？\N{\fnCentury Schoolbook\fs12}Is a frog's ass watertight?{\r}
+Dialogue: 0,0:07:34.28,0:07:37.61,Default,,0000,0000,0000,,我曾经是为一个大旅行社当导游\N{\fnCentury Schoolbook\fs12}See, I used to be a guide for\none of those bigger outfits,{\r}
+Dialogue: 0,0:07:37.62,0:07:39.28,Default,,0000,0000,0000,,但后来我们闹翻了\N{\fnCentury Schoolbook\fs12}but we had a falling out over{\r}
+Dialogue: 0,0:07:39.28,0:07:41.35,Default,,0000,0000,0000,,我想是因为个人创意不同吧\N{\fnCentury Schoolbook\fs12}what I guess you might\ncall creative differences.{\r}
+Dialogue: 0,0:07:41.35,0:07:44.52,Default,,0000,0000,0000,,这么迟了你能帮我们弄到许可证吗？\N{\fnCentury Schoolbook\fs12}Can you get us a permit this late?{\r}
+Dialogue: 0,0:07:44.52,0:07:46.69,Default,,0000,0000,0000,,噢  我能帮你们弄到许可证\N{\fnCentury Schoolbook\fs12}Oh, I can get you a permit.{\r}
+Dialogue: 0,0:07:46.69,0:07:49.19,Default,,0000,0000,0000,,只要贿赂对人就行\N{\fnCentury Schoolbook\fs12}It's all a question\nof greasing the right palms.{\r}
+Dialogue: 0,0:07:49.19,0:07:50.39,Default,,0000,0000,0000,,你能等我们一会儿吗？\N{\fnCentury Schoolbook\fs12}Would you excuse us for just one second?{\r}
+Dialogue: 0,0:07:50.39,0:07:52.19,Default,,0000,0000,0000,,当然  再想想  机不可失\N{\fnCentury Schoolbook\fs12}Well, sure. Take two. Live it up.{\r}
+Dialogue: 0,0:07:52.19,0:07:55.13,Default,,0000,0000,0000,,好\N{\fnCentury Schoolbook\fs12}Yeah.{\r}
+Dialogue: 0,0:07:58.48,0:08:01.15,Default,,0000,0000,0000,,我想我在《全美通缉令》节目中见过他\N{\fnCentury Schoolbook\fs12}I think I saw him\non "America's Most Wanted."{\r}
+Dialogue: 0,0:08:01.15,0:08:04.12,Default,,0000,0000,0000,,那人只是有点古怪而已\N{\fnCentury Schoolbook\fs12}Well, the guy's just a little eccentric.{\r}
+Dialogue: 0,0:08:04.12,0:08:07.46,Default,,0000,0000,0000,,古怪指的是和37只猫一起住在房车里\N{\fnCentury Schoolbook\fs12}Eccentric is living in\na house trailer with 37 cats,{\r}
+Dialogue: 0,0:08:07.46,0:08:11.13,Default,,0000,0000,0000,,而不是腰带上别着割肉刀四处跟踪他人\N{\fnCentury Schoolbook\fs12}not stalking around with a meat\ncleaver strapped to your side.{\r}
+Dialogue: 0,0:08:11.13,0:08:13.53,Default,,0000,0000,0000,,但他能帮我们搞到许可证\N{\fnCentury Schoolbook\fs12}Yeah, but he can...\nhe can get us a permit.{\r}
+Dialogue: 0,0:08:13.53,0:08:15.69,Default,,0000,0000,0000,,他能帮我们被一只独眼熊吃掉\N{\fnCentury Schoolbook\fs12}Eaten by a one-eyed bear is\nwhat he can get us.{\r}
+Dialogue: 0,0:08:17.23,0:08:19.56,Default,,0000,0000,0000,,但我们可能再也碰不到这种机会\N{\fnCentury Schoolbook\fs12}We may never get another shot at this.{\r}
+Dialogue: 0,0:08:19.56,0:08:22.90,Default,,0000,0000,0000,,我们不知道以后会怎样  有多少空闲\N{\fnCentury Schoolbook\fs12}We don't know how much time we have\nor where we're gonna end up.{\r}
+Dialogue: 0,0:08:22.90,0:08:25.07,Default,,0000,0000,0000,,也许以后都没这种旅行机会呢？\N{\fnCentury Schoolbook\fs12}What if there aren't any other trips?{\r}
+Dialogue: 0,0:08:34.51,0:08:38.71,Default,,0000,0000,0000,,好吧  咱们告诉灰熊亚当斯这个消息吧\N{\fnCentury Schoolbook\fs12}Okay. Well, let's tell\nGrizzly Adams the news.{\r}
+Dialogue: 0,0:08:38.72,0:08:40.72,Default,,0000,0000,0000,,噢\N{\fnCentury Schoolbook\fs12}Oh.{\r}
+Dialogue: 0,0:08:44.09,0:08:46.36,Default,,0000,0000,0000,,咱们成交还是成交？\N{\fnCentury Schoolbook\fs12}So do we have a deal\nor do we have a deal?{\r}
+Dialogue: 0,0:08:46.36,0:08:49.60,Default,,0000,0000,0000,,- 说定了 - 你们不会后悔的  两位\N{\fnCentury Schoolbook\fs12}- Done.\n- You won't regret it, folks.{\r}
+Dialogue: 0,0:08:53.00,0:08:55.51,Default,,0000,0000,0000,,我不想说这些\N{\fnCentury Schoolbook\fs12}Now I hate to talk about this,{\r}
+Dialogue: 0,0:08:55.51,0:08:58.58,Default,,0000,0000,0000,,但...请坐下\N{\fnCentury Schoolbook\fs12}but... have a seat.{\r}
+Dialogue: 0,0:09:13.72,0:09:15.78,Default,,0000,0000,0000,,他说乌鸦们是信使\N{\fnCentury Schoolbook\fs12}He's saying that\nthe crows are messengers{\r}
+Dialogue: 0,0:09:15.78,0:09:17.71,Default,,0000,0000,0000,,那一只在和我们说话  听\N{\fnCentury Schoolbook\fs12}and that one's speaking to us. Listen.{\r}
+Dialogue: 0,0:09:20.15,0:09:21.92,Default,,0000,0000,0000,,他在说什么？\N{\fnCentury Schoolbook\fs12}What's he saying?{\r}
+Dialogue: 0,0:09:21.92,0:09:24.52,Default,,0000,0000,0000,,- 我咋知道  他在说鸟语  - 亨利...\N{\fnCentury Schoolbook\fs12}- How should I know? He's speaking crow.\n- Henry...{\r}
+Dialogue: 0,0:09:28.41,0:09:30.34,Default,,0000,0000,0000,,你拿到许可证了吗？\N{\fnCentury Schoolbook\fs12}Did you get a permit?{\r}
+Dialogue: 0,0:09:30.34,0:09:32.94,Default,,0000,0000,0000,,当然  在这儿  把你们的装备放上去\N{\fnCentury Schoolbook\fs12}Oh yeah, I've got it right here.\nLet's get your gear stowed away.{\r}
+Dialogue: 0,0:09:32.94,0:09:34.98,Default,,0000,0000,0000,,很高兴你们能来\N{\fnCentury Schoolbook\fs12}I'm glad you made it.{\r}
+Dialogue: 0,0:09:34.98,0:09:37.12,Default,,0000,0000,0000,,谢谢\N{\fnCentury Schoolbook\fs12}Thank you.{\r}
+Dialogue: 0,0:09:52.35,0:09:55.16,Default,,0000,0000,0000,,没有国家公园服务认证的导游陪同不得进入
+Dialogue: 0,0:09:52.35,0:09:55.16,Default,,0000,0000,0000,,违反者将被起诉
+Dialogue: 0,0:09:52.35,0:09:55.16,Default,,0000,0000,0000,,警告：
+Dialogue: 0,0:10:01.00,0:10:03.50,Default,,0000,0000,0000,,我以前从没骑过骡子  亨利\N{\fnCentury Schoolbook\fs12}I've never ridden a mule before, Henry.{\r}
+Dialogue: 0,0:10:05.05,0:10:07.75,Default,,0000,0000,0000,,你知道怎么骑车对吗？\N{\fnCentury Schoolbook\fs12}You know how to ride a bicycle?{\r}
+Dialogue: 0,0:10:07.75,0:10:09.20,Default,,0000,0000,0000,,是\N{\fnCentury Schoolbook\fs12}Yeah.{\r}
+Dialogue: 0,0:10:09.20,0:10:11.34,Default,,0000,0000,0000,,这就和骑车一样\N{\fnCentury Schoolbook\fs12}Well, this ain't nothing like that.{\r}
+Dialogue: 0,0:10:23.81,0:10:28.17,Default,,0000,0000,0000,,科罗拉多大峡谷拥有最完善的地理历史记录\N{\fnCentury Schoolbook\fs12}The Grand Canyon provides the most complete record of geological history{\r}
+Dialogue: 0,0:10:28.17,0:10:31.44,Default,,0000,0000,0000,,囊括了地球上的所有类型\N{\fnCentury Schoolbook\fs12}that can be found\nanywhere on God's earth.{\r}
+Dialogue: 0,0:10:40.04,0:10:42.68,Default,,0000,0000,0000,,这里有腕足化石\N{\fnCentury Schoolbook\fs12}There's fossils of Brachiopods,{\r}
+Dialogue: 0,0:10:42.68,0:10:45.15,Default,,0000,0000,0000,,珊瑚化石和软体动物化石\N{\fnCentury Schoolbook\fs12}coral and mollusks{\r}
+Dialogue: 0,0:10:45.15,0:10:46.88,Default,,0000,0000,0000,,它们存在于凯巴布石灰岩里\N{\fnCentury Schoolbook\fs12}in the Kaibab Limestone...{\r}
+Dialogue: 0,0:10:46.88,0:10:48.42,Default,,0000,0000,0000,,在最上面的岩层里\N{\fnCentury Schoolbook\fs12}That's the topmost layer.{\r}
+Dialogue: 0,0:10:48.42,0:10:50.26,Default,,0000,0000,0000,,两亿五千万年前的\N{\fnCentury Schoolbook\fs12}It is a relative youngster{\r}
+Dialogue: 0,0:10:50.26,0:10:53.22,Default,,0000,0000,0000,,都还算是相对年轻的\N{\fnCentury Schoolbook\fs12}at 250 million years old,{\r}
+Dialogue: 0,0:10:53.22,0:10:54.66,Default,,0000,0000,0000,,误差不超过一千年\N{\fnCentury Schoolbook\fs12}give or take a millennium.{\r}
+Dialogue: 0,0:10:59.80,0:11:02.10,Default,,0000,0000,0000,,- 嘿  亨利 - 什么？\N{\fnCentury Schoolbook\fs12}- Hey, Henry.\n- Yeah?{\r}
+Dialogue: 0,0:11:02.10,0:11:03.37,Default,,0000,0000,0000,,你知道约翰·韦斯利·鲍威尔多少？\N{\fnCentury Schoolbook\fs12}What do you know\nabout John Wesley Powell?{\r}
+Dialogue: 0,0:11:03.37,0:11:05.35,Default,,0000,0000,0000,,约翰·韦斯利·鲍威尔？\N{\fnCentury Schoolbook\fs12}John Wesley Powell,{\r}
+Dialogue: 0,0:11:05.35,0:11:07.32,Default,,0000,0000,0000,,他在夏伊洛战争中失去了右臂\N{\fnCentury Schoolbook\fs12}who lost his right arm\nat the battle of Shiloh{\r}
+Dialogue: 0,0:11:07.32,0:11:10.12,Default,,0000,0000,0000,,而后成为大峡谷著名探险家\N{\fnCentury Schoolbook\fs12}and went on to become a famous\nexplorer of the Grand Canyon?{\r}
+Dialogue: 0,0:11:10.12,0:11:12.19,Default,,0000,0000,0000,,- 没错 - 从没听说过他\N{\fnCentury Schoolbook\fs12}- Yeah.\n- Never heard of him.{\r}
+Dialogue: 0,0:11:13.78,0:11:15.98,Default,,0000,0000,0000,,- 好吧  - 跟你开玩笑  朋友\N{\fnCentury Schoolbook\fs12}- Okay.\n- Just yanking your bootheel, my friend.{\r}
+Dialogue: 0,0:11:15.98,0:11:17.95,Default,,0000,0000,0000,,提到尊敬的约翰·韦斯利·鲍威尔\N{\fnCentury Schoolbook\fs12}I'm a regular encyclopedia when it comes{\r}
+Dialogue: 0,0:11:17.95,0:11:19.65,Default,,0000,0000,0000,,我就是一部百科全书\N{\fnCentury Schoolbook\fs12}to the venerable J.W. Powell.{\r}
+Dialogue: 0,0:11:19.65,0:11:21.46,Default,,0000,0000,0000,,我得给这儿照张相\N{\fnCentury Schoolbook\fs12}I have to get a picture of this.{\r}
+Dialogue: 0,0:11:35.30,0:11:37.34,Default,,0000,0000,0000,,这算是创意不同吗？\N{\fnCentury Schoolbook\fs12}That qualify as a creative difference?{\r}
+Dialogue: 0,0:11:38.45,0:11:41.12,Default,,0000,0000,0000,,- 要喝点润润嗓子吗？- 不介意我喝吧\N{\fnCentury Schoolbook\fs12}- Care to wet your whistle?\n- Don't mind if I do.{\r}
+Dialogue: 0,0:11:53.23,0:11:54.86,Default,,0000,0000,0000,,味道不错\N{\fnCentury Schoolbook\fs12}Not bad.{\r}
+Dialogue: 0,0:11:57.14,0:12:00.11,Default,,0000,0000,0000,,- 你也喝点吧 - 不了  谢谢\N{\fnCentury Schoolbook\fs12}- Go ahead.\n- No, thanks.{\r}
+Dialogue: 0,0:12:00.11,0:12:03.35,Default,,0000,0000,0000,,咱们得有一人保持清醒\N{\fnCentury Schoolbook\fs12}One of us should probably stay sober.{\r}
+Dialogue: 0,0:12:03.35,0:12:04.55,Default,,0000,0000,0000,,我们得抓紧\N{\fnCentury Schoolbook\fs12}Well, we'd best get a move on.{\r}
+Dialogue: 0,0:12:04.55,0:12:07.51,Default,,0000,0000,0000,,中午这里会比德克萨斯减价时的妓院更热\N{\fnCentury Schoolbook\fs12}It's gonna be hotter than a Texas\ncathouse on dollar day by noontime.{\r}
+Dialogue: 0,0:12:07.51,0:12:09.68,Default,,0000,0000,0000,,那可就太热了\N{\fnCentury Schoolbook\fs12}Now that's hot.{\r}
+Dialogue: 0,0:12:15.22,0:12:18.39,Default,,0000,0000,0000,,那儿是草原狼走出的小路\N{\fnCentury Schoolbook\fs12}Right there, tracks of Canis La-trans...{\r}
+Dialogue: 0,0:12:18.96,0:12:28.84,Default,,0000,0000,0000,,这种狼是纳瓦霍人传说的狡诈的象征\N{\fnCentury Schoolbook\fs12}That's Coyote to the Layman...and trickster of Navajo myth.{\r}
+Dialogue: 0,0:12:49.09,0:12:51.03,Default,,0000,0000,0000,,我们该停会儿\N{\fnCentury Schoolbook\fs12}We should stop.{\r}
+Dialogue: 0,0:13:13.64,0:13:16.04,Default,,0000,0000,0000,,要来点吗？\N{\fnCentury Schoolbook\fs12}You want some?{\r}
+Dialogue: 0,0:13:16.04,0:13:17.41,Default,,0000,0000,0000,,会让你长出胸毛\N{\fnCentury Schoolbook\fs12}Put hair on your chest.{\r}
+Dialogue: 0,0:13:17.41,0:13:19.75,Default,,0000,0000,0000,,我想为时已晚\N{\fnCentury Schoolbook\fs12}I think that ship has sailed.{\r}
+Dialogue: 0,0:13:21.76,0:13:23.10,Default,,0000,0000,0000,,好\N{\fnCentury Schoolbook\fs12}Okay.{\r}
+Dialogue: 0,0:13:27.20,0:13:29.73,Default,,0000,0000,0000,,继续  这么点量根本尝不出味道\N{\fnCentury Schoolbook\fs12}Go ahead. You won't even taste\na paltry amount like that.{\r}
+Dialogue: 0,0:13:29.73,0:13:31.83,Default,,0000,0000,0000,,再来点\N{\fnCentury Schoolbook\fs12}Go ahead.{\r}
+Dialogue: 0,0:13:38.53,0:13:40.20,Default,,0000,0000,0000,,对咯  这样也许有用  硬汉\N{\fnCentury Schoolbook\fs12}Yeah, that might do it, tough guy.{\r}
+Dialogue: 0,0:13:40.20,0:13:42.13,Default,,0000,0000,0000,,什么？感觉没什么\N{\fnCentury Schoolbook\fs12}What? This ain't nothing.{\r}
+Dialogue: 0,0:14:12.40,0:14:14.20,Default,,0000,0000,0000,,你们要喝水吗  过来喝点水\N{\fnCentury Schoolbook\fs12}You need some water.\nCome on and get some water.{\r}
+Dialogue: 0,0:14:14.21,0:14:15.44,Default,,0000,0000,0000,,好的\N{\fnCentury Schoolbook\fs12}Yeah.{\r}
+Dialogue: 0,0:14:17.98,0:14:19.00,Default,,0000,0000,0000,,- 你喜欢吗？- 嗯\N{\fnCentury Schoolbook\fs12}- You like it?\n- Mmm.{\r}
+Dialogue: 0,0:14:19.00,0:14:20.60,Default,,0000,0000,0000,,看出来了\N{\fnCentury Schoolbook\fs12}I can see that.{\r}
+Dialogue: 0,0:14:38.75,0:14:40.76,Default,,0000,0000,0000,,好了\N{\fnCentury Schoolbook\fs12}All right.{\r}
+Dialogue: 0,0:14:43.89,0:14:45.83,Default,,0000,0000,0000,,地方不算很差吧？\N{\fnCentury Schoolbook\fs12}Not too shabby, huh?{\r}
+Dialogue: 0,0:14:52.76,0:14:55.16,Default,,0000,0000,0000,,我当时遇到他的时候...\N{\fnCentury Schoolbook\fs12}You see, when I saw him that time...{\r}
+Dialogue: 0,0:14:55.16,0:14:58.26,Default,,0000,0000,0000,,有些人活七辈子也可能\N{\fnCentury Schoolbook\fs12}Some persons... you know,\na person goes seven lifetimes{\r}
+Dialogue: 0,0:14:58.26,0:14:59.86,Default,,0000,0000,0000,,见不到一只山猫\N{\fnCentury Schoolbook\fs12}without seeing a bobcat,{\r}
+Dialogue: 0,0:14:59.86,0:15:02.96,Default,,0000,0000,0000,,但我却被同一只袭击过三次\N{\fnCentury Schoolbook\fs12}but I was mauled by\nthe same one three times.{\r}
+Dialogue: 0,0:15:02.96,0:15:05.16,Default,,0000,0000,0000,,我知道是同一只是因为\N{\fnCentury Schoolbook\fs12}And the reason I know\nit was the same one{\r}
+Dialogue: 0,0:15:05.16,0:15:06.21,Default,,0000,0000,0000,,他是斗鸡眼\N{\fnCentury Schoolbook\fs12}is because he was a cross-eyed bobcat.{\r}
+Dialogue: 0,0:15:06.21,0:15:08.91,Default,,0000,0000,0000,,这可能就是他暴躁的原因  看我被咬的\N{\fnCentury Schoolbook\fs12}I guess that's what made him so ornery.\nHe gave me this.{\r}
+Dialogue: 0,0:15:08.91,0:15:11.75,Default,,0000,0000,0000,,噢  天啊\N{\fnCentury Schoolbook\fs12}Oh my God.{\r}
+Dialogue: 0,0:15:11.75,0:15:13.75,Default,,0000,0000,0000,,是啊\N{\fnCentury Schoolbook\fs12}Yup.{\r}
+Dialogue: 0,0:15:13.75,0:15:16.12,Default,,0000,0000,0000,,我说过我曾经被骡子袭击过吗？\N{\fnCentury Schoolbook\fs12}Did I ever mention I was bit by a mule?{\r}
+Dialogue: 0,0:15:16.12,0:15:17.55,Default,,0000,0000,0000,,没有\N{\fnCentury Schoolbook\fs12}Uh, no.{\r}
+Dialogue: 0,0:15:20.66,0:15:21.93,Default,,0000,0000,0000,,天啊\N{\fnCentury Schoolbook\fs12}Jeez.{\r}
+Dialogue: 0,0:15:23.13,0:15:25.73,Default,,0000,0000,0000,,- 你做什么了？- 我咬了他后背\N{\fnCentury Schoolbook\fs12}- What did you do?\n- I bit him back.{\r}
+Dialogue: 0,0:15:35.26,0:15:37.26,Default,,0000,0000,0000,,你们知道我会怎么建议吗？\N{\fnCentury Schoolbook\fs12}You know what I would suggest?{\r}
+Dialogue: 0,0:15:37.26,0:15:39.03,Default,,0000,0000,0000,,我建议\N{\fnCentury Schoolbook\fs12}I would suggest that{\r}
+Dialogue: 0,0:15:39.03,0:15:41.73,Default,,0000,0000,0000,,你们到那些岩石后面看看\N{\fnCentury Schoolbook\fs12}y'all take a look behind\nthose rocks over there.{\r}
+Dialogue: 0,0:15:43.32,0:15:45.59,Default,,0000,0000,0000,,我推荐你们到那后面走走\N{\fnCentury Schoolbook\fs12}I'd recommend taking\na little walk back there.{\r}
+Dialogue: 0,0:15:45.59,0:15:48.13,Default,,0000,0000,0000,,非常壮观\N{\fnCentury Schoolbook\fs12}It's... magnificent.{\r}
+Dialogue: 0,0:15:48.13,0:15:50.50,Default,,0000,0000,0000,,绝对值得\N{\fnCentury Schoolbook\fs12}It'll be worth your while.{\r}
+Dialogue: 0,0:15:50.50,0:15:52.17,Default,,0000,0000,0000,,相信我\N{\fnCentury Schoolbook\fs12}Trust me.{\r}
+Dialogue: 0,0:15:52.17,0:15:54.20,Default,,0000,0000,0000,,你想去吗？\N{\fnCentury Schoolbook\fs12}You wanna go?{\r}
+Dialogue: 0,0:15:54.20,0:15:56.14,Default,,0000,0000,0000,,当然\N{\fnCentury Schoolbook\fs12}Yeah, sure.{\r}
+Dialogue: 0,0:16:20.16,0:16:21.60,Default,,0000,0000,0000,,- 噢  - 噢  喔\N{\fnCentury Schoolbook\fs12}- Oh.\n- Oh, wow.{\r}
+Dialogue: 0,0:16:22.46,0:16:24.00,Default,,0000,0000,0000,,亨利说的对  这太不可思议了\N{\fnCentury Schoolbook\fs12}Henry was right. This is amazing.{\r}
+Dialogue: 0,0:16:51.61,0:16:55.75,Default,,0000,0000,0000,,你觉得你妈会原谅我吗？\N{\fnCentury Schoolbook\fs12}You think your Mom will ever forgive me{\r}
+Dialogue: 0,0:16:55.75,0:16:59.05,Default,,0000,0000,0000,,我硬是把你拉到维加斯结婚\N{\fnCentury Schoolbook\fs12}for dragging you off\nto Vegas to get married?{\r}
+Dialogue: 0,0:16:59.05,0:17:00.53,Default,,0000,0000,0000,,会的  没问题\N{\fnCentury Schoolbook\fs12}Yeah, no problem.{\r}
+Dialogue: 0,0:17:00.53,0:17:03.54,Default,,0000,0000,0000,,十年二十年后她也许就原谅你了\N{\fnCentury Schoolbook\fs12}It shouldn't take\nmore than 10, 12 years.{\r}
+Dialogue: 0,0:17:03.54,0:17:06.07,Default,,0000,0000,0000,,听起来不错\N{\fnCentury Schoolbook\fs12}Sounds about right.{\r}
+Dialogue: 0,0:17:06.07,0:17:08.94,Default,,0000,0000,0000,,别担心  我一直在做她的思想工作\N{\fnCentury Schoolbook\fs12}Don't worry. I've been working on her.{\r}
+Dialogue: 0,0:17:08.94,0:17:11.20,Default,,0000,0000,0000,,她会想通的\N{\fnCentury Schoolbook\fs12}She'll come around.{\r}
+Dialogue: 0,0:17:11.20,0:17:13.77,Default,,0000,0000,0000,,也许她认为咱们结婚的理由不对\N{\fnCentury Schoolbook\fs12}Maybe she thinks we got married\nfor the wrong reasons.{\r}
+Dialogue: 0,0:17:13.77,0:17:16.21,Default,,0000,0000,0000,,你怎么想？\N{\fnCentury Schoolbook\fs12}What do you think?{\r}
+Dialogue: 0,0:17:24.92,0:17:27.95,Default,,0000,0000,0000,,我觉得...\N{\fnCentury Schoolbook\fs12}I feel like...{\r}
+Dialogue: 0,0:17:29.35,0:17:33.29,Default,,0000,0000,0000,,事情终于开始成型\N{\fnCentury Schoolbook\fs12}Things are finally\nstarting to take shape,{\r}
+Dialogue: 0,0:17:33.29,0:17:37.43,Default,,0000,0000,0000,,终于开始稳定\N{\fnCentury Schoolbook\fs12}finally starting to form into place.{\r}
+Dialogue: 0,0:17:37.43,0:17:41.83,Default,,0000,0000,0000,,这对我们来说是一个全新的开始\N{\fnCentury Schoolbook\fs12}I think that this could be\na fresh start for the both of us.{\r}
+Dialogue: 0,0:17:44.56,0:17:47.90,Default,,0000,0000,0000,,我知道为我爸工作并不十分理想\N{\fnCentury Schoolbook\fs12}I know that working for my dad\nisn't exactly a dream come true...{\r}
+Dialogue: 0,0:17:47.90,0:17:49.60,Default,,0000,0000,0000,,不 不  挺好  挺好\N{\fnCentury Schoolbook\fs12}No no, it's good, it's good.{\r}
+Dialogue: 0,0:17:51.22,0:17:54.69,Default,,0000,0000,0000,,工作本身和发展前景\N{\fnCentury Schoolbook\fs12}I mean, the job, the future...{\r}
+Dialogue: 0,0:17:54.70,0:17:56.33,Default,,0000,0000,0000,,挺好\N{\fnCentury Schoolbook\fs12}It's good.{\r}
+Dialogue: 0,0:17:57.70,0:17:59.43,Default,,0000,0000,0000,,都挺好的\N{\fnCentury Schoolbook\fs12}It's all good.{\r}
+Dialogue: 0,0:18:28.00,0:18:30.90,Default,,0000,0000,0000,,我刚都想派个搜查队去找你们\N{\fnCentury Schoolbook\fs12}I was about to send out\na search party for you two.{\r}
+Dialogue: 0,0:18:37.18,0:18:40.14,Default,,0000,0000,0000,,我们可以选择在这扎营\N{\fnCentury Schoolbook\fs12}You know, we could either camp here{\r}
+Dialogue: 0,0:18:40.14,0:18:43.78,Default,,0000,0000,0000,,或者你们愿意的话\N{\fnCentury Schoolbook\fs12}or, if a person was so inclined,{\r}
+Dialogue: 0,0:18:43.78,0:18:47.81,Default,,0000,0000,0000,,我可以带你们去参观一下阿纳萨奇岩画\N{\fnCentury Schoolbook\fs12}I could show 'em a trove\nof Anasazi petroglyphs...{\r}
+Dialogue: 0,0:18:47.82,0:18:50.78,Default,,0000,0000,0000,,有一万两千年那么古老\N{\fnCentury Schoolbook\fs12}12,000 years old if they're a day...{\r}
+Dialogue: 0,0:18:50.78,0:18:53.00,Default,,0000,0000,0000,,我想我是唯一见到过它们的白人\N{\fnCentury Schoolbook\fs12}And I think I'm the only white\nman who's ever seen them.{\r}
+Dialogue: 0,0:18:53.00,0:18:54.57,Default,,0000,0000,0000,,你在开玩笑嘛？\N{\fnCentury Schoolbook\fs12}Are you kidding me?{\r}
+Dialogue: 0,0:18:54.57,0:18:56.64,Default,,0000,0000,0000,,我们完全赞同\N{\fnCentury Schoolbook\fs12}We are completely inclined.{\r}
+Dialogue: 0,0:18:56.64,0:18:59.17,Default,,0000,0000,0000,,真的吗？需要大半天的路程\N{\fnCentury Schoolbook\fs12}Oh yeah? A good half-day's\nride from here.{\r}
+Dialogue: 0,0:18:59.18,0:19:01.71,Default,,0000,0000,0000,,那路难走  水源匮乏\N{\fnCentury Schoolbook\fs12}The going's rough, water's scarce...{\r}
+Dialogue: 0,0:19:01.71,0:19:03.29,Default,,0000,0000,0000,,大多数人都望而却步\N{\fnCentury Schoolbook\fs12}It's more than most\npeople care to bite off.{\r}
+Dialogue: 0,0:19:03.29,0:19:05.79,Default,,0000,0000,0000,,这听起来太完美了\N{\fnCentury Schoolbook\fs12}That sounds, you know, perfect.{\r}
+Dialogue: 0,0:19:05.79,0:19:08.09,Default,,0000,0000,0000,,等等  我是不是在一本宣传册上看到过\N{\fnCentury Schoolbook\fs12}Wait a minute. Didn't I read\nin one of those brochures{\r}
+Dialogue: 0,0:19:08.09,0:19:10.06,Default,,0000,0000,0000,,咱们被要求待在许可证允许的范围内？\N{\fnCentury Schoolbook\fs12}that you're required\nto stick to the permit?{\r}
+Dialogue: 0,0:19:10.06,0:19:13.17,Default,,0000,0000,0000,,那是个建议而不是要求\N{\fnCentury Schoolbook\fs12}Well, that's actually more of\na suggestion than a requirement.{\r}
+Dialogue: 0,0:19:15.32,0:19:16.99,Default,,0000,0000,0000,,你们决定\N{\fnCentury Schoolbook\fs12}Up to you.{\r}
+Dialogue: 0,0:19:20.22,0:19:21.73,Default,,0000,0000,0000,,当心点\N{\fnCentury Schoolbook\fs12}Watch out.{\r}
+Dialogue: 0,0:19:24.10,0:19:27.63,Default,,0000,0000,0000,,听着  如果你不同意\N{\fnCentury Schoolbook\fs12}Listen, if you're not cool with this,{\r}
+Dialogue: 0,0:19:27.63,0:19:29.20,Default,,0000,0000,0000,,直说好吗？\N{\fnCentury Schoolbook\fs12}you just say the word, okay?{\r}
+Dialogue: 0,0:19:29.20,0:19:32.83,Default,,0000,0000,0000,,然后咱们就在这儿扎营\N{\fnCentury Schoolbook\fs12}And we'll... you know,\nwe'll camp right here.{\r}
+Dialogue: 0,0:19:32.83,0:19:36.19,Default,,0000,0000,0000,,愿意的话  我甚至会以你的名字命名那条小路\N{\fnCentury Schoolbook\fs12}I'll even name the Creek\nafter you, if you want.{\r}
+Dialogue: 0,0:19:38.52,0:19:40.52,Default,,0000,0000,0000,,拜托\N{\fnCentury Schoolbook\fs12}Come on.{\r}
+Dialogue: 0,0:19:40.52,0:19:42.43,Default,,0000,0000,0000,,去吧  去吧\N{\fnCentury Schoolbook\fs12}Come on. Come on.{\r}
+Dialogue: 0,0:19:42.43,0:19:44.54,Default,,0000,0000,0000,,你想去  你想去  你想去\N{\fnCentury Schoolbook\fs12}You want to do it. You want to do it.\nYou want to do it.{\r}
+Dialogue: 0,0:19:44.54,0:19:46.87,Default,,0000,0000,0000,,好吧  我同意\N{\fnCentury Schoolbook\fs12}All right. Fine.{\r}
+Dialogue: 0,0:19:47.97,0:19:49.94,Default,,0000,0000,0000,,在前带路  亨利\N{\fnCentury Schoolbook\fs12}Lead the way, Henry.{\r}
+Dialogue: 0,0:19:51.48,0:19:53.48,Default,,0000,0000,0000,,- 好的  - 咱们走\N{\fnCentury Schoolbook\fs12}- All right.\n- Let's do it.{\r}
+Dialogue: 0,0:19:53.48,0:19:55.78,Default,,0000,0000,0000,,好嘞  咱们最好马上启程\N{\fnCentury Schoolbook\fs12}All right. Well, we'd better\nbe getting moving.{\r}
+Dialogue: 0,0:19:55.78,0:19:57.82,Default,,0000,0000,0000,,好的  那是你的  这匹是我的吗？\N{\fnCentury Schoolbook\fs12}All right. That's yours. Was this mine?{\r}
+Dialogue: 0,0:19:57.82,0:19:59.35,Default,,0000,0000,0000,,这匹是你的  这是你的\N{\fnCentury Schoolbook\fs12}This is yours. That's yours.{\r}
+Dialogue: 0,0:20:32.05,0:20:34.37,Default,,0000,0000,0000,,约翰·韦斯利·鲍威尔\N{\fnCentury Schoolbook\fs12}"J.W."... John Wesley Powell.{\r}
+Dialogue: 0,0:20:34.37,0:20:35.84,Default,,0000,0000,0000,,完全一样\N{\fnCentury Schoolbook\fs12}The very same.{\r}
+Dialogue: 0,0:20:35.84,0:20:39.91,Default,,0000,0000,0000,,在1869年5月  他和另外九个人冒险进入大峡谷\N{\fnCentury Schoolbook\fs12}Him and nine others\nventured into the canyon in may of 1869.{\r}
+Dialogue: 0,0:20:39.91,0:20:42.52,Default,,0000,0000,0000,,走了3个月  1000多英里后\N{\fnCentury Schoolbook\fs12}Now three months and 1,000 miles later,{\r}
+Dialogue: 0,0:20:42.52,0:20:44.02,Default,,0000,0000,0000,,只剩六个人走出来\N{\fnCentury Schoolbook\fs12}only six of them came out.{\r}
+Dialogue: 0,0:20:44.02,0:20:45.95,Default,,0000,0000,0000,,其他人怎么样了？\N{\fnCentury Schoolbook\fs12}What happened to the others?{\r}
+Dialogue: 0,0:20:45.95,0:20:48.92,Default,,0000,0000,0000,,算了  别介意\N{\fnCentury Schoolbook\fs12}Actually, never mind.{\r}
+Dialogue: 0,0:20:48.92,0:20:50.79,Default,,0000,0000,0000,,我并不想知道\N{\fnCentury Schoolbook\fs12}I don't want to know.{\r}
+Dialogue: 0,0:20:52.36,0:20:53.20,Default,,0000,0000,0000,,快\N{\fnCentury Schoolbook\fs12}Come on.{\r}
+Dialogue: 0,0:20:53.20,0:20:55.67,Default,,0000,0000,0000,,说“失踪并推断已死亡”\N{\fnCentury Schoolbook\fs12}Say "missing and presumed dead."{\r}
+Dialogue: 0,0:21:08.62,0:21:11.02,Default,,0000,0000,0000,,岩画离这儿还有一小时路程\N{\fnCentury Schoolbook\fs12}Petroglyphs are about an hour from here.{\r}
+Dialogue: 0,0:21:11.02,0:21:12.65,Default,,0000,0000,0000,,我们到那儿去扎营\N{\fnCentury Schoolbook\fs12}We'll make camp there.{\r}
+Dialogue: 0,0:21:12.65,0:21:16.09,Default,,0000,0000,0000,,好消息  我臀部已经受不了啦\N{\fnCentury Schoolbook\fs12}That's good news, 'cause\nmy butt is killing me.{\r}
+Dialogue: 0,0:21:16.09,0:21:18.43,Default,,0000,0000,0000,,是  长官\N{\fnCentury Schoolbook\fs12}Yes, sir.{\r}
+Dialogue: 0,0:21:20.70,0:21:22.93,Default,,0000,0000,0000,,好\N{\fnCentury Schoolbook\fs12}All righty.{\r}
+Dialogue: 0,0:21:24.54,0:21:26.10,Default,,0000,0000,0000,,喔  嘿  嘿...\N{\fnCentury Schoolbook\fs12}Whoa! Hey hey hey hey hey!{\r}
+Dialogue: 0,0:21:26.11,0:21:28.31,Default,,0000,0000,0000,,坚持住  孩子  嘿  嘿\N{\fnCentury Schoolbook\fs12}Hold on, boy! Hey hey!{\r}
+Dialogue: 0,0:21:48.69,0:21:50.49,Default,,0000,0000,0000,,洛丽\N{\fnCentury Schoolbook\fs12}Lori.{\r}
+Dialogue: 0,0:21:50.49,0:21:52.39,Default,,0000,0000,0000,,你没事吧？\N{\fnCentury Schoolbook\fs12}Are you all right?{\r}
+Dialogue: 0,0:21:52.39,0:21:53.73,Default,,0000,0000,0000,,我想没事\N{\fnCentury Schoolbook\fs12}I think so.{\r}
+Dialogue: 0,0:22:01.44,0:22:04.07,Default,,0000,0000,0000,,噢  不好  起来\N{\fnCentury Schoolbook\fs12}Oh no. All right, come on.{\r}
+Dialogue: 0,0:22:04.07,0:22:06.34,Default,,0000,0000,0000,,快  快\N{\fnCentury Schoolbook\fs12}Come on, come on.{\r}
+Dialogue: 0,0:22:10.02,0:22:13.10,Default,,0000,0000,0000,,- 噢  天啊 - 我手臂断了 但还好\N{\fnCentury Schoolbook\fs12}- Oh my God.\n- Well, my arm's broke but good{\r}
+Dialogue: 0,0:22:13.10,0:22:15.14,Default,,0000,0000,0000,,此外还被蛇咬了两口\N{\fnCentury Schoolbook\fs12}and I'm snakebit twice to boot.{\r}
+Dialogue: 0,0:22:15.14,0:22:18.79,Default,,0000,0000,0000,,- 是那些响尾蛇吗？- 菱形斑响尾蛇\N{\fnCentury Schoolbook\fs12}- Those rattlesnakes?\n- Diamondback rattler.{\r}
+Dialogue: 0,0:22:18.79,0:22:20.79,Default,,0000,0000,0000,,还好不是莫哈韦响尾蛇\N{\fnCentury Schoolbook\fs12}At least it ain't a Mojave rattler.{\r}
+Dialogue: 0,0:22:20.79,0:22:23.89,Default,,0000,0000,0000,,莫哈韦响尾蛇的毒素会直接进入脊髓\N{\fnCentury Schoolbook\fs12}A Mojave rattler... the venom goes\nstraight to the spinal cord.{\r}
+Dialogue: 0,0:22:23.89,0:22:25.12,Default,,0000,0000,0000,,那可就不妙了\N{\fnCentury Schoolbook\fs12}That ain't a pleasant way to go.{\r}
+Dialogue: 0,0:22:25.12,0:22:26.72,Default,,0000,0000,0000,,我能做些什么？\N{\fnCentury Schoolbook\fs12}Is there anything that I can do?{\r}
+Dialogue: 0,0:22:26.72,0:22:28.49,Default,,0000,0000,0000,,你知道该怎么做吗？\N{\fnCentury Schoolbook\fs12}Yeah, you know what you could do?{\r}
+Dialogue: 0,0:22:28.49,0:22:30.56,Default,,0000,0000,0000,,去看看能不能把那些骡子抓回来\N{\fnCentury Schoolbook\fs12}You could go see if you\ncan corral them mules,{\r}
+Dialogue: 0,0:22:30.56,0:22:32.36,Default,,0000,0000,0000,,特别是那头载着咱们装备的骡子\N{\fnCentury Schoolbook\fs12}especially the one\nthat's got our gear on it.{\r}
+Dialogue: 0,0:22:32.36,0:22:34.95,Default,,0000,0000,0000,,- 好的 - 我收不到信号\N{\fnCentury Schoolbook\fs12}- All right.\n- I don't have a signal.{\r}
+Dialogue: 0,0:22:36.06,0:22:39.99,Default,,0000,0000,0000,,有时候这些东西在这儿能派上用场\N{\fnCentury Schoolbook\fs12}Sometimes them things work up here{\r}
+Dialogue: 0,0:22:39.99,0:22:42.06,Default,,0000,0000,0000,,有时候不能\N{\fnCentury Schoolbook\fs12}and sometimes they don't.{\r}
+Dialogue: 0,0:22:42.06,0:22:44.29,Default,,0000,0000,0000,,如果你能帮我找些木头回来\N{\fnCentury Schoolbook\fs12}I'd be much obliged\nif you could maybe find{\r}
+Dialogue: 0,0:22:44.29,0:22:45.72,Default,,0000,0000,0000,,我会很感激的\N{\fnCentury Schoolbook\fs12}some kind of piece of wood{\r}
+Dialogue: 0,0:22:45.72,0:22:47.36,Default,,0000,0000,0000,,我可以把它做夹板\N{\fnCentury Schoolbook\fs12}that I could use for a splint{\r}
+Dialogue: 0,0:22:47.36,0:22:49.19,Default,,0000,0000,0000,,来固定我的手臂\N{\fnCentury Schoolbook\fs12}so I can immobilize my arm.{\r}
+Dialogue: 0,0:22:49.20,0:22:51.20,Default,,0000,0000,0000,,我最好坐着不动待会儿\N{\fnCentury Schoolbook\fs12}It's best if I stay still for a minute.{\r}
+Dialogue: 0,0:22:51.20,0:22:51.86,Default,,0000,0000,0000,,好\N{\fnCentury Schoolbook\fs12}Okay.{\r}
+Dialogue: 0,0:22:51.86,0:22:55.43,Default,,0000,0000,0000,,否则毒素可能进入我的体内\N{\fnCentury Schoolbook\fs12}Otherwise the venom's gonna\ngo directly into my system.{\r}
+Dialogue: 0,0:23:03.28,0:23:06.18,Default,,0000,0000,0000,,过来  孩子  过来\N{\fnCentury Schoolbook\fs12}Come here, boy. Come here.{\r}
+Dialogue: 0,0:23:08.15,0:23:10.12,Default,,0000,0000,0000,,过来  孩子  过来\N{\fnCentury Schoolbook\fs12}Come here, boy. Come here.{\r}
+Dialogue: 0,0:23:10.12,0:23:13.05,Default,,0000,0000,0000,,好孩子\N{\fnCentury Schoolbook\fs12}That's a good boy.{\r}
+Dialogue: 0,0:23:13.05,0:23:13.93,Default,,0000,0000,0000,,好孩子\N{\fnCentury Schoolbook\fs12}That's a good boy.{\r}
+Dialogue: 0,0:23:25.20,0:23:28.71,Default,,0000,0000,0000,,该死的\N{\fnCentury Schoolbook\fs12}Damn.{\r}
+Dialogue: 0,0:23:43.00,0:23:43.94,Default,,0000,0000,0000,,这有点水\N{\fnCentury Schoolbook\fs12}Got a little water.{\r}
+Dialogue: 0,0:23:43.94,0:23:45.81,Default,,0000,0000,0000,,你最好省着点\N{\fnCentury Schoolbook\fs12}Yeah, you'd best save it.{\r}
+Dialogue: 0,0:23:47.74,0:23:50.55,Default,,0000,0000,0000,,对  就是这样\N{\fnCentury Schoolbook\fs12}Right... right there.{\r}
+Dialogue: 0,0:23:53.68,0:23:55.92,Default,,0000,0000,0000,,抱歉\N{\fnCentury Schoolbook\fs12}Sorry.{\r}
+Dialogue: 0,0:23:55.92,0:23:58.32,Default,,0000,0000,0000,,不是应该把切开个口子\N{\fnCentury Schoolbook\fs12}Aren't you supposed to cut an incision{\r}
+Dialogue: 0,0:23:58.32,0:23:59.75,Default,,0000,0000,0000,,把毒素吸出来吗？\N{\fnCentury Schoolbook\fs12}to suck out the venom?{\r}
+Dialogue: 0,0:23:59.76,0:24:02.12,Default,,0000,0000,0000,,这么做会感染\N{\fnCentury Schoolbook\fs12}You do that, you invite an infection.{\r}
+Dialogue: 0,0:24:02.12,0:24:04.41,Default,,0000,0000,0000,,应该把被咬的地方控制在心脏以下\N{\fnCentury Schoolbook\fs12}You're supposed to keep the bite\narea lower than your heart.{\r}
+Dialogue: 0,0:24:04.93,0:24:06.21,Default,,0000,0000,0000,,但现在不可能了\N{\fnCentury Schoolbook\fs12}That's gonna be a little hard to do,{\r}
+Dialogue: 0,0:24:06.21,0:24:07.74,Default,,0000,0000,0000,,因为我的脸被咬了一口\N{\fnCentury Schoolbook\fs12}since I got bit on the face.{\r}
+Dialogue: 0,0:24:08.25,0:24:10.54,Default,,0000,0000,0000,,也许我该站在自己的头上\N{\fnCentury Schoolbook\fs12}Maybe I'd better stand on my head.{\r}
+Dialogue: 0,0:24:12.52,0:24:14.62,Default,,0000,0000,0000,,我们得把你送到医院去\N{\fnCentury Schoolbook\fs12}We've gotta get you to a hospital.{\r}
+Dialogue: 0,0:24:14.62,0:24:17.52,Default,,0000,0000,0000,,不  现在往回走太迟了\N{\fnCentury Schoolbook\fs12}No, it's too late to head back now.{\r}
+Dialogue: 0,0:24:17.52,0:24:20.09,Default,,0000,0000,0000,,抱歉\N{\fnCentury Schoolbook\fs12}Sorry.{\r}
+Dialogue: 0,0:24:20.09,0:24:24.60,Default,,0000,0000,0000,,在这儿歇一晚  明早天一亮就离开这儿\N{\fnCentury Schoolbook\fs12}Bed down here. Head out at first light.{\r}
+Dialogue: 0,0:24:24.60,0:24:27.47,Default,,0000,0000,0000,,咱们得马上点起篝火\N{\fnCentury Schoolbook\fs12}We'll soon get a fire started.{\r}
+Dialogue: 0,0:24:28.67,0:24:31.67,Default,,0000,0000,0000,,等等\N{\fnCentury Schoolbook\fs12}Ow. Yo, wait a minute.{\r}
+Dialogue: 0,0:24:31.67,0:24:33.67,Default,,0000,0000,0000,,就剩这么点火柴吗？\N{\fnCentury Schoolbook\fs12}This all the matches you have left?{\r}
+Dialogue: 0,0:24:33.67,0:24:34.55,Default,,0000,0000,0000,,不  我的包里还有很多\N{\fnCentury Schoolbook\fs12}No, I've got a lot more\nleft in my saddlebags.{\r}
+Dialogue: 0,0:24:34.55,0:24:37.65,Default,,0000,0000,0000,,都在那头载货的骡子身上\N{\fnCentury Schoolbook\fs12}- Which is on the supply mule.\n- Uh-huh.{\r}
+Dialogue: 0,0:24:37.65,0:24:40.02,Default,,0000,0000,0000,,还有急救品\N{\fnCentury Schoolbook\fs12}Yeah, along with the first aid kit,{\r}
+Dialogue: 0,0:24:40.02,0:24:41.82,Default,,0000,0000,0000,,食物和水也都在它身上\N{\fnCentury Schoolbook\fs12}along with the food and water.{\r}
+Dialogue: 0,0:24:41.82,0:24:44.25,Default,,0000,0000,0000,,- 妈的 - 你已经说过了  朋友\N{\fnCentury Schoolbook\fs12}- Shit.\n- You said it, my friend.{\r}
+Dialogue: 0,0:24:46.72,0:24:47.72,Default,,0000,0000,0000,,绑的很好\N{\fnCentury Schoolbook\fs12}That's pretty good.{\r}
+Dialogue: 0,0:24:47.72,0:24:49.52,Default,,0000,0000,0000,,- 好 - 你还好吗？\N{\fnCentury Schoolbook\fs12}- Good.\n- You all right?{\r}
+Dialogue: 0,0:24:49.52,0:24:50.99,Default,,0000,0000,0000,,没事\N{\fnCentury Schoolbook\fs12}Yeah.{\r}
+Dialogue: 0,0:25:10.97,0:25:13.54,Default,,0000,0000,0000,,我们还能为你做点什么？亨利\N{\fnCentury Schoolbook\fs12}Is there anything more\nwe can do for you, Henry?{\r}
+Dialogue: 0,0:25:13.54,0:25:15.54,Default,,0000,0000,0000,,别让火灭了就行\N{\fnCentury Schoolbook\fs12}No, just keep that fire going.{\r}
+Dialogue: 0,0:25:15.54,0:25:18.11,Default,,0000,0000,0000,,我开始感觉有点冷了\N{\fnCentury Schoolbook\fs12}I'm starting... I'm starting\nto get the chills.{\r}
+Dialogue: 0,0:25:22.20,0:25:25.40,Default,,0000,0000,0000,,亨利  接下去会怎样？\N{\fnCentury Schoolbook\fs12}So, Henry, what happens now?{\r}
+Dialogue: 0,0:25:25.40,0:25:29.90,Default,,0000,0000,0000,,我可能会发烧\N{\fnCentury Schoolbook\fs12}Well, I'll probably get a fever.{\r}
+Dialogue: 0,0:25:29.90,0:25:32.61,Default,,0000,0000,0000,,可能会头晕眼花\N{\fnCentury Schoolbook\fs12}I guess I'll get dizzy,{\r}
+Dialogue: 0,0:25:32.61,0:25:34.98,Default,,0000,0000,0000,,看不清东西\N{\fnCentury Schoolbook\fs12}blurred vision.{\r}
+Dialogue: 0,0:25:34.98,0:25:37.25,Default,,0000,0000,0000,,某个时候会开始失去意识\N{\fnCentury Schoolbook\fs12}I'll take leave of my senses\nat some point,{\r}
+Dialogue: 0,0:25:37.28,0:25:39.55,Default,,0000,0000,0000,,虽然你很难发现\N{\fnCentury Schoolbook\fs12}though you might be\nhard-pressed to tell.{\r}
+Dialogue: 0,0:25:40.44,0:25:43.71,Default,,0000,0000,0000,,咱们最好把那蛇给吃了\N{\fnCentury Schoolbook\fs12}You know, I think that we'd\nbest cook up them rattlers.{\r}
+Dialogue: 0,0:25:43.71,0:25:46.03,Default,,0000,0000,0000,,没别的吃的  伙计们\N{\fnCentury Schoolbook\fs12}The cupboard's bare, folks,{\r}
+Dialogue: 0,0:25:46.03,0:25:47.53,Default,,0000,0000,0000,,咱们没法挑三拣四\N{\fnCentury Schoolbook\fs12}and we can't afford to be choosy.{\r}
+Dialogue: 0,0:25:47.53,0:25:50.33,Default,,0000,0000,0000,,你能帮我吗？\N{\fnCentury Schoolbook\fs12}Will you help me? Huh?{\r}
+Dialogue: 0,0:25:52.00,0:25:53.60,Default,,0000,0000,0000,,给\N{\fnCentury Schoolbook\fs12}Here.{\r}
+Dialogue: 0,0:26:12.59,0:26:15.77,Default,,0000,0000,0000,,我该怎么做？\N{\fnCentury Schoolbook\fs12}Yeah. What do I do?{\r}
+Dialogue: 0,0:26:15.77,0:26:19.40,Default,,0000,0000,0000,,切开肛门周围的连接肌肉\N{\fnCentury Schoolbook\fs12}You just cut the connecting muscles around the anal vent{\r}
+Dialogue: 0,0:26:19.40,0:26:21.44,Default,,0000,0000,0000,,把皮剥下来\N{\fnCentury Schoolbook\fs12}to release the skin.{\r}
+Dialogue: 0,0:26:37.02,0:26:38.52,Default,,0000,0000,0000,,对  好\N{\fnCentury Schoolbook\fs12}Yeah, that's good.{\r}
+Dialogue: 0,0:26:46.08,0:26:49.05,Default,,0000,0000,0000,,想吃点吗？味道像鸡肉\N{\fnCentury Schoolbook\fs12}You want some? It tastes like chicken.{\r}
+Dialogue: 0,0:26:49.05,0:26:50.87,Default,,0000,0000,0000,,不  谢谢  我是素食者\N{\fnCentury Schoolbook\fs12}No thanks, I'm a vegetarian.{\r}
+Dialogue: 0,0:26:51.38,0:26:53.48,Default,,0000,0000,0000,,什么时候开始的？\N{\fnCentury Schoolbook\fs12}Since when?{\r}
+Dialogue: 0,0:26:53.48,0:26:56.55,Default,,0000,0000,0000,,从我发现这东西还有肛门排泄孔开始\N{\fnCentury Schoolbook\fs12}Since I found out that thing\nhad an anal vent.{\r}
+Dialogue: 0,0:27:01.25,0:27:05.52,Default,,0000,0000,0000,,可能是灰狼  西部大灰狼\N{\fnCentury Schoolbook\fs12}That'd be Canis Lupus...\nWestern Timber Wolf{\r}
+Dialogue: 0,0:27:10.52,0:27:13.26,Default,,0000,0000,0000,,是在找对象？\N{\fnCentury Schoolbook\fs12}looking for a date.{\r}
+Dialogue: 0,0:27:17.00,0:27:18.77,Default,,0000,0000,0000,,我想是某人走运了\N{\fnCentury Schoolbook\fs12}And I guess somebody got lucky.{\r}
+Dialogue: 0,0:27:22.49,0:27:24.89,Default,,0000,0000,0000,,听起来他们像是在狩猎\N{\fnCentury Schoolbook\fs12}Sounds like they're hunting.{\r}
+Dialogue: 0,0:27:24.89,0:27:27.29,Default,,0000,0000,0000,,我不知道这附近有狼\N{\fnCentury Schoolbook\fs12}I didn't know there were\nwolves around here.{\r}
+Dialogue: 0,0:27:28.40,0:27:30.13,Default,,0000,0000,0000,,噢 是啊\N{\fnCentury Schoolbook\fs12}Oh yeah.{\r}
+Dialogue: 0,0:27:30.13,0:27:32.07,Default,,0000,0000,0000,,他们现在到这地方了\N{\fnCentury Schoolbook\fs12}They're here now.{\r}
+Dialogue: 0,0:27:34.07,0:27:36.47,Default,,0000,0000,0000,,他们无处可去\N{\fnCentury Schoolbook\fs12}No place left for them to go.{\r}
+Dialogue: 0,0:27:37.48,0:27:39.71,Default,,0000,0000,0000,,我们侵占它们的领地太久了\N{\fnCentury Schoolbook\fs12}We've encroached on their\nterritory for so long,{\r}
+Dialogue: 0,0:27:39.71,0:27:43.15,Default,,0000,0000,0000,,几乎没给它们留下吃的东西\N{\fnCentury Schoolbook\fs12}ain't hardly nothing\nleft for them to eat,{\r}
+Dialogue: 0,0:27:43.15,0:27:46.95,Default,,0000,0000,0000,,所以有时候它们四处觅食\N{\fnCentury Schoolbook\fs12}so sometimes they go looking\nfor food in places.{\r}
+Dialogue: 0,0:27:52.19,0:27:54.50,Default,,0000,0000,0000,,他们只是在努力生存下去\N{\fnCentury Schoolbook\fs12}They're just looking to survive,{\r}
+Dialogue: 0,0:27:54.50,0:27:56.10,Default,,0000,0000,0000,,就像你我一样\N{\fnCentury Schoolbook\fs12}same as you and me.{\r}
+Dialogue: 0,0:27:58.25,0:28:00.25,Default,,0000,0000,0000,,你破坏了大自然\N{\fnCentury Schoolbook\fs12}You screw with Mother Nature,{\r}
+Dialogue: 0,0:28:00.25,0:28:02.72,Default,,0000,0000,0000,,她就会找到一种方式回击你\N{\fnCentury Schoolbook\fs12}she's gonna find a way\nto screw you right back.{\r}
+Dialogue: 0,0:28:05.26,0:28:08.33,Default,,0000,0000,0000,,既然这样  我得再试试手机能不能用\N{\fnCentury Schoolbook\fs12}On that note, I think\nI'll try my cell phone again.{\r}
+Dialogue: 0,0:28:13.62,0:28:15.90,Default,,0000,0000,0000,,周日
+Dialogue: 0,0:28:33.33,0:28:36.30,Default,,0000,0000,0000,,嘿  亨利  你没事吧？\N{\fnCentury Schoolbook\fs12}Hey, Henry, are you all right?{\r}
+Dialogue: 0,0:28:36.30,0:28:38.34,Default,,0000,0000,0000,,好多了\N{\fnCentury Schoolbook\fs12}I've been better.{\r}
+Dialogue: 0,0:28:41.21,0:28:42.98,Default,,0000,0000,0000,,让我...\N{\fnCentury Schoolbook\fs12}Let me just...{\r}
+Dialogue: 0,0:28:46.00,0:28:49.37,Default,,0000,0000,0000,,我这有唇膏\N{\fnCentury Schoolbook\fs12}I've got some chapstick\nin here somewhere.{\r}
+Dialogue: 0,0:28:57.71,0:28:59.49,Default,,0000,0000,0000,,噢  宝贝  好\N{\fnCentury Schoolbook\fs12}Oh, baby. All right.{\r}
+Dialogue: 0,0:28:59.49,0:29:01.86,Default,,0000,0000,0000,,咱们最好马上动身\N{\fnCentury Schoolbook\fs12}Well, we'd best get a move on.{\r}
+Dialogue: 0,0:29:04.83,0:29:07.26,Default,,0000,0000,0000,,嘿  宝贝  给我唇膏\N{\fnCentury Schoolbook\fs12}Hey, darling, give me\nsome of that chapstick.{\r}
+Dialogue: 0,0:29:19.35,0:29:23.25,Default,,0000,0000,0000,,- 嘘  - 怎么了  亨利？\N{\fnCentury Schoolbook\fs12}- Hush.\n- What is it, Henry?{\r}
+Dialogue: 0,0:29:25.19,0:29:28.73,Default,,0000,0000,0000,,印第安人说  乌鸦常和狼群合作\N{\fnCentury Schoolbook\fs12}Indians say that crows work\nin tandem with wolves,{\r}
+Dialogue: 0,0:29:28.73,0:29:30.76,Default,,0000,0000,0000,,引导它们去找到受伤的猎物\N{\fnCentury Schoolbook\fs12}leading them to injured prey.{\r}
+Dialogue: 0,0:29:30.76,0:29:33.22,Default,,0000,0000,0000,,狼群吃剩的就给乌鸦\N{\fnCentury Schoolbook\fs12}The wolves feast and the\ncrows get the leftovers.{\r}
+Dialogue: 0,0:29:33.73,0:29:35.47,Default,,0000,0000,0000,,噢\N{\fnCentury Schoolbook\fs12}Oh.{\r}
+Dialogue: 0,0:29:35.47,0:29:37.74,Default,,0000,0000,0000,,噢  在那儿\N{\fnCentury Schoolbook\fs12}Oh, there it is.{\r}
+Dialogue: 0,0:29:42.78,0:29:45.15,Default,,0000,0000,0000,,幸好我不是印第安人\N{\fnCentury Schoolbook\fs12}Lucky for me I ain't no Indian.{\r}
+Dialogue: 0,0:29:58.36,0:30:00.88,Default,,0000,0000,0000,,你那还有什么物品？\N{\fnCentury Schoolbook\fs12}Hey, what else you got in that thing?{\r}
+Dialogue: 0,0:30:02.00,0:30:04.48,Default,,0000,0000,0000,,防晒油  面巾纸\N{\fnCentury Schoolbook\fs12}Sunscreen, Kleenex,{\r}
+Dialogue: 0,0:30:04.48,0:30:06.81,Default,,0000,0000,0000,,相机备用电池和口香糖\N{\fnCentury Schoolbook\fs12}spare battery for my camera and gum.{\r}
+Dialogue: 0,0:30:07.88,0:30:10.85,Default,,0000,0000,0000,,口香糖？你有口香糖\N{\fnCentury Schoolbook\fs12}Gum? Ooh, you've got gum.{\r}
+Dialogue: 0,0:30:10.85,0:30:12.72,Default,,0000,0000,0000,,来 拿出来\N{\fnCentury Schoolbook\fs12}Come on. Fork it over.{\r}
+Dialogue: 0,0:30:12.72,0:30:15.59,Default,,0000,0000,0000,,好  你要一半吗？\N{\fnCentury Schoolbook\fs12}Yes. You want half?{\r}
+Dialogue: 0,0:30:17.39,0:30:19.29,Default,,0000,0000,0000,,- 谢谢 - 谢谢\N{\fnCentury Schoolbook\fs12}- Thanks.\n- Thanks.{\r}
+Dialogue: 0,0:30:32.67,0:30:34.50,Default,,0000,0000,0000,,咱们不应该已经到露营地了吗？\N{\fnCentury Schoolbook\fs12}Shouldn't we be at\nthe Campground by now?{\r}
+Dialogue: 0,0:30:34.50,0:30:36.00,Default,,0000,0000,0000,,我不知道\N{\fnCentury Schoolbook\fs12}I don't know.{\r}
+Dialogue: 0,0:30:36.00,0:30:38.71,Default,,0000,0000,0000,,如果早知道这位人体指南针会出毛病\N{\fnCentury Schoolbook\fs12}If I had known our human\ncompass was gonna go haywire,{\r}
+Dialogue: 0,0:30:38.71,0:30:40.61,Default,,0000,0000,0000,,我就该更加留心才对\N{\fnCentury Schoolbook\fs12}I would've paid closer attention.{\r}
+Dialogue: 0,0:30:40.61,0:30:42.25,Default,,0000,0000,0000,,事后诸葛亮\N{\fnCentury Schoolbook\fs12}Hindsight being 20/20.{\r}
+Dialogue: 0,0:30:47.72,0:30:49.35,Default,,0000,0000,0000,,咱们迷路了  对吗？\N{\fnCentury Schoolbook\fs12}We're lost, aren't we?{\r}
+Dialogue: 0,0:30:49.35,0:30:51.39,Default,,0000,0000,0000,,不  咱们没迷路\N{\fnCentury Schoolbook\fs12}No, we're not lost.{\r}
+Dialogue: 0,0:30:54.32,0:30:57.22,Default,,0000,0000,0000,,哈喽\N{\fnCentury Schoolbook\fs12}Hello!{\r}
+Dialogue: 0,0:31:04.06,0:31:07.00,Default,,0000,0000,0000,,你没有迷路\N{\fnCentury Schoolbook\fs12}You're not lost!{\r}
+Dialogue: 0,0:31:13.11,0:31:13.77,Default,,0000,0000,0000,,感觉好点了吗？\N{\fnCentury Schoolbook\fs12}Feel better?{\r}
+Dialogue: 0,0:31:16.00,0:31:18.27,Default,,0000,0000,0000,,一点也没有\N{\fnCentury Schoolbook\fs12}Not even remotely.{\r}
+Dialogue: 0,0:31:22.28,0:31:24.85,Default,,0000,0000,0000,,好吧  咱们开始扎营  就在这儿\N{\fnCentury Schoolbook\fs12}All right, let's make camp.\nWe'll make it here.{\r}
+Dialogue: 0,0:31:42.54,0:31:44.61,Default,,0000,0000,0000,,如果他撑不住了怎么办？\N{\fnCentury Schoolbook\fs12}What if he doesn't make it?{\r}
+Dialogue: 0,0:31:53.38,0:31:55.25,Default,,0000,0000,0000,,我害怕  尼克\N{\fnCentury Schoolbook\fs12}I'm scared, Nick.{\r}
+Dialogue: 0,0:32:26.29,0:32:29.42,Default,,0000,0000,0000,,我看到它们了  我看到它们了\N{\fnCentury Schoolbook\fs12}I see 'em! I see 'em!{\r}
+Dialogue: 0,0:32:29.42,0:32:30.90,Default,,0000,0000,0000,,- 我看到它们来了 - 亨利\N{\fnCentury Schoolbook\fs12}- I see 'em coming!\n- Henry!{\r}
+Dialogue: 0,0:32:30.90,0:32:33.00,Default,,0000,0000,0000,,我看到它们的愤怒了 我看到...\N{\fnCentury Schoolbook\fs12}I've seen their wrath! I see...{\r}
+Dialogue: 0,0:32:37.07,0:32:38.40,Default,,0000,0000,0000,,亨利  你怎么样了  老兄？\N{\fnCentury Schoolbook\fs12}Henry, what are you doing, man?{\r}
+Dialogue: 0,0:32:38.40,0:32:40.43,Default,,0000,0000,0000,,- 我去追骡子 - 好\N{\fnCentury Schoolbook\fs12}- All right, I'll go get the mule.\n- Okay.{\r}
+Dialogue: 0,0:32:40.43,0:32:43.74,Default,,0000,0000,0000,,- 亨利？- 噢  天啊\N{\fnCentury Schoolbook\fs12}- Henry?\n- Oh, you... oh my God.{\r}
+Dialogue: 0,0:32:45.00,0:32:48.12,Default,,0000,0000,0000,,大自然很残酷不是吗？\N{\fnCentury Schoolbook\fs12}It ain't that mother nature's cruel.{\r}
+Dialogue: 0,0:32:48.12,0:32:50.05,Default,,0000,0000,0000,,她不在乎用什么办法\N{\fnCentury Schoolbook\fs12}She don't care one way\nor another about it.{\r}
+Dialogue: 0,0:32:50.05,0:32:52.26,Default,,0000,0000,0000,,但她从不犯错\N{\fnCentury Schoolbook\fs12}But make no mistake...{\r}
+Dialogue: 0,0:32:52.26,0:32:54.96,Default,,0000,0000,0000,,不管用什么方式  她总会在某天实行\N{\fnCentury Schoolbook\fs12}one way or another,\nshe will have her day.{\r}
+Dialogue: 0,0:32:55.25,0:32:57.35,Default,,0000,0000,0000,,亨利  早上我们会第一时间送你去医院  好吗？\N{\fnCentury Schoolbook\fs12}Henry, we'll get you to a hospital\nfirst thing in the morning, okay?{\r}
+Dialogue: 0,0:33:03.20,0:33:05.07,Default,,0000,0000,0000,,噢  亨利  不要...\N{\fnCentury Schoolbook\fs12}Oh, Henry, please don't...{\r}
+Dialogue: 0,0:33:13.14,0:33:14.74,Default,,0000,0000,0000,,亨利？\N{\fnCentury Schoolbook\fs12}Henry?{\r}
+Dialogue: 0,0:33:19.76,0:33:21.56,Default,,0000,0000,0000,,不要\N{\fnCentury Schoolbook\fs12}No.{\r}
+Dialogue: 0,0:33:43.29,0:33:44.99,Default,,0000,0000,0000,,该屎的\N{\fnCentury Schoolbook\fs12}Damn it.{\r}
+Dialogue: 0,0:34:03.62,0:34:05.56,Default,,0000,0000,0000,,他死了\N{\fnCentury Schoolbook\fs12}He's dead.{\r}
+Dialogue: 0,0:34:45.72,0:34:47.89,Default,,0000,0000,0000,,我们不能把他就这样扔在这儿\N{\fnCentury Schoolbook\fs12}We can't just leave him here.{\r}
+Dialogue: 0,0:34:51.06,0:34:54.73,Default,,0000,0000,0000,,没骡子  咱们没法运他出去\N{\fnCentury Schoolbook\fs12}Well, we can't carry his body out,\nnot without a mule.{\r}
+Dialogue: 0,0:34:57.41,0:34:59.35,Default,,0000,0000,0000,,我们应该把他埋了\N{\fnCentury Schoolbook\fs12}We should bury him.{\r}
+Dialogue: 0,0:35:01.21,0:35:03.85,Default,,0000,0000,0000,,咱们回去后再告知相关部门\N{\fnCentury Schoolbook\fs12}We can notify the authorities\nwhen we get back.{\r}
+Dialogue: 0,0:35:09.12,0:35:10.86,Default,,0000,0000,0000,,最好开始动手\N{\fnCentury Schoolbook\fs12}Better get to it.{\r}
+Dialogue: 0,0:37:20.51,0:37:22.72,Default,,0000,0000,0000,,周一
+Dialogue: 0,0:37:24.31,0:37:26.31,Default,,0000,0000,0000,,- 嗨 - 嗯？\N{\fnCentury Schoolbook\fs12}- Hi.\n- Hmm?{\r}
+Dialogue: 0,0:37:26.79,0:37:28.49,Default,,0000,0000,0000,,- 早 - 早\N{\fnCentury Schoolbook\fs12}- Morning.\n- Hey.{\r}
+Dialogue: 0,0:37:28.49,0:37:31.40,Default,,0000,0000,0000,,嘿\N{\fnCentury Schoolbook\fs12}Mmm. Hey.{\r}
+Dialogue: 0,0:37:32.54,0:37:34.44,Default,,0000,0000,0000,,你整晚都醒着吗？\N{\fnCentury Schoolbook\fs12}Were you awake all night?{\r}
+Dialogue: 0,0:37:34.44,0:37:37.51,Default,,0000,0000,0000,,- 嗯  大部分时间  - 噢 不\N{\fnCentury Schoolbook\fs12}- Mmm, pretty much.\n- Oh no.{\r}
+Dialogue: 0,0:37:53.86,0:37:56.00,Default,,0000,0000,0000,,咱们应该从那儿出去\N{\fnCentury Schoolbook\fs12}We should head out that way.{\r}
+Dialogue: 0,0:38:19.81,0:38:22.05,Default,,0000,0000,0000,,再见了  亨利\N{\fnCentury Schoolbook\fs12}So long, Henry.{\r}
+Dialogue: 0,0:38:50.24,0:38:52.97,Default,,0000,0000,0000,,回家后我要把厨房装修一下\N{\fnCentury Schoolbook\fs12}I want to paint the\nkitchen when we get back.{\r}
+Dialogue: 0,0:38:52.97,0:38:55.47,Default,,0000,0000,0000,,你想装修厨房？\N{\fnCentury Schoolbook\fs12}You want to paint the kitchen?{\r}
+Dialogue: 0,0:38:58.00,0:38:59.70,Default,,0000,0000,0000,,白色太单调\N{\fnCentury Schoolbook\fs12}White is so boring.{\r}
+Dialogue: 0,0:38:59.70,0:39:02.14,Default,,0000,0000,0000,,太严肃枯燥\N{\fnCentury Schoolbook\fs12}It's so safe. It's so nothing.{\r}
+Dialogue: 0,0:39:03.00,0:39:03.85,Default,,0000,0000,0000,,应该要更活泼\N{\fnCentury Schoolbook\fs12}It should be more vibrant,{\r}
+Dialogue: 0,0:39:03.85,0:39:06.62,Default,,0000,0000,0000,,更有生气  像南瓜色\N{\fnCentury Schoolbook\fs12}more alive, like pumpkin{\r}
+Dialogue: 0,0:39:06.62,0:39:10.06,Default,,0000,0000,0000,,或者砖红色这样的\N{\fnCentury Schoolbook\fs12}or brick red or something.{\r}
+Dialogue: 0,0:39:10.06,0:39:12.63,Default,,0000,0000,0000,,除了白色之外都好\N{\fnCentury Schoolbook\fs12}Anything but white,{\r}
+Dialogue: 0,0:39:14.10,0:39:16.10,Default,,0000,0000,0000,,你保证咱们回家后\N{\fnCentury Schoolbook\fs12}you promise me that\nwe'll paint the kitchen{\r}
+Dialogue: 0,0:39:16.10,0:39:18.79,Default,,0000,0000,0000,,- 要装修一下厨房？- 当然  洛丽\N{\fnCentury Schoolbook\fs12}- when we get back home?\n- Sure, Lori.{\r}
+Dialogue: 0,0:39:18.79,0:39:21.59,Default,,0000,0000,0000,,- 你想怎样都行 - 我是认真的\N{\fnCentury Schoolbook\fs12}- Whatever you want.\n- I'm serious.{\r}
+Dialogue: 0,0:39:21.59,0:39:25.73,Default,,0000,0000,0000,,你得保证咱们回家后要装修一下厨房\N{\fnCentury Schoolbook\fs12}You promise me that we'll paint the\nkitchen when we get back home.{\r}
+Dialogue: 0,0:39:27.83,0:39:29.67,Default,,0000,0000,0000,,好  我保证\N{\fnCentury Schoolbook\fs12}All right, I promise.{\r}
+Dialogue: 0,0:39:41.33,0:39:43.36,Default,,0000,0000,0000,,我不会死在这儿的  尼克\N{\fnCentury Schoolbook\fs12}I'm not gonna die out here, Nick.{\r}
+Dialogue: 0,0:40:00.94,0:40:02.64,Default,,0000,0000,0000,,不用了  谢谢\N{\fnCentury Schoolbook\fs12}No, thanks.{\r}
+Dialogue: 0,0:40:02.64,0:40:04.54,Default,,0000,0000,0000,,我饱着\N{\fnCentury Schoolbook\fs12}I'm all full.{\r}
+Dialogue: 0,0:40:08.08,0:40:11.35,Default,,0000,0000,0000,,好吧  过来  给我一片\N{\fnCentury Schoolbook\fs12}All right, come here. Give me a piece.{\r}
+Dialogue: 0,0:40:13.22,0:40:14.95,Default,,0000,0000,0000,,来  给我来些\N{\fnCentury Schoolbook\fs12}Come on. Give me some.{\r}
+Dialogue: 0,0:40:23.11,0:40:25.31,Default,,0000,0000,0000,,往哪儿走？\N{\fnCentury Schoolbook\fs12}So which way?{\r}
+Dialogue: 0,0:40:25.31,0:40:28.71,Default,,0000,0000,0000,,露营地在南边\N{\fnCentury Schoolbook\fs12}Well, the Campground's South of here.{\r}
+Dialogue: 0,0:40:28.71,0:40:31.81,Default,,0000,0000,0000,,太阳从这边下山  所以这是西边\N{\fnCentury Schoolbook\fs12}The sun's headed that way,\nso that's West.{\r}
+Dialogue: 0,0:40:31.81,0:40:33.55,Default,,0000,0000,0000,,南边肯定在这里\N{\fnCentury Schoolbook\fs12}So South must be here.{\r}
+Dialogue: 0,0:40:34.11,0:40:36.11,Default,,0000,0000,0000,,咱们往那儿走\N{\fnCentury Schoolbook\fs12}We go that way.{\r}
+Dialogue: 0,0:40:36.11,0:40:37.65,Default,,0000,0000,0000,,只要你有把握\N{\fnCentury Schoolbook\fs12}As long as you're sure.{\r}
+Dialogue: 0,0:40:37.65,0:40:39.65,Default,,0000,0000,0000,,我当然有把握\N{\fnCentury Schoolbook\fs12}I'm sure.{\r}
+Dialogue: 0,0:41:10.54,0:41:12.67,Default,,0000,0000,0000,,嘿  看\N{\fnCentury Schoolbook\fs12}Hey, look.{\r}
+Dialogue: 0,0:41:14.54,0:41:17.71,Default,,0000,0000,0000,,不\N{\fnCentury Schoolbook\fs12}No.{\r}
+Dialogue: 0,0:41:26.95,0:41:28.65,Default,,0000,0000,0000,,现在这样有点残忍\N{\fnCentury Schoolbook\fs12}Now that's just plain cruel.{\r}
+Dialogue: 0,0:41:34.85,0:41:36.44,Default,,0000,0000,0000,,咱们离上次吃东西有多久了？\N{\fnCentury Schoolbook\fs12}How long do you think it's\nbeen since we had anything{\r}
+Dialogue: 0,0:41:36.44,0:41:39.01,Default,,0000,0000,0000,,除了口香糖之外？\N{\fnCentury Schoolbook\fs12}to eat or drink besides gum?{\r}
+Dialogue: 0,0:41:39.01,0:41:41.98,Default,,0000,0000,0000,,不知道  今天是星期几？\N{\fnCentury Schoolbook\fs12}I don't know. What day is it?{\r}
+Dialogue: 0,0:41:41.98,0:41:44.42,Default,,0000,0000,0000,,我想是周一\N{\fnCentury Schoolbook\fs12}Monday, I think.{\r}
+Dialogue: 0,0:41:44.42,0:41:46.65,Default,,0000,0000,0000,,咱们上周六晚上吃了响尾蛇\N{\fnCentury Schoolbook\fs12}I had some rattlesnake Saturday night.{\r}
+Dialogue: 0,0:41:46.65,0:41:48.89,Default,,0000,0000,0000,,算你走运\N{\fnCentury Schoolbook\fs12}Lucky you.{\r}
+Dialogue: 0,0:41:48.89,0:41:52.13,Default,,0000,0000,0000,,天啊  知道我现在最想吃什么？\N{\fnCentury Schoolbook\fs12}Oh God, you know what I could\nreally go for right now?{\r}
+Dialogue: 0,0:41:52.13,0:41:55.16,Default,,0000,0000,0000,,- 哈？- 披萨\N{\fnCentury Schoolbook\fs12}- Huh?\n- A pizza.{\r}
+Dialogue: 0,0:41:55.16,0:41:57.70,Default,,0000,0000,0000,,我不会拒绝披萨的\N{\fnCentury Schoolbook\fs12}I wouldn't say no to a pizza.{\r}
+Dialogue: 0,0:42:01.27,0:42:02.84,Default,,0000,0000,0000,,哈喽？\N{\fnCentury Schoolbook\fs12}Hello?{\r}
+Dialogue: 0,0:42:02.84,0:42:05.47,Default,,0000,0000,0000,,噢  对  嗨\N{\fnCentury Schoolbook\fs12}Oh, yeah, hi.{\r}
+Dialogue: 0,0:42:05.48,0:42:07.09,Default,,0000,0000,0000,,我要订一个大披萨\N{\fnCentury Schoolbook\fs12}I'd like to order a large pizza,{\r}
+Dialogue: 0,0:42:07.58,0:42:10.07,Default,,0000,0000,0000,,能再加点奶酪吗？\N{\fnCentury Schoolbook\fs12}and can I get that with extra cheese?{\r}
+Dialogue: 0,0:42:10.07,0:42:12.22,Default,,0000,0000,0000,,还要些意大利辣肠  香肠\N{\fnCentury Schoolbook\fs12}Don't forget the pepperoni\nand the sausage.{\r}
+Dialogue: 0,0:42:12.22,0:42:14.45,Default,,0000,0000,0000,,你听清了吗？太好了\N{\fnCentury Schoolbook\fs12}Did you get that? Great.{\r}
+Dialogue: 0,0:42:14.45,0:42:17.45,Default,,0000,0000,0000,,噢  还有\N{\fnCentury Schoolbook\fs12}Oh, by the way,{\r}
+Dialogue: 0,0:42:17.46,0:42:20.46,Default,,0000,0000,0000,,你们送外卖吗？\N{\fnCentury Schoolbook\fs12}do you deliver?{\r}
+Dialogue: 0,0:42:25.53,0:42:27.53,Default,,0000,0000,0000,,手机拿出来了就试一试\N{\fnCentury Schoolbook\fs12}You might as well try it\nwhile you have it out.{\r}
+Dialogue: 0,0:42:27.53,0:42:29.40,Default,,0000,0000,0000,,你永远不知道啥时候有信号\N{\fnCentury Schoolbook\fs12}You never know.{\r}
+Dialogue: 0,0:42:31.27,0:42:34.07,Default,,0000,0000,0000,,嘿  有信号\N{\fnCentury Schoolbook\fs12}Hey, I've got a signal.{\r}
+Dialogue: 0,0:42:35.21,0:42:37.04,Default,,0000,0000,0000,,打911\N{\fnCentury Schoolbook\fs12}Call 911.{\r}
+Dialogue: 0,0:42:40.21,0:42:41.98,Default,,0000,0000,0000,,- 妈的 - 怎么？\N{\fnCentury Schoolbook\fs12}- Shit.\n- What?{\r}
+Dialogue: 0,0:42:41.98,0:42:43.55,Default,,0000,0000,0000,,信号丢失\N{\fnCentury Schoolbook\fs12}I lost it.{\r}
+Dialogue: 0,0:42:48.62,0:42:50.00,Default,,0000,0000,0000,,什么？什么...？\N{\fnCentury Schoolbook\fs12}What? What what what?{\r}
+Dialogue: 0,0:42:50.22,0:42:52.79,Default,,0000,0000,0000,,- 能收到吗？- 收不到了\N{\fnCentury Schoolbook\fs12}- Anything?\n- Damn it.{\r}
+Dialogue: 0,0:42:52.79,0:42:54.69,Default,,0000,0000,0000,,算了 算了\N{\fnCentury Schoolbook\fs12}It's all right. It's all right.{\r}
+Dialogue: 0,0:42:54.69,0:42:56.46,Default,,0000,0000,0000,,这说明咱走的方向是对的\N{\fnCentury Schoolbook\fs12}It means we're on the right track.{\r}
+Dialogue: 0,0:43:18.01,0:43:19.68,Default,,0000,0000,0000,,什么？\N{\fnCentury Schoolbook\fs12}What?{\r}
+Dialogue: 0,0:43:19.68,0:43:21.78,Default,,0000,0000,0000,,马上就到旅馆退房时间了\N{\fnCentury Schoolbook\fs12}It's gonna be checkout time\nat the Motel pretty soon.{\r}
+Dialogue: 0,0:43:22.00,0:43:24.51,Default,,0000,0000,0000,,咱们这样子是肯定要迟到了\N{\fnCentury Schoolbook\fs12}Something tells me we're\ngonna be a little late.{\r}
+Dialogue: 0,0:43:24.88,0:43:27.31,Default,,0000,0000,0000,,咱们告诉过旅馆经理骑骡子到大峡谷旅行的事对吗？\N{\fnCentury Schoolbook\fs12}We told the manager we were going on\na mule trip into the Canyon, right?{\r}
+Dialogue: 0,0:43:27.31,0:43:28.38,Default,,0000,0000,0000,,是的  然后呢？\N{\fnCentury Schoolbook\fs12}Yeah, so?{\r}
+Dialogue: 0,0:43:28.38,0:43:31.16,Default,,0000,0000,0000,,然后？假如咱们没有按时退房\N{\fnCentury Schoolbook\fs12}"So?" So when we don't\ncheck out on time,{\r}
+Dialogue: 0,0:43:31.16,0:43:34.23,Default,,0000,0000,0000,,她就会意识到出事了\N{\fnCentury Schoolbook\fs12}she's gonna realize\nthat something is wrong{\r}
+Dialogue: 0,0:43:34.23,0:43:36.77,Default,,0000,0000,0000,,然后她会通知有关部门\N{\fnCentury Schoolbook\fs12}and she's gonna notify the Authorities.{\r}
+Dialogue: 0,0:43:36.77,0:43:38.74,Default,,0000,0000,0000,,什么？那个旅馆经理？\N{\fnCentury Schoolbook\fs12}What? The Motel Manager?{\r}
+Dialogue: 0,0:43:38.74,0:43:41.84,Default,,0000,0000,0000,,就算咱们身上着火了  她也不会泼水相救的\N{\fnCentury Schoolbook\fs12}She wouldn't pour water\non us if we were on fire.{\r}
+Dialogue: 0,0:43:41.84,0:43:43.91,Default,,0000,0000,0000,,咱们11点之前不去退房\N{\fnCentury Schoolbook\fs12}When we don't show up by 11:00{\r}
+Dialogue: 0,0:43:43.91,0:43:46.41,Default,,0000,0000,0000,,她只会再多收一天房钱\N{\fnCentury Schoolbook\fs12}she's gonna charge us for another day.{\r}
+Dialogue: 0,0:43:47.55,0:43:49.11,Default,,0000,0000,0000,,是的  但...\N{\fnCentury Schoolbook\fs12}Yeah, but...{\r}
+Dialogue: 0,0:44:44.00,0:44:46.93,Default,,0000,0000,0000,,这就是亨利说的岩画吗？\N{\fnCentury Schoolbook\fs12}Are these the petroglyphs\nHenry was talking about?{\r}
+Dialogue: 0,0:44:51.67,0:44:53.67,Default,,0000,0000,0000,,不\N{\fnCentury Schoolbook\fs12}No.{\r}
+Dialogue: 0,0:44:53.67,0:44:55.25,Default,,0000,0000,0000,,它们是在...\N{\fnCentury Schoolbook\fs12}They're, uh... those are...{\r}
+Dialogue: 0,0:44:55.25,0:44:58.35,Default,,0000,0000,0000,,它们应该在那后面某个地方\N{\fnCentury Schoolbook\fs12}those are back there somewhere.{\r}
+Dialogue: 0,0:44:59.55,0:45:02.72,Default,,0000,0000,0000,,除非是咱们刚绕了一大圈又回来了\N{\fnCentury Schoolbook\fs12}Unless we just walked in a big circle.{\r}
+Dialogue: 0,0:45:02.72,0:45:04.85,Default,,0000,0000,0000,,不敢相信\N{\fnCentury Schoolbook\fs12}I don't believe it.{\r}
+Dialogue: 0,0:45:04.86,0:45:08.19,Default,,0000,0000,0000,,咱现在比早上出发的时候离露营地更远\N{\fnCentury Schoolbook\fs12}We're farther from the Campground\nthan when we started this morning.{\r}
+Dialogue: 0,0:45:08.47,0:45:10.97,Default,,0000,0000,0000,,不敢相信  我被你说服往这儿走\N{\fnCentury Schoolbook\fs12}I can't believe\nI let you talk me into this.{\r}
+Dialogue: 0,0:45:10.97,0:45:12.60,Default,,0000,0000,0000,,不\N{\fnCentury Schoolbook\fs12}No.{\r}
+Dialogue: 0,0:45:12.60,0:45:15.37,Default,,0000,0000,0000,,我问过你愿意来看岩画吗 你说好\N{\fnCentury Schoolbook\fs12}I asked if you were cool\nwith this and you said yes.{\r}
+Dialogue: 0,0:45:15.37,0:45:17.21,Default,,0000,0000,0000,,当时我还能有别的选择吗？\N{\fnCentury Schoolbook\fs12}And what choice did I have?{\r}
+Dialogue: 0,0:45:17.21,0:45:19.61,Default,,0000,0000,0000,,你看起来像在执行某种任务似的\N{\fnCentury Schoolbook\fs12}You know, it's like you're\non some kind of a mission.{\r}
+Dialogue: 0,0:45:19.61,0:45:23.21,Default,,0000,0000,0000,,坚持不懈  甘冒愚蠢的风险\N{\fnCentury Schoolbook\fs12}You're always pushing it\nand you take stupid risks!{\r}
+Dialogue: 0,0:45:23.22,0:45:24.19,Default,,0000,0000,0000,,一直不肯停下\N{\fnCentury Schoolbook\fs12}You never stop!{\r}
+Dialogue: 0,0:45:24.59,0:45:26.89,Default,,0000,0000,0000,,好了 你现在必须面对这残酷的现实\N{\fnCentury Schoolbook\fs12}You know, sometimes you\nneed to face up to reality.{\r}
+Dialogue: 0,0:45:26.89,0:45:28.46,Default,,0000,0000,0000,,我正在面对\N{\fnCentury Schoolbook\fs12}Oh, I'm facing it.{\r}
+Dialogue: 0,0:45:28.46,0:45:30.16,Default,,0000,0000,0000,,就是这里  洛丽\N{\fnCentury Schoolbook\fs12}Here it is, Lori!{\r}
+Dialogue: 0,0:45:30.16,0:45:31.70,Default,,0000,0000,0000,,哈？\N{\fnCentury Schoolbook\fs12}Huh?!{\r}
+Dialogue: 0,0:45:31.70,0:45:34.87,Default,,0000,0000,0000,,- 你想要的所有现实 - 都是因为你\N{\fnCentury Schoolbook\fs12}- All the reality you want!\n- Yeah, thanks to you.{\r}
+Dialogue: 0,0:45:34.87,0:45:37.10,Default,,0000,0000,0000,,我来这儿全都是因为你\N{\fnCentury Schoolbook\fs12}You know, I came here only for you!{\r}
+Dialogue: 0,0:45:37.10,0:45:38.80,Default,,0000,0000,0000,,看  看  这些\N{\fnCentury Schoolbook\fs12}Look look, here it is.{\r}
+Dialogue: 0,0:45:38.80,0:45:42.04,Default,,0000,0000,0000,,看这些东西  都是咱们的\N{\fnCentury Schoolbook\fs12}Here it is. Look at it.\nIt's all ours, huh?!{\r}
+Dialogue: 0,0:45:42.04,0:45:43.41,Default,,0000,0000,0000,,停下\N{\fnCentury Schoolbook\fs12}Stop it!{\r}
+Dialogue: 0,0:45:54.55,0:45:56.79,Default,,0000,0000,0000,,噢  我...\N{\fnCentury Schoolbook\fs12}Oh, I...{\r}
+Dialogue: 0,0:45:58.46,0:46:00.47,Default,,0000,0000,0000,,咱们离开这儿\N{\fnCentury Schoolbook\fs12}Let's get out of here.{\r}
+Dialogue: 0,0:46:09.73,0:46:13.00,Default,,0000,0000,0000,,看上去咱们要么往那儿走\N{\fnCentury Schoolbook\fs12}It looks like we either\nhead out that way...{\r}
+Dialogue: 0,0:46:17.64,0:46:19.34,Default,,0000,0000,0000,,要么爬上去\N{\fnCentury Schoolbook\fs12}Or we climb.{\r}
+Dialogue: 0,0:46:30.78,0:46:31.64,Default,,0000,0000,0000,,看看这里\N{\fnCentury Schoolbook\fs12}Check this out.{\r}
+Dialogue: 0,0:46:36.00,0:46:39.37,Default,,0000,0000,0000,,好  我看  要我看什么？\N{\fnCentury Schoolbook\fs12}Okay, I'm checking it out.\nWhat am I checking out?{\r}
+Dialogue: 0,0:46:39.37,0:46:42.79,Default,,0000,0000,0000,,- 这绝对可行 - 绝对"可行"\N{\fnCentury Schoolbook\fs12}- This is definitely doable.\n- Define "doable."{\r}
+Dialogue: 0,0:46:42.88,0:46:44.52,Default,,0000,0000,0000,,上面有很多抓手点\N{\fnCentury Schoolbook\fs12}There's plenty of handholds.{\r}
+Dialogue: 0,0:46:44.52,0:46:46.48,Default,,0000,0000,0000,,只要咱们到那个岩架上\N{\fnCentury Schoolbook\fs12}Once we get to that ledge,{\r}
+Dialogue: 0,0:46:46.49,0:46:49.52,Default,,0000,0000,0000,,就可以顺着那条岩缝走\N{\fnCentury Schoolbook\fs12}we'd scoot across this seam,{\r}
+Dialogue: 0,0:46:49.52,0:46:51.13,Default,,0000,0000,0000,,摆动着爬上那条裂缝\N{\fnCentury Schoolbook\fs12}shimmy up that crevice there,{\r}
+Dialogue: 0,0:46:51.13,0:46:53.30,Default,,0000,0000,0000,,一直到最后一块岩石表面\N{\fnCentury Schoolbook\fs12}make our way up to the last rock face{\r}
+Dialogue: 0,0:46:53.30,0:46:55.87,Default,,0000,0000,0000,,瞧  咱们就到顶了\N{\fnCentury Schoolbook\fs12}and voila, we're at the top.{\r}
+Dialogue: 0,0:46:57.84,0:47:00.61,Default,,0000,0000,0000,,- 怎么样？- 摆动...\N{\fnCentury Schoolbook\fs12}- What do you think?\n- Shimmy?{\r}
+Dialogue: 0,0:47:02.28,0:47:04.71,Default,,0000,0000,0000,,我想你被太阳晒傻了\N{\fnCentury Schoolbook\fs12}I think you've been out\nin the sun too long.{\r}
+Dialogue: 0,0:47:07.66,0:47:10.80,Default,,0000,0000,0000,,嘿  咱们能办到\N{\fnCentury Schoolbook\fs12}Hey, we can do this.{\r}
+Dialogue: 0,0:47:10.80,0:47:13.67,Default,,0000,0000,0000,,这就像我在攀岩馆爬过的那堵墙一样\N{\fnCentury Schoolbook\fs12}This is just like that wall I used\nto climb in that rock gym.{\r}
+Dialogue: 0,0:47:13.67,0:47:15.47,Default,,0000,0000,0000,,你只爬过一次  尼克\N{\fnCentury Schoolbook\fs12}You climbed it once, Nick.{\r}
+Dialogue: 0,0:47:15.47,0:47:17.77,Default,,0000,0000,0000,,但教练说我有这天赋\N{\fnCentury Schoolbook\fs12}Yeah, and the instructor\nsaid I was a natural.{\r}
+Dialogue: 0,0:47:32.42,0:47:33.68,Default,,0000,0000,0000,,小心点\N{\fnCentury Schoolbook\fs12}Be careful.{\r}
+Dialogue: 0,0:47:42.03,0:47:43.49,Default,,0000,0000,0000,,我刚怎么和你说的？\N{\fnCentury Schoolbook\fs12}What did I tell you?{\r}
+Dialogue: 0,0:47:43.49,0:47:44.78,Default,,0000,0000,0000,,小菜一碟\N{\fnCentury Schoolbook\fs12}Piece of cake.{\r}
+Dialogue: 0,0:47:44.78,0:47:47.84,Default,,0000,0000,0000,,那上面也许有信号\N{\fnCentury Schoolbook\fs12}Well, we might be able to get\na phone signal from up there.{\r}
+Dialogue: 0,0:47:48.28,0:47:49.74,Default,,0000,0000,0000,,比起在这底下\N{\fnCentury Schoolbook\fs12}We'll have a much better chance{\r}
+Dialogue: 0,0:47:49.74,0:47:51.51,Default,,0000,0000,0000,,上面有信号的可能性大得多\N{\fnCentury Schoolbook\fs12}of being spotted\nup there than down here.{\r}
+Dialogue: 0,0:47:58.58,0:48:00.65,Default,,0000,0000,0000,,这是最好的选择\N{\fnCentury Schoolbook\fs12}It's our best option.{\r}
+Dialogue: 0,0:48:03.30,0:48:05.26,Default,,0000,0000,0000,,我们能做到\N{\fnCentury Schoolbook\fs12}We can do this.{\r}
+Dialogue: 0,0:48:09.37,0:48:11.57,Default,,0000,0000,0000,,那还等什么？\N{\fnCentury Schoolbook\fs12}Then what are we waiting for?{\r}
+Dialogue: 0,0:48:21.67,0:48:24.24,Default,,0000,0000,0000,,这点不错\N{\fnCentury Schoolbook\fs12}Here's a good one.{\r}
+Dialogue: 0,0:48:24.24,0:48:26.01,Default,,0000,0000,0000,,好\N{\fnCentury Schoolbook\fs12}Okay.{\r}
+Dialogue: 0,0:48:48.04,0:48:49.97,Default,,0000,0000,0000,,你还行吗？\N{\fnCentury Schoolbook\fs12}You all right?{\r}
+Dialogue: 0,0:48:49.97,0:48:52.74,Default,,0000,0000,0000,,还行\N{\fnCentury Schoolbook\fs12}Uh, yeah.{\r}
+Dialogue: 0,0:48:53.37,0:48:55.34,Default,,0000,0000,0000,,咱到顶上了  再问我这问题\N{\fnCentury Schoolbook\fs12}Ask me again when we get to the top.{\r}
+Dialogue: 0,0:49:01.27,0:49:04.65,Default,,0000,0000,0000,,也许我该在这儿试试手机\N{\fnCentury Schoolbook\fs12}Maybe... maybe I should\njust try my phone from here.{\r}
+Dialogue: 0,0:49:04.65,0:49:06.88,Default,,0000,0000,0000,,什么？不不  现在不行\N{\fnCentury Schoolbook\fs12}What? No no, not now. Not now.{\r}
+Dialogue: 0,0:49:06.88,0:49:10.85,Default,,0000,0000,0000,,- 可以的  就现在  - 好  动作快些\N{\fnCentury Schoolbook\fs12}- Yeah, now.\n- All right, make it quick.{\r}
+Dialogue: 0,0:49:10.85,0:49:14.02,Default,,0000,0000,0000,,我需要你帮忙  能抓住我的手吗？\N{\fnCentury Schoolbook\fs12}Okay. I need your help.\nCan you hold my hand?{\r}
+Dialogue: 0,0:49:20.56,0:49:22.89,Default,,0000,0000,0000,,- 好的  你抓住我了吗？- 是的\N{\fnCentury Schoolbook\fs12}- Okay, you got me?\n- Yeah.{\r}
+Dialogue: 0,0:49:24.23,0:49:25.90,Default,,0000,0000,0000,,好\N{\fnCentury Schoolbook\fs12}Okay.{\r}
+Dialogue: 0,0:49:36.39,0:49:39.64,Default,,0000,0000,0000,,- 有信号了？- 什么？\N{\fnCentury Schoolbook\fs12}- I've got a signal.\n- What?{\r}
+Dialogue: 0,0:49:41.16,0:49:44.56,Default,,0000,0000,0000,,响了\N{\fnCentury Schoolbook\fs12}It's ringing.{\r}
+Dialogue: 0,0:49:44.56,0:49:47.22,Default,,0000,0000,0000,,- 好 - 这里是911\N{\fnCentury Schoolbook\fs12}- Yeah!\n- 911.{\r}
+Dialogue: 0,0:49:47.22,0:49:49.12,Default,,0000,0000,0000,,喂？喂？我们需要帮助\N{\fnCentury Schoolbook\fs12}Hello? Hello? We need help.{\r}
+Dialogue: 0,0:49:49.12,0:49:50.85,Default,,0000,0000,0000,,我们的导游...喂？\N{\fnCentury Schoolbook\fs12}Our guide is... Hello?{\r}
+Dialogue: 0,0:49:50.85,0:49:54.52,Default,,0000,0000,0000,,喂？断了\N{\fnCentury Schoolbook\fs12}Hello? I lost her.{\r}
+Dialogue: 0,0:49:54.53,0:49:57.46,Default,,0000,0000,0000,,没事的  再试一次\N{\fnCentury Schoolbook\fs12}It's all right. Try again.{\r}
+Dialogue: 0,0:49:59.20,0:50:02.30,Default,,0000,0000,0000,,又响了\N{\fnCentury Schoolbook\fs12}It's ringing again.{\r}
+Dialogue: 0,0:50:02.30,0:50:04.10,Default,,0000,0000,0000,,这里是911  您有什么紧急情况？\N{\fnCentury Schoolbook\fs12}911. What's your emergency?{\r}
+Dialogue: 0,0:50:04.10,0:50:06.44,Default,,0000,0000,0000,,嗨  我们走丢了 在...\N{\fnCentury Schoolbook\fs12}Hi, we're lost in...{\r}
+Dialogue: 0,0:50:06.44,0:50:08.80,Default,,0000,0000,0000,,妈的  妈的  又断了\N{\fnCentury Schoolbook\fs12}Shit! Shit! I lost her again.{\r}
+Dialogue: 0,0:50:08.81,0:50:10.84,Default,,0000,0000,0000,,没事\N{\fnCentury Schoolbook\fs12}All right.{\r}
+Dialogue: 0,0:50:10.84,0:50:12.91,Default,,0000,0000,0000,,打开扬声器\N{\fnCentury Schoolbook\fs12}Put it on speaker{\r}
+Dialogue: 0,0:50:12.91,0:50:14.71,Default,,0000,0000,0000,,探出身体  我会抓住的\N{\fnCentury Schoolbook\fs12}and lean out. I'll hold on.{\r}
+Dialogue: 0,0:50:14.71,0:50:17.38,Default,,0000,0000,0000,,- 真的吗？- 是的  我抓稳了\N{\fnCentury Schoolbook\fs12}- Really?\n- Yeah, I've got you.{\r}
+Dialogue: 0,0:50:17.38,0:50:19.31,Default,,0000,0000,0000,,快  你能做到\N{\fnCentury Schoolbook\fs12}Come on. You can do it.{\r}
+Dialogue: 0,0:50:22.22,0:50:23.95,Default,,0000,0000,0000,,好\N{\fnCentury Schoolbook\fs12}Okay.{\r}
+Dialogue: 0,0:50:24.27,0:50:27.74,Default,,0000,0000,0000,,- 好  好  - 继续\N{\fnCentury Schoolbook\fs12}- Okay. Okay.\n- Go ahead.{\r}
+Dialogue: 0,0:50:27.74,0:50:29.71,Default,,0000,0000,0000,,- 准备好了吗？- 好了\N{\fnCentury Schoolbook\fs12}- Ready?\n- Yeah.{\r}
+Dialogue: 0,0:50:29.71,0:50:31.11,Default,,0000,0000,0000,,- 确定？- 是的\N{\fnCentury Schoolbook\fs12}- Are you sure?\n- Yeah.{\r}
+Dialogue: 0,0:50:31.11,0:50:32.74,Default,,0000,0000,0000,,好   好\N{\fnCentury Schoolbook\fs12}Okay okay.{\r}
+Dialogue: 0,0:50:36.25,0:50:39.02,Default,,0000,0000,0000,,这里是911  喂  喂\N{\fnCentury Schoolbook\fs12}911. Hello. Hello.{\r}
+Dialogue: 0,0:50:39.02,0:50:41.52,Default,,0000,0000,0000,,- 能听到吗？- 你们位置在哪儿？\N{\fnCentury Schoolbook\fs12}- Can you hear me?\n- What's your location?{\r}
+Dialogue: 0,0:50:41.52,0:50:44.39,Default,,0000,0000,0000,,我们在大峡谷走失了\N{\fnCentury Schoolbook\fs12}We're lost in the Grand Canyon.{\r}
+Dialogue: 0,0:50:44.39,0:50:47.46,Default,,0000,0000,0000,,- 收到 - 噢 天啊  糟糕\N{\fnCentury Schoolbook\fs12}- Gotcha.\n- Oh my God. Oh shit.{\r}
+Dialogue: 0,0:50:48.56,0:50:50.50,Default,,0000,0000,0000,,好\N{\fnCentury Schoolbook\fs12}Yeah, okay.{\r}
+Dialogue: 0,0:51:20.40,0:51:21.86,Default,,0000,0000,0000,,尼克\N{\fnCentury Schoolbook\fs12}Nick.{\r}
+Dialogue: 0,0:51:21.87,0:51:24.13,Default,,0000,0000,0000,,嘿  亲爱的  你还好吗？\N{\fnCentury Schoolbook\fs12}Hey, honey, are you okay?{\r}
+Dialogue: 0,0:51:24.13,0:51:25.63,Default,,0000,0000,0000,,你没事吧？\N{\fnCentury Schoolbook\fs12}Are you okay?{\r}
+Dialogue: 0,0:51:25.64,0:51:28.14,Default,,0000,0000,0000,,- 你还好吗？- 我的腿...我的腿...\N{\fnCentury Schoolbook\fs12}- Are you okay?\n- My leg... my leg...{\r}
+Dialogue: 0,0:51:28.14,0:51:28.95,Default,,0000,0000,0000,,噢  痛死了...\N{\fnCentury Schoolbook\fs12}oh, it's killing...{\r}
+Dialogue: 0,0:51:28.95,0:51:34.04,Default,,0000,0000,0000,,好  我到这边看看\N{\fnCentury Schoolbook\fs12}Okay, I'm just gonna\ngo over here and take a look. Okay.{\r}
+Dialogue: 0,0:51:36.29,0:51:38.92,Default,,0000,0000,0000,,我把你的裤子卷起来能看清些\N{\fnCentury Schoolbook\fs12}I'm gonna lift your pant leg\nup to get a better look.{\r}
+Dialogue: 0,0:51:45.23,0:51:47.34,Default,,0000,0000,0000,,噢  天啊\N{\fnCentury Schoolbook\fs12}Oh my God.{\r}
+Dialogue: 0,0:51:48.26,0:51:50.76,Default,,0000,0000,0000,,- 断了吗？- 我不...\N{\fnCentury Schoolbook\fs12}- Is it broken?\n- I don't...{\r}
+Dialogue: 0,0:51:52.16,0:51:54.73,Default,,0000,0000,0000,,我没法肯定\N{\fnCentury Schoolbook\fs12}I can't really tell.{\r}
+Dialogue: 0,0:52:07.57,0:52:09.98,Default,,0000,0000,0000,,洛丽  把我拉出来\N{\fnCentury Schoolbook\fs12}Lori, just pu... pull me out.{\r}
+Dialogue: 0,0:52:09.98,0:52:11.98,Default,,0000,0000,0000,,- 拉我出来 - 不  尼克  我...\N{\fnCentury Schoolbook\fs12}- Just pull... just pull me...\n- No, Nick, I...{\r}
+Dialogue: 0,0:52:12.10,0:52:13.82,Default,,0000,0000,0000,,不  我们不应该那么做\N{\fnCentury Schoolbook\fs12}No, I don't think\nwe should try and do that.{\r}
+Dialogue: 0,0:52:13.82,0:52:16.72,Default,,0000,0000,0000,,- 拉我...拉我出来  - 好的  好的  亲爱的\N{\fnCentury Schoolbook\fs12}- Pull me... pull me out!\n- Okay. Okay, honey.{\r}
+Dialogue: 0,0:52:16.72,0:52:18.79,Default,,0000,0000,0000,,- 拉我 - 好\N{\fnCentury Schoolbook\fs12}- Pull me up.\n- All right.{\r}
+Dialogue: 0,0:52:18.79,0:52:20.76,Default,,0000,0000,0000,,- 噢  妈的  - 好的  准备好了吗？\N{\fnCentury Schoolbook\fs12}- Oh, fuck.\n- Okay, ready?{\r}
+Dialogue: 0,0:52:20.76,0:52:24.33,Default,,0000,0000,0000,,来  帮我\N{\fnCentury Schoolbook\fs12}Come here. Help me.{\r}
+Dialogue: 0,0:52:24.33,0:52:27.23,Default,,0000,0000,0000,,用力\N{\fnCentury Schoolbook\fs12}Keep pulling!{\r}
+Dialogue: 0,0:52:27.23,0:52:30.57,Default,,0000,0000,0000,,使劲  噢  对  好\N{\fnCentury Schoolbook\fs12}Keep trying! Oh yeah, that's good!{\r}
+Dialogue: 0,0:52:35.41,0:52:37.31,Default,,0000,0000,0000,,尼克？\N{\fnCentury Schoolbook\fs12}Nick?{\r}
+Dialogue: 0,0:52:45.28,0:52:46.55,Default,,0000,0000,0000,,噢  不\N{\fnCentury Schoolbook\fs12}Oh, no.{\r}
+Dialogue: 0,0:53:02.43,0:53:04.60,Default,,0000,0000,0000,,滚远点\N{\fnCentury Schoolbook\fs12}Get outta here!{\r}
+Dialogue: 0,0:53:04.60,0:53:06.14,Default,,0000,0000,0000,,滚远点\N{\fnCentury Schoolbook\fs12}Get outta here!{\r}
+Dialogue: 0,0:53:12.34,0:53:15.68,Default,,0000,0000,0000,,尼克  尼克  我听到你喊了\N{\fnCentury Schoolbook\fs12}Nick, Nick, I heard you shouting.{\r}
+Dialogue: 0,0:53:17.95,0:53:19.22,Default,,0000,0000,0000,,- 你到哪儿去了？- 我想\N{\fnCentury Schoolbook\fs12}- Where the hell, where you?\n- I thought that{\r}
+Dialogue: 0,0:53:19.22,0:53:21.29,Default,,0000,0000,0000,,如果我能找到一根杠杠\N{\fnCentury Schoolbook\fs12}if I could find some kind of a lever,{\r}
+Dialogue: 0,0:53:21.29,0:53:23.32,Default,,0000,0000,0000,,也许就能撬开这块巨石\N{\fnCentury Schoolbook\fs12}maybe I can pull this Boulder up.{\r}
+Dialogue: 0,0:53:23.32,0:53:24.86,Default,,0000,0000,0000,,真的吗？\N{\fnCentury Schoolbook\fs12}Really?{\r}
+Dialogue: 0,0:53:27.73,0:53:30.43,Default,,0000,0000,0000,,快\N{\fnCentury Schoolbook\fs12}Come on.{\r}
+Dialogue: 0,0:53:39.20,0:53:42.14,Default,,0000,0000,0000,,啊  天啦\N{\fnCentury Schoolbook\fs12}Ah! God!{\r}
+Dialogue: 0,0:54:11.48,0:54:13.18,Default,,0000,0000,0000,,现在看着怎样？\N{\fnCentury Schoolbook\fs12}How's it look?{\r}
+Dialogue: 0,0:54:14.83,0:54:16.43,Default,,0000,0000,0000,,没太糟糕\N{\fnCentury Schoolbook\fs12}Not too bad.{\r}
+Dialogue: 0,0:54:17.82,0:54:20.25,Default,,0000,0000,0000,,你一直都不会撒谎\N{\fnCentury Schoolbook\fs12}You've always been a shitty liar.{\r}
+Dialogue: 0,0:54:22.05,0:54:23.56,Default,,0000,0000,0000,,没事的\N{\fnCentury Schoolbook\fs12}It's okay.{\r}
+Dialogue: 0,0:54:25.09,0:54:27.63,Default,,0000,0000,0000,,这是当妻子的好品质\N{\fnCentury Schoolbook\fs12}It's a good quality to have in a wife.{\r}
+Dialogue: 0,0:54:31.70,0:54:33.53,Default,,0000,0000,0000,,很糟对吗？\N{\fnCentury Schoolbook\fs12}That bad, huh?{\r}
+Dialogue: 0,0:54:39.06,0:54:40.90,Default,,0000,0000,0000,,有主意吗？\N{\fnCentury Schoolbook\fs12}Any ideas?{\r}
+Dialogue: 0,0:54:45.59,0:54:48.46,Default,,0000,0000,0000,,我可以去求救\N{\fnCentury Schoolbook\fs12}I could go for help.{\r}
+Dialogue: 0,0:54:49.45,0:54:51.28,Default,,0000,0000,0000,,但我们迷路了\N{\fnCentury Schoolbook\fs12}Except we're lost.{\r}
+Dialogue: 0,0:54:53.82,0:54:55.75,Default,,0000,0000,0000,,你手机呢？\N{\fnCentury Schoolbook\fs12}What happened to your phone?{\r}
+Dialogue: 0,0:55:13.94,0:55:16.26,Default,,0000,0000,0000,,你刚不是打通过吗？\N{\fnCentury Schoolbook\fs12}Your call went through\nbefore though, right?{\r}
+Dialogue: 0,0:55:16.26,0:55:18.72,Default,,0000,0000,0000,,即使通了  我也没来得及\N{\fnCentury Schoolbook\fs12}Even if it did, I didn't get a chance{\r}
+Dialogue: 0,0:55:18.73,0:55:20.27,Default,,0000,0000,0000,,告诉接线员咱们的具体位置\N{\fnCentury Schoolbook\fs12}to tell the operator where we are...{\r}
+Dialogue: 0,0:55:21.76,0:55:23.55,Default,,0000,0000,0000,,我都不知道自己在哪儿\N{\fnCentury Schoolbook\fs12}Not that I even know where we are.{\r}
+Dialogue: 0,0:55:23.81,0:55:26.98,Default,,0000,0000,0000,,但亨利给咱办了许可证  他没回去\N{\fnCentury Schoolbook\fs12}But Henry got us a permit,\nand when he doesn't show up,{\r}
+Dialogue: 0,0:55:26.98,0:55:28.95,Default,,0000,0000,0000,,他们就会知道咱们失踪了  然后\N{\fnCentury Schoolbook\fs12}they're gonna know that\nwe're missing and they're gonna{\r}
+Dialogue: 0,0:55:28.95,0:55:30.95,Default,,0000,0000,0000,,派人来找我们  不用担心\N{\fnCentury Schoolbook\fs12}send somebody to come\nlooking for us, so it's okay.{\r}
+Dialogue: 0,0:55:30.95,0:55:32.18,Default,,0000,0000,0000,,你真的以为\N{\fnCentury Schoolbook\fs12}Do you really think{\r}
+Dialogue: 0,0:55:32.18,0:55:34.92,Default,,0000,0000,0000,,亨利拿到许可证了吗？\N{\fnCentury Schoolbook\fs12}that Henry actually got a permit?{\r}
+Dialogue: 0,0:55:55.21,0:55:58.60,Default,,0000,0000,0000,,你听说过有个人在犹他州\N{\fnCentury Schoolbook\fs12}Do you remember the story\nof the guy who went hiking{\r}
+Dialogue: 0,0:56:00.56,0:56:04.12,Default,,0000,0000,0000,,徒步旅行的故事吗？我想是...\N{\fnCentury Schoolbook\fs12}in... God... in Utah, I think it was?{\r}
+Dialogue: 0,0:56:06.55,0:56:08.32,Default,,0000,0000,0000,,他掉下去...\N{\fnCentury Schoolbook\fs12}He fell...{\r}
+Dialogue: 0,0:56:09.55,0:56:11.65,Default,,0000,0000,0000,,或者被滑落的岩石压住了\N{\fnCentury Schoolbook\fs12}Or maybe he got caught in a rockslide.{\r}
+Dialogue: 0,0:56:11.65,0:56:14.75,Default,,0000,0000,0000,,记不太清  但总之\N{\fnCentury Schoolbook\fs12}I don't remember, but anyway{\r}
+Dialogue: 0,0:56:14.75,0:56:16.20,Default,,0000,0000,0000,,他的手臂\N{\fnCentury Schoolbook\fs12}he got his arm{\r}
+Dialogue: 0,0:56:17.09,0:56:19.56,Default,,0000,0000,0000,,被块大石头锁住了\N{\fnCentury Schoolbook\fs12}pinned by a Boulder.{\r}
+Dialogue: 0,0:56:19.56,0:56:23.72,Default,,0000,0000,0000,,他用尽了一切办法脱身\N{\fnCentury Schoolbook\fs12}He tried everything\nhe could to free himself{\r}
+Dialogue: 0,0:56:23.72,0:56:25.65,Default,,0000,0000,0000,,但都不管用\N{\fnCentury Schoolbook\fs12}but nothing worked,{\r}
+Dialogue: 0,0:56:26.75,0:56:29.92,Default,,0000,0000,0000,,最后他砍掉了自己的手臂\N{\fnCentury Schoolbook\fs12}so he cut off his own arm.{\r}
+Dialogue: 0,0:56:32.12,0:56:34.28,Default,,0000,0000,0000,,情况不一样\N{\fnCentury Schoolbook\fs12}I think that was different.{\r}
+Dialogue: 0,0:56:34.28,0:56:36.72,Default,,0000,0000,0000,,不  没太大不同\N{\fnCentury Schoolbook\fs12}No, it's not that different.{\r}
+Dialogue: 0,0:56:37.09,0:56:39.12,Default,,0000,0000,0000,,他是独自一人\N{\fnCentury Schoolbook\fs12}He was alone.{\r}
+Dialogue: 0,0:56:39.12,0:56:41.32,Default,,0000,0000,0000,,而我还有你\N{\fnCentury Schoolbook\fs12}And I have you.{\r}
+Dialogue: 0,0:56:41.33,0:56:43.26,Default,,0000,0000,0000,,我们比他多一人\N{\fnCentury Schoolbook\fs12}We're one up on him.{\r}
+Dialogue: 0,0:56:44.56,0:56:47.57,Default,,0000,0000,0000,,不  他没得选择  但咱们有\N{\fnCentury Schoolbook\fs12}No, he had no choice, but we do.{\r}
+Dialogue: 0,0:56:51.62,0:56:54.93,Default,,0000,0000,0000,,- 有吗？- 有  咱可以\N{\fnCentury Schoolbook\fs12}- Do we?\n- Yes, we can,{\r}
+Dialogue: 0,0:56:54.93,0:56:57.66,Default,,0000,0000,0000,,咱还可以试试别的办法\N{\fnCentury Schoolbook\fs12}you know, still try\nand work something out.{\r}
+Dialogue: 0,0:56:57.66,0:56:57.83,Default,,0000,0000,0000,,他活下来了\N{\fnCentury Schoolbook\fs12}He survived.{\r}
+Dialogue: 0,0:56:59.93,0:57:01.73,Default,,0000,0000,0000,,我也能\N{\fnCentury Schoolbook\fs12}I could too.{\r}
+Dialogue: 0,0:57:03.94,0:57:07.17,Default,,0000,0000,0000,,尼克  你不能砍掉自己的腿\N{\fnCentury Schoolbook\fs12}Nick, you... you can't\ncut off your foot.{\r}
+Dialogue: 0,0:57:07.17,0:57:08.71,Default,,0000,0000,0000,,我知道我不能...\N{\fnCentury Schoolbook\fs12}I know I can't...{\r}
+Dialogue: 0,0:57:11.04,0:57:12.64,Default,,0000,0000,0000,,但是你能\N{\fnCentury Schoolbook\fs12}But you could.{\r}
+Dialogue: 0,0:57:14.75,0:57:16.18,Default,,0000,0000,0000,,不\N{\fnCentury Schoolbook\fs12}No.{\r}
+Dialogue: 0,0:57:17.58,0:57:19.05,Default,,0000,0000,0000,,不  不\N{\fnCentury Schoolbook\fs12}No. No.{\r}
+Dialogue: 0,0:57:20.88,0:57:23.35,Default,,0000,0000,0000,,痛苦就像\N{\fnCentury Schoolbook\fs12}The pain is{\r}
+Dialogue: 0,0:57:23.35,0:57:25.40,Default,,0000,0000,0000,,闪电一样在我血管里乱串\N{\fnCentury Schoolbook\fs12}like lightning running through my veins.{\r}
+Dialogue: 0,0:57:26.42,0:57:28.51,Default,,0000,0000,0000,,我不能  我不能那么做\N{\fnCentury Schoolbook\fs12}I can't... I can't do that.{\r}
+Dialogue: 0,0:57:28.51,0:57:30.68,Default,,0000,0000,0000,,- 我不能砍掉...- 我刚看到一只狼\N{\fnCentury Schoolbook\fs12}- I can't cut off...\n- I saw a Wolf.{\r}
+Dialogue: 0,0:57:30.68,0:57:32.82,Default,,0000,0000,0000,,什么？在这儿？\N{\fnCentury Schoolbook\fs12}What? Here?{\r}
+Dialogue: 0,0:57:32.82,0:57:35.56,Default,,0000,0000,0000,,你去找木头的时候看见的\N{\fnCentury Schoolbook\fs12}When you went looking\nfor that piece of wood.{\r}
+Dialogue: 0,0:57:36.76,0:57:38.99,Default,,0000,0000,0000,,好的  好的\N{\fnCentury Schoolbook\fs12}Okay. All right.{\r}
+Dialogue: 0,0:57:38.99,0:57:41.50,Default,,0000,0000,0000,,- 咱们得把你弄出来  - 噢  洛丽  没用的\N{\fnCentury Schoolbook\fs12}- We've got to get you out of here.\n- Oh, Lori, it's no use.{\r}
+Dialogue: 0,0:57:42.13,0:57:44.46,Default,,0000,0000,0000,,洛丽  拜托\N{\fnCentury Schoolbook\fs12}Lori, please.{\r}
+Dialogue: 0,0:57:44.46,0:57:46.40,Default,,0000,0000,0000,,洛丽  拜托\N{\fnCentury Schoolbook\fs12}Lori, please.{\r}
+Dialogue: 0,0:57:47.41,0:57:48.64,Default,,0000,0000,0000,,我们得马上离开\N{\fnCentury Schoolbook\fs12}We have to go now.{\r}
+Dialogue: 0,0:57:50.01,0:57:52.25,Default,,0000,0000,0000,,洛丽  不要  求你不要\N{\fnCentury Schoolbook\fs12}Lori, don't. Please don't.{\r}
+Dialogue: 0,0:58:00.72,0:58:02.73,Default,,0000,0000,0000,,- 来  - 不  拜托\N{\fnCentury Schoolbook\fs12}- Come on.\n- No. Oh, please.{\r}
+Dialogue: 0,0:58:02.73,0:58:04.39,Default,,0000,0000,0000,,- 来  帮帮我  拜托 - 求求你\N{\fnCentury Schoolbook\fs12}- Come on. Help me, please.\n- Please.{\r}
+Dialogue: 0,0:58:04.40,0:58:06.10,Default,,0000,0000,0000,,- 求你不要  不要 - 快\N{\fnCentury Schoolbook\fs12}- Please don't. Please don't.\n- Come on.{\r}
+Dialogue: 0,0:58:06.10,0:58:08.93,Default,,0000,0000,0000,,- 求你不要  - 抱歉\N{\fnCentury Schoolbook\fs12}- Please don't.\n- I'm sorry.{\r}
+Dialogue: 0,0:58:08.93,0:58:10.63,Default,,0000,0000,0000,,抱歉  抱歉\N{\fnCentury Schoolbook\fs12}I'm sorry. I'm sorry.{\r}
+Dialogue: 0,0:58:11.17,0:58:13.54,Default,,0000,0000,0000,,噢  来  拜托\N{\fnCentury Schoolbook\fs12}Oh, come on, please.{\r}
+Dialogue: 0,0:58:13.54,0:58:17.12,Default,,0000,0000,0000,,动动你的腿  拜托\N{\fnCentury Schoolbook\fs12}Please move your leg. Oh, please.{\r}
+Dialogue: 0,0:58:17.12,0:58:19.74,Default,,0000,0000,0000,,- 请停下 停下  - 拜托\N{\fnCentury Schoolbook\fs12}- Please stop. Please stop.\n- Please!{\r}
+Dialogue: 0,0:58:19.74,0:58:22.67,Default,,0000,0000,0000,,噢  请...\N{\fnCentury Schoolbook\fs12}Oh, please get...{\r}
+Dialogue: 0,0:58:24.61,0:58:26.74,Default,,0000,0000,0000,,我们不能待在这儿\N{\fnCentury Schoolbook\fs12}We can't stay.{\r}
+Dialogue: 0,0:58:26.74,0:58:28.95,Default,,0000,0000,0000,,救救我们\N{\fnCentury Schoolbook\fs12}Help us.{\r}
+Dialogue: 0,0:58:37.51,0:58:39.85,Default,,0000,0000,0000,,看来你说得对\N{\fnCentury Schoolbook\fs12}Let's say that you're right{\r}
+Dialogue: 0,0:58:39.85,0:58:43.29,Default,,0000,0000,0000,,我们不得不...\N{\fnCentury Schoolbook\fs12}and we have to...{\r}
+Dialogue: 0,0:58:46.13,0:58:48.14,Default,,0000,0000,0000,,我不得不割掉你的腿\N{\fnCentury Schoolbook\fs12}I have to cut your foot off.{\r}
+Dialogue: 0,0:58:49.27,0:58:52.57,Default,,0000,0000,0000,,我到底该怎么做？\N{\fnCentury Schoolbook\fs12}How exactly am I supposed to do that?{\r}
+Dialogue: 0,0:58:52.58,0:58:54.59,Default,,0000,0000,0000,,用亨利的刀子\N{\fnCentury Schoolbook\fs12}With Henry's knife.{\r}
+Dialogue: 0,0:58:57.21,0:58:59.14,Default,,0000,0000,0000,,我们把它埋了\N{\fnCentury Schoolbook\fs12}We buried it.{\r}
+Dialogue: 0,0:59:08.46,0:59:10.31,Default,,0000,0000,0000,,我怎么会如此愚蠢？\N{\fnCentury Schoolbook\fs12}How could I be so stupid?{\r}
+Dialogue: 0,0:59:10.88,0:59:12.98,Default,,0000,0000,0000,,我返回去找那把刀\N{\fnCentury Schoolbook\fs12}I'll go back and get the knife.{\r}
+Dialogue: 0,0:59:12.98,0:59:15.22,Default,,0000,0000,0000,,- 算了  - 别这样\N{\fnCentury Schoolbook\fs12}- Forget it.\n- Come on.{\r}
+Dialogue: 0,0:59:15.22,0:59:17.22,Default,,0000,0000,0000,,你说过不把你弄出来\N{\fnCentury Schoolbook\fs12}You said it yourself, if we\ndon't get you out of here,{\r}
+Dialogue: 0,0:59:17.22,0:59:18.92,Default,,0000,0000,0000,,你就死定了\N{\fnCentury Schoolbook\fs12}then you're gonna die.{\r}
+Dialogue: 0,0:59:18.92,0:59:21.12,Default,,0000,0000,0000,,你不知道回亨利坟墓的路\N{\fnCentury Schoolbook\fs12}You don't know your way\nback to Henry's grave.{\r}
+Dialogue: 0,0:59:21.12,0:59:24.89,Default,,0000,0000,0000,,- 我可以试试 - 如果走丢了呢？\N{\fnCentury Schoolbook\fs12}- I can try.\n- But what if you get lost?{\r}
+Dialogue: 0,0:59:24.89,0:59:27.93,Default,,0000,0000,0000,,我已经走丢了\N{\fnCentury Schoolbook\fs12}Huh. I'm already lost.{\r}
+Dialogue: 0,0:59:27.93,0:59:30.16,Default,,0000,0000,0000,,- 我说真的 - 我也是说真的\N{\fnCentury Schoolbook\fs12}- I'm serious.\n- So am I.{\r}
+Dialogue: 0,0:59:30.16,0:59:32.53,Default,,0000,0000,0000,,我可以做到的\N{\fnCentury Schoolbook\fs12}I can do this.{\r}
+Dialogue: 0,0:59:34.37,0:59:36.57,Default,,0000,0000,0000,,不  我不能让你去\N{\fnCentury Schoolbook\fs12}No, I can't let you.{\r}
+Dialogue: 0,0:59:36.57,0:59:38.19,Default,,0000,0000,0000,,你现在怎么拦住我\N{\fnCentury Schoolbook\fs12}Well, try and stop me.{\r}
+Dialogue: 0,0:59:41.39,0:59:43.86,Default,,0000,0000,0000,,抱歉  这不好笑\N{\fnCentury Schoolbook\fs12}I'm sorry. That wasn't funny.{\r}
+Dialogue: 0,0:59:43.86,0:59:45.96,Default,,0000,0000,0000,,挺好笑\N{\fnCentury Schoolbook\fs12}Yeah, it was.{\r}
+Dialogue: 0,1:00:01.81,1:00:04.15,Default,,0000,0000,0000,,这应该足够了\N{\fnCentury Schoolbook\fs12}That should be plenty.{\r}
+Dialogue: 0,1:00:04.65,1:00:06.25,Default,,0000,0000,0000,,给\N{\fnCentury Schoolbook\fs12}Here.{\r}
+Dialogue: 0,1:00:06.26,1:00:08.29,Default,,0000,0000,0000,,- 哈 - 以防万一\N{\fnCentury Schoolbook\fs12}- Huh.\n- Just in case.{\r}
+Dialogue: 0,1:00:10.00,1:00:13.10,Default,,0000,0000,0000,,太好了 软糖在哪儿？\N{\fnCentury Schoolbook\fs12}Great. Where are the marshmallows?{\r}
+Dialogue: 0,1:00:16.74,1:00:18.08,Default,,0000,0000,0000,,我得去了\N{\fnCentury Schoolbook\fs12}Well, I should get going.{\r}
+Dialogue: 0,1:00:18.08,1:00:19.99,Default,,0000,0000,0000,,我不想天黑还回不来\N{\fnCentury Schoolbook\fs12}I don't want to get caught\nout there in the dark.{\r}
+Dialogue: 0,1:00:22.72,1:00:26.39,Default,,0000,0000,0000,,嘿  我转眼就回来了\N{\fnCentury Schoolbook\fs12}Hey, I'll be back so fast you\nwon't even know I was gone.{\r}
+Dialogue: 0,1:00:30.55,1:00:32.12,Default,,0000,0000,0000,,咱很快就能再见\N{\fnCentury Schoolbook\fs12}I'll see you soon.{\r}
+Dialogue: 0,1:00:38.16,1:00:40.10,Default,,0000,0000,0000,,路上做好标记\N{\fnCentury Schoolbook\fs12}Happy trails.{\r}
+Dialogue: 0,1:00:46.67,1:00:48.11,Default,,0000,0000,0000,,洛丽\N{\fnCentury Schoolbook\fs12}Lori.{\r}
+Dialogue: 0,1:00:50.04,1:00:52.61,Default,,0000,0000,0000,,小心点\N{\fnCentury Schoolbook\fs12}Be careful.{\r}
+Dialogue: 0,1:01:17.57,1:01:19.81,Default,,0000,0000,0000,,噢  你到底在哪儿  亨利？\N{\fnCentury Schoolbook\fs12}Oh, where the hell are you, Henry?{\r}
+Dialogue: 0,1:02:00.00,1:02:02.30,Default,,0000,0000,0000,,好  噢  天啊\N{\fnCentury Schoolbook\fs12}Okay. Oh, God.{\r}
+Dialogue: 0,1:02:12.36,1:02:13.93,Default,,0000,0000,0000,,对不住了 亨利\N{\fnCentury Schoolbook\fs12}I'm sorry, Henry.{\r}
+Dialogue: 0,1:02:25.11,1:02:26.67,Default,,0000,0000,0000,,天啊\N{\fnCentury Schoolbook\fs12}God.{\r}
+Dialogue: 0,1:02:36.35,1:02:37.59,Default,,0000,0000,0000,,尼克\N{\fnCentury Schoolbook\fs12}Nick.{\r}
+Dialogue: 0,1:05:15.71,1:05:18.05,Default,,0000,0000,0000,,- 嘿 - 嘿\N{\fnCentury Schoolbook\fs12}- Hey.\n- Hey.{\r}
+Dialogue: 0,1:05:19.34,1:05:21.38,Default,,0000,0000,0000,,抱歉打扰到你\N{\fnCentury Schoolbook\fs12}Sorry to interrupt.{\r}
+Dialogue: 0,1:05:21.38,1:05:23.31,Default,,0000,0000,0000,,不  没事\N{\fnCentury Schoolbook\fs12}No, don't be.{\r}
+Dialogue: 0,1:05:24.06,1:05:25.79,Default,,0000,0000,0000,,感觉怎么样？\N{\fnCentury Schoolbook\fs12}How are you feeling?{\r}
+Dialogue: 0,1:05:28.59,1:05:30.53,Default,,0000,0000,0000,,我无法抱怨\N{\fnCentury Schoolbook\fs12}I can't complain.{\r}
+Dialogue: 0,1:05:31.34,1:05:33.38,Default,,0000,0000,0000,,亨利怎么样？\N{\fnCentury Schoolbook\fs12}How's Henry?{\r}
+Dialogue: 0,1:05:41.95,1:05:43.99,Default,,0000,0000,0000,,这是什么？\N{\fnCentury Schoolbook\fs12}What's this?{\r}
+Dialogue: 0,1:05:45.12,1:05:47.03,Default,,0000,0000,0000,,咱们的许可证\N{\fnCentury Schoolbook\fs12}It's our permit.{\r}
+Dialogue: 0,1:05:47.03,1:05:49.79,Default,,0000,0000,0000,,上面写什么？\N{\fnCentury Schoolbook\fs12}What's it say?{\r}
+Dialogue: 0,1:05:49.80,1:05:52.09,Default,,0000,0000,0000,,我们会待在哈瓦苏派露营地\N{\fnCentury Schoolbook\fs12}That we'll be staying\nat Havasupai Campground.{\r}
+Dialogue: 0,1:05:53.43,1:05:55.70,Default,,0000,0000,0000,,5月28号  星期一回去\N{\fnCentury Schoolbook\fs12}Returning on Monday, May the 28th.{\r}
+Dialogue: 0,1:05:58.22,1:06:00.05,Default,,0000,0000,0000,,所以即使他们来搜寻我们\N{\fnCentury Schoolbook\fs12}So even if they go looking for us,{\r}
+Dialogue: 0,1:06:00.48,1:06:04.45,Default,,0000,0000,0000,,也不知道往哪去\N{\fnCentury Schoolbook\fs12}they won't know where to look.{\r}
+Dialogue: 0,1:06:22.64,1:06:24.74,Default,,0000,0000,0000,,你消毒了吗？\N{\fnCentury Schoolbook\fs12}Did you sterilize it?{\r}
+Dialogue: 0,1:06:26.64,1:06:29.01,Default,,0000,0000,0000,,是的 我有\N{\fnCentury Schoolbook\fs12}Yeah. Yeah, I did.{\r}
+Dialogue: 0,1:06:29.01,1:06:30.48,Default,,0000,0000,0000,,好\N{\fnCentury Schoolbook\fs12}That's good.{\r}
+Dialogue: 0,1:06:30.48,1:06:32.62,Default,,0000,0000,0000,,我不想感染\N{\fnCentury Schoolbook\fs12}I wouldn't want to get an infection.{\r}
+Dialogue: 0,1:06:35.19,1:06:37.03,Default,,0000,0000,0000,,没事的\N{\fnCentury Schoolbook\fs12}It's all right.{\r}
+Dialogue: 0,1:06:38.00,1:06:40.27,Default,,0000,0000,0000,,我不会怨你的\N{\fnCentury Schoolbook\fs12}I won't hold it against you.{\r}
+Dialogue: 0,1:06:41.75,1:06:43.26,Default,,0000,0000,0000,,你保证？\N{\fnCentury Schoolbook\fs12}Promise?{\r}
+Dialogue: 0,1:06:43.26,1:06:45.40,Default,,0000,0000,0000,,千真万确\N{\fnCentury Schoolbook\fs12}Cross my heart,{\r}
+Dialogue: 0,1:06:47.03,1:06:48.53,Default,,0000,0000,0000,,誓死不悔\N{\fnCentury Schoolbook\fs12}hope to die.{\r}
+Dialogue: 0,1:06:53.00,1:06:54.94,Default,,0000,0000,0000,,给  你咬住这东西\N{\fnCentury Schoolbook\fs12}Here, you have to bite on this.{\r}
+Dialogue: 0,1:06:57.41,1:06:59.00,Default,,0000,0000,0000,,嗯\N{\fnCentury Schoolbook\fs12}Mmm.{\r}
+Dialogue: 0,1:06:59.00,1:07:01.14,Default,,0000,0000,0000,,我喜欢你说下流话的样子\N{\fnCentury Schoolbook\fs12}I love it when you talk dirty.{\r}
+Dialogue: 0,1:09:08.00,1:09:09.47,Default,,0000,0000,0000,,滚远点\N{\fnCentury Schoolbook\fs12}Get out of here!{\r}
+Dialogue: 0,1:09:13.44,1:09:15.31,Default,,0000,0000,0000,,别烦我们\N{\fnCentury Schoolbook\fs12}Leave us alone!{\r}
+Dialogue: 0,1:09:25.21,1:09:26.92,Default,,0000,0000,0000,,嘿\N{\fnCentury Schoolbook\fs12}Hey.{\r}
+Dialogue: 0,1:09:28.02,1:09:30.05,Default,,0000,0000,0000,,我得去多找些木头\N{\fnCentury Schoolbook\fs12}I have to go get more wood.{\r}
+Dialogue: 0,1:09:33.56,1:09:35.83,Default,,0000,0000,0000,,祝我好运\N{\fnCentury Schoolbook\fs12}Wish me luck.{\r}
+Dialogue: 0,1:12:12.86,1:12:14.60,Default,,0000,0000,0000,,你做的？\N{\fnCentury Schoolbook\fs12}Did you?{\r}
+Dialogue: 0,1:12:22.09,1:12:24.04,Default,,0000,0000,0000,,我们回家后  我...\N{\fnCentury Schoolbook\fs12}When we get back, I'm...{\r}
+Dialogue: 0,1:12:24.52,1:12:27.16,Default,,0000,0000,0000,,我们回家后怎么样？\N{\fnCentury Schoolbook\fs12}When we get back...?{\r}
+Dialogue: 0,1:12:27.16,1:12:30.43,Default,,0000,0000,0000,,回家后  我找你父亲辞职\N{\fnCentury Schoolbook\fs12}When we get back, I'm not gonna\ntake that job with your father.{\r}
+Dialogue: 0,1:12:31.03,1:12:32.66,Default,,0000,0000,0000,,辞职？\N{\fnCentury Schoolbook\fs12}You're not?{\r}
+Dialogue: 0,1:12:32.66,1:12:35.93,Default,,0000,0000,0000,,谁会找一个单腿的销售员买跑鞋？\N{\fnCentury Schoolbook\fs12}Who's gonna buy running shoes\nfrom a one-legged salesman?{\r}
+Dialogue: 0,1:12:37.69,1:12:39.49,Default,,0000,0000,0000,,单腿跑步的人会找你买\N{\fnCentury Schoolbook\fs12}One-legged joggers.{\r}
+Dialogue: 0,1:12:51.75,1:12:53.52,Default,,0000,0000,0000,,我就不该把咱们带入这种困境\N{\fnCentury Schoolbook\fs12}I never should have\ngotten us into this mess.{\r}
+Dialogue: 0,1:12:55.00,1:12:56.44,Default,,0000,0000,0000,,这里不属于我们\N{\fnCentury Schoolbook\fs12}We don't belong here.{\r}
+Dialogue: 0,1:14:18.48,1:14:20.25,Default,,0000,0000,0000,,滚远点\N{\fnCentury Schoolbook\fs12}Go on!{\r}
+Dialogue: 0,1:14:21.45,1:14:24.05,Default,,0000,0000,0000,,滚开  你们这群混蛋\N{\fnCentury Schoolbook\fs12}Get away, you bastards!{\r}
+Dialogue: 0,1:16:50.05,1:16:52.60,Default,,0000,0000,0000,,周二
+Dialogue: 0,1:17:27.19,1:17:29.06,Default,,0000,0000,0000,,有水吗？\N{\fnCentury Schoolbook\fs12}Is that water?{\r}
+Dialogue: 0,1:17:32.48,1:17:34.75,Default,,0000,0000,0000,,一点水也没\N{\fnCentury Schoolbook\fs12}We don't have any water.{\r}
+Dialogue: 0,1:17:37.19,1:17:39.23,Default,,0000,0000,0000,,我去看看那头骡子\N{\fnCentury Schoolbook\fs12}I'll check the mule.{\r}
+Dialogue: 0,1:17:40.63,1:17:42.73,Default,,0000,0000,0000,,我们没有骡子  记得吗？\N{\fnCentury Schoolbook\fs12}We don't have a mule, remember?{\r}
+Dialogue: 0,1:17:44.25,1:17:47.35,Default,,0000,0000,0000,,给  给  你得吃点东西\N{\fnCentury Schoolbook\fs12}Here. Here, you should\ntry and eat something.{\r}
+Dialogue: 0,1:17:49.99,1:17:52.02,Default,,0000,0000,0000,,给  张开嘴\N{\fnCentury Schoolbook\fs12}Here. Open your mouth.{\r}
+Dialogue: 0,1:17:52.73,1:17:54.49,Default,,0000,0000,0000,,这是什么？\N{\fnCentury Schoolbook\fs12}Oh. What is it?{\r}
+Dialogue: 0,1:17:55.20,1:17:57.40,Default,,0000,0000,0000,,烤狼肉\N{\fnCentury Schoolbook\fs12}It's roast wolf.{\r}
+Dialogue: 0,1:18:02.00,1:18:03.43,Default,,0000,0000,0000,,你不是素食者嘛\N{\fnCentury Schoolbook\fs12}I thought you were a vegetarian.{\r}
+Dialogue: 0,1:18:04.71,1:18:07.01,Default,,0000,0000,0000,,有时是  有时不是\N{\fnCentury Schoolbook\fs12}It comes and goes.{\r}
+Dialogue: 0,1:18:07.01,1:18:09.25,Default,,0000,0000,0000,,给  张开嘴\N{\fnCentury Schoolbook\fs12}Here, open your mouth.{\r}
+Dialogue: 0,1:18:10.90,1:18:12.53,Default,,0000,0000,0000,,快  你得吃点东西\N{\fnCentury Schoolbook\fs12}Come on. You've got to eat something.{\r}
+Dialogue: 0,1:18:13.10,1:18:15.04,Default,,0000,0000,0000,,我想吃口香糖\N{\fnCentury Schoolbook\fs12}I wouldn't say no\nto the last stick of gum.{\r}
+Dialogue: 0,1:18:20.51,1:18:22.81,Default,,0000,0000,0000,,给  振作点\N{\fnCentury Schoolbook\fs12}Here, live it up.{\r}
+Dialogue: 0,1:18:22.81,1:18:25.15,Default,,0000,0000,0000,,整片吃下去\N{\fnCentury Schoolbook\fs12}Take the whole thing.{\r}
+Dialogue: 0,1:18:25.81,1:18:27.25,Default,,0000,0000,0000,,给\N{\fnCentury Schoolbook\fs12}Here.{\r}
+Dialogue: 0,1:18:39.42,1:18:42.96,Default,,0000,0000,0000,,对不起  我真希望自己还能为你做点什么\N{\fnCentury Schoolbook\fs12}I'm sorry. I wish there was\nsomething more I could do for you.{\r}
+Dialogue: 0,1:18:42.96,1:18:46.70,Default,,0000,0000,0000,,我不知道我和...\N{\fnCentury Schoolbook\fs12}I can't tell where I... and,{\r}
+Dialogue: 0,1:18:47.63,1:18:50.50,Default,,0000,0000,0000,,其它一切是从哪儿开始的\N{\fnCentury Schoolbook\fs12}and everything else begins.{\r}
+Dialogue: 0,1:18:52.00,1:18:53.88,Default,,0000,0000,0000,,我感觉自己正在消失\N{\fnCentury Schoolbook\fs12}I feel like I'm disappearing.{\r}
+Dialogue: 0,1:18:53.88,1:18:56.01,Default,,0000,0000,0000,,嘿  你没有在消失  你就在这里\N{\fnCentury Schoolbook\fs12}Hey, you're not disappearing.\nYou're right here.{\r}
+Dialogue: 0,1:18:56.68,1:18:59.01,Default,,0000,0000,0000,,我不再是我\N{\fnCentury Schoolbook\fs12}I'm not me anymore.{\r}
+Dialogue: 0,1:19:01.58,1:19:04.09,Default,,0000,0000,0000,,我是所有\N{\fnCentury Schoolbook\fs12}I'm all of this.{\r}
+Dialogue: 0,1:19:04.09,1:19:06.36,Default,,0000,0000,0000,,我是一切\N{\fnCentury Schoolbook\fs12}I'm everything.{\r}
+Dialogue: 0,1:19:08.22,1:19:10.29,Default,,0000,0000,0000,,你知道吗？\N{\fnCentury Schoolbook\fs12}And you know what?{\r}
+Dialogue: 0,1:19:14.89,1:19:17.60,Default,,0000,0000,0000,,- 不要紧的 - 不  要紧的\N{\fnCentury Schoolbook\fs12}- It's okay.\n- No, it's not okay.{\r}
+Dialogue: 0,1:19:17.60,1:19:20.07,Default,,0000,0000,0000,,嘿  我会把你带出这里的\N{\fnCentury Schoolbook\fs12}Hey, I'm going to get you out of here,{\r}
+Dialogue: 0,1:19:20.07,1:19:22.84,Default,,0000,0000,0000,,但你要坚持住  你不能丢下我而去\N{\fnCentury Schoolbook\fs12}but I need you to stay strong.\nYou can't give up on me.{\r}
+Dialogue: 0,1:19:22.84,1:19:25.30,Default,,0000,0000,0000,,嘿  我说真的\N{\fnCentury Schoolbook\fs12}Hey, I am serious.{\r}
+Dialogue: 0,1:19:25.30,1:19:27.87,Default,,0000,0000,0000,,我现在情绪不好  你别惹我  明白吗？\N{\fnCentury Schoolbook\fs12}I'm in a really lousy mood and you\ndon't want to piss me off, okay?{\r}
+Dialogue: 0,1:19:27.87,1:19:29.99,Default,,0000,0000,0000,,- 明白吗？- 明白\N{\fnCentury Schoolbook\fs12}- You got it?\n- I've got it.{\r}
+Dialogue: 0,1:19:31.00,1:19:32.63,Default,,0000,0000,0000,,好\N{\fnCentury Schoolbook\fs12}Good.{\r}
+Dialogue: 0,1:19:33.70,1:19:35.67,Default,,0000,0000,0000,,咱们马上动身离开这\N{\fnCentury Schoolbook\fs12}Now let's get the hell out of here.{\r}
+Dialogue: 0,1:19:54.19,1:19:55.89,Default,,0000,0000,0000,,就把我扔在这吧\N{\fnCentury Schoolbook\fs12}Leave me here.{\r}
+Dialogue: 0,1:19:55.89,1:19:58.61,Default,,0000,0000,0000,,不  想都别想\N{\fnCentury Schoolbook\fs12}No. Forget it.{\r}
+Dialogue: 0,1:19:58.61,1:20:00.84,Default,,0000,0000,0000,,拖着我你永远也走不出去\N{\fnCentury Schoolbook\fs12}You'll never make it\nout of here with me.{\r}
+Dialogue: 0,1:20:05.35,1:20:07.42,Default,,0000,0000,0000,,求你不要\N{\fnCentury Schoolbook\fs12}Please. Please don't.{\r}
+Dialogue: 0,1:20:07.42,1:20:09.29,Default,,0000,0000,0000,,求你\N{\fnCentury Schoolbook\fs12}Please.{\r}
+Dialogue: 0,1:20:15.59,1:20:18.21,Default,,0000,0000,0000,,这太痛了\N{\fnCentury Schoolbook\fs12}That hurts too much.{\r}
+Dialogue: 0,1:20:18.21,1:20:19.89,Default,,0000,0000,0000,,这是懦夫才会说的话\N{\fnCentury Schoolbook\fs12}That's just your inner wimp talking.{\r}
+Dialogue: 0,1:20:24.21,1:20:26.75,Default,,0000,0000,0000,,- 求你停下 - 不  停下就死定了\N{\fnCentury Schoolbook\fs12}- Please stop.\n- No, if we stop, we die.{\r}
+Dialogue: 0,1:21:04.88,1:21:08.92,Default,,0000,0000,0000,,起来  快  起来  起来\N{\fnCentury Schoolbook\fs12}Get up. Come on, get up. Up.{\r}
+Dialogue: 0,1:21:11.20,1:21:13.67,Default,,0000,0000,0000,,起来\N{\fnCentury Schoolbook\fs12}Come on.{\r}
+Dialogue: 0,1:21:13.67,1:21:15.67,Default,,0000,0000,0000,,把手臂放在那上面\N{\fnCentury Schoolbook\fs12}Put your arm in that... Over that.{\r}
+Dialogue: 0,1:21:17.35,1:21:19.52,Default,,0000,0000,0000,,另一只手放我身上  快\N{\fnCentury Schoolbook\fs12}Other arm over me. Come on.{\r}
+Dialogue: 0,1:21:20.85,1:21:23.03,Default,,0000,0000,0000,,- 你为什么要这么做？- 别说话\N{\fnCentury Schoolbook\fs12}- Why are you doing this?\n- Stop talking.{\r}
+Dialogue: 0,1:21:23.32,1:21:25.79,Default,,0000,0000,0000,,浪费能量\N{\fnCentury Schoolbook\fs12}You're wasting energy.{\r}
+Dialogue: 0,1:21:31.00,1:21:33.70,Default,,0000,0000,0000,,我明白了...严厉的爱对吗？\N{\fnCentury Schoolbook\fs12}I get it... Tough love, right?{\r}
+Dialogue: 0,1:21:33.70,1:21:36.40,Default,,0000,0000,0000,,你最好相信\N{\fnCentury Schoolbook\fs12}You'd better believe it.{\r}
+Dialogue: 0,1:21:36.40,1:21:38.54,Default,,0000,0000,0000,,我之前从没相信过\N{\fnCentury Schoolbook\fs12}Never been a fan.{\r}
+Dialogue: 0,1:22:01.29,1:22:02.80,Default,,0000,0000,0000,,等等  咱们得停会儿\N{\fnCentury Schoolbook\fs12}Wait. We have to stop for a minute.{\r}
+Dialogue: 0,1:22:02.80,1:22:04.57,Default,,0000,0000,0000,,- 哈？- 躺下\N{\fnCentury Schoolbook\fs12}- Huh?\n- Yeah, lie down.{\r}
+Dialogue: 0,1:22:43.22,1:22:45.52,Default,,0000,0000,0000,,噢\N{\fnCentury Schoolbook\fs12}Oh.{\r}
+Dialogue: 0,1:24:16.70,1:24:19.13,Default,,0000,0000,0000,,你的样子不错\N{\fnCentury Schoolbook\fs12}That's a good look for you.{\r}
+Dialogue: 0,1:24:24.85,1:24:27.38,Default,,0000,0000,0000,,我高兴你喜欢我这副模样\N{\fnCentury Schoolbook\fs12}I'm glad you like it.{\r}
+Dialogue: 0,1:24:28.41,1:24:31.37,Default,,0000,0000,0000,,我想压在你身上  但是...\N{\fnCentury Schoolbook\fs12}I'd jump your bones, but...{\r}
+Dialogue: 0,1:24:32.89,1:24:34.23,Default,,0000,0000,0000,,以后再说\N{\fnCentury Schoolbook\fs12}Some other time.{\r}
+Dialogue: 0,1:24:35.09,1:24:38.23,Default,,0000,0000,0000,,我从不知道你这么的...\N{\fnCentury Schoolbook\fs12}I never knew that you were so...{\r}
+Dialogue: 0,1:24:41.09,1:24:43.13,Default,,0000,0000,0000,,勇敢\N{\fnCentury Schoolbook\fs12}Brave.{\r}
+Dialogue: 0,1:24:43.13,1:24:45.37,Default,,0000,0000,0000,,我不是\N{\fnCentury Schoolbook\fs12}I'm not.{\r}
+Dialogue: 0,1:24:47.12,1:24:49.22,Default,,0000,0000,0000,,我吓死了\N{\fnCentury Schoolbook\fs12}I'm scared shitless.{\r}
+Dialogue: 0,1:24:51.00,1:24:52.94,Default,,0000,0000,0000,,那不等于你不勇敢\N{\fnCentury Schoolbook\fs12}That doesn't mean you're not brave.{\r}
+Dialogue: 0,1:24:54.71,1:24:57.24,Default,,0000,0000,0000,,只不过看出你很聪明\N{\fnCentury Schoolbook\fs12}That just means that you're smart.{\r}
+Dialogue: 0,1:25:00.00,1:25:03.26,Default,,0000,0000,0000,,- 洛丽 - 想都别想\N{\fnCentury Schoolbook\fs12}- Lori...\n- Forget it.{\r}
+Dialogue: 0,1:25:03.26,1:25:05.59,Default,,0000,0000,0000,,我不会抛下你的\N{\fnCentury Schoolbook\fs12}I'm not leaving you here.{\r}
+Dialogue: 0,1:25:05.59,1:25:08.10,Default,,0000,0000,0000,,抱歉  洛丽\N{\fnCentury Schoolbook\fs12}I'm sorry, Lori.{\r}
+Dialogue: 0,1:25:08.10,1:25:10.44,Default,,0000,0000,0000,,- 闭嘴  - 我说真的  洛丽\N{\fnCentury Schoolbook\fs12}- Shut up.\n- I mean it, Lori.{\r}
+Dialogue: 0,1:25:12.53,1:25:14.74,Default,,0000,0000,0000,,你很擅长激怒我\N{\fnCentury Schoolbook\fs12}You really know how\nto get under my skin.{\r}
+Dialogue: 0,1:25:15.47,1:25:18.40,Default,,0000,0000,0000,,这正是你爱我的其中一点\N{\fnCentury Schoolbook\fs12}That's one of the things\nyou love about me.{\r}
+Dialogue: 0,1:25:20.11,1:25:24.68,Default,,0000,0000,0000,,实际上  这是我要为你改变的一件事\N{\fnCentury Schoolbook\fs12}Actually, it's one of the things I'm going to change about you.{\r}
+Dialogue: 0,1:25:26.35,1:25:28.85,Default,,0000,0000,0000,,所以我可以期待一下\N{\fnCentury Schoolbook\fs12}So I have that to look forward to.{\r}
+Dialogue: 0,1:25:37.00,1:25:39.30,Default,,0000,0000,0000,,别难过\N{\fnCentury Schoolbook\fs12}Don't be sad.{\r}
+Dialogue: 0,1:25:53.71,1:25:55.78,Default,,0000,0000,0000,,我们本可以待在床上\N{\fnCentury Schoolbook\fs12}We should've stayed in bed...{\r}
+Dialogue: 0,1:25:58.03,1:26:00.90,Default,,0000,0000,0000,,时不时地\N{\fnCentury Schoolbook\fs12}And just looked at the picture{\r}
+Dialogue: 0,1:26:00.90,1:26:03.21,Default,,0000,0000,0000,,看看那些照片\N{\fnCentury Schoolbook\fs12}every once in a while.{\r}
+Dialogue: 0,1:26:03.21,1:26:04.33,Default,,0000,0000,0000,,我早跟你说过\N{\fnCentury Schoolbook\fs12}I told you.{\r}
+Dialogue: 0,1:26:05.40,1:26:07.30,Default,,0000,0000,0000,,或者去夏威夷\N{\fnCentury Schoolbook\fs12}Or gone to Hawaii.{\r}
+Dialogue: 0,1:26:08.00,1:26:10.63,Default,,0000,0000,0000,,夏威夷很美\N{\fnCentury Schoolbook\fs12}Hawaii's nice.{\r}
+Dialogue: 0,1:26:10.64,1:26:13.37,Default,,0000,0000,0000,,我赌他们去的就是夏威夷\N{\fnCentury Schoolbook\fs12}I'll bet that's where they're going.{\r}
+Dialogue: 0,1:26:15.34,1:26:17.04,Default,,0000,0000,0000,,谁？\N{\fnCentury Schoolbook\fs12}Who?{\r}
+Dialogue: 0,1:26:35.11,1:26:37.01,Default,,0000,0000,0000,,起来  起来\N{\fnCentury Schoolbook\fs12}Okay, come on. Come on.{\r}
+Dialogue: 0,1:26:37.02,1:26:38.62,Default,,0000,0000,0000,,我们得离开这  快\N{\fnCentury Schoolbook\fs12}We've got to go. Come on.{\r}
+Dialogue: 0,1:26:39.46,1:26:41.63,Default,,0000,0000,0000,,快  起来  起来\N{\fnCentury Schoolbook\fs12}Come on, up up.{\r}
+Dialogue: 0,1:26:46.01,1:26:47.48,Default,,0000,0000,0000,,稳住\N{\fnCentury Schoolbook\fs12}Stay.{\r}
+Dialogue: 0,1:26:48.81,1:26:51.35,Default,,0000,0000,0000,,噢  天啊  嘿  起来  起来\N{\fnCentury Schoolbook\fs12}Oh my God. Hey, come on, come on.{\r}
+Dialogue: 0,1:26:51.35,1:26:52.78,Default,,0000,0000,0000,,快  我们得站起来\N{\fnCentury Schoolbook\fs12}Come on, we've got to get up.{\r}
+Dialogue: 0,1:26:52.78,1:26:55.18,Default,,0000,0000,0000,,我们不能在这儿多留一晚  快\N{\fnCentury Schoolbook\fs12}We can't stay here another night.\nCome on.{\r}
+Dialogue: 0,1:26:59.94,1:27:02.10,Default,,0000,0000,0000,,快  快  宝贝\N{\fnCentury Schoolbook\fs12}Come on. Come on, baby.{\r}
+Dialogue: 0,1:27:02.11,1:27:04.24,Default,,0000,0000,0000,,快  快起来  尼克  拜托\N{\fnCentury Schoolbook\fs12}Come on, get up please.\nNick, please.{\r}
+Dialogue: 0,1:27:15.62,1:27:17.19,Default,,0000,0000,0000,,滚开\N{\fnCentury Schoolbook\fs12}Go!{\r}
+Dialogue: 0,1:27:20.28,1:27:22.15,Default,,0000,0000,0000,,接着滚  滚开\N{\fnCentury Schoolbook\fs12}Go on! Go!{\r}
+Dialogue: 0,1:27:29.00,1:27:30.94,Default,,0000,0000,0000,,滚开这儿  滚\N{\fnCentury Schoolbook\fs12}Get out of here! Go!{\r}
+Dialogue: 0,1:27:32.77,1:27:34.81,Default,,0000,0000,0000,,快滚\N{\fnCentury Schoolbook\fs12}Go on!{\r}
+Dialogue: 0,1:27:44.45,1:27:46.02,Default,,0000,0000,0000,,别碰他\N{\fnCentury Schoolbook\fs12}Get away from him!{\r}
+Dialogue: 0,1:27:47.38,1:27:50.25,Default,,0000,0000,0000,,滚开  别碰他\N{\fnCentury Schoolbook\fs12}Go on! Get away from him!{\r}
+Dialogue: 0,1:27:51.27,1:27:54.40,Default,,0000,0000,0000,,尼克  起来  尼克  咱们得离开这儿\N{\fnCentury Schoolbook\fs12}Nick. Come on, Nick.\nWe have to go.{\r}
+Dialogue: 0,1:28:27.23,1:28:29.80,Default,,0000,0000,0000,,"至死不分离？"\N{\fnCentury Schoolbook\fs12}"...until death do you part?"{\r}
+Dialogue: 0,1:28:55.72,1:28:58.02,Default,,0000,0000,0000,,我爱你\N{\fnCentury Schoolbook\fs12}I love you.{\r}
+Dialogue: 0,1:29:18.00,1:29:21.94,Default,,0000,0000,0000,,噢  天啊  对不起\N{\fnCentury Schoolbook\fs12}Oh God. I'm sorry.{\r}
+Dialogue: 0,1:29:26.68,1:29:28.81,Default,,0000,0000,0000,,对不起\N{\fnCentury Schoolbook\fs12}I'm sorry.{\r}
+Dialogue: 0,1:30:53.37,1:30:56.03,Default,,0000,0000,0000,,女士  你没事吧？\N{\fnCentury Schoolbook\fs12}Ma'am, are you okay?{\r}
+Dialogue: 0,1:30:57.10,1:30:58.83,Default,,0000,0000,0000,,我们得送你去医院\N{\fnCentury Schoolbook\fs12}We've got to get you to a Hospital.{\r}
+Dialogue: 0,1:30:58.83,1:31:01.00,Default,,0000,0000,0000,,明白吗？\N{\fnCentury Schoolbook\fs12}Do you understand me?{\r}
+Dialogue: 0,1:31:01.00,1:31:03.77,Default,,0000,0000,0000,,你昨天打了求救电话对吗？\N{\fnCentury Schoolbook\fs12}Did you make an S.O.S. call yesterday?{\r}
+Dialogue: 0,1:31:05.54,1:31:07.40,Default,,0000,0000,0000,,我们要给她输氧\N{\fnCentury Schoolbook\fs12}We need to get her some oxygen.{\r}
+Dialogue: 0,1:31:07.40,1:31:09.32,Default,,0000,0000,0000,,她惊吓过度  好  女士\N{\fnCentury Schoolbook\fs12}She's going into shock.\nOkay, ma'am, I just need you{\r}
+Dialogue: 0,1:31:09.32,1:31:10.92,Default,,0000,0000,0000,,你看着我的眼睛  看着我的眼睛\N{\fnCentury Schoolbook\fs12}to look me in the eyes.\nJust look me in the eyes.{\r}
+Dialogue: 0,1:31:10.92,1:31:12.83,Default,,0000,0000,0000,,会没事的  我们会带你离开这儿\N{\fnCentury Schoolbook\fs12}It's gonna be okay.\nWe're gonna get you out of here.{\r}
+Dialogue: 0,1:31:14.19,1:31:16.32,Default,,0000,0000,0000,,看着我的眼睛  你会没事的\N{\fnCentury Schoolbook\fs12}Look me in the eyes.\nYou're gonna be okay.{\r}
+Dialogue: 0,1:31:16.32,1:31:18.89,Default,,0000,0000,0000,,慢点呼吸  明白吗？\N{\fnCentury Schoolbook\fs12}Just slow down your breathing, okay?{\r}
+

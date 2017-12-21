@@ -1,0 +1,884 @@
+[Script Info]
+;本字幕文件用 SrtEdit MPC播放版 Version 5.2 编辑制作
+;Unicode SrtEdit Copyright(C) 2005-2009 袁卫国
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 800
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CHS,Microsoft YaHei,55,&H00FFFFFF,&HFFFFFFFF,&H96000000,&H66000000,0,0,0,0,100,100,2,0,1,1,2,2,0,0,38,134
+Style: ENG,Microsoft YaHei,32,&H00079FFF,&H000000FF,&H96000000,&H66000000,-1,0,0,0,100,100,0,0,1,1,2,2,0,0,38,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.00,0:00:10.00,CHS,,0,0,0,,{\fad(300,300)\c&H24EFFF&}字幕转制｜{\b1\c&HFFFFFF&}天外生物\N{\b0\fs45\c&H079FFF&}感谢原字幕制作者
+Dialogue: 0,0:02:54.56,0:02:57.56,CHS,,0,0,0,,注意有海盗\N{\rENG}Attention, pirates alongside!
+Dialogue: 0,0:02:58.59,0:03:02.59,CHS,,0,0,0,,注意有海盗 进入船舱躲避\N{\rENG}Pirates alongside! Take cover. All crew below deck!
+Dialogue: 0,0:03:02.61,0:03:05.51,CHS,,0,0,0,,再说一遍 注意有海盗\N{\rENG}I repeat Pirates alongside!
+Dialogue: 0,0:03:06.54,0:03:08.54,CHS,,0,0,0,,执行紧急措施\N{\rENG}Initiate emergency procedure!
+Dialogue: 0,0:03:09.56,0:03:11.56,CHS,,0,0,0,,所有船员到船舱躲避\N{\rENG}All crew below deck!
+Dialogue: 0,0:03:52.58,0:03:55.58,CHS,,0,0,0,,紧急措施 红色警报\N{\rENG}Emergency positions! Code red! Code red!
+Dialogue: 0,0:03:56.51,0:03:58.51,CHS,,0,0,0,,所有船员到船舱躲避\N{\rENG}Get everybody below deck, now!
+Dialogue: 0,0:04:00.53,0:04:02.53,CHS,,0,0,0,,所有人趴下\N{\rENG}Everyone, get down!
+Dialogue: 0,0:04:04.56,0:04:06.56,CHS,,0,0,0,,杰克 联合国护卫舰在哪？\N{\rENG}Jack, where's that UN convoy?
+Dialogue: 0,0:04:06.58,0:04:09.58,CHS,,0,0,0,,直升机起飞了 三十分钟到\N{\rENG}The chopper's on its way,sir. ETA 30 minutes!
+Dialogue: 0,0:04:09.60,0:04:11.60,CHS,,0,0,0,,所有人躲避到舱里\N{\rENG}Get everybody below deck
+Dialogue: 0,0:06:58.55,0:07:01.55,CHS,,0,0,0,,我在等俺儿子啊\N{\rENG}I'm waiting for my son
+Dialogue: 0,0:07:01.58,0:07:05.58,CHS,,0,0,0,,我不能让他回来找不着家啊\N{\rENG}I need our home for his return!
+Dialogue: 0,0:07:06.50,0:07:09.50,CHS,,0,0,0,,等警察来了 我看你们还敢不敢拆\N{\rENG}Wait till police get here! Let's see how you're going to tear our houses!
+Dialogue: 0,0:07:10.52,0:07:12.52,CHS,,0,0,0,,想死就别拦着\N{\rENG}If they wanna die, then let 'em
+Dialogue: 0,0:07:26.55,0:07:28.55,CHS,,0,0,0,,婶 嫂子\N{\rENG}Mrs. Yu, Mrs.Fei.
+Dialogue: 0,0:07:29.57,0:07:31.57,CHS,,0,0,0,,我们把小飞送回来了\N{\rENG}We brought Xiao Fei home
+Dialogue: 0,0:07:32.50,0:07:34.50,CHS,,0,0,0,,敬礼\N{\rENG}Salute!
+Dialogue: 0,0:07:50.52,0:07:53.52,CHS,,0,0,0,,告诉新来的 俺们中队的座右铭是啥啊？\N{\rENG}Tell these rookies what our motto is
+Dialogue: 0,0:07:53.54,0:07:55.54,CHS,,0,0,0,,谦虚\N{\rENG}Be humble
+Dialogue: 0,0:07:55.57,0:07:57.57,CHS,,0,0,0,,我来当兵就是为了打仗\N{\rENG}I became a soldier because I wanted to be in battles
+Dialogue: 0,0:07:57.59,0:07:59.59,CHS,,0,0,0,,现在呢 打啥仗啊打仗？\N{\rENG}and now, what about the battles?
+Dialogue: 0,0:07:59.62,0:08:01.62,CHS,,0,0,0,,在家都陪陪老婆孩子多好啊\N{\rENG}Much better to be at home with wife and kids instead
+Dialogue: 0,0:08:06.54,0:08:08.54,CHS,,0,0,0,,我闺女 漂亮吧？\N{\rENG}My daughter, she's beautiful, huh?
+Dialogue: 0,0:08:32.56,0:08:34.56,CHS,,0,0,0,,一个个驴球马蛋的啊\N{\rENG}You gang of sumbags!
+Dialogue: 0,0:08:34.59,0:08:36.59,CHS,,0,0,0,,还真拿自己当回事了 是吧？\N{\rENG}You think you're tough, huh?
+Dialogue: 0,0:08:43.51,0:08:45.51,CHS,,0,0,0,,给我打 都上\N{\rENG}Go get them! Get them!
+Dialogue: 0,0:09:04.54,0:09:06.54,CHS,,0,0,0,,警察同志他有枪\N{\rENG}Officer see! He's got a gun!
+Dialogue: 0,0:09:06.56,0:09:08.56,CHS,,0,0,0,,有枪\N{\rENG}a gun!
+Dialogue: 0,0:09:09.58,0:09:11.58,CHS,,0,0,0,,解放军同志 请你把枪放下\N{\rENG}Comrade, put down your weapon!
+Dialogue: 0,0:09:22.51,0:09:24.51,CHS,,0,0,0,,挺能打是吧？\N{\rENG}You're pretty lethal, huh?
+Dialogue: 0,0:09:24.53,0:09:26.53,CHS,,0,0,0,,咋不弄死我呢？\N{\rENG}Well you'd better kill me now,
+Dialogue: 0,0:09:26.56,0:09:28.56,CHS,,0,0,0,,有不在的时候吧\N{\rENG}because you're gone,
+Dialogue: 0,0:09:29.58,0:09:31.58,CHS,,0,0,0,,你看我怎么弄死他们\N{\rENG}I'm gonna make them wish they were dead
+Dialogue: 0,0:09:53.50,0:09:55.50,CHS,,0,0,0,,嘿\N{\rENG}Hey!
+Dialogue: 0,0:10:00.53,0:10:02.53,CHS,,0,0,0,,冷锋\N{\rENG}Leng Feng!
+Dialogue: 0,0:10:31.55,0:10:33.55,CHS,,0,0,0,,军人 之所以被人尊重\N{\rENG}The reason a soldier is respected
+Dialogue: 0,0:10:34.58,0:10:36.58,CHS,,0,0,0,,不是因为军人两个字\N{\rENG}is not because of the uniform he wears,
+Dialogue: 0,0:10:37.50,0:10:40.50,CHS,,0,0,0,,而是因为军人担负的责任\N{\rENG}but is because of the sense of duty he carries
+Dialogue: 0,0:10:41.52,0:10:44.52,CHS,,0,0,0,,即使脱了军装 职责还在\N{\rENG}With or without the uniform, the duty remains
+Dialogue: 0,0:10:44.55,0:10:46.55,CHS,,0,0,0,,一样会被人尊重\N{\rENG}And he continues to be respected
+Dialogue: 0,0:11:14.52,0:11:16.52,CHS,,0,0,0,,快点\N{\rENG}Hey, hurry up!
+Dialogue: 0,0:11:19.54,0:11:21.54,CHS,,0,0,0,,嘿 冷 我们的英雄\N{\rENG}Hey, Leng. There's our hero
+Dialogue: 0,0:11:21.57,0:11:23.57,CHS,,0,0,0,,感谢你救了我们大家\N{\rENG}Thanks for saving the lives of everyone
+Dialogue: 0,0:11:23.59,0:11:25.59,CHS,,0,0,0,,- 我们合个影呗？ - 没问题\N{\rENG}- Let's take a picture together  - No problem!
+Dialogue: 0,0:11:27.52,0:11:28.92,CHS,,0,0,0,,- 谢谢  - 好的 再见\N{\rENG}- Thank you!  - Ok, see you!
+Dialogue: 0,0:11:28.92,0:11:30.92,CHS,,0,0,0,,再见 保重\N{\rENG}Take care, see you!
+Dialogue: 0,0:11:35.54,0:11:37.54,CHS,,0,0,0,,嘿 老板\N{\rENG}Hey, boss!
+Dialogue: 0,0:11:37.56,0:11:40.56,CHS,,0,0,0,,- 买点吧 这是好东西  - 上次塔曼村疫情爆发\N{\rENG}- Buy some, it's good stuff  - There was an outbreak in Taman recently
+Dialogue: 0,0:11:40.59,0:11:43.59,CHS,,0,0,0,,就因为万吃了这个药材 有四个人活下来呢\N{\rENG}Because of consuming this herbs, there were 4 survivors
+Dialogue: 0,0:11:43.61,0:11:45.61,CHS,,0,0,0,,- 拜托  - 不了 谢谢\N{\rENG}- Please!  - No, thank you!
+Dialogue: 0,0:11:45.64,0:11:47.64,CHS,,0,0,0,,帮帮忙吧 考虑一下\N{\rENG}Please help please consider
+Dialogue: 0,0:11:47.66,0:11:49.66,CHS,,0,0,0,,老板\N{\rENG}Boss.
+Dialogue: 0,0:11:51.58,0:11:53.58,CHS,,0,0,0,,中国酒来了\N{\rENG}Chinese wine.
+Dialogue: 0,0:11:54.51,0:11:56.51,CHS,,0,0,0,,这儿\N{\rENG}This
+Dialogue: 0,0:11:56.53,0:11:58.53,CHS,,0,0,0,,- 嘿  - 别这样兄弟\N{\rENG}- Hey, hey.  - Come on man
+Dialogue: 0,0:11:58.56,0:12:00.56,CHS,,0,0,0,,好吧 这次就算了\N{\rENG}Ok, this one is okay
+Dialogue: 0,0:12:01.58,0:12:04.58,CHS,,0,0,0,,合作愉快 下次见\N{\rENG}Nice one. See you next time.
+Dialogue: 0,0:12:08.50,0:12:10.50,CHS,,0,0,0,,上来\N{\rENG}Get up here!
+Dialogue: 0,0:12:11.53,0:12:13.53,CHS,,0,0,0,,欢迎回来\N{\rENG}Welcome back!
+Dialogue: 0,0:12:21.55,0:12:23.55,CHS,,0,0,0,,再见\N{\rENG}Bye
+Dialogue: 0,0:12:24.58,0:12:26.58,CHS,,0,0,0,,这个 好东西\N{\rENG}This, good for you
+Dialogue: 0,0:12:27.50,0:12:29.50,CHS,,0,0,0,,能让你不再孤单\N{\rENG}You're not alone
+Dialogue: 0,0:12:29.52,0:12:33.52,CHS,,0,0,0,,二十美元 买一送一\N{\rENG}20 dollars. Buy one get one free
+Dialogue: 0,0:12:35.55,0:12:37.55,CHS,,0,0,0,,- 我是谁  - 我的干爹\N{\rENG}- Who am I?  - My godfather
+Dialogue: 0,0:12:37.57,0:12:40.57,CHS,,0,0,0,,如果干爹把这个告诉你妈妈\N{\rENG}If your godfather tells your mother about this,
+Dialogue: 0,0:12:40.60,0:12:43.50,CHS,,0,0,0,,她会怎么想？ 没收了\N{\rENG}what would she think? Confiscated!
+Dialogue: 0,0:12:52.54,0:12:54.54,CHS,,0,0,0,,开始\N{\rENG}Begin!
+Dialogue: 0,0:12:55.57,0:13:00.57,CHS,,0,0,0,,干爹 干爹 干爹\N{\rENG}Godfather! Godfather! Godfather!
+Dialogue: 0,0:13:02.59,0:13:09.59,CHS,,0,0,0,,哈里 哈里 哈里\N{\rENG}Harry! Harry! Harry!
+Dialogue: 0,0:13:09.62,0:13:11.62,CHS,,0,0,0,,干爹 干爹 干爹\N{\rENG}Godfather! Godfather! Godfather!
+Dialogue: 0,0:13:24.54,0:13:29.54,CHS,,0,0,0,,阿冷 阿冷 阿冷\N{\rENG}Leng! Leng! Leng!
+Dialogue: 0,0:13:37.56,0:13:39.56,CHS,,0,0,0,,谁？\N{\rENG}Who?
+Dialogue: 0,0:13:42.59,0:13:44.59,CHS,,0,0,0,,谁？\N{\rENG}Who?
+Dialogue: 0,0:13:45.51,0:13:48.51,CHS,,0,0,0,,还有谁？ 还有谁？\N{\rENG}Who else? Who else?
+Dialogue: 0,0:13:48.54,0:13:50.54,CHS,,0,0,0,,你上\N{\rENG}Do it, do it
+Dialogue: 0,0:13:51.56,0:13:53.56,CHS,,0,0,0,,去你的\N{\rENG}Fuck it!
+Dialogue: 0,0:13:53.58,0:13:55.58,CHS,,0,0,0,,你以为你是谁啊？\N{\rENG}Who the fuck you think you are?
+Dialogue: 0,0:13:55.61,0:13:57.61,CHS,,0,0,0,,来吧\N{\rENG}Come on!
+Dialogue: 0,0:13:57.63,0:13:59.63,CHS,,0,0,0,,好啊\N{\rENG}Yeah
+Dialogue: 0,0:14:13.56,0:14:16.56,CHS,,0,0,0,,帕特里克 帕特里克 帕特里克\N{\rENG}Patrick! Patrick! Patrick!
+Dialogue: 0,0:14:54.58,0:14:56.58,CHS,,0,0,0,,我要去边境执行一项任务\N{\rENG}I've been sent to the border for a mission
+Dialogue: 0,0:14:57.50,0:14:59.50,CHS,,0,0,0,,等我回来的时候\N{\rENG}When I get back,
+Dialogue: 0,0:14:59.53,0:15:02.53,CHS,,0,0,0,,希望你能在这个文件上签字\N{\rENG}this had better be signed
+Dialogue: 0,0:15:14.05,0:15:16.05,CHS,,0,0,0,,结婚申请\N{\rENG}Marriage Application
+Dialogue: 0,0:15:17.08,0:15:19.08,CHS,,0,0,0,,为什么当兵？\N{\rENG}Why did you join the army?
+Dialogue: 0,0:15:19.10,0:15:21.10,CHS,,0,0,0,,当兵后悔两年 不当兵后悔一辈子\N{\rENG}Join the army, you regret it for two years. Don't join the army, regret it for life.
+Dialogue: 0,0:15:23.02,0:15:25.02,CHS,,0,0,0,,- 真话？ - 真话\N{\rENG}- The truth?  - That's the truth.
+Dialogue: 0,0:15:26.05,0:15:28.05,CHS,,0,0,0,,再喝\N{\rENG}Drink! again!
+Dialogue: 0,0:15:34.00,0:15:36.00,CHS,,0,0,0,,龙小云同志\N{\rENG}Comrade Long Xiao Yun.
+Dialogue: 0,0:15:36.02,0:15:38.02,CHS,,0,0,0,,在边境执行任务时不幸遇袭\N{\rENG}was attacked while carrying her mission at the border.
+Dialogue: 0,0:15:39.04,0:15:42.04,CHS,,0,0,0,,在现场 我们发现了这枚子弹\N{\rENG}We found this bullet.
+Dialogue: 0,0:15:45.07,0:15:47.07,CHS,,0,0,0,,再喝\N{\rENG}Drink again.
+Dialogue: 0,0:15:54.09,0:15:56.09,CHS,,0,0,0,,你想听什么？\N{\rENG}What do you want to hear?
+Dialogue: 0,0:15:56.12,0:15:58.02,CHS,,0,0,0,,你想听什么？\N{\rENG}What do you want to hear?
+Dialogue: 0,0:15:58.04,0:16:00.04,CHS,,0,0,0,,再喝\N{\rENG}Drink!
+Dialogue: 0,0:16:12.06,0:16:14.06,CHS,,0,0,0,,再喝\N{\rENG}Again!
+Dialogue: 0,0:16:32.09,0:16:33.99,CHS,,0,0,0,,你赢了\N{\rENG}You win.
+Dialogue: 0,0:16:34.01,0:16:36.01,CHS,,0,0,0,,你赢了\N{\rENG}You win.
+Dialogue: 0,0:16:37.04,0:16:39.04,CHS,,0,0,0,,我输了…\N{\rENG}But I lost...
+Dialogue: 0,0:16:39.06,0:16:41.06,CHS,,0,0,0,,彻彻底底的输了\N{\rENG}I've lost completely.
+Dialogue: 0,0:16:42.08,0:16:44.08,CHS,,0,0,0,,你跟船已经有一年多了\N{\rENG}It's been more than a year since you came on board
+Dialogue: 0,0:16:44.11,0:16:48.01,CHS,,0,0,0,,从杰尔巴到藻拉纳鲁\N{\rENG}During that time, from Djerba to Tolanaro,
+Dialogue: 0,0:16:48.03,0:16:52.03,CHS,,0,0,0,,大半个非洲的部落长老我都问过\N{\rENG}I've asked all the chiefs. More than half of Africa,
+Dialogue: 0,0:16:52.06,0:16:56.06,CHS,,0,0,0,,都没有见过你的这颗子弹\N{\rENG}And nobody has seen that bullet before. peluru itu sebelumnya.
+Dialogue: 0,0:16:56.08,0:16:59.08,CHS,,0,0,0,,我一定会找到的\N{\rENG}I will find it,
+Dialogue: 0,0:16:59.10,0:17:01.10,CHS,,0,0,0,,哪伯走遍整个非洲\N{\rENG}even if I have to scour the entire continent.
+Dialogue: 0,0:17:20.03,0:17:22.03,CHS,,0,0,0,,亲爱的祖国同胞们\N{\rENG}Dear fellow countrymen,
+Dialogue: 0,0:17:22.05,0:17:27.05,CHS,,0,0,0,,首先我对贝卡村受难的同胞表示沉痛哀悼\N{\rENG}my deepest condolences to the families their loved ones during Batchka Village incident
+Dialogue: 0,0:17:28.08,0:17:31.08,CHS,,0,0,0,,今日早些时候 非法武装组织红巾军表示对贝其卡灭村行动负责\N{\rENG}Early today, the red scarf rebel army claimed responsibility for the Batchka Village
+Dialogue: 0,0:17:31.10,0:17:33.10,CHS,,0,0,0,,我们对这种惨绝人寰的行为强烈谴责\N{\rENG}Our government condemns their barbaric behavior.
+Dialogue: 0,0:17:33.12,0:17:36.02,CHS,,0,0,0,,我们的家园 正在遭受一连串的伤害\N{\rENG}Our homeland has been attacked on multiple occasions.
+Dialogue: 0,0:17:36.05,0:17:39.05,CHS,,0,0,0,,不幸的事接二连三的发生\N{\rENG}These are great tragedies.
+Dialogue: 0,0:17:41.07,0:17:47.07,CHS,,0,0,0,,红巾军的恐怖势力如同疫情一样蔓延\N{\rENG}The rebels continue to advance as the country grapples with the Lamanla outbreak.
+Dialogue: 0,0:17:47.10,0:17:51.00,CHS,,0,0,0,,政府不会坐以待毙 伟大的人民军队誓为家园奋战到底\N{\rENG}As your government, we will not back down. The great people's army will fight to the very end.
+Dialogue: 0,0:17:51.02,0:17:55.02,CHS,,0,0,0,,另外国家设立了疫情隔离区\N{\rENG}Quarantine have been set up across the country,
+Dialogue: 0,0:17:55.04,0:17:57.04,CHS,,0,0,0,,最大范围内控制了疫情造成的伤害\N{\rENG}in an attempt to contain the Lamanla outbreak.
+Dialogue: 0,0:17:57.07,0:18:04.07,CHS,,0,0,0,,国家已经把医疗救助级别和紧急程度设为最高\N{\rENG}We have declared a state of emergency.
+Dialogue: 0,0:18:12.09,0:18:14.09,CHS,,0,0,0,,哎 哥们\N{\rENG}Hey, brother
+Dialogue: 0,0:18:14.12,0:18:16.12,CHS,,0,0,0,,少三张\N{\rENG}You shorted me 300 bucks.
+Dialogue: 0,0:18:17.04,0:18:19.04,CHS,,0,0,0,,轻点儿\N{\rENG}Be careful with that.
+Dialogue: 0,0:18:21.06,0:18:23.06,CHS,,0,0,0,,大家都是中国人\N{\rENG}Look, we're both Chinese.
+Dialogue: 0,0:18:23.09,0:18:25.09,CHS,,0,0,0,,这样好么？\N{\rENG}You do this to your own people?
+Dialogue: 0,0:18:25.11,0:18:28.01,CHS,,0,0,0,,我从上个月十四号下午三点开始\N{\rENG}Since 3 pm on the 14th of last month,
+Dialogue: 0,0:18:28.04,0:18:30.04,CHS,,0,0,0,,就不是中国人了\N{\rENG}I am no longer officailly Chinese.
+Dialogue: 0,0:18:32.06,0:18:34.06,CHS,,0,0,0,,怎么着？刚从国内来啊？\N{\rENG}What? Fresh off the boat?
+Dialogue: 0,0:18:38.08,0:18:41.08,CHS,,0,0,0,,看见了么？ 现在这局势\N{\rENG}Hear that? In times like this,
+Dialogue: 0,0:18:41.11,0:18:43.11,CHS,,0,0,0,,就是这个价\N{\rENG}that's the price you get.
+Dialogue: 0,0:18:48.03,0:18:50.03,CHS,,0,0,0,,见过这个么？\N{\rENG}Seen this before?
+Dialogue: 0,0:18:53.06,0:18:55.06,CHS,,0,0,0,,没见过\N{\rENG}Nope
+Dialogue: 0,0:18:57.08,0:18:59.08,CHS,,0,0,0,,有人说在这个国家出现过\N{\rENG}I've been told that it came from these parts.
+Dialogue: 0,0:19:01.00,0:19:03.00,CHS,,0,0,0,,我真没见过\N{\rENG}Definitely never seen it.
+Dialogue: 0,0:19:03.03,0:19:05.03,CHS,,0,0,0,,老板\N{\rENG}Hey boss.
+Dialogue: 0,0:19:06.05,0:19:08.05,CHS,,0,0,0,,你怎么样了？来根烟？\N{\rENG}How are you? Smoking?
+Dialogue: 0,0:20:40.08,0:20:42.08,CHS,,0,0,0,,Tundu\N{\rENG}Tundu!
+Dialogue: 0,0:20:53.00,0:20:55.00,CHS,,0,0,0,,走 走\N{\rENG}Go! Go!
+Dialogue: 0,0:21:01.02,0:21:03.02,CHS,,0,0,0,,别开枪\N{\rENG}Don't shoot!
+Dialogue: 0,0:21:03.05,0:21:05.05,CHS,,0,0,0,,别开枪\N{\rENG}Don't shoot!
+Dialogue: 0,0:21:05.07,0:21:06.17,CHS,,0,0,0,,- 别开枪  - 他们是好人\N{\rENG}- Don't shoot!  - Good people
+Dialogue: 0,0:21:06.20,0:21:08.20,CHS,,0,0,0,,过去 过去\N{\rENG}Go, go, go!
+Dialogue: 0,0:21:15.22,0:21:17.22,CHS,,0,0,0,,想活的就给我趴下\N{\rENG}Get the fuck down or you die!
+Dialogue: 0,0:21:17.24,0:21:20.04,CHS,,0,0,0,,- 红巾军必胜  - 你知道你在跟谁说话吗\N{\rENG}- Hail the revolution!  - You're now talking to rebels!
+Dialogue: 0,0:21:20.07,0:21:22.07,CHS,,0,0,0,,不要骗我 你倒霉了\N{\rENG}Don't lie to me. Your luck is down!
+Dialogue: 0,0:21:22.09,0:21:24.09,CHS,,0,0,0,,红巾军必胜\N{\rENG}Hail the revolution!
+Dialogue: 0,0:21:27.02,0:21:28.42,CHS,,0,0,0,,不不不 快看\N{\rENG}No, no, no Guys, look!
+Dialogue: 0,0:21:28.44,0:21:30.44,CHS,,0,0,0,,必胜\N{\rENG}Revolution!
+Dialogue: 0,0:21:32.06,0:21:34.06,CHS,,0,0,0,,- 这他妈的是什么？  - 不不不\N{\rENG}- What the fuck is this?!  - No, no, no
+Dialogue: 0,0:21:34.09,0:21:36.09,CHS,,0,0,0,,他是政府军的走狗\N{\rENG}He's a pro-government rat!
+Dialogue: 0,0:21:36.11,0:21:38.01,CHS,,0,0,0,,- 不不不  - 你在骗我\N{\rENG}- NO!  - You lied to me!
+Dialogue: 0,0:21:38.04,0:21:40.04,CHS,,0,0,0,,不不不 红巾军必胜 红巾军必胜\N{\rENG}No! Hail the rebels! Hail the rebels!
+Dialogue: 0,0:22:27.06,0:22:29.06,CHS,,0,0,0,,妈的\N{\rENG}Shit!
+Dialogue: 0,0:22:36.08,0:22:38.08,CHS,,0,0,0,,Tundu\N{\rENG}Tundu!
+Dialogue: 0,0:22:49.01,0:22:51.01,CHS,,0,0,0,,- 中国大使馆  - 去大使馆\N{\rENG}- Chinese embassy  - Let's go to the Chinese embassy.
+Dialogue: 0,0:22:51.03,0:22:53.03,CHS,,0,0,0,,他们会收留我们的 我们是中国人\N{\rENG}They'll take us in. We're Chinese.
+Dialogue: 0,0:22:55.06,0:22:57.06,CHS,,0,0,0,,那我们怎么办？ 我们该怎么办？\N{\rENG}What about us? What're we suppose to do?
+Dialogue: 0,0:22:57.08,0:22:59.08,CHS,,0,0,0,,- 他们会收留我们吗？ - 很难说\N{\rENG}- Will they accept us?  - Hard to say.
+Dialogue: 0,0:22:59.10,0:23:02.00,CHS,,0,0,0,,- 那是我们的国家  - 所有人跟我走\N{\rENG}- That's our country.  - Everybody follow me.
+Dialogue: 0,0:23:07.03,0:23:09.03,CHS,,0,0,0,,走\N{\rENG}Go!
+Dialogue: 0,0:23:10.05,0:23:12.05,CHS,,0,0,0,,走\N{\rENG}Go!
+Dialogue: 0,0:23:24.08,0:23:26.08,CHS,,0,0,0,,走\N{\rENG}Go!
+Dialogue: 0,0:23:33.00,0:23:35.00,CHS,,0,0,0,,走\N{\rENG}Go!
+Dialogue: 0,0:23:39.52,0:23:41.52,CHS,,0,0,0,,快走\N{\rENG}Come on!
+Dialogue: 0,0:23:55.05,0:23:57.05,CHS,,0,0,0,,不\N{\rENG}No!
+Dialogue: 0,0:23:58.57,0:24:00.57,CHS,,0,0,0,,这边\N{\rENG}Here
+Dialogue: 0,0:26:31.00,0:26:34.00,CHS,,0,0,0,,慢着 慢着 不不 中国人 中国人\N{\rENG}Slow down! No, no! We're Chinese
+Dialogue: 0,0:26:34.02,0:26:36.02,CHS,,0,0,0,,- 快走  - Tundu\N{\rENG}- Go, go!  - Tundu!
+Dialogue: 0,0:26:36.04,0:26:38.04,CHS,,0,0,0,,走 走\N{\rENG}Go, go, go!
+Dialogue: 0,0:26:39.07,0:26:41.07,CHS,,0,0,0,,走狗去死 红巾军必胜\N{\rENG}Die! Scum! Hail the revolution!
+Dialogue: 0,0:26:41.09,0:26:43.09,CHS,,0,0,0,,走狗该死\N{\rENG}Die! Scum!
+Dialogue: 0,0:26:45.02,0:26:47.02,CHS,,0,0,0,,去死\N{\rENG}Die! Scum!
+Dialogue: 0,0:26:51.04,0:26:53.04,CHS,,0,0,0,,- 去死吧  - 把枪放下\N{\rENG}- Die!  - Lower your guns!
+Dialogue: 0,0:26:53.06,0:26:55.06,CHS,,0,0,0,,放下武器\N{\rENG}Put down your weapons!
+Dialogue: 0,0:26:57.09,0:26:59.09,CHS,,0,0,0,,把枪放下 把枪放下\N{\rENG}Lower your guns! Lower your guns!
+Dialogue: 0,0:27:03.01,0:27:05.01,CHS,,0,0,0,,大家暂停\N{\rENG}Stand down!
+Dialogue: 0,0:27:05.04,0:27:07.04,CHS,,0,0,0,,我们是中国人\N{\rENG}We are Chinese!
+Dialogue: 0,0:27:07.06,0:27:09.06,CHS,,0,0,0,,我们是中国人\N{\rENG}We are Chinese!
+Dialogue: 0,0:27:10.08,0:27:12.08,CHS,,0,0,0,,中国和非洲都是朋友\N{\rENG}China and Africa are friends!
+Dialogue: 0,0:27:21.01,0:27:23.01,CHS,,0,0,0,,走\N{\rENG}Go
+Dialogue: 0,0:27:24.03,0:27:26.03,CHS,,0,0,0,,走 快走 走\N{\rENG}Go, hurry. Go.
+Dialogue: 0,0:27:26.06,0:27:28.06,CHS,,0,0,0,,走\N{\rENG}Go.
+Dialogue: 0,0:27:30.08,0:27:32.08,CHS,,0,0,0,,撤\N{\rENG}Fall back!
+Dialogue: 0,0:27:37.00,0:27:39.00,CHS,,0,0,0,,帮忙\N{\rENG}Help! Help!
+Dialogue: 0,0:29:03.55,0:29:07.55,CHS,,0,0,0,,首长 他国战舰已经全部驶离战斗区\N{\rENG}Commander, all foreign vessels are leaving the war zone.
+Dialogue: 0,0:29:07.58,0:29:10.58,CHS,,0,0,0,,前方很危险 我们还要继续进港吗？\N{\rENG}The harbor is unsafe. Are you certain about docking?
+Dialogue: 0,0:29:13.50,0:29:15.50,CHS,,0,0,0,,前进十\N{\rENG}Forward 10 knots.
+Dialogue: 0,0:29:15.52,0:29:17.52,CHS,,0,0,0,,航向二七〇\N{\rENG}Set course bearing for 270.
+Dialogue: 0,0:29:30.55,0:29:32.55,CHS,,0,0,0,,开闸门\N{\rENG}Open the gate!
+Dialogue: 0,0:29:50.57,0:29:53.57,CHS,,0,0,0,,老樊 辛苦了 你们海军来的太及时了\N{\rENG}Well done, you got here just in time
+Dialogue: 0,0:29:53.60,0:29:56.50,CHS,,0,0,0,,- 现在局势怎么样？ - 这个国家的叛乱完全爆发了\N{\rENG}- What's the situation?  - The entire country's in chaos.
+Dialogue: 0,0:29:56.52,0:29:59.52,CHS,,0,0,0,,我们侨民的生命和财产受到严重危害\N{\rENG}The war has destroyed lives of many of countrymen.
+Dialogue: 0,0:29:59.54,0:30:02.54,CHS,,0,0,0,,你们能不能派兵把他们保护出来\N{\rENG}Can you send our troops in to help?
+Dialogue: 0,0:30:02.57,0:30:04.57,CHS,,0,0,0,,未经联合国允许\N{\rENG}Without the UN's authorization,
+Dialogue: 0,0:30:04.59,0:30:06.59,CHS,,0,0,0,,我方作战人员是不能进入的\N{\rENG}our troops aren't premitted  to enter the war zone.
+Dialogue: 0,0:30:08.98,0:30:10.35,CHS,,0,0,0,,您慢点 六十二号\N{\rENG}OK, slow, No.62
+Dialogue: 0,0:30:10.52,0:30:15.52,CHS,,0,0,0,,来来来 往上走 好\N{\rENG}Go go go, Up we go! Nice!
+Dialogue: 0,0:30:16.54,0:30:18.54,CHS,,0,0,0,,你哪的？这不能上\N{\rENG}Where are from? He can't board.
+Dialogue: 0,0:30:18.56,0:30:20.56,CHS,,0,0,0,,我儿子\N{\rENG}He's my son.
+Dialogue: 0,0:30:20.59,0:30:22.59,CHS,,0,0,0,,我们有票 看\N{\rENG}We have tickets. See, look!
+Dialogue: 0,0:30:22.61,0:30:24.61,CHS,,0,0,0,,三张 七九 八十 八一\N{\rENG}Three tickets. 79, 80, 81.
+Dialogue: 0,0:30:26.54,0:30:28.54,CHS,,0,0,0,,好 七九 八九 三十\N{\rENG}Fine then. 79, 80, 81.
+Dialogue: 0,0:30:28.56,0:30:30.56,CHS,,0,0,0,,谢谢\N{\rENG}Thank you.
+Dialogue: 0,0:30:31.58,0:30:33.58,CHS,,0,0,0,,我们去哪？\N{\rENG}Where are we going?
+Dialogue: 0,0:30:33.61,0:30:36.51,CHS,,0,0,0,,总理先生 你听我说\N{\rENG}Mr. Prime Minister, please listen to me.
+Dialogue: 0,0:30:36.53,0:30:39.53,CHS,,0,0,0,,贵国发生这样的事情 我很遗憾\N{\rENG}I'm deeply sorry for what's happening in your country.
+Dialogue: 0,0:30:40.51,0:30:43.51,CHS,,0,0,0,,但是我相信 你也一定不会忘记\N{\rENG}But I believe you have not forgotten about the help,
+Dialogue: 0,0:30:43.53,0:30:45.53,CHS,,0,0,0,,历史上我国对贵国的援助之情\N{\rENG}we provided to your country
+Dialogue: 0,0:30:45.55,0:30:48.55,CHS,,0,0,0,,我们两国之间的友谊\N{\rENG}and friendship between our countries
+Dialogue: 0,0:30:48.58,0:30:50.58,CHS,,0,0,0,,我相信你也知道\N{\rENG}I believe you understand how important
+Dialogue: 0,0:30:50.60,0:30:53.50,CHS,,0,0,0,,我国援非的陈博士对非洲的重要性\N{\rENG}our citizen Dr. Chen is to Africa.
+Dialogue: 0,0:30:53.53,0:30:56.03,CHS,,0,0,0,,请派兵保障陈博士的安全\N{\rENG}Please send somebody to protect his safety.
+Dialogue: 0,0:30:56.05,0:30:58.05,CHS,,0,0,0,,对不起\N{\rENG}I'm sorry,
+Dialogue: 0,0:30:58.07,0:31:00.97,CHS,,0,0,0,,- 你们现在只能靠自己了  - 总理先生\N{\rENG}- you're on your own this time  - Prime Minister
+Dialogue: 0,0:31:01.00,0:31:03.00,CHS,,0,0,0,,陈博士在哪？\N{\rENG}Where's Dr. Chen?
+Dialogue: 0,0:31:05.02,0:31:07.02,CHS,,0,0,0,,我绝不会\N{\rENG}I will never
+Dialogue: 0,0:31:07.05,0:31:09.05,CHS,,0,0,0,,告诉你的\N{\rENG}tell you
+Dialogue: 0,0:31:15.07,0:31:17.07,CHS,,0,0,0,,我们走\N{\rENG}Let's go!
+Dialogue: 0,0:31:19.09,0:31:21.09,CHS,,0,0,0,,十二年的卧薪尝胆啊\N{\rENG}12 years of hard work.
+Dialogue: 0,0:31:22.02,0:31:25.02,CHS,,0,0,0,,一朝战乱 全他妈没了\N{\rENG}One war, and it's all fucking gone
+Dialogue: 0,0:31:27.04,0:31:29.04,CHS,,0,0,0,,这子弹…\N{\rENG}The bullet...
+Dialogue: 0,0:31:29.07,0:31:31.07,CHS,,0,0,0,,有什么故事么？\N{\rENG}what's the story?
+Dialogue: 0,0:31:43.09,0:31:45.09,CHS,,0,0,0,,Tundu\N{\rENG}Tundu!
+Dialogue: 0,0:31:46.01,0:31:48.01,CHS,,0,0,0,,Tundu 下了船就不能上船了啊\N{\rENG}Tundu! If you get off, you can't get back on.
+Dialogue: 0,0:31:49.04,0:31:51.04,CHS,,0,0,0,,Tundu Tundu\N{\rENG}Tundu! Tundu!
+Dialogue: 0,0:31:51.06,0:31:52.46,CHS,,0,0,0,,- 站住  - 对不起 对不起\N{\rENG}- Stop right there!  - I'm sorry, I'm sorry
+Dialogue: 0,0:31:52.46,0:31:54.06,CHS,,0,0,0,,我要我妈妈\N{\rENG}I want my mom!
+Dialogue: 0,0:31:54.09,0:31:56.09,CHS,,0,0,0,,我要我妈妈 我不要去中国\N{\rENG}I want my mom, I don't want to go to China!
+Dialogue: 0,0:31:56.61,0:31:58.51,CHS,,0,0,0,,- 你看着我  - 我要我妈妈\N{\rENG}- Look at me  - I want my mom!
+Dialogue: 0,0:31:58.53,0:32:00.53,CHS,,0,0,0,,相信干爹\N{\rENG}I want my mom!
+Dialogue: 0,0:32:01.56,0:32:03.56,CHS,,0,0,0,,- 相信干爹  - 兄弟\N{\rENG}- Ok? I want my mom!  - Hey brother
+Dialogue: 0,0:32:06.58,0:32:08.58,CHS,,0,0,0,,你怎么也下来了？\N{\rENG}What are you doing down here?
+Dialogue: 0,0:32:08.61,0:32:11.51,CHS,,0,0,0,,有一件事情我必须跟你说实话\N{\rENG}There's something I have to tell you.
+Dialogue: 0,0:32:11.53,0:32:13.53,CHS,,0,0,0,,你戴的这个子弹…\N{\rENG}That bullet...
+Dialogue: 0,0:32:14.55,0:32:17.55,CHS,,0,0,0,,我见过 这上面的花纹\N{\rENG}I've seen it before. That pattern,
+Dialogue: 0,0:32:17.58,0:32:20.58,CHS,,0,0,0,,好像是反政府武装那边的一个什么标记\N{\rENG}is a symbol used by the rebel forces.
+Dialogue: 0,0:32:21.50,0:32:23.50,CHS,,0,0,0,,我有一个搞军火的朋友跟我说\N{\rENG}An arm dealer friend of mine told me
+Dialogue: 0,0:32:23.53,0:32:26.53,CHS,,0,0,0,,他们现在已经雇佣了欧洲价最高的雇佣兵\N{\rENG}the rebels have hired the most expensive mercenaries out of Europe.
+Dialogue: 0,0:32:27.55,0:32:29.55,CHS,,0,0,0,,我不管你跟他们有什么恩怨\N{\rENG}Whatever grudge you've got against them,
+Dialogue: 0,0:32:29.57,0:32:31.57,CHS,,0,0,0,,我劝你一句\N{\rENG}I urge you,
+Dialogue: 0,0:32:31.60,0:32:33.60,CHS,,0,0,0,,- 别去送死  - 桑库加镇的华资工厂\N{\rENG}- don't go seeking death.  - 47 Chinese workers!
+Dialogue: 0,0:32:33.62,0:32:35.62,CHS,,0,0,0,,还有四十七名中国员工\N{\rENG}are still stuck at the Hanbond Chinese factory
+Dialogue: 0,0:32:35.65,0:32:38.55,CHS,,0,0,0,,更可怕的是五十五公里外\N{\rENG}What's worse, Dr, Chen is stuck 55 km
+Dialogue: 0,0:32:38.57,0:32:39.97,CHS,,0,0,0,,还有援非小组的陈博士\N{\rENG}behind enemy lines on a medical relief mission
+Dialogue: 0,0:32:39.97,0:32:42.57,CHS,,0,0,0,,他可是恐怖分子的头号目标\N{\rENG}He's a high value target for the rebel army.
+Dialogue: 0,0:32:42.60,0:32:44.60,CHS,,0,0,0,,从洛奇诺到圣佛兰已经全面封锁\N{\rENG}Everything is in total lockdown from Lochino to St. Francis.
+Dialogue: 0,0:32:45.52,0:32:47.52,CHS,,0,0,0,,没有联合国的允许\N{\rENG}Without UN's authorization,
+Dialogue: 0,0:32:47.54,0:32:49.54,CHS,,0,0,0,,我方作战人员禁止进入交战区\N{\rENG}my troops aren't allowed to enter the war zone.
+Dialogue: 0,0:32:49.57,0:32:51.57,CHS,,0,0,0,,这次撤侨行动 事关重大\N{\rENG}This operation is highly important!
+Dialogue: 0,0:32:51.59,0:32:53.59,CHS,,0,0,0,,我们必须让所有的中国员工\N{\rENG}We have to evacuate those Chinese workers!
+Dialogue: 0,0:32:53.62,0:32:55.52,CHS,,0,0,0,,还有陈博士安全撤离\N{\rENG}and Dr. Chen by all means!
+Dialogue: 0,0:32:55.54,0:32:58.54,CHS,,0,0,0,,在目前情况下 作战人员禁止进入交战区\N{\rENG}Under current circumstances, combat troops are prohibited from entering the warzone!
+Dialogue: 0,0:32:58.56,0:33:00.56,CHS,,0,0,0,,但我们要坚决完成撤侨\N{\rENG}In order to complete the evacuation,
+Dialogue: 0,0:33:00.59,0:33:02.59,CHS,,0,0,0,,必须要一个人单独完成任务\N{\rENG}someone has to undertake the mission alone!
+Dialogue: 0,0:33:02.61,0:33:04.61,CHS,,0,0,0,,- 我去  - 站住\N{\rENG}- I'll go.  - Stop right there!
+Dialogue: 0,0:33:04.64,0:33:06.64,CHS,,0,0,0,,干什么的\N{\rENG}What's your purpose?
+Dialogue: 0,0:33:07.56,0:33:10.56,CHS,,0,0,0,,原中国人民解放军东南军区\N{\rENG}Former PLA, South-east region,
+Dialogue: 0,0:33:10.58,0:33:12.58,CHS,,0,0,0,,特种作战旅 战狼中队\N{\rENG}Specail Ops Brigade,  Wolf Warrior squadron,
+Dialogue: 0,0:33:13.51,0:33:15.51,CHS,,0,0,0,,冷锋\N{\rENG}Leng Feng.
+Dialogue: 0,0:33:15.53,0:33:17.53,CHS,,0,0,0,,这孩子的妈妈就在那家华资工厂\N{\rENG}This child's mother is  at Hanbond Chinese factory.
+Dialogue: 0,0:33:17.56,0:33:19.56,CHS,,0,0,0,,我大概知道那里的位置\N{\rENG}I know approximately where it is located.
+Dialogue: 0,0:33:25.58,0:33:27.58,CHS,,0,0,0,,我保证\N{\rENG}I promise you,
+Dialogue: 0,0:33:27.60,0:33:30.50,CHS,,0,0,0,,我会带你妈妈回来的\N{\rENG}I will bring your mom back.
+Dialogue: 0,0:33:36.53,0:33:38.53,CHS,,0,0,0,,我们已经替你搞定好了\N{\rENG}We took care of business now, didn't we?
+Dialogue: 0,0:33:38.55,0:33:40.55,CHS,,0,0,0,,外交部的汤特使 安德拉亲王 德鲁王子\N{\rENG}Ambassador Thomas, King Angola, Prince Drew.
+Dialogue: 0,0:33:41.58,0:33:43.58,CHS,,0,0,0,,该死的通讯部经理\N{\rENG}That goddamn communications manager.
+Dialogue: 0,0:33:44.50,0:33:46.50,CHS,,0,0,0,,他们都消失了\N{\rENG}They're all gone. They all disappeared,
+Dialogue: 0,0:33:46.52,0:33:48.52,CHS,,0,0,0,,神秘的失踪\N{\rENG}real mysterously!
+Dialogue: 0,0:33:48.55,0:33:51.55,CHS,,0,0,0,,不要用这些破事糊弄我\N{\rENG}Stop wasting my time with that crap!
+Dialogue: 0,0:33:51.57,0:33:53.57,CHS,,0,0,0,,陈博士在哪儿？\N{\rENG}Where's Dr. Chen?
+Dialogue: 0,0:33:54.50,0:33:56.50,CHS,,0,0,0,,啊 耶稣\N{\rENG}Ah, Jesus.
+Dialogue: 0,0:34:12.52,0:34:14.52,CHS,,0,0,0,,告诉他 你刚对我说的\N{\rENG}You tell him what you told me.
+Dialogue: 0,0:34:14.54,0:34:16.54,CHS,,0,0,0,,陈博士\N{\rENG}Dr. Chen
+Dialogue: 0,0:34:16.57,0:34:20.57,CHS,,0,0,0,,在圣佛兰华资医院\N{\rENG}is at St. Francis Chinese-invested hospital.
+Dialogue: 0,0:34:20.59,0:34:22.59,CHS,,0,0,0,,乖孩子\N{\rENG}Good boy.
+Dialogue: 0,0:34:30.52,0:34:32.52,CHS,,0,0,0,,听到了么？\N{\rENG}Did you hear that?
+Dialogue: 0,0:34:32.54,0:34:34.54,CHS,,0,0,0,,那也有可能是你的下场\N{\rENG}That could be sound of the future.
+Dialogue: 0,0:34:42.56,0:34:46.56,CHS,,0,0,0,,我们为什么要收红巾军那帮蠢货的钱？\N{\rENG}Sir, Why are we helping these fucking idiots?
+Dialogue: 0,0:34:46.59,0:34:48.59,CHS,,0,0,0,,欢迎来到非洲伙计\N{\rENG}Welcome to Africa, son.
+Dialogue: 0,0:34:49.51,0:34:51.51,CHS,,0,0,0,,伙计们出发\N{\rENG}Alrights, let's move out boys!
+Dialogue: 0,0:35:10.56,0:35:12.56,CHS,,0,0,0,,我们得到最新消息\N{\rENG}From the latest report,
+Dialogue: 0,0:35:12.58,0:35:14.58,CHS,,0,0,0,,战火已经蔓延到桑萨雷姆港口\N{\rENG}the fighting is reaching Semshalemu harbour.
+Dialogue: 0,0:35:14.61,0:35:18.51,CHS,,0,0,0,,那里等待救援的一千五百三十六名中国同胞的生命\N{\rENG}The urgency of the evacuating 1536 Chinese nationals wating there
+Dialogue: 0,0:35:18.53,0:35:20.53,CHS,,0,0,0,,变得危在旦夕\N{\rENG}has just been escalated.
+Dialogue: 0,0:35:20.56,0:35:22.56,CHS,,0,0,0,,撤侨军舰必须全速赶往\N{\rENG}Our vessels are heading over at top speed.
+Dialogue: 0,0:35:22.58,0:35:25.58,CHS,,0,0,0,,很抱歉 因为是别国交战区\N{\rENG}My apologies, because the conflict is on foreign soil,
+Dialogue: 0,0:35:25.60,0:35:27.60,CHS,,0,0,0,,你这次的行动没有支援\N{\rENG}you'll have no reinforcements,
+Dialogue: 0,0:35:27.63,0:35:29.63,CHS,,0,0,0,,没有盟军 也没有武器\N{\rENG}no allies and no weapons.
+Dialogue: 0,0:35:29.65,0:35:32.55,CHS,,0,0,0,,陈博士 还有四十七名中国同胞\N{\rENG}Dr. Chen and 47 Chinese workers,
+Dialogue: 0,0:35:32.58,0:35:34.58,CHS,,0,0,0,,都带回来\N{\rENG}evacuate them all.
+Dialogue: 0,0:36:09.47,0:36:11.57,CHS,,0,0,0,,我老板交代我\N{\rENG}My boss asked me
+Dialogue: 0,0:36:11.60,0:36:13.60,CHS,,0,0,0,,找陈博士\N{\rENG}to find Dr. Chen.
+Dialogue: 0,0:36:13.62,0:36:16.52,CHS,,0,0,0,,你们没人有任何反应\N{\rENG}Nobody wants to do something!
+Dialogue: 0,0:36:16.54,0:36:19.54,CHS,,0,0,0,,现在 那我只能试试运气了\N{\rENG}Now, I have to try my luck.
+Dialogue: 0,0:36:19.57,0:36:21.57,CHS,,0,0,0,,因为\N{\rENG}Because
+Dialogue: 0,0:36:21.59,0:36:23.59,CHS,,0,0,0,,我有\N{\rENG}I have
+Dialogue: 0,0:36:23.62,0:36:25.62,CHS,,0,0,0,,特殊的眼力\N{\rENG}a special vision.
+Dialogue: 0,0:36:26.54,0:36:28.54,CHS,,0,0,0,,我猜猜…\N{\rENG}Let me guess...
+Dialogue: 0,0:36:53.59,0:36:55.59,CHS,,0,0,0,,你是陈博士吗？\N{\rENG}Are you Dr. Chen?
+Dialogue: 0,0:36:55.61,0:36:58.51,CHS,,0,0,0,,- 我不是 我不是  - 你是陈博士吗？\N{\rENG}- I'm not! I'm not!  - Are you Dr. Chen?
+Dialogue: 0,0:36:59.54,0:37:01.54,CHS,,0,0,0,,- 你是陈博士吗？ - 不不不\N{\rENG}- Are you Dr. Chen?  - No, no, no.
+Dialogue: 0,0:37:01.56,0:37:03.56,CHS,,0,0,0,,你吓到她了 她还是个孩子\N{\rENG}She's a child, just a child
+Dialogue: 0,0:37:03.58,0:37:05.58,CHS,,0,0,0,,- 我是  - 不\N{\rENG}- I am  - No
+Dialogue: 0,0:37:08.51,0:37:10.51,CHS,,0,0,0,,不要\N{\rENG}No
+Dialogue: 0,0:37:13.53,0:37:15.53,CHS,,0,0,0,,我是陈博士\N{\rENG}I'm Dr. Chen.
+Dialogue: 0,0:37:22.56,0:37:24.56,CHS,,0,0,0,,你是陈博士？\N{\rENG}You are Dr. Chen?
+Dialogue: 0,0:37:24.58,0:37:27.58,CHS,,0,0,0,,陈博士怎么没蛋蛋了\N{\rENG}Looks like Dr. Chen doesn't have balls.
+Dialogue: 0,0:37:28.50,0:37:30.50,CHS,,0,0,0,,你想要什么？\N{\rENG}What do you want?
+Dialogue: 0,0:37:30.53,0:37:32.53,CHS,,0,0,0,,- 我就是  - Rachel医生 不\N{\rENG}- I am Dr. Chen.  - Dr. Rachel, no!
+Dialogue: 0,0:37:34.55,0:37:36.55,CHS,,0,0,0,,她不是陈博士\N{\rENG}She's not Dr. Chen.
+Dialogue: 0,0:37:36.58,0:37:38.58,CHS,,0,0,0,,她是非常好的医生\N{\rENG}She's a very good doctor.
+Dialogue: 0,0:37:38.60,0:37:40.60,CHS,,0,0,0,,她救过很多人\N{\rENG}She saved so many lives.
+Dialogue: 0,0:37:41.52,0:37:43.52,CHS,,0,0,0,,天啊 不要\N{\rENG}No!
+Dialogue: 0,0:37:51.55,0:37:53.55,CHS,,0,0,0,,陈博士\N{\rENG}Dr. Chen!
+Dialogue: 0,0:37:53.57,0:37:55.57,CHS,,0,0,0,,papa\N{\rENG}Papa!
+Dialogue: 0,0:37:57.50,0:37:59.50,CHS,,0,0,0,,你刚杀了\N{\rENG}You just killed
+Dialogue: 0,0:37:59.52,0:38:00.52,CHS,,0,0,0,,陈博士\N{\rENG}Dr. Chen.
+Dialogue: 0,0:38:02.57,0:38:04.57,CHS,,0,0,0,,- Papa  - 陈博士\N{\rENG}- Papa!  - Dr. Chen!
+Dialogue: 0,0:39:42.59,0:39:44.59,CHS,,0,0,0,,陈博士是吧？\N{\rENG}Dr. Chen, right?
+Dialogue: 0,0:39:44.62,0:39:46.62,CHS,,0,0,0,,我是樊大使派来救你们的\N{\rENG}I was sent by Ambassador Fan to rescue you.
+Dialogue: 0,0:39:49.54,0:39:51.54,CHS,,0,0,0,,这是我的女儿Pasha\N{\rENG}This is my daughter, Pasha.
+Dialogue: 0,0:39:51.56,0:39:53.56,CHS,,0,0,0,,求你务必保护好她\N{\rENG}Please, I beg you, protect her.
+Dialogue: 0,0:39:59.59,0:40:01.59,CHS,,0,0,0,,陈博士\N{\rENG}Dr. Chen!
+Dialogue: 0,0:40:02.51,0:40:04.51,CHS,,0,0,0,,跟我走\N{\rENG}Come with me!
+Dialogue: 0,0:40:04.54,0:40:06.54,CHS,,0,0,0,,上车\N{\rENG}Get in the car!
+Dialogue: 0,0:40:31.56,0:40:33.56,CHS,,0,0,0,,向东走\N{\rENG}Go fast!
+Dialogue: 0,0:40:39.58,0:40:41.58,CHS,,0,0,0,,你想干嘛？\N{\rENG}What are you doing?
+Dialogue: 0,0:40:41.61,0:40:44.51,CHS,,0,0,0,,你以为我在干嘛？我在救你小命\N{\rENG}What do you think I'm doing? I'm saving your ass!
+Dialogue: 0,0:40:56.53,0:40:58.53,CHS,,0,0,0,,我来开车\N{\rENG}Let me drive!
+Dialogue: 0,0:40:58.56,0:41:00.56,CHS,,0,0,0,,让开\N{\rENG}Move!
+Dialogue: 0,0:41:53.58,0:41:55.58,CHS,,0,0,0,,妈了\N{\rENG}What the hell!
+Dialogue: 0,0:41:56.50,0:41:58.50,CHS,,0,0,0,,掉头\N{\rENG}Turn around!
+Dialogue: 0,0:41:59.53,0:42:01.53,CHS,,0,0,0,,快快快\N{\rENG}Go, go, go!
+Dialogue: 0,0:42:32.55,0:42:34.55,CHS,,0,0,0,,神经\N{\rENG}Jesus.
+Dialogue: 0,0:43:15.58,0:43:17.58,CHS,,0,0,0,,Pasha\N{\rENG}Pasha!
+Dialogue: 0,0:44:31.50,0:44:33.50,CHS,,0,0,0,,你没事吧？\N{\rENG}Are you okay?
+Dialogue: 0,0:44:33.52,0:44:35.52,CHS,,0,0,0,,你没事吧？\N{\rENG}Are you okay?
+Dialogue: 0,0:44:35.55,0:44:37.55,CHS,,0,0,0,,你没事吧？\N{\rENG}Are you okay?
+Dialogue: 0,0:44:47.57,0:44:49.57,CHS,,0,0,0,,你没事吧？\N{\rENG}Are you okay?
+Dialogue: 0,0:44:52.50,0:44:54.50,CHS,,0,0,0,,你没事吧？\N{\rENG}Are you okay?
+Dialogue: 0,0:44:54.52,0:44:56.52,CHS,,0,0,0,,没事\N{\rENG}Yeah.
+Dialogue: 0,0:44:56.54,0:45:01.54,CHS,,0,0,0,,Pasha\N{\rENG}Pasha.
+Dialogue: 0,0:45:06.57,0:45:08.57,CHS,,0,0,0,,站住\N{\rENG}Stop!
+Dialogue: 0,0:45:09.59,0:45:11.59,CHS,,0,0,0,,站住\N{\rENG}Stop!
+Dialogue: 0,0:45:22.52,0:45:24.52,CHS,,0,0,0,,你们要粮食吗？我们有粮食\N{\rENG}You want food? We have food.
+Dialogue: 0,0:45:25.54,0:45:27.54,CHS,,0,0,0,,我们有粮食\N{\rENG}We have food, okay?
+Dialogue: 0,0:45:27.56,0:45:29.56,CHS,,0,0,0,,我们有粮食\N{\rENG}We have food.
+Dialogue: 0,0:45:59.59,0:46:01.59,CHS,,0,0,0,,你没事吧\N{\rENG}Are you okay?
+Dialogue: 0,0:46:19.51,0:46:21.51,CHS,,0,0,0,,谢谢\N{\rENG}Thank you.
+Dialogue: 0,0:46:26.54,0:46:28.54,CHS,,0,0,0,,是隔离区受的伤吗？\N{\rENG}Is that from quarantine zone?
+Dialogue: 0,0:46:29.56,0:46:31.46,CHS,,0,0,0,,把药箱递给我\N{\rENG}Pasha, can you please hand me the bag?
+Dialogue: 0,0:46:31.52,0:46:33.72,CHS,,0,0,0,,我说是隔离区受的伤吗？\N{\rENG}I said, did you get that in the quarantine zone?
+Dialogue: 0,0:46:37.54,0:46:39.54,CHS,,0,0,0,,- 没关系  - 你别觉得我大惊小怪啊\N{\rENG}- It's nothing.  - I'm not overreacting.
+Dialogue: 0,0:46:40.56,0:46:42.56,CHS,,0,0,0,,没有状况最好\N{\rENG}In fact, it's better if I was.
+Dialogue: 0,0:46:42.59,0:46:45.59,CHS,,0,0,0,,刚才那些人感染的是拉曼拉病毒\N{\rENG}Those people back there were infected with the Lamanla virus.
+Dialogue: 0,0:46:45.61,0:46:47.61,CHS,,0,0,0,,感染者很快就会出现发热\N{\rENG}Symptoms include the sudden onset fever,
+Dialogue: 0,0:46:47.64,0:46:49.54,CHS,,0,0,0,,幻觉 溃烂\N{\rENG}hallucinations, lesions,
+Dialogue: 0,0:46:49.56,0:46:54.56,CHS,,0,0,0,,虚汗等症状 是一种通过接触传播的非常罕见的烈性病毒\N{\rENG}cold sweats. It's a fatal virus that's transmitted  through direct human contact.
+Dialogue: 0,0:46:54.58,0:46:57.58,CHS,,0,0,0,,从发病到死亡 最长五个月 最短四个小时\N{\rENG}Upon contraction, death strikes between four hours and five months.
+Dialogue: 0,0:46:57.61,0:47:01.51,CHS,,0,0,0,,而且到现在 还没有研制出能治愈这种病毒的疫苗\N{\rENG}Up until now, no cure has been found.
+Dialogue: 0,0:47:01.53,0:47:03.83,CHS,,0,0,0,,没事 我买医保了\N{\rENG}Don't worry, I'm insured.
+Dialogue: 0,0:47:23.56,0:47:25.56,CHS,,0,0,0,,你杀了中国人\N{\rENG}You're killing the Chinese?
+Dialogue: 0,0:47:26.58,0:47:28.58,CHS,,0,0,0,,麻烦大了\N{\rENG}This is a big trouble.
+Dialogue: 0,0:47:28.60,0:47:30.60,CHS,,0,0,0,,你为什么杀中国人？\N{\rENG}Why are you killing the Chinese?
+Dialogue: 0,0:47:33.53,0:47:36.53,CHS,,0,0,0,,- 头儿…  - 你一直想要得到陈博士\N{\rENG}- Sir...  - I thought you wanted Dr. Chen.
+Dialogue: 0,0:47:38.55,0:47:41.55,CHS,,0,0,0,,恭喜你 你得到他了\N{\rENG}Congratulations. You found him.
+Dialogue: 0,0:47:44.60,0:47:46.60,CHS,,0,0,0,,妈的\N{\rENG}Fuck!
+Dialogue: 0,0:47:46.62,0:47:48.62,CHS,,0,0,0,,我要的是活人\N{\rENG}I wanted him alive!
+Dialogue: 0,0:47:48.65,0:47:49.65,CHS,,0,0,0,,活人\N{\rENG}alive!
+Dialogue: 0,0:47:49.67,0:47:53.57,CHS,,0,0,0,,难道你不知道他对我有多重要吗？\N{\rENG}Don't you understand how important it is to me?
+Dialogue: 0,0:47:57.50,0:47:59.50,CHS,,0,0,0,,妈的\N{\rENG}Fuck!
+Dialogue: 0,0:48:01.52,0:48:03.52,CHS,,0,0,0,,等等\N{\rENG}Wait.
+Dialogue: 0,0:48:03.54,0:48:05.54,CHS,,0,0,0,,这个女孩\N{\rENG}That girl.
+Dialogue: 0,0:48:06.57,0:48:08.57,CHS,,0,0,0,,我喜欢她\N{\rENG}I like her.
+Dialogue: 0,0:48:08.59,0:48:13.59,CHS,,0,0,0,,头儿 我们欧洲总部刚传来面部识别结果\N{\rENG}Sir, our facial recognition crew uploaded video of this man fighting off some of the pirates.
+Dialogue: 0,0:48:13.62,0:48:15.52,CHS,,0,0,0,,这人叫冷\N{\rENG}His name's Leng.
+Dialogue: 0,0:48:15.54,0:48:18.54,CHS,,0,0,0,,曾供职于中国某神秘特种部队\N{\rENG}Ex-member of a secretive special ops unit pot of China.
+Dialogue: 0,0:48:18.56,0:48:20.56,CHS,,0,0,0,,战狼\N{\rENG}Wolf Warrior.
+Dialogue: 0,0:48:20.59,0:48:22.59,CHS,,0,0,0,,伙计们\N{\rENG}Boys!
+Dialogue: 0,0:48:32.51,0:48:34.51,CHS,,0,0,0,,援非医疗小组已被武装分子屠杀\N{\rENG}The Doctors Without Borders were killed by armed mercenaries.
+Dialogue: 0,0:48:34.54,0:48:37.54,CHS,,0,0,0,,陈博士和其他中方医护人员已经牺牲了\N{\rENG}The lives of Dr. Cheng and other Chinese medical staff were scarificed.
+Dialogue: 0,0:48:37.56,0:48:39.56,CHS,,0,0,0,,冷锋同志\N{\rENG}Comrade Leng,
+Dialogue: 0,0:48:39.58,0:48:41.58,CHS,,0,0,0,,你能对你说的话负责吗？\N{\rENG}do you stand by what are you're saying?
+Dialogue: 0,0:48:41.61,0:48:44.51,CHS,,0,0,0,,你能确认亲眼看见雇佣兵枪杀我国医护人员和侨民吗？\N{\rENG}Are you certain you witnessed the massacre or our medical team?
+Dialogue: 0,0:48:44.53,0:48:46.53,CHS,,0,0,0,,我确定\N{\rENG}I'm cetain.
+Dialogue: 0,0:48:46.56,0:48:49.56,CHS,,0,0,0,,在牺牲前 陈博士把他的女儿交给我\N{\rENG}Dr. Chen give me his daughter before he died.
+Dialogue: 0,0:48:49.58,0:48:51.58,CHS,,0,0,0,,一个黑人小姑娘\N{\rENG}An African girl.
+Dialogue: 0,0:48:51.60,0:48:53.60,CHS,,0,0,0,,叫Pasha 还有一个女护士\N{\rENG}Her name is Pasha. Oh, and anurse too.
+Dialogue: 0,0:48:53.63,0:48:55.53,CHS,,0,0,0,,你叫什么？\N{\rENG}What's your name?
+Dialogue: 0,0:48:55.55,0:48:57.55,CHS,,0,0,0,,Rachel Prescott Smith 你可以叫我Rachel\N{\rENG}Rachel Prescott Smith. You can call me Rachel.
+Dialogue: 0,0:48:58.58,0:49:00.58,CHS,,0,0,0,,还有是 Rachel医生 不是护士\N{\rENG}Doctor Rachel, I'm not a nurse.
+Dialogue: 0,0:49:01.50,0:49:03.50,CHS,,0,0,0,,把所有情况立即向樊大使汇报\N{\rENG}Report the situation to Ambassador Fan immediately.
+Dialogue: 0,0:49:03.52,0:49:05.52,CHS,,0,0,0,,是\N{\rENG}Yes sir.
+Dialogue: 0,0:49:05.55,0:49:07.55,CHS,,0,0,0,,首长 我儿子呢？\N{\rENG}Commander, may I speak to  my son please?
+Dialogue: 0,0:49:08.57,0:49:11.57,CHS,,0,0,0,,干爹 我妈妈在哪？干爹 我妈妈在哪？\N{\rENG}Godfather, godfather! Where's my mom? Where's my mom?
+Dialogue: 0,0:49:11.60,0:49:13.60,CHS,,0,0,0,,Tundu 相信干爹\N{\rENG}Hey, Tundu, Tundu! Trust me, Trust your godfather.
+Dialogue: 0,0:49:14.52,0:49:16.52,CHS,,0,0,0,,我现在正在开往汉邦工厂\N{\rENG}We are going to Hanbond Chinese factoty
+Dialogue: 0,0:49:16.54,0:49:18.54,CHS,,0,0,0,,到那里去接你妈妈 OK\N{\rENG}to find your mom right now, okay?
+Dialogue: 0,0:49:19.57,0:49:21.57,CHS,,0,0,0,,谢谢干爹\N{\rENG}Thank you, godfather.
+Dialogue: 0,0:49:21.59,0:49:23.59,CHS,,0,0,0,,冷锋 有一个非常不好的消息通知你\N{\rENG}Leng, I have some bad news for you.
+Dialogue: 0,0:49:23.62,0:49:26.52,CHS,,0,0,0,,红巾军正在大肆毁坏重要的公路\N{\rENG}The rebel army is sobotaging all major roads,
+Dialogue: 0,0:49:26.54,0:49:28.54,CHS,,0,0,0,,铁路以及桥梁\N{\rENG}railways and bridges.
+Dialogue: 0,0:49:28.56,0:49:30.56,CHS,,0,0,0,,就在十分钟以前\N{\rENG}As of 10 minutes ago,
+Dialogue: 0,0:49:30.59,0:49:32.59,CHS,,0,0,0,,从华资工厂通向码头的波尔尼加桥\N{\rENG}your only route to the port, the Bowerneja bridge,
+Dialogue: 0,0:49:32.61,0:49:36.51,CHS,,0,0,0,,已被炸断 我和樊大使正在全力想办法\N{\rENG}was bombed. We are formulating an escape plan now.
+Dialogue: 0,0:49:36.54,0:49:39.54,CHS,,0,0,0,,但现在只能靠你自己了\N{\rENG}But untill then, you're on your own.
+Dialogue: 0,0:49:39.56,0:49:43.56,CHS,,0,0,0,,从现在开始 我们最多只能等你十八小时\N{\rENG}Set your watch. The macimum time we can wait is 18 hours.
+Dialogue: 0,0:49:43.58,0:49:45.58,CHS,,0,0,0,,然后军舰就必须返航\N{\rENG}After that, we'll be forced to leave.
+Dialogue: 0,0:49:45.61,0:49:47.51,CHS,,0,0,0,,非常非常抱歉\N{\rENG}my deepest apologies.
+Dialogue: 0,0:49:47.53,0:49:49.53,CHS,,0,0,0,,我必须对全体侨民负责\N{\rENG}I have the responsibility to everyone onboard.
+Dialogue: 0,0:49:49.56,0:49:51.56,CHS,,0,0,0,,明白\N{\rENG}I understand.
+Dialogue: 0,0:49:55.58,0:49:57.58,CHS,,0,0,0,,你要去华资工厂吗？\N{\rENG}You're going to the Chinese factory?
+Dialogue: 0,0:49:57.60,0:49:59.60,CHS,,0,0,0,,我认为我们更应该去美国领事馆\N{\rENG}We should go to the Ameriacn Consulate.
+Dialogue: 0,0:49:59.63,0:50:02.53,CHS,,0,0,0,,那里有海军陆战队 是全世界最安全的地方\N{\rENG}The US marines are stationed there. That's our safest bet.
+Dialogue: 0,0:50:03.55,0:50:05.55,CHS,,0,0,0,,海军陆战队是世界最好的特种部队\N{\rENG}You think the US marines are the best in the world?
+Dialogue: 0,0:50:06.58,0:50:08.58,CHS,,0,0,0,,他们怎么没来接你啊？\N{\rENG}That may be true, but where are they now?
+Dialogue: 0,0:50:09.50,0:50:11.50,CHS,,0,0,0,,我已经通知过他们了\N{\rENG}I've informed the  consulate of the situation.
+Dialogue: 0,0:50:11.52,0:50:13.52,CHS,,0,0,0,,人呢？\N{\rENG}Where are they?
+Dialogue: 0,0:50:13.53,0:50:14.93,CHS,,0,0,0,,你通知他们的方式是？\N{\rENG}Tell me exactly how you informed them?
+Dialogue: 0,0:50:14.93,0:50:17.53,CHS,,0,0,0,,我＠了他们的推特账号\N{\rENG}I tweeted at them on Twitter.
+Dialogue: 0,0:50:24.55,0:50:26.55,CHS,,0,0,0,,欢迎致电美国领事馆\N{\rENG}Welcome to American Consulate.
+Dialogue: 0,0:50:26.57,0:50:28.57,CHS,,0,0,0,,很不幸 我们已经闭馆了\N{\rENG}Unfortunately, we are closed.
+Dialogue: 0,0:50:28.60,0:50:30.60,CHS,,0,0,0,,妈的\N{\rENG}Fuck!
+Dialogue: 0,0:50:33.52,0:50:35.52,CHS,,0,0,0,,我来的时候各国军舰都已经撤离了\N{\rENG}All foreign navy ships have left when I arrived.
+Dialogue: 0,0:50:36.55,0:50:38.55,CHS,,0,0,0,,当我站在码头上向海面眺望\N{\rENG}A I watch them sail away from port.
+Dialogue: 0,0:50:39.57,0:50:41.57,CHS,,0,0,0,,无数远去的桅杆中\N{\rENG}Among the countless departing masts.
+Dialogue: 0,0:50:42.59,0:50:44.59,CHS,,0,0,0,,我看到一面星条旗\N{\rENG}I saw one with the stars and stripes.
+Dialogue: 0,0:50:48.52,0:50:50.52,CHS,,0,0,0,,停车\N{\rENG}Stop the car.
+Dialogue: 0,0:50:50.54,0:50:52.54,CHS,,0,0,0,,停车\N{\rENG}Stop the car!
+Dialogue: 0,0:50:52.57,0:50:54.57,CHS,,0,0,0,,停车 我要下车 停\N{\rENG}Stop the car, I want to get out! Stop!
+Dialogue: 0,0:51:10.59,0:51:12.59,CHS,,0,0,0,,Rachel\N{\rENG}Rachel.
+Dialogue: 0,0:51:28.51,0:51:30.51,CHS,,0,0,0,,海军陆战队接你来了\N{\rENG}Your GIs are here to get you.
+Dialogue: 0,0:52:54.56,0:52:56.56,CHS,,0,0,0,,我是中国人\N{\rENG}I'm Chinese.
+Dialogue: 0,0:52:56.59,0:52:58.59,CHS,,0,0,0,,我来找Nessa\N{\rENG}I'm here for Nessa.
+Dialogue: 0,0:52:58.61,0:53:00.61,CHS,,0,0,0,,Tundu的妈妈\N{\rENG}Tundu's mom.
+Dialogue: 0,0:53:03.53,0:53:05.53,CHS,,0,0,0,,Nessa\N{\rENG}Nessa!
+Dialogue: 0,0:53:16.56,0:53:18.56,CHS,,0,0,0,,有人吗？\N{\rENG}Anyone home?
+Dialogue: 0,0:53:18.58,0:53:20.58,CHS,,0,0,0,,我是来救你们的\N{\rENG}I've been sent here to rescue you.
+Dialogue: 0,0:53:20.61,0:53:22.61,CHS,,0,0,0,,是樊大使让我来的\N{\rENG}By Ambassador Fan himself.
+Dialogue: 0,0:53:26.53,0:53:28.53,CHS,,0,0,0,,你？\N{\rENG}You?
+Dialogue: 0,0:53:28.55,0:53:30.55,CHS,,0,0,0,,救我们？\N{\rENG}Rescue us?
+Dialogue: 0,0:53:39.58,0:53:41.58,CHS,,0,0,0,,我这有十八杆 AK\N{\rENG}I've got 18 AK-47s.
+Dialogue: 0,0:53:42.50,0:53:44.50,CHS,,0,0,0,,三十枚七九式手雷\N{\rENG}30 M79 grenade launchers,
+Dialogue: 0,0:53:44.53,0:53:47.53,CHS,,0,0,0,,够武装一个加强排了吧？\N{\rENG}enough to arm a platoon.
+Dialogue: 0,0:53:50.55,0:53:53.55,CHS,,0,0,0,,现在一把M1911抵在你头上\N{\rENG}I have a M1911 pointed at your head right now.
+Dialogue: 0,0:53:54.57,0:53:56.57,CHS,,0,0,0,,你他妈怎么救我们啊？\N{\rENG}How the fuck are you supposed  to rescue us?
+Dialogue: 0,0:53:56.60,0:53:58.60,CHS,,0,0,0,,冷 冷 你是不是冷？\N{\rENG}Leng, Leng! Are you Leng?
+Dialogue: 0,0:53:58.62,0:54:00.62,CHS,,0,0,0,,你是不是冷\N{\rENG}Are you Leng?
+Dialogue: 0,0:54:00.65,0:54:02.55,CHS,,0,0,0,,- Nessa？ - 是 是\N{\rENG}- Nessa?  - Yes, yes, yes!
+Dialogue: 0,0:54:02.57,0:54:04.57,CHS,,0,0,0,,- 我儿子怎么样了？ - 他很安全\N{\rENG}- What about my son?  - He's safe.
+Dialogue: 0,0:54:04.59,0:54:06.59,CHS,,0,0,0,,- 他没事吧？ - 他没事\N{\rENG}- He's okay?  - He's okay.
+Dialogue: 0,0:54:08.52,0:54:10.52,CHS,,0,0,0,,谢天谢地\N{\rENG}Oh, thank god!
+Dialogue: 0,0:54:12.54,0:54:14.54,CHS,,0,0,0,,他没事\N{\rENG}He's okay.
+Dialogue: 0,0:54:14.57,0:54:16.57,CHS,,0,0,0,,妈妈 我没事\N{\rENG}Mom, mom, I'm ok, I'm ok!
+Dialogue: 0,0:54:16.59,0:54:19.59,CHS,,0,0,0,,- 谢谢老天  - 妈 我没事 你怎么样\N{\rENG}- Oh, thank god!  - Mom, I'm ok!
+Dialogue: 0,0:54:19.61,0:54:22.51,CHS,,0,0,0,,你在中国军舰上\N{\rENG}Because you're on a Chinese warship.
+Dialogue: 0,0:54:22.54,0:54:25.54,CHS,,0,0,0,,我早就告诉你不要卖毛片\N{\rENG}I told you, not to sell that porn.
+Dialogue: 0,0:54:25.56,0:54:28.56,CHS,,0,0,0,,来了 在非洲绝对找不到这么好吃的饺子\N{\rENG}Here we go.You definitely won't find better dumplings in Africa.
+Dialogue: 0,0:54:28.59,0:54:30.59,CHS,,0,0,0,,这是我从中国带来的大厨\N{\rENG}I flew in a chef from China.
+Dialogue: 0,0:54:30.61,0:54:32.61,CHS,,0,0,0,,- 亲自给你们做的  - 谢谢\N{\rENG}- Fresh, just for you.  - Thank you.
+Dialogue: 0,0:54:34.53,0:54:36.53,CHS,,0,0,0,,看什么呢？见过吗？\N{\rENG}What are you looking at? Seen one before?
+Dialogue: 0,0:54:36.56,0:54:38.56,CHS,,0,0,0,,玩过这枪吗？\N{\rENG}Ever shot one of these?
+Dialogue: 0,0:54:38.58,0:54:40.58,CHS,,0,0,0,,这狼啊\N{\rENG}This wolf here,
+Dialogue: 0,0:54:40.61,0:54:42.61,CHS,,0,0,0,,就是我用这枪打的\N{\rENG}I killed myself with this gun.
+Dialogue: 0,0:54:43.53,0:54:45.53,CHS,,0,0,0,,这地图谁做的？\N{\rENG}Who drew this map?
+Dialogue: 0,0:54:45.55,0:54:47.55,CHS,,0,0,0,,这是我指导我们家保卫干事老何做的\N{\rENG}I instructed our head of security, Laohe, how to do it.
+Dialogue: 0,0:54:48.58,0:54:50.58,CHS,,0,0,0,,还有几个地没修改好\N{\rENG}It still needs some work.
+Dialogue: 0,0:54:50.60,0:54:52.60,CHS,,0,0,0,,老何 来 过来一下\N{\rENG}Laohe, come here for a second.
+Dialogue: 0,0:54:54.53,0:54:56.53,CHS,,0,0,0,,从A区到D区\N{\rENG}Sector A to Sector D.
+Dialogue: 0,0:54:56.55,0:54:58.55,CHS,,0,0,0,,这个地我已经说过很多遍了\N{\rENG}I've told you so many times.
+Dialogue: 0,0:54:59.57,0:55:01.57,CHS,,0,0,0,,为什么没有修改过来\N{\rENG}Why isn't it done yet?
+Dialogue: 0,0:55:02.50,0:55:04.50,CHS,,0,0,0,,- 马上就改  - 老何\N{\rENG}- I'll get on it right away.  - Laohe,
+Dialogue: 0,0:55:04.52,0:55:06.52,CHS,,0,0,0,,赶紧拿笔记一下\N{\rENG}write it down quickly.
+Dialogue: 0,0:55:06.55,0:55:09.55,CHS,,0,0,0,,你还保安队长 这要是实施起来出了问题\N{\rENG}As our head of security. What if something happens during the operation?
+Dialogue: 0,0:55:09.57,0:55:11.57,CHS,,0,0,0,,怎么办？\N{\rENG}Then what?
+Dialogue: 0,0:55:15.59,0:55:17.59,CHS,,0,0,0,,男人就该玩这个\N{\rENG}This is a real man's toy.
+Dialogue: 0,0:55:21.52,0:55:24.52,CHS,,0,0,0,,别怕 从现在开始你的安全\N{\rENG}Don't be afraid. From now on, your safety
+Dialogue: 0,0:55:25.54,0:55:27.54,CHS,,0,0,0,,- 由我来负责  - 冷 谢谢你\N{\rENG}- will be my responsibilty.  - Leng, thank you!
+Dialogue: 0,0:55:27.57,0:55:29.57,CHS,,0,0,0,,- 别客气  - 非常感谢\N{\rENG}- You're welcome.  - Thank you so much!
+Dialogue: 0,0:55:30.59,0:55:32.59,CHS,,0,0,0,,别客气\N{\rENG}You're welcome.
+Dialogue: 0,0:55:32.61,0:55:34.61,CHS,,0,0,0,,谢谢你\N{\rENG}Thank you.
+Dialogue: 0,0:55:35.54,0:55:37.54,CHS,,0,0,0,,小宝贝 这个特别好吃\N{\rENG}Hey, kiddo. It's super yummy
+Dialogue: 0,0:55:37.56,0:55:39.56,CHS,,0,0,0,,试一下\N{\rENG}try this.
+Dialogue: 0,0:55:40.59,0:55:42.59,CHS,,0,0,0,,- 你这孩子  - 没事 干嘛呢你？\N{\rENG}- Hey! You brat!  - I'm fine. What's the big deal?
+Dialogue: 0,0:55:42.61,0:55:44.61,CHS,,0,0,0,,人这孩子挺可爱的\N{\rENG}I think she's kind of cute.
+Dialogue: 0,0:55:45.53,0:55:47.53,CHS,,0,0,0,,好消息\N{\rENG}Good news.
+Dialogue: 0,0:55:47.56,0:55:49.56,CHS,,0,0,0,,樊大使打来的电话 明天上午七点\N{\rENG}Ambassador Fan just called. Tomorrow 07:00 AM,
+Dialogue: 0,0:55:49.58,0:55:51.58,CHS,,0,0,0,,联合国一架救援直升机\N{\rENG}A UN rescue helicopter
+Dialogue: 0,0:55:51.61,0:55:53.61,CHS,,0,0,0,,准时在工厂降落 帮助我们撤离\N{\rENG}will be landing at this factory to evacuate us.
+Dialogue: 0,0:55:53.63,0:55:55.63,CHS,,0,0,0,,一架？\N{\rENG}Just one?
+Dialogue: 0,0:55:59.55,0:56:01.55,CHS,,0,0,0,,各位请注意\N{\rENG}Attention please.
+Dialogue: 0,0:56:01.58,0:56:03.58,CHS,,0,0,0,,所有人\N{\rENG}Everybody.
+Dialogue: 0,0:56:03.60,0:56:06.50,CHS,,0,0,0,,所有人听我说\N{\rENG}Everybody listen to me.
+Dialogue: 0,0:56:07.53,0:56:09.53,CHS,,0,0,0,,大家都安静\N{\rENG}Quiet down everyone.
+Dialogue: 0,0:56:09.55,0:56:14.55,CHS,,0,0,0,,听我说 所有中国人全都站到这一边儿\N{\rENG}Listen to me. All Chinese employees, stand on this side.
+Dialogue: 0,0:56:14.57,0:56:18.57,CHS,,0,0,0,,我们只带中国人 第一批管理层优先\N{\rENG}We are only taking Chinese people. Management goes first.
+Dialogue: 0,0:56:18.60,0:56:20.50,CHS,,0,0,0,,我带大家走\N{\rENG}I will lead the evacuation.
+Dialogue: 0,0:56:20.52,0:56:25.52,CHS,,0,0,0,,明白吗？所有非洲人站在这边\N{\rENG}Is that clear? All the Africans please stand this side, please.
+Dialogue: 0,0:56:25.55,0:56:27.55,CHS,,0,0,0,,明白了吗？\N{\rENG}Clear?
+Dialogue: 0,0:56:27.57,0:56:29.57,CHS,,0,0,0,,哈里\N{\rENG}Harry.
+Dialogue: 0,0:56:29.59,0:56:31.59,CHS,,0,0,0,,- 不 老板  - 拜托\N{\rENG}- No, boss, no.  - Please.
+Dialogue: 0,0:56:31.62,0:56:33.52,CHS,,0,0,0,,开始动起来\N{\rENG}Come on, come on.
+Dialogue: 0,0:56:33.54,0:56:35.54,CHS,,0,0,0,,动起来\N{\rENG}Get moving.
+Dialogue: 0,0:56:37.57,0:56:40.57,CHS,,0,0,0,,还有呢？都往那边去 往那边去\N{\rENG}Anyone else? Come, move. That side. That side.
+Dialogue: 0,0:56:42.59,0:56:44.59,CHS,,0,0,0,,- 你怎么回事啊？ - 俺老婆她怀孕了\N{\rENG}- What are you doing?  - She's my wife. She's pregnant
+Dialogue: 0,0:56:44.62,0:56:44.90,CHS,,0,0,0,,你看看\N{\rENG}Look
+Dialogue: 0,0:56:44.94,0:56:46.61,CHS,,0,0,0,,还有中国人吗？\N{\rENG}Any more Chinese?
+Dialogue: 0,0:56:47.54,0:56:49.54,CHS,,0,0,0,,还有中国人吗？\N{\rENG}Any other Chinese?
+Dialogue: 0,0:56:49.56,0:56:51.56,CHS,,0,0,0,,老林 你给我听好了\N{\rENG}Lin, listen to me.
+Dialogue: 0,0:56:51.59,0:56:53.59,CHS,,0,0,0,,都是我们家员工\N{\rENG}Everyone here is my employee.
+Dialogue: 0,0:56:53.61,0:56:55.61,CHS,,0,0,0,,我都要带走\N{\rENG}I'm taking them all with me.
+Dialogue: 0,0:56:58.53,0:57:00.53,CHS,,0,0,0,,怎么带啊？\N{\rENG}How?
+Dialogue: 0,0:57:03.56,0:57:05.56,CHS,,0,0,0,,别停下来 别停下来\N{\rENG}Come on, come on! Don't stop, get moving.
+Dialogue: 0,0:57:05.58,0:57:07.58,CHS,,0,0,0,,这边是\N{\rENG}Get moving. For this side,
+Dialogue: 0,0:57:07.61,0:57:09.51,CHS,,0,0,0,,非洲同胞\N{\rENG}Fellow African.
+Dialogue: 0,0:57:09.53,0:57:11.53,CHS,,0,0,0,,- 这边是 中国人  - 我老婆嫁给我了\N{\rENG}- Chinese people, this side.  - She married me.
+Dialogue: 0,0:57:11.55,0:57:13.55,CHS,,0,0,0,,就是中国人 我要把她带走\N{\rENG}so she's is one of us.
+Dialogue: 0,0:57:13.58,0:57:14.58,CHS,,0,0,0,,走 走\N{\rENG}Move, move.
+Dialogue: 0,0:57:14.60,0:57:16.60,CHS,,0,0,0,,你…\N{\rENG}You...
+Dialogue: 0,0:57:18.53,0:57:20.53,CHS,,0,0,0,,没事 你就站那吧 这儿挺好\N{\rENG}Fine, stay there. There's perfect.
+Dialogue: 0,0:57:20.55,0:57:23.55,CHS,,0,0,0,,来来来 男士们动一动\N{\rENG}Come on! Come on! Guys, guys please, please move.
+Dialogue: 0,0:57:23.57,0:57:26.57,CHS,,0,0,0,,请站倒那边\N{\rENG}Stand that side, please.
+Dialogue: 0,0:57:26.60,0:57:29.50,CHS,,0,0,0,,非洲同胞们 拜托\N{\rENG}Please, African friends.
+Dialogue: 0,0:57:29.52,0:57:31.52,CHS,,0,0,0,,相信我\N{\rENG}Trust me.
+Dialogue: 0,0:57:36.55,0:57:38.55,CHS,,0,0,0,,来 快一点\N{\rENG}Come on, hurry uo, get moving.
+Dialogue: 0,0:57:38.57,0:57:40.57,CHS,,0,0,0,,- 你滚开 你滚开  - 别碰我\N{\rENG}- You want to be on this side, yeah?  - Fuck off, bro!
+Dialogue: 0,0:57:41.59,0:57:43.59,CHS,,0,0,0,,怎么了？\N{\rENG}What's up?
+Dialogue: 0,0:57:43.62,0:57:45.62,CHS,,0,0,0,,为什么？\N{\rENG}Why?
+Dialogue: 0,0:58:06.54,0:58:08.54,CHS,,0,0,0,,中间给我让出一条线来\N{\rENG}Give a line down the middle.
+Dialogue: 0,0:58:08.57,0:58:11.57,CHS,,0,0,0,,我要看清楚一道分界线\N{\rENG}I want to see a clear boundary line.
+Dialogue: 0,0:58:11.59,0:58:14.59,CHS,,0,0,0,,我要看清楚一道分界线\N{\rENG}Show me the line, please.
+Dialogue: 0,0:58:19.51,0:58:21.51,CHS,,0,0,0,,一道分界线\N{\rENG}I brought the helicopter.
+Dialogue: 0,0:58:22.54,0:58:24.54,CHS,,0,0,0,,大家听我的\N{\rENG}I call the shots.
+Dialogue: 0,0:58:25.56,0:58:27.56,CHS,,0,0,0,,明天大家一起走\N{\rENG}Everyone leaves tomorrow.
+Dialogue: 0,0:58:27.59,0:58:29.59,CHS,,0,0,0,,妇女儿童上飞机\N{\rENG}Children and women leave with the chopper.
+Dialogue: 0,0:58:29.61,0:58:31.61,CHS,,0,0,0,,男人跟我走\N{\rENG}The men will follow me on foot.
+Dialogue: 0,0:58:36.53,0:58:38.53,CHS,,0,0,0,,所有人\N{\rENG}Everybody.
+Dialogue: 0,0:58:40.56,0:58:42.56,CHS,,0,0,0,,我们一起走\N{\rENG}We leave together.
+Dialogue: 0,0:59:11.58,0:59:13.58,CHS,,0,0,0,,老师傅 门口那口袋\N{\rENG}Old timer, the defensive formation out front,
+Dialogue: 0,0:59:13.61,0:59:15.61,CHS,,0,0,0,,您布的吧？\N{\rENG}that was you, right?
+Dialogue: 0,0:59:16.53,0:59:18.53,CHS,,0,0,0,,你也不错\N{\rENG}You're not bad yourself.
+Dialogue: 0,0:59:26.55,0:59:29.55,CHS,,0,0,0,,原中国人民解放军 西南军区十四集团军\N{\rENG}Former People's Liberation Army of China, 14th Corps, South-West region,
+Dialogue: 0,0:59:29.58,0:59:31.58,CHS,,0,0,0,,侦察连连长 何建国\N{\rENG}Recon Company Commander, He JianGuo.
+Dialogue: 0,0:59:32.50,0:59:34.50,CHS,,0,0,0,,原中国人民解放军 东南军区特种作战旅\N{\rENG}Former People's Liberation Army, Special Ops Birgade, South-East region,
+Dialogue: 0,0:59:34.53,0:59:36.53,CHS,,0,0,0,,战狼中队 冷锋\N{\rENG}Wolf Warrior Squadron, Leng Feng.
+Dialogue: 0,0:59:36.55,0:59:38.55,CHS,,0,0,0,,班长好\N{\rENG}At your service.
+Dialogue: 0,0:59:41.57,0:59:43.57,CHS,,0,0,0,,敬班长\N{\rENG}Drink in your honor.
+Dialogue: 0,0:59:55.50,0:59:57.50,CHS,,0,0,0,,这些人一小时前\N{\rENG}An hour ago, these people
+Dialogue: 0,0:59:57.52,0:59:59.52,CHS,,0,0,0,,还不知道能不能活到明天\N{\rENG}didn't know if they'd live to see tomorrow.
+Dialogue: 0,0:59:59.55,1:00:01.55,CHS,,0,0,0,,- 怎么那么开心啊？ - 这帮黑哥们\N{\rENG}- Why are they so happy?  - Our African friends,
+Dialogue: 0,1:00:01.57,1:00:03.57,CHS,,0,0,0,,无论什么战争啊\N{\rENG}it doesn't matter if it's war,
+Dialogue: 0,1:00:03.59,1:00:05.59,CHS,,0,0,0,,瘟疫啊 贫穷啊\N{\rENG}disease or poverty,
+Dialogue: 0,1:00:05.62,1:00:08.52,CHS,,0,0,0,,你只要给他们一堆火 他们立刻就这样\N{\rENG}once they're around the bonfire, all their cares go away.
+Dialogue: 0,1:00:10.54,1:00:12.54,CHS,,0,0,0,,非洲啊 吃的好\N{\rENG}Africa. Great food.
+Dialogue: 0,1:00:13.57,1:00:15.57,CHS,,0,0,0,,景好\N{\rENG}Nice scenery.
+Dialogue: 0,1:00:16.59,1:00:18.59,CHS,,0,0,0,,姑娘好\N{\rENG}Hot women.
+Dialogue: 0,1:00:53.51,1:00:55.51,CHS,,0,0,0,,嘿\N{\rENG}Hey.
+Dialogue: 0,1:00:55.54,1:00:57.54,CHS,,0,0,0,,- 干杯  - 干杯\N{\rENG}- Cheers.  - Cheers.
+Dialogue: 0,1:01:02.56,1:01:04.56,CHS,,0,0,0,,我不愿意一辈子活在我爸的光环之下\N{\rENG}I don't want to ride my father's coat tail all my life.
+Dialogue: 0,1:01:05.59,1:01:07.59,CHS,,0,0,0,,你看看这多好啊\N{\rENG}I love this place!
+Dialogue: 0,1:01:07.61,1:01:09.51,CHS,,0,0,0,,有狮子有鳄鱼\N{\rENG}Lions, crocodiles,
+Dialogue: 0,1:01:09.53,1:01:11.53,CHS,,0,0,0,,有AK 有狙\N{\rENG}AK-47s, sniper rifles,
+Dialogue: 0,1:01:11.56,1:01:14.56,CHS,,0,0,0,,有和平地带一辈子都听不到的炮火之声\N{\rENG}and the melody of gunfire you can't get in a peaceful country.
+Dialogue: 0,1:01:17.58,1:01:19.58,CHS,,0,0,0,,那是这个世界上最美妙的声音\N{\rENG}That's the most wonderful  sound in the world.
+Dialogue: 0,1:01:20.51,1:01:22.51,CHS,,0,0,0,,你知道今天Pasha为什么咬你吗？\N{\rENG}Do you want to know why Pasha bit you today?
+Dialogue: 0,1:01:24.53,1:01:27.13,CHS,,0,0,0,,因为他爸爸就是被你喜欢的AK打死的\N{\rENG}Because her father was killed AK-47s you so adore.
+Dialogue: 0,1:01:31.55,1:01:33.55,CHS,,0,0,0,,如果这个是你\N{\rENG}If this were you,
+Dialogue: 0,1:01:34.58,1:01:37.58,CHS,,0,0,0,,你还觉得美妙吗？\N{\rENG}would you still thinl it's wonderful??
+Dialogue: 0,1:01:59.50,1:02:01.50,CHS,,0,0,0,,天呐 你看\N{\rENG}Oh man, look at this.
+Dialogue: 0,1:02:01.53,1:02:03.53,CHS,,0,0,0,,好大一个晚会\N{\rENG}That's a big party.
+Dialogue: 0,1:02:14.55,1:02:16.55,CHS,,0,0,0,,我太喜欢了\N{\rENG}I love these things.
+Dialogue: 0,1:02:16.57,1:02:18.57,CHS,,0,0,0,,瞧他们的样子\N{\rENG}Look at them.
+Dialogue: 0,1:02:47.50,1:02:48.50,CHS,,0,0,0,,妈的\N{\rENG}Fuck!
+Dialogue: 0,1:02:48.52,1:02:50.52,CHS,,0,0,0,,Pasha\N{\rENG}Pasha!
+Dialogue: 0,1:02:56.55,1:02:58.55,CHS,,0,0,0,,Pasha\N{\rENG}Pasha!
+Dialogue: 0,1:03:15.57,1:03:17.57,CHS,,0,0,0,,妈的\N{\rENG}Shit!
+Dialogue: 0,1:03:29.59,1:03:31.59,CHS,,0,0,0,,放开我\N{\rENG}Let me go!
+Dialogue: 0,1:03:31.62,1:03:34.52,CHS,,0,0,0,,把那个老兵除掉 雅典娜干掉那个老家伙\N{\rENG}Take out the veteran. Athena,take out the old man.
+Dialogue: 0,1:03:40.54,1:03:42.54,CHS,,0,0,0,,待在这儿\N{\rENG}Stay here!
+Dialogue: 0,1:03:46.57,1:03:48.57,CHS,,0,0,0,,放开她\N{\rENG}Let her go!
+Dialogue: 0,1:04:18.59,1:04:20.59,CHS,,0,0,0,,Pasha\N{\rENG}Pasha!
+Dialogue: 0,1:04:23.51,1:04:25.51,CHS,,0,0,0,,我太喜欢他们这个样子了\N{\rENG}Like ants when you lift a rock.
+Dialogue: 0,1:04:32.34,1:04:34.34,CHS,,0,0,0,,妈的\N{\rENG}Fuck!
+Dialogue: 0,1:04:52.56,1:04:54.56,CHS,,0,0,0,,救我\N{\rENG}Help me!
+Dialogue: 0,1:04:54.59,1:04:56.59,CHS,,0,0,0,,我腿受伤了\N{\rENG}They got my leg!
+Dialogue: 0,1:04:57.51,1:04:59.51,CHS,,0,0,0,,你没事儿\N{\rENG}You're fine.
+Dialogue: 0,1:05:07.53,1:05:09.53,CHS,,0,0,0,,妈的\N{\rENG}Shit!
+Dialogue: 0,1:05:09.56,1:05:11.56,CHS,,0,0,0,,走\N{\rENG}Go!
+Dialogue: 0,1:05:13.58,1:05:15.58,CHS,,0,0,0,,走 走\N{\rENG}Go! Go!
+Dialogue: 0,1:06:11.51,1:06:13.51,CHS,,0,0,0,,换弹夹\N{\rENG}I need a reload!
+Dialogue: 0,1:06:15.53,1:06:17.53,CHS,,0,0,0,,走\N{\rENG}Go!
+Dialogue: 0,1:06:27.55,1:06:29.55,CHS,,0,0,0,,你想干什么？\N{\rENG}What are you doing, man?
+Dialogue: 0,1:06:35.58,1:06:37.58,CHS,,0,0,0,,妈的\N{\rENG}Fuck!
+Dialogue: 0,1:06:46.50,1:06:48.50,CHS,,0,0,0,,分头走\N{\rENG}Let's split up!
+Dialogue: 0,1:06:53.53,1:06:55.53,CHS,,0,0,0,,去 去\N{\rENG}Go! Go!
+Dialogue: 0,1:06:59.55,1:07:01.55,CHS,,0,0,0,,妈的\N{\rENG}Damn it.
+Dialogue: 0,1:07:04.57,1:07:06.57,CHS,,0,0,0,,- 来啊  - 快走\N{\rENG}- Come on!  - Let's go!
+Dialogue: 0,1:07:28.50,1:07:30.50,CHS,,0,0,0,,Pasha\N{\rENG}Pasha.
+Dialogue: 0,1:07:31.52,1:07:33.52,CHS,,0,0,0,,Pasha你在哪？\N{\rENG}Pasha, where are you?
+Dialogue: 0,1:07:40.55,1:07:45.05,CHS,,0,0,0,,滚开 臭婆娘\N{\rENG}Move out of the way, bitch!
+Dialogue: 0,1:07:50.57,1:07:52.57,CHS,,0,0,0,,快走\N{\rENG}Run!
+Dialogue: 0,1:08:58.59,1:09:00.59,CHS,,0,0,0,,你已经不是军人了\N{\rENG}We know you're not a soldier anymore.
+Dialogue: 0,1:09:00.62,1:09:03.52,CHS,,0,0,0,,他妈的还那么拼干嘛？\N{\rENG}What the fuck are you fighting for?
+Dialogue: 0,1:09:07.54,1:09:09.54,CHS,,0,0,0,,一朝是战狼\N{\rENG}Once a Wolf Warrior
+Dialogue: 0,1:09:09.57,1:09:11.57,CHS,,0,0,0,,终身是战狼\N{\rENG}always a Wolf Warrior!
+Dialogue: 0,1:09:31.59,1:09:33.59,CHS,,0,0,0,,大熊先锋\N{\rENG}Bear, you're on point.
+Dialogue: 0,1:09:33.61,1:09:37.51,CHS,,0,0,0,,雅典娜封住所有出口 这个混蛋我要定了\N{\rENG}Athena, cover the exit. I want this son of a bitch.
+Dialogue: 0,1:10:15.54,1:10:18.54,CHS,,0,0,0,,C 队发现目标 正在追\N{\rENG}Team Charlie, spotted target. We are in pursuit.
+Dialogue: 0,1:10:19.56,1:10:22.56,CHS,,0,0,0,,头儿 B 队发现目标在前方\N{\rENG}Sir, Team Bravo has target 12 o'clock.
+Dialogue: 0,1:11:16.59,1:11:20.59,CHS,,0,0,0,,妈的 这帮蠢货现在让我们撤退\N{\rENG}What the fuck? Those idiots want us to retreat now?
+Dialogue: 0,1:11:35.51,1:11:37.51,CHS,,0,0,0,,我是奥杜将军\N{\rENG}This is General Actu
+Dialogue: 0,1:11:37.53,1:11:39.53,CHS,,0,0,0,,所有人马上撤离\N{\rENG}everyone return to base.
+Dialogue: 0,1:11:39.56,1:11:41.56,CHS,,0,0,0,,马上撤离\N{\rENG}Return to base.
+Dialogue: 0,1:11:44.58,1:11:48.58,CHS,,0,0,0,,老爹 我他妈命令你立即给我滚回来\N{\rENG}Big Daddy, I'm ordering you to get the fuck back here now!
+Dialogue: 0,1:12:05.51,1:12:07.51,CHS,,0,0,0,,你他妈的在做什么？\N{\rENG}Hey! What the fuck are you doing?
+Dialogue: 0,1:12:07.53,1:12:09.53,CHS,,0,0,0,,我他妈的跟你说了多少遍？\N{\rENG}I told you so many fucking times
+Dialogue: 0,1:12:09.55,1:12:12.55,CHS,,0,0,0,,我们不能杀中国人\N{\rENG}that we cannot kill the Chinese!
+Dialogue: 0,1:12:13.58,1:12:16.58,CHS,,0,0,0,,中国是常任理事国\N{\rENG}China is a permanent member of the UN Security Council.
+Dialogue: 0,1:12:17.50,1:12:20.50,CHS,,0,0,0,,我们夺取政权后还要得到中国的承认\N{\rENG}And I need them on my side if I am to take political power.
+Dialogue: 0,1:12:20.53,1:12:22.53,CHS,,0,0,0,,你他妈个蠢货\N{\rENG}You fucking asshole!
+Dialogue: 0,1:12:30.55,1:12:32.55,CHS,,0,0,0,,杀掉冷 抓到Pasha\N{\rENG}Kill Leng, and find Pasha,
+Dialogue: 0,1:12:32.57,1:12:34.57,CHS,,0,0,0,,你将会是这个国家的主人\N{\rENG}and you'll be the king of this fucking country
+Dialogue: 0,1:12:37.50,1:12:39.50,CHS,,0,0,0,,遵命 主人\N{\rENG}As you comment, sir!
+Dialogue: 0,1:12:48.52,1:12:50.52,CHS,,0,0,0,,- 等等  - 冷锋\N{\rENG}- Hold it!  - Leng Feng!
+Dialogue: 0,1:12:54.55,1:12:56.55,CHS,,0,0,0,,你到底什么人？\N{\rENG}Who are you?
+Dialogue: 0,1:13:00.57,1:13:02.57,CHS,,0,0,0,,- 刚一起打完仗你干嘛呢？ - 凡哥\N{\rENG}We just fought a battle together, what's your deal?  - Brither Fan
+Dialogue: 0,1:13:03.59,1:13:05.59,CHS,,0,0,0,,咱们这本来很安全\N{\rENG}we were pretty safe before he got here.
+Dialogue: 0,1:13:05.62,1:13:07.62,CHS,,0,0,0,,他一来了反叛军就来了\N{\rENG}Ever wonder why the rebels show up
+Dialogue: 0,1:13:07.64,1:13:09.54,CHS,,0,0,0,,你们不觉得很奇怪吗？\N{\rENG}after he got here?
+Dialogue: 0,1:13:09.57,1:13:11.57,CHS,,0,0,0,,他是我儿子的朋友\N{\rENG}He's a friend of my son.
+Dialogue: 0,1:13:11.59,1:13:13.59,CHS,,0,0,0,,他是来接我的\N{\rENG}He came here for me.
+Dialogue: 0,1:13:13.61,1:13:16.51,CHS,,0,0,0,,- 你之前见过他吗？ - 我孩子天天都提起他\N{\rENG}- Have you met him before?  - My son always talks about him.
+Dialogue: 0,1:13:17.54,1:13:19.54,CHS,,0,0,0,,那又怎样？\N{\rENG}So?
+Dialogue: 0,1:13:19.56,1:13:23.56,CHS,,0,0,0,,我相信他 他今天上午在医院就救过我和Pasha\N{\rENG}I trust him! He rescued Pasha and me earlier today at the hospital
+Dialogue: 0,1:13:23.59,1:13:25.59,CHS,,0,0,0,,之后他也一直在保护我们\N{\rENG}He's been protecting us ever since.
+Dialogue: 0,1:13:25.61,1:13:27.51,CHS,,0,0,0,,如果我没理解错的话\N{\rENG}Let me get this straight.
+Dialogue: 0,1:13:27.53,1:13:30.53,CHS,,0,0,0,,你见他的时候正是你的朋友陈博士死的时候\N{\rENG}You met him the same time your doctor friend died?
+Dialogue: 0,1:13:30.56,1:13:34.56,CHS,,0,0,0,,他一出现就开始死人 而他自己却什么事都没有\N{\rENG}People are getting killed around him, while he's unscathed.
+Dialogue: 0,1:13:35.58,1:13:37.58,CHS,,0,0,0,,朋友 你自己说说吧？\N{\rENG}Friend, speak for yourself.
+Dialogue: 0,1:13:39.51,1:13:41.51,CHS,,0,0,0,,别拦着我\N{\rENG}get off me!
+Dialogue: 0,1:13:54.53,1:13:56.53,CHS,,0,0,0,,- 拉曼拉  - 拉曼拉？\N{\rENG}- Lamanla (Virus).  - Lamanla?
+Dialogue: 0,1:13:57.55,1:13:59.55,CHS,,0,0,0,,他得了拉曼拉\N{\rENG}He has Lamanla!
+Dialogue: 0,1:14:02.58,1:14:04.58,CHS,,0,0,0,,老林 他是我朋友\N{\rENG}Lin! He's my friend.
+Dialogue: 0,1:14:07.50,1:14:09.50,CHS,,0,0,0,,他刚才救了我的命\N{\rENG}He just saved my life.
+Dialogue: 0,1:14:10.53,1:14:12.53,CHS,,0,0,0,,他 他们怎么办？\N{\rENG}What about them?
+Dialogue: 0,1:14:13.55,1:14:15.55,CHS,,0,0,0,,他们怎么办 上个月\N{\rENG}What about them? Last month,
+Dialogue: 0,1:14:15.57,1:14:17.57,CHS,,0,0,0,,十公里之外的通讯中心\N{\rENG}The comms center10 km away,
+Dialogue: 0,1:14:17.60,1:14:21.50,CHS,,0,0,0,,一个人得了拉曼拉 最后全厂都他妈死绝了\N{\rENG}one person got Lamanla. In the end, the whole place was wiped out.
+Dialogue: 0,1:14:21.52,1:14:23.52,CHS,,0,0,0,,这可是整厂人的性命啊\N{\rENG}Everyone's life is at stake here.
+Dialogue: 0,1:14:24.55,1:14:26.55,CHS,,0,0,0,,我说的这些话并不是我一个人的意思\N{\rENG}look , it is not just my opinion.
+Dialogue: 0,1:14:27.57,1:14:29.57,CHS,,0,0,0,,不信你可以问他们\N{\rENG}Ask them yourself.
+Dialogue: 0,1:14:41.59,1:14:43.59,CHS,,0,0,0,,我走\N{\rENG}I'll leave.
+Dialogue: 0,1:14:47.52,1:14:49.52,CHS,,0,0,0,,等等\N{\rENG}Wait.
+Dialogue: 0,1:14:51.54,1:14:54.54,CHS,,0,0,0,,你们知道所有得了拉曼拉病毒的人都会很快死去\N{\rENG}You all know what will happen to someone infected with Lamanla.
+Dialogue: 0,1:14:56.57,1:14:58.57,CHS,,0,0,0,,我希望你们永远记得\N{\rENG}I hope you'll always remember
+Dialogue: 0,1:14:59.59,1:15:02.59,CHS,,0,0,0,,这将死的人救了你们所有人\N{\rENG}this dying man saved all of you.
+Dialogue: 0,1:15:02.61,1:15:04.51,CHS,,0,0,0,,你真可耻\N{\rENG}Shame on you!
+Dialogue: 0,1:15:04.54,1:15:06.54,CHS,,0,0,0,,你们所有人都可耻\N{\rENG}Shame on all of you!
+Dialogue: 0,1:15:58.59,1:16:00.59,CHS,,0,0,0,,冷锋\N{\rENG}Leng Feng!
+Dialogue: 0,1:16:00.61,1:16:02.61,CHS,,0,0,0,,冷锋\N{\rENG}Leng Feng!
+Dialogue: 0,1:16:02.63,1:16:04.63,CHS,,0,0,0,,冷锋\N{\rENG}Leng Feng!
+Dialogue: 0,1:16:36.56,1:16:38.56,CHS,,0,0,0,,- 你开枪有多大把握  - 百分之五十\N{\rENG}- How confident are you with a gun?  - So-50%
+Dialogue: 0,1:16:38.58,1:16:41.58,CHS,,0,0,0,,在我这儿没有那百分之五十\N{\rENG}There's no place in my team for so-50%.
+Dialogue: 0,1:16:43.51,1:16:45.51,CHS,,0,0,0,,您是想让我酒后吐真言呐\N{\rENG}Trying to get me drunk so I blurt out the truth?
+Dialogue: 0,1:16:45.53,1:16:47.53,CHS,,0,0,0,,你会吐真言吗？\N{\rENG}Will you blurt out the truth?
+Dialogue: 0,1:16:47.55,1:16:49.55,CHS,,0,0,0,,会\N{\rENG}Certainly.
+Dialogue: 0,1:16:53.58,1:16:55.58,CHS,,0,0,0,,你喝醉了啥样？\N{\rENG}What are you like when you're drunk?
+Dialogue: 0,1:16:55.60,1:16:57.60,CHS,,0,0,0,,我等你回来请我喝酒\N{\rENG}I'll let you buy me drinks when you come back.
+Dialogue: 0,1:17:03.53,1:17:05.53,CHS,,0,0,0,,你没回来\N{\rENG}You're the one who didn't come back.
+Dialogue: 0,1:17:09.55,1:17:11.55,CHS,,0,0,0,,你回来\N{\rENG}Come back to bed.
+Dialogue: 0,1:17:11.57,1:17:13.57,CHS,,0,0,0,,别闹\N{\rENG}Cut it out.
+Dialogue: 0,1:17:22.50,1:17:24.50,CHS,,0,0,0,,希望我回来的时候\N{\rENG}When I get back
+Dialogue: 0,1:17:24.52,1:17:26.52,CHS,,0,0,0,,你能在这个文件上签字\N{\rENG}this had better be signed.
+Dialogue: 0,1:17:40.55,1:17:42.55,CHS,,0,0,0,,冲上去被打死很容易\N{\rENG}It's an easy death when you're on the attack.
+Dialogue: 0,1:17:44.57,1:17:47.57,CHS,,0,0,0,,难的是背负着内疚和使命感继续活下去\N{\rENG}but it's a hard life carrying a survivor's guilt.
+Dialogue: 0,1:17:56.59,1:17:58.59,CHS,,0,0,0,,是你没回来\N{\rENG}But you didn't come back.
+Dialogue: 0,1:17:59.52,1:18:01.52,CHS,,0,0,0,,你没回来\N{\rENG}It's you who didn't come back.
+Dialogue: 0,1:18:02.54,1:18:04.54,CHS,,0,0,0,,你没回来\N{\rENG}You didn't come back.
+Dialogue: 0,1:18:22.57,1:18:24.57,CHS,,0,0,0,,到底是谁？\N{\rENG}Against who?
+Dialogue: 0,1:18:24.59,1:18:26.59,CHS,,0,0,0,,昨天跟我们交的手\N{\rENG}Who were we fighting yesterday?
+Dialogue: 0,1:18:39.51,1:18:41.51,CHS,,0,0,0,,你妈妈没告诉你？\N{\rENG}Didn't your mom tell you that
+Dialogue: 0,1:18:41.54,1:18:43.54,CHS,,0,0,0,,小孩子不要玩枪吗？\N{\rENG}you shouldn't play with a gun?
+Dialogue: 0,1:18:47.56,1:18:49.56,CHS,,0,0,0,,冷\N{\rENG}Leng!
+Dialogue: 0,1:18:50.59,1:18:52.59,CHS,,0,0,0,,就是冷 就是他一个人\N{\rENG}That was Leng, only him alone.
+Dialogue: 0,1:18:54.51,1:18:56.51,CHS,,0,0,0,,是我\N{\rENG}It was me!
+Dialogue: 0,1:18:58.53,1:19:01.53,CHS,,0,0,0,,我在这工作之前是个军人\N{\rENG}I was in the military before I worked here.
+Dialogue: 0,1:19:01.56,1:19:03.56,CHS,,0,0,0,,你看看其他人\N{\rENG}Does anyone here
+Dialogue: 0,1:19:03.58,1:19:05.58,CHS,,0,0,0,,像会开枪射击的样子吗？\N{\rENG}look like they can shoot?
+Dialogue: 0,1:19:05.61,1:19:07.61,CHS,,0,0,0,,好啊\N{\rENG}Okay.
+Dialogue: 0,1:19:29.53,1:19:31.53,CHS,,0,0,0,,你醒了\N{\rENG}You're up.
+Dialogue: 0,1:19:34.55,1:19:37.55,CHS,,0,0,0,,可惜陈博士没有看到这一幕\N{\rENG}It's a shame Dr. Chen didn't live to see this.
+Dialogue: 0,1:19:37.58,1:19:40.58,CHS,,0,0,0,,他是全世界唯一发现自愈活体的专家\N{\rENG}He discovered the presence of self-healing properties in humans.
+Dialogue: 0,1:19:40.60,1:19:44.50,CHS,,0,0,0,,陈博士发现有极少数人体内有抵抗拉曼拉的抗体\N{\rENG}In extreme rare cases, Lamanla antibodies can be found in patients.
+Dialogue: 0,1:19:44.53,1:19:48.53,CHS,,0,0,0,,在他无数次和拉曼拉患者的治疗过程中\N{\rENG}Among the thousands of Lamanla patients he treated
+Dialogue: 0,1:19:48.55,1:19:50.55,CHS,,0,0,0,,他偶然发现了一个自愈活体的实例\N{\rENG}He chanced upon one such person
+Dialogue: 0,1:19:51.57,1:19:53.57,CHS,,0,0,0,,而这个自愈活体就是Pasha\N{\rENG}And that person is Pasha.
+Dialogue: 0,1:19:54.50,1:19:57.50,CHS,,0,0,0,,她不是陈博士的女儿 是他的病人\N{\rENG}So Pasha's not his daughter, but his patient.
+Dialogue: 0,1:19:57.52,1:20:00.52,CHS,,0,0,0,,陈博士通过对Pasha血液成分的分析和萃取\N{\rENG}From the analysis of Pasha's blood
+Dialogue: 0,1:20:00.55,1:20:03.55,CHS,,0,0,0,,刚刚研制出一种新药\N{\rENG}he created an experimental vaccine.
+Dialogue: 0,1:20:03.57,1:20:05.57,CHS,,0,0,0,,昨天晚上因为情况紧急\N{\rENG}Last night was a dire situation,
+Dialogue: 0,1:20:05.59,1:20:08.59,CHS,,0,0,0,,我只能在你身上做了一个陈博士曾经设想\N{\rENG}so I experimented on you, what Dr. Chen was planning to do.
+Dialogue: 0,1:20:08.62,1:20:11.52,CHS,,0,0,0,,但是还没来得及做的活体实验\N{\rENG}The first human trial that he was hoping for
+Dialogue: 0,1:20:11.54,1:20:14.54,CHS,,0,0,0,,我把陈博士的新药注射到了你的身上\N{\rENG}Injecting you with Dr. Chen's newly synthesized vaccine immunogens
+Dialogue: 0,1:20:15.57,1:20:17.57,CHS,,0,0,0,,说实话\N{\rENG}Honestly speaking,
+Dialogue: 0,1:20:17.59,1:20:19.59,CHS,,0,0,0,,那个时候我真不知道会发生什么\N{\rENG}I didn't know what would happen.
+Dialogue: 0,1:20:22.51,1:20:24.51,CHS,,0,0,0,,幸运的是\N{\rENG}Luckily
+Dialogue: 0,1:20:24.54,1:20:26.54,CHS,,0,0,0,,上帝站在我们这边\N{\rENG}God was on your side.
+Dialogue: 0,1:20:33.56,1:20:38.56,CHS,,0,0,0,,这个国家人民看到政府对病毒的无能为力极度失望\N{\rENG}The population has lost faith in the government to contain the outbreak.
+Dialogue: 0,1:20:38.59,1:20:40.59,CHS,,0,0,0,,所以 谁得到Pasha\N{\rENG}So, whoever takes Pasha
+Dialogue: 0,1:20:40.61,1:20:42.51,CHS,,0,0,0,,谁就能轻易的掌控这个国家\N{\rENG}takes the country easily.
+Dialogue: 0,1:20:42.53,1:20:45.53,CHS,,0,0,0,,怪不得反政府军一直往追杀我们\N{\rENG}That explains why the rebel army is hot on our heels.
+Dialogue: 0,1:21:07.56,1:21:10.56,CHS,,0,0,0,,我爸爸说十万年前人类走出非洲\N{\rENG}My dad said man walked out of Africa 100.000 years ago.
+Dialogue: 0,1:21:10.58,1:21:13.58,CHS,,0,0,0,,非洲是现代文明的摇篮\N{\rENG}Africa is the cradle of modern civilization.
+Dialogue: 0,1:21:13.61,1:21:16.51,CHS,,0,0,0,,可是当自诩文明的人们再次来到非洲\N{\rENG}Yet when the "evolved, civilized" humans returned to this land,
+Dialogue: 0,1:21:16.53,1:21:18.53,CHS,,0,0,0,,带来的却是苦难\N{\rENG}they brought along with them nothing but suffering,
+Dialogue: 0,1:21:18.55,1:21:20.55,CHS,,0,0,0,,奴役 疾病和战争\N{\rENG}slavery, disease and war.
+Dialogue: 0,1:21:21.58,1:21:25.58,CHS,,0,0,0,,韩国人 冰岛人 斯拉夫人\N{\rENG}Koreans, Icelanders, Slavs,
+Dialogue: 0,1:21:25.60,1:21:27.50,CHS,,0,0,0,,美国人\N{\rENG}Americans
+Dialogue: 0,1:21:27.53,1:21:30.53,CHS,,0,0,0,,那些是中国人 他们都是来自世界各地的\N{\rENG}and over there are Chinese. People from all over the world,
+Dialogue: 0,1:21:30.55,1:21:32.55,CHS,,0,0,0,,像我爸爸一样的人\N{\rENG}people like my father.
+Dialogue: 0,1:21:33.57,1:21:35.57,CHS,,0,0,0,,为了非洲\N{\rENG}For Africa
+Dialogue: 0,1:21:35.60,1:21:38.50,CHS,,0,0,0,,他们付出了自己的青春\N{\rENG}they gave their best years.
+Dialogue: 0,1:21:38.52,1:21:40.52,CHS,,0,0,0,,到最后\N{\rENG}In the end,
+Dialogue: 0,1:21:40.55,1:21:43.55,CHS,,0,0,0,,把自己永远地留在这片土地\N{\rENG}they got to remain here for eternity.
+Dialogue: 0,1:21:54.57,1:21:56.57,CHS,,0,0,0,,她叫什么名字\N{\rENG}What's her name?
+Dialogue: 0,1:21:56.59,1:21:58.59,CHS,,0,0,0,,嗯？\N{\rENG}Huh?
+Dialogue: 0,1:21:58.62,1:22:00.62,CHS,,0,0,0,,那个你忘不了的人\N{\rENG}The person you can't seem to forget.
+Dialogue: 0,1:22:04.54,1:22:06.54,CHS,,0,0,0,,龙小云\N{\rENG}Long XiaoYun.
+Dialogue: 0,1:22:09.57,1:22:11.57,CHS,,0,0,0,,她好幸运\N{\rENG}She's lucky
+Dialogue: 0,1:22:12.59,1:22:14.59,CHS,,0,0,0,,有一个这么爱她的男人\N{\rENG}to have a man that loves her so much.
+Dialogue: 0,1:22:15.51,1:22:17.51,CHS,,0,0,0,,她为什么没有回来呢？\N{\rENG}Why didn't she come back?
+Dialogue: 0,1:22:28.54,1:22:30.54,CHS,,0,0,0,,对不起\N{\rENG}Sorry.
+Dialogue: 0,1:22:49.56,1:22:52.56,CHS,,0,0,0,,把他们当作饺子给我包起来 让他们以为是安全的 明白吗？\N{\rENG}I want you to round 'em up like cattle. Make 'em feel safe. You understand me?
+Dialogue: 0,1:22:52.59,1:22:54.59,CHS,,0,0,0,,收到\N{\rENG}Yes, sir.
+Dialogue: 0,1:23:04.51,1:23:06.51,CHS,,0,0,0,,东边是山区\N{\rENG}We got mountains to the west,
+Dialogue: 0,1:23:06.53,1:23:10.53,CHS,,0,0,0,,西边是雨林 如果他够聪明 就会来这等直升机\N{\rENG}we got forests to the east. The only smart place for them to come is right here and wait for the rescue helicopter.
+Dialogue: 0,1:23:11.56,1:23:13.56,CHS,,0,0,0,,中国佬 你可别死\N{\rENG}I sure hope these Chinese people don't die.
+Dialogue: 0,1:23:14.58,1:23:16.58,CHS,,0,0,0,,能救你的只有我了\N{\rENG}I'm about the only thing that can save them right now.
+Dialogue: 0,1:23:22.51,1:23:24.51,CHS,,0,0,0,,全体集合\N{\rENG}Round 'em up.
+Dialogue: 0,1:23:24.53,1:23:27.53,CHS,,0,0,0,,所有人准备出发 出发 出发 出发 出发\N{\rENG}Everybody, let's go! Let's go! Move, move, move!
+Dialogue: 0,1:23:42.55,1:23:44.55,CHS,,0,0,0,,等我他妈出去了\N{\rENG}Wait till I get out of here,
+Dialogue: 0,1:23:44.58,1:23:46.58,CHS,,0,0,0,,我他妈绝对不会放过这帮孙子\N{\rENG}I'm going to settle the score with them.
+Dialogue: 0,1:23:47.50,1:23:49.50,CHS,,0,0,0,,凡哥\N{\rENG}Brother Fan,
+Dialogue: 0,1:23:49.53,1:23:51.53,CHS,,0,0,0,,别他妈吹牛逼了\N{\rENG}cut the fucking bullshit.
+Dialogue: 0,1:23:52.55,1:23:54.55,CHS,,0,0,0,,怎么出去啊？\N{\rENG}How are we going to get out?
+Dialogue: 0,1:23:55.57,1:23:58.57,CHS,,0,0,0,,再说了 您出去能干什么呀？\N{\rENG}And besides, what are you planning to do?
+Dialogue: 0,1:23:58.60,1:24:00.50,CHS,,0,0,0,,您会什么呀？\N{\rENG}What can you even do?
+Dialogue: 0,1:24:00.52,1:24:02.52,CHS,,0,0,0,,凡哥\N{\rENG}Brother Fan,
+Dialogue: 0,1:24:02.55,1:24:04.55,CHS,,0,0,0,,平时我们都让着你\N{\rENG}in normal times, everyone gives in to you.
+Dialogue: 0,1:24:05.57,1:24:09.57,CHS,,0,0,0,,打起仗来 没人会让着我们\N{\rENG}In battle, no one will be giving in to us.
+Dialogue: 0,1:24:09.59,1:24:11.59,CHS,,0,0,0,,给我闭嘴\N{\rENG}Shut the fuck up!
+Dialogue: 0,1:25:23.52,1:25:25.52,CHS,,0,0,0,,去死吧\N{\rENG}Go to hell!
+Dialogue: 0,1:25:44.54,1:25:46.54,CHS,,0,0,0,,撑得住吗？\N{\rENG}Brother, how are you holding up?
+Dialogue: 0,1:25:46.57,1:25:48.57,CHS,,0,0,0,,比以前差远了\N{\rENG}Not as well as back in the day.
+Dialogue: 0,1:25:53.59,1:25:56.59,CHS,,0,0,0,,你的手是用来救人的 不是用来杀人的\N{\rENG}Your hands are for saving lives not taking lives.
+Dialogue: 0,1:26:14.51,1:26:16.51,CHS,,0,0,0,,这种仗战狼会怎么打\N{\rENG}How would Wolf Warriors fight this battle?
+Dialogue: 0,1:27:00.54,1:27:02.54,CHS,,0,0,0,,走\N{\rENG}Go!
+Dialogue: 0,1:27:05.56,1:27:07.56,CHS,,0,0,0,,走\N{\rENG}Go!
+Dialogue: 0,1:28:27.59,1:28:31.59,CHS,,0,0,0,,你妈妈没告诉你小孩子不要玩枪吗？\N{\rENG}Didn't your mom tell you not to play with weap?
+Dialogue: 0,1:28:37.51,1:28:39.51,CHS,,0,0,0,,你妈没告诉你别欺负熊孩子吗？\N{\rENG}Didn't your mom tell you not to fuck with spoiled brats?
+Dialogue: 0,1:28:39.53,1:28:41.53,CHS,,0,0,0,,走啦\N{\rENG}Let's go!
+Dialogue: 0,1:29:05.56,1:29:07.56,CHS,,0,0,0,,这就是雇拥军与反叛军屠杀我国侨民的证据\N{\rENG}Here's evidence of the rebel  army killing our citizens.
+Dialogue: 0,1:29:07.58,1:29:10.58,CHS,,0,0,0,,收到 我们马上把资料汇总\N{\rENG}Transmission received. We will gather up all the information,
+Dialogue: 0,1:29:10.61,1:29:12.61,CHS,,0,0,0,,让樊大使尽快递交联合国\N{\rENG}and have Ambassador Fan submit it to the UN.
+Dialogue: 0,1:29:13.53,1:29:14.53,CHS,,0,0,0,,明白\N{\rENG}Copy that.
+Dialogue: 0,1:29:14.55,1:29:18.55,CHS,,0,0,0,,另外 当地政府已经向我国正式请求军事援助\N{\rENG}oh and one more thing. The local government has critically requested for our military assistance
+Dialogue: 0,1:29:18.58,1:29:21.58,CHS,,0,0,0,,直升机马上就到\N{\rENG}The chopper will arrive shortly
+Dialogue: 0,1:29:21.60,1:29:23.60,CHS,,0,0,0,,- 我们等你回家  - 好\N{\rENG}- We're waiting for you.  - Copy that!
+Dialogue: 0,1:29:39.55,1:29:43.55,CHS,,0,0,0,,- 你赶紧上飞机  - 还有很多人需要我帮助\N{\rENG}- Get on the chopper  - There're a lot of people here who still need me.
+Dialogue: 0,1:29:44.57,1:29:46.57,CHS,,0,0,0,,林志雄\N{\rENG}Lin Zhi Xiong!
+Dialogue: 0,1:29:48.50,1:29:52.50,CHS,,0,0,0,,- 女人孩子都得上飞机  - 在这里我不是女人我是医生\N{\rENG}- Women and childern must get on the chopper.  - Right now I'm not a woman. I'm a doctor
+Dialogue: 0,1:29:52.52,1:29:54.52,CHS,,0,0,0,,论救援 我比你专业\N{\rENG}The more professional than you when it comes to saving lives.
+Dialogue: 0,1:29:54.55,1:29:56.55,CHS,,0,0,0,,论保护人我比你专业\N{\rENG}But I'm more professional than you in protecting lives!
+Dialogue: 0,1:29:57.57,1:29:59.57,CHS,,0,0,0,,Pasha 你准备好坐直升机了吗？\N{\rENG}Pasha, are you ready to get on the helicopter?
+Dialogue: 0,1:30:00.59,1:30:02.59,CHS,,0,0,0,,递一些纱布给我\N{\rENG}Can you pass me some gauze please?
+Dialogue: 0,1:30:04.52,1:30:06.52,CHS,,0,0,0,,快上直升机\N{\rENG}Get on the helicopter.
+Dialogue: 0,1:30:06.54,1:30:09.54,CHS,,0,0,0,,你别给我添乱 好不好？\N{\rENG}Don't be difficult, okay?
+Dialogue: 0,1:30:09.57,1:30:12.57,CHS,,0,0,0,,- 让一下？ - 让什么让\N{\rENG}- Excuse me?  - Excuse you my ass!
+Dialogue: 0,1:30:48.59,1:30:50.59,CHS,,0,0,0,,发生什么事了\N{\rENG}Whoa, what was that?
+Dialogue: 0,1:30:52.51,1:30:54.51,CHS,,0,0,0,,求救 求救\N{\rENG}Mayday! Mayday!
+Dialogue: 0,1:30:54.54,1:30:56.54,CHS,,0,0,0,,我们被袭击 失去尾旋翼\N{\rENG}Missile strike! Tail rotor lost!
+Dialogue: 0,1:30:56.56,1:30:58.56,CHS,,0,0,0,,我还能控制 硬着陆\N{\rENG}I have control. Going down!
+Dialogue: 0,1:30:58.59,1:31:00.59,CHS,,0,0,0,,求救 求救\N{\rENG}Mayday! Mayday!
+Dialogue: 0,1:31:02.51,1:31:04.51,CHS,,0,0,0,,准备迫降\N{\rENG}Brace! Brace!
+Dialogue: 0,1:31:41.53,1:31:43.53,CHS,,0,0,0,,- 走 走  - 走\N{\rENG}- Go! Go!  - Go!
+Dialogue: 0,1:31:44.56,1:31:46.56,CHS,,0,0,0,,快跑\N{\rENG}Run!
+Dialogue: 0,1:32:02.58,1:32:04.58,CHS,,0,0,0,,老库房\N{\rENG}To the bunker!
+Dialogue: 0,1:32:04.61,1:32:06.61,CHS,,0,0,0,,快\N{\rENG}Hurry!
+Dialogue: 0,1:32:11.53,1:32:13.53,CHS,,0,0,0,,Rachel\N{\rENG}Rachel!
+Dialogue: 0,1:32:15.55,1:32:17.55,CHS,,0,0,0,,醒醒\N{\rENG}Wake up!
+Dialogue: 0,1:32:21.58,1:32:23.58,CHS,,0,0,0,,醒醒\N{\rENG}Come on! Come on!
+Dialogue: 0,1:32:39.50,1:32:41.50,CHS,,0,0,0,,Rachel\N{\rENG}Rachel!
+Dialogue: 0,1:32:52.53,1:32:54.53,CHS,,0,0,0,,去找老何\N{\rENG}Go find LaoHe!
+Dialogue: 0,1:33:22.55,1:33:24.55,CHS,,0,0,0,,起身 快点\N{\rENG}Get up! Come on!
+Dialogue: 0,1:33:30.57,1:33:32.57,CHS,,0,0,0,,妈的\N{\rENG}Fuck!
+Dialogue: 0,1:33:33.50,1:33:35.50,CHS,,0,0,0,,快进老库房\N{\rENG}Get to the bunker!
+Dialogue: 0,1:33:59.52,1:34:01.52,CHS,,0,0,0,,走 快 走\N{\rENG}Go! Quickly! Go!
+Dialogue: 0,1:34:01.55,1:34:03.55,CHS,,0,0,0,,走 快\N{\rENG}Go! Quickly!
+Dialogue: 0,1:34:22.57,1:34:24.57,CHS,,0,0,0,,准备\N{\rENG}Get ready!
+Dialogue: 0,1:34:35.59,1:34:37.59,CHS,,0,0,0,,开炮\N{\rENG}Fire!
+Dialogue: 0,1:34:38.52,1:34:40.52,CHS,,0,0,0,,把那个家伙干掉\N{\rENG}Kill that motherfucker!
+Dialogue: 0,1:34:42.54,1:34:44.54,CHS,,0,0,0,,装弹\N{\rENG}Reload!
+Dialogue: 0,1:34:49.57,1:34:51.57,CHS,,0,0,0,,我瞄不到\N{\rENG}I can't aim.
+Dialogue: 0,1:34:51.59,1:34:53.59,CHS,,0,0,0,,- 这么重  - 找死啊\N{\rENG}- This thing's so heavy!  - You wanna die!?
+Dialogue: 0,1:34:54.51,1:34:56.51,CHS,,0,0,0,,引信一碰 都得死\N{\rENG}Trigger that fuse and it'll kill us all!
+Dialogue: 0,1:35:12.54,1:35:14.54,CHS,,0,0,0,,开炮\N{\rENG}Fire!
+Dialogue: 0,1:35:58.56,1:36:00.56,CHS,,0,0,0,,哦 好极了\N{\rENG}Oh, check it.
+Dialogue: 0,1:36:03.59,1:36:05.59,CHS,,0,0,0,,下三杠\N{\rENG}Three clicks down.
+Dialogue: 0,1:36:13.51,1:36:15.51,CHS,,0,0,0,,发炮\N{\rENG}Fire!
+Dialogue: 0,1:36:58.53,1:37:00.53,CHS,,0,0,0,,他们找到老库房了\N{\rENG}They found the bunker!
+Dialogue: 0,1:37:03.56,1:37:05.56,CHS,,0,0,0,,目标 左摇\N{\rENG}I got it! I got it! To the left.
+Dialogue: 0,1:37:05.58,1:37:07.58,CHS,,0,0,0,,- 收到  - 装弹\N{\rENG}- Copy that.  - Reload!
+Dialogue: 0,1:37:07.61,1:37:09.61,CHS,,0,0,0,,没弹了\N{\rENG}We're out!
+Dialogue: 0,1:37:19.53,1:37:21.53,CHS,,0,0,0,,抓稳了\N{\rENG}Hang on!
+Dialogue: 0,1:37:28.55,1:37:30.55,CHS,,0,0,0,,开炮\N{\rENG}Fire!
+Dialogue: 0,1:38:25.58,1:38:27.58,CHS,,0,0,0,,狗娘养的\N{\rENG}Son of a bitch!
+Dialogue: 0,1:38:47.50,1:38:50.50,CHS,,0,0,0,,妈的 坦克启动\N{\rENG}Fuck! Move this fucking thing.
+Dialogue: 0,1:39:05.53,1:39:07.53,CHS,,0,0,0,,快点\N{\rENG}Come on! Come on!
+Dialogue: 0,1:39:10.55,1:39:12.55,CHS,,0,0,0,,好\N{\rENG}Good, good, good.
+Dialogue: 0,1:39:43.57,1:39:45.57,CHS,,0,0,0,,妈的\N{\rENG}Fuck!
+Dialogue: 0,1:39:48.50,1:39:51.50,CHS,,0,0,0,,看来中国人没有我想的那么懦弱\N{\rENG}I guess the Chinese military ain't as lame as I thought.
+Dialogue: 0,1:39:51.52,1:39:53.52,CHS,,0,0,0,,你少废话\N{\rENG}Cut the crap.
+Dialogue: 0,1:40:00.55,1:40:02.55,CHS,,0,0,0,,走\N{\rENG}Go!
+Dialogue: 0,1:40:02.57,1:40:04.57,CHS,,0,0,0,,走\N{\rENG}Go!
+Dialogue: 0,1:40:29.59,1:40:31.59,CHS,,0,0,0,,快走\N{\rENG}Hurry!
+Dialogue: 0,1:43:49.52,1:43:51.52,CHS,,0,0,0,,不要出来\N{\rENG}Don't come out!
+Dialogue: 0,1:43:56.54,1:43:58.54,CHS,,0,0,0,,立即搜索信号 确定目标位置\N{\rENG}Track the signals and verify targets positions!
+Dialogue: 0,1:44:24.57,1:44:26.57,CHS,,0,0,0,,干爹\N{\rENG}Godfather!
+Dialogue: 0,1:44:26.59,1:44:30.59,CHS,,0,0,0,,妈妈\N{\rENG}Mom!
+Dialogue: 0,1:45:17.51,1:45:20.51,CHS,,0,0,0,,- 报告 手机位置锁定  - 报告 目标锁定\N{\rENG}- Sir, we have triangulated on the phone's position!  - Sir, targets locked on!
+Dialogue: 0,1:45:56.54,1:45:59.54,CHS,,0,0,0,,- 报告 我们得到上级命令  - 开火\N{\rENG}- Sir, we recieved orders from COMMAND!  - Fire!
+Dialogue: 0,1:48:14.56,1:48:16.56,CHS,,0,0,0,,现在是私人账\N{\rENG}Now it's personal.
+Dialogue: 0,1:48:20.59,1:48:22.59,CHS,,0,0,0,,龙小云\N{\rENG}Long XiaoYun.
+Dialogue: 0,1:48:29.51,1:48:31.51,CHS,,0,0,0,,那是你女人\N{\rENG}Is that your girl?
+Dialogue: 0,1:48:32.53,1:48:34.53,CHS,,0,0,0,,长得很漂亮\N{\rENG}She's pretty.
+Dialogue: 0,1:48:34.56,1:48:36.56,CHS,,0,0,0,,血债… 血偿\N{\rENG}Blood... for blood.
+Dialogue: 0,1:50:32.58,1:50:34.58,CHS,,0,0,0,,别打了\N{\rENG}Please don't fight!
+Dialogue: 0,1:50:38.51,1:50:40.51,CHS,,0,0,0,,你看她们\N{\rENG}Look at them.
+Dialogue: 0,1:50:42.53,1:50:45.53,CHS,,0,0,0,,没错 你将会为这些人而死\N{\rENG}You're gonna die for this people.
+Dialogue: 0,1:50:51.55,1:50:54.55,CHS,,0,0,0,,我就是为他们而生的\N{\rENG}I was born for them.
+Dialogue: 0,1:50:58.58,1:51:02.58,CHS,,0,0,0,,这个世界只有强者和弱者 你们这种劣等民族永远属于弱者\N{\rENG}People like you will always be inferior to people like me
+Dialogue: 0,1:51:02.60,1:51:05.50,CHS,,0,0,0,,你要习惯 你必须习惯\N{\rENG}Get used to it. Get fucking used to it.
+Dialogue: 0,1:51:43.53,1:51:45.53,CHS,,0,0,0,,那他妈是以前\N{\rENG}That's fucking history.
+Dialogue: 0,1:52:26.55,1:52:28.55,CHS,,0,0,0,,你醒了\N{\rENG}Welcome back.
+Dialogue: 0,1:53:25.57,1:53:28.57,CHS,,0,0,0,,前方是交战区 我们过不去了\N{\rENG}The war zone is up ahead. We can't get through.
+Dialogue: 0,1:53:53.50,1:53:57.50,CHS,,0,0,0,,三点方向有不明车队\N{\rENG}UNidentified vehicle convoy at three o'clock.
+Dialogue: 0,1:54:06.52,1:54:08.52,CHS,,0,0,0,,哥\N{\rENG}Brother,
+Dialogue: 0,1:54:08.55,1:54:10.55,CHS,,0,0,0,,把国旗给我\N{\rENG}pass me the flag.
+Dialogue: 0,1:54:38.57,1:54:40.57,CHS,,0,0,0,,开车\N{\rENG}Drive.
+Dialogue: 0,1:55:00.59,1:55:02.59,CHS,,0,0,0,,是中国人 停止射击\N{\rENG}It's the Chinese. Hold your fire.
+Dialogue: 0,1:55:05.52,1:55:10.52,CHS,,0,0,0,,停止射击 是中国人\N{\rENG}Hold your fire! It's Chinese.
+Dialogue: 0,1:57:54.57,1:57:56.57,CHS,,0,0,0,,冷锋\N{\rENG}Leng Feng.
+Dialogue: 0,1:57:59.59,1:58:01.59,CHS,,0,0,0,,- 首长好  - 小日子过的挺美的呀\N{\rENG}- Commander!  - I see you're enjoying your life.
+Dialogue: 0,1:58:02.52,1:58:04.52,CHS,,0,0,0,,不想回战狼了吧？\N{\rENG}Not planning on rejoining the Wolf Warriors?
+Dialogue: 0,1:58:04.54,1:58:06.54,CHS,,0,0,0,,离开这里最早的航班\N{\rENG}Sir, the earliest flight out of here,
+Dialogue: 0,1:58:06.56,1:58:09.56,CHS,,0,0,0,,是下星期二 十四点十五分 星期五上午九点\N{\rENG}departs next Tuesday at 14:15 by Friday 09:00.
+Dialogue: 0,1:58:09.59,1:58:11.59,CHS,,0,0,0,,我准时向您报道\N{\rENG}I will report for duty sir!
+Dialogue: 0,1:58:12.51,1:58:14.51,CHS,,0,0,0,,有件事我必须告诉你\N{\rENG}There's something I need to tell you...
