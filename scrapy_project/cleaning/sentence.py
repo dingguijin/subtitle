@@ -21,6 +21,13 @@ def _cur_dir():
 
 _result_dir = os.path.join(_cur_dir(), "../result")
 
+def _write_sentence(_ds, _from):
+    to_file = _result_dir + "/sentence/" + os.path.basename(_from)
+    with open(to_file, "wb") as f:
+        for _d in _ds:
+            f.write(_d)
+    return
+
 
 class Format1():
     def __init__(self, _from):
@@ -93,13 +100,8 @@ class Format1():
         if not _dialogues:
             return
 
-        to_file = _result_dir + "/sentence/all-in-one.txt"
-        with open(to_file, "wb") as f:
-            for _d in _dialogues:
-                f.write(_d+"\r\n")
-                            
+        _write_sentence(_dialogues, self.from_file)
         return
-
 
     def _meta_filter(self, line):
         _metas = ["字幕来源：", "网站地址："]
@@ -190,11 +192,7 @@ class Format2():
                         continue
                     _dialogues.append(_ss[-1])
 
-        _to_file = _result_dir + "/sentence/" + os.path.basename(self.from_file)
-        with open(_to_file, "wb") as f:
-            for _d in _dialogues:
-                f.write(_d)
-            
+        _write_sentence(_dialogues, self.from_file)
         return
 
 def _sentence(_from):
