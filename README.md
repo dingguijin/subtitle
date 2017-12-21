@@ -77,4 +77,17 @@ python convert-utf8.py
 > 解压缩出来的文件会放在 result/utf8 目录下面
 
 
+#### 辨别可以提取对话数据的文件
+
+```
+
+cd subtitle/scrapy_project/cleaning
+
+python extract-dialogue.py
+
+```
+
+> 可以识别的对话数据放在 result/extracted 目录下面，
+
+
 ## 未完 正在开发 提取对话数据阶段 
