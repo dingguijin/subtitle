@@ -90,4 +90,17 @@ python extract-dialogue.py
 > 可以识别的对话数据放在 result/extracted 目录下面，
 
 
-## 未完 正在开发 提取对话数据阶段 
+#### 提取句子
+
+```
+
+cd subtitle/scrapy_project/cleaning
+
+python sentence.py
+
+```
+
+> 句子在 result/sentence 目录下面，
+
+
+## 未完 正在开发 提取句子阶段 

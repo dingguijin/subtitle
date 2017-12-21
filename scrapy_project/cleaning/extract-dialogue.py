@@ -45,9 +45,8 @@ def _write(_data, _from_file):
 
 
 class Format1():
-    def __init__(self, _from, _to):
+    def __init__(self, _from):
         self.from_file = _from
-        self.to_file = _to        
         return
     
     def check(self):
@@ -98,9 +97,9 @@ class Format1():
         return
 
 
-def _extract(_from, _to):
+def _extract(_from):
 
-    _obj = Format1(_from, _to)
+    _obj = Format1(_from)
     if _obj.check():
         _obj.extract()
         
@@ -120,13 +119,9 @@ def _files():
         if _basename == "README":
             continue
         
-        _dfile = _result_dir + "/extract/" + _basename
-        if os.path.exists(_dfile):
-            continue
-
-        _extract(_file, _dfile)
+        _extract(_file)
         
-        print("handle %s:%s" % (_file, _dfile))
+        print("handle %s:%s" % (_file))
         
 def _main():
     _files()
