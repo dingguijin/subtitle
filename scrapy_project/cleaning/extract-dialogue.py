@@ -121,7 +121,7 @@ def _files():
         
         _extract(_file)
         
-        print("handle %s:%s" % (_file))
+        print("handle %s" % (_file))
         
 def _main():
     _files()
