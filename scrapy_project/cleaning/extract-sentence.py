@@ -65,6 +65,9 @@ class Format1():
 
             if _line == "0-1":
                 return True
+
+            if _line.find(" --> "):
+                return True
             
             try:
                 _line = int(_line)
