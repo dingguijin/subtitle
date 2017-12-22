@@ -33,7 +33,9 @@ def _write_token(_ds, _from):
     to_file = _result_dir + "/token/" + os.path.basename(_from)
     with open(to_file, "wb") as f:
         for _d in _ds:
-            f.write(_d+"\r\n")
+            _d = _d.strip()
+            if _d:
+                f.write(_d+"\r\n")
     return
 
 
