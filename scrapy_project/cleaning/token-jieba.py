@@ -19,6 +19,10 @@ import hashlib
 import datetime
 import subprocess
 
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
+
 
 def _cur_dir():
     return os.path.dirname(__file__)
