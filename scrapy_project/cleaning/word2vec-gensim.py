@@ -39,7 +39,10 @@ class MySentences(object):
 
 def _vector():
     sentences = MySentences(_result_dir + "/token") # a memory-friendly iterator
-    model = gensim.models.Word2Vec(sentences)
+    model = gensim.models.Word2Vec(sentences,
+                                   size=200,
+                                   window=10,
+                                   min_count=10)
     model.save(_result_dir + "/model-word2vec/word2vec.model")
     return
 

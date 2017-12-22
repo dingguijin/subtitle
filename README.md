@@ -96,7 +96,7 @@ python extract-dialogue.py
 
 cd subtitle/scrapy_project/cleaning
 
-python sentence.py
+python extract-sentence.py
 
 ```
 
@@ -105,24 +105,40 @@ python sentence.py
 
 ### 分词
 
-> 待完成 JIEBA
+```
+
+cd subtitle/scrapy_project/cleaning
+
+python token-jieba.py
+
+```
+
+> 刚开始用 token.py 结果jieba导入不进来，原来token名字冲突了，千万别叫简单的名字，越丑越好，省的和别人冲突
+
 
 ### 词嵌入 （word2vec 使用 GENSIM）
 
-> 待完成 GENSIM
+```
+
+cd subtitle/scrapy_project/cleaning
+
+python word2vec-gensim.py
+
+```
+
+> 生成的模型在 result/model 下面，GENSIM （GENERATE SIMILAR）
+
+
+### 试试 word2vec 的 model
+
+![](res/word-similar.png)
 
 ### 训练
 
-> 待完成，可以用 DOMAIN KNOWLEDGE 的有限数据中进行训练，当然这里用全部的对话数据训练，为了是做机器人，当我们拥有语料后，就可以将其应用到一个狭小的数据集合做一些分类的工作，效果也应该不错，结果待验证
-
-> LSTM
 
 ### 预测
 
-> LSTM
-
-> 待完成
 
 
 
-## 未完 正在开发中 
+## 未完 正在开发中 到了最关键的地方
