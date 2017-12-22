@@ -66,7 +66,7 @@ class Format1():
             if _line == "0-1":
                 return True
 
-            if _line.find(" --> ") > 0:
+            if _line.startswith("00:00:"):
                 return True
             
             try:
