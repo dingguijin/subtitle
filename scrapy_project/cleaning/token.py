@@ -34,15 +34,15 @@ def _write_token(_ds, _from):
 
 
 def _token(_from):
+
+    _lines = []
     with open(_from, "rb") as f:
         for line in f:
-
             x = jieba.cut_for_search(line)
-            for i in x:
-                print(i)
-            #print(line)
-            pass
-            
+            _lines.append(" ".join(x))
+    if _lines:
+        _write_token(_lines, _from)
+        
     return
 
 
