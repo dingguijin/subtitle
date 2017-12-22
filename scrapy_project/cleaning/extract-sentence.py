@@ -49,11 +49,17 @@ class Format1():
     def check(self):
         _lines = []
         with open(self.from_file, "rb") as f:
-            _line = f.readline()                
+            _line = f.readline()
+            if not _line:
+                return False
+            
             _line = _line.strip()
             if _line.startswith("\xef\xbb"):
                 _line = _line[3:]
 
+            if not _line:
+                continue
+            
             try:
                 _line = int(_line)
                 return True
