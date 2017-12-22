@@ -222,10 +222,12 @@ def _sentence(_from):
         _obj.sentence()
         return
     
-    print("unknown .... %s" % _from)
+
     with open(_from, "rb") as f:
         print(f.read())
-        
+
+    print("unknown .... %s" % _from)
+    
     return
 
 
