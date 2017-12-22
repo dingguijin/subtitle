@@ -7,6 +7,7 @@
 
 
 import os
+import re
 import glob
 import magic
 import shutil
@@ -22,7 +23,7 @@ def _cur_dir():
 _result_dir = os.path.join(_cur_dir(), "../result")
 
 def _meta_filter(line):
-    _metas = ["字幕来源：", "网站地址：", "字幕组", "翻译＆校对", "字幕转制", "感谢原字幕制作者"]
+    _metas = ["字幕来源：", "网站地址：", "字幕组", "翻译＆校对", "字幕转制", "感谢原字幕制作者", "字幕后期"]
     for _meta in _metas:
         if line.find(_meta) >= 0:
             return None
@@ -66,7 +67,8 @@ class Format1():
             if _line == "0-1":
                 return True
 
-            if _line.startswith("00:00:"):
+            x = re.compile("^00:0\d:\d\d.*$")
+            if x.match(_line):
                 return True
             
             try:
