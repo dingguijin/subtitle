@@ -21,12 +21,24 @@ def _cur_dir():
 
 _result_dir = os.path.join(_cur_dir(), "../result")
 
+def _meta_filter(line):
+    _metas = ["字幕来源：", "网站地址：", "字幕组", "翻译＆校对", "字幕转制", "感谢原字幕制作者"]
+    for _meta in _metas:
+        if line.find(_meta) >= 0:
+            return None
+    return line
+
 def _write_sentence(_ds, _from):
     to_file = _result_dir + "/sentence/" + os.path.basename(_from)
     with open(to_file, "wb") as f:
         for _d in _ds:
-            f.write(_d)
+            _d = _meta_filter(_d)
+            if _d:
+                _d = _d.strip()
+                if _d:
+                    f.write(_d+"\r\n")
     return
+
 
 
 class Format1():
@@ -80,11 +92,6 @@ class Format1():
                 if _state == "POSITION":
                     if len(_line) > 128:
                         continue
-
-                    _line = self._meta_filter(_line)
-
-                    if not _line:
-                        continue
                     
                     if _line[0] == "<": 
                         _line = self._html_filter(_line)
@@ -103,13 +110,6 @@ class Format1():
         _write_sentence(_dialogues, self.from_file)
         return
 
-    def _meta_filter(self, line):
-        _metas = ["字幕来源：", "网站地址："]
-        for _meta in _metas:
-            if line.find(_meta) >= 0:
-                return None
-
-        return line
 
     def _remove_tag(self, line, begin, end):
         _status = "NULL"
