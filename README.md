@@ -141,6 +141,8 @@ python word2vec-gensim.py
 ### 训练
 
 
+
+
 ### 预测
 
 

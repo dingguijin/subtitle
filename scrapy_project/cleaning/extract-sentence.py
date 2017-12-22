@@ -50,6 +50,9 @@ class Format1():
         _lines = []
         with open(self.from_file, "rb") as f:
             _line = f.readline()
+            if _line = "\xef\xbb\xbf1":
+                _line = f.readline()
+                
             _line = _line.strip()
             try:
                 _line = int(_line)
