@@ -53,6 +53,9 @@ scrapy crawl subtitle
 
 #### 解压缩
 
+> 不要安装 filemagic，而是 python-magic，pip install python-magic
+
+
 ```
 
 cd subtitle/scrapy_project/cleaning
@@ -62,6 +65,8 @@ python unzip-files.py
 ```
 
 > 解压缩出来的文件会放在 result/unzip 目录下面
+
+
 
 
 #### 转码
