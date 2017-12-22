@@ -63,6 +63,8 @@ class Format1():
             if _line.startswith("\xef\xbb"):
                 _line = _line[3:]
 
+            if _line == "0-1":
+                return True
             
             try:
                 _line = int(_line)
