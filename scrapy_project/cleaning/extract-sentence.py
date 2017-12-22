@@ -56,12 +56,12 @@ class Format1():
                     return False
 
                 _line = _line.strip()
+                if _line.startswith("\xef\xbb"):
+                    _line = _line[3:]
+
                 if _line:
                     break
                 
-
-            if _line.startswith("\xef\xbb"):
-                _line = _line[3:]
 
             if _line == "0-1":
                 return True
