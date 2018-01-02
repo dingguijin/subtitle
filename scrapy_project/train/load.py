@@ -1,17 +1,32 @@
-import torch
 import re
 import os
+import glob
+
+import torch
 import unicodedata
 
-from config import MAX_LENGTH, save_dir
+import gensim
+
+from config import MAX_LENGTH
+
+
 
 SOS_token = 0
 EOS_token = 1
 PAD_token = 2
 
+
+
+def _cur_dir():
+    return os.path.dirname(__file__)
+
+_corpus_dir = os.path.join(_cur_dir(), "../result/token")
+_word2vec_dir = os.path.join(_cur_dir(), "../result/model-word2vec")
+
+
 class Voc:
-    def __init__(self, name):
-        self.name = name
+    def __init__(self, model):
+        self.word2vec_model = model
         self.word2index = {}
         self.word2count = {}
         self.index2word = {0: "SOS", 1: "EOS", 2:"PAD"}
@@ -46,21 +61,46 @@ def normalizeString(s):
     s = re.sub(r"\s+", r" ", s).strip()
     return s
 
-def readVocs(corpus, corpus_name):
-    print("Reading lines...")
 
-    # combine every two lines into pairs and normalize
+
+def readCorpusFile(corpus):
     with open(corpus) as f:
         content = f.readlines()
-    # import gzip
-    # content = gzip.open(corpus, 'rt')
-    lines = [x.strip() for x in content]
-    it = iter(lines)
-    # pairs = [[normalizeString(x), normalizeString(next(it))] for x in it]
-    pairs = [[x, next(it)] for x in it]
 
-    voc = Voc(corpus_name)
-    return voc, pairs
+    lines = [x.strip() for x in content]
+    print(corpus, lines)
+    
+    it = iter(lines)
+
+    pairs = []
+
+    try:
+        for x in it:
+            pairs.append([x, next(it)])
+    except:
+        pass
+    
+        #pairs = [[x, next(it)] for x in it]
+    return pairs
+
+def readVocs():
+    print("Reading Pretrained Word2Vec and Corpus...")
+
+    _file = os.path.join(_word2vec_dir, "word2vec.model")
+    _model = gensim.models.Word2Vec.load(_file)
+    
+    # combine every two lines into pairs and normalize
+
+    _pairs = []
+
+    _pattern = _corpus_dir + "/*"
+    _files = glob.glob(_pattern)
+
+    for _file in _files:
+        _pair = readCorpusFile(_file)
+        _pairs += _pair
+    
+    return Voc(_model), _pairs
 
 def filterPair(p):
     # input sequences need to preserve the last word for EOS_token
@@ -70,8 +110,8 @@ def filterPair(p):
 def filterPairs(pairs):
     return [pair for pair in pairs if filterPair(pair)]
 
-def prepareData(corpus, corpus_name):
-    voc, pairs = readVocs(corpus, corpus_name)
+def prepareData():
+    voc, pairs = readVocs()
     print("Read {!s} sentence pairs".format(len(pairs)))
     pairs = filterPairs(pairs)
     print("Trimmed to {!s} sentence pairs".format(len(pairs)))
@@ -87,13 +127,29 @@ def prepareData(corpus, corpus_name):
     torch.save(pairs, os.path.join(directory, '{!s}.tar'.format('pairs')))
     return voc, pairs
 
-def loadPrepareData(corpus):
-    corpus_name = corpus.split('/')[-1].split('.')[0]
+def loadPrepareData():
     try:
         print("Start loading training data ...")
         voc = torch.load(os.path.join(save_dir, 'training_data', corpus_name, 'voc.tar'))
         pairs = torch.load(os.path.join(save_dir, 'training_data', corpus_name, 'pairs.tar'))
     except FileNotFoundError:
         print("Saved data not found, start preparing trianing data ...")
-        voc, pairs = prepareData(corpus, corpus_name)
+        voc, pairs = prepareData()
     return voc, pairs
+
+
+# def loadPrepareData(corpus):
+#     corpus_name = corpus.split('/')[-1].split('.')[0]
+#     try:
+#         print("Start loading training data ...")
+#         voc = torch.load(os.path.join(save_dir, 'training_data', corpus_name, 'voc.tar'))
+#         pairs = torch.load(os.path.join(save_dir, 'training_data', corpus_name, 'pairs.tar'))
+#     except FileNotFoundError:
+#         print("Saved data not found, start preparing trianing data ...")
+#         voc, pairs = prepareData(corpus, corpus_name)
+#     return voc, pairs
+
+
+if __name__ == "__main__":
+    voc, pairs = readVocs()
+

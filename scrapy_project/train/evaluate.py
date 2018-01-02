@@ -1,13 +1,14 @@
 import torch
 from torch.autograd import Variable
-import random
+
 from train import indexesFromSentence
 from load import SOS_token, EOS_token
 from load import MAX_LENGTH, loadPrepareData, Voc 
 from model import *
-from config import USE_CUDA
+
 import sys
- 
+import random
+
 class Sentence:
     def __init__(self, decoder_hidden, last_idx=SOS_token, sentence_idxes=[], sentence_scores=[]):
         if(len(sentence_idxes) != len(sentence_scores)):
@@ -170,9 +171,6 @@ def runTest(n_layers, hidden_size, reverse, modelFile, beam_size, input, corpus)
     encoder.train(False);
     decoder.train(False);
 
-    if USE_CUDA:
-        encoder = encoder.cuda()
-        decoder = decoder.cuda()
 
     if input:
         evaluateInput(encoder, decoder, voc, beam_size)

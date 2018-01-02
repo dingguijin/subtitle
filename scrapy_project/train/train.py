@@ -16,7 +16,7 @@ from tqdm import tqdm
 from load import loadPrepareData
 from load import SOS_token, EOS_token, PAD_token
 from model import EncoderRNN, LuongAttnDecoderRNN, Attn
-from config import MAX_LENGTH, USE_CUDA, teacher_forcing_ratio, save_dir
+from config import MAX_LENGTH, teacher_forcing_ratio, save_dir
 # from plot import plotPerplexity
 
 cudnn.benchmark = True
@@ -95,7 +95,6 @@ def maskNLLLoss(input, target, mask):
     nTotal = mask.sum()
     crossEntropy = -torch.log(torch.gather(input, 1, target.view(-1, 1)))
     loss = crossEntropy.masked_select(mask).mean()
-    loss = loss.cuda() if USE_CUDA else loss
     return loss, nTotal.data[0]
 
 def train(input_variable, lengths, target_variable, mask, max_target_len, encoder, decoder, embedding, 
@@ -104,11 +103,6 @@ def train(input_variable, lengths, target_variable, mask, max_target_len, encode
     encoder_optimizer.zero_grad()
     decoder_optimizer.zero_grad()
 
-    if USE_CUDA:
-        input_variable = input_variable.cuda()
-        target_variable = target_variable.cuda()
-        mask = mask.cuda()
-
     loss = 0
     print_losses = []
     n_totals = 0 
@@ -116,7 +110,6 @@ def train(input_variable, lengths, target_variable, mask, max_target_len, encode
     encoder_outputs, encoder_hidden = encoder(input_variable, lengths, None)
 
     decoder_input = Variable(torch.LongTensor([[SOS_token for _ in range(batch_size)]]))
-    decoder_input = decoder_input.cuda() if USE_CUDA else decoder_input
 
     decoder_hidden = encoder_hidden[:decoder.n_layers]
 
@@ -141,7 +134,6 @@ def train(input_variable, lengths, target_variable, mask, max_target_len, encode
             topv, topi = decoder_output.data.topk(1) # [64, 1]
 
             decoder_input = Variable(torch.LongTensor([[topi[i][0] for i in range(batch_size)]]))
-            decoder_input = decoder_input.cuda() if USE_CUDA else decoder_input
             mask_loss, nTotal = maskNLLLoss(decoder_output, target_variable[t], mask[t])
             loss += mask_loss
             print_losses.append(mask_loss.data[0] * nTotal)
@@ -159,8 +151,10 @@ def train(input_variable, lengths, target_variable, mask, max_target_len, encode
     return sum(print_losses) / n_totals 
 
 
-def trainIters(corpus, reverse, n_iteration, learning_rate, batch_size, n_layers, hidden_size, 
-                print_every, save_every, loadFilename=None, attn_model='dot', decoder_learning_ratio=5.0):
+def trainIters(corpus, reverse, n_iteration, learning_rate,
+               batch_size, n_layers, hidden_size, 
+               print_every, save_every, loadFilename=None,
+               attn_model='dot', decoder_learning_ratio=5.0):
 
     voc, pairs = loadPrepareData(corpus)
 
@@ -191,10 +185,6 @@ def trainIters(corpus, reverse, n_iteration, learning_rate, batch_size, n_layers
         checkpoint = torch.load(loadFilename)
         encoder.load_state_dict(checkpoint['en'])
         decoder.load_state_dict(checkpoint['de'])
-    # use cuda
-    if USE_CUDA:
-        encoder = encoder.cuda()
-        decoder = decoder.cuda()
 
     # optimizer
     print('Building optimizers ...')
@@ -242,3 +232,86 @@ def trainIters(corpus, reverse, n_iteration, learning_rate, batch_size, n_layers
                 'loss': loss,
                 'plt': perplexity
             }, os.path.join(directory, '{}_{}.tar'.format(iteration, filename(reverse, 'backup_bidir_model'))))
+
+
+
+
+# def trainIters(corpus, reverse, n_iteration, learning_rate, batch_size, n_layers, hidden_size, 
+#                 print_every, save_every, loadFilename=None, attn_model='dot', decoder_learning_ratio=5.0):
+
+#     voc, pairs = loadPrepareData(corpus)
+
+#     # training data
+#     corpus_name = os.path.split(corpus)[-1].split('.')[0]
+#     training_batches = None
+#     try:
+#         training_batches = torch.load(os.path.join(save_dir, 'training_data', corpus_name, 
+#                                                    '{}_{}_{}.tar'.format(n_iteration, \
+#                                                                          filename(reverse, 'training_batches'), \
+#                                                                          batch_size)))
+#     except FileNotFoundError:
+#         print('Training pairs not found, generating ...')
+#         training_batches = [batch2TrainData(voc, [random.choice(pairs) for _ in range(batch_size)], reverse)
+#                           for _ in range(n_iteration)]
+#         torch.save(training_batches, os.path.join(save_dir, 'training_data', corpus_name, 
+#                                                   '{}_{}_{}.tar'.format(n_iteration, \
+#                                                                         filename(reverse, 'training_batches'), \
+#                                                                         batch_size)))
+#     # model
+#     checkpoint = None 
+#     print('Building encoder and decoder ...')
+#     embedding = nn.Embedding(voc.n_words, hidden_size)
+#     encoder = EncoderRNN(voc.n_words, hidden_size, embedding, n_layers)
+#     attn_model = 'dot'
+#     decoder = LuongAttnDecoderRNN(attn_model, embedding, hidden_size, voc.n_words, n_layers)
+#     if loadFilename:
+#         checkpoint = torch.load(loadFilename)
+#         encoder.load_state_dict(checkpoint['en'])
+#         decoder.load_state_dict(checkpoint['de'])
+
+#     # optimizer
+#     print('Building optimizers ...')
+#     encoder_optimizer = optim.Adam(encoder.parameters(), lr=learning_rate)
+#     decoder_optimizer = optim.Adam(decoder.parameters(), lr=learning_rate * decoder_learning_ratio)
+#     if loadFilename:
+#         encoder_optimizer.load_state_dict(checkpoint['en_opt'])
+#         decoder_optimizer.load_state_dict(checkpoint['de_opt'])
+
+#     # initialize
+#     print('Initializing ...')
+#     start_iteration = 1
+#     perplexity = []
+#     print_loss = 0
+#     if loadFilename:
+#         start_iteration = checkpoint['iteration'] + 1
+#         perplexity = checkpoint['plt']
+
+#     for iteration in tqdm(range(start_iteration, n_iteration + 1)):
+#         training_batch = training_batches[iteration - 1]
+#         input_variable, lengths, target_variable, mask, max_target_len = training_batch
+
+#         loss = train(input_variable, lengths, target_variable, mask, max_target_len, encoder,
+#                      decoder, embedding, encoder_optimizer, decoder_optimizer, batch_size)
+#         print_loss += loss
+#         perplexity.append(loss)
+
+#         if iteration % print_every == 0:
+#             print_loss_avg = math.exp(print_loss / print_every)
+#             # perplexity.append(print_loss_avg)
+#             # plotPerplexity(perplexity, iteration)
+#             print('%d %d%% %.4f' % (iteration, iteration / n_iteration * 100, print_loss_avg))
+#             print_loss = 0
+
+#         if (iteration % save_every == 0):
+#             directory = os.path.join(save_dir, 'model', corpus_name, '{}-{}_{}'.format(n_layers, n_layers, hidden_size))
+#             if not os.path.exists(directory):
+#                 os.makedirs(directory)
+#             torch.save({
+#                 'iteration': iteration,
+#                 'en': encoder.state_dict(),
+#                 'de': decoder.state_dict(),
+#                 'en_opt': encoder_optimizer.state_dict(),
+#                 'de_opt': decoder_optimizer.state_dict(),
+#                 'loss': loss,
+#                 'plt': perplexity
+#             }, os.path.join(directory, '{}_{}.tar'.format(iteration, filename(reverse, 'backup_bidir_model'))))

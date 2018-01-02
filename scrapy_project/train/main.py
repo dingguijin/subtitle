@@ -39,6 +39,7 @@ def run(args):
     reverse, fil, n_iteration, print_every, save_every, learning_rate, n_layers, hidden_size, batch_size, beam_size, input = \
         args.reverse, args.filter, args.iteration, args.print, args.save, args.learning_rate, \
         args.layer, args.hidden, args.batch_size, args.beam, args.input
+
     if args.train and not args.load:
         trainIters(args.train, reverse, n_iteration, learning_rate, batch_size,
                     n_layers, hidden_size, print_every, save_every)
