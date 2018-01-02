@@ -64,11 +64,14 @@ def normalizeString(s):
 
 
 def readCorpusFile(corpus):
+
+    if corpus.endswith("README"):
+        return []
+
     with open(corpus) as f:
         content = f.readlines()
 
     lines = [x.strip() for x in content]
-    print(corpus, lines)
     
     it = iter(lines)
 
@@ -79,6 +82,17 @@ def readCorpusFile(corpus):
             pairs.append([x, next(it)])
     except:
         pass
+
+
+    it = iter(lines[1:])
+
+    
+    try:
+        for x in it:
+            pairs.append([x, next(it)])
+    except:
+        pass
+    
     
         #pairs = [[x, next(it)] for x in it]
     return pairs
@@ -153,3 +167,4 @@ def loadPrepareData():
 if __name__ == "__main__":
     voc, pairs = readVocs()
 
+    print("voc:", voc, "pairs:", len(pairs))
