@@ -16,10 +16,13 @@ EOS_token = 1
 PAD_token = 2
 
 
+_corpus_name = "subtitle"
 
 def _cur_dir():
     return os.path.dirname(__file__)
 
+
+_save_dir = os.path.join(_cur_dir(), "../result/model-pytorch")
 _corpus_dir = os.path.join(_cur_dir(), "../result/token")
 _word2vec_dir = os.path.join(_cur_dir(), "../result/model-word2vec")
 
@@ -134,7 +137,7 @@ def prepareData():
         voc.addSentence(pair[0])
         voc.addSentence(pair[1])
     print("Counted words:", voc.n_words)
-    directory = os.path.join(save_dir, 'training_data', corpus_name) 
+    directory = os.path.join(_save_dir, 'training_data', _corpus_name) 
     if not os.path.exists(directory):
         os.makedirs(directory)
     torch.save(voc, os.path.join(directory, '{!s}.tar'.format('voc')))
@@ -144,9 +147,9 @@ def prepareData():
 def loadPrepareData():
     try:
         print("Start loading training data ...")
-        voc = torch.load(os.path.join(save_dir, 'training_data', corpus_name, 'voc.tar'))
-        pairs = torch.load(os.path.join(save_dir, 'training_data', corpus_name, 'pairs.tar'))
-    except FileNotFoundError:
+        voc = torch.load(os.path.join(_save_dir, 'training_data', _corpus_name, 'voc.tar'))
+        pairs = torch.load(os.path.join(_save_dir, 'training_data', _corpus_name, 'pairs.tar'))
+    except:
         print("Saved data not found, start preparing trianing data ...")
         voc, pairs = prepareData()
     return voc, pairs
@@ -165,6 +168,7 @@ def loadPrepareData():
 
 
 if __name__ == "__main__":
-    voc, pairs = readVocs()
-
-    print("voc:", voc, "pairs:", len(pairs))
+    #voc, pairs = readVocs()
+    loadPrepareData()
+    #print("voc:", voc, "pairs:", len(pairs))
+    
