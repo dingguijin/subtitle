@@ -140,12 +140,14 @@ python word2vec-gensim.py
 
 ### 训练
 
+```
+cd seq2seq
+
+python seq2seq.py
+```
+
+这里使用了 Pytorch，应用了它的 Tutorial 中的 SEQ2SEQ 的例子。以前例子是翻译，这里变成对话，没毛病。
 
 
 
-### 预测
-
-
-
-
-## 未完 正在开发中 到了最关键的地方
+## 未完

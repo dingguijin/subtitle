@@ -91,11 +91,16 @@ import glob
 import random
 import string
 
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
 from torch import optim
 import torch.nn.functional as F
+
 
 use_cuda = torch.cuda.is_available()
 
@@ -715,11 +720,11 @@ def evaluate(encoder, decoder, sentence, max_length=MAX_LENGTH):
 def evaluateRandomly(encoder, decoder, n=10):
     for i in range(n):
         pair = random.choice(pairs)
-        print('>', pair[0])
-        print('=', pair[1])
+        print(u'> %s', pair[0].decode("utf-8"))
+        print(u'= %s', pair[1].decode("utf-8"))
         output_words, attentions = evaluate(encoder, decoder, pair[0])
         output_sentence = ' '.join(output_words)
-        print('<', output_sentence)
+        print(u'< %s', output_sentence.decode("utf-8"))
         print('')
 
 
@@ -773,8 +778,7 @@ evaluateRandomly(encoder1, attn_decoder1)
 # output steps:
 #
 
-output_words, attentions = evaluate(
-    encoder1, attn_decoder1, "je suis trop froid .")
+output_words, attentions = evaluate(encoder1, attn_decoder1, "你好 英雄 请 留步".encode("utf-8"))
 plt.matshow(attentions.numpy())
 
 
@@ -805,18 +809,16 @@ def showAttention(input_sentence, output_words, attentions):
 def evaluateAndShowAttention(input_sentence):
     output_words, attentions = evaluate(
         encoder1, attn_decoder1, input_sentence)
-    print('input =', input_sentence)
-    print('output =', ' '.join(output_words))
+    print('input =', input_sentence.decode("utf-8"))
+    print('output =', ' '.join(output_words).decode("utf-8"))
     showAttention(input_sentence, output_words, attentions)
 
 
-evaluateAndShowAttention("elle a cinq ans de moins que moi .")
+evaluateAndShowAttention("我 是 青山".encode("utf-8"))
 
-evaluateAndShowAttention("elle est trop petit .")
+evaluateAndShowAttention("大海 召唤 你".encode("utf-8"))
 
-evaluateAndShowAttention("je ne crains pas de mourir .")
-
-evaluateAndShowAttention("c est un jeune directeur plein de talent .")
+evaluateAndShowAttention("哈哈 骗子".encode("utf-8"))
 
 
 ######################################################################
