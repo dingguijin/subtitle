@@ -44,7 +44,7 @@ def _token(_from):
     _lines = []
     with open(_from, "rb") as f:
         for line in f:
-            x = jieba.cut_for_search(line)
+            x = jieba.cut(line, cut_all=False)
             _lines.append(" ".join(x))
     if _lines:
         _write_token(_lines, _from)

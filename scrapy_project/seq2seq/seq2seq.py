@@ -87,9 +87,12 @@ And for more, read the papers that introduced these topics:
 
 import re
 import os
+import json
+
 import glob
 import random
 import string
+
 
 import sys
 reload(sys)
@@ -234,7 +237,7 @@ def prepareData():
     return input_, output_, pairs
 
 input_lang, output_lang, pairs = prepareData()
-print(random.choice(pairs))
+print("%s" % json.dumps(random.choice(pairs), ensure_ascii=False))
 
 
 ######################################################################
@@ -720,11 +723,11 @@ def evaluate(encoder, decoder, sentence, max_length=MAX_LENGTH):
 def evaluateRandomly(encoder, decoder, n=10):
     for i in range(n):
         pair = random.choice(pairs)
-        print(u'> %s', pair[0].decode("utf-8"))
-        print(u'= %s', pair[1].decode("utf-8"))
+        print('> %s' % pair[0])
+        print('= %s' % pair[1])
         output_words, attentions = evaluate(encoder, decoder, pair[0])
         output_sentence = ' '.join(output_words)
-        print(u'< %s', output_sentence.decode("utf-8"))
+        print('< %s' % output_sentence)
         print('')
 
 
@@ -756,7 +759,7 @@ if use_cuda:
     attn_decoder1 = attn_decoder1.cuda()
 
 #trainIters(encoder1, attn_decoder1, 75000, print_every=5000)
-trainIters(encoder1, attn_decoder1, 75)
+trainIters(encoder1, attn_decoder1, 75000)
 
 ######################################################################
 #
@@ -809,8 +812,8 @@ def showAttention(input_sentence, output_words, attentions):
 def evaluateAndShowAttention(input_sentence):
     output_words, attentions = evaluate(
         encoder1, attn_decoder1, input_sentence)
-    print('input =', input_sentence.decode("utf-8"))
-    print('output =', ' '.join(output_words).decode("utf-8"))
+    print(u'input = %s' % input_sentence.decode("utf-8"))
+    print(u'output = %s' % ' '.join(output_words).decode("utf-8"))
     showAttention(input_sentence, output_words, attentions)
 
 
