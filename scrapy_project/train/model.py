@@ -7,16 +7,20 @@ import sys
 from config import USE_CUDA, MAX_LENGTH
 
 class EncoderRNN(nn.Module):
-    def __init__(self, input_size, hidden_size, embedding, n_layers=1, dropout=0.1):
+    def __init__(self, voc, input_size, hidden_size, n_layers=1, dropout=0.1):
         super(EncoderRNN, self).__init__()
         self.n_layers = n_layers
         self.hidden_size = hidden_size
-        self.embedding = embedding
-
         self.gru = nn.GRU(hidden_size, hidden_size, n_layers, dropout=dropout, bidirectional=True)
+        self.voc = voc
 
+        
+    def _embedding(self, input_seq):
+        print(input_seq)
+        return
+    
     def forward(self, input_seq, input_lengths, hidden=None):
-        embedded = self.embedding(input_seq)
+        embedded = self._embedding(input_seq)
         packed = torch.nn.utils.rnn.pack_padded_sequence(embedded, input_lengths)
         outputs, hidden = self.gru(packed, hidden) # output: (seq_len, batch, hidden*n_dir)
         outputs, output_lengths = torch.nn.utils.rnn.pad_packed_sequence(outputs)
@@ -74,22 +78,23 @@ class Attn(nn.Module):
             return energy
 
 class LuongAttnDecoderRNN(nn.Module):
-    def __init__(self, attn_model, embedding, hidden_size, output_size, n_layers=1, dropout=0.1):
+    def __init__(self, voc, attn_model, hidden_size, n_layers=1, dropout=0.1):
         super(LuongAttnDecoderRNN, self).__init__()
 
+        self.voc = voc
         # Keep for reference
         self.attn_model = attn_model
         self.hidden_size = hidden_size
-        self.output_size = output_size
+        self.output_size = voc.n_words
         self.n_layers = n_layers
         self.dropout = dropout
 
         # Define layers
-        self.embedding = embedding
-        self.embedding_dropout = nn.Dropout(dropout)
+        # self.embedding = embedding
+        # self.embedding_dropout = nn.Dropout(dropout)
         self.gru = nn.GRU(hidden_size, hidden_size, n_layers, dropout=dropout)
         self.concat = nn.Linear(hidden_size * 2, hidden_size)
-        self.out = nn.Linear(hidden_size, output_size)
+        self.out = nn.Linear(hidden_size, voc.n_words)
 
         # Choose attention model
         if attn_model != 'none':

@@ -16,8 +16,20 @@ from tqdm import tqdm
 from load import loadPrepareData
 from load import SOS_token, EOS_token, PAD_token
 from model import EncoderRNN, LuongAttnDecoderRNN, Attn
-from config import MAX_LENGTH, teacher_forcing_ratio, save_dir
+from config import MAX_LENGTH, teacher_forcing_ratio
 # from plot import plotPerplexity
+
+
+_corpus_name = "subtitle"
+
+def _cur_dir():
+    return os.path.dirname(__file__)
+
+
+_save_dir = os.path.join(_cur_dir(), "../result/model-pytorch")
+_corpus_dir = os.path.join(_cur_dir(), "../result/token")
+_word2vec_dir = os.path.join(_cur_dir(), "../result/model-word2vec")
+
 
 cudnn.benchmark = True
 #############################################
@@ -39,7 +51,8 @@ def indexesFromSentence(voc, sentence):
 
 # batch_first: true -> false, i.e. shape: seq_len * batch
 def zeroPadding(l, fillvalue=PAD_token):
-    return list(itertools.zip_longest(*l, fillvalue=fillvalue)) 
+    _r = list(itertools.izip_longest(*l, fillvalue=fillvalue))
+    return _r
 
 def binaryMatrix(l, value=PAD_token):
     m = []
@@ -57,8 +70,29 @@ def binaryMatrix(l, value=PAD_token):
 def inputVar(l, voc):
     indexes_batch = [indexesFromSentence(voc, sentence) for sentence in l]
     lengths = [len(indexes) for indexes in indexes_batch]
+
+    #print lengths
+    # [8]
+    
+    #print(indexes_batch)
+    # [[13277, 704, 704, 740, 704, 704, 8648, 735, 1]]
+    
     padList = zeroPadding(indexes_batch)
+    #[(736,), (5557,), (12875,), (754,), (14,), (477,), (215,), (19894,), (1,)]
     padVar = Variable(torch.LongTensor(padList))
+    #print(padVar)
+    """
+    Variable containing:
+    135
+    221
+    1147
+    7484
+    78
+    5299
+    8045
+    1
+    [torch.LongTensor of size 8x1]
+    """
     return padVar, lengths
 
 # convert to index, add EOS, zero padding
@@ -75,9 +109,7 @@ def outputVar(l, voc):
 # pair_batch is a list of (input, output) with length batch_size
 # sort list of (input, output) pairs by input length, reverse input
 # return input, lengths for pack_padded_sequence, output_variable, mask
-def batch2TrainData(voc, pair_batch, reverse):
-    if reverse:
-        pair_batch = [pair[::-1] for pair in pair_batch]
+def batch2TrainData(voc, pair_batch):
     pair_batch.sort(key=lambda x: len(x[0].split(" ")), reverse=True)
     input_batch, output_batch = [], []
     for i in range(len(pair_batch)):
@@ -97,8 +129,9 @@ def maskNLLLoss(input, target, mask):
     loss = crossEntropy.masked_select(mask).mean()
     return loss, nTotal.data[0]
 
-def train(input_variable, lengths, target_variable, mask, max_target_len, encoder, decoder, embedding, 
-          encoder_optimizer, decoder_optimizer, batch_size, max_length=MAX_LENGTH):
+def train(input_variable, lengths, target_variable, mask, max_target_len,
+          encoder, decoder, encoder_optimizer, decoder_optimizer,
+          batch_size, max_length=MAX_LENGTH):
 
     encoder_optimizer.zero_grad()
     decoder_optimizer.zero_grad()
@@ -151,87 +184,53 @@ def train(input_variable, lengths, target_variable, mask, max_target_len, encode
     return sum(print_losses) / n_totals 
 
 
-def trainIters(corpus, reverse, n_iteration, learning_rate,
+def trainIters(n_iteration, learning_rate,
                batch_size, n_layers, hidden_size, 
-               print_every, save_every, loadFilename=None,
                attn_model='dot', decoder_learning_ratio=5.0):
 
-    voc, pairs = loadPrepareData(corpus)
+    voc, pairs = loadPrepareData()
 
-    # training data
-    corpus_name = os.path.split(corpus)[-1].split('.')[0]
-    training_batches = None
-    try:
-        training_batches = torch.load(os.path.join(save_dir, 'training_data', corpus_name, 
-                                                   '{}_{}_{}.tar'.format(n_iteration, \
-                                                                         filename(reverse, 'training_batches'), \
-                                                                         batch_size)))
-    except FileNotFoundError:
-        print('Training pairs not found, generating ...')
-        training_batches = [batch2TrainData(voc, [random.choice(pairs) for _ in range(batch_size)], reverse)
-                          for _ in range(n_iteration)]
-        torch.save(training_batches, os.path.join(save_dir, 'training_data', corpus_name, 
-                                                  '{}_{}_{}.tar'.format(n_iteration, \
-                                                                        filename(reverse, 'training_batches'), \
-                                                                        batch_size)))
+    choise = [random.choice(pairs) for _ in range(batch_size)] 
+    training_batches = [batch2TrainData(voc, choise) for _ in range(n_iteration)]
+
     # model
     checkpoint = None 
     print('Building encoder and decoder ...')
-    embedding = nn.Embedding(voc.n_words, hidden_size)
-    encoder = EncoderRNN(voc.n_words, hidden_size, embedding, n_layers)
+    encoder = EncoderRNN(voc, hidden_size, n_layers)
     attn_model = 'dot'
-    decoder = LuongAttnDecoderRNN(attn_model, embedding, hidden_size, voc.n_words, n_layers)
-    if loadFilename:
-        checkpoint = torch.load(loadFilename)
-        encoder.load_state_dict(checkpoint['en'])
-        decoder.load_state_dict(checkpoint['de'])
+    decoder = LuongAttnDecoderRNN(voc, attn_model, hidden_size, n_layers)
 
     # optimizer
     print('Building optimizers ...')
     encoder_optimizer = optim.Adam(encoder.parameters(), lr=learning_rate)
     decoder_optimizer = optim.Adam(decoder.parameters(), lr=learning_rate * decoder_learning_ratio)
-    if loadFilename:
-        encoder_optimizer.load_state_dict(checkpoint['en_opt'])
-        decoder_optimizer.load_state_dict(checkpoint['de_opt'])
 
     # initialize
     print('Initializing ...')
     start_iteration = 1
     perplexity = []
     print_loss = 0
-    if loadFilename:
-        start_iteration = checkpoint['iteration'] + 1
-        perplexity = checkpoint['plt']
 
     for iteration in tqdm(range(start_iteration, n_iteration + 1)):
         training_batch = training_batches[iteration - 1]
         input_variable, lengths, target_variable, mask, max_target_len = training_batch
 
-        loss = train(input_variable, lengths, target_variable, mask, max_target_len, encoder,
-                     decoder, embedding, encoder_optimizer, decoder_optimizer, batch_size)
-        print_loss += loss
-        perplexity.append(loss)
+        #print(training_batch)
+        
+        # print(input_variable)
+        # loss = train(input_variable, lengths, target_variable,
+        #              mask, max_target_len, encoder,
+        #              decoder, encoder_optimizer, decoder_optimizer, batch_size)
+        # print_loss += loss
+        # perplexity.append(loss)
 
-        if iteration % print_every == 0:
-            print_loss_avg = math.exp(print_loss / print_every)
-            # perplexity.append(print_loss_avg)
-            # plotPerplexity(perplexity, iteration)
-            print('%d %d%% %.4f' % (iteration, iteration / n_iteration * 100, print_loss_avg))
-            print_loss = 0
-
-        if (iteration % save_every == 0):
-            directory = os.path.join(save_dir, 'model', corpus_name, '{}-{}_{}'.format(n_layers, n_layers, hidden_size))
-            if not os.path.exists(directory):
-                os.makedirs(directory)
-            torch.save({
-                'iteration': iteration,
-                'en': encoder.state_dict(),
-                'de': decoder.state_dict(),
-                'en_opt': encoder_optimizer.state_dict(),
-                'de_opt': decoder_optimizer.state_dict(),
-                'loss': loss,
-                'plt': perplexity
-            }, os.path.join(directory, '{}_{}.tar'.format(iteration, filename(reverse, 'backup_bidir_model'))))
+        # print_every = 1000
+        # if iteration % print_every == 0:
+        #     print_loss_avg = math.exp(print_loss / print_every)
+        #     # perplexity.append(print_loss_avg)
+        #     # plotPerplexity(perplexity, iteration)
+        #     print('%d %d%% %.4f' % (iteration, iteration / n_iteration * 100, print_loss_avg))
+        #     print_loss = 0
 
 
 

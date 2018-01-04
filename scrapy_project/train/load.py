@@ -6,6 +6,7 @@ import torch
 import unicodedata
 
 import gensim
+import numpy as np
 
 from config import MAX_LENGTH
 
@@ -29,7 +30,11 @@ _word2vec_dir = os.path.join(_cur_dir(), "../result/model-word2vec")
 
 class Voc:
     def __init__(self, model):
-        self.word2vec_model = model
+
+        self.gensim_model = model
+        self.gensim_word2vec = np.array([model[word] for word in (model.wv.vocab)])
+
+        #self.word2vec_model = model
         self.word2index = {}
         self.word2count = {}
         self.index2word = {0: "SOS", 1: "EOS", 2:"PAD"}
@@ -153,18 +158,6 @@ def loadPrepareData():
         print("Saved data not found, start preparing trianing data ...")
         voc, pairs = prepareData()
     return voc, pairs
-
-
-# def loadPrepareData(corpus):
-#     corpus_name = corpus.split('/')[-1].split('.')[0]
-#     try:
-#         print("Start loading training data ...")
-#         voc = torch.load(os.path.join(save_dir, 'training_data', corpus_name, 'voc.tar'))
-#         pairs = torch.load(os.path.join(save_dir, 'training_data', corpus_name, 'pairs.tar'))
-#     except FileNotFoundError:
-#         print("Saved data not found, start preparing trianing data ...")
-#         voc, pairs = prepareData(corpus, corpus_name)
-#     return voc, pairs
 
 
 if __name__ == "__main__":
