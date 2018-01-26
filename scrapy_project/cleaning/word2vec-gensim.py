@@ -18,8 +18,10 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
 
+import jieba
 import gensim
 
+import hanziconv
 
 def _cur_dir():
     return os.path.dirname(__file__)
@@ -55,9 +57,9 @@ def _wiki_vector():
     _sentences = []
     _docs = _wiki.get_texts()
     for _doc in _docs:
-        _doc = hanziconv.toSimplified(_doc)
+        _doc = hanziconv.HanziConv.toSimplified(_doc)
         _doc = jieba.cut(_doc)
-        _sentences.append(_doc)
+        _sentences.append(list(_doc))
     
     _model = gensim.models.Word2Vec(_sentences,
                                    size=200,
