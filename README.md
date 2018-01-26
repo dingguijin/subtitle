@@ -1,6 +1,6 @@
 # subtitle
 
-整个项目是想‘手动’撸一个对话机器人。
+整个项目是想从构造语料开始，‘手动’撸一个对话机器人。
 
 其中抓取视频字幕的想法来自 [shareditor](http://www.shareditor.com/blogshow?blogId=112)。但是他的程序 [ChatBotCourse](https://github.com/warmheartli/ChatBotCourse) 关于抓取部分已经不能工作，但思路还是来自于这位兄台。向您致敬！
 
@@ -22,7 +22,7 @@
 
 ### 测试链接
 
-[机器人测试链接](https://wanda.ppmessage.cn/ppcom/enterprise/eyJ1dWlkIjoiZTBhM2Q4MTYtZGJiMy0xMWU3LWE0MTctMDAxNjNlMDA2ZGViIiwiYXBwX25hbWUiOiJQUE1FU1NBR0UifQ==)，同学们，快快去撩，^_^。
+[机器人测试链接](https://ppmessage.cn/ppcom/enterprise/eyJ1dWlkIjoiMmNhMjRiZDQtYzY4MC0xMWU2LWE5YjYtMDIyODdiOGMwZWJmIiwiYXBwX25hbWUiOiJQUE1FU1NBR0UifQ==)，同学们，快快去撩，^_^。
 
 其中聊天界面骄傲➕自豪的使用了 [PPMESSAGE - PLUG AND PLAY MESSAGE](https://ppmessage.cn)
 
